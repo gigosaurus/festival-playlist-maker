@@ -1,14 +1,8 @@
 import { html } from "hono/html";
 import type { PublishedFestival } from "../festivals.ts";
 import type { User } from "../sessions.ts";
+import { formatDateRange } from "./format.ts";
 import { layout } from "./layout.ts";
-
-const dayMonthYear = new Intl.DateTimeFormat("en-GB", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-  timeZone: "UTC",
-});
 
 export function festivalsPage(user: User, festivals: PublishedFestival[]) {
   return layout({
@@ -39,14 +33,10 @@ function festivalList(festivals: PublishedFestival[]) {
         (festival) => html`
           <li>
             <span class="festival-name">${festival.name} ${festival.year}</span>
-            <span class="festival-dates">${dateRange(festival)}</span>
+            <span class="festival-dates">${formatDateRange(festival.startDate, festival.endDate)}</span>
           </li>
         `,
       )}
     </ul>
   `;
-}
-
-function dateRange(festival: PublishedFestival): string {
-  return dayMonthYear.formatRange(new Date(festival.startDate), new Date(festival.endDate));
 }

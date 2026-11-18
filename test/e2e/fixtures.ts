@@ -1,5 +1,6 @@
 import { test as base, expect } from "@playwright/test";
 import { spotifyAuthoriseUrl, spotifyProfileUrl, spotifyTokenUrl } from "../../src/spotify-log-in.ts";
+import { listResponse, signedExportUrl, signedListUrl } from "../support/clashfinder.ts";
 import type { RecordedResponse } from "../support/fake-http-client.ts";
 import {
   adminSpotifyUserId,
@@ -13,6 +14,14 @@ export interface TestServer {
   time(): Promise<Date>;
   respondTo(method: string, url: string, response: RecordedResponse): Promise<void>;
   sentHttpRequests(): Promise<{ method: string; url: string; body?: string }[]>;
+  // Each pause that the application asked the fake clock for, in milliseconds.
+  sleeps(): Promise<number[]>;
+}
+
+export interface Clashfinder {
+  // The recorded list of pages, or a different response.
+  willGiveList(response?: RecordedResponse): Promise<void>;
+  willGiveLineup(page: string, response: RecordedResponse): Promise<void>;
 }
 
 export interface SpotifyAccount {
@@ -51,6 +60,7 @@ export const test = base.extend<{
   testServer: TestServer;
   spotify: Spotify;
   logIn: (account?: SpotifyAccount) => Promise<void>;
+  clashfinder: Clashfinder;
   externalRedirects: ExternalRedirects;
   externalRequestGuard: void;
 }>({
@@ -62,6 +72,13 @@ export const test = base.extend<{
       respondTo: (method, url, response) =>
         expectOk(request.post("/__test/http-responses", { data: { method, url, response } })),
       sentHttpRequests: async () => (await request.get("/__test/http-requests")).json(),
+      sleeps: async () => (await request.get("/__test/sleeps")).json(),
+    });
+  },
+  clashfinder: async ({ testServer }, use) => {
+    await use({
+      willGiveList: (response = listResponse) => testServer.respondTo("GET", signedListUrl, response),
+      willGiveLineup: (page, response) => testServer.respondTo("GET", signedExportUrl(page), response),
     });
   },
   spotify: async ({ testServer, externalRedirects }, use) => {

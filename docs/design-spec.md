@@ -11,7 +11,8 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
 | Festivals | `/` | Choose a published festival | User | Empty state only (#3). The list design is part of #9. |
 | Festival | – | Set interest levels for the lineup, then make or update the playlist | User | Planned (#10) |
-| Admin: festival list | – | Add a festival and choose its lineup source | Admin | Planned (#6) |
+| Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, and get a lineup again | Admin | Done (#6) |
+| Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
 | Admin: artist matches | – | Match each new lineup name, and check genre warnings | Admin | Planned (#7) |
 | Page not found | Each unknown address | Find the correct page | User, admin | Done (#3) |
 | Only the admin can open this page | Each address in `/admin/` | Go back to a page that the user can open | User who is not the admin | Done (#4) |
@@ -76,6 +77,59 @@ Empty state: no festival is published. The user cannot do the principal task. Th
 | Display name and "Log out" in the site header | Keep visible | Shows which Spotify account is logged in, and lets the user end the session on a shared device (user story 3). It is in the shared header, so that it is on each page (PB-01). |
 | An illustration in the empty state | Remove | It gives no information (DC-05, LY-01). |
 
+### Manage festivals
+
+- **Principal task:** see each festival and the state of its lineup. Start to add a festival.
+- **Who and from where:** the admin, from the link "Manage festivals" in the site header, or after "Add the festival". The admin knows the festivals, Clashfinder and the `.env` file.
+- **Necessary before the task:** the festivals, the dates, the lineup source, the number of lineup names and the time of the last lineup. When the last attempt failed: the time, the cause and if the festival kept its lineup.
+- **Supporting detail:** the expected genres. The admin can check them before the artist matches (#7).
+
+The admin asks "did Clashfinder give the lineup?" after each action. The notice at the top answers it from the database, not from the request (FN-02). A failure notice does not repeat the cause, because the festival below shows it (IA-03). The festival keeps the cause after a reload, so the notice is not the only place for it.
+
+A failure caused by the API key needs a change to the `.env` file. The cause therefore names the two settings (ED-04: the correction, not only the HTTP status).
+
+| Content | Decision | Reason |
+|---|---|---|
+| Page title "Manage festivals" | Keep visible | Agrees with the header link (IA-05). |
+| Button "Add a festival" | Keep visible | The principal action. It opens the Add a festival page (CT-04). |
+| Notice after an action | Keep visible, after an action only | States the completed action first (CP-03), or the failure. |
+| Festival name and year, dates | Keep visible | Identify the festival. The name and the year are the playlist name. |
+| Status label "Not published" | Keep visible | Tells the admin that users do not see the festival. #9 adds "Publish". |
+| Lineup source, with a link to the Clashfinder page | Keep visible | The admin can check the page that gives the lineup. |
+| Lineup: number of names and time | Keep visible | Answers "did the application get the lineup, and when?". |
+| Lineup problem: time, cause, "keeps its previous lineup" | Keep visible, after a failure only | User story 49. The admin decides to correct the source or to try again. |
+| Expected genres | Supporting detail | Necessary for the genre warnings in #7. |
+| Button "Get the lineup again" | Keep visible, secondary style | ADR-0006: the application gets a lineup again only when the admin asks. Hidden text names the festival for screen readers. |
+| Empty-state text about publication | Remove | The empty page gives no reason to ask about publication (CP-07). The status label shows it for each festival. |
+| The lineup names | Remove | The Admin: artist matches page shows them (#7). |
+
+### Add a festival
+
+- **Principal task:** add a festival and choose its lineup source.
+- **Who and from where:** the admin, from "Add a festival". The admin knows the festival dates, and usually knows that Clashfinder has a page for the festival.
+- **Necessary before the task:** the fields, the Clashfinder search, and sufficient information to choose between duplicate pages.
+- **Supporting detail:** the address of each page on Clashfinder, to look at the page before the choice.
+
+The admin asks "which page is the correct one?". Users make the Clashfinder pages, so a festival often has duplicates. Some names do not contain the festival name, for example "DLXXIV" (ADR-0004). Each result therefore shows the start date, the days, the stages, the acts, the last change and the Clashfinder marks "Official page" and "Core page". The search also shows the other pages that start on the festival dates. The hint under the search field states this, because the admin does not expect pages with a different name (CP-01).
+
+The search is a GET request, so Back, refresh and the address show the same results. "Add the festival" shows only after a search, because the admin cannot add a festival without a Clashfinder page. Before a search, "Search Clashfinder" is the principal action. After a search, it is a secondary action.
+
+After "Add the festival", the browser waits for the Clashfinder export. Because of the crawl delay, the wait can be 10 seconds. The browser shows its usual loading state. The page has no separate loading state, because the server renders each page (FN-04).
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Manage festivals" above the title | Keep visible | The way back to the festival list. |
+| Fields: name, year, first day, last day, expected genres | Keep visible | User story 43. |
+| Hint for expected genres | Keep visible | Prevents a probable error: the field takes a list. |
+| Heading "Lineup source: Clashfinder" | Keep visible | States the lineup source. Version 1 has one source, so there is no choice control (LY-01). |
+| Hint under the search field | Keep visible | Explains why the results contain pages with a different name. |
+| Result groups "Pages that match" and "Other pages that start on the festival dates" | Keep visible | The admin sees why each page is in the results. |
+| Facts and Clashfinder marks of each page | Keep visible | The information to choose between duplicates (user story 45). |
+| Link "Open … on Clashfinder" | Supporting detail | Opens in a new tab, so that the form stays. |
+| Error summary | Keep visible, with problems only | Links to each field (FN-03). It has focus after the page opens. |
+| Text that says that an empty search field uses the festival name | Remove | The results heading shows the search text that the search used. |
+| A loading indicator | Remove | The server renders each page. The browser shows the loading state. |
+
 ### Page not found
 
 - **Principal task:** find the correct page after an incorrect or old address.
@@ -108,7 +162,11 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Lead text | `.lead` | 1.125rem | 400 | 1.5 | Ink | The first sentence of a page that has no section heading, for example Page not found |
 | Body text | `body`, `p` | 1rem | 400 | 1.5 | Ink | Normal text |
 | Supporting text | `.empty-state p`, `.festival-dates` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
-| Label | – | 0.875rem | 600 | 1.4 | Ink | Reserved for form labels and status labels. Labels use sentence case, not uppercase (VS-06). |
+| Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
+| Label | `.label`, `.facts dt`, `.status-label`, `.badge` | 0.875rem | 600 | 1.4 | Ink | Form labels, fact names and status labels. Labels use sentence case, not uppercase (VS-06). |
+| Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it |
+| Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page in the search results |
+| Header link | `.header-link` | 0.9375rem | 600 | 1.5 | On brand | "Manage festivals" in the site header, for the admin only |
 | Button label | `.button` | 1rem | 650 | 1.5 | On brand | The principal action |
 | Account name | `.account-name` | 0.9375rem | 400 | 1.5 | On brand | The display name of the logged-in user in the site header |
 | Header button label | `.header-button` | 0.9375rem | 600 | 1.4 | On brand | "Log out" in the site header |
@@ -128,7 +186,10 @@ The difference in size and weight between the page title and the section heading
 | On brand | `--colour-on-brand` | #f6f2ec | Text on the brand colour |
 | Link | `--colour-link` | #a3134f | Links, the strip under the site header, and the background of the principal action button |
 | Action hover | `--colour-action-hover` | #85103f | Background of the principal action button when the pointer is on it |
-| Problem | `--colour-problem` | #b42318 | The strip on a notice about a problem. Not used for text. |
+| Problem | `--colour-problem` | #b42318 | The strip on a notice or a field with a problem, and the text of a field problem |
+| Success | `--colour-success` | #1e7b4a | The strip on a confirmation notice. Not used for text. |
+| Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page, and of a secondary button when the pointer is on it |
+| Badge | `--colour-badge` | #efe8df | Background of status labels and badges |
 | Focus | `--colour-focus` | #a3134f | Focus indicator on the page and on surfaces |
 | Focus on brand | `--colour-focus-on-brand` | #ff9cc4 | Focus indicator in the site header |
 
@@ -148,6 +209,15 @@ Contrast ratios (WCAG 2.2). Text needs 4.5:1. A focus indicator needs 3:1.
 | Brand | On brand (header button, pointer on it) | 15.80:1 |
 | Focus on brand | Brand | 9.06:1 |
 | Problem strip (not text, needs 3:1) | Surface | 6.47:1 |
+| Problem (field problem text) | Page | 5.90:1 |
+| Problem (field problem text) | Surface | 6.47:1 |
+| Success strip (not text, needs 3:1) | Surface | 5.19:1 |
+| Muted (input border, not text, needs 3:1) | Surface | 7.10:1 |
+| Ink | Selected | 15.05:1 |
+| Muted | Selected | 6.36:1 |
+| Link | Selected | 6.71:1 |
+| Ink | Badge | 14.03:1 |
+| On brand (header link) | Brand | 15.80:1 |
 
 The application has only a light colour scheme in version 1. The standards test measures the contrast of the rendered pages.
 
@@ -163,11 +233,23 @@ The application has only a light colour scheme in version 1. The standards test 
 | Header button | Brand background, 1px on-brand border, on-brand text, radius 8px. Colours change places when the pointer is on it. | A secondary action in the site header: "Log out". The border shows that it is a button, without the emphasis of the principal action. |
 | Account | Display name, then the header button, at the right of the site header. A long display name ends with an ellipsis at 14rem. | Shows the logged-in account. On a narrow screen, it moves below the wordmark. |
 | Notice | Surface background, 1px rule border, 4px strip in the problem colour on the left, radius 12px, no shadow, maximum width 36rem | A problem that stopped the last action of the user. The strip shows the state. |
+| Confirmation notice | The notice, with the strip in the success colour | A completed action, for example "Added Download 2027". |
+| Error summary | The notice, with a list of links to the fields | All problems of a form. It gets focus when the page opens. |
+| Header link | On-brand text, underline | "Manage festivals" in the site header, for the admin only. |
+| Secondary button | Surface background, 1px link border, link text, radius 8px. Selected background when the pointer is on it. | An action that is not the principal action of the page, for example "Get the lineup again", or "Search Clashfinder" after a search. |
+| Input | Surface background, 1px muted border, radius 8px | Text fields and date fields. The muted border has 3:1 contrast for a control (WCAG 1.4.11). |
+| Field with a problem | 4px strip in the problem colour on the left, the problem text above the input | Shows the field that needs a correction. The text also shows it without colour. |
+| Festival panel | Surface background, 1px rule border, radius 12px, no shadow | One festival on Manage festivals. The festivals are separate items that the admin scans (LY-02). |
+| Status label, badge | Badge background, ink text, radius 4px | A state ("Not published") or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
+| Facts | Label and value pairs. Two columns from 40rem width, one column on a narrow screen. | The facts of a festival. |
+| Inline problem | 4px strip in the problem colour on the left, no background | A problem inside a panel, for example a failed lineup attempt. There is no panel in a panel. |
+| Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results. The full label selects the radio button. A fact does not break across two lines. |
+| Visually hidden text | Not visible. Screen readers read it. | Makes repeated button labels specific, for example "Get the lineup again for Download 2027". |
 | Link | Link colour, underline | Standard link. The underline shows that the text is a link. |
 | Focus indicator | 3px solid outline, offset 2px | Shows keyboard focus on each interactive element (QA-03). |
 | Browser icon | Brand square, radius 7/32, three bars in on-brand and focus-on-brand colours | Identifies the application in browser tabs (PB-04). The bars suggest an audio level meter. |
 
-Shadows: the application uses no shadows in version 1. Inputs and dialogs get their roles when a page first needs them.
+Shadows: the application uses no shadows in version 1. Dialogs get their role when a page first needs one.
 
 Pointer states change only colours, with no transition, so they are not in the motion inventory.
 
@@ -182,5 +264,7 @@ The application has no animation and no transition. The standards test fails whe
 When you add an animation, add a row to this table and the CSS selector to `motionInventory` in `test/e2e/standards.spec.ts`.
 
 ## Open questions
+
+- Date fields: the browser shows a date field in the format of its interface language. A browser with an English (United States) interface shows mm/dd/yyyy. The application cannot change this. The browser always sends an ISO date, so the stored date is correct.
 
 - Social-sharing images: the application is private and needs a log in. Users do not share its pages, so it has no social-sharing image. Record a question if this changes.

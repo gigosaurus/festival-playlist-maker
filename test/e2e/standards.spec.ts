@@ -9,17 +9,72 @@
 // data-external-text, and the text checks ignore it.
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
-import { expect, test, testUser } from "./fixtures.ts";
+import { download2027Response, incorrectKeyResponse, unknownUserResponse } from "../support/clashfinder.ts";
+import { expect, test, testAdmin, testUser, type Clashfinder } from "./fixtures.ts";
 
-// `loggedIn`: the test logs in as a user who is not the admin before it opens the page.
-const pages = [
-  { name: "Log in page", path: "/log-in", loggedIn: false },
-  { name: "Log in page, not on the allowlist", path: "/log-in?problem=not-on-allowlist", loggedIn: false },
-  { name: "Log in page, cancelled", path: "/log-in?problem=cancelled", loggedIn: false },
-  { name: "Log in page, failed", path: "/log-in?problem=failed", loggedIn: false },
-  { name: "Festivals page, empty state", path: "/", loggedIn: true },
-  { name: "Page not found", path: "/no-such-page", loggedIn: true },
-  { name: "Admin page for a user who is not the admin", path: "/admin/festivals", loggedIn: true },
+interface StandardsPage {
+  name: string;
+  path: string;
+  // The user that the test logs in before it opens the page. No user: the test does not log in.
+  user?: typeof testUser;
+  // Prepares the state of the page, after the log in.
+  setUp?: (page: Page, clashfinder: Clashfinder) => Promise<void>;
+}
+
+const downloadSearch =
+  "/admin/festivals/new?name=Download&year=2027&startDate=2027-06-11&endDate=2027-06-13&expectedGenres=metal&search=";
+
+// Adds Download 2027 with the Clashfinder page download27. The lineup response sets the result.
+async function addDownload(page: Page, clashfinder: Clashfinder, lineup: typeof download2027Response): Promise<void> {
+  await clashfinder.willGiveList();
+  await clashfinder.willGiveLineup("download27", lineup);
+  await page.goto(downloadSearch);
+  await page.getByRole("radio", { name: "Download Festival 2027" }).check();
+  await page.getByRole("button", { name: "Add the festival" }).click();
+  await expect(page).toHaveURL(/added=/);
+}
+
+const pages: StandardsPage[] = [
+  { name: "Log in page", path: "/log-in" },
+  { name: "Log in page, not on the allowlist", path: "/log-in?problem=not-on-allowlist" },
+  { name: "Log in page, cancelled", path: "/log-in?problem=cancelled" },
+  { name: "Log in page, failed", path: "/log-in?problem=failed" },
+  { name: "Festivals page, empty state", path: "/", user: testUser },
+  { name: "Page not found", path: "/no-such-page", user: testUser },
+  { name: "Admin page for a user who is not the admin", path: "/admin/festivals", user: testUser },
+  { name: "Manage festivals, empty state", path: "/admin/festivals", user: testAdmin },
+  {
+    name: "Manage festivals, festival added with its lineup",
+    path: "/admin/festivals?added=1",
+    user: testAdmin,
+    setUp: (page, clashfinder) => addDownload(page, clashfinder, download2027Response),
+  },
+  {
+    name: "Manage festivals, festival added without a lineup",
+    path: "/admin/festivals?added=1",
+    user: testAdmin,
+    setUp: (page, clashfinder) => addDownload(page, clashfinder, incorrectKeyResponse),
+  },
+  { name: "Add a festival", path: "/admin/festivals/new", user: testAdmin },
+  { name: "Add a festival, problems", path: "/admin/festivals/new?search=", user: testAdmin },
+  {
+    name: "Add a festival, search results",
+    path: downloadSearch,
+    user: testAdmin,
+    setUp: (_page, clashfinder) => clashfinder.willGiveList(),
+  },
+  {
+    name: "Add a festival, search without results",
+    path: "/admin/festivals/new?name=Glastonbury&search=",
+    user: testAdmin,
+    setUp: (_page, clashfinder) => clashfinder.willGiveList(),
+  },
+  {
+    name: "Add a festival, search failed",
+    path: downloadSearch,
+    user: testAdmin,
+    setUp: (_page, clashfinder) => clashfinder.willGiveList(unknownUserResponse),
+  },
 ];
 
 // The motion inventory in docs/design-spec.md. Each entry is a CSS selector for
@@ -35,11 +90,12 @@ const placeholderText =
 const contraction =
   /\b[a-z]+n['’]t\b|\b[a-z]+['’](re|ve|ll|d|m)\b|\b(it|that|there|what|here|who|where|let|he|she)['’]s\b/i;
 
-for (const { name, path, loggedIn } of pages) {
+for (const { name, path, user, setUp } of pages) {
   test.describe(name, () => {
-    if (loggedIn) {
-      test.beforeEach(async ({ logIn }) => {
-        await logIn(testUser);
+    if (user || setUp) {
+      test.beforeEach(async ({ logIn, page, clashfinder }) => {
+        if (user) await logIn(user);
+        if (setUp) await setUp(page, clashfinder);
       });
     }
 

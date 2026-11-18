@@ -1,0 +1,178 @@
+{
+	"copyright":"Licensed under a Creative Commons Attribution-NonCommercial 3.0 License https://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
+	"created":"2025-11-12 14:07",
+	"lastEdit":"2026-05-22 14:16",
+	"modified":"2026-05-22 14:16",
+	"name":"Slam Dunk 2026",
+	"id":"slamdunk2026",
+	"url":"https://clashfinder.com/s/slamdunk2026/",
+	"printAdvisory":1,
+	"timezone":"Europe/London",
+	"tzOffset":3600,
+	"tzNote":"Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
+	"auth":{"result":"pass","note":"Starting 31st March 2027, API requests will be limited to 10 per user or IP address in 5 minutes.","authUsername":"test-clashfinder-user"},
+	"locations":[
+		{
+			"name":"Main Stage West",
+			"events":[
+				{"name":"Beauty School","short":"beauty(1)","start":"2026-05-23 11:40","end":"2026-05-23 12:10"},
+				{"name":"unpeople","short":"unpeop(1)","start":"2026-05-23 12:35","end":"2026-05-23 13:10"},
+				{"name":"A","short":"a(1)","start":"2026-05-23 13:35","end":"2026-05-23 14:15"},
+				{"name":"Zebrahead","short":"zebrah(1)","start":"2026-05-23 14:40","end":"2026-05-23 15:20"},
+				{"name":"Goldfinger","short":"goldfi(1)","start":"2026-05-23 15:45","end":"2026-05-23 16:30"},
+				{"name":"Dashboard Confessional","short":"dashbo(1)","start":"2026-05-23 16:55","end":"2026-05-23 17:40"},
+				{"name":"Taking Back Sunday","short":"taking(1)","start":"2026-05-23 18:05","end":"2026-05-23 19:05"},
+				{"name":"Sublime","short":"sublim(1)","start":"2026-05-23 19:30","end":"2026-05-23 20:30"},
+				{"name":"Good Charlotte","short":"goodch(1)","start":"2026-05-23 21:00","end":"2026-05-23 22:20"},
+				{"name":"Beauty School","short":"beauty(2)","start":"2026-05-24 11:40","end":"2026-05-24 12:10"},
+				{"name":"unpeople","short":"unpeop(2)","start":"2026-05-24 12:35","end":"2026-05-24 13:10"},
+				{"name":"A","short":"a(2)","start":"2026-05-24 13:35","end":"2026-05-24 14:15"},
+				{"name":"Zebrahead","short":"zebrah(2)","start":"2026-05-24 14:40","end":"2026-05-24 15:20"},
+				{"name":"Goldfinger","short":"goldfi(2)","start":"2026-05-24 15:45","end":"2026-05-24 16:30"},
+				{"name":"Dashboard Confessional","short":"dashbo(2)","start":"2026-05-24 16:55","end":"2026-05-24 17:40"},
+				{"name":"Taking Back Sunday","short":"taking(2)","start":"2026-05-24 18:05","end":"2026-05-24 19:05"},
+				{"name":"Sublime","short":"sublim(2)","start":"2026-05-24 19:30","end":"2026-05-24 20:30"},
+				{"name":"Good Charlotte","short":"goodch(2)","start":"2026-05-24 21:00","end":"2026-05-24 22:20"}
+			]
+		},
+		{
+			"name":"Main Stage East Left",
+			"events":[
+				{"name":"Pest Control","short":"pestco(1)","start":"2026-05-23 11:40","end":"2026-05-23 12:10"},
+				{"name":"Angel Du$t","short":"angeld(1)","start":"2026-05-23 12:50","end":"2026-05-23 13:25"},
+				{"name":"Dying Wish","short":"dyingw(1)","start":"2026-05-23 14:10","end":"2026-05-23 14:45"},
+				{"name":"Guilt Trip","short":"guiltt(1)","start":"2026-05-23 15:30","end":"2026-05-23 16:05"},
+				{"name":"Comeback Kid","short":"comeba(1)","start":"2026-05-23 16:50","end":"2026-05-23 17:25"},
+				{"name":"President","short":"presid(1)","start":"2026-05-23 18:15","end":"2026-05-23 18:55"},
+				{"name":"Malevolence","short":"malevo(1)","start":"2026-05-23 20:05","end":"2026-05-23 20:55"},
+				{"name":"Pest Control","short":"pestco(2)","start":"2026-05-24 11:40","end":"2026-05-24 12:10"},
+				{"name":"Angel Du$t","short":"angeld(2)","start":"2026-05-24 12:50","end":"2026-05-24 13:25"},
+				{"name":"Dying Wish","short":"dyingw(2)","start":"2026-05-24 14:10","end":"2026-05-24 14:45"},
+				{"name":"Guilt Trip","short":"guiltt(2)","start":"2026-05-24 15:30","end":"2026-05-24 16:05"},
+				{"name":"Comeback Kid","short":"comeba(2)","start":"2026-05-24 16:50","end":"2026-05-24 17:25"},
+				{"name":"President","short":"presid(2)","start":"2026-05-24 18:15","end":"2026-05-24 18:55"},
+				{"name":"Malevolence","short":"malevo(2)","start":"2026-05-24 20:05","end":"2026-05-24 20:55"}
+			]
+		},
+		{
+			"name":"Main Stage East Right",
+			"events":[
+				{"name":"Heriot","short":"heriot(1)","start":"2026-05-23 12:15","end":"2026-05-23 12:45"},
+				{"name":"Cancer Bats","short":"cancer(1)","start":"2026-05-23 13:30","end":"2026-05-23 14:05"},
+				{"name":"Static Dress","short":"static(1)","start":"2026-05-23 14:50","end":"2026-05-23 15:25"},
+				{"name":"Saosin","short":"saosin(1)","start":"2026-05-23 16:10","end":"2026-05-23 16:45"},
+				{"name":"Currents","short":"curren(1)","start":"2026-05-23 17:30","end":"2026-05-23 18:10"},
+				{"name":"Bury Tomorrow","short":"buryto(1)","start":"2026-05-23 19:05","end":"2026-05-23 19:55"},
+				{"name":"Knocked Loose","short":"knocke(1)","start":"2026-05-23 21:05","end":"2026-05-23 22:05"},
+				{"name":"Heriot","short":"heriot(2)","start":"2026-05-24 12:15","end":"2026-05-24 12:45"},
+				{"name":"Cancer Bats","short":"cancer(2)","start":"2026-05-24 13:30","end":"2026-05-24 14:05"},
+				{"name":"Static Dress","short":"static(2)","start":"2026-05-24 14:50","end":"2026-05-24 15:25"},
+				{"name":"Saosin","short":"saosin(2)","start":"2026-05-24 16:10","end":"2026-05-24 16:45"},
+				{"name":"Currents","short":"curren(2)","start":"2026-05-24 17:30","end":"2026-05-24 18:10"},
+				{"name":"Bury Tomorrow","short":"buryto(2)","start":"2026-05-24 19:05","end":"2026-05-24 19:55"},
+				{"name":"Knocked Loose","short":"knocke(2)","start":"2026-05-24 21:05","end":"2026-05-24 22:05"}
+			]
+		},
+		{
+			"name":"Monster Energy Stage Left",
+			"events":[
+				{"name":"Youth Fountain","short":"youthf(1)","start":"2026-05-23 11:30","end":"2026-05-23 12:00"},
+				{"name":"Madina Lake","short":"madina(1)","start":"2026-05-23 12:40","end":"2026-05-23 13:10"},
+				{"name":"Hawthorne Heights","short":"hawtho(1)","start":"2026-05-23 13:55","end":"2026-05-23 14:30"},
+				{"name":"Cartel","short":"cartel(1)","start":"2026-05-23 15:15","end":"2026-05-23 15:55"},
+				{"name":"Stand Atlantic","short":"standa(1)","start":"2026-05-23 16:45","end":"2026-05-23 17:25"},
+				{"name":"Tonight Alive","short":"tonigh(1)","start":"2026-05-23 18:20","end":"2026-05-23 19:05"},
+				{"name":"State Champs","short":"statec(1)","start":"2026-05-23 20:05","end":"2026-05-23 20:55"},
+				{"name":"Youth Fountain","short":"youthf(2)","start":"2026-05-24 11:30","end":"2026-05-24 12:00"},
+				{"name":"Madina Lake","short":"madina(2)","start":"2026-05-24 12:40","end":"2026-05-24 13:10"},
+				{"name":"Hawthorne Heights","short":"hawtho(2)","start":"2026-05-24 13:55","end":"2026-05-24 14:30"},
+				{"name":"Cartel","short":"cartel(2)","start":"2026-05-24 15:15","end":"2026-05-24 15:55"},
+				{"name":"Stand Atlantic","short":"standa(2)","start":"2026-05-24 16:45","end":"2026-05-24 17:25"},
+				{"name":"Tonight Alive","short":"tonigh(2)","start":"2026-05-24 18:20","end":"2026-05-24 19:05"},
+				{"name":"State Champs","short":"statec(2)","start":"2026-05-24 20:05","end":"2026-05-24 20:55"}
+			]
+		},
+		{
+			"name":"Monster Energy Stage Right",
+			"events":[
+				{"name":"A Loss for Words","short":"alossf1(1)","start":"2026-05-23 12:05","end":"2026-05-23 12:35"},
+				{"name":"Bayside","short":"baysid(1)","start":"2026-05-23 13:15","end":"2026-05-23 13:50"},
+				{"name":"Set Your Goals","short":"setyou(1)","start":"2026-05-23 14:35","end":"2026-05-23 15:10"},
+				{"name":"Boston Manor","short":"boston(1)","start":"2026-05-23 16:00","end":"2026-05-23 16:40"},
+				{"name":"The Menzingers","short":"menzin(1)","start":"2026-05-23 17:30","end":"2026-05-23 18:15"},
+				{"name":"Motion City Soundtrack","short":"motion(1)","start":"2026-05-23 19:10","end":"2026-05-23 20:00"},
+				{"name":"A Loss for Words","short":"alossf1(2)","start":"2026-05-24 12:05","end":"2026-05-24 12:35"},
+				{"name":"Bayside","short":"baysid(2)","start":"2026-05-24 13:15","end":"2026-05-24 13:50"},
+				{"name":"Set Your Goals","short":"setyou(2)","start":"2026-05-24 14:35","end":"2026-05-24 15:10"},
+				{"name":"Boston Manor","short":"boston(2)","start":"2026-05-24 16:00","end":"2026-05-24 16:40"},
+				{"name":"The Menzingers","short":"menzin(2)","start":"2026-05-24 17:30","end":"2026-05-24 18:15"},
+				{"name":"Motion City Soundtrack","short":"motion(2)","start":"2026-05-24 19:10","end":"2026-05-24 20:00"}
+			]
+		},
+		{
+			"name":"Scott's Key Club Stage",
+			"events":[
+				{"name":"Call Me Amour","short":"callme(1)","start":"2026-05-23 11:40","end":"2026-05-23 12:10"},
+				{"name":"Dead Pony","short":"deadpo(1)","start":"2026-05-23 12:15","end":"2026-05-23 12:45"},
+				{"name":"SiM","short":"sim(1)","start":"2026-05-23 12:50","end":"2026-05-23 13:20"},
+				{"name":"Broadside","short":"broads(1)","start":"2026-05-23 13:25","end":"2026-05-23 13:55"},
+				{"name":"Driveways","short":"drivew(1)","start":"2026-05-23 14:00","end":"2026-05-23 14:30"},
+				{"name":"Hands Like Houses","short":"handsl(1)","start":"2026-05-23 14:35","end":"2026-05-23 15:10"},
+				{"name":"Trash Boat","short":"trashb(1)","start":"2026-05-23 15:15","end":"2026-05-23 15:50"},
+				{"name":"Origami Angel","short":"origam(1)","start":"2026-05-23 15:55","end":"2026-05-23 16:30"},
+				{"name":"The Home Team","short":"homete(1)","start":"2026-05-23 16:35","end":"2026-05-23 17:10"},
+				{"name":"Punk Rock Factory","short":"punkro(1)","start":"2026-05-23 17:15","end":"2026-05-23 17:50"},
+				{"name":"Allister","short":"allist(1)","start":"2026-05-23 17:55","end":"2026-05-23 18:30"},
+				{"name":"The Suicide Machines","short":"suicid(1)","start":"2026-05-23 18:35","end":"2026-05-23 19:10"},
+				{"name":"Vukovi","short":"vukovi(1)","start":"2026-05-23 19:15","end":"2026-05-23 19:55"},
+				{"name":"Deaf Havana","short":"deafha(1)","start":"2026-05-23 20:05","end":"2026-05-23 20:55"},
+				{"name":"Bury Tomorrow Closing DJ Set","short":"buryto1(1)","start":"2026-05-23 22:15","end":"2026-05-23 23:00"},
+				{"name":"Call Me Amour","short":"callme(2)","start":"2026-05-24 11:40","end":"2026-05-24 12:10"},
+				{"name":"Dead Pony","short":"deadpo(2)","start":"2026-05-24 12:15","end":"2026-05-24 12:45"},
+				{"name":"SiM","short":"sim(2)","start":"2026-05-24 12:50","end":"2026-05-24 13:20"},
+				{"name":"Broadside","short":"broads(2)","start":"2026-05-24 13:25","end":"2026-05-24 13:55"},
+				{"name":"Driveways","short":"drivew(2)","start":"2026-05-24 14:00","end":"2026-05-24 14:30"},
+				{"name":"Hands Like Houses","short":"handsl(2)","start":"2026-05-24 14:35","end":"2026-05-24 15:10"},
+				{"name":"Trash Boat","short":"trashb(2)","start":"2026-05-24 15:15","end":"2026-05-24 15:50"},
+				{"name":"Origami Angel","short":"origam(2)","start":"2026-05-24 15:55","end":"2026-05-24 16:30"},
+				{"name":"The Home Team","short":"homete(2)","start":"2026-05-24 16:35","end":"2026-05-24 17:10"},
+				{"name":"Punk Rock Factory","short":"punkro(2)","start":"2026-05-24 17:15","end":"2026-05-24 17:50"},
+				{"name":"Allister","short":"allist(2)","start":"2026-05-24 17:55","end":"2026-05-24 18:30"},
+				{"name":"The Suicide Machines","short":"suicid(2)","start":"2026-05-24 18:35","end":"2026-05-24 19:10"},
+				{"name":"Vukovi","short":"vukovi(2)","start":"2026-05-24 19:15","end":"2026-05-24 19:55"},
+				{"name":"Deaf Havana","short":"deafha(2)","start":"2026-05-24 20:05","end":"2026-05-24 20:55"},
+				{"name":"Malevolence Closing DJ Set","short":"malevo1(1)","start":"2026-05-24 22:15","end":"2026-05-24 23:00"}
+			]
+		},
+		{
+			"name":"Crash Records Signing Tent",
+			"events":[
+				{"name":"Cartel (Signing)","short":"cartel1(1)","start":"2026-05-23 12:00","end":"2026-05-23 12:45"},
+				{"name":"Beauty School (Signing)","short":"beauty1(1)","start":"2026-05-23 12:45","end":"2026-05-23 13:30"},
+				{"name":"Matty Arsenault from A Loss for Words (Signing)","short":"mattya(1)","start":"2026-05-23 13:30","end":"2026-05-23 14:15"},
+				{"name":"Sublime (Signing)","short":"sublim1(1)","start":"2026-05-23 15:00","end":"2026-05-23 16:00"},
+				{"name":"A (Signing)","short":"asigni(1)","start":"2026-05-23 16:00","end":"2026-05-23 17:00"},
+				{"name":"Cartel (Signing)","short":"cartel1(2)","start":"2026-05-24 12:00","end":"2026-05-24 12:45"},
+				{"name":"Beauty School (Signing)","short":"beauty1(2)","start":"2026-05-24 12:45","end":"2026-05-24 13:30"},
+				{"name":"Matty Arsenault from A Loss for Words (Signing)","short":"mattya(2)","start":"2026-05-24 13:30","end":"2026-05-24 14:15"},
+				{"name":"Sublime (Signing)","short":"sublim1(2)","start":"2026-05-24 15:00","end":"2026-05-24 16:00"},
+				{"name":"A (Signing)","short":"asigni(2)","start":"2026-05-24 16:00","end":"2026-05-24 17:00"}
+			]
+		},
+		{
+			"name":"Monster Energy Signing Tent",
+			"events":[
+				{"name":"Guilt Trip (Signing)","short":"guiltt1(1)","start":"2026-05-23 12:00","end":"2026-05-23 13:00"},
+				{"name":"Boston Manor (Signing)","short":"boston1(1)","start":"2026-05-23 13:00","end":"2026-05-23 14:00"},
+				{"name":"Taking Back Sunday (Signing)","short":"taking1(1)","start":"2026-05-23 14:00","end":"2026-05-23 14:30"},
+				{"name":"Motion City Soundtrack (Signing)","short":"motion1(1)","start":"2026-05-23 14:30","end":"2026-05-23 15:30"},
+				{"name":"Dead Pony (Signing)","short":"deadpo1(1)","start":"2026-05-23 15:30","end":"2026-05-23 16:30"},
+				{"name":"Guilt Trip (Signing)","short":"guiltt1(2)","start":"2026-05-24 12:00","end":"2026-05-24 13:00"},
+				{"name":"Boston Manor (Signing)","short":"boston1(2)","start":"2026-05-24 13:00","end":"2026-05-24 14:00"},
+				{"name":"Taking Back Sunday (Signing)","short":"taking1(2)","start":"2026-05-24 14:00","end":"2026-05-24 14:30"},
+				{"name":"Motion City Soundtrack (Signing)","short":"motion1(2)","start":"2026-05-24 14:30","end":"2026-05-24 15:30"},
+				{"name":"Dead Pony (Signing)","short":"deadpo1(2)","start":"2026-05-24 15:30","end":"2026-05-24 16:30"}
+			]
+		}
+	]
+}
