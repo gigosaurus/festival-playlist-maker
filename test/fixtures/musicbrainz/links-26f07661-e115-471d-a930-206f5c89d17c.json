@@ -1,0 +1,1122 @@
+{
+ "id": "26f07661-e115-471d-a930-206f5c89d17c",
+ "ipis": [],
+ "area": {
+  "sort-name": "United States",
+  "disambiguation": "",
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type-id": null,
+  "type": null,
+  "iso-3166-1-codes": [
+   "US"
+  ]
+ },
+ "end-area": null,
+ "gender": null,
+ "name": "Mötley Crüe",
+ "isnis": [
+  "0000000123313331"
+ ],
+ "sort-name": "Mötley Crüe",
+ "relations": [
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "type": "allmusic",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0000500992",
+    "id": "23934f8a-003e-479f-ada0-93dd4969e348"
+   }
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "ed6a8864-3bed-4c6e-b493-5502b12c50ca",
+    "resource": "https://www.bandsintown.com/a/50324"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "bandsintown",
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+  },
+  {
+   "source-credit": "",
+   "end": "2020-11-19",
+   "attribute-ids": {},
+   "ended": true,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "attribute-values": {},
+   "type": "BBC Music page",
+   "url": {
+    "id": "d1fa126c-628b-4db6-af04-91dde18f3cb0",
+    "resource": "https://www.bbc.co.uk/music/artists/26f07661-e115-471d-a930-206f5c89d17c"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "discogs",
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "url": {
+    "resource": "https://www.discogs.com/artist/94068",
+    "id": "357df894-a4f1-43a6-a676-a393825cba3a"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://open.spotify.com/artist/0cc6vw3VN8YlIcvr1v7tBL",
+    "id": "f9c2f49f-84c9-4f2e-9460-95e60c7b1369"
+   },
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "type": "free streaming",
+   "attribute-values": {},
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "type": "free streaming",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "7f117c3d-693f-4ede-995e-56989e6a59f1",
+    "resource": "https://www.deezer.com/artist/531"
+   },
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "image",
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "url": {
+    "id": "41de1ef2-d472-427f-b035-2f41a413e73d",
+    "resource": "https://commons.wikimedia.org/wiki/File:Crue_CIMG4784.JPG"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "direction": "forward",
+   "url": {
+    "id": "4b2e18bc-d3d2-4b60-99f0-e2af75404162",
+    "resource": "https://www.imdb.com/name/nm1566588/"
+   },
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "attribute-values": {},
+   "type": "IMDb",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "6fa79daf-01d9-4639-9d79-6b64ba7c580f",
+    "resource": "https://www.last.fm/music/M%C3%B6tley+Cr%C3%BCe"
+   },
+   "direction": "forward",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "type": "last.fm",
+   "attribute-values": {},
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "2f6cde72-bdf8-47a6-96b3-82aac2ee2702",
+    "resource": "https://genius.com/artists/Motley-crue"
+   },
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "type": "lyrics",
+   "attribute-values": {}
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "8de34c47-9013-49f6-b48b-ab84f4427fc9",
+    "resource": "https://muzikum.eu/en/motley-crue/lyrics"
+   },
+   "attribute-values": {},
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "type": "lyrics",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.musixmatch.com/artist/M%C3%B6tley-Cr%C3%BCe",
+    "id": "0ce4d7ee-f3f4-479d-8573-404bd0f67101"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "attribute-values": {},
+   "type": "myspace",
+   "direction": "forward",
+   "url": {
+    "id": "6903732c-657b-4260-85a3-588dc5cd59f4",
+    "resource": "https://myspace.com/motleycrue"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "url": {
+    "resource": "https://www.motley.com/",
+    "id": "59099bf8-458e-4297-8af8-aad943720193"
+   },
+   "direction": "forward",
+   "type": "official homepage",
+   "attribute-values": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type": "official homepage",
+   "attribute-values": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "url": {
+    "resource": "https://motley.com/",
+    "id": "eff282b9-abec-4d2a-afe4-8eff6dd08df4"
+   },
+   "direction": "forward",
+   "target-type": "url",
+   "ended": true,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "direction": "forward",
+   "url": {
+    "resource": "http://id.loc.gov/authorities/names/n84181288",
+    "id": "49f94200-f484-4951-9d92-134065cda79c"
+   }
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "url": {
+    "resource": "http://musicmoz.org/Bands_and_Artists/M/Motley_Crue/",
+    "id": "08b792f7-81b3-4c4b-a18e-40f228dc558d"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "id": "b825070b-444c-48a8-b465-f1ca7fe04e08",
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb139736348"
+   },
+   "type": "other databases",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "url": {
+    "id": "a2cb50cf-6874-488d-9df2-296c143f388e",
+    "resource": "https://d-nb.info/gnd/1225721-7"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://imvdb.com/n/motley-crue",
+    "id": "6d739af2-887f-4670-ad0c-c9f2d4cff87d"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url"
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://nla.gov.au/nla.party-863447",
+    "id": "1f9eb5db-ba5a-4ebd-aadf-7cbd7da1e80d"
+   },
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "direction": "forward",
+   "url": {
+    "id": "1563a8f0-82d5-4629-a150-706d48279707",
+    "resource": "https://openlibrary.org/authors/OL2629326A"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "target-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/motley_crue",
+    "id": "4c0110dc-a953-468c-9ef9-689581071db0"
+   },
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {}
+  },
+  {
+   "target-credit": "",
+   "type": "other databases",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.livefans.jp/artists/3653",
+    "id": "868be75f-cdd9-4e0b-a700-970abd9ab3e8"
+   },
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "b649c4a7-b38a-466c-b836-36cd82c0172c",
+    "resource": "https://www.metal-archives.com/bands/M%C3%B6tley_Cr%C3%BCe/1025"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "694e4a0b-f6b9-4c0e-bfb2-4339f6b60344",
+    "resource": "https://www.metalmusicarchives.com/artist/motley-crue"
+   },
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.musik-sammler.de/artist/m%C3%B6tley-cr%C3%BCe/",
+    "id": "61193a6c-1242-41cd-bdba-5af33b641071"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.muziekweb.nl/Link/M00000014104/POPULAR/",
+    "id": "01fd0a76-0893-4714-9892-b6827f043b4a"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.spirit-of-metal.com/en/band/Motley_Crue",
+    "id": "858f8f49-2815-4aef-b2d5-79d64a263d80"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "url": {
+    "resource": "https://www.spirit-of-rock.com/en/band/motley_crue",
+    "id": "60dc9a69-30f7-4a0c-9357-869c1dbce599"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "4b51cf0f-2f88-410f-b25a-cc403f09300f",
+    "resource": "https://www.whosampled.com/M%C3%B6tley-Cr%C3%BCe/"
+   },
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "url": {
+    "resource": "http://www.worldcat.org/identities/lccn-n84181288/",
+    "id": "dc6b6518-6a58-47cb-90bd-f04b71ea4a80"
+   }
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "direction": "forward",
+   "url": {
+    "resource": "https://itunes.apple.com/us/artist/id284113",
+    "id": "98d254d0-6401-4f46-8edf-b20e9147b9a2"
+   },
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "target-credit": ""
+  },
+  {
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.apple.com/us/artist/284113",
+    "id": "d8af926b-9ed0-4869-9479-594107311f98"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://us.7digital.com/artist/motley-crue-1",
+    "id": "1d8bf6e2-2ef4-4421-97e7-41a749945b2e"
+   },
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "url": {
+    "id": "a554772f-1192-4f16-9aab-6406fe9384bc",
+    "resource": "https://www.qobuz.com/gb-en/interpreter/motley-crue/download-streaming-albums"
+   },
+   "direction": "forward",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "type": "purchase for mail-order",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "9f63dccf-f426-4e52-a73f-d72f97475f53",
+    "resource": "https://www.cdjapan.co.jp/person/700273980"
+   },
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "aa4896ae-3932-42da-8325-a82a84060997",
+    "resource": "http://www.purevolume.com/motleycrueband"
+   },
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "type": "purevolume",
+   "attribute-values": {},
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": true,
+   "end": "2018-06-30",
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "attribute-values": {},
+   "type": "secondhandsongs",
+   "url": {
+    "resource": "https://secondhandsongs.com/artist/1274",
+    "id": "42e9107a-bb02-4b8f-b00a-0d25f0562ca4"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "attribute-values": {},
+   "type": "setlistfm",
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "url": {
+    "resource": "https://www.setlist.fm/setlists/motley-crue-bd6b5d2.html",
+    "id": "38413575-8953-4c13-a680-63f1605600f5"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://plus.google.com/+motleycrue",
+    "id": "3fb1ead5-698b-4b5e-8e73-6f8344bd6dfb"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "ended": true,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": "2019-04"
+  },
+  {
+   "url": {
+    "id": "0e77e0bc-c5a1-48fc-af56-f590746f8ddc",
+    "resource": "https://twitter.com/MotleyCrue"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "attribute-values": {},
+   "url": {
+    "id": "b711ed8f-e553-4159-991b-49f9cc80b930",
+    "resource": "https://www.facebook.com/MotleyCrue"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "url": {
+    "id": "a410ccf5-998e-4ca7-bcc7-0be1ad53c87c",
+    "resource": "https://www.instagram.com/motleycrue/"
+   },
+   "direction": "forward",
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type": "social network",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "url": {
+    "id": "35558aeb-372f-4718-b126-f2f3a418466f",
+    "resource": "https://www.tiktok.com/@motleycrue"
+   }
+  },
+  {
+   "target-credit": "",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "type": "songkick",
+   "attribute-values": {},
+   "url": {
+    "id": "c63eb651-490b-4054-94f5-6e9fa84c1f64",
+    "resource": "https://www.songkick.com/artists/109416"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://soundcloud.com/motley-crue",
+    "id": "0b590279-358a-4b8f-b9ff-6ae8f9a0da04"
+   },
+   "type": "soundcloud",
+   "attribute-values": {},
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": true,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": "2022-06-08",
+   "target-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "url": {
+    "id": "e840e181-9b6b-4218-b24b-a75c948b0c09",
+    "resource": "https://us.napster.com/artist/motley-crue"
+   },
+   "direction": "forward"
+  },
+  {
+   "ended": true,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": "2022-06-08",
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "streaming",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "url": {
+    "resource": "https://web.napster.com/artist/motley-crue",
+    "id": "91b3a40b-a6a7-4d24-83b2-65455fd4d6cd"
+   }
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "type": "streaming",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.amazon.com/artists/B00137CPYI",
+    "id": "3c413e07-543d-4f2c-b12d-004cf59c7f6f"
+   },
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type": "streaming",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "url": {
+    "resource": "https://music.apple.com/us/artist/284113",
+    "id": "d8af926b-9ed0-4869-9479-594107311f98"
+   },
+   "direction": "forward",
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "url": {
+    "id": "adc25246-a11d-4d14-8f13-1fe33769c724",
+    "resource": "https://tidal.com/artist/3555613"
+   },
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "type": "streaming",
+   "attribute-values": {},
+   "target-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.qobuz.com/de-de/interpreter/-/47438",
+    "id": "4c8fe3a7-5ef3-4507-b596-0c1092254fca"
+   },
+   "attribute-values": {},
+   "type": "streaming",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "a554772f-1192-4f16-9aab-6406fe9384bc",
+    "resource": "https://www.qobuz.com/gb-en/interpreter/motley-crue/download-streaming-albums"
+   },
+   "attribute-values": {},
+   "type": "streaming",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.ticketmaster.com/artist/910417",
+    "id": "ee6e3a43-b08c-4290-a170-7e295a5d4c5e"
+   },
+   "attribute-values": {},
+   "type": "ticketing",
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "388ead5e-86c1-4f81-9a79-9c76cc363f89",
+    "resource": "http://viaf.org/viaf/142387640"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "VIAF",
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q486688",
+    "id": "390c268a-635b-4eab-9bde-617dad413324"
+   },
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "type": "wikidata",
+   "attribute-values": {}
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UC4OIQdGVhOAQx3IgrAnSzaw",
+    "id": "2b38ceec-91a9-4e12-8d52-0977c3e1a99f"
+   },
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-values": {},
+   "type": "youtube",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "MotleyCrueVEVO",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "Mötley Crüe",
+   "end": null,
+   "target-credit": "",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-values": {},
+   "type": "youtube",
+   "url": {
+    "id": "ee0c27b5-2ac0-4732-a613-19f5a6b38260",
+    "resource": "https://www.youtube.com/channel/UCq2g_Vcu3J1OwNRmdTNoxYA"
+   },
+   "direction": "forward"
+  },
+  {
+   "target-credit": "",
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "type": "youtube music",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "013e5ee7-c9af-4266-8eb7-6f8c303e8b16",
+    "resource": "https://music.youtube.com/channel/UCaeBWvnAVVgyfFT-gnWwURg"
+   },
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  }
+ ],
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "type": "Group",
+ "life-span": {
+  "ended": false,
+  "end": null,
+  "begin": "1981-01-17"
+ },
+ "gender-id": null,
+ "begin-area": {
+  "sort-name": "Los Angeles",
+  "disambiguation": "",
+  "name": "Los Angeles",
+  "type-id": null,
+  "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+  "type": null
+ },
+ "disambiguation": "",
+ "country": "US"
+}

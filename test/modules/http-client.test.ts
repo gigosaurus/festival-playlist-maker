@@ -5,11 +5,15 @@ import {
   clashfinderCrawlDelay,
   clashfinderRequestLimit,
   RequestLimitError,
+  spotifyLongestWait,
+  spotifyRequestDelay,
+  SpotifyQuotaError,
   withServiceRules,
   type HttpClient,
 } from "../../src/http-client.ts";
 import { FakeClock } from "../support/fake-clock.ts";
 import { FakeHttpClient } from "../support/fake-http-client.ts";
+import { quotaExceededResponse, rateLimitResponse } from "../support/spotify.ts";
 import { testSettings } from "../support/test-settings.ts";
 
 const exportUrl = "https://clashfinder.com/data/event/download27.json";
@@ -131,4 +135,79 @@ test("a failed Clashfinder request does not stop the next request", async () => 
   const response = await client.send(new Request(exportUrl));
 
   assert.equal(response.status, 200);
+});
+
+const spotifyArtist = "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF";
+
+test("the HTTP client waits for the pause between Spotify requests", async () => {
+  const { transport, clock, client } = setUp();
+  respondToAll(transport);
+
+  await client.send(new Request(spotifyArtist));
+  await client.send(new Request(spotifyArtist));
+  clock.advance(spotifyRequestDelay);
+  await client.send(new Request(spotifyArtist));
+
+  assert.deepEqual(clock.sleeps, [spotifyRequestDelay]);
+  assert.equal(transport.requests.length, 3);
+});
+
+test("after status 429, the HTTP client waits for Retry-After and sends the Spotify request again", async () => {
+  const { transport, clock, client } = setUp();
+  transport.respondTo("GET", spotifyArtist, rateLimitResponse(5));
+  const send = transport.send.bind(transport);
+  transport.send = async (request) => {
+    const response = await send(request);
+    transport.respondTo("GET", spotifyArtist, { body: "{}" });
+    return response;
+  };
+
+  const response = await client.send(new Request(spotifyArtist));
+
+  assert.equal(response.status, 200);
+  assert.equal(transport.requests.length, 2);
+  assert.deepEqual(clock.sleeps, [5_000]);
+});
+
+test("after a long Retry-After, the HTTP client refuses the Spotify requests until the wait is complete", async () => {
+  const { transport, clock, client } = setUp();
+  transport.respondTo("GET", spotifyArtist, rateLimitResponse(600));
+
+  await assert.rejects(client.send(new Request(spotifyArtist)), (error) => {
+    assert.ok(error instanceof RequestLimitError);
+    assert.equal(error.message, "Spotify limited the requests of the application (status 429). Try again in 10 minutes.");
+    return true;
+  });
+  clock.advance(spotifyLongestWait);
+  await assert.rejects(client.send(new Request(spotifyArtist)), /Try again in 9 minutes\./);
+  assert.equal(transport.requests.length, 1, "The HTTP client does not send a request during the wait");
+
+  transport.respondTo("GET", spotifyArtist, { body: "{}" });
+  clock.advance(9 * 60_000);
+  assert.equal((await client.send(new Request(spotifyArtist))).status, 200);
+  assert.deepEqual(clock.sleeps, [], "The HTTP client does not wait for minutes");
+});
+
+test("the HTTP client reports a Spotify quota error with its cause and does not send the request again", async () => {
+  const { transport, clock, client } = setUp();
+  transport.respondTo("GET", spotifyArtist, quotaExceededResponse);
+
+  await assert.rejects(client.send(new Request(spotifyArtist)), (error) => {
+    assert.ok(error instanceof SpotifyQuotaError);
+    assert.match(error.message, /used all of its Spotify quota \(status 429, QUOTA_EXCEEDED\)/);
+    return true;
+  });
+
+  assert.equal(transport.requests.length, 1);
+  assert.deepEqual(clock.sleeps, []);
+});
+
+test("the HTTP client does not pace the Spotify log in requests", async () => {
+  const { transport, clock, client } = setUp();
+  respondToAll(transport);
+
+  await client.send(new Request("https://accounts.spotify.com/api/token", { method: "POST" }));
+  await client.send(new Request("https://accounts.spotify.com/api/token", { method: "POST" }));
+
+  assert.deepEqual(clock.sleeps, []);
 });

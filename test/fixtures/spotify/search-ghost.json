@@ -1,0 +1,147 @@
+{
+ "artists": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=5&query=Ghost&type=artist&locale=*",
+  "limit": 5,
+  "next": "https://api.spotify.com/v1/search?offset=5&limit=5&query=Ghost&type=artist&locale=*",
+  "offset": 0,
+  "previous": null,
+  "total": 102,
+  "items": [
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+    },
+    "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+    "id": "1Qp56T7n950O3EGMsSl81D",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb2d972470f1f8110be7c07017",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab676161000051742d972470f1f8110be7c07017",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f1782d972470f1f8110be7c07017",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Ghost",
+    "type": "artist",
+    "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/6kQB2RN7WwryMdJ1MoQh1E"
+    },
+    "href": "https://api.spotify.com/v1/artists/6kQB2RN7WwryMdJ1MoQh1E",
+    "id": "6kQB2RN7WwryMdJ1MoQh1E",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb46c3c9673637f592b914e4d6",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000517446c3c9673637f592b914e4d6",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f17846c3c9673637f592b914e4d6",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "The Ghost Inside",
+    "type": "artist",
+    "uri": "spotify:artist:6kQB2RN7WwryMdJ1MoQh1E"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/5Hxx7FpVvps2OZLl6LUfJi"
+    },
+    "href": "https://api.spotify.com/v1/artists/5Hxx7FpVvps2OZLl6LUfJi",
+    "id": "5Hxx7FpVvps2OZLl6LUfJi",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb2b68c226baa4509711ae07f5",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab676161000051742b68c226baa4509711ae07f5",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f1782b68c226baa4509711ae07f5",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Ghost Mountain",
+    "type": "artist",
+    "uri": "spotify:artist:5Hxx7FpVvps2OZLl6LUfJi"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/3uL4UpqShC4p2x1dJutoRW"
+    },
+    "href": "https://api.spotify.com/v1/artists/3uL4UpqShC4p2x1dJutoRW",
+    "id": "3uL4UpqShC4p2x1dJutoRW",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebb7554dcff310daff7302e65e",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab67616100005174b7554dcff310daff7302e65e",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f178b7554dcff310daff7302e65e",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Ghostemane",
+    "type": "artist",
+    "uri": "spotify:artist:3uL4UpqShC4p2x1dJutoRW"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/6MM2Na1OX5kh9QjazXBeIN"
+    },
+    "href": "https://api.spotify.com/v1/artists/6MM2Na1OX5kh9QjazXBeIN",
+    "id": "6MM2Na1OX5kh9QjazXBeIN",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb3325a55eb2569ea366ae7776",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab676161000051743325a55eb2569ea366ae7776",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f1783325a55eb2569ea366ae7776",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Ghost Town",
+    "type": "artist",
+    "uri": "spotify:artist:6MM2Na1OX5kh9QjazXBeIN"
+   }
+  ]
+ }
+}

@@ -1,3 +1,4 @@
+import { createBackgroundQueue, type QueueState } from "./background-queue.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
 import type { MusicBrainz, MusicBrainzArtist } from "./musicbrainz.ts";
@@ -157,7 +158,7 @@ export function checkGenres(artist: MusicBrainzArtist, expectedGenres: string[])
 }
 
 // Lowercase, without accents, with "&" as "and" and each run of other characters as one space.
-function comparableName(text: string): string {
+export function comparableName(text: string): string {
   return text
     .normalize("NFKD")
     .replace(/\p{M}/gu, "")
@@ -167,12 +168,7 @@ function comparableName(text: string): string {
     .trim();
 }
 
-export interface SearchQueueState {
-  // True while the queue sends searches.
-  running: boolean;
-  // The cause of the failure that stopped the last run.
-  problem?: { cause: string; at: Date };
-}
+export type SearchQueueState = QueueState;
 
 export interface ArtistSearchQueue {
   // Searches MusicBrainz for each name on the current lineup of the festival
@@ -185,51 +181,25 @@ export interface ArtistSearchQueue {
 
 // Sends the searches one at a time, in the background. The HTTP client keeps
 // the limit of 1 MusicBrainz request each second, so 150 names take approximately
-// 3 minutes. The first failure stops the run, because the next searches
-// probably fail for the same cause. The admin starts a new run.
+// 3 minutes. The first failure stops the run (see createBackgroundQueue).
 export function createArtistSearchQueue(database: Database, musicBrainz: MusicBrainz, clock: Clock): ArtistSearchQueue {
-  const waiting = new Map<string, string>();
-  let run: Promise<void> | undefined;
-  let problem: SearchQueueState["problem"];
-
-  async function sendSearches(): Promise<void> {
-    for (const [key, name] of waiting) {
-      waiting.delete(key);
-      if (findArtistMatch(database, name) !== undefined || storedSearch(database, name) !== undefined) continue;
-      const result = await musicBrainz.searchArtists(name);
-      if (result.outcome === "failed") {
-        problem = { cause: result.cause, at: clock.now() };
-        waiting.clear();
-        return;
-      }
-      storeSearch(database, clock, name, result.artists);
-    }
-  }
+  const queue = createBackgroundQueue<string>(clock, "MusicBrainz search", async (name) => {
+    if (findArtistMatch(database, name) !== undefined || storedSearch(database, name) !== undefined) return undefined;
+    const result = await musicBrainz.searchArtists(name);
+    if (result.outcome === "failed") return result.cause;
+    storeSearch(database, clock, name, result.artists);
+    return undefined;
+  });
 
   return {
     searchFestival(festivalId) {
-      problem = undefined;
-      for (const { name, match, search } of festivalArtistMatches(database, festivalId)) {
-        if (match === undefined && search === undefined) waiting.set(nameKey(name), name);
-      }
-      if (run !== undefined || waiting.size === 0) return;
-      run = sendSearches()
-        .catch((error: unknown) => {
-          problem = { cause: `The search stopped because of an error in the application: ${String(error)}`, at: clock.now() };
-          waiting.clear();
-          console.error("The MusicBrainz search queue stopped.", error);
-        })
-        .finally(() => {
-          run = undefined;
-        });
+      queue.add(
+        festivalArtistMatches(database, festivalId)
+          .filter(({ match, search }) => match === undefined && search === undefined)
+          .map(({ name }) => [nameKey(name), name]),
+      );
     },
-
-    state() {
-      return problem === undefined ? { running: run !== undefined } : { running: run !== undefined, problem };
-    },
-
-    async idle() {
-      while (run !== undefined) await run;
-    },
+    state: () => queue.state(),
+    idle: () => queue.idle(),
   };
 }

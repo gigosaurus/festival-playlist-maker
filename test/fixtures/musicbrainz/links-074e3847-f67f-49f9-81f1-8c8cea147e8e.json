@@ -1,0 +1,1269 @@
+{
+ "type": "Group",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "life-span": {
+  "end": null,
+  "begin": "2004-03",
+  "ended": false
+ },
+ "disambiguation": "",
+ "country": "GB",
+ "begin-area": {
+  "name": "Sheffield",
+  "disambiguation": "",
+  "iso-3166-2-codes": [
+   "GB-SHF"
+  ],
+  "sort-name": "Sheffield",
+  "type": null,
+  "id": "3ce737cb-f5bb-403d-a98a-e0602670229f",
+  "type-id": null
+ },
+ "gender-id": null,
+ "id": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+ "end-area": null,
+ "ipis": [],
+ "area": {
+  "disambiguation": "",
+  "name": "United Kingdom",
+  "sort-name": "United Kingdom",
+  "type-id": null,
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "type": null,
+  "iso-3166-1-codes": [
+   "GB"
+  ]
+ },
+ "name": "Bring Me the Horizon",
+ "gender": null,
+ "relations": [
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0000537414",
+    "id": "65dd3bc6-c4f4-4aba-b127-e167512054ea"
+   },
+   "direction": "forward",
+   "type": "allmusic",
+   "attribute-values": {},
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "direction": "forward",
+   "url": {
+    "id": "75080302-7ea2-4c03-8a5c-9883ae5c1e6a",
+    "resource": "https://www.bandsintown.com/a/26697"
+   },
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "type": "bandsintown",
+   "attribute-values": {},
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "attribute-values": {},
+   "type": "BBC Music page",
+   "direction": "forward",
+   "url": {
+    "id": "f0a29716-95af-49e1-a0e7-3dd6127636cb",
+    "resource": "https://www.bbc.co.uk/music/artists/074e3847-f67f-49f9-81f1-8c8cea147e8e"
+   },
+   "attribute-ids": {},
+   "ended": true,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": "2020-11-19"
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "bf55531a-22ac-4439-b245-7b488734da79",
+    "resource": "https://www.discogs.com/artist/1253307"
+   },
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "type": "discogs",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "type": "free streaming",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://audiomack.com/bringmethehorizon",
+    "id": "9f9617ee-10cc-412a-b16e-0c275fa3c298"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-values": {},
+   "type": "free streaming",
+   "direction": "forward",
+   "url": {
+    "id": "7d34f39c-f8f5-4812-b71e-f341ecce2e87",
+    "resource": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+   }
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "type": "free streaming",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://play.anghami.com/artist/140306",
+    "id": "1be0373c-2a94-4bb1-b4cc-b5fe42539086"
+   },
+   "direction": "forward"
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.deezer.com/artist/12874",
+    "id": "3f7022b5-8b4a-4d9b-a9f3-8e3eeb7ed919"
+   },
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-values": {},
+   "type": "free streaming",
+   "target-credit": ""
+  },
+  {
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "IMDb",
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.imdb.com/name/nm7752020/",
+    "id": "af4d1cd5-db45-469d-8888-eaec483384d2"
+   }
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "attribute-values": {},
+   "type": "last.fm",
+   "url": {
+    "id": "30420aee-010c-4429-bcc8-02f6a2b245fe",
+    "resource": "https://www.last.fm/music/Bring+Me+the+Horizon"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "direction": "forward",
+   "url": {
+    "id": "bd60df67-bb07-4461-8761-7fd0b02c708a",
+    "resource": "http://muzikum.eu/en/122-6101/bring-me-the-horizon/lyrics.html"
+   },
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "type": "lyrics",
+   "attribute-values": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "direction": "forward",
+   "url": {
+    "resource": "https://genius.com/artists/Bring-me-the-horizon",
+    "id": "4b0af4ad-fcec-444e-9bb0-1e547bc10fe1"
+   },
+   "target-credit": ""
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://utaten.com/artist/36845",
+    "id": "b5f8273c-a683-4ed5-8ee2-53844f68634a"
+   },
+   "attribute-values": {},
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.joysound.com/web/search/artist/62831",
+    "id": "584c0454-64db-4533-a553-02f6ae16baff"
+   },
+   "direction": "forward",
+   "type": "lyrics",
+   "attribute-values": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "id": "4b100cda-4cd3-4f46-aba6-1ca4846edd0e",
+    "resource": "https://www.musixmatch.com/artist/Bring-Me-the-Horizon"
+   },
+   "attribute-values": {},
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "type": "myspace",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://myspace.com/bmth",
+    "id": "36e87a4a-2afe-4adb-9534-7271618400c3"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "9f973bb2-f06f-4723-8a68-2fb26f0e608a",
+    "resource": "http://www.bmthofficial.com/"
+   },
+   "attribute-values": {},
+   "type": "official homepage",
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+  },
+  {
+   "type": "other databases",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "url": {
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb167199095",
+    "id": "295efd30-6a1d-4a6f-9daf-7d194fc1f876"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "09e20703-95f8-4f74-949d-77d309cd772e",
+    "resource": "https://d-nb.info/gnd/16056673-3"
+   },
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "c9ec6e9f-b8c6-482a-998e-4a5e59acb3b2",
+    "resource": "https://imvdb.com/n/bring-me-the-horizon"
+   }
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/bring-me-the-horizon",
+    "id": "bd4578c8-1950-4fb0-b5be-f5ff7df2a39c"
+   },
+   "direction": "forward"
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "direction": "forward",
+   "url": {
+    "id": "8098bf95-bdad-408f-ad5a-c915b4d384b4",
+    "resource": "https://www.livefans.jp/artists/21663"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "url": {
+    "id": "db2ea912-dea7-4691-b7f1-d0e39cfcee77",
+    "resource": "https://www.metalmusicarchives.com/artist/bring-me-the-horizon"
+   }
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.musik-sammler.de/artist/bring-me-the-horizon/",
+    "id": "37b14103-16b0-4fa1-8690-1264166940a5"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "direction": "forward",
+   "url": {
+    "id": "ac83ec39-2dd2-4ac2-918e-66023533786d",
+    "resource": "https://www.spirit-of-metal.com/en/band/Bring_Me_The_Horizon"
+   },
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.whosampled.com/Bring-Me-the-Horizon/",
+    "id": "87cc452f-5a42-40b2-b0c8-eedf6565c12b"
+   },
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.worldcat.org/identities/lccn-no2009000569/",
+    "id": "a4f1e80c-8113-4ef4-9860-49bd4fe7ce48"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "url": {
+    "resource": "https://www.onkyomusic.com/artist/bring-me-the-horizon",
+    "id": "6b74cb7b-c1ec-4ac2-8828-dac5247fc3e0"
+   },
+   "direction": "forward",
+   "target-type": "url",
+   "ended": true,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": "2019-10-06"
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://play.google.com/store/music/artist?id=Ahyf47wv7nddzz5xxmxrihx6yhy",
+    "id": "7257b59d-b55d-4e24-a429-815488c0ce5a"
+   },
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "end": "2020-10-12",
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": true
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "26f1ccf1-b024-494e-93e8-62377189fca6",
+    "resource": "https://itunes.apple.com/gb/artist/id121043936"
+   },
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "0ceab961-93d3-4b6f-8711-b0b735553270",
+    "resource": "https://mora.jp/artist/10909/"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://mora.jp/artist/710789/",
+    "id": "c12f68f9-7f7b-4cfd-adc2-101e39b3551c"
+   },
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://open.qobuz.com/artist/333314",
+    "id": "f69f9ce8-1e13-4e0f-8356-cd7052fc5430"
+   },
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "url": {
+    "id": "93c9c057-fc68-4114-9eed-963603917002",
+    "resource": "https://ototoy.jp/_/default/a/879758"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "url": {
+    "id": "da6a99b7-d786-4ebc-a6ab-d92e62620042",
+    "resource": "https://recochoku.jp/artist/2000024253/"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-credit": ""
+  },
+  {
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "url": {
+    "resource": "https://uk.7digital.com/artist/bring-me-the-horizon",
+    "id": "1fec9f32-3bc9-4496-8bdf-e2641d14c9c0"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.beatport.com/artist/bring-me-the-horizon/773322",
+    "id": "b139f75e-9540-491d-b8c0-d375ee10282c"
+   },
+   "target-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "url": {
+    "resource": "https://www.junodownload.com/artists/Bring+Me+The+Horizon/",
+    "id": "d07daf2a-a0f4-416d-887d-b461a5ae0a38"
+   },
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "resource": "https://www.qobuz.com/interpreter/bring-me-the-horizon/download-streaming-albums",
+    "id": "78265630-e3ef-4c1a-adf2-bac1fac5760b"
+   },
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url"
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://tower.jp/artist/417773",
+    "id": "fb61a347-1b20-4a9f-9579-b67df928328f"
+   },
+   "attribute-values": {},
+   "type": "purchase for mail-order",
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "9a3c37ee-a9bd-4069-9076-7d600fb40880",
+    "resource": "https://www.amazon.co.uk/-/e/B00197GPBG"
+   },
+   "direction": "forward",
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "type": "purchase for mail-order",
+   "attribute-values": {}
+  },
+  {
+   "url": {
+    "resource": "https://www.cdjapan.co.jp/person/700169605",
+    "id": "f18505d3-71eb-47d9-a0cb-b072c3f002c4"
+   },
+   "direction": "forward",
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "type": "purchase for mail-order",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.hmv.co.jp/artist_Bring-Me-The-Horizon_000000000327155/",
+    "id": "73619576-f2cb-425d-b108-dfb760aa26d1"
+   },
+   "type": "purchase for mail-order",
+   "attribute-values": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d"
+  },
+  {
+   "url": {
+    "resource": "http://www.rockworldeast.com/store/Bring_Me_The_Horizon",
+    "id": "5b4fac8f-1b3e-40a5-96d3-7f8b295805cd"
+   },
+   "direction": "forward",
+   "type": "purchase for mail-order",
+   "attribute-values": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://secondhandsongs.com/artist/25293",
+    "id": "914dd410-1299-4ac6-b1bb-9cb42a36986c"
+   },
+   "type": "secondhandsongs",
+   "attribute-values": {},
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "url": {
+    "id": "4a5c3220-9cfb-41cd-8696-6642648fcb33",
+    "resource": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+   },
+   "direction": "forward",
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "attribute-values": {},
+   "type": "setlistfm",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "783e26fc-ebd5-417e-87f6-fee24c0ddd60",
+    "resource": "https://plus.google.com/110712316377064885479"
+   },
+   "direction": "forward",
+   "type": "social network",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "begin": null,
+   "attributes": [],
+   "ended": true,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": "2019-04",
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "155c32f4-1124-4920-a000-a20a5c0bacd0",
+    "resource": "https://twitter.com/bmthofficial"
+   },
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://vk.ru/official_bringmethehorizon",
+    "id": "31b553e1-3b96-430d-a0fb-cd7bac55ba88"
+   },
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "url": {
+    "id": "b09f35c8-7c8f-49a2-bade-1a7029c1f22e",
+    "resource": "https://www.facebook.com/bmthofficial"
+   },
+   "target-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.instagram.com/bringmethehorizon/",
+    "id": "34b9a770-8689-4515-9138-d45da971d950"
+   },
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "type": "social network"
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.reverbnation.com/bmthphils",
+    "id": "85d55e62-cb73-489e-95c0-1776ea12a061"
+   },
+   "type": "social network",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.threads.com/@bringmethehorizon",
+    "id": "83eca465-4c06-44c8-8272-bb8b8fe7f70e"
+   },
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "6ea5173c-0f34-46d0-b21d-758376f8dd12",
+    "resource": "https://www.tiktok.com/@officialbmth"
+   },
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "d2302c0f-daa9-42c7-836e-f55e17ac4013",
+    "resource": "https://www.songkick.com/artists/347077"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "songkick",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "type": "soundcloud",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://soundcloud.com/bring-me-the-horizon",
+    "id": "adcfb806-d967-4729-987c-4d657c2bcc7c"
+   },
+   "direction": "forward"
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "85b8f693-b850-4444-a95a-99babc99bf9a",
+    "resource": "https://us.napster.com/artist/bring-me-the-horizon"
+   },
+   "direction": "forward",
+   "type": "streaming",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": true,
+   "attribute-ids": {},
+   "end": "2022-06-08",
+   "source-credit": ""
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.amazon.co.uk/artists/B0018CGEMC",
+    "id": "216d1784-869b-4921-a1b2-4b80a9b0ebc7"
+   },
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "type": "streaming",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "url": {
+    "id": "d8637b13-efaa-4f2e-a7cb-7b5980cd06c3",
+    "resource": "https://music.apple.com/gb/artist/121043936"
+   },
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url"
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "url": {
+    "id": "f69f9ce8-1e13-4e0f-8356-cd7052fc5430",
+    "resource": "https://open.qobuz.com/artist/333314"
+   },
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": ""
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "url": {
+    "resource": "https://tidal.com/artist/19137",
+    "id": "9e079f48-09e7-47a8-b0cf-8da6491d28f7"
+   },
+   "direction": "forward"
+  },
+  {
+   "url": {
+    "resource": "https://www.livenation.co.uk/artist-1806",
+    "id": "47319aee-9a15-453a-af8d-f218760ab801"
+   },
+   "direction": "forward",
+   "type": "ticketing",
+   "attribute-values": {},
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type": "VIAF",
+   "attribute-values": {},
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "url": {
+    "id": "20241a4d-2e9c-4207-a68a-daab518f1b94",
+    "resource": "http://viaf.org/viaf/150491405"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "type": "wikidata",
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q494784",
+    "id": "8d64b7a6-c4da-4fed-b2c0-7c880189a61e"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "b9658ed5-c8a2-4224-8ad6-eaf741146bfc",
+    "resource": "https://www.youtube.com/channel/UCAayZDDj3uom0QpSJiwLoUw"
+   },
+   "direction": "forward",
+   "type": "youtube",
+   "attribute-values": {},
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCUmC7gXciukRv73CQRQ5QGQ",
+    "id": "79a6fab7-3322-4338-a4a5-57daa5236278"
+   },
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "type": "youtube",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "BMTHOfficialVEVO",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "type": "youtube music",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.youtube.com/channel/UCGNMi-3h6Tx72EfbW6f2BxQ",
+    "id": "12db4433-9970-4975-970f-58cac8bbd5a7"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "type": "youtube music",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "880dfaf0-c107-46e2-97ed-d0c2af818bb4",
+    "resource": "https://music.youtube.com/channel/UCLbghrmYY2iY4RKitpIbc7Q"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null
+  }
+ ],
+ "sort-name": "Bring Me the Horizon",
+ "isnis": [
+  "0000000122868773"
+ ]
+}

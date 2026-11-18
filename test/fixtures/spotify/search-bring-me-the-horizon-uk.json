@@ -1,0 +1,147 @@
+{
+ "artists": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=5&query=Bring%20Me%20the%20Horizon%20UK&type=artist&locale=*",
+  "limit": 5,
+  "next": "https://api.spotify.com/v1/search?offset=5&limit=5&query=Bring%20Me%20the%20Horizon%20UK&type=artist&locale=*",
+  "offset": 0,
+  "previous": null,
+  "total": 100,
+  "items": [
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+    },
+    "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+    "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebca0355e5fc475d2520f0d967",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab67616100005174ca0355e5fc475d2520f0d967",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f178ca0355e5fc475d2520f0d967",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Bring Me The Horizon",
+    "type": "artist",
+    "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/31jvzuB4ikftPQZJwrYfCF"
+    },
+    "href": "https://api.spotify.com/v1/artists/31jvzuB4ikftPQZJwrYfCF",
+    "id": "31jvzuB4ikftPQZJwrYfCF",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb46f1cbdfdaadaf0bbbc2df4e",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000517446f1cbdfdaadaf0bbbc2df4e",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f17846f1cbdfdaadaf0bbbc2df4e",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Enter Shikari",
+    "type": "artist",
+    "uri": "spotify:artist:31jvzuB4ikftPQZJwrYfCF"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/3ZztVuWxHzNpl0THurTFCv"
+    },
+    "href": "https://api.spotify.com/v1/artists/3ZztVuWxHzNpl0THurTFCv",
+    "id": "3ZztVuWxHzNpl0THurTFCv",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5eb5423e7cde58a13ccde7d8c99",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab676161000051745423e7cde58a13ccde7d8c99",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f1785423e7cde58a13ccde7d8c99",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Architects",
+    "type": "artist",
+    "uri": "spotify:artist:3ZztVuWxHzNpl0THurTFCv"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/1UXEXWWOTTZNlyFapwHDbW"
+    },
+    "href": "https://api.spotify.com/v1/artists/1UXEXWWOTTZNlyFapwHDbW",
+    "id": "1UXEXWWOTTZNlyFapwHDbW",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebd832a249380414ac3cbfc854",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab67616100005174d832a249380414ac3cbfc854",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f178d832a249380414ac3cbfc854",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "Oli Sykes",
+    "type": "artist",
+    "uri": "spotify:artist:1UXEXWWOTTZNlyFapwHDbW"
+   },
+   {
+    "external_urls": {
+     "spotify": "https://open.spotify.com/artist/1aOt6LvXOV6I8dv1A5Diia"
+    },
+    "href": "https://api.spotify.com/v1/artists/1aOt6LvXOV6I8dv1A5Diia",
+    "id": "1aOt6LvXOV6I8dv1A5Diia",
+    "images": [
+     {
+      "url": "https://i.scdn.co/image/ab6761610000e5ebf9c096894d182edd0466cf4c",
+      "height": 640,
+      "width": 640
+     },
+     {
+      "url": "https://i.scdn.co/image/ab67616100005174f9c096894d182edd0466cf4c",
+      "height": 320,
+      "width": 320
+     },
+     {
+      "url": "https://i.scdn.co/image/ab6761610000f178f9c096894d182edd0466cf4c",
+      "height": 160,
+      "width": 160
+     }
+    ],
+    "name": "DON BROCO",
+    "type": "artist",
+    "uri": "spotify:artist:1aOt6LvXOV6I8dv1A5Diia"
+   }
+  ]
+ }
+}

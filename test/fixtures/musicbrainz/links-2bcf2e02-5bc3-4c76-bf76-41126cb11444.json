@@ -1,0 +1,1122 @@
+{
+ "life-span": {
+  "end": null,
+  "begin": "2008",
+  "ended": false
+ },
+ "begin-area": {
+  "id": "fb3459e9-3ebe-448a-8395-f3abfc0306df",
+  "name": "Linköping",
+  "type-id": null,
+  "sort-name": "Linköping",
+  "disambiguation": "",
+  "type": null
+ },
+ "ipis": [],
+ "id": "2bcf2e02-5bc3-4c76-bf76-41126cb11444",
+ "disambiguation": "Swedish metal band",
+ "relations": [
+  {
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "id": "4f8e8533-8f2c-43f4-8784-f9fb079d102e",
+    "resource": "https://www.allmusic.com/artist/mn0002616588"
+   },
+   "attribute-ids": {},
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "direction": "forward",
+   "type": "allmusic",
+   "target-credit": "",
+   "attribute-values": {},
+   "begin": null
+  },
+  {
+   "attribute-ids": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://ghost.bandcamp.com/",
+    "id": "a5ce4d11-3668-412b-acbd-084177d9bb16"
+   },
+   "ended": false,
+   "target-credit": "",
+   "type": "bandcamp",
+   "attribute-values": {},
+   "begin": null,
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "direction": "forward"
+  },
+  {
+   "attribute-values": {},
+   "begin": null,
+   "type": "bandsintown",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "attribute-ids": {},
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.bandsintown.com/a/14784",
+    "id": "30aee3c2-dd55-4b69-a026-1efdc30987bb"
+   },
+   "target-type": "url",
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "BBC Music page",
+   "direction": "forward",
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "attribute-ids": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.bbc.co.uk/music/artists/2bcf2e02-5bc3-4c76-bf76-41126cb11444",
+    "id": "97c46804-f7ff-4c69-96c0-fd0f83fe040e"
+   },
+   "end": "2020-11-19",
+   "ended": true,
+   "attributes": [],
+   "target-type": "url"
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.discogs.com/artist/1966143",
+    "id": "e8e0aee3-f471-46cd-8717-cbad45c5531b"
+   },
+   "type": "discogs",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "direction": "forward"
+  },
+  {
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "8a175007-b99d-401d-8ef9-907e8c70e8e1",
+    "resource": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "free streaming"
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "resource": "https://www.deezer.com/artist/8506054",
+    "id": "b2353ecb-ac6d-4b7d-a627-130745417b94"
+   },
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type": "free streaming",
+   "attribute-values": {},
+   "begin": null,
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "direction": "forward"
+  },
+  {
+   "attributes": [],
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.imdb.com/name/nm4678248/",
+    "id": "bbced8d9-68cc-4142-b684-6a48bc2d6b3f"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "IMDb",
+   "begin": null,
+   "attribute-values": {}
+  },
+  {
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "last.fm",
+   "attribute-values": {},
+   "begin": null,
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "c0f4d019-f34d-4295-9cd7-c52bac4d4484",
+    "resource": "https://www.last.fm/music/Ghost"
+   },
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "id": "5f09e492-ab64-4267-a09b-60f2a49e4597",
+    "resource": "https://genius.com/artists/Ghost"
+   },
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "lyrics",
+   "attribute-values": {},
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "lyrics",
+   "direction": "forward",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-ids": {},
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.musixmatch.com/artist/Ghost-42",
+    "id": "c28fd56f-b567-42c4-8dcd-d77578e6944b"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": []
+  },
+  {
+   "direction": "forward",
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "begin": null,
+   "attribute-values": {},
+   "type": "myspace",
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://myspace.com/thebandghost",
+    "id": "4cd6d6d5-0e5c-44ff-86b3-8f1d7f547058"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "official homepage",
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "18c38ae3-3fb7-4488-b7fc-3a56acbeff84",
+    "resource": "https://ghost-official.com/"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "type": "other databases",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "id": "7922469e-12d7-44a3-887f-42af46fee4c5",
+    "resource": "http://id.loc.gov/authorities/names/no2014025906"
+   }
+  },
+  {
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "other databases",
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb167629321",
+    "id": "efbe1eb7-448a-479d-985c-fe9d5da15d9c"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "attribute-ids": {},
+   "url": {
+    "id": "801d62fd-689f-4e89-9cef-c40a6373d39c",
+    "resource": "https://d-nb.info/gnd/103385249X"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "begin": null,
+   "attribute-values": {},
+   "type": "other databases",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "url": {
+    "resource": "https://id.oclc.org/worldcat/entity/E39QQPVp7TBrGgG9dxBCcxjytg",
+    "id": "4e3075c2-6c1e-4f70-b5f2-12b359738fec"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "attribute-values": {},
+   "type": "other databases",
+   "target-credit": ""
+  },
+  {
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "other databases",
+   "url": {
+    "resource": "https://imvdb.com/n/ghost",
+    "id": "b60e9d56-e2a2-4eb3-82e1-9f79479f20a7"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "begin": null,
+   "type": "other databases",
+   "target-credit": "",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/ghost-4",
+    "id": "298247a8-90ef-4cb8-b534-8fc5e654f7ea"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "type": "other databases",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.livefans.jp/artists/37728",
+    "id": "e9e117ca-7d7d-4df2-b63e-72933f38bda4"
+   },
+   "attribute-ids": {}
+  },
+  {
+   "attribute-ids": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.metal-archives.com/bands/Ghost/3540309157",
+    "id": "5bbc21d9-03bd-4cc5-a770-d44d78744197"
+   },
+   "ended": false,
+   "target-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward"
+  },
+  {
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "other databases",
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.metalmusicarchives.com/artist/ghost",
+    "id": "1fd07fee-e16a-482e-9b23-0efbf652c0be"
+   },
+   "ended": false,
+   "attributes": [],
+   "target-type": "url"
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.musik-sammler.de/artist/ghost/",
+    "id": "f8dfae77-11e1-483b-9f1c-bc177a1e721b"
+   },
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "other databases"
+  },
+  {
+   "ended": false,
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.muziekweb.nl/Link/M00000388401/POPULAR/",
+    "id": "8c6e8b00-e3e6-4265-b1ce-578862310287"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "other databases"
+  },
+  {
+   "attributes": [],
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.spirit-of-metal.com/en/band/Ghost_(SWE)",
+    "id": "d2163abe-11b7-4a38-904e-0714f55d64fc"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "type": "other databases",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {}
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "attribute-values": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.whosampled.com/Ghost/",
+    "id": "1cd5e8fb-a6fd-4d98-987c-21172d6e516b"
+   },
+   "attribute-ids": {}
+  },
+  {
+   "attribute-ids": {},
+   "ended": true,
+   "source-credit": "",
+   "end": "2019-05-19",
+   "url": {
+    "resource": "https://itunes.apple.com/us/artist/id600730426",
+    "id": "e8e0e0e1-d65a-4c52-b1df-c3077a182f14"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "attribute-values": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "attribute-ids": {},
+   "source-credit": "",
+   "end": "2020-10-12",
+   "url": {
+    "resource": "https://play.google.com/store/music/artist?id=A4umawnznibonfij6zfqpppozum",
+    "id": "b089d9b8-ad5a-4927-ab66-e163a8379fd2"
+   },
+   "ended": true,
+   "attributes": [],
+   "target-type": "url",
+   "begin": null,
+   "attribute-values": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "id": "13614968-e21f-4e2e-8850-23c8e167a7c2",
+    "resource": "https://mora.jp/artist/398600/all"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-values": {},
+   "begin": null,
+   "type": "purchase for download",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://music.apple.com/se/artist/600730426",
+    "id": "3d32a5e7-c89a-4486-b750-557d3a9f059c"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "begin": null,
+   "type": "purchase for download",
+   "target-credit": ""
+  },
+  {
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "purchase for download",
+   "ended": false,
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "id": "75bc3de7-a2fc-4524-a380-df85bc651d79",
+    "resource": "https://music.bugs.co.kr/artist/80237622"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "begin": null,
+   "type": "purchase for download",
+   "target-credit": "",
+   "ended": false,
+   "source-credit": "ゴースト",
+   "url": {
+    "resource": "https://ototoy.jp/_/default/a/275019",
+    "id": "0e126dc7-0acc-451f-aca4-aeafb815087d"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "purchase for download",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://se.7digital.com/artist/ghost",
+    "id": "ee324872-281d-4b53-b160-007a6749410b"
+   },
+   "target-type": "url",
+   "attributes": []
+  },
+  {
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "resource": "https://us.7digital.com/artist/ghost-b-c",
+    "id": "0ef20343-39b6-4be9-924a-550f98ce98a3"
+   },
+   "source-credit": "Ghost B.C.",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "purchase for download",
+   "begin": null,
+   "attribute-values": {}
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "purchase for download",
+   "begin": null,
+   "attribute-values": {},
+   "attributes": [],
+   "target-type": "url",
+   "url": {
+    "id": "33309caa-f6e3-41b8-9106-762a3002955b",
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=1201527"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "resource": "https://www.qobuz.com/se-en/interpreter/ghost-37/25274827",
+    "id": "a30035f4-1216-4178-8768-1ec4f1c51621"
+   },
+   "source-credit": "",
+   "end": null,
+   "type": "purchase for download",
+   "target-credit": "",
+   "attribute-values": {},
+   "begin": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward"
+  },
+  {
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "begin": null,
+   "attribute-values": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.qobuz.com/se-en/interpreter/ghost-2/2522434",
+    "id": "9ce392a2-50bf-43cb-a336-8fb04e18591c"
+   },
+   "end": null,
+   "ended": true,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "url": {
+    "id": "abef2bd1-51d5-4086-9cd3-a3a7a0b1d673",
+    "resource": "https://secondhandsongs.com/artist/63593"
+   },
+   "end": null,
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "direction": "forward",
+   "type": "secondhandsongs",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {}
+  },
+  {
+   "direction": "forward",
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "setlistfm",
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "6c2a08fb-69fa-44d3-aef4-e43e2e6fb7e1",
+    "resource": "https://www.setlist.fm/setlists/ghost-3bd2a4a8.html"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {}
+  },
+  {
+   "type": "social network",
+   "target-credit": "",
+   "attribute-values": {},
+   "begin": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "end": "2019-04",
+   "url": {
+    "resource": "https://plus.google.com/109176410315926397387",
+    "id": "785de5e3-c42f-40d1-98e4-85a0ced02323"
+   },
+   "ended": true
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://twitter.com/thebandghost",
+    "id": "833dce00-1b86-480c-85a4-c1c1d9579898"
+   },
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "begin": null,
+   "attribute-values": {},
+   "type": "social network",
+   "target-credit": ""
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "social network",
+   "begin": null,
+   "attribute-values": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.facebook.com/thebandghost",
+    "id": "c4e5c5dc-8288-4231-926b-6473e73b8a1c"
+   },
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.instagram.com/thebandghost/",
+    "id": "6b7a2f1b-36e0-4c92-a472-b62247d3abaf"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "begin": null,
+   "type": "social network",
+   "target-credit": ""
+  },
+  {
+   "type": "social network",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "id": "557c005e-5a41-4c96-b486-275244960036",
+    "resource": "https://www.tiktok.com/@thebandghost"
+   },
+   "ended": false
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.songkick.com/artists/186546",
+    "id": "5750bdad-8339-4bbb-9839-7e404ac9094b"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "songkick",
+   "direction": "forward",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "ac783ff9-1aeb-4c42-bdbd-bda4a44d4c11",
+    "resource": "https://soundcloud.com/thebandghost"
+   },
+   "end": null,
+   "type": "soundcloud",
+   "target-credit": "",
+   "attribute-values": {},
+   "begin": null,
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "direction": "forward"
+  },
+  {
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "streaming",
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "ended": true,
+   "source-credit": "",
+   "url": {
+    "resource": "https://us.napster.com/artist/ghost-bc",
+    "id": "84ffa854-b71d-4481-b01a-7c99636cc0d9"
+   },
+   "end": "2022-06-08",
+   "target-type": "url",
+   "attributes": []
+  },
+  {
+   "attribute-ids": {},
+   "url": {
+    "id": "f4db308a-8e47-401a-8165-ea7b4c2d8d52",
+    "resource": "https://music.amazon.com/artists/B00BDEDV1M"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "streaming",
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "streaming",
+   "attribute-values": {},
+   "begin": null,
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "id": "3d32a5e7-c89a-4486-b750-557d3a9f059c",
+    "resource": "https://music.apple.com/se/artist/600730426"
+   },
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "type": "streaming",
+   "target-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "source-credit": "",
+   "url": {
+    "id": "75bc3de7-a2fc-4524-a380-df85bc651d79",
+    "resource": "https://music.bugs.co.kr/artist/80237622"
+   },
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "url": {
+    "id": "e9f824d3-550f-4834-9fd3-4c4e70d734da",
+    "resource": "https://tidal.com/artist/3913625"
+   },
+   "end": null,
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "type": "streaming",
+   "target-credit": "",
+   "attribute-values": {},
+   "begin": null
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=1201527",
+    "id": "33309caa-f6e3-41b8-9106-762a3002955b"
+   },
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "streaming"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "url": {
+    "resource": "https://www.qobuz.com/se-en/interpreter/ghost-37/25274827",
+    "id": "a30035f4-1216-4178-8768-1ec4f1c51621"
+   },
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "begin": null,
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": "",
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "ended": true,
+   "source-credit": "",
+   "url": {
+    "id": "9ce392a2-50bf-43cb-a336-8fb04e18591c",
+    "resource": "https://www.qobuz.com/se-en/interpreter/ghost-2/2522434"
+   },
+   "end": null,
+   "target-type": "url",
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "type": "ticketing",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.ticketmaster.com/artist/1878819",
+    "id": "9611af55-17c6-42a4-94d6-5983a034d83b"
+   },
+   "ended": false
+  },
+  {
+   "target-credit": "",
+   "type": "VIAF",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-type": "url",
+   "attributes": [],
+   "ended": false,
+   "url": {
+    "resource": "http://viaf.org/viaf/299653001",
+    "id": "5713363d-09bc-4775-8067-0bbd944de854"
+   },
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "source-credit": "",
+   "end": null,
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q1355578",
+    "id": "80061ffc-9e0b-41dc-b48d-80e2631c118f"
+   },
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "wikidata",
+   "direction": "forward",
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698"
+  },
+  {
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "direction": "forward",
+   "target-credit": "",
+   "type": "youtube",
+   "begin": null,
+   "attribute-values": {},
+   "attributes": [],
+   "target-type": "url",
+   "source-credit": "",
+   "url": {
+    "id": "e1bdde97-8c27-4909-bddc-3a37494afe16",
+    "resource": "https://www.youtube.com/channel/UCAOiVaJJlH0Oduv48NN0mMA"
+   },
+   "end": null,
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "source-credit": "GhostBCVEVO",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCU_MfrF9fw0CUMOrGy7D1mQ",
+    "id": "5a381ecc-e843-4624-9f82-859d408ef8f5"
+   },
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-values": {},
+   "begin": null,
+   "target-credit": "",
+   "type": "youtube"
+  },
+  {
+   "url": {
+    "id": "92c41b39-ab12-43c8-b8ff-78b8f82be319",
+    "resource": "https://music.youtube.com/channel/UC08qAR-kyTJb8Xjwbo6C7ZQ"
+   },
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "attributes": [],
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "begin": null,
+   "attribute-values": {},
+   "target-credit": "",
+   "type": "youtube music"
+  }
+ ],
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "gender-id": null,
+ "name": "Ghost",
+ "country": "SE",
+ "area": {
+  "sort-name": "Sweden",
+  "disambiguation": "",
+  "type": null,
+  "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+  "iso-3166-1-codes": [
+   "SE"
+  ],
+  "name": "Sweden",
+  "type-id": null
+ },
+ "end-area": null,
+ "isnis": [
+  "0000000471108908"
+ ],
+ "type": "Group",
+ "sort-name": "Ghost",
+ "gender": null
+}

@@ -82,6 +82,21 @@ const migrations: readonly string[] = [
     artists TEXT NOT NULL,
     searched_at TEXT NOT NULL
   ) STRICT;`,
+  // The Spotify artist of each MusicBrainz artist (#8). It belongs to the
+  // MusicBrainz artist, so each lineup name with a match to that artist gets it.
+  // source: "musicbrainz" (the MusicBrainz Spotify link), "search" (a Spotify
+  // search) or "admin" (the admin set it by hand). A new search does not replace
+  // a Spotify artist from the admin. spotify_id and name are NULL when the
+  // search found no Spotify artist.
+  `CREATE TABLE spotify_artist (
+    musicbrainz_id TEXT PRIMARY KEY,
+    spotify_id TEXT,
+    name TEXT,
+    source TEXT NOT NULL CHECK (source IN ('musicbrainz', 'search', 'admin')),
+    found_at TEXT NOT NULL,
+    CHECK ((spotify_id IS NULL) = (name IS NULL)),
+    CHECK (spotify_id IS NOT NULL OR source = 'search')
+  ) STRICT`,
 ];
 
 export function openDatabase(path: string): Database {

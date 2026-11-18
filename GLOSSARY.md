@@ -24,6 +24,10 @@ _Avoid_: Festival genre, allowed genre
 The connection between an artist name on a lineup and one MusicBrainz artist. A lineup name that has no artist is marked "no match".
 _Avoid_: Mapping, link, resolution
 
+**Spotify artist**:
+The Spotify artist of one MusicBrainz artist. The application gets it from the MusicBrainz Spotify link, or from a Spotify search when there is no link. The admin can set it by hand.
+_Avoid_: Spotify match, Spotify mapping
+
 **Playlist**:
 The one Spotify playlist that the application makes for one user and one festival. By default, it contains each artist on the lineup.
 _Avoid_: Mix, tracklist

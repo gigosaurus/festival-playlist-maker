@@ -1,7 +1,10 @@
 import { html } from "hono/html";
 import { proposeArtist, type LineupNameMatch, type SearchQueueState } from "../artist-matches.ts";
+import type { QueueState } from "../background-queue.ts";
 import type { AdminFestival } from "../festivals.ts";
 import type { User } from "../sessions.ts";
+import type { StoredSpotifyArtist } from "../spotify-artists.ts";
+import { spotifyArtistAddress } from "../spotify.ts";
 import { artistChoices, artistFacts, genreWarning } from "./artist-choices.ts";
 import { formatDateAndTime } from "./format.ts";
 import { layout } from "./layout.ts";
@@ -12,9 +15,15 @@ export interface ArtistMatchesPageState {
   queue: SearchQueueState;
   // The lineup name of the last save, with its match from the database.
   saved?: LineupNameMatch;
+  // The Spotify artist of each matched MusicBrainz artist, by MusicBrainz ID.
+  spotifyArtists: Map<string, StoredSpotifyArtist>;
+  spotifyQueue: QueueState;
+  // The lineup name of the last save of a Spotify artist.
+  spotifySaved?: LineupNameMatch;
 }
 
-export function artistMatchesPage(user: User, { festival, names, queue, saved }: ArtistMatchesPageState) {
+export function artistMatchesPage(user: User, state: ArtistMatchesPageState) {
+  const { festival, names, queue, saved, spotifyArtists, spotifySaved } = state;
   const title = `${festival.name} ${festival.year}`;
   const unmatched = names.filter((name) => name.match === undefined);
   const matched = names.filter((name) => name.match !== undefined);
@@ -26,6 +35,7 @@ export function artistMatchesPage(user: User, { festival, names, queue, saved }:
       <p class="back-link"><a href="/admin/festivals">Manage festivals</a></p>
       <h1>Artist matches for <span data-external-text>${title}</span></h1>
       ${saved?.match ? savedNotice(saved, festival) : ""}
+      ${spotifySaved?.match?.kind === "artist" ? spotifySavedNotice(spotifySaved, spotifyArtists.get(spotifySaved.match.artist.id)) : ""}
       <dl class="facts">
         <div>
           <dt>Expected genres</dt>
@@ -39,7 +49,7 @@ export function artistMatchesPage(user: User, { festival, names, queue, saved }:
               <p>Get the lineup on Manage festivals. Then match the artists.</p>
             </section>
           `
-        : html`${unmatchedSection(festival, unmatched, queue)} ${matchedSection(festival, matched)}`}
+        : html`${unmatchedSection(festival, unmatched, queue)} ${matchedSection(state, matched)}`}
     `,
   });
 }
@@ -67,6 +77,16 @@ function savedNotice(saved: LineupNameMatch, festival: AdminFestival) {
     <section class="notice notice-warning" aria-labelledby="saved-heading">
       <h2 id="saved-heading">${heading}</h2>
       <p>${warning}. Make sure that it is the correct artist.</p>
+    </section>
+  `;
+}
+
+function spotifySavedNotice(saved: LineupNameMatch, spotify: StoredSpotifyArtist | undefined) {
+  if (spotify?.kind !== "found" || saved.match?.kind !== "artist") return "";
+  return html`
+    <section class="notice notice-success" aria-labelledby="spotify-saved-heading">
+      <h2 id="spotify-saved-heading">Set the Spotify artist of <span data-external-text>${saved.match.artist.name}</span> to <span
+        data-external-text>${spotify.artist.name}</span></h2>
     </section>
   `;
 }
@@ -142,13 +162,16 @@ function unmatchedName(festival: AdminFestival, name: LineupNameMatch) {
   `;
 }
 
-function matchedSection(festival: AdminFestival, matched: LineupNameMatch[]) {
+function matchedSection({ festival, spotifyArtists, spotifyQueue }: ArtistMatchesPageState, matched: LineupNameMatch[]) {
   if (matched.length === 0) return "";
   const warningOf = (name: LineupNameMatch) =>
     name.match?.kind === "artist" ? genreWarning(name.match.artist, festival.expectedGenres) : undefined;
   // The matches with a genre warning are first, because they are probably wrong (user story 58).
   const sorted = [...matched].sort((a, b) => Number(warningOf(b) !== undefined) - Number(warningOf(a) !== undefined));
   const warnings = sorted.filter((name) => warningOf(name) !== undefined).length;
+  const waiting = new Set(
+    matched.flatMap((name) => (name.match?.kind === "artist" && !spotifyArtists.has(name.match.artist.id) ? name.match.artist.id : [])),
+  ).size;
   return html`
     <section class="match-section" aria-labelledby="matched-heading">
       <h2 id="matched-heading">Artist matches (${matched.length})</h2>
@@ -157,15 +180,45 @@ function matchedSection(festival: AdminFestival, matched: LineupNameMatch[]) {
             ? "It is"
             : "They are"} first in the list.</p>`
         : ""}
+      ${waiting > 0 ? spotifyState(festival, waiting, spotifyQueue) : ""}
       <ul class="matched-list">
-        ${sorted.map((name) => html`<li>${matchedName(festival, name, warningOf(name))}</li>`)}
+        ${sorted.map((name) => html`<li>${matchedName(festival, name, warningOf(name), spotifyArtists)}</li>`)}
       </ul>
     </section>
   `;
 }
 
-function matchedName(festival: AdminFestival, name: LineupNameMatch, warning: string | undefined) {
+// Each find of a Spotify artist sends 2 or 3 requests, so it takes 1 to 3 seconds.
+function spotifyState(festival: AdminFestival, waiting: number, queue: QueueState) {
+  if (queue.problem !== undefined) {
+    return html`
+      <section class="notice" aria-labelledby="spotify-problem-heading">
+        <h3 id="spotify-problem-heading">The search for Spotify artists stopped on ${formatDateAndTime(queue.problem.at)}</h3>
+        <p class="problem-cause" data-external-text>${queue.problem.cause}</p>
+        <form method="post" action="/admin/festivals/${festival.id}/artist-matches/spotify">
+          <button class="button-secondary" type="submit">Find the Spotify artists again</button>
+        </form>
+      </section>
+    `;
+  }
+  return html`
+    <p class="search-progress">
+      ${waiting === 1 ? "1 artist waits" : `${waiting} artists wait`} for the Spotify artist. The application finds 1 artist in approximately 2 seconds.
+      <a href="/admin/festivals/${festival.id}/artist-matches">Show the new results</a>
+    </p>
+  `;
+}
+
+const sourceText = { musicbrainz: "from the MusicBrainz link", search: "from a Spotify search", admin: "set by hand" } as const;
+
+function matchedName(
+  festival: AdminFestival,
+  name: LineupNameMatch,
+  warning: string | undefined,
+  spotifyArtists: Map<string, StoredSpotifyArtist>,
+) {
   const match = name.match!;
+  const spotify = match.kind === "artist" ? spotifyArtists.get(match.artist.id) : undefined;
   return html`
     <div class="matched-name">
       <p class="matched-lineup-name"><span data-external-text>${name.name}</span></p>
@@ -177,8 +230,33 @@ function matchedName(festival: AdminFestival, name: LineupNameMatch, warning: st
           </p>`
         : html`<p class="matched-artist">No match</p>`}
       ${warning ? html`<p class="genre-warning">${warning}</p>` : ""}
+      ${match.kind === "artist" ? spotifyLine(spotify) : ""}
     </div>
-    <a class="matched-change" href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}">Change<span
-      class="visually-hidden"> the match for <span data-external-text>${name.name}</span></span></a>
+    <p class="matched-actions">
+      <a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}">Change<span
+        class="visually-hidden"> the match for <span data-external-text>${name.name}</span></span></a>
+      ${match.kind === "artist"
+        ? html`<a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}/spotify">Set the Spotify artist<span
+            class="visually-hidden"> for <span data-external-text>${name.name}</span></span></a>`
+        : ""}
+    </p>
   `;
+}
+
+// The Spotify artist of a match (user story 63). The link opens it in Spotify, in a new tab.
+// `label` is false in a list of facts, where the term gives the label. Then the
+// text is inline, in the style of the other facts.
+export function spotifyLine(spotify: StoredSpotifyArtist | undefined, label = true) {
+  if (spotify?.kind === "not-found") {
+    return html`<p class="genre-warning">Warning: no Spotify artist found. Playlists get no songs for this artist.</p>`;
+  }
+  const content =
+    spotify === undefined
+      ? label
+        ? "Spotify artist: waiting"
+        : "Waiting for the search"
+      : html`${label ? "Spotify artist: " : ""}<a href="${spotifyArtistAddress(spotify.artist.id)}" target="_blank" rel="noopener"><span
+            data-external-text>${spotify.artist.name}</span><span class="visually-hidden"> in Spotify</span></a>
+          · ${sourceText[spotify.source]}`;
+  return label ? html`<p class="matched-spotify">${content}</p>` : content;
 }

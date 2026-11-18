@@ -1,0 +1,27 @@
+{
+ "external_urls": {
+  "spotify": "https://open.spotify.com/artist/159qqlGwzE04xyqpfAwRLo"
+ },
+ "href": "https://api.spotify.com/v1/artists/159qqlGwzE04xyqpfAwRLo?locale=*",
+ "id": "159qqlGwzE04xyqpfAwRLo",
+ "images": [
+  {
+   "url": "https://i.scdn.co/image/ab6761610000e5ebcf62625795a0a8b7c24ef0fa",
+   "height": 640,
+   "width": 640
+  },
+  {
+   "url": "https://i.scdn.co/image/ab67616100005174cf62625795a0a8b7c24ef0fa",
+   "height": 320,
+   "width": 320
+  },
+  {
+   "url": "https://i.scdn.co/image/ab6761610000f178cf62625795a0a8b7c24ef0fa",
+   "height": 160,
+   "width": 160
+  }
+ ],
+ "name": "Parkway Drive",
+ "type": "artist",
+ "uri": "spotify:artist:159qqlGwzE04xyqpfAwRLo"
+}

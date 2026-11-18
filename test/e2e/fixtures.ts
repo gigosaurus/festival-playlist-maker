@@ -3,6 +3,7 @@ import { spotifyAuthoriseUrl, spotifyProfileUrl, spotifyTokenUrl } from "../../s
 import { listResponse, signedExportUrl, signedListUrl } from "../support/clashfinder.ts";
 import type { RecordedResponse } from "../support/fake-http-client.ts";
 import { musicbrainzSearchUrl, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
+import { respondWithRecordedSpotify } from "../support/spotify.ts";
 import {
   adminSpotifyUserId,
   spotifyNotOnAllowlistResponse,
@@ -46,6 +47,8 @@ export interface Spotify {
   // Prepares the fake Spotify for the next log in.
   willLogIn(account: SpotifyAccount): Promise<void>;
   willRefuseNotOnAllowlist(): Promise<void>;
+  // An access token, and each recorded artist and search in test/fixtures/spotify/.
+  willGiveRecordedArtists(): Promise<void>;
   // The browser cannot open Spotify in the tests. The fake authorisation page
   // sends the browser back to the application immediately, as Spotify does.
   answerAuthorisation(answer: SpotifyAnswer): Promise<void>;
@@ -108,6 +111,11 @@ export const test = base.extend<{
       willRefuseNotOnAllowlist: async () => {
         await testServer.respondTo("POST", spotifyTokenUrl, spotifyTokenResponse());
         await testServer.respondTo("GET", spotifyProfileUrl, spotifyNotOnAllowlistResponse);
+      },
+      willGiveRecordedArtists: async () => {
+        const responses: Promise<void>[] = [];
+        respondWithRecordedSpotify((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
+        await Promise.all(responses);
       },
       answerAuthorisation: async (answer) => {
         externalRedirects.add((url) => (url.href.startsWith(`${spotifyAuthoriseUrl}?`) ? callback(url, answer) : undefined));

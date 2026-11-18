@@ -1,0 +1,1014 @@
+{
+ "area": {
+  "name": "United States",
+  "disambiguation": "",
+  "type-id": null,
+  "sort-name": "United States",
+  "iso-3166-1-codes": [
+   "US"
+  ],
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type": null
+ },
+ "sort-name": "blink‐182",
+ "gender-id": null,
+ "end-area": null,
+ "type": "Group",
+ "isnis": [
+  "0000000123317383"
+ ],
+ "country": "US",
+ "name": "blink‐182",
+ "gender": null,
+ "life-span": {
+  "begin": "1992-08-01",
+  "ended": false,
+  "end": null
+ },
+ "id": "0743b15a-3c32-48c8-ad58-cb325350befa",
+ "relations": [
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "allmusic",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "42c2c575-b061-4768-8c99-ed17d91a179f",
+    "resource": "https://www.allmusic.com/artist/mn0000757342"
+   },
+   "begin": null
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "bandcamp",
+   "target-credit": "",
+   "url": {
+    "id": "f7ded161-d187-47c2-b2bc-c682dc3960b5",
+    "resource": "https://blink182.bandcamp.com/"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "url": {
+    "resource": "https://www.bandsintown.com/a/26335",
+    "id": "d38befa3-6ad5-4bdc-bd6b-291cb955fdf8"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "bandsintown",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "direction": "forward",
+   "target-type": "url",
+   "end": "2020-11-19",
+   "begin": null,
+   "url": {
+    "id": "82e37506-f19a-4b34-b356-0c1c1f31f591",
+    "resource": "https://www.bbc.co.uk/music/artists/0743b15a-3c32-48c8-ad58-cb325350befa"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": true,
+   "type": "BBC Music page"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "discography page",
+   "begin": null,
+   "url": {
+    "resource": "https://www.punk-lyrics.net/band/blink-182",
+    "id": "4b92a64c-364f-4768-9ede-bea65d02c19d"
+   },
+   "target-credit": "",
+   "attributes": []
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "discogs",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "19bc0f5c-c5a6-4770-9446-1b86fbae3175",
+    "resource": "https://www.discogs.com/artist/80395"
+   },
+   "target-credit": "",
+   "begin": null
+  },
+  {
+   "attributes": [],
+   "url": {
+    "resource": "https://web.archive.org/web/19981201180009/http://ccwf.cc.utexas.edu/~riemondi/blink182.htm",
+    "id": "e2190944-aa6a-498b-9a34-e85187c3dc93"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "fanpage",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "begin": null,
+   "url": {
+    "resource": "https://web.archive.org/web/19990210055925/http://www.geocities.com/SunsetStrip/Lounge/2316/blink.html",
+    "id": "467d5ea2-3550-412e-b8ca-8e0ddd10affc"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "fanpage",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null
+  },
+  {
+   "url": {
+    "resource": "https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP",
+    "id": "5fb0709b-9ced-47e9-997d-d3e55b3e5339"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "free streaming",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "free streaming",
+   "url": {
+    "resource": "https://www.deezer.com/artist/409",
+    "id": "9a5df090-30d0-4be1-8eec-e76ece415571"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+  },
+  {
+   "type": "image",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "233658ea-032c-4d2a-9eda-167e9fe28253",
+    "resource": "https://commons.wikimedia.org/wiki/File:Blink-182_2011-12-11_10.jpg"
+   },
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "IMDb",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.imdb.com/name/nm1485933/",
+    "id": "258a3307-8957-4528-bab9-dea74a10e257"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "resource": "https://www.last.fm/music/blink-182",
+    "id": "bfdaa465-5653-4de0-9431-8deffded7a01"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "last.fm"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "lyrics",
+   "begin": null,
+   "url": {
+    "id": "d21666d2-3224-4677-b7b5-c2f47a8a1327",
+    "resource": "https://genius.com/artists/Blink-182"
+   },
+   "target-credit": "",
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "id": "b8e4b99b-7112-4713-8893-fea74381f27d",
+    "resource": "https://myspace.com/blink182"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "myspace"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "official homepage",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "d07e154e-cdbb-4981-a256-796e0e33a089",
+    "resource": "https://www.blink182.com/"
+   },
+   "attributes": []
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "35b3a50f-bf0e-4309-a3b4-58eeed8cee6a",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "online community",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "4160d5ef-a3a8-441e-8874-285bcce6f0ca",
+    "resource": "http://blink182fans.livejournal.com/"
+   },
+   "target-credit": "",
+   "begin": null
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "2a60a711-1775-4e68-ac1e-363a3cfca6eb",
+    "resource": "http://id.loc.gov/authorities/names/no00015830"
+   },
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "other databases",
+   "url": {
+    "id": "5fab7500-8e19-4b73-bb53-81c1b290d773",
+    "resource": "http://musicmoz.org/Bands_and_Artists/B/blink-182/"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "bb3699b3-6ab2-4e79-a8f5-0dc897ac5541",
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb140086516"
+   },
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "2d4ed350-216c-47f0-8d42-b5142118d7e4",
+    "resource": "https://d-nb.info/gnd/3053151-2"
+   },
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "6566130d-7537-4ebc-82ff-7d7fd201c8c5",
+    "resource": "https://imvdb.com/n/blink-182"
+   },
+   "target-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "f27dfaa4-bcf4-4e37-b0b5-57f933873e7c",
+    "resource": "https://rateyourmusic.com/artist/blink_182"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "other databases",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "type": "other databases",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "resource": "https://www.musik-sammler.de/artist/5079/",
+    "id": "934e69a5-0199-46ec-8ce8-edc1c85845c2"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {},
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "9da84f4d-37f1-48a9-965e-312a5ad9ad85",
+    "resource": "https://www.spirit-of-rock.com/en/band/Blink_182"
+   },
+   "target-credit": ""
+  },
+  {
+   "attributes": [],
+   "url": {
+    "id": "19f0f0b4-09fb-484a-a2a5-5b63de776404",
+    "resource": "https://www.worldcat.org/identities/lccn-no00015830/"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "other databases",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "purchase for download",
+   "begin": null,
+   "url": {
+    "id": "eb923351-5947-4d13-a1f6-e66dd1a4f3bd",
+    "resource": "https://itunes.apple.com/us/artist/id116851"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://open.qobuz.com/artist/62549",
+    "id": "eb900d0f-dd55-486f-bb18-46c36d12746a"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "purchase for download"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "resource": "https://www.beatport.com/artist/blink-182/573401",
+    "id": "9477042e-4457-40f4-b9a9-deb5f4c18ae4"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "purchase for download"
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.qobuz.com/de-de/interpreter/-/62549",
+    "id": "bdf4e308-e319-493f-a6f2-d4e57571dc28"
+   },
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "668527be-4405-4f63-bbca-229e4dc8eea4",
+    "resource": "http://www.purevolume.com/blink182"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": true,
+   "type": "purevolume",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "direction": "forward",
+   "target-type": "url",
+   "end": "2018-06-30"
+  },
+  {
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.setlist.fm/setlists/blink182-4bd68fae.html",
+    "id": "1d322fac-7f41-4288-9efd-b67a632121b3"
+   },
+   "type": "setlistfm",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://plus.google.com/118144981832890789090",
+    "id": "fc3d8251-c347-4611-9f73-8a0d2c74c9f2"
+   },
+   "target-credit": "",
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": true,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": "2019-04-02",
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "social network",
+   "begin": null,
+   "url": {
+    "id": "e0c03b6a-9091-40cd-a301-ee325ed027de",
+    "resource": "https://twitter.com/blink182"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+  },
+  {
+   "begin": null,
+   "url": {
+    "resource": "https://www.facebook.com/blink182",
+    "id": "fd97126b-c03e-48eb-aefe-5c1e29d2bf7f"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "social network",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "source-credit": "",
+   "attribute-values": {},
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "320b85af-3640-43b7-8cfb-5150131e09ac",
+    "resource": "https://www.instagram.com/blink182/"
+   }
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "social network",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.threads.com/@blink182",
+    "id": "0104a9c0-2534-4c5e-bd4e-b97ca1cf364d"
+   },
+   "begin": null
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "e17196f6-ed25-4b07-9c0d-1cc888d58d57",
+    "resource": "https://www.tiktok.com/@blink182"
+   },
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "id": "834f9dcc-26f3-48ac-8321-6e03ab1b5fba",
+    "resource": "https://www.songkick.com/artists/479410"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "songkick"
+  },
+  {
+   "type": "soundcloud",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://soundcloud.com/blink-182",
+    "id": "dced1ec0-11bb-49e2-a7e4-5995521572b9"
+   },
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": "2022-06-08",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "ended": true,
+   "attribute-ids": {},
+   "type": "streaming",
+   "target-credit": "",
+   "url": {
+    "resource": "https://us.napster.com/artist/blink-182",
+    "id": "388d3fea-feca-4351-ac2c-596cc1449d02"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://music.amazon.com/artists/B000TDU58U",
+    "id": "9e220825-42d1-44cc-9478-931d134902d8"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "streaming"
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "streaming",
+   "target-credit": "",
+   "url": {
+    "id": "d23b309d-5205-488b-84f9-3b7d21913e3d",
+    "resource": "https://music.apple.com/gb/artist/116851"
+   },
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "streaming",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "569747c5-a84d-4bce-8c5f-c49247a47c13",
+    "resource": "https://music.apple.com/mx/artist/116851"
+   },
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "id": "1059b607-1ebf-45d7-aa17-c60e9b99e39b",
+    "resource": "https://music.apple.com/us/artist/116851"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "streaming"
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "streaming",
+   "url": {
+    "id": "eb900d0f-dd55-486f-bb18-46c36d12746a",
+    "resource": "https://open.qobuz.com/artist/62549"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://tidal.com/artist/29850",
+    "id": "0b479e11-ba3c-4a8a-8051-87af72bd79a6"
+   },
+   "target-credit": "",
+   "type": "streaming",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "streaming",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.qobuz.com/de-de/interpreter/-/62549",
+    "id": "bdf4e308-e319-493f-a6f2-d4e57571dc28"
+   },
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "ticketing",
+   "target-credit": "",
+   "url": {
+    "id": "1d329fb1-ee97-4898-a9b0-f2bbfca10044",
+    "resource": "https://www.ticketmaster.com/artist/790708"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "VIAF",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "http://viaf.org/viaf/144463619",
+    "id": "06082050-5213-4b46-8509-6363e0721335"
+   },
+   "begin": null
+  },
+  {
+   "attributes": [],
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q482477",
+    "id": "b2e9f787-20fa-49ce-8fd5-79d3a568e035"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "wikidata",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "url": {
+    "id": "af63d2cd-e411-48db-bc59-8965dd4b3a81",
+    "resource": "https://www.youtube.com/channel/UCdvlHk5SZWwr9HjUcwtu8ng"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "youtube"
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCf2WBemooP2gBBx3lrraNQw",
+    "id": "c43ef8d2-7fcd-4e5f-8991-efdfdf9aba1a"
+   },
+   "type": "youtube",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://music.youtube.com/channel/UCo23ROZAe-BZYHpzBu9630Q",
+    "id": "ca98d54f-1ce0-4a51-8946-037b643e9120"
+   },
+   "type": "youtube music",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  }
+ ],
+ "begin-area": {
+  "id": "912aa3c4-e5ee-4c88-8e74-1d3727169d69",
+  "sort-name": "Poway",
+  "type": null,
+  "name": "Poway",
+  "disambiguation": "",
+  "type-id": null
+ },
+ "ipis": [],
+ "disambiguation": "",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}

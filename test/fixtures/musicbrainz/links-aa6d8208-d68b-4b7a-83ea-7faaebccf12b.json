@@ -1,0 +1,51 @@
+{
+ "id": "aa6d8208-d68b-4b7a-83ea-7faaebccf12b",
+ "sort-name": "Bring Me the Horizon UK",
+ "isnis": [],
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "gender": null,
+ "area": {
+  "iso-3166-1-codes": [
+   "GB"
+  ],
+  "type": null,
+  "name": "United Kingdom",
+  "sort-name": "United Kingdom",
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "disambiguation": "",
+  "type-id": null
+ },
+ "name": "Bring Me the Horizon UK",
+ "ipis": [],
+ "disambiguation": "tribute",
+ "country": "GB",
+ "end-area": null,
+ "begin-area": null,
+ "relations": [
+  {
+   "url": {
+    "resource": "https://www.facebook.com/profile.php?id=61579579542224",
+    "id": "cf6f5315-c359-436b-8a51-ce70f8cbcf40"
+   },
+   "target-credit": "",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "social network",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  }
+ ],
+ "life-span": {
+  "begin": "2025-08",
+  "end": null,
+  "ended": false
+ },
+ "type": "Group",
+ "gender-id": null
+}

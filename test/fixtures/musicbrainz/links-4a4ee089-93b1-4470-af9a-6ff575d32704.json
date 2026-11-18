@@ -1,0 +1,1088 @@
+{
+ "area": {
+  "name": "United Kingdom",
+  "disambiguation": "",
+  "type-id": null,
+  "sort-name": "United Kingdom",
+  "iso-3166-1-codes": [
+   "GB"
+  ],
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "type": null
+ },
+ "sort-name": "Prodigy, The",
+ "gender-id": null,
+ "country": "GB",
+ "type": "Group",
+ "isnis": [
+  "0000000115229973"
+ ],
+ "end-area": null,
+ "name": "The Prodigy",
+ "gender": null,
+ "life-span": {
+  "end": null,
+  "ended": false,
+  "begin": "1990-10-05"
+ },
+ "id": "4a4ee089-93b1-4470-af9a-6ff575d32704",
+ "relations": [
+  {
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0000492162",
+    "id": "27f0fba6-f318-4175-b762-fab2570bd54e"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "allmusic",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "4c9338c2-e26c-4842-be93-13fad83e0741",
+    "resource": "https://theprodigy.bandcamp.com/"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "bandcamp",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "type": "bandsintown",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://www.bandsintown.com/a/1157",
+    "id": "ab445915-485b-412e-a6c8-21f2bcaa1f7a"
+   },
+   "target-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "attributes": [],
+   "url": {
+    "id": "5d631848-51eb-43d3-a87a-93b127bd8dfc",
+    "resource": "https://www.bbc.co.uk/music/artists/4a4ee089-93b1-4470-af9a-6ff575d32704"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "BBC Music page",
+   "ended": true,
+   "attribute-ids": {},
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": "2020-11-19",
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "discogs",
+   "begin": null,
+   "url": {
+    "id": "accb6546-90cf-4990-9778-c6716281fe88",
+    "resource": "https://www.discogs.com/artist/66852"
+   },
+   "target-credit": "",
+   "attributes": []
+  },
+  {
+   "type": "fanpage",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://theprodigyfanboy.com/",
+    "id": "a4da7eec-02d7-4ded-b423-18f8adcca19f"
+   },
+   "target-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "fanpage",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "f21d463b-0eb4-4b9f-9bb3-9c6f66c52c2c",
+    "resource": "https://theprodigy.info/"
+   },
+   "target-credit": "",
+   "begin": null
+  },
+  {
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "adfab6e5-4a02-4ecc-ba4d-4d0f039028c0",
+    "resource": "http://www.brainkiller.it/prodigy/"
+   },
+   "begin": null,
+   "type": "fanpage",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type": "free streaming",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://open.spotify.com/artist/4k1ELeJKT1ISyDv8JivPpB",
+    "id": "b6b5fb42-4a30-4036-8287-f26c617b135a"
+   },
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "4066062c-76bb-4499-bb72-65e9e23bb1ec",
+    "resource": "https://www.deezer.com/artist/85"
+   },
+   "type": "free streaming",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "b87af66d-4b01-42fc-b18a-15622cbbb5a3",
+    "resource": "https://www.imdb.com/name/nm1980220/"
+   },
+   "target-credit": "",
+   "type": "IMDb",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "1f171391-1f98-4f45-b191-038ec3b12395",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.muzines.co.uk/articles/the-lone-raver/1012",
+    "id": "96e8cbfe-0ebd-4b90-96bb-f334c609bf45"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "interview"
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "url": {
+    "id": "630115ba-e557-46a5-b5e6-b034bf81e306",
+    "resource": "https://www.last.fm/music/The+Prodigy"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "last.fm"
+  },
+  {
+   "type": "lyrics",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "838c97f1-35d1-4b7b-8786-7cb7304c9c6b",
+    "resource": "https://genius.com/artists/The-prodigy"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "141fdbe1-fd10-4579-821f-109282542868",
+    "resource": "https://muzikum.eu/en/the-prodigy/lyrics"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "lyrics"
+  },
+  {
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://myspace.com/theprodigy",
+    "id": "d106e827-b881-4ba0-86ae-e7701b31ed16"
+   },
+   "begin": null,
+   "type": "myspace",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "official homepage",
+   "url": {
+    "id": "e9307bde-5109-4712-9d9a-ecce891203a8",
+    "resource": "https://theprodigy.com/"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+  },
+  {
+   "attributes": [],
+   "url": {
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb13970008b",
+    "id": "668edc07-7c8c-40a2-ac2b-9a2df965f785"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "other databases",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {},
+   "type": "other databases",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "resource": "https://d-nb.info/gnd/10297361-1",
+    "id": "cb714899-f3d1-46ef-a951-2a8c56db38e6"
+   },
+   "target-credit": "",
+   "begin": null
+  },
+  {
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://imvdb.com/n/the-prodigy",
+    "id": "c426cb7b-970a-44a2-8a96-2e0a6ad1cdbd"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "other databases",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://musicmoz.org/Bands_and_Artists/P/Prodigy/",
+    "id": "8daa0f08-fd2d-4092-96a7-17b73ef860ce"
+   }
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/the-prodigy",
+    "id": "eae81f5c-988d-4944-a065-df0c6f735bd9"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "other databases"
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://www.45cat.com/artist/the-prodigy",
+    "id": "bbb2b732-a1de-4aef-b170-62f71f7563d2"
+   },
+   "target-credit": "",
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "id": "8b063004-4d76-479e-92e0-e2ee1cb5f325",
+    "resource": "https://www.musik-sammler.de/artist/the-prodigy/"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "other databases",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "other databases",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.whosampled.com/The-Prodigy/",
+    "id": "976249d0-1ea5-4692-a193-b0e6e5e826ef"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "http://www.rolldabeats.com/artist/the_prodigy",
+    "id": "dbbc7e12-1387-4f97-8830-2c9f5497c642"
+   },
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": true,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "ended": true,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "url": {
+    "resource": "https://play.google.com/store/music/artist?id=Ayoidtvwv3jchewjeahrw3vuw7i",
+    "id": "a1f2343f-3c92-4712-844f-ba874f5ee01c"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": "2020-10-12",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "purchase for download",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "2cb30802-f35a-45a2-83cf-a88c5618a7f0",
+    "resource": "https://itunes.apple.com/gb/artist/id1093102"
+   },
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "1c76a52d-5ea6-4e25-ba11-fe87986ab7aa",
+    "resource": "https://music.apple.com/gb/artist/1093102"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "url": {
+    "id": "2e0e893c-68d2-4d03-bbc2-046cebceb933",
+    "resource": "https://open.qobuz.com/artist/224109"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "purchase for download",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://uk.7digital.com/artist/the-prodigy",
+    "id": "586842d9-9653-4916-aade-d964c70247e5"
+   },
+   "target-credit": ""
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "target-credit": "",
+   "url": {
+    "id": "7426da84-e051-4225-9026-173918c00dce",
+    "resource": "https://www.beatport.com/artist/the-prodigy/12929"
+   },
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "type": "purchase for download",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "7ebcb248-c911-42e0-b121-7a3dd95fcc48",
+    "resource": "https://www.junodownload.com/artists/The+Prodigy/releases/"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "resource": "https://www.qobuz.com/us-en/interpreter/the-prodigy/224109",
+    "id": "590b2e8f-040a-4ee2-8723-d50d83b8b872"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "purchase for download",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type": "purchase for download",
+   "ended": true,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "d23a6841-c35f-42ab-8f18-09ee19fefe79",
+    "resource": "https://www.onkyomusic.com/GB/artist/the-prodigy"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "id": "1eee0603-8965-4716-be97-188e8eee693b",
+    "resource": "https://www.amazon.com/-/e/B000APP65E"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "purchase for mail-order"
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": "2018-06-30",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "ended": true,
+   "attribute-ids": {},
+   "type": "purevolume",
+   "url": {
+    "id": "c49f9940-7706-4c78-bab0-c193ae111e74",
+    "resource": "http://www.purevolume.com/theprodigy"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "id": "90790601-4367-466a-b03e-86ae2b3a0b81",
+    "resource": "https://secondhandsongs.com/artist/2051"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "secondhandsongs",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.setlist.fm/setlists/the-prodigy-23d6b0b3.html",
+    "id": "04072a56-5a40-4797-9148-76f59e6caf87"
+   },
+   "type": "setlistfm",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "social network",
+   "begin": null,
+   "url": {
+    "id": "532191cd-0044-481b-9a3e-1f95fe05f46a",
+    "resource": "https://twitter.com/the_prodigy"
+   },
+   "target-credit": "",
+   "attributes": []
+  },
+  {
+   "type": "social network",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "resource": "https://vk.ru/theprodigy",
+    "id": "56c066d1-d2cc-4e57-9cdf-b33c81bc46b0"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "73f8901b-5018-44d5-b74d-c6f6542799ac",
+    "resource": "https://www.facebook.com/theprodigyofficial"
+   },
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "id": "775ebad8-e632-42b0-b324-fbb6039affd1",
+    "resource": "https://www.instagram.com/theprodigyofficial/"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "social network"
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "url": {
+    "resource": "https://www.threads.com/@theprodigyofficial",
+    "id": "a8c69070-7895-4560-9bd6-2daebf9a26b2"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "social network"
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://www.tiktok.com/@the.prodigy.official",
+    "id": "1f19a030-21bf-47bc-a56d-b4daccc94533"
+   },
+   "target-credit": "",
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": false
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.songkick.com/artists/88480",
+    "id": "cd65d5bd-ce8a-42e6-bac3-21a48f72eedd"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "songkick"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "soundcloud",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://soundcloud.com/theprodigy",
+    "id": "817b1429-ab40-414f-88b9-9b60343487ed"
+   },
+   "attributes": []
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "streaming",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "1c76a52d-5ea6-4e25-ba11-fe87986ab7aa",
+    "resource": "https://music.apple.com/gb/artist/1093102"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://open.qobuz.com/artist/224109",
+    "id": "2e0e893c-68d2-4d03-bbc2-046cebceb933"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "streaming"
+  },
+  {
+   "type": "streaming",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "8a9321f3-e3fb-4d37-96a9-b23a4456290f",
+    "resource": "https://tidal.com/artist/14596"
+   },
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "ended": false,
+   "attribute-ids": {},
+   "type": "streaming",
+   "url": {
+    "id": "590b2e8f-040a-4ee2-8723-d50d83b8b872",
+    "resource": "https://www.qobuz.com/us-en/interpreter/the-prodigy/224109"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "vgmdb",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://vgmdb.net/artist/13393",
+    "id": "a23aead2-6111-4360-9520-7fe4e96ebd97"
+   }
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "36a5f782-a7b7-4350-94c7-172f00702987",
+    "resource": "http://viaf.org/viaf/129512468"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "VIAF",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "490b848a-e3ef-4de9-96b1-d17b0cf6282b",
+    "resource": "https://vimeo.com/theprodigy"
+   },
+   "begin": null,
+   "type": "video channel",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "video channel",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.dailymotion.com/TheProdigy-Official",
+    "id": "9e1738d5-4702-4a2b-b65d-c4d7195c796a"
+   },
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "id": "699e935f-c48c-429a-88ce-2cfee2ab2ed3",
+    "resource": "https://www.wikidata.org/wiki/Q7256860"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "wikidata"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "youtube",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UC7IZbkKDd20v6Ni_vFX63rQ",
+    "id": "5c41da7f-3442-48f9-a05b-2b7da3e57715"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+  },
+  {
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "aff2616c-9034-46e6-be8e-9c79c3c36500",
+    "resource": "https://music.youtube.com/channel/UCOEO40PfRXSKhslXNgS0H8Q"
+   },
+   "begin": null,
+   "type": "youtube music",
+   "ended": false,
+   "attribute-ids": {},
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward"
+  }
+ ],
+ "begin-area": {
+  "sort-name": "Braintree",
+  "id": "ed911a84-6a69-4dd7-881e-3e53e7fde18e",
+  "type": null,
+  "name": "Braintree",
+  "disambiguation": "",
+  "type-id": null
+ },
+ "ipis": [
+  "00177235262"
+ ],
+ "disambiguation": "UK electronic group, main member Liam Howlett",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}
