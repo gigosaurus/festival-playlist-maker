@@ -35,3 +35,14 @@ export function formatDateAndTime(time: Date): string {
 export function count(number: number, singular: string, plural: string): string {
   return `${number} ${number === 1 ? singular : plural}`;
 }
+
+const regionNames = new Intl.DisplayNames(["en-GB"], { type: "region" });
+
+// An ISO 3166-1 code as a country name, for example "GB" as "United Kingdom".
+export function formatCountry(code: string): string {
+  try {
+    return regionNames.of(code) ?? code;
+  } catch {
+    return code;
+  }
+}

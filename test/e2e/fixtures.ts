@@ -2,6 +2,7 @@ import { test as base, expect } from "@playwright/test";
 import { spotifyAuthoriseUrl, spotifyProfileUrl, spotifyTokenUrl } from "../../src/spotify-log-in.ts";
 import { listResponse, signedExportUrl, signedListUrl } from "../support/clashfinder.ts";
 import type { RecordedResponse } from "../support/fake-http-client.ts";
+import { musicbrainzSearchUrl, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
 import {
   adminSpotifyUserId,
   spotifyNotOnAllowlistResponse,
@@ -22,6 +23,12 @@ export interface Clashfinder {
   // The recorded list of pages, or a different response.
   willGiveList(response?: RecordedResponse): Promise<void>;
   willGiveLineup(page: string, response: RecordedResponse): Promise<void>;
+}
+
+export interface MusicBrainz {
+  // The genre list and each recorded search in test/fixtures/musicbrainz/.
+  willGiveRecordedResponses(): Promise<void>;
+  willGiveSearch(text: string, response: RecordedResponse): Promise<void>;
 }
 
 export interface SpotifyAccount {
@@ -61,6 +68,7 @@ export const test = base.extend<{
   spotify: Spotify;
   logIn: (account?: SpotifyAccount) => Promise<void>;
   clashfinder: Clashfinder;
+  musicBrainz: MusicBrainz;
   externalRedirects: ExternalRedirects;
   externalRequestGuard: void;
 }>({
@@ -79,6 +87,16 @@ export const test = base.extend<{
     await use({
       willGiveList: (response = listResponse) => testServer.respondTo("GET", signedListUrl, response),
       willGiveLineup: (page, response) => testServer.respondTo("GET", signedExportUrl(page), response),
+    });
+  },
+  musicBrainz: async ({ testServer }, use) => {
+    await use({
+      willGiveRecordedResponses: async () => {
+        const responses: Promise<void>[] = [];
+        respondWithRecordedMusicBrainz((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
+        await Promise.all(responses);
+      },
+      willGiveSearch: (text, response) => testServer.respondTo("GET", musicbrainzSearchUrl(text), response),
     });
   },
   spotify: async ({ testServer, externalRedirects }, use) => {

@@ -1,0 +1,277 @@
+{
+ "created": "2026-11-18T17:58:41.297Z",
+ "count": 53,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "e028fab5-39ae-4ed9-b8c2-c4344d88b171",
+   "type": "Other",
+   "type-id": "ac897045-5043-3294-969b-187360e45d86",
+   "score": 100,
+   "gender-id": "8cf3c8c8-4af9-4b53-bad4-e43c0450ba04",
+   "name": "Die drei ???",
+   "sort-name": "drei ???, Die",
+   "gender": "not applicable",
+   "country": "DE",
+   "area": {
+    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Germany",
+    "sort-name": "Germany",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "fictitious artist",
+   "life-span": {
+    "begin": "1979",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Die ???",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "Die ???",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "drei Fragezeichen, Die",
+     "name": "Die drei Fragezeichen",
+     "locale": "de",
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 4,
+     "name": "german"
+    },
+    {
+     "count": 2,
+     "name": "fictitious artist"
+    },
+    {
+     "count": 4,
+     "name": "hörspiel"
+    },
+    {
+     "count": 6,
+     "name": "audio drama"
+    },
+    {
+     "count": 4,
+     "name": "detective"
+    },
+    {
+     "count": 1,
+     "name": "audio play"
+    },
+    {
+     "count": 2,
+     "name": "fuzzy artist - series"
+    },
+    {
+     "count": -1,
+     "name": "fictitious-artist"
+    },
+    {
+     "count": 5,
+     "name": "series title as artist"
+    },
+    {
+     "count": 0,
+     "name": "006"
+    }
+   ]
+  },
+  {
+   "id": "92bc25ee-decc-4d83-9932-e1b4bd20a749",
+   "type": "Other",
+   "type-id": "ac897045-5043-3294-969b-187360e45d86",
+   "score": 88,
+   "gender-id": "8cf3c8c8-4af9-4b53-bad4-e43c0450ba04",
+   "name": "Die drei ??? Kids",
+   "sort-name": "drei ??? Kids, Die",
+   "gender": "not applicable",
+   "country": "DE",
+   "area": {
+    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Germany",
+    "sort-name": "Germany",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "fictitious artist",
+   "life-span": {
+    "begin": "2006",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "drei Fragezeichen Kids, Die",
+     "name": "Die drei Fragezeichen Kids",
+     "locale": "de",
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "fictitious-artist"
+    },
+    {
+     "count": 1,
+     "name": "fictitious artist"
+    },
+    {
+     "count": 2,
+     "name": "audio drama"
+    },
+    {
+     "count": 1,
+     "name": "hörspiel"
+    },
+    {
+     "count": 1,
+     "name": "german"
+    },
+    {
+     "count": 1,
+     "name": "fuzzy artist - series"
+    },
+    {
+     "count": 2,
+     "name": "series title as artist"
+    }
+   ]
+  },
+  {
+   "id": "265349d7-376f-4b0d-98bb-6a4791ba9f4c",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 87,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "???",
+   "sort-name": "???",
+   "gender": "male",
+   "area": {
+    "id": "c3cc624e-b963-49cf-ad0b-e318cb341963",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Montréal",
+    "sort-name": "Montréal",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Canadian chiptune",
+   "life-span": {
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "QQQ",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "QQQ",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Schwartz",
+     "name": "Schwartz",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "??? & The Babaji Voodoo Lovers",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "??? & The Babaji Voodoo Lovers",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "4748b32e-3ffd-4b8f-9000-f5c8fe7b92c9",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 85,
+   "name": "???",
+   "sort-name": "???",
+   "country": "JP",
+   "area": {
+    "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Japan",
+    "sort-name": "Japan",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Japanese visual kei",
+   "life-span": {
+    "begin": "2003-10",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "？？？ -はてな-",
+     "name": "？？？ -はてな-",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "rock"
+    },
+    {
+     "count": 1,
+     "name": "visual kei"
+    },
+    {
+     "count": 1,
+     "name": "misshitsu kei"
+    }
+   ]
+  },
+  {
+   "id": "5f3589f8-4992-4d14-959e-b4dd554cddf1",
+   "score": 84,
+   "name": "???",
+   "sort-name": "???",
+   "disambiguation": "worked with al.divino",
+   "life-span": {
+    "ended": null
+   }
+  }
+ ]
+}

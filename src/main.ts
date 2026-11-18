@@ -23,6 +23,7 @@ const settings: Settings = {
   spotifyRedirectUri: process.env.SPOTIFY_REDIRECT_URI?.trim() || `http://127.0.0.1:${port}/log-in/callback`,
   clashfinderUsername: requiredSetting("CLASHFINDER_USERNAME"),
   clashfinderPrivateKey: requiredSetting("CLASHFINDER_PRIVATE_KEY"),
+  musicbrainzContact: requiredSetting("MUSICBRAINZ_CONTACT"),
 };
 
 const database = openDatabase(databasePath);

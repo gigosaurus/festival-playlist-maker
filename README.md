@@ -4,13 +4,14 @@ Festival Playlist Maker makes a Spotify playlist from the lineup of a festival. 
 
 ## Configuration
 
-The application gets its Spotify and Clashfinder settings from a `.env` file in the repository root. Git and Docker do not copy this file. Make the file on each computer that runs the application:
+The application gets its Spotify, Clashfinder and MusicBrainz settings from a `.env` file in the repository root. Git and Docker do not copy this file. Make the file on each computer that runs the application:
 
 ```sh
 SPOTIFY_CLIENT_ID=<client ID>
 ADMIN_SPOTIFY_USER_ID=<Spotify user ID>
 CLASHFINDER_USERNAME=<Clashfinder username>
 CLASHFINDER_PRIVATE_KEY=<Clashfinder private key>
+MUSICBRAINZ_CONTACT=<email address or web address>
 ```
 
 |Variable|Value|
@@ -20,6 +21,7 @@ CLASHFINDER_PRIVATE_KEY=<Clashfinder private key>
 |`SPOTIFY_REDIRECT_URI`|Optional. The address to which Spotify sends the browser after the log in. The default is `http://127.0.0.1:3000/log-in/callback`. On a server, use the HTTPS address of the application, for example `https://playlists.your-domain/log-in/callback`.|
 |`CLASHFINDER_USERNAME`|The username of the Clashfinder account of the admin. It is the username that you use to log in at clashfinder.com. The account password is not necessary.|
 |`CLASHFINDER_PRIVATE_KEY`|The private key of the Clashfinder account. Log in to Clashfinder. Then open clashfinder.com/pages/api. The page shows the private key.|
+|`MUSICBRAINZ_CONTACT`|An email address or a web address of the admin. Each MusicBrainz request sends it in the User-Agent header, as the MusicBrainz API rules require. MusicBrainz uses it only to contact you when the application causes a problem. MusicBrainz can block an application that sends no contact.|
 
 Add the redirect URI to the Spotify developer app, at *Settings → Basic Information → Redirect URIs*. The two values must be the same text. Spotify accepts an HTTP address only for a loopback address. Use `127.0.0.1`, not `localhost`.
 
@@ -74,4 +76,4 @@ The test run has three parts:
 
 No test sends a request to an external service. The application gets its HTTP client and its clock by injection. The tests use `FakeHttpClient` and `FakeClock` from `test/support/`. In module tests, the global `fetch` function fails. In Playwright tests, the browser can load files only from the test server.
 
-The Clashfinder tests use recorded Clashfinder responses in `test/fixtures/clashfinder/`. When the Clashfinder API changes, record the responses again. The README in that directory tells you how.
+The Clashfinder tests use recorded Clashfinder responses in `test/fixtures/clashfinder/`. When the Clashfinder API changes, record the responses again. The README in that directory tells you how. The artist match tests use recorded MusicBrainz responses in `test/fixtures/musicbrainz/` in the same way.

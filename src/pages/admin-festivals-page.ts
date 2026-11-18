@@ -8,7 +8,13 @@ import { layout } from "./layout.ts";
 // The result of the last action of the admin on this page.
 export type LastAction = { action: "added" | "got-lineup"; festival: AdminFestival };
 
-export function adminFestivalsPage(user: User, festivals: AdminFestival[], lastAction: LastAction | undefined) {
+// unmatchedNames: for each festival ID, the number of current lineup names without an artist match.
+export function adminFestivalsPage(
+  user: User,
+  festivals: AdminFestival[],
+  lastAction: LastAction | undefined,
+  unmatchedNames: ReadonlyMap<number, number>,
+) {
   return layout({
     title: "Manage festivals",
     description: "Add festivals and get their lineups from the lineup source.",
@@ -17,7 +23,7 @@ export function adminFestivalsPage(user: User, festivals: AdminFestival[], lastA
       <h1>Manage festivals</h1>
       ${lastAction ? lastActionNotice(lastAction) : ""}
       <p><a class="button" href="/admin/festivals/new">Add a festival</a></p>
-      ${festivals.length === 0 ? emptyState() : festivalList(festivals)}
+      ${festivals.length === 0 ? emptyState() : festivalList(festivals, unmatchedNames)}
     `,
   });
 }
@@ -30,15 +36,15 @@ function emptyState() {
   `;
 }
 
-function festivalList(festivals: AdminFestival[]) {
+function festivalList(festivals: AdminFestival[], unmatchedNames: ReadonlyMap<number, number>) {
   return html`
     <ul class="admin-festival-list">
-      ${festivals.map((festival) => html`<li>${festivalItem(festival)}</li>`)}
+      ${festivals.map((festival) => html`<li>${festivalItem(festival, unmatchedNames.get(festival.id) ?? 0)}</li>`)}
     </ul>
   `;
 }
 
-function festivalItem(festival: AdminFestival) {
+function festivalItem(festival: AdminFestival, unmatched: number) {
   const title = festivalTitle(festival);
   const source = festival.lineupSource;
   return html`
@@ -60,6 +66,12 @@ function festivalItem(festival: AdminFestival) {
           <dt>Lineup</dt>
           <dd>${lineupState(festival)}</dd>
         </div>
+        ${festival.lineupNames > 0
+          ? html`<div>
+              <dt>Artist matches</dt>
+              <dd>${artistMatchState(festival, unmatched)}</dd>
+            </div>`
+          : ""}
         <div>
           <dt>Expected genres</dt>
           <dd data-external-text>${festival.expectedGenres.join(", ")}</dd>
@@ -79,6 +91,14 @@ function festivalItem(festival: AdminFestival) {
 function lineupState(festival: AdminFestival) {
   if (festival.lineupUpdatedAt === undefined) return "No lineup";
   return `${count(festival.lineupNames, "lineup name", "lineup names")}, from ${formatDateAndTime(festival.lineupUpdatedAt)}`;
+}
+
+function artistMatchState(festival: AdminFestival, unmatched: number) {
+  const link = (text: string) =>
+    html`<a href="/admin/festivals/${festival.id}/artist-matches">${text}<span class="visually-hidden"> for
+      <span data-external-text>${festivalTitle(festival)}</span></span></a>`;
+  if (unmatched === 0) return html`Each lineup name has an artist match. ${link("Show the artist matches")}`;
+  return html`${count(unmatched, "lineup name has", "lineup names have")} no artist match. ${link("Match the artists")}`;
 }
 
 // The last attempt failed. The festival keeps the lineup from before.

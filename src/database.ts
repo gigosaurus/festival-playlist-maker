@@ -64,6 +64,24 @@ const migrations: readonly string[] = [
     end_time TEXT
   ) STRICT;
   CREATE INDEX lineup_time_name ON lineup_time (lineup_name_id);`,
+  // Artist matches (#7). A match belongs to the lineup name text, so it has no
+  // festival. name_key is the text in lowercase with single spaces (nameKey in
+  // artist-matches.ts). musicbrainz_id and artist are NULL for "no match".
+  // artist: the MusicBrainz artist as JSON, as the admin saw it at the match.
+  // musicbrainz_search: the last search result for each text, as JSON, so that
+  // a page shows the possible artists without a new request.
+  `CREATE TABLE artist_match (
+    name_key TEXT PRIMARY KEY,
+    musicbrainz_id TEXT,
+    artist TEXT,
+    matched_at TEXT NOT NULL,
+    CHECK ((musicbrainz_id IS NULL) = (artist IS NULL))
+  ) STRICT;
+  CREATE TABLE musicbrainz_search (
+    search_key TEXT PRIMARY KEY,
+    artists TEXT NOT NULL,
+    searched_at TEXT NOT NULL
+  ) STRICT;`,
 ];
 
 export function openDatabase(path: string): Database {

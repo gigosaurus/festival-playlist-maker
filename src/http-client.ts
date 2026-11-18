@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import type { Clock } from "./clock.ts";
 import type { Settings } from "./settings.ts";
 
@@ -23,6 +24,22 @@ export const clashfinderCrawlDelay = 10_000;
 // 2027, API requests will be limited to 10 per user or IP address in 5 minutes."
 export const clashfinderRequestLimit = { requests: 10, period: 5 * 60_000 };
 
+export const musicbrainzOrigin = "https://musicbrainz.org";
+
+// musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting: "an average of one request
+// per second". The pause starts at the end of each response, so the average is lower.
+export const musicbrainzRequestDelay = 1_000;
+
+const applicationVersion = (
+  JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8")) as { version: string }
+).version;
+
+// MusicBrainz blocks a client that has no meaningful User-Agent. The format is
+// "Application name/version ( contact )".
+export function musicbrainzUserAgent(settings: Settings): string {
+  return `FestivalPlaylistMaker/${applicationVersion} ( ${settings.musicbrainzContact} )`;
+}
+
 // The request limit of a service stopped a request before the application sent it.
 export class RequestLimitError extends Error {
   readonly retryAt: Date;
@@ -35,13 +52,22 @@ export class RequestLimitError extends Error {
 }
 
 // Applies the rules of each service to the requests that go through `transport`.
-// Later changes add the rules of MusicBrainz, setlist.fm and Spotify.
+// Later changes add the rules of setlist.fm and Spotify.
 export function withServiceRules(transport: HttpClient, settings: Settings, clock: Clock): HttpClient {
-  const clashfinderQueue = createPacedQueue(clock, clashfinderCrawlDelay, clashfinderRequestLimit);
+  const clashfinderQueue = createPacedQueue(clock, clashfinderCrawlDelay, { service: "Clashfinder", ...clashfinderRequestLimit });
+  const musicbrainzQueue = createPacedQueue(clock, musicbrainzRequestDelay);
   return {
     send(request) {
-      if (new URL(request.url).origin !== clashfinderOrigin) return transport.send(request);
-      return clashfinderQueue(() => transport.send(signClashfinderRequest(request, settings)));
+      const origin = new URL(request.url).origin;
+      if (origin === clashfinderOrigin) return clashfinderQueue(() => transport.send(signClashfinderRequest(request, settings)));
+      if (origin === musicbrainzOrigin) {
+        return musicbrainzQueue(() => {
+          const identified = new Request(request);
+          identified.headers.set("user-agent", musicbrainzUserAgent(settings));
+          return transport.send(identified);
+        });
+      }
+      return transport.send(request);
     },
   };
 }
@@ -67,7 +93,7 @@ export function signClashfinderRequest(request: Request, settings: Settings): Re
 function createPacedQueue(
   clock: Clock,
   delay: number,
-  limit: { requests: number; period: number },
+  limit: { service: string; requests: number; period: number } = { service: "", requests: Infinity, period: 0 },
 ): (send: () => Promise<Response>) => Promise<Response> {
   let queue: Promise<unknown> = Promise.resolve();
   let lastEnd: number | undefined;
@@ -81,7 +107,7 @@ function createPacedQueue(
         const retryAt = new Date(starts[0]! + limit.period);
         const minutes = Math.ceil((retryAt.getTime() - now) / 60_000);
         throw new RequestLimitError(
-          `The application sends a maximum of ${limit.requests} requests to Clashfinder in ${limit.period / 60_000} minutes. Try again in ${minutes} ${minutes === 1 ? "minute" : "minutes"}.`,
+          `The application sends a maximum of ${limit.requests} requests to ${limit.service} in ${limit.period / 60_000} minutes. Try again in ${minutes} ${minutes === 1 ? "minute" : "minutes"}.`,
           retryAt,
         );
       }

@@ -3,6 +3,16 @@ import { join } from "node:path";
 import { Hono, type Context } from "hono";
 import { deleteCookie, getCookie, setCookie } from "hono/cookie";
 import { csrf } from "hono/csrf";
+import {
+  createArtistSearchQueue,
+  festivalArtistMatches,
+  festivalLineupName,
+  findArtistMatch,
+  saveArtistMatch,
+  storedSearch,
+  storeSearch,
+  type ArtistChoice,
+} from "./artist-matches.ts";
 import { createClashfinder } from "./clashfinder.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
@@ -10,6 +20,9 @@ import { readFestivalForm, searchDates, validateFestival, type FestivalFormValue
 import { addFestival, findFestivalForAdmin, listFestivalsForAdmin, listPublishedFestivals } from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
 import { getFestivalLineup } from "./lineups.ts";
+import { createMusicBrainz } from "./musicbrainz.ts";
+import { artistMatchPage, type ArtistMatchPageState } from "./pages/artist-match-page.ts";
+import { artistMatchesPage } from "./pages/artist-matches-page.ts";
 import { addFestivalPage, type AddFestivalPageState } from "./pages/add-festival-page.ts";
 import { adminFestivalsPage, type LastAction } from "./pages/admin-festivals-page.ts";
 import { adminOnlyPage } from "./pages/admin-only-page.ts";
@@ -55,6 +68,8 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   const app = new Hono<Environment>();
   const httpClient = withServiceRules(transport, settings, clock);
   const clashfinder = createClashfinder(httpClient, clock);
+  const musicBrainz = createMusicBrainz(httpClient);
+  const artistSearches = createArtistSearchQueue(database, musicBrainz, clock);
   const sessions = createSessions(database, clock, settings);
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
@@ -159,7 +174,10 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
 
   app.get("/admin/festivals", (context) => {
     const festivals = listFestivalsForAdmin(database);
-    return context.html(adminFestivalsPage(context.var.user!, festivals, readLastAction(context.req.query(), festivals)));
+    const unmatched = new Map(
+      festivals.map((festival) => [festival.id, festivalArtistMatches(database, festival.id).filter((name) => !name.match).length]),
+    );
+    return context.html(adminFestivalsPage(context.var.user!, festivals, readLastAction(context.req.query(), festivals), unmatched));
   });
 
   // The search is a GET request, so that Back, refresh and the address show the same results.
@@ -183,7 +201,7 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       const problems = { name: `${festival.name} ${festival.year} is already on the festival list. Enter a different name or year.` };
       return context.html(addFestivalPage(context.var.user!, await formState(values, problems, true)), 400);
     }
-    await getFestivalLineup(database, clashfinder, clock, added.id);
+    await getLineupAndSearch(added.id);
     return context.redirect(`/admin/festivals?added=${added.id}`, 303);
   });
 
@@ -192,8 +210,64 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     if (!Number.isSafeInteger(id) || findFestivalForAdmin(database, id) === undefined) {
       return context.html(notFoundPage(context.var.user!), 404);
     }
-    await getFestivalLineup(database, clashfinder, clock, id);
+    await getLineupAndSearch(id);
     return context.redirect(`/admin/festivals?lineup=${id}`, 303);
+  });
+
+  app.get("/admin/festivals/:id/artist-matches", (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    let names = festivalArtistMatches(database, festival.id);
+    // Opening the page starts the searches that are not complete, except after a failure.
+    // After a failure, the admin starts them again with "Search again".
+    const queue = artistSearches.state();
+    if (!queue.running && queue.problem === undefined && names.some((name) => !name.match && !name.search)) {
+      artistSearches.searchFestival(festival.id);
+      names = festivalArtistMatches(database, festival.id);
+    }
+    const savedId = Number(context.req.query("saved"));
+    const saved = Number.isSafeInteger(savedId) ? festivalLineupName(database, festival.id, savedId) : undefined;
+    return context.html(
+      artistMatchesPage(context.var.user!, { festival, names, queue: artistSearches.state(), ...(saved ? { saved } : {}) }),
+    );
+  });
+
+  app.post("/admin/festivals/:id/artist-matches/search", (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    artistSearches.searchFestival(festival.id);
+    return context.redirect(`/admin/festivals/${festival.id}/artist-matches`, 303);
+  });
+
+  // A search with a different text is a GET request, so that Back, refresh and the address show the same results.
+  app.get("/admin/festivals/:id/artist-matches/:lineupNameId", async (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    const name = festival && festivalLineupName(database, festival.id, Number(context.req.param("lineupNameId")));
+    if (festival === undefined || name === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const text = context.req.query("search")?.replace(/\s+/g, " ").trim() || name.name;
+    const fresh = context.req.query("search") !== undefined;
+    return context.html(artistMatchPage(context.var.user!, { festival, name, searchText: text, search: await search(text, fresh) }));
+  });
+
+  app.post("/admin/festivals/:id/artist-matches", async (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    const form = await context.req.parseBody();
+    const name = festival && festivalLineupName(database, festival.id, Number(form.lineupName));
+    if (festival === undefined || name === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const text = typeof form.search === "string" && form.search.trim() !== "" ? form.search.trim() : name.name;
+    const choice = readChoice(name.name, text, form.choice);
+    if (choice === undefined) {
+      const state: ArtistMatchPageState = {
+        festival,
+        name,
+        searchText: text,
+        search: await search(text, false),
+        problem: "Choose an artist or “No match”.",
+      };
+      return context.html(artistMatchPage(context.var.user!, state), 400);
+    }
+    saveArtistMatch(database, clock, name.name, choice);
+    return context.redirect(`/admin/festivals/${festival.id}/artist-matches?saved=${name.lineupNameId}`, 303);
   });
 
   app.get("/", (context) => context.html(festivalsPage(context.var.user!, listPublishedFestivals(database))));
@@ -201,6 +275,32 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   app.notFound((context) => context.html(notFoundPage(context.var.user!), 404));
 
   return app;
+
+  // After a new lineup, the searches for the new names start in the background.
+  async function getLineupAndSearch(festivalId: number): Promise<void> {
+    const result = await getFestivalLineup(database, clashfinder, clock, festivalId);
+    if (result.outcome === "got") artistSearches.searchFestival(festivalId);
+  }
+
+  // The stored search for a text, or a new search when there is none or when `fresh` is true.
+  async function search(text: string, fresh: boolean): Promise<ArtistMatchPageState["search"]> {
+    const stored = fresh ? undefined : storedSearch(database, text);
+    if (stored !== undefined) return { outcome: "found", search: stored };
+    const result = await musicBrainz.searchArtists(text);
+    if (result.outcome === "failed") return result;
+    return { outcome: "found", search: storeSearch(database, clock, text, result.artists) };
+  }
+
+  // The chosen artist comes from the stored search, so that the form cannot save
+  // artist data that MusicBrainz did not give. The current match is also a choice.
+  function readChoice(name: string, text: string, value: unknown): ArtistChoice | undefined {
+    if (value === "no-match") return { kind: "no-match" };
+    if (typeof value !== "string") return undefined;
+    const current = findArtistMatch(database, name);
+    if (current?.kind === "artist" && current.artist.id === value) return { kind: "artist", artist: current.artist };
+    const artist = storedSearch(database, text)?.artists.find((each) => each.id === value);
+    return artist === undefined ? undefined : { kind: "artist", artist };
+  }
 
   // The search uses the search text, or the festival name when the search text is empty.
   // After the first search, the list of pages comes from the cache of the Clashfinder module.

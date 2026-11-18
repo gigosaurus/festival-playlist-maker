@@ -16,6 +16,7 @@
   --colour-action-hover: #85103f;
   --colour-problem: #b42318;
   --colour-success: #1e7b4a;
+  --colour-warning: #94510a;
   --colour-selected: #f9eef2;
   --colour-badge: #efe8df;
 
@@ -262,6 +263,15 @@ a.button {
 /* A confirmation after a successful action. */
 .notice-success {
   border-left-color: var(--colour-success);
+}
+
+/* A completed action that the user must check, for example a match with a genre warning. */
+.notice-warning {
+  border-left-color: var(--colour-warning);
+}
+
+.notice h2:last-child {
+  margin-bottom: 0;
 }
 
 .error-summary ul {
@@ -556,6 +566,114 @@ a.button {
 .choice-link {
   margin: 0.25rem 0 0;
   font-size: 0.9375rem;
+}
+
+/* Admin: artist matches */
+.match-section {
+  margin-top: 2.5rem;
+}
+
+.search-progress {
+  color: var(--colour-muted);
+}
+
+.match-list,
+.matched-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+/* One lineup name without an artist match. A rule separates the names, because
+   the choices in each name already have panels. */
+.match-list > li {
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--colour-rule);
+}
+
+.match-item {
+  max-width: 40rem;
+}
+
+.match-item-heading {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.match-choices {
+  margin-bottom: 1rem;
+}
+
+/* The possible artists after the proposal. Closed by default, without animation. */
+.more-choices {
+  margin-top: 0.5rem;
+}
+
+.more-choices summary {
+  width: fit-content;
+  padding: 0.25rem 0;
+  color: var(--colour-link);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.more-choices[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.match-item-link {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+}
+
+/* A genre warning: the text says "Warning", so the colour is not the only sign. */
+.genre-warning {
+  margin: 0.125rem 0 0;
+  color: var(--colour-warning);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+/* The artist matches: one row for each lineup name. */
+.matched-list {
+  border-top: 1px solid var(--colour-rule);
+}
+
+.matched-list > li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--colour-rule);
+}
+
+.matched-name {
+  min-width: 0;
+  flex: 1 1 20rem;
+}
+
+.matched-name p {
+  margin: 0;
+}
+
+.matched-lineup-name {
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.matched-artist {
+  color: var(--colour-muted);
+  font-size: 0.9375rem;
+  overflow-wrap: anywhere;
+}
+
+.match-search {
+  max-width: 40rem;
 }
 
 /* Festival list (temporary, see #9) */

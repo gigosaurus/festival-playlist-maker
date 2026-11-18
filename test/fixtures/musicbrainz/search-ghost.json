@@ -1,0 +1,413 @@
+{
+ "created": "2026-11-18T17:59:16.830Z",
+ "count": 2510,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "2bcf2e02-5bc3-4c76-bf76-41126cb11444",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Ghost",
+   "sort-name": "Ghost",
+   "country": "SE",
+   "area": {
+    "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Sweden",
+    "sort-name": "Sweden",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "fb3459e9-3ebe-448a-8395-f3abfc0306df",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Linköping",
+    "sort-name": "Linköping",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Swedish metal band",
+   "isnis": [
+    "0000000471108908"
+   ],
+   "life-span": {
+    "begin": "2008",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "고스트",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "고스트",
+     "locale": "ko",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "ゴースト",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "ゴースト",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Ghost B.C.",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "Ghost B.C.",
+     "locale": "en_US",
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": "2013-02-05",
+     "end-date": "2015"
+    }
+   ],
+   "tags": [
+    {
+     "count": 3,
+     "name": "rock"
+    },
+    {
+     "count": 6,
+     "name": "progressive rock"
+    },
+    {
+     "count": 16,
+     "name": "heavy metal"
+    },
+    {
+     "count": 2,
+     "name": "metal"
+    },
+    {
+     "count": 4,
+     "name": "doom metal"
+    },
+    {
+     "count": 11,
+     "name": "hard rock"
+    },
+    {
+     "count": 4,
+     "name": "psychedelic rock"
+    },
+    {
+     "count": 2,
+     "name": "psychedelic"
+    },
+    {
+     "count": 2,
+     "name": "pop rock"
+    },
+    {
+     "count": 7,
+     "name": "occult rock"
+    },
+    {
+     "count": -1,
+     "name": "suécia"
+    }
+   ]
+  },
+  {
+   "id": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 88,
+   "name": "Ghost",
+   "sort-name": "Ghost",
+   "country": "JP",
+   "area": {
+    "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Japan",
+    "sort-name": "Japan",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "Tokyo",
+    "sort-name": "Tokyo",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Japanese psych rock",
+   "isnis": [
+    "0000000098353760"
+   ],
+   "life-span": {
+    "begin": "1984",
+    "end": "2014-08-03",
+    "ended": true
+   },
+   "aliases": [
+    {
+     "sort-name": "The Ghost",
+     "name": "The Ghost",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "alternative rock"
+    },
+    {
+     "count": 1,
+     "name": "indie rock"
+    },
+    {
+     "count": 2,
+     "name": "psychedelic rock"
+    },
+    {
+     "count": 1,
+     "name": "psychedelic"
+    },
+    {
+     "count": 2,
+     "name": "experimental rock"
+    },
+    {
+     "count": 1,
+     "name": "rock and indie"
+    }
+   ]
+  },
+  {
+   "id": "3baf9bc6-086c-4af5-a609-817a9733ed60",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 86,
+   "name": "GHOST",
+   "sort-name": "GHOST",
+   "area": {
+    "id": "8c2196d9-b7be-4051-90d1-ac81895355f1",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "Illinois",
+    "sort-name": "Illinois",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "GHOST AND PALS",
+   "life-span": {
+    "begin": "1997-11-15",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "ghostieP",
+     "name": "ghostieP",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Marz Mitzi",
+     "name": "Marz Mitzi",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "ghostie",
+     "name": "ghostie",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "GHOST and Pals",
+     "name": "GHOST and Pals",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 6,
+     "name": "vocaloid"
+    },
+    {
+     "count": 1,
+     "name": "_add works"
+    }
+   ]
+  },
+  {
+   "id": "47c108ae-faa7-453f-90bb-65ccef0213a7",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 84,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Ghost",
+   "sort-name": "Ghost",
+   "gender": "male",
+   "country": "JM",
+   "area": {
+    "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Jamaica",
+    "sort-name": "Jamaica",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "reggae",
+   "life-span": {
+    "begin": "1974",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Carlton Hilton",
+     "name": "Carlton Hilton",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "6c0143f4-f950-4608-8572-6ebefc2a37c9",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 84,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "SpaceGhostPurrp",
+   "sort-name": "SpaceGhostPurrp",
+   "gender": "male",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "4a9aeb42-3763-4234-8fb8-1167ac1dfdfe",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Miami",
+    "sort-name": "Miami",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "US rapper, producer",
+   "isnis": [
+    "0000000379032285"
+   ],
+   "life-span": {
+    "begin": "1991-04-01",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Spaceghostpurp",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "Spaceghostpurp",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Space Ghost Purp",
+     "name": "Space Ghost Purp",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "SpaceGhost Purrp",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "SpaceGhost Purrp",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "hip hop"
+    },
+    {
+     "count": 1,
+     "name": "gangsta rap"
+    },
+    {
+     "count": 1,
+     "name": "experimental hip hop"
+    },
+    {
+     "count": 1,
+     "name": "chopped and screwed"
+    },
+    {
+     "count": 1,
+     "name": "memphis rap"
+    },
+    {
+     "count": 2,
+     "name": "trap"
+    },
+    {
+     "count": 3,
+     "name": "cloud rap"
+    },
+    {
+     "count": 1,
+     "name": "phonk"
+    },
+    {
+     "count": 0,
+     "name": "_private tag 1"
+    }
+   ]
+  }
+ ]
+}

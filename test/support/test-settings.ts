@@ -10,6 +10,7 @@ export function testSettings(origin = "http://localhost:3100"): Settings {
     spotifyRedirectUri: `${origin}/log-in/callback`,
     clashfinderUsername: "test-clashfinder-user",
     clashfinderPrivateKey: "test-clashfinder-private-key",
+    musicbrainzContact: "admin@festival-playlist-maker.test",
   };
 }
 

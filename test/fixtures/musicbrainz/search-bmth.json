@@ -1,0 +1,277 @@
+{
+ "created": "2026-11-18T17:59:18.884Z",
+ "count": 6,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Bring Me the Horizon",
+   "sort-name": "Bring Me the Horizon",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "3ce737cb-f5bb-403d-a98a-e0602670229f",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Sheffield",
+    "sort-name": "Sheffield",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000122868773"
+   ],
+   "life-span": {
+    "begin": "2004-03",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "BMTHchannel",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTHchannel",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "BMTHOfficialVEVO",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTHOfficialVEVO",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "BMTH",
+     "name": "BMTH",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "rock"
+    },
+    {
+     "count": 2,
+     "name": "electronic"
+    },
+    {
+     "count": 1,
+     "name": "pop"
+    },
+    {
+     "count": 13,
+     "name": "alternative rock"
+    },
+    {
+     "count": 1,
+     "name": "drum and bass"
+    },
+    {
+     "count": 1,
+     "name": "heavy metal"
+    },
+    {
+     "count": 1,
+     "name": "house"
+    },
+    {
+     "count": 1,
+     "name": "metal"
+    },
+    {
+     "count": 19,
+     "name": "metalcore"
+    },
+    {
+     "count": 1,
+     "name": "death metal"
+    },
+    {
+     "count": 1,
+     "name": "hard rock"
+    },
+    {
+     "count": 2,
+     "name": "nu metal"
+    },
+    {
+     "count": 4,
+     "name": "emo"
+    },
+    {
+     "count": 2,
+     "name": "screamo"
+    },
+    {
+     "count": 2,
+     "name": "psychedelic rock"
+    },
+    {
+     "count": 10,
+     "name": "alternative metal"
+    },
+    {
+     "count": 7,
+     "name": "pop rock"
+    },
+    {
+     "count": 7,
+     "name": "post-hardcore"
+    },
+    {
+     "count": 10,
+     "name": "deathcore"
+    },
+    {
+     "count": -1,
+     "name": "alternative hardcore"
+    },
+    {
+     "count": 1,
+     "name": "electronic rock"
+    },
+    {
+     "count": 4,
+     "name": "melodic metalcore"
+    },
+    {
+     "count": 1,
+     "name": "alternative/indie rock"
+    }
+   ]
+  },
+  {
+   "id": "aa6d8208-d68b-4b7a-83ea-7faaebccf12b",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 84,
+   "name": "Bring Me the Horizon UK",
+   "sort-name": "Bring Me the Horizon UK",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "tribute",
+   "life-span": {
+    "begin": "2025-08",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "BMTH UK",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTH UK",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "22a68b44-ad42-4692-875d-38b4279a22b7",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 61,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "John Jones",
+   "sort-name": "Jones, John",
+   "gender": "male",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "BMTH touring guitarist",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "c2b723be-beea-480b-80f8-25217ab62009",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 58,
+   "name": "Robin Urbino",
+   "sort-name": "Urbino, Robin",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Ex-BMTH touring guitarist",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "99b7619c-2079-43dc-8e55-b568dcbb0c7a",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 58,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Dean Rowbotham",
+   "sort-name": "Rowbotham, Dean",
+   "gender": "male",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Ex-BMTH touring guitarist",
+   "life-span": {
+    "ended": null
+   }
+  }
+ ]
+}

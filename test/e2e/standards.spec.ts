@@ -10,7 +10,8 @@
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { download2027Response, incorrectKeyResponse, unknownUserResponse } from "../support/clashfinder.ts";
-import { expect, test, testAdmin, testUser, type Clashfinder } from "./fixtures.ts";
+import { busyResponse } from "../support/musicbrainz.ts";
+import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz } from "./fixtures.ts";
 
 interface StandardsPage {
   name: string;
@@ -18,7 +19,7 @@ interface StandardsPage {
   // The user that the test logs in before it opens the page. No user: the test does not log in.
   user?: typeof testUser;
   // Prepares the state of the page, after the log in.
-  setUp?: (page: Page, clashfinder: Clashfinder) => Promise<void>;
+  setUp?: (page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz) => Promise<void>;
 }
 
 const downloadSearch =
@@ -33,6 +34,21 @@ async function addDownload(page: Page, clashfinder: Clashfinder, lineup: typeof 
   await page.getByRole("button", { name: "Add the festival" }).click();
   await expect(page).toHaveURL(/added=/);
 }
+
+// Adds Download 2027 with its lineup, and waits for the MusicBrainz searches of its 10 names.
+async function addDownloadAndSearch(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz): Promise<void> {
+  await musicBrainz.willGiveRecordedResponses();
+  await addDownload(page, clashfinder, download2027Response);
+  await page.goto(artistMatches);
+  await expect(async () => {
+    await page.reload();
+    await expect(page.getByText("Waiting for the MusicBrainz search.")).toHaveCount(0);
+  }).toPass();
+}
+
+const artistMatches = "/admin/festivals/1/artist-matches";
+// The lineup name IDs come from the order of the names in the Clashfinder export.
+const theProdigy = 8;
 
 const pages: StandardsPage[] = [
   { name: "Log in page", path: "/log-in" },
@@ -70,6 +86,43 @@ const pages: StandardsPage[] = [
     setUp: (_page, clashfinder) => clashfinder.willGiveList(),
   },
   {
+    name: "Artist matches, searches complete",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: addDownloadAndSearch,
+  },
+  {
+    name: "Artist matches, saved with a genre warning",
+    path: `${artistMatches}?saved=${theProdigy}`,
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz) => {
+      await addDownloadAndSearch(page, clashfinder, musicBrainz);
+      await page.getByRole("button", { name: "Save the match for The Prodigy" }).click();
+      await expect(page.getByText("Warning: none of the expected genres").first()).toBeVisible();
+    },
+  },
+  {
+    name: "Artist matches, search stopped",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz) => {
+      await musicBrainz.willGiveRecordedResponses();
+      await musicBrainz.willGiveSearch("???", busyResponse);
+      await addDownload(page, clashfinder, download2027Response);
+      await page.goto(artistMatches);
+      await expect(async () => {
+        await page.reload();
+        await expect(page.getByRole("button", { name: "Search again" })).toBeVisible();
+      }).toPass();
+    },
+  },
+  {
+    name: "Artist match for one name",
+    path: `${artistMatches}/${theProdigy}?search=Ghost`,
+    user: testAdmin,
+    setUp: addDownloadAndSearch,
+  },
+  {
     name: "Add a festival, search failed",
     path: downloadSearch,
     user: testAdmin,
@@ -93,9 +146,9 @@ const contraction =
 for (const { name, path, user, setUp } of pages) {
   test.describe(name, () => {
     if (user || setUp) {
-      test.beforeEach(async ({ logIn, page, clashfinder }) => {
+      test.beforeEach(async ({ logIn, page, clashfinder, musicBrainz }) => {
         if (user) await logIn(user);
-        if (setUp) await setUp(page, clashfinder);
+        if (setUp) await setUp(page, clashfinder, musicBrainz);
       });
     }
 
