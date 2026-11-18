@@ -1,0 +1,275 @@
+{
+ "created": "2026-11-18T17:58:43.369Z",
+ "count": 171,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "0743b15a-3c32-48c8-ad58-cb325350befa",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "blink‐182",
+   "sort-name": "blink‐182",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "912aa3c4-e5ee-4c88-8e74-1d3727169d69",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Poway",
+    "sort-name": "Poway",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000123317383"
+   ],
+   "life-span": {
+    "begin": "1992-08-01",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "blink 182",
+     "name": "blink 182",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Blink 182",
+     "name": "Blink 182",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Blink 182°",
+     "name": "Blink 182°",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "blink182",
+     "name": "blink182",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "blink ‐ 182",
+     "name": "blink ‐ 182",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Blink‐182",
+     "name": "Blink‐182",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 0,
+     "name": "rock"
+    },
+    {
+     "count": 4,
+     "name": "alternative rock"
+    },
+    {
+     "count": 2,
+     "name": "punk"
+    },
+    {
+     "count": 1,
+     "name": "american"
+    },
+    {
+     "count": 8,
+     "name": "punk rock"
+    },
+    {
+     "count": -1,
+     "name": "usa"
+    },
+    {
+     "count": 0,
+     "name": "alternative"
+    },
+    {
+     "count": 0,
+     "name": "fun-punk"
+    },
+    {
+     "count": 0,
+     "name": "américain"
+    },
+    {
+     "count": 2,
+     "name": "pop rock"
+    },
+    {
+     "count": 25,
+     "name": "pop punk"
+    },
+    {
+     "count": 4,
+     "name": "skate punk"
+    },
+    {
+     "count": 0,
+     "name": "california"
+    },
+    {
+     "count": -2,
+     "name": "travis barker"
+    },
+    {
+     "count": 0,
+     "name": "pop and chart"
+    },
+    {
+     "count": -2,
+     "name": "united states"
+    },
+    {
+     "count": 0,
+     "name": "emo pop"
+    },
+    {
+     "count": 0,
+     "name": "classic pop punk"
+    },
+    {
+     "count": 0,
+     "name": "california punk"
+    },
+    {
+     "count": 0,
+     "name": "2008 universal fire victim"
+    },
+    {
+     "count": 0,
+     "name": "_add named after"
+    }
+   ]
+  },
+  {
+   "id": "c96c5c7a-6e84-49f5-b8fa-ea0fde324050",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 72,
+   "name": "The Blink 182 Show",
+   "sort-name": "Blink 182 Show, The",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "life-span": {
+    "begin": "2019",
+    "ended": null
+   }
+  },
+  {
+   "id": "b06a24be-025b-430a-b02c-28fa209d3c77",
+   "score": 55,
+   "name": "The Attic Children",
+   "sort-name": "The Attic Children",
+   "disambiguation": "Pre-Blink-182",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "5cdaa80d-7e7c-4ef8-b4ca-aa52d778a53b",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 55,
+   "name": "Boxing Day",
+   "sort-name": "Boxing Day",
+   "area": {
+    "id": "81720a5e-f81e-4eff-9e09-d52f04e290f7",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Concepción",
+    "sort-name": "Concepción",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Blink 182 Tribute",
+   "life-span": {
+    "begin": "2018",
+    "ended": null
+   }
+  },
+  {
+   "id": "1a6a2d1f-11cf-4226-8904-dc8ad8dbf694",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 47,
+   "name": "Flink 82",
+   "sort-name": "Flink 82",
+   "country": "BE",
+   "area": {
+    "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Belgium",
+    "sort-name": "Belgium",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "45125c6a-db29-4300-bd26-9ff9ed24a3e7",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Ghent",
+    "sort-name": "Ghent",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Belgian 'blink-182' tribute band",
+   "life-span": {
+    "begin": "2010",
+    "ended": null
+   }
+  }
+ ]
+}

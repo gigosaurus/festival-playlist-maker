@@ -1,0 +1,208 @@
+{
+ "created": "2026-11-18T17:58:53.862Z",
+ "count": 277,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "26f07661-e115-471d-a930-206f5c89d17c",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Mötley Crüe",
+   "sort-name": "Mötley Crüe",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Los Angeles",
+    "sort-name": "Los Angeles",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000123313331"
+   ],
+   "life-span": {
+    "begin": "1981-01-17",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "モトリー・クルー",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "モトリー・クルー",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Mötley Crue",
+     "name": "Mötley Crue",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Motley Crue",
+     "name": "Motley Crue",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 5,
+     "name": "heavy metal"
+    },
+    {
+     "count": 2,
+     "name": "metal"
+    },
+    {
+     "count": 6,
+     "name": "hard rock"
+    },
+    {
+     "count": 1,
+     "name": "album rock"
+    },
+    {
+     "count": 1,
+     "name": "arena rock"
+    },
+    {
+     "count": 10,
+     "name": "glam metal"
+    },
+    {
+     "count": 0,
+     "name": "rock and indie"
+    },
+    {
+     "count": 0,
+     "name": "gratuitous heavy metal umlaut"
+    },
+    {
+     "count": 1,
+     "name": "hair band"
+    },
+    {
+     "count": 0,
+     "name": "estados unidos"
+    }
+   ]
+  },
+  {
+   "id": "6b93e82c-0733-43f9-928e-3663f186fca4",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 53,
+   "name": "Mötley 2",
+   "sort-name": "Mötley 2",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Los Angeles",
+    "sort-name": "Los Angeles",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Mötley Crüe tribute band",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "f972d96d-0a84-42f3-873f-38ca0b3b4641",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 52,
+   "name": "Mödonni Crüe",
+   "sort-name": "Mödonni Crüe",
+   "country": "JP",
+   "area": {
+    "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Japan",
+    "sort-name": "Japan",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Japanese Mötley Crüe tribute",
+   "life-span": {
+    "begin": "2016",
+    "ended": null
+   }
+  },
+  {
+   "id": "4b42cb7d-fe93-4c24-8827-d1f9636c6b71",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 52,
+   "name": "Dr. Crüe",
+   "sort-name": "Dr. Crüe",
+   "disambiguation": "Motley Crüe tribute band",
+   "life-span": {
+    "begin": "2017",
+    "ended": null
+   }
+  },
+  {
+   "id": "68cf1bd0-d174-4686-98fa-13ce7cde9dcd",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 51,
+   "name": "Mötley Qüeens",
+   "sort-name": "Mötley Qüeens",
+   "country": "ES",
+   "area": {
+    "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Spain",
+    "sort-name": "Spain",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Mötley Crue women tribute band",
+   "life-span": {
+    "ended": null
+   }
+  }
+ ]
+}

@@ -13,7 +13,8 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Festival | – | Set interest levels for the lineup, then make or update the playlist | User | Planned (#10) |
 | Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, and get a lineup again | Admin | Done (#6) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
-| Admin: artist matches | – | Match each new lineup name, and check genre warnings | Admin | Planned (#7) |
+| Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings | Admin | Done (#7) |
+| Artist match for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}` | Search MusicBrainz with a different text, or change a match | Admin | Done (#7) |
 | Page not found | Each unknown address | Find the correct page | User, admin | Done (#3) |
 | Only the admin can open this page | Each address in `/admin/` | Go back to a page that the user can open | User who is not the admin | Done (#4) |
 
@@ -101,6 +102,7 @@ A failure caused by the API key needs a change to the `.env` file. The cause the
 | Expected genres | Supporting detail | Necessary for the genre warnings in #7. |
 | Button "Get the lineup again" | Keep visible, secondary style | ADR-0006: the application gets a lineup again only when the admin asks. Hidden text names the festival for screen readers. |
 | Empty-state text about publication | Remove | The empty page gives no reason to ask about publication (CP-07). The status label shows it for each festival. |
+| Artist matches: number of names without a match, and a link | Keep visible, when the festival has a lineup | Tells the admin which festival needs work. The link opens Admin: artist matches. Hidden text names the festival for screen readers. |
 | The lineup names | Remove | The Admin: artist matches page shows them (#7). |
 
 ### Add a festival
@@ -129,6 +131,58 @@ After "Add the festival", the browser waits for the Clashfinder export. Because 
 | Error summary | Keep visible, with problems only | Links to each field (FN-03). It has focus after the page opens. |
 | Text that says that an empty search field uses the festival name | Remove | The results heading shows the search text that the search used. |
 | A loading indicator | Remove | The server renders each page. The browser shows the loading state. |
+
+### Admin: artist matches
+
+- **Principal task:** match each lineup name that has no artist match. Check the genre warnings.
+- **Who and from where:** the admin, from "Match the artists" on Manage festivals, usually just after "Add the festival" or "Get the lineup again". The admin knows the festival and most of its artists, and knows MusicBrainz a little.
+- **Necessary before the task:** the names without a match, the proposed artist of each name, and the facts that tell artists with the same name apart: disambiguation, type, country, active years and genres (user story 57). The expected genres, because the warnings compare with them.
+- **Supporting detail:** the other possible artists, the link to each artist on MusicBrainz, and the list of matches.
+
+A lineup has approximately 150 names. MusicBrainz accepts 1 request each second (ADR-0003), so the searches take approximately 3 minutes. The searches therefore run in the background after the application gets a lineup, and the results stay in the database. The page shows the number of names that wait for a search, and the rate, because the admin asks "how long?". The page does not change by itself. The admin selects "Show the new results", because an automatic reload can lose a choice.
+
+The admin asks "is this the correct artist?" for each name. The proposal is chosen, so one action saves it (user story 56). When a choice is chosen, the other possible artists are in a closed group ("Show 4 other artists"). This keeps a list of 150 names short. When nothing is proposed, all possible artists show.
+
+A genre warning prevents a probable error: a match to a different artist with the same name. Each possible artist with none of the expected genres shows the warning before the save. After the save, the notice repeats the warning, and the match is first in the list of matches (user story 58). The warning does not stop the save (user story 59).
+
+The first failure stops the searches, because the next searches probably fail for the same cause. The notice gives the time and the cause, and "Search again" starts the searches again. After a failure, opening the page does not start them, so that a broken service does not get requests each time the admin opens the page.
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Manage festivals" above the title | Keep visible | The way back. |
+| Page title "Artist matches for {festival}" | Keep visible | States the task and the festival. |
+| Notice after a save | Keep visible, after a save only | States the saved match (CP-03). The warning notice also gives the genre warning. The page reads the match from the database (FN-02). |
+| Expected genres | Keep visible | The genre warnings compare with them. |
+| Section "Names without an artist match (N)" | Keep visible | The principal task. The count tells the admin how much work stays. |
+| "N names wait for the MusicBrainz search. The search does 1 name each second." and "Show the new results" | Keep visible, while names wait | Answers "where are the results?" and "how long?". |
+| Notice "The MusicBrainz search stopped", with the cause and "Search again" | Keep visible, after a failure only | FN-04 error state. |
+| For each name: the proposed artist (badge "Proposed"), "No match", "Save the match" | Keep visible | One action confirms the proposal. |
+| Facts, genres (the 5 with the most votes) and genre warning of each artist | Keep visible | User stories 57 and 58. |
+| The other possible artists | Supporting detail, in a closed group | Necessary only when the proposal is wrong. |
+| "No match" hint "The name is not one artist. Playlists get no songs for it." | Keep visible | ED-04: the consequence of the choice for users. |
+| Link "Search with a different text" | Keep visible, small | For a name that the search did not find, for example a name with a different spelling. |
+| Link "Open … on MusicBrainz" | Supporting detail | Opens in a new tab, so that the choice stays. |
+| Section "Artist matches (N)", the matches with a warning first, and "Change" | Keep visible, below the principal task | User story 62. Matches from other festivals also show here (user story 61). |
+| Text that says that a match applies to all festivals | Remove | Nothing on the page gives a reason to ask (CP-07). A name with a match from a different festival is already in "Artist matches". |
+| The MusicBrainz search score | Remove | It does not help the admin choose. The order of the choices shows it. |
+| An automatic reload or a progress bar | Remove | A reload can lose a choice. The server renders each page. |
+
+### Artist match for one name
+
+- **Principal task:** find the correct artist for one lineup name and save the match, or change a match.
+- **Who and from where:** the admin, from "Search with a different text" or "Change" on Admin: artist matches.
+- **Necessary before the task:** the lineup name, the search field, the possible artists with their facts, and the current match.
+
+The search field contains the lineup name. The admin can enter a different spelling, or paste the address of a MusicBrainz artist page. The label names both, because the admin does not expect that an address works in a search field (CP-01). The search is a GET request, so Back, refresh and the address show the same results. The current match is chosen and has the badge "Current match". It is a choice also when the new search does not find it. All possible artists show, because the admin opened the page to look further.
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Artist matches for {festival}" | Keep visible | The way back. |
+| Page title "Artist match for {name}" | Keep visible | States the name. |
+| Search field and "Search MusicBrainz" | Keep visible, secondary style | The reason to open the page. "Save the match" is the principal action. |
+| Possible artists, "No match", "Save the match" | Keep visible | The same component as on Admin: artist matches (PB-01). |
+| Problem "Choose an artist or “No match”." | Keep visible, after a save without a choice | FN-03. Possible only when nothing is proposed. |
+| Search problem notice | Keep visible, after a failure only | Gives the cause. |
 
 ### Page not found
 
@@ -165,7 +219,12 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
 | Label | `.label`, `.facts dt`, `.status-label`, `.badge` | 0.875rem | 600 | 1.4 | Ink | Form labels, fact names and status labels. Labels use sentence case, not uppercase (VS-06). |
 | Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it |
-| Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page in the search results |
+| Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page or a MusicBrainz artist in a list of choices |
+| Lineup name heading | `.match-item-heading` | 1.125rem | 650 | 1.4 | Ink | One lineup name on Admin: artist matches. Smaller than a section heading, larger than a choice label. |
+| Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres". The text starts with "Warning", so the colour is not the only sign. |
+| Matched lineup name | `.matched-lineup-name` | 1rem | 650 | 1.5 | Ink | The lineup name in the list of artist matches |
+| Matched artist | `.matched-artist` | 0.9375rem | 400 | 1.5 | Muted | The artist of a match, with its facts |
+| Disclosure label | `.more-choices summary` | 1rem | 600 | 1.5 | Link | "Show 4 other artists" |
 | Header link | `.header-link` | 0.9375rem | 600 | 1.5 | On brand | "Manage festivals" in the site header, for the admin only |
 | Button label | `.button` | 1rem | 650 | 1.5 | On brand | The principal action |
 | Account name | `.account-name` | 0.9375rem | 400 | 1.5 | On brand | The display name of the logged-in user in the site header |
@@ -188,6 +247,7 @@ The difference in size and weight between the page title and the section heading
 | Action hover | `--colour-action-hover` | #85103f | Background of the principal action button when the pointer is on it |
 | Problem | `--colour-problem` | #b42318 | The strip on a notice or a field with a problem, and the text of a field problem |
 | Success | `--colour-success` | #1e7b4a | The strip on a confirmation notice. Not used for text. |
+| Warning | `--colour-warning` | #94510a | The text of a genre warning, and the strip on a warning notice. A warning does not stop an action. A problem does. |
 | Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page, and of a secondary button when the pointer is on it |
 | Badge | `--colour-badge` | #efe8df | Background of status labels and badges |
 | Focus | `--colour-focus` | #a3134f | Focus indicator on the page and on surfaces |
@@ -217,6 +277,9 @@ Contrast ratios (WCAG 2.2). Text needs 4.5:1. A focus indicator needs 3:1.
 | Muted | Selected | 6.36:1 |
 | Link | Selected | 6.71:1 |
 | Ink | Badge | 14.03:1 |
+| Warning (genre warning text) | Surface | 6.01:1 |
+| Warning (genre warning text) | Selected | 5.39:1 |
+| Warning (genre warning text) | Page | 5.47:1 |
 | On brand (header link) | Brand | 15.80:1 |
 
 The application has only a light colour scheme in version 1. The standards test measures the contrast of the rendered pages.
@@ -234,6 +297,7 @@ The application has only a light colour scheme in version 1. The standards test 
 | Account | Display name, then the header button, at the right of the site header. A long display name ends with an ellipsis at 14rem. | Shows the logged-in account. On a narrow screen, it moves below the wordmark. |
 | Notice | Surface background, 1px rule border, 4px strip in the problem colour on the left, radius 12px, no shadow, maximum width 36rem | A problem that stopped the last action of the user. The strip shows the state. |
 | Confirmation notice | The notice, with the strip in the success colour | A completed action, for example "Added Download 2027". |
+| Warning notice | The notice, with the strip in the warning colour | A completed action that the admin must check, for example a match with a genre warning. |
 | Error summary | The notice, with a list of links to the fields | All problems of a form. It gets focus when the page opens. |
 | Header link | On-brand text, underline | "Manage festivals" in the site header, for the admin only. |
 | Secondary button | Surface background, 1px link border, link text, radius 8px. Selected background when the pointer is on it. | An action that is not the principal action of the page, for example "Get the lineup again", or "Search Clashfinder" after a search. |
@@ -243,7 +307,10 @@ The application has only a light colour scheme in version 1. The standards test 
 | Status label, badge | Badge background, ink text, radius 4px | A state ("Not published") or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
 | Facts | Label and value pairs. Two columns from 40rem width, one column on a narrow screen. | The facts of a festival. |
 | Inline problem | 4px strip in the problem colour on the left, no background | A problem inside a panel, for example a failed lineup attempt. There is no panel in a panel. |
-| Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results. The full label selects the radio button. A fact does not break across two lines. |
+| Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results, or one MusicBrainz artist or "No match" in the artist choices. The full label selects the radio button. A fact does not break across two lines. |
+| Lineup name item | 1px rule line above, no panel | One name on Admin: artist matches. The choices in it already have panels, so the item has no panel (no panel in a panel). |
+| More choices | Native `details` element, summary in the link colour, no animation | The possible artists after the proposal. Closed by default. |
+| Match list | 1px rule dividers, no radius. The "Change" link is at the right, or below the text on a narrow screen. | The artist matches of a festival. The rows are a list to scan, not separate items to compare. |
 | Visually hidden text | Not visible. Screen readers read it. | Makes repeated button labels specific, for example "Get the lineup again for Download 2027". |
 | Link | Link colour, underline | Standard link. The underline shows that the text is a link. |
 | Focus indicator | 3px solid outline, offset 2px | Shows keyboard focus on each interactive element (QA-03). |

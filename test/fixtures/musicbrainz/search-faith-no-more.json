@@ -1,0 +1,255 @@
+{
+ "created": "2026-11-18T17:58:51.793Z",
+ "count": 10599,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "b15ebd71-a252-417d-9e1c-3e6863da68f8",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Faith No More",
+   "sort-name": "Faith No More",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "San Francisco",
+    "sort-name": "San Francisco",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000121779453"
+   ],
+   "life-span": {
+    "begin": "1983-09",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "페이스 노 모어",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "페이스 노 모어",
+     "locale": "ko",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "フェイス・ノー・モア",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "フェイス・ノー・モア",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "FNM",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "FNM",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 0,
+     "name": "rock"
+    },
+    {
+     "count": 13,
+     "name": "alternative rock"
+    },
+    {
+     "count": 4,
+     "name": "metal"
+    },
+    {
+     "count": 6,
+     "name": "experimental"
+    },
+    {
+     "count": -1,
+     "name": "crossover"
+    },
+    {
+     "count": 2,
+     "name": "post-punk"
+    },
+    {
+     "count": -2,
+     "name": "usa"
+    },
+    {
+     "count": -1,
+     "name": "funk rock"
+    },
+    {
+     "count": 19,
+     "name": "alternative metal"
+    },
+    {
+     "count": -1,
+     "name": "pop rock"
+    },
+    {
+     "count": 9,
+     "name": "funk metal"
+    },
+    {
+     "count": -1,
+     "name": "rap metal"
+    },
+    {
+     "count": -1,
+     "name": "classic pop and rock"
+    },
+    {
+     "count": 0,
+     "name": "hard alternative"
+    }
+   ]
+  },
+  {
+   "id": "383a2b0f-7329-498e-a2b8-6364da2eeb0f",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 63,
+   "name": "Faith No Man",
+   "sort-name": "Faith No Man",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "England",
+    "sort-name": "England",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Faith No More tribute",
+   "life-span": {
+    "begin": "2008-03",
+    "ended": null
+   }
+  },
+  {
+   "id": "7e736a24-b5b5-432a-ad34-e4c51416c7a5",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 60,
+   "name": "Faith. No Man.",
+   "sort-name": "Faith. No Man.",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "San Francisco",
+    "sort-name": "San Francisco",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "end-area": {
+    "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "San Francisco",
+    "sort-name": "San Francisco",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "pre‐Faith No More band",
+   "life-span": {
+    "begin": "1982",
+    "end": "1983-09",
+    "ended": true
+   },
+   "tags": [
+    {
+     "count": 1,
+     "name": "post-punk"
+    }
+   ]
+  },
+  {
+   "id": "ad3e39da-ead5-4c32-8e43-6f007065bbe0",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 52,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Richard Evans",
+   "sort-name": "Evans, Richard",
+   "gender": "male",
+   "disambiguation": "interviewed Faith No More",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "d9e5d43f-0b3b-4d80-a641-7555d4304964",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 52,
+   "name": "Epic",
+   "sort-name": "Epic",
+   "area": {
+    "id": "81720a5e-f81e-4eff-9e09-d52f04e290f7",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Concepción",
+    "sort-name": "Concepción",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Faith No More tribute",
+   "life-span": {
+    "begin": "2020",
+    "ended": null
+   }
+  }
+ ]
+}

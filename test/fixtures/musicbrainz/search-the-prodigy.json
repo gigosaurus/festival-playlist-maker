@@ -1,0 +1,412 @@
+{
+ "created": "2026-11-18T17:59:00.514Z",
+ "count": 197631,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "4a4ee089-93b1-4470-af9a-6ff575d32704",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "The Prodigy",
+   "sort-name": "Prodigy, The",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "ed911a84-6a69-4dd7-881e-3e53e7fde18e",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Braintree",
+    "sort-name": "Braintree",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "UK electronic group, main member Liam Howlett",
+   "ipis": [
+    "00177235262"
+   ],
+   "isnis": [
+    "0000000115229973"
+   ],
+   "life-span": {
+    "begin": "1990-10-05",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "The Prodigy vs",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "The Prodigy vs",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Prodigy, The",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "The Prodigy",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Prodigy",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "Prodigy",
+     "locale": "en",
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "rock"
+    },
+    {
+     "count": 19,
+     "name": "electronic"
+    },
+    {
+     "count": 1,
+     "name": "pop"
+    },
+    {
+     "count": 0,
+     "name": "alternative rock"
+    },
+    {
+     "count": -1,
+     "name": "industrial"
+    },
+    {
+     "count": 0,
+     "name": "drum and bass"
+    },
+    {
+     "count": 1,
+     "name": "dubstep"
+    },
+    {
+     "count": 3,
+     "name": "hardcore"
+    },
+    {
+     "count": 23,
+     "name": "big beat"
+    },
+    {
+     "count": 5,
+     "name": "rave"
+    },
+    {
+     "count": 7,
+     "name": "dance"
+    },
+    {
+     "count": 1,
+     "name": "house"
+    },
+    {
+     "count": 6,
+     "name": "british"
+    },
+    {
+     "count": -1,
+     "name": "2005"
+    },
+    {
+     "count": 1,
+     "name": "hip hop"
+    },
+    {
+     "count": 5,
+     "name": "uk"
+    },
+    {
+     "count": -1,
+     "name": "britannique"
+    },
+    {
+     "count": 3,
+     "name": "techno"
+    },
+    {
+     "count": 2,
+     "name": "electronica"
+    },
+    {
+     "count": 17,
+     "name": "breakbeat"
+    },
+    {
+     "count": 1,
+     "name": "breaks"
+    },
+    {
+     "count": 0,
+     "name": "electropunk"
+    },
+    {
+     "count": 2,
+     "name": "alternative dance"
+    },
+    {
+     "count": 1,
+     "name": "indie dance"
+    },
+    {
+     "count": -1,
+     "name": "english"
+    },
+    {
+     "count": -2,
+     "name": "dance-punk"
+    },
+    {
+     "count": 1,
+     "name": "club"
+    },
+    {
+     "count": 1,
+     "name": "edm"
+    },
+    {
+     "count": -1,
+     "name": "dance and electronica"
+    },
+    {
+     "count": 9,
+     "name": "breakbeat hardcore"
+    },
+    {
+     "count": 2,
+     "name": "electronic rock"
+    },
+    {
+     "count": 0,
+     "name": "concious"
+    },
+    {
+     "count": 2,
+     "name": "techno beats"
+    },
+    {
+     "count": 1,
+     "name": "funky breaks"
+    },
+    {
+     "count": 1,
+     "name": "electronicore"
+    },
+    {
+     "count": 1,
+     "name": "conscious hip hop"
+    },
+    {
+     "count": -1,
+     "name": "hardcore hip hop"
+    },
+    {
+     "count": 1,
+     "name": "trap"
+    },
+    {
+     "count": 1,
+     "name": "future bass"
+    },
+    {
+     "count": 3,
+     "name": "hardcore breaks"
+    },
+    {
+     "count": 0,
+     "name": "live electronic"
+    }
+   ]
+  },
+  {
+   "id": "0fc9fc14-9790-4e5d-96cb-baacc1cc512b",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 73,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Pariah the Prodigy",
+   "sort-name": "Corona, Sebastian",
+   "gender": "male",
+   "area": {
+    "id": "82f3a697-ba65-404d-a1ed-360147af7d10",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "San Diego",
+    "sort-name": "San Diego",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000491436933"
+   ],
+   "life-span": {
+    "begin": "2002-10-01",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "HYDESOLO",
+     "name": "HYDESOLO",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "pariah the prodigy"
+    },
+    {
+     "count": 1,
+     "name": "pariah"
+    }
+   ]
+  },
+  {
+   "id": "e386df5d-5628-4bd0-917a-2d76c79363bb",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 73,
+   "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+   "name": "Kay the Prodigy",
+   "sort-name": "Kay the Prodigy",
+   "gender": "female",
+   "country": "FR",
+   "area": {
+    "id": "08310658-51eb-3801-80de-5a0739207115",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "France",
+    "sort-name": "France",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "French rapper",
+   "ipis": [
+    "01198801325",
+    "01198801423"
+   ],
+   "life-span": {
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Jean Bart, Aimée Nafaly",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Aimée Nafaly Jean Bart",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "hip hop"
+    }
+   ]
+  },
+  {
+   "id": "73d15f3e-43bc-49d6-8214-83c120ddc894",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 72,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "RICO the Prodigy",
+   "sort-name": "Rico the Prodigy",
+   "gender": "male",
+   "begin-area": {
+    "id": "696cb3e0-5084-30ab-9916-65ece70adbf6",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Dominican Republic",
+    "sort-name": "Dominican Republic",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000465884660"
+   ],
+   "life-span": {
+    "begin": "1992-10-12",
+    "ended": null
+   },
+   "tags": [
+    {
+     "count": 1,
+     "name": "dancehall"
+    },
+    {
+     "count": 1,
+     "name": "reggaeton"
+    },
+    {
+     "count": 1,
+     "name": "urbano"
+    },
+    {
+     "count": 1,
+     "name": "rico the prodigy"
+    }
+   ]
+  },
+  {
+   "id": "2573dd35-b0a6-4044-af7d-d6fe8a992858",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 72,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Static the Prodigy",
+   "sort-name": "Thaddeous Arnell Pledger Jr.",
+   "gender": "male",
+   "begin-area": {
+    "id": "d4ab49e7-1d25-45e2-8659-b147e0ea3684",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "North Carolina",
+    "sort-name": "North Carolina",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "000000047615556X"
+   ],
+   "life-span": {
+    "begin": "1996-03-27",
+    "ended": null
+   }
+  }
+ ]
+}

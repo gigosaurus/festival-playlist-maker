@@ -1,0 +1,198 @@
+{
+ "created": "2026-11-18T17:58:55.923Z",
+ "count": 1609,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "a436dd02-0549-4c91-b608-df451217fdeb",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Parkway Drive",
+   "sort-name": "Parkway Drive",
+   "country": "AU",
+   "area": {
+    "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Australia",
+    "sort-name": "Australia",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "54f1527c-cfb3-46f4-b43c-ea5b9ab7e75c",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Byron Bay",
+    "sort-name": "Byron Bay",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000115552834"
+   ],
+   "life-span": {
+    "begin": "2003",
+    "ended": null
+   },
+   "tags": [
+    {
+     "count": 1,
+     "name": "hardcore"
+    },
+    {
+     "count": 1,
+     "name": "melodic metalcore"
+    },
+    {
+     "count": 5,
+     "name": "metalcore"
+    }
+   ]
+  },
+  {
+   "id": "1ec3cedf-9357-47ed-bb9f-6bbddbf6494a",
+   "score": 64,
+   "name": "Parkway Driven",
+   "sort-name": "Parkway Driven",
+   "disambiguation": "Coverband (NL) Parkway Drive",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "8c8cae5f-8c6a-484c-9bba-ccb728332d6a",
+   "score": 45,
+   "name": "Parkway",
+   "sort-name": "Parkway",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "8eae1e0a-1696-4532-9e3c-0a072217ef4c",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 44,
+   "name": "Drive‐By Truckers",
+   "sort-name": "Drive‐By Truckers",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "29d7853f-28be-4114-8a5b-5dd95d162d69",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Athens",
+    "sort-name": "Athens",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "US rock band",
+   "isnis": [
+    "0000000122019667"
+   ],
+   "life-span": {
+    "begin": "1996",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Drive-By Truckers",
+     "name": "Drive-By Truckers",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Drive‐By Truckers",
+     "name": "Drive‐By Truckers",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Drive By Truckers",
+     "name": "Drive By Truckers",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Drive-By-Truckers",
+     "name": "Drive-By-Truckers",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "The Drive-By Truckers",
+     "name": "The Drive-By Truckers",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 2,
+     "name": "southern rock"
+    },
+    {
+     "count": 1,
+     "name": "rock and indie"
+    },
+    {
+     "count": 1,
+     "name": "alternative country-rock"
+    }
+   ]
+  },
+  {
+   "id": "747ef8d8-56bd-499c-8399-d6887b381907",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 42,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Suncoast Parkway",
+   "sort-name": "Suncoast Parkway",
+   "gender": "male",
+   "area": {
+    "id": "d2918f1a-c51e-4a4a-ad7f-cdd88877b25f",
+    "type": "Subdivision",
+    "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+    "name": "Florida",
+    "sort-name": "Florida",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Vito James' 16th alias",
+   "life-span": {
+    "ended": null
+   }
+  }
+ ]
+}

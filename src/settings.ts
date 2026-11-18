@@ -12,4 +12,7 @@ export interface Settings {
   // The private key of the Clashfinder account. Do not send it to Clashfinder.
   // Each export request gets a public key that the application makes from this key.
   clashfinderPrivateKey: string;
+  // An email address or a web address in the User-Agent of each MusicBrainz request.
+  // MusicBrainz uses it to contact the operator of a client that causes problems.
+  musicbrainzContact: string;
 }

@@ -1,0 +1,319 @@
+{
+ "created": "2026-11-18T17:58:45.564Z",
+ "count": 200749,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Bring Me the Horizon",
+   "sort-name": "Bring Me the Horizon",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "3ce737cb-f5bb-403d-a98a-e0602670229f",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Sheffield",
+    "sort-name": "Sheffield",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000122868773"
+   ],
+   "life-span": {
+    "begin": "2004-03",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "BMTHchannel",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTHchannel",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "BMTHOfficialVEVO",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTHOfficialVEVO",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "BMTH",
+     "name": "BMTH",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "rock"
+    },
+    {
+     "count": 2,
+     "name": "electronic"
+    },
+    {
+     "count": 1,
+     "name": "pop"
+    },
+    {
+     "count": 13,
+     "name": "alternative rock"
+    },
+    {
+     "count": 1,
+     "name": "drum and bass"
+    },
+    {
+     "count": 1,
+     "name": "heavy metal"
+    },
+    {
+     "count": 1,
+     "name": "house"
+    },
+    {
+     "count": 1,
+     "name": "metal"
+    },
+    {
+     "count": 19,
+     "name": "metalcore"
+    },
+    {
+     "count": 1,
+     "name": "death metal"
+    },
+    {
+     "count": 1,
+     "name": "hard rock"
+    },
+    {
+     "count": 2,
+     "name": "nu metal"
+    },
+    {
+     "count": 4,
+     "name": "emo"
+    },
+    {
+     "count": 2,
+     "name": "screamo"
+    },
+    {
+     "count": 2,
+     "name": "psychedelic rock"
+    },
+    {
+     "count": 10,
+     "name": "alternative metal"
+    },
+    {
+     "count": 7,
+     "name": "pop rock"
+    },
+    {
+     "count": 7,
+     "name": "post-hardcore"
+    },
+    {
+     "count": 10,
+     "name": "deathcore"
+    },
+    {
+     "count": -1,
+     "name": "alternative hardcore"
+    },
+    {
+     "count": 1,
+     "name": "electronic rock"
+    },
+    {
+     "count": 4,
+     "name": "melodic metalcore"
+    },
+    {
+     "count": 1,
+     "name": "alternative/indie rock"
+    }
+   ]
+  },
+  {
+   "id": "aa6d8208-d68b-4b7a-83ea-7faaebccf12b",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 81,
+   "name": "Bring Me the Horizon UK",
+   "sort-name": "Bring Me the Horizon UK",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "tribute",
+   "life-span": {
+    "begin": "2025-08",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "BMTH UK",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "BMTH UK",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "b532ab46-ada4-4226-8787-fe40603f1274",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 61,
+   "name": "Give me the horizon",
+   "sort-name": "Give me the horizon",
+   "country": "CL",
+   "area": {
+    "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "Chile",
+    "sort-name": "Chile",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Bring me the horizon tribute band from chile",
+   "life-span": {
+    "begin": "2023",
+    "ended": null
+   }
+  },
+  {
+   "id": "39e3dbcb-fbb2-4967-8831-4df893d027bc",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 56,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Matt Nicholls",
+   "sort-name": "Nicholls, Matt",
+   "gender": "male",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Bring Me the Horizon drummer",
+   "ipis": [
+    "00571024577"
+   ],
+   "life-span": {
+    "begin": "1986-03-22",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Nicholls, Matthew Stephen",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Matthew Stephen Nicholls",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "f9af1209-0b96-406e-853c-86192304d66d",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 56,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Matt Kean",
+   "sort-name": "Kean, Matt",
+   "gender": "male",
+   "country": "GB",
+   "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "Bring Me the Horizon bassist",
+   "ipis": [
+    "00571025672"
+   ],
+   "life-span": {
+    "begin": "1986-06-02",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Kean, Matt",
+     "name": "Matt Kean",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Kean, Matthew",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Matthew Kean",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  }
+ ]
+}

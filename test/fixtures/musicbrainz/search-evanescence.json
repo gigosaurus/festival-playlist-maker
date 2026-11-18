@@ -1,0 +1,455 @@
+{
+ "created": "2026-11-18T17:58:49.715Z",
+ "count": 7,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Evanescence",
+   "sort-name": "Evanescence",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "9150ffc9-be86-42ff-96b6-a4fee1ce2b52",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Little Rock",
+    "sort-name": "Little Rock",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "000000011526551X"
+   ],
+   "life-span": {
+    "begin": "1995",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "エヴァネッセンス",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "エヴァネッセンス",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": true,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Evanescene",
+     "name": "Evanescene",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Evanscence",
+     "name": "Evanscence",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "エバネッセンス",
+     "name": "エバネッセンス",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Evanesence",
+     "name": "Evanesence",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Evanescense",
+     "name": "Evanescense",
+     "locale": null,
+     "type": null,
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 4,
+     "name": "rock"
+    },
+    {
+     "count": 5,
+     "name": "alternative rock"
+    },
+    {
+     "count": 2,
+     "name": "heavy metal"
+    },
+    {
+     "count": 0,
+     "name": "industrial rock"
+    },
+    {
+     "count": 8,
+     "name": "metal"
+    },
+    {
+     "count": -1,
+     "name": "american"
+    },
+    {
+     "count": 3,
+     "name": "gothic metal"
+    },
+    {
+     "count": 0,
+     "name": "hard rock"
+    },
+    {
+     "count": -1,
+     "name": "nu metal"
+    },
+    {
+     "count": -1,
+     "name": "new metal"
+    },
+    {
+     "count": 1,
+     "name": "gothic"
+    },
+    {
+     "count": 1,
+     "name": "post-grunge"
+    },
+    {
+     "count": 4,
+     "name": "symphonic metal"
+    },
+    {
+     "count": 15,
+     "name": "alternative metal"
+    },
+    {
+     "count": -1,
+     "name": "pop rock"
+    },
+    {
+     "count": 4,
+     "name": "symphonic rock"
+    },
+    {
+     "count": 1,
+     "name": "gothic rock"
+    },
+    {
+     "count": 2,
+     "name": "piano rock"
+    },
+    {
+     "count": -1,
+     "name": "pop and chart"
+    },
+    {
+     "count": -3,
+     "name": "n2"
+    },
+    {
+     "count": 0,
+     "name": "hard alternative"
+    }
+   ]
+  },
+  {
+   "id": "7ee89158-3446-4044-bb88-0dcc4d4cd6c0",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 46,
+   "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+   "name": "Amy Lee",
+   "sort-name": "Lee, Amy",
+   "gender": "female",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "0aae418d-8db2-4802-911b-db230839f010",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Riverside",
+    "sort-name": "Riverside",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "singer and keyboardist of Evanescence",
+   "ipis": [
+    "00433042599"
+   ],
+   "isnis": [
+    "000000007844522X"
+   ],
+   "life-span": {
+    "begin": "1981-12-13",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Lee, Amy Lynn",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Amy Lynn Lee",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": "1981-12-13",
+     "end-date": "2007-05-06"
+    },
+    {
+     "sort-name": "Hartzler, Amy Lynn",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Amy Lynn Hartzler",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": "2007-05-06",
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "rock"
+    },
+    {
+     "count": 1,
+     "name": "alternative rock"
+    },
+    {
+     "count": 1,
+     "name": "industrial rock"
+    },
+    {
+     "count": 2,
+     "name": "gothic metal"
+    },
+    {
+     "count": 1,
+     "name": "nu metal"
+    },
+    {
+     "count": 1,
+     "name": "electronica"
+    },
+    {
+     "count": 2,
+     "name": "symphonic metal"
+    },
+    {
+     "count": 2,
+     "name": "alternative metal"
+    },
+    {
+     "count": 2,
+     "name": "gothic rock"
+    },
+    {
+     "count": 1,
+     "name": "classical crossover"
+    },
+    {
+     "count": 0,
+     "name": "n2"
+    }
+   ]
+  },
+  {
+   "id": "60fd91c9-d22c-4775-9ac6-7993fdf1c81d",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 45,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Tim McCord",
+   "sort-name": "McCord, Tim",
+   "gender": "male",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "21879fba-fe4e-4dbc-99e8-cad9142e5618",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Sacramento",
+    "sort-name": "Sacramento",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "guitarist of Evanescence",
+   "ipis": [
+    "00436599613"
+   ],
+   "life-span": {
+    "begin": "1979-06-28",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "McCord, Timothy Todd",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "Timothy Todd McCord",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "alternative metal"
+    },
+    {
+     "count": 1,
+     "name": "heavy metal"
+    }
+   ]
+  },
+  {
+   "id": "b6408ac8-018b-4f5e-b0e7-9a9ab24b7160",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 45,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Troy McLawhorn",
+   "sort-name": "McLawhorn, Troy",
+   "gender": "male",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "90eba4c7-23e3-4b8b-bf57-96a70fb4e106",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Fayetteville",
+    "sort-name": "Fayetteville",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "guitarist of Evanescence",
+   "ipis": [
+    "00337292651"
+   ],
+   "isnis": [
+    "0000000466594139"
+   ],
+   "life-span": {
+    "begin": "1968-11-04",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "McLawhorn, William Troy",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "William Troy McLawhorn",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ]
+  },
+  {
+   "id": "3f8c7dda-6a3f-4cce-a298-8985e467b6ed",
+   "type": "Person",
+   "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+   "score": 45,
+   "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+   "name": "Will Hunt",
+   "sort-name": "Hunt, Will",
+   "gender": "male",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "disambiguation": "drummer of Evanescence",
+   "life-span": {
+    "begin": "1971-09-05",
+    "ended": null
+   },
+   "aliases": [
+    {
+     "sort-name": "Hunt, William Martin",
+     "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+     "name": "William Martin Hunt",
+     "locale": null,
+     "type": "Legal name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": 1,
+     "name": "metal"
+    }
+   ]
+  }
+ ]
+}
