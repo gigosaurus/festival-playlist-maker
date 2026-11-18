@@ -1,0 +1,152 @@
+/* The type styles, colour roles and component roles are in docs/design-spec.md.
+   Change that file when you change this file. */
+
+:root {
+  /* Colour roles */
+  --colour-page: #f6f2ec;
+  --colour-surface: #fffdfa;
+  --colour-ink: #1f1a24;
+  --colour-muted: #5c5466;
+  --colour-rule: #ded5c9;
+  --colour-brand: #1c1626;
+  --colour-on-brand: #f6f2ec;
+  --colour-link: #a3134f;
+  --colour-focus: #a3134f;
+  --colour-focus-on-brand: #ff9cc4;
+
+  /* Type */
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Component roles */
+  --radius-panel: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--colour-page);
+  color: var(--colour-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--colour-link);
+  text-underline-offset: 0.15em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--colour-focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Site header: the brand band with the wordmark. */
+.site-header {
+  background: var(--colour-brand);
+  border-bottom: 4px solid var(--colour-link);
+  padding-block: 0.875rem;
+}
+
+/* One content column for the header and the page, so that they align. */
+.column {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.wordmark {
+  color: var(--colour-on-brand);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wordmark:focus-visible {
+  outline-color: var(--colour-focus-on-brand);
+}
+
+.page {
+  padding-block: 2.5rem 4rem;
+}
+
+/* Type styles */
+h1 {
+  margin: 0 0 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 650;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.lead {
+  font-size: 1.125rem;
+}
+
+/* Empty state panel */
+.empty-state {
+  background: var(--colour-surface);
+  border: 1px solid var(--colour-rule);
+  border-radius: var(--radius-panel);
+  padding: 2rem 1.5rem;
+  max-width: 36rem;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--colour-muted);
+}
+
+/* Festival list (temporary, see #9) */
+.festival-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--colour-rule);
+}
+
+.festival-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--colour-rule);
+}
+
+.festival-name {
+  font-weight: 650;
+}
+
+.festival-dates {
+  color: var(--colour-muted);
+}
+
+@media (min-width: 40rem) {
+  .column {
+    padding-inline: 2rem;
+  }
+}
