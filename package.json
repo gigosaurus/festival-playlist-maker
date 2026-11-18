@@ -8,7 +8,7 @@
     "node": ">=26"
   },
   "scripts": {
-    "start": "node src/main.ts",
+    "start": "node --env-file-if-exists=.env src/main.ts",
     "typecheck": "tsc",
     "test:modules": "node --import ./test/support/no-network.ts --test \"test/modules/**/*.test.ts\"",
     "test:e2e": "playwright test",

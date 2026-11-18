@@ -2,6 +2,22 @@
 
 Festival Playlist Maker makes a Spotify playlist from the lineup of a festival. The specification is in issue #1. The terms are in [GLOSSARY.md](GLOSSARY.md), and the decisions are in [docs/adr/](docs/adr/).
 
+## Configuration
+
+The application gets its Spotify settings from a `.env` file in the repository root. Git and Docker do not copy this file. Make the file on each computer that runs the application:
+
+```sh
+SPOTIFY_CLIENT_ID=<client ID>
+ADMIN_SPOTIFY_USER_ID=<Spotify user ID>
+```
+
+|Variable|Value|
+|-|-|
+|`SPOTIFY_CLIENT_ID`|The client ID of the Spotify developer app. It is in the Spotify Developer Dashboard, at *Settings → Basic Information*.|
+|`ADMIN_SPOTIFY_USER_ID`|The Spotify user ID of the admin. It is the *Username* at spotify.com/account/overview. The display name is not the user ID.|
+
+The application does not use the client secret (ADR-0001). Do not put the client secret in the .env file or in the repository.
+
 ## Run in a container
 
 Docker Compose builds the container and starts the application on port 3000:
