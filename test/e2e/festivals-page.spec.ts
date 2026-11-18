@@ -1,6 +1,10 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "./fixtures.ts";
 
+test.beforeEach(async ({ logIn }) => {
+  await logIn();
+});
+
 test("the Festivals page shows its empty state when no festival is published", async ({ page }) => {
   await page.goto("/");
 
@@ -11,9 +15,11 @@ test("the Festivals page shows its empty state when no festival is published", a
 });
 
 test("the Festivals page sends no outbound request through the HTTP client", async ({ page, testServer }) => {
+  const afterLogIn = (await testServer.sentHttpRequests()).length;
+
   await page.goto("/");
 
-  expect(await testServer.sentHttpRequests()).toEqual([]);
+  expect(await testServer.sentHttpRequests()).toHaveLength(afterLogIn);
 });
 
 test("the test server runs the application with a fake clock that tests can set", async ({ testServer }) => {

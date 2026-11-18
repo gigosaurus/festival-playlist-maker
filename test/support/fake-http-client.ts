@@ -9,6 +9,8 @@ export interface RecordedResponse {
 export interface SentRequest {
   method: string;
   url: string;
+  // Only a request with a body has this property.
+  body?: string;
 }
 
 // Gives recorded responses and never sends a request to the network.
@@ -23,7 +25,8 @@ export class FakeHttpClient implements HttpClient {
   }
 
   async send(request: Request): Promise<Response> {
-    this.requests.push({ method: request.method, url: request.url });
+    const body = await request.clone().text();
+    this.requests.push({ method: request.method, url: request.url, ...(body ? { body } : {}) });
     const recorded = this.#responses.get(key(request.method, request.url));
     if (recorded === undefined) {
       throw new Error(`The fake HTTP client has no recorded response for ${request.method} ${request.url}`);

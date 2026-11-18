@@ -11,6 +11,7 @@ import { createApp } from "../../src/app.ts";
 import { openDatabase } from "../../src/database.ts";
 import { FakeClock } from "./fake-clock.ts";
 import { FakeHttpClient, type RecordedResponse } from "./fake-http-client.ts";
+import { testSettings } from "./test-settings.ts";
 
 const port = Number(process.env.PORT ?? 3100);
 const directory = mkdtempSync(join(tmpdir(), "festival-playlist-maker-"));
@@ -18,7 +19,7 @@ const database = openDatabase(join(directory, "test.sqlite"));
 const httpClient = new FakeHttpClient();
 const clock = new FakeClock();
 
-const app = createApp({ database, httpClient, clock });
+const app = createApp({ database, httpClient, clock, settings: testSettings(`http://localhost:${port}`) });
 
 const control = new Hono()
   .post("/__test/reset", (context) => {

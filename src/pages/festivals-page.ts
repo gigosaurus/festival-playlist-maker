@@ -1,5 +1,6 @@
 import { html } from "hono/html";
 import type { PublishedFestival } from "../festivals.ts";
+import type { User } from "../sessions.ts";
 import { layout } from "./layout.ts";
 
 const dayMonthYear = new Intl.DateTimeFormat("en-GB", {
@@ -9,10 +10,11 @@ const dayMonthYear = new Intl.DateTimeFormat("en-GB", {
   timeZone: "UTC",
 });
 
-export function festivalsPage(festivals: PublishedFestival[]) {
+export function festivalsPage(user: User, festivals: PublishedFestival[]) {
   return layout({
     title: "Festivals",
     description: "Choose a festival and make a Spotify playlist from its lineup.",
+    user,
     body: html`
       <h1>Festivals</h1>
       ${festivals.length === 0 ? emptyState() : festivalList(festivals)}

@@ -1,5 +1,6 @@
 import { html } from "hono/html";
 import type { HtmlEscapedString } from "hono/utils/html";
+import type { User } from "../sessions.ts";
 
 export const applicationName = "Festival Playlist Maker";
 
@@ -9,10 +10,12 @@ export interface PageOptions {
   // The page title, without the application name.
   title: string;
   description: string;
+  // The logged-in user. A page for a person who is not logged in has no user.
+  user?: User;
   body: Content;
 }
 
-export function layout({ title, description, body }: PageOptions): Content {
+export function layout({ title, description, user, body }: PageOptions): Content {
   return html`<!doctype html>
 <html lang="en-GB">
   <head>
@@ -27,8 +30,9 @@ export function layout({ title, description, body }: PageOptions): Content {
   </head>
   <body>
     <header class="site-header">
-      <div class="column">
+      <div class="column site-header-row">
         <a class="wordmark" href="/">${applicationName}</a>
+        ${user ? account(user) : ""}
       </div>
     </header>
     <main class="column page">
@@ -36,4 +40,14 @@ export function layout({ title, description, body }: PageOptions): Content {
     </main>
   </body>
 </html>`;
+}
+
+// The Spotify display name shows which account is logged in, for example on a shared device.
+function account(user: User) {
+  return html`
+    <form class="account" method="post" action="/log-out">
+      <span class="account-name" data-external-text>${user.displayName}</span>
+      <button class="header-button" type="submit">Log out</button>
+    </form>
+  `;
 }

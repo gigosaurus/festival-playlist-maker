@@ -15,6 +15,13 @@ ADMIN_SPOTIFY_USER_ID=<Spotify user ID>
 |-|-|
 |`SPOTIFY_CLIENT_ID`|The client ID of the Spotify developer app. It is in the Spotify Developer Dashboard, at *Settings → Basic Information*.|
 |`ADMIN_SPOTIFY_USER_ID`|The Spotify user ID of the admin. It is the *Username* at spotify.com/account/overview. The display name is not the user ID.|
+|`SPOTIFY_REDIRECT_URI`|Optional. The address to which Spotify sends the browser after the log in. The default is `http://127.0.0.1:3000/log-in/callback`. On a server, use the HTTPS address of the application, for example `https://playlists.your-domain/log-in/callback`.|
+
+Add the redirect URI to the Spotify developer app, at *Settings → Basic Information → Redirect URIs*. The two values must be the same text. Spotify accepts an HTTP address only for a loopback address. Use `127.0.0.1`, not `localhost`.
+
+Open the application at the same host as the redirect URI. If the host is different, the log in fails, because the browser keeps the log in values for each host.
+
+The Spotify account that owns the developer app has the admin role. Add each other user to the app in the Spotify Developer Dashboard, at *User Management*. Spotify needs the name and the email address of the Spotify account of each user.
 
 The application does not use the client secret (ADR-0001). Do not put the client secret in the .env file or in the repository.
 
