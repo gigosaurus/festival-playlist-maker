@@ -1,0 +1,15 @@
+# A fixed project name gives the database volume the same name in each checkout directory.
+name: festival-playlist-maker
+
+services:
+  app:
+    build: .
+    image: festival-playlist-maker
+    ports:
+      - "3000:3000"
+    volumes:
+      - database:/data
+    restart: unless-stopped
+
+volumes:
+  database:
