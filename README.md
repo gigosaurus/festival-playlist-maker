@@ -29,7 +29,7 @@ The Spotify account that owns the developer app has the admin role. Add each oth
 
 The application does not use the client secret (ADR-0001). Do not put the client secret in the .env file or in the repository.
 
-Clashfinder is the fallback lineup source (ADR-0004). Before the application uses Clashfinder, get permission for automated use from the maintainer (ADR-0006). Do not put the Clashfinder private key in the repository.
+Clashfinder is the fallback lineup source (ADR-0004, ADR-0006). Do not put the Clashfinder private key in the repository.
 
 ## Run in a container
 
