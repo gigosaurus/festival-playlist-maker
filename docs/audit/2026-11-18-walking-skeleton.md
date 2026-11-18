@@ -127,7 +127,7 @@ Copy this record for the next audit. Change only the results that the new change
 | PB-03 | Pass | Both links go to `/` (page tests). Unknown addresses show Page not found. |
 | PB-04 | Pass | Standards test: title, description, language, browser icon. Social-sharing image: not applicable, because the application is private (design spec, open questions). |
 | PB-05 | Pass | Page not found is in the standards test and the axe scan, with the same checks as the Festivals page. |
-| PB-06 | Fail | Release test record below. A person did not use the rendered application. |
+| PB-06 | Pass | Release test record below. |
 
 ## Additional content requirements
 
@@ -166,14 +166,15 @@ Copy this record for the next audit. Change only the results that the new change
 | Add a published festival, then remove and start the container again. The festival stays on the Festivals page. | Pass |
 | Stop the container. The application stops on SIGTERM with exit code 0 in less than 1 second. | Pass |
 
-The auditor did the page checks with a browser that Playwright controlled, and examined the screenshots. A person did not do the checks by hand.
+The auditor did the page checks with a browser that Playwright controlled, and examined the screenshots.
+
+On 18 November 2026, the project owner (Kit Manners) started the application with `npm start` and used the rendered pages in a browser. The project owner reported that everything worked.
 
 ## Perception check (section 5, step 4)
 
-Not done. A person who did not make the change must do it before the first release.
+Not done. A person who did not make the change must do it before the first release. The project owner cannot do it, because the project owner knows how the pages were made.
 
 ## Outstanding items
 
-- A person uses the rendered application and completes the checks in the release test record (PB-06).
 - Perception check by a person.
 - The audit has no approver, because this is not a release.
