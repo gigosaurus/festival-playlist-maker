@@ -30,6 +30,22 @@ export const musicbrainzOrigin = "https://musicbrainz.org";
 // per second". The pause starts at the end of each response, so the average is lower.
 export const musicbrainzRequestDelay = 1_000;
 
+export const spotifyApiOrigin = "https://api.spotify.com";
+
+// Spotify does not publish the rate limit. It counts the requests in a rolling
+// 30-second window, and Development Mode has a lower limit (ADR-0001). The
+// application needs few Spotify requests, so it uses a long pause.
+export const spotifyRequestDelay = 1_000;
+
+// After status 429, Spotify gives the wait in seconds in Retry-After. The HTTP
+// client waits and sends the request again when the wait is this long or shorter.
+// After a longer wait, it refuses the Spotify requests until the wait is complete,
+// because a page cannot wait for minutes.
+export const spotifyLongestWait = 60_000;
+
+// The HTTP client sends a request again a maximum of this number of times after status 429.
+const spotifyRetries = 3;
+
 const applicationVersion = (
   JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8")) as { version: string }
 ).version;
@@ -52,13 +68,15 @@ export class RequestLimitError extends Error {
 }
 
 // Applies the rules of each service to the requests that go through `transport`.
-// Later changes add the rules of setlist.fm and Spotify.
+// A later change adds the rules of setlist.fm.
 export function withServiceRules(transport: HttpClient, settings: Settings, clock: Clock): HttpClient {
   const clashfinderQueue = createPacedQueue(clock, clashfinderCrawlDelay, { service: "Clashfinder", ...clashfinderRequestLimit });
   const musicbrainzQueue = createPacedQueue(clock, musicbrainzRequestDelay);
+  const spotify = createSpotifyRules(transport, clock);
   return {
     send(request) {
       const origin = new URL(request.url).origin;
+      if (origin === spotifyApiOrigin) return spotify(request);
       if (origin === clashfinderOrigin) return clashfinderQueue(() => transport.send(signClashfinderRequest(request, settings)));
       if (origin === musicbrainzOrigin) {
         return musicbrainzQueue(() => {
@@ -122,4 +140,74 @@ function createPacedQueue(
     queue = result.catch(() => undefined);
     return result;
   };
+}
+
+// Spotify gives status 429 with "reason": "QUOTA_EXCEEDED" in the error when the
+// application used all of its quota. The quota is not published, and a new
+// request does not help, so the HTTP client does not send the request again.
+// developer.spotify.com/documentation/web-api/concepts/api-calls
+export class SpotifyQuotaError extends RequestLimitError {
+  constructor(retryAt: Date) {
+    super(
+      "Spotify refused the request because the application used all of its Spotify quota (status 429, QUOTA_EXCEEDED). Spotify does not publish the quota. Try again later.",
+      retryAt,
+    );
+    this.name = "SpotifyQuotaError";
+  }
+}
+
+// Paces the Spotify Web API requests and obeys Retry-After after status 429.
+function createSpotifyRules(transport: HttpClient, clock: Clock): (request: Request) => Promise<Response> {
+  const queue = createPacedQueue(clock, spotifyRequestDelay);
+  // The time until which Spotify refuses requests, after a long Retry-After or a quota error.
+  let blockedUntil: { at: Date; quota: boolean } | undefined;
+
+  return (request) =>
+    queue(async () => {
+      for (let retry = 0; ; retry++) {
+        if (blockedUntil !== undefined && clock.now() < blockedUntil.at) {
+          if (blockedUntil.quota) throw new SpotifyQuotaError(blockedUntil.at);
+          throw spotifyLimitError(clock, blockedUntil.at);
+        }
+        const response = await transport.send(request.clone());
+        if (response.status !== 429) return response;
+        const wait = retryAfter(response.headers.get("retry-after"));
+        if (await isQuotaError(response)) {
+          // Without Retry-After, the next request goes to Spotify, which gives the error again.
+          const at = new Date(clock.now().getTime() + (wait ?? 0));
+          blockedUntil = { at, quota: true };
+          throw new SpotifyQuotaError(at);
+        }
+        const delay = wait ?? spotifyRequestDelay;
+        if (delay > spotifyLongestWait || retry >= spotifyRetries) {
+          blockedUntil = { at: new Date(clock.now().getTime() + delay), quota: false };
+          throw spotifyLimitError(clock, blockedUntil.at);
+        }
+        await clock.sleep(delay);
+      }
+    });
+}
+
+function spotifyLimitError(clock: Clock, retryAt: Date): RequestLimitError {
+  const minutes = Math.max(1, Math.ceil((retryAt.getTime() - clock.now().getTime()) / 60_000));
+  return new RequestLimitError(
+    `Spotify limited the requests of the application (status 429). Try again in ${minutes} ${minutes === 1 ? "minute" : "minutes"}.`,
+    retryAt,
+  );
+}
+
+// Retry-After in seconds, as milliseconds. Undefined when the header is missing or not a number.
+function retryAfter(value: string | null): number | undefined {
+  if (value === null || !/^\s*\d+\s*$/.test(value)) return undefined;
+  return Number(value) * 1000;
+}
+
+async function isQuotaError(response: Response): Promise<boolean> {
+  try {
+    const body: unknown = await response.clone().json();
+    const error = typeof body === "object" && body !== null ? (body as { error?: unknown }).error : undefined;
+    return typeof error === "object" && error !== null && (error as { reason?: unknown }).reason === "QUOTA_EXCEEDED";
+  } catch {
+    return false;
+  }
 }

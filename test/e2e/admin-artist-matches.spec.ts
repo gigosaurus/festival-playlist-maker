@@ -3,6 +3,7 @@ import type { Page } from "@playwright/test";
 import { clashfinderCrawlDelay, musicbrainzRequestDelay } from "../../src/http-client.ts";
 import { download2027Response } from "../support/clashfinder.ts";
 import { busyResponse, genreListUrl, musicbrainzSearchUrl, searchResponse } from "../support/musicbrainz.ts";
+import { artistResponse, quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
 import { expect, test, testAdmin, type Clashfinder } from "./fixtures.ts";
 
 // Adds a festival with the Clashfinder page download27 (10 lineup names).
@@ -34,6 +35,18 @@ async function openArtistMatches(page: Page, festival = "Download 2027"): Promis
   await waitForSearches(page);
 }
 
+// The Spotify artists are found in the background. The admin loads the page again to see them.
+async function waitForSpotifyArtists(page: Page): Promise<void> {
+  await expect(async () => {
+    await page.reload();
+    await expect(page.getByText("Spotify artist: waiting")).toHaveCount(0);
+  }).toPass();
+}
+
+function matchRow(page: Page, name: string) {
+  return page.getByRole("region", { name: /^Artist matches/ }).getByRole("listitem").filter({ hasText: name });
+}
+
 function lineupName(page: Page, name: string) {
   return page.getByRole("article", { name, exact: true });
 }
@@ -46,9 +59,10 @@ async function axeViolations(page: Page) {
 }
 
 test.describe("admin", () => {
-  test.beforeEach(async ({ logIn, musicBrainz }) => {
+  test.beforeEach(async ({ logIn, musicBrainz, spotify }) => {
     await logIn(testAdmin);
     await musicBrainz.willGiveRecordedResponses();
+    await spotify.willGiveRecordedArtists();
   });
 
   test("the admin confirms the proposed artist with one action", async ({ page, clashfinder }) => {
@@ -215,13 +229,129 @@ test.describe("admin", () => {
   });
 });
 
+test.describe("Spotify artist", () => {
+  test.beforeEach(async ({ page, logIn, musicBrainz, spotify, clashfinder }) => {
+    await logIn(testAdmin);
+    await musicBrainz.willGiveRecordedResponses();
+    await spotify.willGiveRecordedArtists();
+    await addFestival(page, clashfinder);
+    await openArtistMatches(page);
+  });
+
+  test("the admin sees the Spotify artist of a match, with a link that opens it in Spotify", async ({ page }) => {
+    await page.getByRole("button", { name: "Save the match for Bring Me The Horizon" }).click();
+
+    await waitForSpotifyArtists(page);
+
+    const row = matchRow(page, "Bring Me The Horizon");
+    await expect(row).toContainText(/Spotify artist: Bring Me The Horizon in Spotify\s+· from the MusicBrainz link/);
+    const link = row.getByRole("link", { name: "Bring Me The Horizon in Spotify" });
+    await expect(link).toHaveAttribute("href", `https://open.spotify.com/artist/${spotifyIds.bringMeTheHorizon}`);
+    await expect(link).toHaveAttribute("target", "_blank");
+    expect(await axeViolations(page)).toEqual([]);
+  });
+
+  test("a match to an artist without a Spotify artist shows a warning", async ({ page }) => {
+    await page.getByRole("button", { name: "Save the match for Bring Me The Horizon" }).click();
+    await page.getByRole("link", { name: "Change the match for Bring Me The Horizon" }).click();
+    await page.getByRole("radio", { name: "Bring Me the Horizon UK" }).check();
+    await page.getByRole("button", { name: "Save the match for Bring Me The Horizon" }).click();
+
+    await waitForSpotifyArtists(page);
+
+    // The tribute band has no MusicBrainz Spotify link, and the Spotify search gives only the real band.
+    await expect(matchRow(page, "Bring Me The Horizon")).toContainText(
+      "Warning: no Spotify artist found. Playlists get no songs for this artist.",
+    );
+  });
+
+  test("the admin sets the Spotify artist by hand, and a new save of the match does not replace it", async ({ page }) => {
+    await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
+    await waitForSpotifyArtists(page);
+    await expect(matchRow(page, "Turnstile")).toContainText(/Spotify artist: Turnstile in Spotify\s+· from the MusicBrainz link/);
+
+    await page.getByRole("link", { name: "Set the Spotify artist for Turnstile" }).click();
+
+    await expect(page).toHaveTitle("Spotify artist for Turnstile – Festival Playlist Maker");
+    await expect(page.getByText("Current Spotify artist")).toBeVisible();
+    expect(await axeViolations(page)).toEqual([]);
+    const address = page.getByLabel("Address of the Spotify artist");
+    await address.fill(`https://open.spotify.com/album/${spotifyIds.turnstile}`);
+    await page.getByRole("button", { name: "Save the Spotify artist" }).click();
+    await expect(page).toHaveTitle("Error: Spotify artist for Turnstile – Festival Playlist Maker");
+    await expect(address).toHaveAccessibleDescription(/Enter the address of a Spotify artist/);
+    expect(await axeViolations(page)).toEqual([]);
+
+    await address.fill(`https://open.spotify.com/artist/${spotifyIds.ghostSweden}?si=0123456789`);
+    await page.getByRole("button", { name: "Save the Spotify artist" }).click();
+
+    await expect(page.getByRole("heading", { name: "Set the Spotify artist of Turnstile to Ghost" })).toBeVisible();
+    await expect(matchRow(page, "Turnstile")).toContainText(/Spotify artist: Ghost in Spotify\s+· set by hand/);
+
+    // A new save of the match finds the Spotify artist again. It does not replace the artist that the admin set.
+    await page.getByRole("link", { name: "Change the match for Turnstile" }).click();
+    await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
+    await waitForSpotifyArtists(page);
+    await expect(matchRow(page, "Turnstile")).toContainText(/Spotify artist: Ghost in Spotify\s+· set by hand/);
+  });
+
+  test("an address that Spotify does not have shows the problem", async ({ page, testServer }) => {
+    await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
+    await waitForSpotifyArtists(page);
+    await testServer.respondTo("GET", spotifyArtistUrl("0000000000000000000000"), {
+      status: 404,
+      body: '{"error":{"status":404,"message":"Resource not found"}}',
+    });
+    await page.getByRole("link", { name: "Set the Spotify artist for Turnstile" }).click();
+
+    await page.getByLabel("Address of the Spotify artist").fill("spotify:artist:0000000000000000000000");
+    await page.getByRole("button", { name: "Save the Spotify artist" }).click();
+
+    await expect(page.getByText("Spotify has no artist at this address. Make sure that you copied the full address.")).toBeVisible();
+    await expect(page.getByLabel("Address of the Spotify artist")).toHaveValue("spotify:artist:0000000000000000000000");
+  });
+
+  test("a name with “no match” has no Spotify artist page", async ({ page }) => {
+    await page.getByRole("button", { name: "Save the match for ???" }).click();
+    await expect(matchRow(page, "???").getByRole("link", { name: /Set the Spotify artist/ })).toHaveCount(0);
+
+    // The lineup name IDs come from the order of the names in the Clashfinder export. "???" is first.
+    const response = await page.goto("/admin/festivals/1/artist-matches/1/spotify");
+
+    expect(response?.status()).toBe(404);
+  });
+
+  test("a Spotify quota error stops the search with its cause, and the admin starts it again", async ({ page, testServer }) => {
+    await testServer.respondTo("GET", spotifyArtistUrl(spotifyIds.evanescence), quotaExceededResponse);
+    await page.getByRole("button", { name: "Save the match for Evanescence" }).click();
+
+    await expect(async () => {
+      await page.reload();
+      await expect(page.getByRole("heading", { name: /^The search for Spotify artists stopped on / })).toBeVisible();
+    }).toPass();
+    await expect(page.getByText(/used all of its Spotify quota \(status 429, QUOTA_EXCEEDED\)/)).toBeVisible();
+    await expect(matchRow(page, "Evanescence")).toContainText("Spotify artist: waiting");
+
+    await testServer.respondTo("GET", spotifyArtistUrl(spotifyIds.evanescence), artistResponse(spotifyIds.evanescence));
+    await page.getByRole("button", { name: "Find the Spotify artists again" }).click();
+    await waitForSpotifyArtists(page);
+
+    await expect(matchRow(page, "Evanescence")).toContainText(/Spotify artist: Evanescence in Spotify\s+· from the MusicBrainz link/);
+  });
+});
+
 test("a user who is not the admin cannot open the artist matches", async ({ page, logIn }) => {
   await logIn();
 
   await page.goto("/admin/festivals/1/artist-matches");
 
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Only the admin can open this page");
-  for (const path of ["/admin/festivals/1/artist-matches", "/admin/festivals/1/artist-matches/search"]) {
+  for (const path of [
+    "/admin/festivals/1/artist-matches",
+    "/admin/festivals/1/artist-matches/search",
+    "/admin/festivals/1/artist-matches/spotify",
+    "/admin/festivals/1/artist-matches/1/spotify",
+  ]) {
     const response = await page.request.post(path, { form: { lineupName: "1", choice: "no-match" } });
     expect(response.status(), path).toBe(403);
   }
@@ -250,7 +380,13 @@ test.describe("unknown addresses", () => {
     await logIn(testAdmin);
   });
 
-  for (const path of ["/admin/festivals/99/artist-matches", "/admin/festivals/1/artist-matches/99", "/admin/festivals/abc/artist-matches"]) {
+  // Lineup name 1 is on no lineup, because there is no festival.
+  for (const path of [
+    "/admin/festivals/99/artist-matches",
+    "/admin/festivals/1/artist-matches/99",
+    "/admin/festivals/abc/artist-matches",
+    "/admin/festivals/1/artist-matches/1/spotify",
+  ]) {
     test(`${path} shows Page not found`, async ({ page }) => {
       const response = await page.goto(path);
 

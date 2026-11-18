@@ -1,0 +1,1156 @@
+{
+ "isnis": [],
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "sort-name": "Pierce the Veil",
+ "gender": null,
+ "ipis": [],
+ "country": "US",
+ "type": "Group",
+ "life-span": {
+  "end": null,
+  "begin": "2006",
+  "ended": false
+ },
+ "area": {
+  "sort-name": "United States",
+  "disambiguation": "",
+  "type-id": null,
+  "iso-3166-1-codes": [
+   "US"
+  ],
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type": null,
+  "name": "United States"
+ },
+ "disambiguation": "",
+ "gender-id": null,
+ "begin-area": {
+  "type-id": null,
+  "name": "San Diego",
+  "sort-name": "San Diego",
+  "id": "82f3a697-ba65-404d-a1ed-360147af7d10",
+  "type": null,
+  "disambiguation": ""
+ },
+ "relations": [
+  {
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "allmusic",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0000473230",
+    "id": "a8238812-ceb7-4c6b-91a5-06781e7572cf"
+   },
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "bandcamp",
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://piercetheveil.bandcamp.com/",
+    "id": "bc1a39c5-01e9-451b-b688-995593b5088a"
+   },
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.bandsintown.com/a/4072",
+    "id": "0c96c035-76cd-4283-8a85-fbdb936d9961"
+   },
+   "source-credit": "",
+   "type": "bandsintown",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.bbc.co.uk/music/artists/8ed919fb-eaee-45a1-ba99-b3ede9ca5f1d",
+    "id": "082d71d6-a044-483e-83e6-2f7a26ed45a9"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "BBC Music page",
+   "begin": null,
+   "target-credit": "",
+   "ended": true,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "attribute-ids": {},
+   "end": "2020-11-19"
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://piercetheveil.tumblr.com/",
+    "id": "94158a1c-3403-4d42-a3a6-f3c0613fc5ff"
+   },
+   "source-credit": "",
+   "type": "blog",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "type": "discography page",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.punk-lyrics.net/band/pierce-the-veil",
+    "id": "2a1125b8-ef9a-45f6-b0e6-c9d4b2cba917"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "78653d37-1580-4a79-81aa-619dff97a5d4",
+    "resource": "https://www.discogs.com/artist/1055467"
+   },
+   "source-credit": "",
+   "type": "discogs",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "id": "6eb8ae15-2d1f-482d-8b7c-a84b0f3d1279",
+    "resource": "https://open.spotify.com/artist/4iJLPqClelZOBCBifm8Fzv"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "free streaming"
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.deezer.com/artist/396349",
+    "id": "3efc92f4-4448-420f-a9b2-40eeaf2c0e73"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "free streaming"
+  },
+  {
+   "begin": null,
+   "type": "free streaming",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "a5b4e401-957c-4c42-9cd5-1fbadbfeea6a",
+    "resource": "https://www.iheart.com/artist/82665/"
+   }
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "87d90b3a-f23a-40a0-a0e3-2c28b754f011",
+    "resource": "https://www.pandora.com/artist/ARtr77V5XXd5gtK"
+   },
+   "source-credit": "",
+   "type": "free streaming",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://concord.com/wp-content/uploads/2016/03/PTVNOV2022PROMO-shopify.jpg",
+    "id": "259881c3-c5e0-4e41-a37b-3c062d5aaa5d"
+   },
+   "begin": null,
+   "type": "image",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "resource": "https://www.imdb.com/name/nm5162505/",
+    "id": "c53e6272-10df-4906-b408-a43f1a2cc796"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "type": "IMDb",
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "attribute-ids": {},
+   "end": null,
+   "type": "last.fm",
+   "begin": null,
+   "url": {
+    "resource": "https://www.last.fm/music/Pierce+the+Veil",
+    "id": "68e66993-4967-4da7-b6e8-8ef293fe4bf5"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "http://muzikum.eu/en/122-13151/pierce-the-veil/lyrics.html",
+    "id": "7bd9120c-d04b-4ee6-b39a-f824fc575614"
+   }
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://genius.com/artists/Pierce-the-veil",
+    "id": "81a5bf3c-692b-4aa7-b3bf-06e14171ca51"
+   },
+   "source-credit": "",
+   "type": "lyrics",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "target-type": "url",
+   "url": {
+    "id": "641d59b9-67ba-48d4-b6c7-388f0e31d15d",
+    "resource": "https://myspace.com/piercetheveil"
+   },
+   "source-credit": "",
+   "attribute-values": {},
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "type": "myspace",
+   "begin": null
+  },
+  {
+   "url": {
+    "id": "569b15da-6749-42c7-8cda-427b64391132",
+    "resource": "http://piercetheveil.net/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "type": "official homepage",
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "0ea7ac76-0d74-42c8-b2f1-4f2900b95521",
+    "resource": "http://id.loc.gov/authorities/names/n2010010042"
+   },
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "begin": null,
+   "type": "other databases",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "6dd4fac5-8dc2-4262-b0c2-cce9e98bdf3c",
+    "resource": "https://imvdb.com/n/pierce-the-veil"
+   }
+  },
+  {
+   "type": "other databases",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/pierce-the-veil",
+    "id": "b9291cbd-e56e-4302-8a3a-2b1f6ab5029f"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null,
+   "type": "other databases",
+   "begin": null,
+   "url": {
+    "id": "ead8a729-ee80-42d4-9eab-08443d6d0f60",
+    "resource": "https://www.musik-sammler.de/artist/pierce-the-veil/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "other databases",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.whosampled.com/Pierce-the-Veil/",
+    "id": "4f159e70-c36e-4b8b-97da-3b1058e921be"
+   },
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.worldcat.org/identities/lccn-n2010010042",
+    "id": "66cbdd5d-07bc-4cd9-9681-7a025f3a5a67"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "type": "purchase for download",
+   "begin": null,
+   "ended": true,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": "2020-10-12",
+   "attribute-values": {},
+   "url": {
+    "id": "c8e044a2-97ae-46fb-ae5c-e0b6bf1de79a",
+    "resource": "https://play.google.com/store/music/artist?id=Aagnihisnta7qqqvs7lgel5dmxe"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "resource": "https://mora.jp/artist/682796/",
+    "id": "801c6c1d-d559-43bc-9ef8-1bc8c048b464"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "purchase for download"
+  },
+  {
+   "begin": null,
+   "type": "purchase for download",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://music.apple.com/us/artist/258668501",
+    "id": "9ccd324c-c266-4d50-8e97-3686777c96c3"
+   }
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://open.qobuz.com/artist/1963650",
+    "id": "57d1bf89-5be0-45c2-9f7b-075a75c38e9b"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward"
+  },
+  {
+   "type": "purchase for download",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "resource": "https://us.7digital.com/artist/pierce-the-veil",
+    "id": "e928e96d-ffbb-438f-b52d-157a95733b78"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type": "purchase for download",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "id": "3ffcd80e-df7d-4a33-bf4e-948954be29b9",
+    "resource": "https://www.amazon.com/-/e/B001LI3E4E"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "purchase for download",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "72a1fb4e-81e1-427a-99b9-f6afc5a8c34e",
+    "resource": "https://www.beatport.com/artist/pierce-the-veil/1412011"
+   },
+   "attribute-values": {}
+  },
+  {
+   "url": {
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=636892",
+    "id": "6cec0827-487b-487d-9e2e-b7ba80722cec"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "type": "purchase for download",
+   "begin": null
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "purchase for download",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.qobuz.com/us-en/interpreter/pierce-the-veil/download-streaming-albums",
+    "id": "2c5d0826-bae9-413d-ab6b-abfd85e53db6"
+   },
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "bbaa7761-9265-4a8f-83e6-ae005eec34c1",
+    "resource": "https://piercetheveil.merchnow.com/"
+   },
+   "source-credit": "",
+   "type": "purchase for mail-order",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.amazon.com/-/e/B001LI3E4E",
+    "id": "3ffcd80e-df7d-4a33-bf4e-948954be29b9"
+   },
+   "attribute-values": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "purchase for mail-order"
+  },
+  {
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "purchase for mail-order",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "ff107744-e6ee-4e2a-abfe-44914b7f5abd",
+    "resource": "https://www.cdjapan.co.jp/person/700577757"
+   },
+   "attribute-values": {}
+  },
+  {
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "purchase for mail-order",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.ptvmerch.com/",
+    "id": "f9ae5a6f-9a0f-4aee-83aa-d36db91d5fb8"
+   },
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.yesasia.com/0-aid2167247-0-bpt.47-en/list.html",
+    "id": "efa65d8a-a2e2-4551-b0a4-b6fc0c95f079"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "purchase for mail-order"
+  },
+  {
+   "begin": null,
+   "type": "purchase for mail-order",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "http://www.ptvmerch.uk/",
+    "id": "847f1ebf-8003-4046-bb46-d7889a300216"
+   },
+   "target-type": "url"
+  },
+  {
+   "begin": null,
+   "type": "secondhandsongs",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "d2e4111a-6cdf-445e-aaa8-e712e525329a",
+    "resource": "https://secondhandsongs.com/artist/42576"
+   }
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "a561640b-95f5-4ac9-9b9d-87eb5bdad208",
+    "resource": "https://www.setlist.fm/setlists/pierce-the-veil-63d6f637.html"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "setlistfm"
+  },
+  {
+   "begin": null,
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://open.spotify.com/user/piercetheveilband",
+    "id": "774899b9-ed4c-4f15-962a-fb2fa691bb0d"
+   }
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "d8249d98-6c9e-405f-bf57-c2e052d2b851",
+    "resource": "https://twitter.com/piercetheveil"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "social network",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false
+  },
+  {
+   "type": "social network",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "id": "3524de73-2653-495e-9f27-058d0f3ea642",
+    "resource": "https://www.facebook.com/PierceTheVeil"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "social network",
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.instagram.com/piercetheveil/",
+    "id": "80a6aa7b-6e68-49c0-b047-1829c962f326"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "social network",
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.tiktok.com/@piercetheveil",
+    "id": "89bddd7c-4c14-4daf-9a65-3adaf8824ce4"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "ebe56744-5597-421e-a493-903e08f1bec9",
+    "resource": "https://www.songkick.com/artists/567232"
+   },
+   "begin": null,
+   "type": "songkick",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "type": "soundcloud",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://soundcloud.com/pierce-the-veil-music",
+    "id": "af32c8a6-d611-417a-ab14-2a2c8e493e64"
+   },
+   "source-credit": ""
+  },
+  {
+   "type": "streaming",
+   "begin": null,
+   "target-credit": "",
+   "ended": true,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "end": "2022-06-08",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "2ec981fc-a4c9-4388-bc7d-6abf816fcb0a",
+    "resource": "https://us.napster.com/artist/pierce-the-veil"
+   },
+   "source-credit": ""
+  },
+  {
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "streaming",
+   "source-credit": "",
+   "url": {
+    "id": "985dd77f-d2d7-45f8-ba0e-2a136ea562f9",
+    "resource": "https://music.apple.com/gb/artist/258668501"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "9ccd324c-c266-4d50-8e97-3686777c96c3",
+    "resource": "https://music.apple.com/us/artist/258668501"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "streaming",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://music.line.me/webapp/artist/mi000000000763b55d",
+    "id": "a2539dd9-a422-4079-b4bd-b02451140978"
+   },
+   "begin": null,
+   "type": "streaming",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "resource": "https://open.qobuz.com/artist/1963650",
+    "id": "57d1bf89-5be0-45c2-9f7b-075a75c38e9b"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "type": "streaming",
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "abe72b49-c01c-4ed7-895c-3920a2f60445",
+    "resource": "https://tidal.com/artist/4108155"
+   },
+   "source-credit": "",
+   "type": "streaming",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "streaming",
+   "source-credit": "",
+   "url": {
+    "id": "6cec0827-487b-487d-9e2e-b7ba80722cec",
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=636892"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "url": {
+    "id": "67af9ff7-61e1-4813-9d08-690713869bd0",
+    "resource": "https://www.livenation.com/artist/K8vZ917GHdV"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "type": "ticketing",
+   "begin": null
+  },
+  {
+   "begin": null,
+   "type": "ticketing",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.ticketmaster.com/artist/1487015",
+    "id": "6ab8a454-9619-4ba4-a602-d07a3aee738a"
+   }
+  },
+  {
+   "begin": null,
+   "type": "VIAF",
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "http://viaf.org/viaf/137443298",
+    "id": "b3438b83-8b10-4a4b-9ebc-eb951ec25090"
+   }
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.dailymotion.com/piercetheveil",
+    "id": "c93b0ea0-ae75-4070-a9ac-53ca172ab3f8"
+   },
+   "attribute-values": {},
+   "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "video channel"
+  },
+  {
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "wikidata",
+   "source-credit": "",
+   "url": {
+    "id": "1e07bd98-0eae-44f7-852a-d3a3361a80fd",
+    "resource": "https://www.wikidata.org/wiki/Q1169219"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-ids": {},
+   "end": null,
+   "type": "youtube",
+   "begin": null,
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCyipvkWkNpmEQPGovalDjFA",
+    "id": "76404d39-2dae-4d97-bf06-9159bdeaf23d"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "d954df94-4137-43b1-b0f2-182fd48ce178",
+    "resource": "https://music.youtube.com/channel/UCgo9dlUzeF35B9dcnCXzQ1Q"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "youtube music",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false
+  }
+ ],
+ "id": "8ed919fb-eaee-45a1-ba99-b3ede9ca5f1d",
+ "end-area": null,
+ "name": "Pierce the Veil"
+}

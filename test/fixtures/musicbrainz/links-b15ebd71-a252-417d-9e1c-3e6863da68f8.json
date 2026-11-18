@@ -1,0 +1,1140 @@
+{
+ "name": "Faith No More",
+ "ipis": [],
+ "country": "US",
+ "disambiguation": "",
+ "end-area": null,
+ "life-span": {
+  "begin": "1983-09",
+  "ended": false,
+  "end": null
+ },
+ "begin-area": {
+  "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+  "type": null,
+  "disambiguation": "",
+  "sort-name": "San Francisco",
+  "type-id": null,
+  "name": "San Francisco"
+ },
+ "relations": [
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-values": {},
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "allmusic",
+   "target-credit": "",
+   "url": {
+    "id": "19dc471f-850a-403a-93e0-b1617705b533",
+    "resource": "https://www.allmusic.com/artist/mn0000134729"
+   }
+  },
+  {
+   "end": null,
+   "attribute-values": {},
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://faithnomore.bandcamp.com/",
+    "id": "62724cb4-6763-4196-954c-447cbc28b3da"
+   },
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "bandcamp"
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "45b8ec31-c32b-41c4-90f3-2eae3ce6c536",
+    "resource": "https://www.bandsintown.com/a/2077"
+   },
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "bandsintown",
+   "end": null,
+   "attribute-values": {},
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.bbc.co.uk/music/artists/b15ebd71-a252-417d-9e1c-3e6863da68f8",
+    "id": "8dde27ba-6399-44d1-9396-b4478dcb8173"
+   },
+   "type": "BBC Music page",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": true,
+   "attribute-values": {},
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "end": "2020-11-19",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.fnm.com/discography.shtml",
+    "id": "a6b753fc-8260-410d-9494-a105b18bc7e2"
+   },
+   "type": "discography page",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "attribute-values": {},
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward"
+  },
+  {
+   "target-type": "url",
+   "type": "discography page",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "url": {
+    "id": "31317c33-1145-4bf8-b6bb-94125431e71a",
+    "resource": "https://www.pattonmad.com/Faith%20No%20More/FaithNoMoreDiscography.htm"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "attribute-values": {},
+   "end": null
+  },
+  {
+   "attribute-values": {},
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "url": {
+    "id": "23ec7a4f-efef-4379-a132-c15c8a0de919",
+    "resource": "http://www.faithnomorediscography.com/"
+   },
+   "target-credit": "",
+   "target-type": "url",
+   "type": "discography page",
+   "ended": false,
+   "begin": null,
+   "source-credit": ""
+  },
+  {
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "discogs",
+   "target-credit": "",
+   "url": {
+    "id": "bfe96007-8bec-4ba1-9741-f2071545f041",
+    "resource": "https://www.discogs.com/artist/12937"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "attribute-values": {}
+  },
+  {
+   "begin": "1997-06-02",
+   "source-credit": "",
+   "ended": true,
+   "type": "fanpage",
+   "target-type": "url",
+   "url": {
+    "id": "a6857fa5-b46d-47ee-8533-56481d052a0c",
+    "resource": "http://old.fnm.com/"
+   },
+   "target-credit": "",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "attribute-values": {},
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24"
+  },
+  {
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "fanpage",
+   "target-type": "url",
+   "target-credit": "",
+   "url": {
+    "resource": "https://fnmlive.com/",
+    "id": "02669083-3353-4577-a4fb-3898e12a41ea"
+   }
+  },
+  {
+   "url": {
+    "id": "3482f5cc-5f75-4d22-a29d-f57129859669",
+    "resource": "http://negele.org/cvdb2/?b=2"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "begin": null,
+   "ended": true,
+   "type": "fanpage",
+   "target-type": "url",
+   "end": null,
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "end": null,
+   "type": "free streaming",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "url": {
+    "resource": "https://open.spotify.com/artist/6GbCJZrI318Ybm8mY36Of5",
+    "id": "7166c88c-0a62-49e1-93af-3a685c25553b"
+   },
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "id": "166e35a6-bccd-475b-9b76-49251ddaacc6",
+    "resource": "https://www.deezer.com/artist/2255"
+   },
+   "target-credit": "",
+   "target-type": "url",
+   "type": "free streaming",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward"
+  },
+  {
+   "type": "image",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "url": {
+    "id": "a67933dd-5a81-4635-afff-151b193fb7b6",
+    "resource": "https://commons.wikimedia.org/wiki/File:Faith_No_More_2009.jpg"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "end": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "22e1d198-3cfa-4dec-8ff3-6f3910620a04",
+    "resource": "https://www.imdb.com/name/nm1655135/"
+   },
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "IMDb",
+   "end": null,
+   "attribute-values": {},
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  },
+  {
+   "type": "last.fm",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "url": {
+    "id": "c3314116-1b09-44dc-9ad9-2fe371d8fe8a",
+    "resource": "https://www.last.fm/music/Faith+No+More"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "attribute-values": {},
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-values": {},
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "lyrics",
+   "target-type": "url",
+   "url": {
+    "resource": "https://genius.com/artists/Faith-no-more",
+    "id": "56f76006-1e47-43e6-855f-4ebe7759dcce"
+   },
+   "target-credit": ""
+  },
+  {
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-values": {},
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-credit": "",
+   "url": {
+    "id": "2efea967-2137-4653-bc1d-de3eab9b72fb",
+    "resource": "https://muzikum.eu/en/faith-no-more/lyrics"
+   },
+   "target-type": "url",
+   "type": "lyrics",
+   "ended": false,
+   "begin": null,
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "target-credit": "",
+   "url": {
+    "resource": "https://myspace.com/faithnomore",
+    "id": "a61a6653-7d87-4d08-9850-717df30e6f8a"
+   },
+   "target-type": "url",
+   "type": "myspace",
+   "ended": false,
+   "source-credit": "",
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.fnm.com/",
+    "id": "e47f1418-b0f8-4125-8c2b-88b445a35378"
+   },
+   "type": "official homepage",
+   "target-type": "url",
+   "begin": "2009-02",
+   "source-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "9f0e757c-230b-4d11-83b7-9d1a2456a482",
+    "resource": "http://id.loc.gov/authorities/names/n91127579"
+   },
+   "target-type": "url",
+   "type": "other databases",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "d57af0cd-b630-4c7f-994d-5dc2b21392f8",
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb13903420k"
+   },
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "other databases",
+   "target-type": "url"
+  },
+  {
+   "url": {
+    "resource": "https://d-nb.info/gnd/10291326-2",
+    "id": "bef8eb32-57fe-4e35-a6bb-0e6b9d2c9cb6"
+   },
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "other databases",
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://id.oclc.org/worldcat/entity/E39QQPVp7PyWXKr93mcqBCprFg",
+    "id": "e3930329-f098-4053-b41b-bb960a06d497"
+   },
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "other databases",
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "end": null,
+   "type": "other databases",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "url": {
+    "id": "cee44c92-ac52-43e9-8487-0ff69541e4b2",
+    "resource": "https://imvdb.com/n/faith-no-more"
+   }
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "c9a43315-2538-4f10-bfba-4a94cf21dc9d",
+    "resource": "https://musicmoz.org/Bands_and_Artists/F/Faith_No_More/"
+   },
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "other databases",
+   "target-type": "url",
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "url": {
+    "id": "d369a4b3-7086-4114-9e36-e406d6fc4e87",
+    "resource": "https://rateyourmusic.com/artist/faith-no-more"
+   },
+   "target-credit": "",
+   "type": "other databases",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "resource": "https://www.45cat.com/artist/faith-no-more",
+    "id": "ae9494fd-b545-4f00-8d46-36ab2ebf2a91"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "other databases",
+   "target-type": "url"
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "type": "other databases",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.metal-archives.com/bands/Faith_No_More/983",
+    "id": "4e53c53a-cad7-4794-a1c4-4d70207abd29"
+   }
+  },
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "other databases",
+   "target-type": "url",
+   "target-credit": "",
+   "url": {
+    "id": "6bc81715-d2f4-4fb3-aa53-ca5443bcc199",
+    "resource": "https://www.metalmusicarchives.com/artist/faith-no-more"
+   }
+  },
+  {
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "other databases",
+   "target-type": "url",
+   "url": {
+    "id": "331c4881-bb8d-4559-9685-2cf1f20fb50e",
+    "resource": "https://www.musik-sammler.de/artist/221/"
+   },
+   "target-credit": "",
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {}
+  },
+  {
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "635066e3-4a6d-4952-9daa-32838d6c60f0",
+    "resource": "https://www.spirit-of-metal.com/en/band/Faith_No_More"
+   },
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "other databases"
+  },
+  {
+   "url": {
+    "resource": "https://www.whosampled.com/Faith-No-More/",
+    "id": "656c66bd-5bd3-4a16-bc7c-f28e87b49ba6"
+   },
+   "target-credit": "",
+   "type": "other databases",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward"
+  },
+  {
+   "target-type": "url",
+   "type": "purchase for download",
+   "ended": true,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "724d0fb4-f18e-4bb5-b93f-c2b67b2768e0",
+    "resource": "https://play.google.com/store/music/artist?id=Awsyp54p3m5olnwimphpp7l2vpu"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "end": "2020-10-12"
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://mora.jp/artist/1078446/",
+    "id": "c9702e6e-a921-4d59-9641-fdfc5285204f"
+   },
+   "target-type": "url",
+   "type": "purchase for download",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward"
+  },
+  {
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "target-type": "url",
+   "type": "purchase for download",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "url": {
+    "id": "5822065e-5ee3-425a-8aa5-2dae18748a65",
+    "resource": "https://mora.jp/artist/475551/"
+   },
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "resource": "https://music.apple.com/us/artist/170077",
+    "id": "4041cda7-1c4f-4fe3-beeb-c4c93ad9d4fb"
+   },
+   "target-credit": "",
+   "type": "purchase for download",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "type": "purchase for download",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "url": {
+    "id": "6089d949-9107-4c83-afb4-20ce067b76b0",
+    "resource": "https://music.bugs.co.kr/artist/474"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "target-type": "url",
+   "type": "purchase for download",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "38511330-7a05-438c-9d36-cf619aacb276",
+    "resource": "https://open.qobuz.com/artist/160035"
+   }
+  },
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "purchase for download",
+   "target-type": "url",
+   "target-credit": "",
+   "url": {
+    "resource": "https://ototoy.jp/_/default/a/254487",
+    "id": "17a982f5-624f-4167-8a93-aaf5d458f9a3"
+   }
+  },
+  {
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "url": {
+    "resource": "https://us.7digital.com/artist/faith-no-more",
+    "id": "edd94229-b802-4153-bd5a-91acc6bfc9c4"
+   },
+   "target-credit": "",
+   "target-type": "url",
+   "type": "purchase for download",
+   "ended": false,
+   "begin": null,
+   "source-credit": ""
+  },
+  {
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "purchase for download",
+   "url": {
+    "id": "f558cb61-f8a6-404d-994b-df0274966c88",
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=100341"
+   },
+   "target-credit": "",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {}
+  },
+  {
+   "url": {
+    "resource": "https://www.qobuz.com/us-en/interpreter/faith-no-more/160035",
+    "id": "c6cc94e1-86be-412f-ad17-cbed8f9d81b3"
+   },
+   "target-credit": "",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "purchase for download",
+   "end": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "end": "2018-06-30",
+   "attribute-values": {},
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "5993b140-d806-4fca-9b75-701e9bdc76d4",
+    "resource": "http://www.purevolume.com/faithnomore"
+   },
+   "ended": true,
+   "begin": null,
+   "source-credit": "",
+   "target-type": "url",
+   "type": "purevolume"
+  },
+  {
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "attribute-values": {},
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "secondhandsongs",
+   "target-credit": "",
+   "url": {
+    "resource": "https://secondhandsongs.com/artist/195",
+    "id": "646b5618-1293-41d5-a76f-ccfcdac3b22c"
+   }
+  },
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "attribute-values": {},
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "setlistfm",
+   "target-type": "url",
+   "url": {
+    "id": "347d345b-77be-4ba8-8f3a-6af25b78c4ed",
+    "resource": "https://www.setlist.fm/setlists/faith-no-more-2bd6b0de.html"
+   },
+   "target-credit": ""
+  },
+  {
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://twitter.com/faith_no_more",
+    "id": "dff61544-3ab8-4762-ab84-a3c85f8ebfea"
+   },
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "social network",
+   "target-type": "url"
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "end": null,
+   "type": "social network",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "target-credit": "",
+   "url": {
+    "id": "51ecda72-e480-4c99-b789-49c1e02b73ae",
+    "resource": "https://www.facebook.com/faithnomore"
+   }
+  },
+  {
+   "end": null,
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.instagram.com/faithnomore/",
+    "id": "acd0b5e5-a5ff-46ad-950f-82757aaea29e"
+   },
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "social network",
+   "target-type": "url"
+  },
+  {
+   "type": "social network",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "url": {
+    "resource": "https://www.threads.com/@faithnomore",
+    "id": "d4d6cae6-b66f-470d-8ae0-257e7047337a"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "end": null
+  },
+  {
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "songkick",
+   "url": {
+    "resource": "https://www.songkick.com/artists/171120",
+    "id": "a41c18fd-f6ac-40b5-ab99-8c7066cf3dac"
+   },
+   "target-credit": "",
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "attribute-values": {}
+  },
+  {
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "end": null,
+   "target-type": "url",
+   "type": "streaming",
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "url": {
+    "resource": "https://music.apple.com/us/artist/170077",
+    "id": "4041cda7-1c4f-4fe3-beeb-c4c93ad9d4fb"
+   },
+   "target-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "end": null,
+   "attributes": [],
+   "attribute-ids": {},
+   "direction": "forward",
+   "target-credit": "",
+   "url": {
+    "resource": "https://music.bugs.co.kr/artist/474",
+    "id": "6089d949-9107-4c83-afb4-20ce067b76b0"
+   },
+   "type": "streaming",
+   "target-type": "url",
+   "source-credit": "",
+   "begin": null,
+   "ended": false
+  },
+  {
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "source-credit": "",
+   "begin": null,
+   "ended": false,
+   "type": "streaming",
+   "target-type": "url",
+   "url": {
+    "id": "38511330-7a05-438c-9d36-cf619aacb276",
+    "resource": "https://open.qobuz.com/artist/160035"
+   },
+   "target-credit": ""
+  },
+  {
+   "type": "streaming",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "target-credit": "",
+   "url": {
+    "id": "d1c1dd8c-d2d4-4ce8-9137-f74ac15270be",
+    "resource": "https://tidal.com/artist/11945"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "end": null
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "type": "streaming",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=100341",
+    "id": "f558cb61-f8a6-404d-994b-df0274966c88"
+   }
+  },
+  {
+   "url": {
+    "id": "c6cc94e1-86be-412f-ad17-cbed8f9d81b3",
+    "resource": "https://www.qobuz.com/us-en/interpreter/faith-no-more/160035"
+   },
+   "target-credit": "",
+   "type": "streaming",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {}
+  },
+  {
+   "target-type": "url",
+   "type": "VIAF",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "url": {
+    "resource": "http://viaf.org/viaf/145554794",
+    "id": "c472a795-f9d8-4daa-b0cf-246f61050dc6"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "end": null,
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "attribute-values": {},
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "wikidata",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q320499",
+    "id": "0860aa9e-62a1-4429-910a-b24e45a04de3"
+   }
+  },
+  {
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-values": {},
+   "end": null,
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "url": {
+    "id": "bd9a942b-c0eb-493e-aa12-3f575534a558",
+    "resource": "https://www.youtube.com/channel/UC-YWvtG0eKGhkDfs_7DFxKA"
+   },
+   "target-credit": "",
+   "type": "youtube",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": false
+  },
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attribute-values": {},
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "youtube music",
+   "target-type": "url",
+   "url": {
+    "id": "b0d3b38e-58fc-48fa-ba3b-d9eb597340a4",
+    "resource": "https://music.youtube.com/channel/UCw0J9lusvvGJ7VVZDuQnotA"
+   },
+   "target-credit": ""
+  }
+ ],
+ "type": "Group",
+ "gender-id": null,
+ "isnis": [
+  "0000000121779453"
+ ],
+ "id": "b15ebd71-a252-417d-9e1c-3e6863da68f8",
+ "sort-name": "Faith No More",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "gender": null,
+ "area": {
+  "type": null,
+  "iso-3166-1-codes": [
+   "US"
+  ],
+  "type-id": null,
+  "disambiguation": "",
+  "sort-name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "name": "United States"
+ }
+}

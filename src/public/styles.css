@@ -666,10 +666,19 @@ a.button {
   overflow-wrap: anywhere;
 }
 
-.matched-artist {
+.matched-artist,
+.matched-spotify {
   color: var(--colour-muted);
   font-size: 0.9375rem;
   overflow-wrap: anywhere;
+}
+
+/* "Change" and "Set the Spotify artist". */
+.matched-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0;
 }
 
 .match-search {

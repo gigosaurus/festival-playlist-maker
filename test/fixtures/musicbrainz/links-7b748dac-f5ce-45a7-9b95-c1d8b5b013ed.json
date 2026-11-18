@@ -1,0 +1,528 @@
+{
+ "end-area": null,
+ "relations": [
+  {
+   "url": {
+    "id": "147234df-e0c5-4ce3-bc36-7fcf8988eb49",
+    "resource": "https://www.allmusic.com/artist/mn0001569643"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-ids": {},
+   "end": null,
+   "type": "allmusic",
+   "begin": null
+  },
+  {
+   "begin": null,
+   "type": "bandcamp",
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "5dc8d351-7b19-4218-91bc-d9c8f3321ce5",
+    "resource": "https://turnstilehc.bandcamp.com/"
+   }
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "id": "254963ee-a359-4bb7-841c-263921cb15fc",
+    "resource": "https://www.discogs.com/artist/2921052"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "discogs"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "39fac8d7-ad20-4601-9b26-4a499d98425a",
+    "resource": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "free streaming",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward"
+  },
+  {
+   "url": {
+    "resource": "https://www.deezer.com/artist/1072674",
+    "id": "5c936d46-8fd7-4da8-a6c5-0865106f3780"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "type": "free streaming",
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.last.fm/music/Turnstile",
+    "id": "f3542b30-097a-47d7-9f8c-213de7079c0d"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "last.fm",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "attribute-ids": {},
+   "end": null
+  },
+  {
+   "target-type": "url",
+   "url": {
+    "id": "e94b71cd-0f79-4ab6-996a-f7211f49ba1a",
+    "resource": "https://genius.com/artists/Turnstile"
+   },
+   "source-credit": "",
+   "attribute-values": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "end": null,
+   "attribute-ids": {},
+   "type": "lyrics",
+   "begin": null
+  },
+  {
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "official homepage",
+   "source-credit": "",
+   "url": {
+    "id": "0e39da5f-bd67-4bed-8c00-a542a4ca2dfb",
+    "resource": "https://www.turnstilehardcore.com/"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.turnstilehardcore.uk/",
+    "id": "8dd41f36-e6ca-40e9-bf5c-a913748f8356"
+   },
+   "source-credit": "",
+   "type": "official homepage",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+  },
+  {
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "resource": "http://id.loc.gov/authorities/names/n2019001228",
+    "id": "62ada5ab-dca7-4f54-a968-6f9c63d933eb"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "url": {
+    "id": "39edbcf8-9225-4d54-b6bb-d36ea7ad45e5",
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb179728224"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {},
+   "type": "other databases",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "resource": "https://d-nb.info/gnd/1166975606",
+    "id": "3c0d8b82-0b95-4c83-9d27-d818286fffcf"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "ab65fbeb-29c9-4fdc-b9c6-89df69c02d5b",
+    "resource": "https://imvdb.com/n/turnstile"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "other databases"
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/turnstile",
+    "id": "eda9f777-8cc8-4949-bfad-39e4d3006c04"
+   },
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "09306e0c-3055-4507-8238-5ae9c65bd64d",
+    "resource": "https://www.worldcat.org/identities/lccn-n2019001228/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null
+  },
+  {
+   "begin": null,
+   "type": "purchase for download",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "269b5443-acb9-4e4c-b718-991bd44d9ff7",
+    "resource": "https://www.qobuz.com/us-en/interpreter/turnstile/2119188"
+   }
+  },
+  {
+   "target-type": "url",
+   "url": {
+    "id": "161219b3-97b3-45d4-aee0-394c626af3c5",
+    "resource": "https://twitter.com/TURNSTILEHC"
+   },
+   "source-credit": "",
+   "attribute-values": {},
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "begin": null
+  },
+  {
+   "type": "social network",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "end": null,
+   "attribute-ids": {},
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "017629fe-831d-47ef-bef6-0e498ca441ee",
+    "resource": "https://www.facebook.com/turnstilehc"
+   },
+   "source-credit": ""
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "begin": null,
+   "url": {
+    "id": "728cc2d9-6b04-460a-a6e7-9789b66106b6",
+    "resource": "https://www.instagram.com/turnstileluvconnection/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "0f286971-e940-4ece-94b0-2b4c409e1592",
+    "resource": "https://soundcloud.com/turnstileofficial"
+   },
+   "source-credit": "",
+   "type": "soundcloud",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "type": "streaming",
+   "begin": null,
+   "url": {
+    "resource": "https://music.apple.com/us/artist/4472006",
+    "id": "066fe6f8-6fa7-4ebb-8a8e-9ba43a9139b7"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "streaming",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://tidal.com/artist/3962534",
+    "id": "630485d4-e7ac-4cb0-8ce2-e8145cda6e47"
+   },
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "269b5443-acb9-4e4c-b718-991bd44d9ff7",
+    "resource": "https://www.qobuz.com/us-en/interpreter/turnstile/2119188"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "streaming",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "begin": null,
+   "type": "VIAF",
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "558759f3-fc38-49d1-9eea-e4ac941c0cd1",
+    "resource": "http://viaf.org/viaf/24154739811252990832"
+   }
+  },
+  {
+   "type": "wikidata",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q18719133",
+    "id": "e516272a-a834-478a-bf02-e2a95a52df89"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type": "youtube",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "end": null,
+   "attribute-ids": {},
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCP5O_Y-RbtVJUEv4uLP-O8A",
+    "id": "20d8fa4d-c6e0-406a-977d-5e2c90adcc35"
+   },
+   "source-credit": ""
+  },
+  {
+   "begin": null,
+   "type": "youtube music",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "128c9e7b-5810-46f9-bba0-b5b9cf81962f",
+    "resource": "https://music.youtube.com/@turnstile"
+   },
+   "target-type": "url"
+  }
+ ],
+ "id": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+ "name": "Turnstile",
+ "gender-id": null,
+ "begin-area": {
+  "type-id": null,
+  "name": "Baltimore",
+  "disambiguation": "",
+  "type": null,
+  "id": "2fb5445d-3987-49fe-957a-f730a7acc4a2",
+  "sort-name": "Baltimore"
+ },
+ "disambiguation": "US hardcore punk band",
+ "area": {
+  "iso-3166-1-codes": [
+   "US"
+  ],
+  "type-id": null,
+  "disambiguation": "",
+  "sort-name": "United States",
+  "type": null,
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "name": "United States"
+ },
+ "type": "Group",
+ "life-span": {
+  "ended": false,
+  "end": null,
+  "begin": "2010"
+ },
+ "country": "US",
+ "ipis": [],
+ "gender": null,
+ "sort-name": "Turnstile",
+ "isnis": [
+  "0000000469107543"
+ ],
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}

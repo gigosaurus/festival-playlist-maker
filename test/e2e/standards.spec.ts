@@ -11,7 +11,8 @@ import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { download2027Response, incorrectKeyResponse, unknownUserResponse } from "../support/clashfinder.ts";
 import { busyResponse } from "../support/musicbrainz.ts";
-import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz } from "./fixtures.ts";
+import { quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
+import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz, type Spotify, type TestServer } from "./fixtures.ts";
 
 interface StandardsPage {
   name: string;
@@ -19,7 +20,7 @@ interface StandardsPage {
   // The user that the test logs in before it opens the page. No user: the test does not log in.
   user?: typeof testUser;
   // Prepares the state of the page, after the log in.
-  setUp?: (page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz) => Promise<void>;
+  setUp?: (page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify, testServer: TestServer) => Promise<void>;
 }
 
 const downloadSearch =
@@ -49,6 +50,17 @@ async function addDownloadAndSearch(page: Page, clashfinder: Clashfinder, musicB
 const artistMatches = "/admin/festivals/1/artist-matches";
 // The lineup name IDs come from the order of the names in the Clashfinder export.
 const theProdigy = 8;
+
+// Saves the match for The Prodigy, and waits for its Spotify artist.
+async function matchTheProdigy(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify): Promise<void> {
+  await spotify.willGiveRecordedArtists();
+  await addDownloadAndSearch(page, clashfinder, musicBrainz);
+  await page.getByRole("button", { name: "Save the match for The Prodigy" }).click();
+  await expect(async () => {
+    await page.reload();
+    await expect(page.getByText("Spotify artist: waiting")).toHaveCount(0);
+  }).toPass();
+}
 
 const pages: StandardsPage[] = [
   { name: "Log in page", path: "/log-in" },
@@ -123,6 +135,39 @@ const pages: StandardsPage[] = [
     setUp: addDownloadAndSearch,
   },
   {
+    name: "Artist matches, Spotify artist set by hand",
+    path: `${artistMatches}?spotify=${theProdigy}`,
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz, spotify) => {
+      await matchTheProdigy(page, clashfinder, musicBrainz, spotify);
+      await page.goto(`${artistMatches}/${theProdigy}/spotify`);
+      await page.getByLabel("Address of the Spotify artist").fill(`https://open.spotify.com/artist/${spotifyIds.parkwayDrive}`);
+      await page.getByRole("button", { name: "Save the Spotify artist" }).click();
+      await expect(page.getByText("set by hand")).toBeVisible();
+    },
+  },
+  {
+    name: "Artist matches, Spotify search stopped",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz, spotify, testServer) => {
+      await spotify.willGiveRecordedArtists();
+      await testServer.respondTo("GET", spotifyArtistUrl(spotifyIds.theProdigy), quotaExceededResponse);
+      await addDownloadAndSearch(page, clashfinder, musicBrainz);
+      await page.getByRole("button", { name: "Save the match for The Prodigy" }).click();
+      await expect(async () => {
+        await page.reload();
+        await expect(page.getByRole("button", { name: "Find the Spotify artists again" })).toBeVisible();
+      }).toPass();
+    },
+  },
+  {
+    name: "Spotify artist for one name",
+    path: `${artistMatches}/${theProdigy}/spotify`,
+    user: testAdmin,
+    setUp: matchTheProdigy,
+  },
+  {
     name: "Add a festival, search failed",
     path: downloadSearch,
     user: testAdmin,
@@ -146,9 +191,9 @@ const contraction =
 for (const { name, path, user, setUp } of pages) {
   test.describe(name, () => {
     if (user || setUp) {
-      test.beforeEach(async ({ logIn, page, clashfinder, musicBrainz }) => {
+      test.beforeEach(async ({ logIn, page, clashfinder, musicBrainz, spotify, testServer }) => {
         if (user) await logIn(user);
-        if (setUp) await setUp(page, clashfinder, musicBrainz);
+        if (setUp) await setUp(page, clashfinder, musicBrainz, spotify, testServer);
       });
     }
 

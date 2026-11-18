@@ -1,0 +1,618 @@
+{
+ "name": "Parkway Drive",
+ "gender": null,
+ "sort-name": "Parkway Drive",
+ "area": {
+  "type-id": null,
+  "name": "Australia",
+  "disambiguation": "",
+  "type": null,
+  "sort-name": "Australia",
+  "iso-3166-1-codes": [
+   "AU"
+  ],
+  "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+ },
+ "country": "AU",
+ "type": "Group",
+ "isnis": [
+  "0000000115552834"
+ ],
+ "end-area": null,
+ "gender-id": null,
+ "disambiguation": "",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "relations": [
+  {
+   "type": "allmusic",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0001393036",
+    "id": "8af539c7-c535-4872-8cf6-73b38643e1a4"
+   },
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "attribute-values": {},
+   "source-credit": "",
+   "type": "bandcamp",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://parkwaydriverock.bandcamp.com/",
+    "id": "3c8698f1-d7ce-48ed-9f09-496fb80ce473"
+   },
+   "target-credit": ""
+  },
+  {
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "b50ac097-da7c-48dc-aa26-678513971f6c",
+    "resource": "https://parkwaydriveresist.bandcamp.com/"
+   },
+   "target-credit": "",
+   "type": "bandcamp",
+   "attribute-ids": {},
+   "ended": true
+  },
+  {
+   "url": {
+    "resource": "https://www.bandsintown.com/a/1324",
+    "id": "ef7df50a-f517-4b11-b65b-bad135f4a60c"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "bandsintown",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null
+  },
+  {
+   "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "0b997973-c859-4c4d-99ec-26a09ba58e95",
+    "resource": "https://concertspunk.fr/band/parkway-drive-002460"
+   },
+   "begin": null,
+   "type": "discography page",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "1ad2764b-37f7-4859-b1f0-153b041978e0",
+    "resource": "https://www.discogs.com/artist/441052"
+   },
+   "target-credit": "",
+   "type": "discogs",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "42b6ea11-6246-4414-994f-ce750eb2bf58",
+    "resource": "https://open.spotify.com/artist/159qqlGwzE04xyqpfAwRLo"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "free streaming"
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "free streaming",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.deezer.com/artist/16410",
+    "id": "170cd9c9-d768-4b99-a3e7-b3001d6225a1"
+   },
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.last.fm/music/Parkway+Drive",
+    "id": "39acae7b-0924-4652-b09f-d671163217ca"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "last.fm",
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://genius.com/artists/Parkway-drive",
+    "id": "11a1730e-239f-4c4a-941d-5d749d1fc99c"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "lyrics"
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "url": {
+    "resource": "https://myspace.com/parkwaydrive",
+    "id": "00dc5b1a-b079-4b3b-af7c-c61b193f9f88"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "myspace"
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "source-credit": "",
+   "attribute-values": {},
+   "type": "official homepage",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "80efc64d-30fb-4111-8a99-0f63f8227cb0",
+    "resource": "http://www.parkwaydriverock.com/"
+   },
+   "target-credit": "",
+   "begin": null
+  },
+  {
+   "type": "other databases",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "c7918873-845a-485a-a6bf-f7231ae9594a",
+    "resource": "https://imvdb.com/n/parkway-drive"
+   },
+   "target-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "1899420b-ff33-435d-90b4-17ac0b3e92a6",
+    "resource": "https://rateyourmusic.com/artist/parkway_drive"
+   },
+   "attributes": [],
+   "attribute-ids": {},
+   "ended": false,
+   "type": "other databases",
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "target-type": "url",
+   "end": null
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "other databases",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "c5481960-ddd7-4af6-a29f-f99d223f9125",
+    "resource": "https://www.musik-sammler.de/artist/parkway-drive/"
+   },
+   "attributes": []
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "other databases",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.spirit-of-metal.com/en/band/Parkway_Drive",
+    "id": "322539b2-15f0-49fb-b468-af7da9189b9a"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "ended": false,
+   "type": "purchase for download",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "resource": "https://itunes.apple.com/au/artist/id166667737",
+    "id": "e188aa01-3666-4113-b020-d970a8004b76"
+   },
+   "attributes": []
+  },
+  {
+   "type": "setlistfm",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "a387f191-5955-46a0-8d9b-b4d18f21505a",
+    "resource": "https://www.setlist.fm/setlists/parkway-drive-5bd6d3b8.html"
+   },
+   "target-credit": "",
+   "begin": null,
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "type": "social network",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "6e1c0451-3f65-4c34-bc0a-48788ac47462",
+    "resource": "https://twitter.com/parkwayofficial"
+   },
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "id": "6ae42eae-6fcc-405f-b5a5-11e23bdbf4f7",
+    "resource": "https://www.facebook.com/parkwaydrive"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "social network",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "ad925c1d-4503-4c9e-a28d-1fb7e543b183",
+    "resource": "https://www.instagram.com/parkwaydriveofficial/"
+   },
+   "begin": null,
+   "type": "social network",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "ended": false,
+   "attribute-ids": {},
+   "type": "social network",
+   "url": {
+    "resource": "https://www.threads.com/@parkwaydriveofficial",
+    "id": "fff16053-a961-4f18-877b-c27d104d03bb"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "id": "994567ad-d05c-4429-8f5b-a16e78ccfcb6",
+    "resource": "https://www.tiktok.com/@parkwaydrive"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "social network"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "url": {
+    "resource": "https://www.songkick.com/artists/514468",
+    "id": "788dcf0b-54aa-480d-b01b-08f0c7dcecd7"
+   },
+   "target-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "songkick"
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "id": "7f54bea0-12ee-4bae-bf52-d2b3ca01e924",
+    "resource": "https://soundcloud.com/parkway-drive"
+   },
+   "target-credit": "",
+   "type": "soundcloud",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "type": "streaming",
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "145d5cbe-3b54-45df-8d4f-e23ad692809f",
+    "resource": "https://music.amazon.com.au/artists/B000X6FQ2I"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "target-type": "url",
+   "end": null,
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "target-credit": "",
+   "url": {
+    "id": "ab80e22d-18ce-4d69-996e-bf082dacedff",
+    "resource": "https://music.apple.com/au/artist/166667737"
+   },
+   "type": "streaming",
+   "attribute-ids": {},
+   "ended": false,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "direction": "forward",
+   "target-type": "url"
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "resource": "https://music.apple.com/us/artist/166667737",
+    "id": "e7dc6136-6a55-4df4-8440-0a525f857c44"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "streaming",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "type": "streaming",
+   "attribute-ids": {},
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "url": {
+    "resource": "https://tidal.com/artist/17808",
+    "id": "be3785ba-d73b-4808-b150-1bf4bcff0873"
+   },
+   "target-credit": "",
+   "end": null,
+   "direction": "forward",
+   "target-type": "url",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "source-credit": ""
+  },
+  {
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "source-credit": "",
+   "attribute-values": {},
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "attributes": [],
+   "url": {
+    "resource": "https://www.wikidata.org/wiki/Q282855",
+    "id": "26bcb9b1-11ea-49fc-ab1e-bbd22bd8da4d"
+   },
+   "target-credit": "",
+   "begin": null,
+   "type": "wikidata",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "target-type": "url",
+   "direction": "forward",
+   "end": null,
+   "target-credit": "",
+   "url": {
+    "id": "6a175ad2-5359-4e0b-ba36-a2a3a3fb3627",
+    "resource": "https://www.youtube.com/channel/UCP0efewXEcuCddMFLjlCDJQ"
+   },
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "attribute-ids": {},
+   "type": "youtube"
+  },
+  {
+   "end": null,
+   "target-type": "url",
+   "direction": "forward",
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "source-credit": "",
+   "attribute-values": {},
+   "type": "youtube music",
+   "ended": false,
+   "attribute-ids": {},
+   "attributes": [],
+   "url": {
+    "id": "7cfb5bbc-5ba8-45d6-9346-8b1379fe176b",
+    "resource": "https://music.youtube.com/channel/UCpAJllxeRiu18lTgsKiSVmg"
+   },
+   "target-credit": "",
+   "begin": null
+  }
+ ],
+ "life-span": {
+  "ended": false,
+  "begin": "2003",
+  "end": null
+ },
+ "id": "a436dd02-0549-4c91-b608-df451217fdeb",
+ "ipis": [],
+ "begin-area": {
+  "type-id": null,
+  "disambiguation": "",
+  "name": "Byron Bay",
+  "type": null,
+  "id": "54f1527c-cfb3-46f4-b43c-ea5b9ab7e75c",
+  "sort-name": "Byron Bay"
+ }
+}

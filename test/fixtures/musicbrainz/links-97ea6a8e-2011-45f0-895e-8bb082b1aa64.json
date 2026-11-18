@@ -1,0 +1,153 @@
+{
+ "area": {
+  "type": null,
+  "iso-3166-1-codes": [
+   "JP"
+  ],
+  "sort-name": "Japan",
+  "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+  "disambiguation": "",
+  "type-id": null,
+  "name": "Japan"
+ },
+ "gender": null,
+ "isnis": [
+  "0000000098353760"
+ ],
+ "sort-name": "Ghost",
+ "id": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "type": "Group",
+ "gender-id": null,
+ "end-area": null,
+ "life-span": {
+  "begin": "1984",
+  "end": "2014-08-03",
+  "ended": true
+ },
+ "relations": [
+  {
+   "target-credit": "",
+   "url": {
+    "id": "2bd80e81-7d68-4bbf-b5e9-8987b78ee09d",
+    "resource": "https://www.allmusic.com/artist/mn0000946563"
+   },
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "allmusic",
+   "target-type": "url",
+   "end": null,
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-values": {},
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": []
+  },
+  {
+   "direction": "forward",
+   "attribute-ids": {},
+   "attributes": [],
+   "end": null,
+   "attribute-values": {},
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "begin": null,
+   "source-credit": "",
+   "ended": false,
+   "type": "discogs",
+   "target-type": "url",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.discogs.com/artist/73875",
+    "id": "4c74051a-043e-46f2-ad49-7dfdbe6f3269"
+   }
+  },
+  {
+   "target-type": "url",
+   "type": "last.fm",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.last.fm/music/Ghost",
+    "id": "c0f4d019-f34d-4295-9cd7-c52bac4d4484"
+   },
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "attribute-values": {},
+   "end": null
+  },
+  {
+   "type": "official homepage",
+   "target-type": "url",
+   "begin": null,
+   "source-credit": "",
+   "ended": true,
+   "url": {
+    "id": "29e1ea1d-d7c7-4558-82f4-5b32c409d9cc",
+    "resource": "http://www.ab.cyberhome.ne.jp/~pochamal/"
+   },
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "attribute-values": {},
+   "end": null
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "attribute-ids": {},
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "target-type": "url",
+   "type": "other databases",
+   "ended": false,
+   "begin": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "id": "2039f1e3-5bc5-44c7-bbb3-da867527fc51",
+    "resource": "https://rateyourmusic.com/artist/ghost"
+   }
+  },
+  {
+   "end": null,
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "url": {
+    "id": "f8dd5f0a-f007-45a3-8bc7-487f8af4c582",
+    "resource": "https://www.wikidata.org/wiki/Q3761796"
+   },
+   "ended": false,
+   "source-credit": "",
+   "begin": null,
+   "target-type": "url",
+   "type": "wikidata"
+  }
+ ],
+ "begin-area": {
+  "name": "Tokyo",
+  "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+  "disambiguation": "",
+  "sort-name": "Tokyo",
+  "type-id": null,
+  "type": null,
+  "iso-3166-2-codes": [
+   "JP-13"
+  ]
+ },
+ "country": "JP",
+ "disambiguation": "Japanese psych rock",
+ "name": "Ghost",
+ "ipis": []
+}

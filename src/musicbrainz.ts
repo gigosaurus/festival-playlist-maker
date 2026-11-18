@@ -29,6 +29,11 @@ export function musicbrainzSearchUrl(text: string): string {
 // tags of each artist. Only the tags in this list are genres.
 export const genreListUrl = `${musicbrainzOrigin}/ws/2/genre/all?fmt=txt`;
 
+// The lookup of one artist with its links to other websites, for example Spotify.
+export function musicbrainzLinksUrl(id: string): string {
+  return `${musicbrainzOrigin}/ws/2/artist/${encodeURIComponent(id)}?inc=url-rels&fmt=json`;
+}
+
 export function musicbrainzArtistAddress(id: string): string {
   return `${musicbrainzOrigin}/artist/${encodeURIComponent(id)}`;
 }
@@ -61,9 +66,18 @@ export interface MusicBrainzArtist {
 
 export type ArtistSearchResult = { outcome: "found"; artists: MusicBrainzArtist[] } | { outcome: "failed"; cause: string };
 
+export type SpotifyLinksResult = { outcome: "found"; spotifyIds: string[] } | { outcome: "failed"; cause: string };
+
 export interface MusicBrainz {
   searchArtists(text: string): Promise<ArtistSearchResult>;
+  // The Spotify artist IDs of the current Spotify links of a MusicBrainz artist.
+  // Usually there is one link or none.
+  spotifyLinks(musicbrainzId: string): Promise<SpotifyLinksResult>;
 }
+
+// A Spotify artist address, for example https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF.
+// Some addresses have a language part, for example /intl-de/.
+export const spotifyArtistAddressPattern = /^https?:\/\/open\.spotify\.com\/(?:intl-[a-z-]+\/)?artist\/([0-9A-Za-z]{22})(?:[/?#]|$)/;
 
 export function createMusicBrainz(httpClient: HttpClient): MusicBrainz {
   let genres: Set<string> | undefined;
@@ -88,6 +102,27 @@ export function createMusicBrainz(httpClient: HttpClient): MusicBrainz {
       }
       const known = genres;
       return { outcome: "found", artists: body.artists.flatMap((artist) => readArtist(artist, known) ?? []) };
+    },
+
+    async spotifyLinks(musicbrainzId) {
+      const response = await send(httpClient, musicbrainzLinksUrl(musicbrainzId), "application/json");
+      if (response instanceof Failure) return { outcome: "failed", cause: response.cause };
+      let body: unknown;
+      try {
+        body = await response.json();
+      } catch {
+        return { outcome: "failed", cause: "The MusicBrainz response is not valid JSON. The MusicBrainz API possibly changed." };
+      }
+      if (!isRecord(body) || !Array.isArray(body.relations)) {
+        return { outcome: "failed", cause: 'The MusicBrainz response has no "relations" list. The MusicBrainz API possibly changed.' };
+      }
+      // An ended link is to a page that the artist no longer uses.
+      const ids = body.relations.flatMap((relation) => {
+        if (!isRecord(relation) || relation.ended === true || !isRecord(relation.url)) return [];
+        const resource = relation.url.resource;
+        return typeof resource === "string" ? (spotifyArtistAddressPattern.exec(resource)?.[1] ?? []) : [];
+      });
+      return { outcome: "found", spotifyIds: [...new Set(ids)] };
     },
   };
 }

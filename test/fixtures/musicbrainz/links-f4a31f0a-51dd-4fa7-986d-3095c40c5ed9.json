@@ -1,0 +1,1320 @@
+{
+ "sort-name": "Evanescence",
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "isnis": [
+  "000000011526551X"
+ ],
+ "life-span": {
+  "ended": false,
+  "end": null,
+  "begin": "1995"
+ },
+ "type": "Group",
+ "country": "US",
+ "ipis": [],
+ "gender": null,
+ "disambiguation": "",
+ "area": {
+  "name": "United States",
+  "type": null,
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "disambiguation": "",
+  "sort-name": "United States",
+  "iso-3166-1-codes": [
+   "US"
+  ],
+  "type-id": null
+ },
+ "name": "Evanescence",
+ "end-area": null,
+ "relations": [
+  {
+   "url": {
+    "resource": "https://www.allmusic.com/artist/mn0000787428",
+    "id": "3ebfa8ef-96b6-42c3-b076-ee21559f10e2"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-ids": {},
+   "end": null,
+   "type": "allmusic",
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://evanescence.bandcamp.com/",
+    "id": "8008653d-2f64-46c3-a418-f6830a540e1c"
+   },
+   "begin": null,
+   "type": "bandcamp",
+   "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "c15ccfec-f294-4aee-950f-0fb051e8e689",
+    "resource": "https://www.bandsintown.com/a/47"
+   },
+   "source-credit": "",
+   "type": "bandsintown",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "2b6c50ba-6ba2-414d-ad6a-31b82ecc89ff",
+    "resource": "https://www.bbc.co.uk/music/artists/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "BBC Music page",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": true,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": "2020-11-19",
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "http://rocksirens.com/bands/rock/evanescence/biography.php",
+    "id": "670e7d87-4826-4bbe-a0ea-730e64a048ce"
+   },
+   "begin": null,
+   "type": "biography",
+   "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+   "end": null,
+   "attribute-ids": {},
+   "ended": true,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "6f8ca874-2b50-45f7-a177-0350e0a7a539",
+    "resource": "https://www.discogs.com/artist/163505"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "discogs"
+  },
+  {
+   "type": "fanpage",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "id": "92f72d6f-8151-4a8a-adaa-427937a81e99",
+    "resource": "https://evanescencereference.info/wiki/index.php"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "begin": null,
+   "type": "fanpage",
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": true,
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "ca52a941-6b42-4ee7-ad44-da17bb7069b2",
+    "resource": "http://evanescence.jp/"
+   }
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c",
+    "id": "a0b841ad-83b9-4746-be01-31dc86c3174e"
+   },
+   "source-credit": "",
+   "type": "free streaming",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "type": "free streaming",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.deezer.com/artist/98",
+    "id": "e93448a2-0272-4793-8587-00f593e02916"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "free streaming",
+   "source-credit": "",
+   "url": {
+    "resource": "http://www.pandora.com/evanescence",
+    "id": "ee0f25f2-b4d0-4946-9cf2-ad5ae77ce4b5"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://commons.wikimedia.org/wiki/File:Evanescence_Oct_24,_2006.jpg",
+    "id": "165f8a5f-bd77-4f7e-84a9-214f47c8f584"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "image"
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "id": "fa1cb031-6fb4-4b93-a39c-bf3418d5faa3",
+    "resource": "https://www.imdb.com/name/nm1419276/"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "IMDb"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "adcd919d-9860-4f39-8601-826acaaa8aba",
+    "resource": "https://www.last.fm/music/Evanescence"
+   },
+   "begin": null,
+   "type": "last.fm",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "lyrics",
+   "source-credit": "",
+   "url": {
+    "id": "685e90d5-034b-4e41-b8d0-b22d9ee60ba7",
+    "resource": "https://genius.com/artists/Evanescence"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "lyrics",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://muzikum.eu/en/evanescence/lyrics",
+    "id": "ffaf581f-191b-4240-bbc6-4cd1719ed2bf"
+   },
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.musixmatch.com/artist/Evanescence",
+    "id": "47422f91-4610-4a81-a3fb-3f1d20a16bbb"
+   },
+   "begin": null,
+   "type": "lyrics",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "begin": null,
+   "type": "myspace",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "3d9e1228-b762-4145-8ebb-d1e1a0f430c6",
+    "resource": "https://myspace.com/evanescence"
+   },
+   "target-type": "url"
+  },
+  {
+   "begin": null,
+   "type": "official homepage",
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "e10c8345-d794-4db7-8781-59ee5943aa1b",
+    "resource": "https://www.evanescence.com/home/"
+   },
+   "target-type": "url"
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "http://id.loc.gov/authorities/names/no2003041137",
+    "id": "844af5fa-3ed9-497f-a293-62460ceacdf2"
+   },
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "resource": "http://imvdb.com/n/evanescence",
+    "id": "d88446a1-6f9a-4c33-ac4a-8f11dadbd5ea"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "other databases"
+  },
+  {
+   "begin": null,
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb144481938",
+    "id": "b9dd456a-c377-4dd3-93ac-78b6f2defb7a"
+   }
+  },
+  {
+   "url": {
+    "resource": "https://d-nb.info/gnd/3058454-1",
+    "id": "5bed94ca-02e9-42c3-95db-02f061fa186c"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null,
+   "type": "other databases",
+   "begin": null
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "other databases",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "77518d98-2c04-4cde-a500-3e7a7c1554db",
+    "resource": "https://id.oclc.org/worldcat/entity/E39QH7JmtgqRKFhKXXmCF9XFWt"
+   },
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "a72bcb75-ad4d-48ec-9798-fa2039c73af2",
+    "resource": "https://musicmoz.org/Bands_and_Artists/E/Evanescence/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/evanescence",
+    "id": "f8dc861a-59fb-4477-bdff-a16584e6d875"
+   },
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "aed60705-60dd-4775-9e36-79005900b447",
+    "resource": "https://www.45cat.com/artist/evanescence"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+  },
+  {
+   "type": "other databases",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null,
+   "attribute-values": {},
+   "url": {
+    "id": "408f3339-b1d1-420b-8c3c-ec375b5d11e2",
+    "resource": "https://www.livefans.jp/artists/2245"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "begin": null,
+   "url": {
+    "id": "f70aba6f-6f8c-4be1-a883-21573b3fd9e3",
+    "resource": "https://www.metalmusicarchives.com/artist/evanescence"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.musik-sammler.de/artist/evanescence/",
+    "id": "c7f3737c-c3f9-49b0-a683-83b07c37cd1f"
+   },
+   "source-credit": "",
+   "type": "other databases",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {}
+  },
+  {
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-ids": {},
+   "end": null,
+   "type": "other databases",
+   "begin": null,
+   "url": {
+    "id": "d852d415-ab90-4b2f-8dab-af0e257b990a",
+    "resource": "https://www.muziekweb.nl/Link/M00000172043/POPULAR/"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "target-type": "url",
+   "url": {
+    "id": "66b7bbb2-4a0e-47d7-8616-e4888f36e401",
+    "resource": "https://www.spirit-of-metal.com/en/band/Evanescence"
+   },
+   "source-credit": "",
+   "attribute-values": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "end": null,
+   "attribute-ids": {},
+   "type": "other databases",
+   "begin": null
+  },
+  {
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "begin": null,
+   "type": "other databases",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "81393549-7620-4cc6-8c63-39922691cad6",
+    "resource": "https://www.whosampled.com/Evanescence"
+   },
+   "attribute-values": {}
+  },
+  {
+   "type": "purchase for download",
+   "begin": null,
+   "target-credit": "",
+   "ended": true,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": "2020-10-12",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://play.google.com/store/music/artist?id=Aaf3rdtbepfze35cwlywocxyczy",
+    "id": "75afd98f-96a2-4198-8573-ff13d0234a41"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "type": "purchase for download",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "resource": "https://itunes.apple.com/us/artist/id42102393",
+    "id": "fea448bc-669a-4152-9423-6026c84d18de"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "type": "purchase for download",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attribute-ids": {},
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://mora.jp/artist/207543/all",
+    "id": "c447f718-1e21-4448-9fd6-21826b0261cf"
+   },
+   "source-credit": ""
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "purchase for download",
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "0d51e14d-833d-44f1-8d63-3fbbbc5aca31",
+    "resource": "https://music.apple.com/us/artist/42102393"
+   },
+   "attribute-values": {}
+  },
+  {
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "end": null,
+   "attribute-ids": {},
+   "type": "purchase for download",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "id": "136bf7c6-9bc8-4168-a419-03160782a1bd",
+    "resource": "https://open.qobuz.com/artist/130725"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "type": "purchase for download",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "id": "5bd62121-9262-46dc-b0d1-408e0f4472d0",
+    "resource": "https://ototoy.jp/_/default/a/299604"
+   },
+   "source-credit": "エヴァネッセンス",
+   "attribute-values": {}
+  },
+  {
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "purchase for download",
+   "source-credit": "",
+   "url": {
+    "id": "6d4496ea-97de-42da-8fb5-fd8d5c56e41f",
+    "resource": "https://www.7digital.com/artist/evanescence"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=106732",
+    "id": "09dd6fce-24a8-4982-960a-c3e995398397"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "purchase for download",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-ids": {},
+   "end": null
+  },
+  {
+   "begin": null,
+   "type": "purchase for download",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.qobuz.com/gb-en/interpreter/evanescence/130725",
+    "id": "b4c5158c-2924-4d60-83c9-a91dc6d3ebbb"
+   }
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.cdjapan.co.jp/person/700145078",
+    "id": "bc2d792f-b05b-47d2-b995-44419b88384e"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "purchase for mail-order"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "a9702b20-008b-402a-b4d8-96232f63549e",
+    "resource": "http://www.purevolume.com/evanescence"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "purevolume",
+   "begin": null,
+   "ended": true,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "attribute-ids": {},
+   "end": "2018-06-30"
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://secondhandsongs.com/artist/10922",
+    "id": "f6732cd4-fa0c-4158-a1a1-2d960f844369"
+   },
+   "attribute-values": {},
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "secondhandsongs"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "ca53125f-1d0c-43af-a034-4ac5608f2721",
+    "resource": "https://www.setlist.fm/setlists/evanescence-43d6bfc7.html"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "setlistfm",
+   "begin": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "attribute-ids": {},
+   "end": null
+  },
+  {
+   "begin": "2009-07-09",
+   "type": "social network",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "b8d7783b-4758-46a4-86ab-0c45fbff86b5",
+    "resource": "https://twitter.com/evanescence"
+   },
+   "target-type": "url"
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "25ddce5a-b527-416f-a804-f5a5cfff88d2",
+    "resource": "https://plus.google.com/+Evanescence"
+   },
+   "attribute-values": {},
+   "end": "2019-04",
+   "attribute-ids": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": true,
+   "begin": null,
+   "type": "social network"
+  },
+  {
+   "type": "social network",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://vk.ru/evanescence",
+    "id": "2e303a4c-c9d3-4b4b-9afc-bcab68b6a32d"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "id": "441d0f83-9038-4b25-9585-a4fce06f1f6a",
+    "resource": "https://www.facebook.com/Evanescence"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "social network",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+  },
+  {
+   "type": "social network",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false,
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "id": "ae7acfd5-08a0-40b5-9c1e-157b0d89751f",
+    "resource": "https://www.instagram.com/evanescenceofficial/"
+   },
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "id": "54111406-a08d-4bed-ba3c-2f7b30b81282",
+    "resource": "https://www.threads.com/@evanescenceofficial"
+   },
+   "begin": null,
+   "type": "social network",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "end": null,
+   "attribute-ids": {},
+   "target-credit": "",
+   "ended": false,
+   "direction": "forward",
+   "attributes": []
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.tiktok.com/@evanescence",
+    "id": "c3ee0237-cbdf-4ca0-bd70-028f649457e4"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "social network",
+   "begin": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "attribute-ids": {},
+   "end": null
+  },
+  {
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "type": "songkick",
+   "begin": null,
+   "url": {
+    "id": "72f32aab-9ac3-4aff-81fa-0876a7e7f9c2",
+    "resource": "https://www.songkick.com/artists/212333"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "url": {
+    "id": "37ac5358-5ae4-4fa9-b1af-ec723579225e",
+    "resource": "https://soundcloud.com/evanescence"
+   },
+   "target-type": "url",
+   "attribute-values": {},
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "begin": null,
+   "type": "soundcloud"
+  },
+  {
+   "type": "streaming",
+   "begin": null,
+   "ended": true,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "end": "2022-06-08",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://us.napster.com/artist/evanescence",
+    "id": "ff1eec1c-c5ec-4488-b657-a531f364a4f4"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "begin": null,
+   "type": "streaming",
+   "source-credit": "",
+   "url": {
+    "resource": "https://music.amazon.com/artists/B0013TI0CC",
+    "id": "76de504b-4cc6-47ac-b76e-dfa8c6865f0f"
+   },
+   "target-type": "url",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "0d51e14d-833d-44f1-8d63-3fbbbc5aca31",
+    "resource": "https://music.apple.com/us/artist/42102393"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "streaming",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-ids": {},
+   "end": null,
+   "target-credit": "",
+   "ended": false,
+   "attributes": [],
+   "direction": "forward"
+  },
+  {
+   "type": "streaming",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "url": {
+    "resource": "https://open.qobuz.com/artist/130725",
+    "id": "136bf7c6-9bc8-4168-a419-03160782a1bd"
+   },
+   "target-type": "url",
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://tidal.com/artist/4853",
+    "id": "4e7da7b1-0f34-4126-97e5-4b07f15a30b5"
+   },
+   "begin": null,
+   "type": "streaming",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "attributes": [],
+   "target-credit": "",
+   "ended": false
+  },
+  {
+   "type": "streaming",
+   "begin": null,
+   "direction": "forward",
+   "attributes": [],
+   "ended": false,
+   "target-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.melon.com/artist/detail.htm?artistId=106732",
+    "id": "09dd6fce-24a8-4982-960a-c3e995398397"
+   },
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "b4c5158c-2924-4d60-83c9-a91dc6d3ebbb",
+    "resource": "https://www.qobuz.com/gb-en/interpreter/evanescence/130725"
+   },
+   "target-type": "url",
+   "begin": null,
+   "type": "streaming",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": ""
+  },
+  {
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+   "end": null,
+   "attribute-ids": {},
+   "type": "ticketing",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "id": "ccb48aa3-576a-4999-a5eb-bc26f9453080",
+    "resource": "https://www.ticketmaster.com/artist/857529"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "http://viaf.org/viaf/137549136",
+    "id": "a618c4e4-7220-42a3-b29c-aed80b8342b8"
+   },
+   "attribute-values": {},
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "begin": null,
+   "type": "VIAF"
+  },
+  {
+   "ended": false,
+   "target-credit": "",
+   "direction": "forward",
+   "attributes": [],
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "end": null,
+   "attribute-ids": {},
+   "type": "wikidata",
+   "begin": null,
+   "target-type": "url",
+   "url": {
+    "id": "c11e30f4-ff49-4c8a-a224-11bd8d5b6da6",
+    "resource": "https://www.wikidata.org/wiki/Q1777698"
+   },
+   "source-credit": "",
+   "attribute-values": {}
+  },
+  {
+   "begin": null,
+   "type": "youtube",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "attribute-ids": {},
+   "end": null,
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "resource": "https://www.youtube.com/Evanescence",
+    "id": "b9d9dcbc-2c59-49cc-9d08-6509567f2dc2"
+   },
+   "target-type": "url"
+  },
+  {
+   "url": {
+    "resource": "https://www.youtube.com/user/EvanescenceVEVO",
+    "id": "525a9717-ebe7-4156-ae54-07b097851ca5"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {},
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "type": "youtube",
+   "begin": null
+  },
+  {
+   "source-credit": "",
+   "target-type": "url",
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCDDmukrq0bwckrp09bNt-Rw",
+    "id": "8b4d3c44-a865-4333-9249-691146a758d6"
+   },
+   "attribute-values": {},
+   "end": null,
+   "attribute-ids": {},
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "direction": "forward",
+   "attributes": [],
+   "ended": true,
+   "target-credit": "",
+   "begin": null,
+   "type": "youtube"
+  },
+  {
+   "attribute-values": {},
+   "url": {
+    "resource": "https://www.youtube.com/channel/UCJeH7gl6PbDVV4DTldIOPOA",
+    "id": "5154832b-756a-4f4a-89c7-88e67b7806f5"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "type": "youtube",
+   "begin": null,
+   "attributes": [],
+   "direction": "forward",
+   "target-credit": "",
+   "ended": true,
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+  },
+  {
+   "begin": null,
+   "type": "youtube music",
+   "attribute-ids": {},
+   "end": null,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attributes": [],
+   "direction": "forward",
+   "ended": false,
+   "target-credit": "",
+   "attribute-values": {},
+   "source-credit": "",
+   "url": {
+    "id": "e60f6af3-cd8e-4d01-a270-df0fc9e949f5",
+    "resource": "https://music.youtube.com/channel/UC1ObIyFsDJn62iAZYLWcNxA"
+   },
+   "target-type": "url"
+  },
+  {
+   "ended": false,
+   "target-credit": "",
+   "attributes": [],
+   "direction": "forward",
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attribute-ids": {},
+   "end": null,
+   "type": "youtube music",
+   "begin": null,
+   "url": {
+    "resource": "https://music.youtube.com/channel/UCHevXLvRII_LoYv05rtHsRg",
+    "id": "70dc8fce-8cf8-4039-a678-e5d58fea1522"
+   },
+   "target-type": "url",
+   "source-credit": "",
+   "attribute-values": {}
+  }
+ ],
+ "id": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
+ "begin-area": {
+  "name": "Little Rock",
+  "disambiguation": "",
+  "type": null,
+  "sort-name": "Little Rock",
+  "id": "9150ffc9-be86-42ff-96b6-a4fee1ce2b52",
+  "type-id": null
+ },
+ "gender-id": null
+}

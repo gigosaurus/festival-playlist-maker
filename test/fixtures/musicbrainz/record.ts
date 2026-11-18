@@ -1,12 +1,13 @@
 // Records MusicBrainz responses for the artist match tests.
 // Usage, from the repository root:
 //   node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts <output directory> <search text>...
+// An argument "links:<MusicBrainz ID>" records the lookup of that artist with its links.
 // The script reads MUSICBRAINZ_CONTACT for the User-Agent. It waits 2 seconds
 // between requests, and sends a request again after status 503.
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { genreListUrl, musicbrainzSearchUrl } from "../../../src/musicbrainz.ts";
-import { fixtureFileName } from "../../support/musicbrainz.ts";
+import { genreListUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../../src/musicbrainz.ts";
+import { fixtureFileName, linksFileName } from "../../support/musicbrainz.ts";
 
 const [output, ...texts] = process.argv.slice(2);
 const contact = process.env.MUSICBRAINZ_CONTACT?.trim();
@@ -29,5 +30,8 @@ async function record(url: string, file: string): Promise<void> {
   console.error(`${file}: status 503 eight times`);
 }
 
-await record(genreListUrl, "genres.txt");
-for (const text of texts) await record(musicbrainzSearchUrl(text), fixtureFileName(text));
+const lookups = texts.filter((text) => text.startsWith("links:")).map((text) => text.slice("links:".length));
+const searches = texts.filter((text) => !text.startsWith("links:"));
+if (searches.length > 0) await record(genreListUrl, "genres.txt");
+for (const text of searches) await record(musicbrainzSearchUrl(text), fixtureFileName(text));
+for (const id of lookups) await record(musicbrainzLinksUrl(id), linksFileName(id));

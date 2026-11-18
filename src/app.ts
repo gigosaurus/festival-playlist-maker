@@ -12,6 +12,7 @@ import {
   storedSearch,
   storeSearch,
   type ArtistChoice,
+  type ArtistMatch,
 } from "./artist-matches.ts";
 import { createClashfinder } from "./clashfinder.ts";
 import type { Clock } from "./clock.ts";
@@ -20,7 +21,7 @@ import { readFestivalForm, searchDates, validateFestival, type FestivalFormValue
 import { addFestival, findFestivalForAdmin, listFestivalsForAdmin, listPublishedFestivals } from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
 import { getFestivalLineup } from "./lineups.ts";
-import { createMusicBrainz } from "./musicbrainz.ts";
+import { createMusicBrainz, type MusicBrainzArtist } from "./musicbrainz.ts";
 import { artistMatchPage, type ArtistMatchPageState } from "./pages/artist-match-page.ts";
 import { artistMatchesPage } from "./pages/artist-matches-page.ts";
 import { addFestivalPage, type AddFestivalPageState } from "./pages/add-festival-page.ts";
@@ -29,9 +30,12 @@ import { adminOnlyPage } from "./pages/admin-only-page.ts";
 import { festivalsPage } from "./pages/festivals-page.ts";
 import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-page.ts";
 import { notFoundPage } from "./pages/not-found-page.ts";
+import { spotifyArtistPage } from "./pages/spotify-artist-page.ts";
 import { createSessions, type User } from "./sessions.ts";
 import type { Settings } from "./settings.ts";
+import { createSpotifyArtistQueue, findSpotifyArtist, setSpotifyArtistByHand, type StoredSpotifyArtist } from "./spotify-artists.ts";
 import { completeSpotifyLogIn, startSpotifyLogIn } from "./spotify-log-in.ts";
+import { createSpotify, readSpotifyArtistId } from "./spotify.ts";
 
 // The application gets all of its connections to the outside world here.
 // main.ts gives the real ones. The tests give a fake HTTP client and a fake clock.
@@ -70,6 +74,8 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   const clashfinder = createClashfinder(httpClient, clock);
   const musicBrainz = createMusicBrainz(httpClient);
   const artistSearches = createArtistSearchQueue(database, musicBrainz, clock);
+  const spotify = createSpotify(httpClient, database, clock, settings);
+  const spotifyArtists = createSpotifyArtistQueue(database, musicBrainz, spotify, clock);
   const sessions = createSessions(database, clock, settings);
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
@@ -225,10 +231,24 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       artistSearches.searchFestival(festival.id);
       names = festivalArtistMatches(database, festival.id);
     }
-    const savedId = Number(context.req.query("saved"));
-    const saved = Number.isSafeInteger(savedId) ? festivalLineupName(database, festival.id, savedId) : undefined;
+    // The same rule for the Spotify artists of the matches.
+    const spotifyQueue = spotifyArtists.state();
+    if (!spotifyQueue.running && spotifyQueue.problem === undefined) {
+      const missing = matchedArtists(names).filter((artist) => findSpotifyArtist(database, artist.id) === undefined);
+      if (missing.length > 0) spotifyArtists.find(missing);
+    }
+    const saved = lineupNameFromQuery(festival.id, context.req.query("saved"));
+    const spotifySaved = lineupNameFromQuery(festival.id, context.req.query("spotify"));
     return context.html(
-      artistMatchesPage(context.var.user!, { festival, names, queue: artistSearches.state(), ...(saved ? { saved } : {}) }),
+      artistMatchesPage(context.var.user!, {
+        festival,
+        names,
+        queue: artistSearches.state(),
+        spotifyArtists: storedSpotifyArtists(matchedArtists(names)),
+        spotifyQueue: spotifyArtists.state(),
+        ...(saved ? { saved } : {}),
+        ...(spotifySaved ? { spotifySaved } : {}),
+      }),
     );
   });
 
@@ -237,6 +257,45 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
     artistSearches.searchFestival(festival.id);
     return context.redirect(`/admin/festivals/${festival.id}/artist-matches`, 303);
+  });
+
+  app.post("/admin/festivals/:id/artist-matches/spotify", (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const names = festivalArtistMatches(database, festival.id);
+    spotifyArtists.find(matchedArtists(names).filter((artist) => findSpotifyArtist(database, artist.id) === undefined));
+    return context.redirect(`/admin/festivals/${festival.id}/artist-matches`, 303);
+  });
+
+  app.get("/admin/festivals/:id/artist-matches/:lineupNameId/spotify", (context) => {
+    const found = matchedLineupName(context.req.param("id"), context.req.param("lineupNameId"));
+    if (found === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    return context.html(spotifyArtistPage(context.var.user!, { ...found, spotify: findSpotifyArtist(database, found.artist.id) }));
+  });
+
+  app.post("/admin/festivals/:id/artist-matches/:lineupNameId/spotify", async (context) => {
+    const found = matchedLineupName(context.req.param("id"), context.req.param("lineupNameId"));
+    if (found === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const form = await context.req.parseBody();
+    const address = typeof form.address === "string" ? form.address.trim() : "";
+    const showProblem = (problem: string) =>
+      context.html(
+        spotifyArtistPage(context.var.user!, { ...found, spotify: findSpotifyArtist(database, found.artist.id), address, problem }),
+        400,
+      );
+    const id = readSpotifyArtistId(address);
+    if (id === undefined) {
+      return showProblem(
+        address === ""
+          ? "Enter the address of the Spotify artist."
+          : "Enter the address of a Spotify artist, for example https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF.",
+      );
+    }
+    const result = await spotify.artist(id);
+    if (result.outcome === "not-found") return showProblem("Spotify has no artist at this address. Make sure that you copied the full address.");
+    if (result.outcome === "failed") return showProblem(`The application could not get the artist from Spotify. ${result.cause}`);
+    setSpotifyArtistByHand(database, clock, found.artist.id, result.artist);
+    return context.redirect(`/admin/festivals/${found.festival.id}/artist-matches?spotify=${found.name.lineupNameId}`, 303);
   });
 
   // A search with a different text is a GET request, so that Back, refresh and the address show the same results.
@@ -267,6 +326,8 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       return context.html(artistMatchPage(context.var.user!, state), 400);
     }
     saveArtistMatch(database, clock, name.name, choice);
+    // A new save finds the Spotify artist again, because the MusicBrainz data can be different.
+    if (choice.kind === "artist") spotifyArtists.find([choice.artist], { again: true });
     return context.redirect(`/admin/festivals/${festival.id}/artist-matches?saved=${name.lineupNameId}`, 303);
   });
 
@@ -275,6 +336,28 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   app.notFound((context) => context.html(notFoundPage(context.var.user!), 404));
 
   return app;
+
+  function lineupNameFromQuery(festivalId: number, value: string | undefined) {
+    const id = Number(value);
+    return value !== undefined && Number.isSafeInteger(id) ? festivalLineupName(database, festivalId, id) : undefined;
+  }
+
+  // A lineup name on the current lineup of a festival, with a match to a MusicBrainz artist.
+  function matchedLineupName(festivalId: string, lineupNameId: string) {
+    const festival = findFestivalForAdmin(database, Number(festivalId));
+    const name = festival && festivalLineupName(database, festival.id, Number(lineupNameId));
+    if (festival === undefined || name === undefined || name.match?.kind !== "artist") return undefined;
+    return { festival, name, artist: name.match.artist };
+  }
+
+  function storedSpotifyArtists(artists: MusicBrainzArtist[]): Map<string, StoredSpotifyArtist> {
+    const result = new Map<string, StoredSpotifyArtist>();
+    for (const artist of artists) {
+      const stored = findSpotifyArtist(database, artist.id);
+      if (stored !== undefined) result.set(artist.id, stored);
+    }
+    return result;
+  }
 
   // After a new lineup, the searches for the new names start in the background.
   async function getLineupAndSearch(festivalId: number): Promise<void> {
@@ -327,6 +410,13 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       maxAge: Math.floor((expiresAt.getTime() - clock.now().getTime()) / 1000),
     });
   }
+}
+
+// The MusicBrainz artist of each match, one time for each artist.
+function matchedArtists(names: { match?: ArtistMatch }[]): MusicBrainzArtist[] {
+  const artists = new Map<string, MusicBrainzArtist>();
+  for (const { match } of names) if (match?.kind === "artist") artists.set(match.artist.id, match.artist);
+  return [...artists.values()];
 }
 
 // Only an address on this application can follow a log in. This prevents a
