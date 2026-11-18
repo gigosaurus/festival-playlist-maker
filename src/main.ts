@@ -21,6 +21,8 @@ const settings: Settings = {
   adminSpotifyUserId: requiredSetting("ADMIN_SPOTIFY_USER_ID"),
   // Spotify accepts an HTTP redirect URI only for a loopback address, for example 127.0.0.1.
   spotifyRedirectUri: process.env.SPOTIFY_REDIRECT_URI?.trim() || `http://127.0.0.1:${port}/log-in/callback`,
+  clashfinderUsername: requiredSetting("CLASHFINDER_USERNAME"),
+  clashfinderPrivateKey: requiredSetting("CLASHFINDER_PRIVATE_KEY"),
 };
 
 const database = openDatabase(databasePath);

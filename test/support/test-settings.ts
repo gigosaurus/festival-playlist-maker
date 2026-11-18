@@ -8,6 +8,8 @@ export function testSettings(origin = "http://localhost:3100"): Settings {
     spotifyClientId: "test-client-id",
     adminSpotifyUserId,
     spotifyRedirectUri: `${origin}/log-in/callback`,
+    clashfinderUsername: "test-clashfinder-user",
+    clashfinderPrivateKey: "test-clashfinder-private-key",
   };
 }
 

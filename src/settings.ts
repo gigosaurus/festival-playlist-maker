@@ -7,4 +7,9 @@ export interface Settings {
   adminSpotifyUserId: string;
   // The redirect URI in the Spotify developer app. It must be the same text.
   spotifyRedirectUri: string;
+  // The username of the Clashfinder account of the admin.
+  clashfinderUsername: string;
+  // The private key of the Clashfinder account. Do not send it to Clashfinder.
+  // Each export request gets a public key that the application makes from this key.
+  clashfinderPrivateKey: string;
 }
