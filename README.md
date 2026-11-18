@@ -73,3 +73,5 @@ The test run has three parts:
 - `npm run test:e2e`: Playwright tests against the running application. They include the standards test (`test/e2e/standards.spec.ts`).
 
 No test sends a request to an external service. The application gets its HTTP client and its clock by injection. The tests use `FakeHttpClient` and `FakeClock` from `test/support/`. In module tests, the global `fetch` function fails. In Playwright tests, the browser can load files only from the test server.
+
+The Clashfinder tests use recorded Clashfinder responses in `test/fixtures/clashfinder/`. When the Clashfinder API changes, record the responses again. The README in that directory tells you how.

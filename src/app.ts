@@ -3,10 +3,15 @@ import { join } from "node:path";
 import { Hono, type Context } from "hono";
 import { deleteCookie, getCookie, setCookie } from "hono/cookie";
 import { csrf } from "hono/csrf";
+import { createClashfinder } from "./clashfinder.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
-import { listPublishedFestivals } from "./festivals.ts";
-import type { HttpClient } from "./http-client.ts";
+import { readFestivalForm, searchDates, validateFestival, type FestivalFormValues, type FieldProblems } from "./festival-form.ts";
+import { addFestival, findFestivalForAdmin, listFestivalsForAdmin, listPublishedFestivals } from "./festivals.ts";
+import { withServiceRules, type HttpClient } from "./http-client.ts";
+import { getFestivalLineup } from "./lineups.ts";
+import { addFestivalPage, type AddFestivalPageState } from "./pages/add-festival-page.ts";
+import { adminFestivalsPage, type LastAction } from "./pages/admin-festivals-page.ts";
 import { adminOnlyPage } from "./pages/admin-only-page.ts";
 import { festivalsPage } from "./pages/festivals-page.ts";
 import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-page.ts";
@@ -17,6 +22,7 @@ import { completeSpotifyLogIn, startSpotifyLogIn } from "./spotify-log-in.ts";
 
 // The application gets all of its connections to the outside world here.
 // main.ts gives the real ones. The tests give a fake HTTP client and a fake clock.
+// The application adds the rules of each service (keys, pauses) to the HTTP client.
 export interface Dependencies {
   database: Database;
   httpClient: HttpClient;
@@ -45,8 +51,10 @@ interface PendingLogIn {
   next: string;
 }
 
-export function createApp({ database, httpClient, clock, settings }: Dependencies): Hono<Environment> {
+export function createApp({ database, httpClient: transport, clock, settings }: Dependencies): Hono<Environment> {
   const app = new Hono<Environment>();
+  const httpClient = withServiceRules(transport, settings, clock);
+  const clashfinder = createClashfinder(httpClient, clock);
   const sessions = createSessions(database, clock, settings);
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
@@ -142,11 +150,50 @@ export function createApp({ database, httpClient, clock, settings }: Dependencie
     await next();
   });
 
-  // All pages in the admin area need the admin. The admin pages come in later changes.
+  // All pages in the admin area need the admin.
   app.use("/admin/*", async (context, next) => {
     const user = context.var.user!;
     if (!user.admin) return context.html(adminOnlyPage(user), 403);
     await next();
+  });
+
+  app.get("/admin/festivals", (context) => {
+    const festivals = listFestivalsForAdmin(database);
+    return context.html(adminFestivalsPage(context.var.user!, festivals, readLastAction(context.req.query(), festivals)));
+  });
+
+  // The search is a GET request, so that Back, refresh and the address show the same results.
+  app.get("/admin/festivals/new", async (context) => {
+    const query = context.req.query();
+    const values = readFestivalForm(query);
+    const searched = "search" in query;
+    return context.html(addFestivalPage(context.var.user!, await formState(values, {}, searched)));
+  });
+
+  app.post("/admin/festivals", async (context) => {
+    const values = readFestivalForm(await context.req.parseBody());
+    const validation = validateFestival(values);
+    if ("problems" in validation) {
+      return context.html(addFestivalPage(context.var.user!, await formState(values, validation.problems, true)), 400);
+    }
+    const { festival } = validation;
+    const pageName = clashfinder.cachedPage(festival.page)?.name ?? festival.page;
+    const added = addFestival(database, festival, { source: "clashfinder", page: festival.page, pageName });
+    if (added.outcome === "exists") {
+      const problems = { name: `${festival.name} ${festival.year} is already on the festival list. Enter a different name or year.` };
+      return context.html(addFestivalPage(context.var.user!, await formState(values, problems, true)), 400);
+    }
+    await getFestivalLineup(database, clashfinder, clock, added.id);
+    return context.redirect(`/admin/festivals?added=${added.id}`, 303);
+  });
+
+  app.post("/admin/festivals/:id/lineup", async (context) => {
+    const id = Number(context.req.param("id"));
+    if (!Number.isSafeInteger(id) || findFestivalForAdmin(database, id) === undefined) {
+      return context.html(notFoundPage(context.var.user!), 404);
+    }
+    await getFestivalLineup(database, clashfinder, clock, id);
+    return context.redirect(`/admin/festivals?lineup=${id}`, 303);
   });
 
   app.get("/", (context) => context.html(festivalsPage(context.var.user!, listPublishedFestivals(database))));
@@ -154,6 +201,20 @@ export function createApp({ database, httpClient, clock, settings }: Dependencie
   app.notFound((context) => context.html(notFoundPage(context.var.user!), 404));
 
   return app;
+
+  // The search uses the search text, or the festival name when the search text is empty.
+  // After the first search, the list of pages comes from the cache of the Clashfinder module.
+  async function formState(values: FestivalFormValues, problems: FieldProblems, searched: boolean): Promise<AddFestivalPageState> {
+    const text = values.search || values.name;
+    if (!searched || text === "") {
+      if (searched && text === "" && Object.keys(problems).length === 0) {
+        return { values, problems: { name: "Enter the name of the festival, or a search text." } };
+      }
+      return { values, problems };
+    }
+    const dates = searchDates(values);
+    return { values, problems, search: { text, result: await clashfinder.search(text, dates), hasDates: dates !== undefined } };
+  }
 
   // The cookie gets a lifetime and not an expiry time, because the clock of the
   // browser can be different from the injected clock.
@@ -174,6 +235,16 @@ function localAddress(value: string | undefined): string {
   if (value === undefined || !value.startsWith("/") || value.startsWith("//") || value.startsWith("/\\")) return "/";
   if (value.startsWith("/log-in") || value.startsWith("/log-out")) return "/";
   return value;
+}
+
+// The confirmation or the problem after an action on the festival list. The
+// page reads the result from the database, so it shows the actual state (FN-02).
+function readLastAction(query: Record<string, string>, festivals: ReturnType<typeof listFestivalsForAdmin>): LastAction | undefined {
+  const [action, value] =
+    query.added !== undefined ? (["added", query.added] as const) : query.lineup !== undefined ? (["got-lineup", query.lineup] as const) : [];
+  if (action === undefined) return undefined;
+  const festival = festivals.find((each) => String(each.id) === value);
+  return festival === undefined ? undefined : { action, festival };
 }
 
 function readPendingLogIn(value: string | undefined): PendingLogIn | undefined {

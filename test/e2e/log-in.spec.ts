@@ -154,11 +154,10 @@ test("a callback without the values from the start of the log in fails", async (
 test("the configured Spotify account gets the admin role", async ({ page, logIn }) => {
   await logIn(testAdmin);
 
-  // The admin area has no pages yet, so the admin gets Page not found and not the permission-restricted state.
   const response = await page.goto("/admin/festivals");
 
-  expect(response?.status()).toBe(404);
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Page not found");
+  expect(response?.status()).toBe(200);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Manage festivals");
 });
 
 test("a user who is not the admin sees the permission-restricted state on admin pages", async ({ page, logIn }) => {

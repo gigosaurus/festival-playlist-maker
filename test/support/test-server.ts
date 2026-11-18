@@ -1,6 +1,8 @@
 // Starts the application for the Playwright tests, with a fake HTTP client, a
 // fake clock and a new database file in a temporary directory.
 // Tests control the fakes through the /__test/ routes. Only this server has them.
+// A reset starts a new application with a new database, so that no data, cache
+// or request pacing goes from one test to the next.
 import "./no-network.ts";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -15,18 +17,27 @@ import { testSettings } from "./test-settings.ts";
 
 const port = Number(process.env.PORT ?? 3100);
 const directory = mkdtempSync(join(tmpdir(), "festival-playlist-maker-"));
-const database = openDatabase(join(directory, "test.sqlite"));
 const httpClient = new FakeHttpClient();
-const clock = new FakeClock();
+let clock = new FakeClock();
+let databaseNumber = 0;
+let database = openDatabase(join(directory, `test-${databaseNumber}.sqlite`));
+let app = newApp();
 
-const app = createApp({ database, httpClient, clock, settings: testSettings(`http://localhost:${port}`) });
+function newApp() {
+  return createApp({ database, httpClient, clock, settings: testSettings(`http://localhost:${port}`) });
+}
 
 const control = new Hono()
   .post("/__test/reset", (context) => {
     httpClient.reset();
-    clock.set(new FakeClock().now());
+    clock = new FakeClock();
+    database.close();
+    databaseNumber++;
+    database = openDatabase(join(directory, `test-${databaseNumber}.sqlite`));
+    app = newApp();
     return context.body(null, 204);
   })
+  .get("/__test/sleeps", (context) => context.json(clock.sleeps))
   .get("/__test/clock", (context) => context.json({ now: clock.now().toISOString() }))
   .post("/__test/clock", async (context) => {
     const { now } = await context.req.json<{ now: string }>();

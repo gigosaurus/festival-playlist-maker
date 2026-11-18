@@ -43,11 +43,15 @@ export function layout({ title, description, user, body }: PageOptions): Content
 }
 
 // The Spotify display name shows which account is logged in, for example on a shared device.
+// Only the admin sees the link to the admin pages.
 function account(user: User) {
   return html`
-    <form class="account" method="post" action="/log-out">
-      <span class="account-name" data-external-text>${user.displayName}</span>
-      <button class="header-button" type="submit">Log out</button>
-    </form>
+    <div class="account">
+      ${user.admin ? html`<a class="header-link" href="/admin/festivals">Manage festivals</a>` : ""}
+      <form class="account-form" method="post" action="/log-out">
+        <span class="account-name" data-external-text>${user.displayName}</span>
+        <button class="header-button" type="submit">Log out</button>
+      </form>
+    </div>
   `;
 }

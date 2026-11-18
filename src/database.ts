@@ -30,6 +30,40 @@ const migrations: readonly string[] = [
     expires_at TEXT NOT NULL
   ) STRICT;
   CREATE INDEX session_user ON session (user_id);`,
+  // The lineup source and the lineup of each festival (#6).
+  // lineup_updated_at: the time of the last lineup that the application got.
+  // lineup_checked_at and lineup_problem: the time and the cause of failure of the
+  // last attempt. lineup_problem is NULL after a successful attempt.
+  // A lineup name is on the current lineup when its last_seen is lineup_updated_at.
+  `ALTER TABLE festival ADD COLUMN lineup_source TEXT NOT NULL DEFAULT 'clashfinder';
+  ALTER TABLE festival ADD COLUMN lineup_source_settings TEXT NOT NULL DEFAULT '{}';
+  ALTER TABLE festival ADD COLUMN lineup_timezone TEXT;
+  ALTER TABLE festival ADD COLUMN lineup_updated_at TEXT;
+  ALTER TABLE festival ADD COLUMN lineup_checked_at TEXT;
+  ALTER TABLE festival ADD COLUMN lineup_problem TEXT;
+  CREATE TABLE expected_genre (
+    festival_id INTEGER NOT NULL REFERENCES festival (id) ON DELETE CASCADE,
+    name TEXT NOT NULL COLLATE NOCASE,
+    PRIMARY KEY (festival_id, name)
+  ) STRICT;
+  CREATE TABLE lineup_name (
+    id INTEGER PRIMARY KEY,
+    festival_id INTEGER NOT NULL REFERENCES festival (id) ON DELETE CASCADE,
+    name TEXT NOT NULL,
+    first_seen TEXT NOT NULL,
+    last_seen TEXT NOT NULL,
+    UNIQUE (festival_id, name)
+  ) STRICT;
+  -- The day, the stage and the set times of each appearance, for version 2.
+  -- start_time and end_time are local times at the festival (festival.lineup_timezone).
+  CREATE TABLE lineup_time (
+    lineup_name_id INTEGER NOT NULL REFERENCES lineup_name (id) ON DELETE CASCADE,
+    day TEXT,
+    stage TEXT,
+    start_time TEXT,
+    end_time TEXT
+  ) STRICT;
+  CREATE INDEX lineup_time_name ON lineup_time (lineup_name_id);`,
 ];
 
 export function openDatabase(path: string): Database {

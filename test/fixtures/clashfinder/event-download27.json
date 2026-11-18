@@ -1,0 +1,40 @@
+{
+	"copyright":"Licensed under a Creative Commons Attribution-NonCommercial 3.0 License https://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
+	"created":"2026-11-13 22:56",
+	"lastEdit":"2026-11-13 23:23",
+	"modified":"2026-11-13 23:23",
+	"name":"Download Festival 2027",
+	"id":"download27",
+	"url":"https://clashfinder.com/s/download27/",
+	"printAdvisory":5,
+	"timezone":"Europe/London",
+	"tzOffset":3600,
+	"tzNote":"Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
+	"auth":{"result":"pass","note":"Starting 31st March 2027, API requests will be limited to 10 per user or IP address in 5 minutes.","authUsername":"test-clashfinder-user"},
+	"locations":[
+		{
+			"name":"Apex",
+			"events":[
+				{"name":"???","short":"noname(1)","start":"2027-06-11 13:00","end":"2027-06-11 13:35"},
+				{"name":"???","short":"noname(2)","start":"2027-06-11 14:00","end":"2027-06-11 14:30"},
+				{"name":"???","short":"noname(3)","start":"2027-06-11 15:00","end":"2027-06-11 15:40"},
+				{"name":"???","short":"noname(4)","start":"2027-06-11 16:10","end":"2027-06-11 17:00"},
+				{"name":"???","short":"noname(5)","start":"2027-06-11 17:30","end":"2027-06-11 18:30"},
+				{"name":"Pierce The Veil","short":"pierce(1)","start":"2027-06-11 19:00","end":"2027-06-11 20:10"},
+				{"name":"Blink 182","short":"blink1(1)","start":"2027-06-11 21:10","end":"2027-06-11 22:50"},
+				{"name":"Turnstile","short":"turnst(1)","start":"2027-06-12 19:00","end":"2027-06-12 20:10"},
+				{"name":"Bring Me The Horizon","short":"bringm(1)","start":"2027-06-12 21:00","end":"2027-06-12 23:00"},
+				{"name":"Parkway Drive","short":"parkwa(1)","start":"2027-06-13 19:00","end":"2027-06-13 20:10"},
+				{"name":"Evanescence","short":"evanes(1)","start":"2027-06-13 21:20","end":"2027-06-13 23:00"}
+			]
+		},
+		{
+			"name":"Opus",
+			"events":[
+				{"name":"The Prodigy","short":"prodig(1)","start":"2027-06-11 20:00","end":"2027-06-11 21:00"},
+				{"name":"Mötley Crüe","short":"mtleyc(1)","start":"2027-06-12 19:40","end":"2027-06-12 21:00"},
+				{"name":"Faith No More","short":"faithn(1)","start":"2027-06-13 20:10","end":"2027-06-13 21:20"}
+			]
+		}
+	]
+}
