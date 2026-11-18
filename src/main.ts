@@ -3,6 +3,7 @@ import { createApp } from "./app.ts";
 import { systemClock } from "./clock.ts";
 import { openDatabase } from "./database.ts";
 import { createFetchHttpClient } from "./http-client.ts";
+import type { Settings } from "./settings.ts";
 
 function requiredSetting(name: string): string {
   const value = process.env[name]?.trim();
@@ -15,11 +16,15 @@ function requiredSetting(name: string): string {
 
 const databasePath = process.env.DATABASE_PATH ?? "data/festival-playlist-maker.sqlite";
 const port = Number(process.env.PORT ?? 3000);
-const spotifyClientId = requiredSetting("SPOTIFY_CLIENT_ID");
-const adminSpotifyUserId = requiredSetting("ADMIN_SPOTIFY_USER_ID");
+const settings: Settings = {
+  spotifyClientId: requiredSetting("SPOTIFY_CLIENT_ID"),
+  adminSpotifyUserId: requiredSetting("ADMIN_SPOTIFY_USER_ID"),
+  // Spotify accepts an HTTP redirect URI only for a loopback address, for example 127.0.0.1.
+  spotifyRedirectUri: process.env.SPOTIFY_REDIRECT_URI?.trim() || `http://127.0.0.1:${port}/log-in/callback`,
+};
 
 const database = openDatabase(databasePath);
-const app = createApp({ database, httpClient: createFetchHttpClient(), clock: systemClock });
+const app = createApp({ database, httpClient: createFetchHttpClient(), clock: systemClock, settings });
 const server = serve({ fetch: app.fetch, port });
 console.log(`Festival Playlist Maker listens on port ${port}. Database: ${databasePath}`);
 

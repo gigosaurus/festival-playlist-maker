@@ -17,6 +17,19 @@ const migrations: readonly string[] = [
     published INTEGER NOT NULL DEFAULT 0 CHECK (published IN (0, 1)),
     UNIQUE (name, year)
   ) STRICT`,
+  // The admin role is not stored. It comes from the configured Spotify user ID.
+  `CREATE TABLE user (
+    id INTEGER PRIMARY KEY,
+    spotify_user_id TEXT NOT NULL UNIQUE,
+    display_name TEXT NOT NULL,
+    refresh_token TEXT NOT NULL
+  ) STRICT;
+  CREATE TABLE session (
+    token_hash TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES user (id) ON DELETE CASCADE,
+    expires_at TEXT NOT NULL
+  ) STRICT;
+  CREATE INDEX session_user ON session (user_id);`,
 ];
 
 export function openDatabase(path: string): Database {

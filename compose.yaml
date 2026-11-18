@@ -13,5 +13,6 @@ services:
     environment:
       SPOTIFY_CLIENT_ID: ${SPOTIFY_CLIENT_ID:?}
       ADMIN_SPOTIFY_USER_ID: ${ADMIN_SPOTIFY_USER_ID:?}
+      SPOTIFY_REDIRECT_URI: ${SPOTIFY_REDIRECT_URI:-}
 volumes:
   database:

@@ -9,11 +9,17 @@
 // data-external-text, and the text checks ignore it.
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
-import { expect, test } from "./fixtures.ts";
+import { expect, test, testUser } from "./fixtures.ts";
 
+// `loggedIn`: the test logs in as a user who is not the admin before it opens the page.
 const pages = [
-  { name: "Festivals page, empty state", path: "/" },
-  { name: "Page not found", path: "/no-such-page" },
+  { name: "Log in page", path: "/log-in", loggedIn: false },
+  { name: "Log in page, not on the allowlist", path: "/log-in?problem=not-on-allowlist", loggedIn: false },
+  { name: "Log in page, cancelled", path: "/log-in?problem=cancelled", loggedIn: false },
+  { name: "Log in page, failed", path: "/log-in?problem=failed", loggedIn: false },
+  { name: "Festivals page, empty state", path: "/", loggedIn: true },
+  { name: "Page not found", path: "/no-such-page", loggedIn: true },
+  { name: "Admin page for a user who is not the admin", path: "/admin/festivals", loggedIn: true },
 ];
 
 // The motion inventory in docs/design-spec.md. Each entry is a CSS selector for
@@ -29,8 +35,14 @@ const placeholderText =
 const contraction =
   /\b[a-z]+n['’]t\b|\b[a-z]+['’](re|ve|ll|d|m)\b|\b(it|that|there|what|here|who|where|let|he|she)['’]s\b/i;
 
-for (const { name, path } of pages) {
+for (const { name, path, loggedIn } of pages) {
   test.describe(name, () => {
+    if (loggedIn) {
+      test.beforeEach(async ({ logIn }) => {
+        await logIn(testUser);
+      });
+    }
+
     test("VS-05: text has sufficient colour contrast", async ({ page }) => {
       await page.goto(path);
 

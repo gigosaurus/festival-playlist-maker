@@ -36,7 +36,9 @@ test("openDatabase migrates a database file that has an earlier schema version",
 
   // A file with schema version 0 is a file from before the first migration.
   const earlier = new DatabaseSync(path);
-  earlier.exec("DROP TABLE festival");
+  for (const { name } of earlier.prepare("SELECT name FROM sqlite_schema WHERE type = 'table'").all()) {
+    earlier.exec(`DROP TABLE "${String(name)}"`);
+  }
   earlier.exec("PRAGMA user_version = 0");
   earlier.close();
 
