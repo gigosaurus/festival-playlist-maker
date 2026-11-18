@@ -97,7 +97,7 @@ Copy this record for the next audit. Change only the results that the new change
 
 | ID | Result | Evidence |
 |---|---|---|
-| FN-01 | Pass, with an outstanding item | The workflow completes in the page tests with recorded MusicBrainz responses. The recorded responses come from the production MusicBrainz API on 18 November 2026. A match with `npm start` and the real API is an outstanding item. |
+| FN-01 | Pass | The workflow completes in the page tests with recorded MusicBrainz responses, and with `npm start` against the production MusicBrainz API (release test record below). |
 | FN-02 | Pass | The notice after a save reads the match from the database. A failed search shows a notice with the cause, not results (page test). |
 | FN-03 | Pass | A save without a choice gives "Choose an artist or “No match”." with status 400 (page test). The form keeps the search text. |
 | FN-04 | Pass | Loading: names that wait for the search, with the count and the rate. Empty: "MusicBrainz found no artist", and "Each lineup name has an artist match". Error: the search stopped, with the cause and "Search again". Success: the notice after a save. Permission-restricted: a user who is not the admin gets status 403 on the pages and the forms (page test). Unknown festival or name: Page not found. |
@@ -167,7 +167,7 @@ Copy this record for the next audit. Change only the results that the new change
 | As a user who is not the admin, open the pages and send the forms. Each gives status 403. | Pass |
 | Look at Admin: artist matches at 360, 768 and 1280 px, and on Pixel 7. Nothing overlaps or is cut off. | Pass |
 | Send requests to the production MusicBrainz API for the genre list and 12 searches. | Pass. On 18 November 2026, with a pause of 2 seconds. The API gave status 503 to some requests before the retry. These responses are the recorded test responses. The User-Agent did not contain the contact of the admin. |
-| Match artists with `npm start`, the real MusicBrainz API and `MUSICBRAINZ_CONTACT`. | Not done. Outstanding item. |
+| Match artists with `npm start`, the real MusicBrainz API and `MUSICBRAINZ_CONTACT`. | Pass. The project owner matched the 10 lineup names of Download XXIV 2027 on 18 November 2026, and reported that the workflow works. The database has 10 stored searches from 18:21:49 to 18:22:04 (UTC), with 1 second or more between them, and 10 artist matches from 18:22:13 to 18:22:57, 1 of them "no match". |
 
 The auditor did the page checks with a browser that Playwright controlled, and examined the screenshots.
 
@@ -178,6 +178,5 @@ Not done. A person who did not make the change must do it before the first relea
 ## Outstanding items
 
 - The outstanding items from the previous record: the real Spotify log in as a user on the allowlist who is not the admin, and as a person who is not on the allowlist.
-- Match artists with `npm start` and the real MusicBrainz API, with `MUSICBRAINZ_CONTACT` set.
 - Perception check by a person.
 - The audit has no approver, because this is not a release.
