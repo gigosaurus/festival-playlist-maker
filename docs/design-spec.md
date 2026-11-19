@@ -13,9 +13,10 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). #15 adds the playlist. |
 | Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, get a lineup again, and publish a festival | Admin | Done (#6, #9) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
-| Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings and Spotify artists | Admin | Done (#7, #8) |
+| Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings, Spotify artists and predicted songs | Admin | Done (#7, #8, #12) |
 | Artist match for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}` | Search MusicBrainz with a different text, or change a match | Admin | Done (#7) |
 | Spotify artist for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}/spotify` | Set the Spotify artist of a match by hand | Admin | Done (#8) |
+| Predicted songs for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}/predicted-songs` | Check the predicted songs of a match, and calculate them again | Admin | Done (#12) |
 | Page not found | Each unknown address | Find the correct page | User, admin | Done (#3) |
 | Only the admin can open this page | Each address in `/admin/` | Go back to a page that the user can open | User who is not the admin | Done (#4) |
 
@@ -201,6 +202,8 @@ The first failure stops the searches, because the next searches probably fail fo
 
 Each match to an artist gets a Spotify artist (#8, user story 63). The application uses the MusicBrainz Spotify link, or a Spotify search when there is no link. This also runs in the background, with the same rules for progress and failure. The admin asks "are the songs from the correct artist?". Each match therefore shows the Spotify artist, a link that opens it in Spotify, and the source. The source tells the admin which artists to check: a search result can be a different artist with the same name, for example the Swedish "Ghost" for the Japanese band. A match without a Spotify artist shows a warning with its consequence (ED-04). "Set the Spotify artist" opens the page where the admin corrects it (user story 64).
 
+Each match with a Spotify artist gets predicted songs (#12, user story 65). The calculation runs in the background after the Spotify artist is found, with the same rules for progress and failure. A rate limit delays the calculation but does not stop it (user story 71). A result stays valid for 6 months, so a second festival with the same artist starts no new calculation (user story 69). Each match shows the number of songs, because the admin asks "does each artist have songs?". An artist without setlists in the look-back period shows a warning, because its songs come from a Spotify search and are not predicted (user story 68).
+
 | Content | Decision | Reason |
 |---|---|---|
 | Link "Manage festivals" above the title | Keep visible | The way back. |
@@ -227,6 +230,14 @@ Each match to an artist gets a Spotify artist (#8, user story 63). The applicati
 | Text that says that a match applies to all festivals | Remove | Nothing on the page gives a reason to ask (CP-07). A name with a match from a different festival is already in "Artist matches". |
 | The MusicBrainz search score | Remove | It does not help the admin choose. The order of the choices shows it. |
 | An automatic reload or a progress bar | Remove | A reload can lose a choice. The server renders each page. |
+| For each match with a Spotify artist: "Predicted songs: N songs from setlists", or "Predicted songs: waiting" | Keep visible, in the match row | User story 66. The admin sees that each artist has songs, without opening each artist. |
+| "Warning: no setlists in the last 18 months. N songs from a Spotify search." | Keep visible, in the match row, in the genre warning style | User story 68. The admin asks "where is the playlist weaker?". ED-04: the consequence is that the songs are not predicted. |
+| "N artists have no setlists in the last 18 months and use the Spotify search fallback." | Keep visible, below the section heading, when 1 or more artists use it | User story 68. The admin finds the fallback artists without reading each row. |
+| "Warning: no predicted songs on Spotify. Playlists get no songs for this artist." | Keep visible, for an artist with no tracks | ED-04: the consequence for users. |
+| Link "Show the predicted songs" | Keep visible, small, next to "Set the Spotify artist" | Opens Predicted songs for one name. |
+| "N artists wait for the predicted songs. The application calculates 1 artist in approximately 10 to 30 seconds." and "Show the new results" | Keep visible, while artists wait | Answers "where are the songs?" and "how long?". After a rate limit, the text also gives the time at which the calculation continues (user story 71). |
+| Notice "The calculation of the predicted songs stopped", with the cause and "Calculate the predicted songs again" | Keep visible, after a failure only | FN-04 error state, with the same rules as the other background work. A rate limit does not stop the calculation. It waits. |
+| Song names on this page | Remove | The store keeps only Spotify track IDs (ADR-0002). A name needs a Spotify request for each song. The Predicted songs page shows the songs. |
 
 ### Artist match for one name
 
@@ -262,6 +273,35 @@ The admin enters the address of the Spotify artist. This is the address that the
 | Problem: no address, an address that is not a Spotify artist, an artist that Spotify does not have, or a Spotify failure with its cause | Keep visible, after a save with a problem | FN-03. The field keeps the text. |
 | A Spotify search on the page | Remove | The admin opens the page because the search was wrong. The admin finds the artist in Spotify. |
 | Text that says that the application does not replace the artist | Remove | Nothing on the page gives a reason to ask (CP-07). The match shows "set by hand" after the save. |
+
+### Predicted songs for one name
+
+- **Principal task:** check the predicted songs of one artist, and calculate them again when they are wrong or old (user stories 66, 68 and 70).
+- **Who and from where:** the admin, from "Show the predicted songs" on Admin: artist matches. The admin knows the artist, and recognises its well-known songs.
+- **Necessary before the task:** the songs in order, the source of the songs (setlists or the Spotify search fallback), and the time of the calculation.
+- **Supporting detail:** the MusicBrainz artist and the Spotify artist, so that the admin can find a wrong artist as the cause of wrong songs. The end of the valid period.
+
+The store keeps only Spotify track IDs, not song names (ADR-0002). The page therefore shows each song with the Spotify embed player. The player shows the song name and the artist, and the admin can listen to the song. This needs no Spotify request from the application. The players load only when they come into view. #18 uses the same player on the Festival page.
+
+The calculation runs in the background, because it sends 1 or more setlist.fm requests and up to 20 Spotify requests. After "Calculate the predicted songs again", the page opens again and says that the calculation waits or runs. It shows the old songs until the new result is saved (FN-02). The admin selects "Show the new result".
+
+A result stays valid for 6 months (user story 69). The page shows the end date, because the admin asks "will the application calculate this again before the festival?". It shows a date and not a time, because the time changes with British Summer Time.
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Artist matches for {festival}" | Keep visible | The way back. |
+| Page title "Predicted songs for {name}" | Keep visible | States the lineup name. |
+| Facts: MusicBrainz artist and Spotify artist, with links | Keep visible | A wrong Spotify artist is the most probable cause of wrong songs. "Set the Spotify artist" is on Admin: artist matches. |
+| Fact "Calculated": the time, and "Valid until {date}" | Keep visible, when a result exists | User story 69. |
+| Fact "Source": "Setlists on setlist.fm from the last 18 months", or the fallback warning | Keep visible, when a result exists | User story 68. The warning says that the songs are not predicted (ED-04). |
+| "Calculate the predicted songs again" | Keep visible, secondary style, above the songs | User story 70. It is secondary because the principal task is to check the songs. It is above the long list, so that the admin finds it without scrolling. |
+| "The calculation of the predicted songs waits or runs." and "Show the new result" | Keep visible, while the artist waits | Replaces the button, so that the admin does not start the same calculation again. After a rate limit, it gives the time at which the calculation continues. |
+| Notice "The calculation of the predicted songs stopped", with the cause | Keep visible, after a failure only | FN-04 error state. |
+| Section "Songs in order of prediction (N)", a numbered list of Spotify players | Keep visible | The principal task. The numbers show the order (LY-06). |
+| Empty state "The artist has no predicted songs" | Keep visible, when the artist has no Spotify artist | The calculation needs the Spotify artist. The text tells the admin what to do. |
+| "Warning: Spotify has none of the songs. Playlists get no songs for this artist." | Keep visible, for a result with no tracks | ED-04: the consequence for users. |
+| The scores, the shows and the setlists | Remove | The store keeps no setlist.fm data (ADR-0002). The admin checks the result, not the method. |
+| A setlist.fm link | Remove for now | #18 adds the setlist.fm link for each artist, as the setlist.fm terms require where the data shows. |
 
 ### Page not found
 
@@ -305,9 +345,10 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it, and a failed save of an interest level |
 | Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page or a MusicBrainz artist in a list of choices |
 | Lineup name heading | `.match-item-heading` | 1.125rem | 650 | 1.4 | Ink | One lineup name on Admin: artist matches. Smaller than a section heading, larger than a choice label. |
-| Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres" and "Warning: no Spotify artist found". The text starts with "Warning", so the colour is not the only sign. |
+| Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres", "Warning: no Spotify artist found" and the warnings about predicted songs. The text starts with "Warning", so the colour is not the only sign. |
 | Matched lineup name | `.matched-lineup-name` | 1rem | 650 | 1.5 | Ink | The lineup name in the list of artist matches |
-| Matched artist | `.matched-artist`, `.matched-spotify` | 0.9375rem | 400 | 1.5 | Muted | The artist of a match, with its facts, and its Spotify artist |
+| Matched artist | `.matched-artist`, `.matched-spotify` | 0.9375rem | 400 | 1.5 | Muted | The artist of a match, with its facts, its Spotify artist and its predicted songs |
+| Song number | `.predicted-song-list > li::before` | 1rem | 600 | 1.5 | Muted | The position of a song in the order of prediction |
 | Disclosure label | `.more-choices summary` | 1rem | 600 | 1.5 | Link | "Show 4 other artists" |
 | Header link | `.header-link` | 0.9375rem | 600 | 1.5 | On brand | "Manage festivals" in the site header, for the admin only |
 | Button label | `.button` | 1rem | 650 | 1.5 | On brand | The principal action |
@@ -399,7 +440,9 @@ The application has only a light colour scheme in version 1. The standards test 
 | Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results, or one MusicBrainz artist or "No match" in the artist choices. The full label selects the radio button. A fact does not break across two lines. |
 | Lineup name item | 1px rule line above, no panel | One name on Admin: artist matches. The choices in it already have panels, so the item has no panel (no panel in a panel). |
 | More choices | Native `details` element, summary in the link colour, no animation | The possible artists after the proposal. Closed by default. |
-| Match list | 1px rule dividers, no radius. The "Change" and "Set the Spotify artist" links are at the right, or below the text on a narrow screen. | The artist matches of a festival. The rows are a list to scan, not separate items to compare. |
+| Match list | 1px rule dividers, no radius. The "Change", "Set the Spotify artist" and "Show the predicted songs" links are at the right, or below the text on a narrow screen. | The artist matches of a festival. The rows are a list to scan, not separate items to compare. |
+| Predicted song list | Numbered list without markers. The number is in a 2rem column, in the vertical centre of the player. 0.5rem between songs. Maximum width 40rem. | The predicted songs of one artist, in order (LY-06). A list marker cannot be in the vertical centre of a player. The list has `role="list"`, because Safari removes the list role when the markers are removed. |
+| Spotify player | The Spotify embed player for one track in an iframe, full width of its column, 80px high, no border, radius 12px | Shows the song name and the artist, and plays the song. Spotify draws the content. The iframe title gives the position, for example "Song 1 in the Spotify player". |
 | Visually hidden text | Not visible. Screen readers read it. | Makes repeated button labels specific, for example "Get the lineup again for Download 2027". |
 | Link | Link colour, underline | Standard link. The underline shows that the text is a link. |
 | Focus indicator | 3px solid outline, offset 2px | Shows keyboard focus on each interactive element (QA-03). |

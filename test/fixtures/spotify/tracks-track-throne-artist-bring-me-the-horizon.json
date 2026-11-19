@@ -1,0 +1,407 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Throne%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/7FqHuAvmREiIwVXVpZ9ooP"
+     },
+     "href": "https://api.spotify.com/v1/albums/7FqHuAvmREiIwVXVpZ9ooP",
+     "id": "7FqHuAvmREiIwVXVpZ9ooP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27390b88187a9831d91f2438927"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0290b88187a9831d91f2438927"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485190b88187a9831d91f2438927"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:7FqHuAvmREiIwVXVpZ9ooP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 191520,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500770"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0M3adYbGtyRHACP86dey1H"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0M3adYbGtyRHACP86dey1H",
+    "id": "0M3adYbGtyRHACP86dey1H",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Throne",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:0M3adYbGtyRHACP86dey1H"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/49dRYUEg8iPbeKAYQKp1eA"
+     },
+     "href": "https://api.spotify.com/v1/albums/49dRYUEg8iPbeKAYQKp1eA",
+     "id": "49dRYUEg8iPbeKAYQKp1eA",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851090bb2b1e24029de9da3c02b"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:49dRYUEg8iPbeKAYQKp1eA"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 191520,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500770"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0TLM2RUQxaQpwdaRtl16i6"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0TLM2RUQxaQpwdaRtl16i6",
+    "id": "0TLM2RUQxaQpwdaRtl16i6",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Throne",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:0TLM2RUQxaQpwdaRtl16i6"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 307174,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502090"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0V0FF0FFM2GklFNPegkCiB"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0V0FF0FFM2GklFNPegkCiB",
+    "id": "0V0FF0FFM2GklFNPegkCiB",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Throne - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 23,
+    "type": "track",
+    "uri": "spotify:track:0V0FF0FFM2GklFNPegkCiB"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/34pF0wOGswprAZCsI8A1Fs"
+     },
+     "href": "https://api.spotify.com/v1/albums/34pF0wOGswprAZCsI8A1Fs",
+     "id": "34pF0wOGswprAZCsI8A1Fs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851e489bfa973464d0cef3a37a5"
+      }
+     ],
+     "is_playable": true,
+     "name": "Lo-files",
+     "release_date": "2025-07-11",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:34pF0wOGswprAZCsI8A1Fs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/5zUSfxfP1NETZiaWt0Ui0a"
+      },
+      "href": "https://api.spotify.com/v1/artists/5zUSfxfP1NETZiaWt0Ui0a",
+      "id": "5zUSfxfP1NETZiaWt0Ui0a",
+      "name": "Casiio",
+      "type": "artist",
+      "uri": "spotify:artist:5zUSfxfP1NETZiaWt0Ui0a"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/4XbnhifKeOnyfTsCInrQsX"
+      },
+      "href": "https://api.spotify.com/v1/artists/4XbnhifKeOnyfTsCInrQsX",
+      "id": "4XbnhifKeOnyfTsCInrQsX",
+      "name": "No Spirit",
+      "type": "artist",
+      "uri": "spotify:artist:4XbnhifKeOnyfTsCInrQsX"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 122329,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2500844"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/61Y6tZT9hnupcSktOnDVqN"
+    },
+    "href": "https://api.spotify.com/v1/tracks/61Y6tZT9hnupcSktOnDVqN",
+    "id": "61Y6tZT9hnupcSktOnDVqN",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Throne.GOD",
+    "track_number": 23,
+    "type": "track",
+    "uri": "spotify:track:61Y6tZT9hnupcSktOnDVqN"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 243205,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001565"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1Hxe4J8HuTxDTOR0wwu0co"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1Hxe4J8HuTxDTOR0wwu0co",
+    "id": "1Hxe4J8HuTxDTOR0wwu0co",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Throne - Live at the Royal Albert Hall",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:1Hxe4J8HuTxDTOR0wwu0co"
+   }
+  ]
+ }
+}

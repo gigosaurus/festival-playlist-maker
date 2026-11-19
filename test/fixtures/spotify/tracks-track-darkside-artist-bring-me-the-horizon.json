@@ -1,0 +1,407 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22DArkSide%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1k7OXnGQPV4zF3seDwRroD"
+     },
+     "href": "https://api.spotify.com/v1/albums/1k7OXnGQPV4zF3seDwRroD",
+     "id": "1k7OXnGQPV4zF3seDwRroD",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273df51a3d66223e5b01813e0c4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02df51a3d66223e5b01813e0c4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851df51a3d66223e5b01813e0c4"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: NeX GEn",
+     "release_date": "2024-05-24",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:1k7OXnGQPV4zF3seDwRroD"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 165357,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2301374"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/7mczLeiFeYKRb7vtiPjuMb"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7mczLeiFeYKRb7vtiPjuMb",
+    "id": "7mczLeiFeYKRb7vtiPjuMb",
+    "is_local": false,
+    "is_playable": true,
+    "name": "DArkSide",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:7mczLeiFeYKRb7vtiPjuMb"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5b3h7bh6toCAsNcTk3LQnN"
+     },
+     "href": "https://api.spotify.com/v1/albums/5b3h7bh6toCAsNcTk3LQnN",
+     "id": "5b3h7bh6toCAsNcTk3LQnN",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273ca9619365e68276c94b986b1"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02ca9619365e68276c94b986b1"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851ca9619365e68276c94b986b1"
+      }
+     ],
+     "is_playable": true,
+     "name": "DArkSide [L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)]",
+     "release_date": "2026-02-25",
+     "release_date_precision": "day",
+     "total_tracks": 2,
+     "type": "album",
+     "uri": "spotify:album:5b3h7bh6toCAsNcTk3LQnN"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 238230,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502072"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0Sca8SubjrmkI4e6ZGxcuO"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0Sca8SubjrmkI4e6ZGxcuO",
+    "id": "0Sca8SubjrmkI4e6ZGxcuO",
+    "is_local": false,
+    "is_playable": true,
+    "name": "DArkSide - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:0Sca8SubjrmkI4e6ZGxcuO"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 238230,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502072"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1K0sEUEbhtuuFeIilwqFdP"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1K0sEUEbhtuuFeIilwqFdP",
+    "id": "1K0sEUEbhtuuFeIilwqFdP",
+    "is_local": false,
+    "is_playable": true,
+    "name": "DArkSide - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:1K0sEUEbhtuuFeIilwqFdP"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/3E21iYJYv6lSkBkHBv3SKq"
+     },
+     "href": "https://api.spotify.com/v1/albums/3E21iYJYv6lSkBkHBv3SKq",
+     "id": "3E21iYJYv6lSkBkHBv3SKq",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27301aa13aa3a7c9f2df2db0d0f"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0201aa13aa3a7c9f2df2db0d0f"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485101aa13aa3a7c9f2df2db0d0f"
+      }
+     ],
+     "is_playable": true,
+     "name": "DArkSide",
+     "release_date": "2023-10-18",
+     "release_date_precision": "day",
+     "total_tracks": 1,
+     "type": "album",
+     "uri": "spotify:album:3E21iYJYv6lSkBkHBv3SKq"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 164790,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2301374"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/19vHgVS1aukRiQWhTqfKnE"
+    },
+    "href": "https://api.spotify.com/v1/tracks/19vHgVS1aukRiQWhTqfKnE",
+    "id": "19vHgVS1aukRiQWhTqfKnE",
+    "is_local": false,
+    "is_playable": true,
+    "name": "DArkSide",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:19vHgVS1aukRiQWhTqfKnE"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/34pF0wOGswprAZCsI8A1Fs"
+     },
+     "href": "https://api.spotify.com/v1/albums/34pF0wOGswprAZCsI8A1Fs",
+     "id": "34pF0wOGswprAZCsI8A1Fs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851e489bfa973464d0cef3a37a5"
+      }
+     ],
+     "is_playable": true,
+     "name": "Lo-files",
+     "release_date": "2025-07-11",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:34pF0wOGswprAZCsI8A1Fs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/5zUSfxfP1NETZiaWt0Ui0a"
+      },
+      "href": "https://api.spotify.com/v1/artists/5zUSfxfP1NETZiaWt0Ui0a",
+      "id": "5zUSfxfP1NETZiaWt0Ui0a",
+      "name": "Casiio",
+      "type": "artist",
+      "uri": "spotify:artist:5zUSfxfP1NETZiaWt0Ui0a"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/4XbnhifKeOnyfTsCInrQsX"
+      },
+      "href": "https://api.spotify.com/v1/artists/4XbnhifKeOnyfTsCInrQsX",
+      "id": "4XbnhifKeOnyfTsCInrQsX",
+      "name": "No Spirit",
+      "type": "artist",
+      "uri": "spotify:artist:4XbnhifKeOnyfTsCInrQsX"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 188456,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2500822"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/42UmHCU9anrkIcW4jIuiSr"
+    },
+    "href": "https://api.spotify.com/v1/tracks/42UmHCU9anrkIcW4jIuiSr",
+    "id": "42UmHCU9anrkIcW4jIuiSr",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Darkside.verXx",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:42UmHCU9anrkIcW4jIuiSr"
+   }
+  ]
+ }
+}

@@ -46,6 +46,23 @@ export const spotifyLongestWait = 60_000;
 // The HTTP client sends a request again a maximum of this number of times after status 429.
 const spotifyRetries = 3;
 
+export const setlistFmOrigin = "https://api.setlist.fm";
+
+// The setlist.fm API settings of the account give the rate limit of the API key:
+// a maximum of 2 requests each second and 1,440 requests each day. The public
+// documentation does not publish it. The pause starts at the end of each
+// response, so the rate is lower than 2 each second.
+export const setlistFmRequestDelay = 500;
+
+// The application counts the requests in the last 24 hours. Then it cannot send
+// more than 1,440 requests in one calendar day. The count starts again when the
+// application starts.
+export const setlistFmRequestLimit = { requests: 1_440, period: 24 * 60 * 60_000, periodText: "24 hours" };
+
+// The setlist.fm documentation does not tell what a refused request gets. When
+// setlist.fm gives status 429 without a Retry-After value, the application waits for this time.
+export const setlistFmLimitWait = 60_000;
+
 const applicationVersion = (
   JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8")) as { version: string }
 ).version;
@@ -68,15 +85,23 @@ export class RequestLimitError extends Error {
 }
 
 // Applies the rules of each service to the requests that go through `transport`.
-// A later change adds the rules of setlist.fm.
 export function withServiceRules(transport: HttpClient, settings: Settings, clock: Clock): HttpClient {
   const clashfinderQueue = createPacedQueue(clock, clashfinderCrawlDelay, { service: "Clashfinder", ...clashfinderRequestLimit });
   const musicbrainzQueue = createPacedQueue(clock, musicbrainzRequestDelay);
+  const setlistFmQueue = createPacedQueue(clock, setlistFmRequestDelay, { service: "setlist.fm", ...setlistFmRequestLimit });
   const spotify = createSpotifyRules(transport, clock);
   return {
     send(request) {
       const origin = new URL(request.url).origin;
       if (origin === spotifyApiOrigin) return spotify(request);
+      if (origin === setlistFmOrigin) {
+        return setlistFmQueue(async () => {
+          const response = await transport.send(signSetlistFmRequest(request, settings));
+          if (response.status !== 429) return response;
+          const retryAt = new Date(clock.now().getTime() + (retryAfter(response.headers.get("retry-after")) ?? setlistFmLimitWait));
+          throw new RequestLimitError(`setlist.fm limited the requests of the application (status 429).`, retryAt);
+        });
+      }
       if (origin === clashfinderOrigin) return clashfinderQueue(() => transport.send(signClashfinderRequest(request, settings)));
       if (origin === musicbrainzOrigin) {
         return musicbrainzQueue(() => {
@@ -88,6 +113,15 @@ export function withServiceRules(transport: HttpClient, settings: Settings, cloc
       return transport.send(request);
     },
   };
+}
+
+// The setlist.fm API needs the API key in the x-api-key header. Without
+// "Accept: application/json", it gives XML (api.setlist.fm/docs/1.0/index.html).
+export function signSetlistFmRequest(request: Request, settings: Settings): Request {
+  const signed = new Request(request);
+  signed.headers.set("x-api-key", settings.setlistFmApiKey);
+  signed.headers.set("accept", "application/json");
+  return signed;
 }
 
 // The Clashfinder API needs authUsername and authPublicKey on each request
@@ -111,7 +145,7 @@ export function signClashfinderRequest(request: Request, settings: Settings): Re
 function createPacedQueue(
   clock: Clock,
   delay: number,
-  limit: { service: string; requests: number; period: number } = { service: "", requests: Infinity, period: 0 },
+  limit: { service: string; requests: number; period: number; periodText?: string } = { service: "", requests: Infinity, period: 0 },
 ): (send: () => Promise<Response>) => Promise<Response> {
   let queue: Promise<unknown> = Promise.resolve();
   let lastEnd: number | undefined;
@@ -123,9 +157,8 @@ function createPacedQueue(
       while (starts.length > 0 && starts[0]! <= now - limit.period) starts.shift();
       if (starts.length >= limit.requests) {
         const retryAt = new Date(starts[0]! + limit.period);
-        const minutes = Math.ceil((retryAt.getTime() - now) / 60_000);
         throw new RequestLimitError(
-          `The application sends a maximum of ${limit.requests} requests to ${limit.service} in ${limit.period / 60_000} minutes. Try again in ${minutes} ${minutes === 1 ? "minute" : "minutes"}.`,
+          `The application sends a maximum of ${limit.requests.toLocaleString("en-GB")} requests to ${limit.service} in ${limit.periodText ?? `${limit.period / 60_000} minutes`}. Try again in ${waitText(retryAt.getTime() - now)}.`,
           retryAt,
         );
       }
@@ -140,6 +173,13 @@ function createPacedQueue(
     queue = result.catch(() => undefined);
     return result;
   };
+}
+
+// A wait in minutes, or in hours when it is 2 hours or longer: "4 minutes", "23 hours".
+function waitText(milliseconds: number): string {
+  const minutes = Math.ceil(milliseconds / 60_000);
+  if (minutes < 120) return `${minutes} ${minutes === 1 ? "minute" : "minutes"}`;
+  return `${Math.ceil(minutes / 60)} hours`;
 }
 
 // Spotify gives status 429 with "reason": "QUOTA_EXCEEDED" in the error when the

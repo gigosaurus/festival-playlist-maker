@@ -91,14 +91,26 @@ export interface SpotifyArtistQueue {
 }
 
 // Each find sends 2 or 3 requests: the MusicBrainz lookup, and 1 or 2 Spotify requests.
-export function createSpotifyArtistQueue(database: Database, musicBrainz: MusicBrainz, spotify: Spotify, clock: Clock): SpotifyArtistQueue {
+// After each find, `found` gets the MusicBrainz ID, and `changed` is true when
+// the find gave a different Spotify artist. The predicted songs use it.
+export function createSpotifyArtistQueue(
+  database: Database,
+  musicBrainz: MusicBrainz,
+  spotify: Spotify,
+  clock: Clock,
+  found: (musicbrainzId: string, changed: boolean) => void = () => undefined,
+): SpotifyArtistQueue {
   const queue = createBackgroundQueue<{ artist: MusicBrainzArtist; again: boolean }>(clock, "Spotify artist", async ({ artist, again }) => {
     const stored = findSpotifyArtist(database, artist.id);
-    if (stored?.kind === "found" && stored.source === "admin") return undefined;
-    if (stored !== undefined && !again) return undefined;
+    if ((stored?.kind === "found" && stored.source === "admin") || (stored !== undefined && !again)) {
+      found(artist.id, false);
+      return undefined;
+    }
     const result = await findSpotifyArtistFor(musicBrainz, spotify, artist);
     if (result.outcome === "failed") return result.cause;
     saveFoundSpotifyArtist(database, clock, artist.id, result.outcome === "found" ? result : undefined);
+    const before = stored?.kind === "found" ? stored.artist.id : undefined;
+    found(artist.id, result.outcome === "found" && before !== undefined && result.artist.id !== before);
     return undefined;
   });
 

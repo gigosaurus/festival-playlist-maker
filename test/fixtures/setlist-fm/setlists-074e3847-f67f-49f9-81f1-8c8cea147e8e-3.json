@@ -1,0 +1,2680 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 3,
+  "total": 1549,
+  "setlist": [
+   {
+    "id": "735b06b9",
+    "versionId": "g2b0020ea",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:12:47.328+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan from the crowd sang on stage (oscar salazar)"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/aftershock-stage-sacramento-ca-735b06b9.html"
+   },
+   {
+    "id": "7b5b06c4",
+    "versionId": "g4b79bbea",
+    "eventDate": "03-10-2025",
+    "lastUpdated": "2025-10-06T00:53:28.786+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bd176da",
+     "name": "Intuit Dome",
+     "city": {
+      "id": "5359488",
+      "name": "Inglewood",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 33.9616801,
+       "long": -118.3531311
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/intuit-dome-inglewood-ca-usa-6bd176da.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/intuit-dome-inglewood-ca-7b5b06c4.html"
+   },
+   {
+    "id": "6b5b06c6",
+    "versionId": "g7b780674",
+    "eventDate": "02-10-2025",
+    "lastUpdated": "2025-10-04T07:09:09.624+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bde6564",
+     "name": "Mortgage Matchup Center",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mortgage-matchup-center-phoenix-az-usa-1bde6564.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something",
+         "tape": true,
+         "info": "After the credits rolled, this played as an “After Show” song. I have a video with the song playing."
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/mortgage-matchup-center-phoenix-az-6b5b06c6.html"
+   },
+   {
+    "id": "635b06c7",
+    "versionId": "g378f1df",
+    "eventDate": "30-09-2025",
+    "lastUpdated": "2025-10-01T09:02:16.006+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "2bd7b826",
+     "name": "Maverik Center",
+     "city": {
+      "id": "5784607",
+      "name": "West Valley City",
+      "state": "Utah",
+      "stateCode": "UT",
+      "coords": {
+       "lat": 40.692,
+       "long": -112.001
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/maverik-center-west-valley-city-ut-usa-2bd7b826.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/maverik-center-west-valley-city-ut-635b06c7.html"
+   },
+   {
+    "id": "6b5b06c2",
+    "versionId": "g237890c3",
+    "eventDate": "29-09-2025",
+    "lastUpdated": "2025-09-30T05:56:13.215+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bd0bfb2",
+     "name": "Ball Arena",
+     "city": {
+      "id": "5419384",
+      "name": "Denver",
+      "state": "Colorado",
+      "stateCode": "CO",
+      "coords": {
+       "lat": 39.7391536,
+       "long": -104.9847034
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ball-arena-denver-co-usa-4bd0bfb2.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a member of the crowd"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/ball-arena-denver-co-6b5b06c2.html"
+   },
+   {
+    "id": "6b5b06ce",
+    "versionId": "g3378a8f1",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2025-09-29T17:26:45.378+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "43d61fa3",
+     "name": "American Airlines Center",
+     "city": {
+      "id": "4684888",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.7830556,
+       "long": -96.8066667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/american-airlines-center-dallas-tx-usa-43d61fa3.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan dressed as Hatsune Miku"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/american-airlines-center-dallas-tx-6b5b06ce.html"
+   },
+   {
+    "id": "635b06cf",
+    "versionId": "gb78a1da",
+    "eventDate": "26-09-2025",
+    "lastUpdated": "2025-09-29T21:19:24.344+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bd61fc6",
+     "name": "Toyota Center",
+     "city": {
+      "id": "4699066",
+      "name": "Houston",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 29.7632836,
+       "long": -95.3632715
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/toyota-center-houston-tx-usa-4bd61fc6.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with audience member Ky"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/toyota-center-houston-tx-635b06cf.html"
+   },
+   {
+    "id": "735b06c9",
+    "versionId": "g737bcaa9",
+    "eventDate": "24-09-2025",
+    "lastUpdated": "2025-09-25T04:23:51.637+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d20e81",
+     "name": "State Farm Arena",
+     "city": {
+      "id": "4180439",
+      "name": "Atlanta",
+      "state": "Georgia",
+      "stateCode": "GA",
+      "coords": {
+       "lat": 33.7489954,
+       "long": -84.3879824
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/state-farm-arena-atlanta-ga-usa-73d20e81.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/state-farm-arena-atlanta-ga-735b06c9.html"
+   },
+   {
+    "id": "6b5b06d6",
+    "versionId": "g3378f8c5",
+    "eventDate": "23-09-2025",
+    "lastUpdated": "2025-10-01T02:35:42.258+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "33de9cd9",
+     "name": "Lenovo Center",
+     "city": {
+      "id": "4487042",
+      "name": "Raleigh",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.772096,
+       "long": -78.6386145
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/lenovo-center-raleigh-nc-usa-33de9cd9.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Resident Evil Title Screen Intro",
+         "tape": true
+        },
+        {
+         "name": "E.V.E. Intro",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Project Angeldust Interlude",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "Project Kingslayer version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan avoided security to assist poorly with vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It",
+         "info": "Live debut"
+        },
+        {
+         "name": "E.V.E. Interlude",
+         "tape": true,
+         "info": "Deploys Mobile Soul Purification Module also known as Oli"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/lenovo-center-raleigh-nc-6b5b06d6.html"
+   },
+   {
+    "id": "735b3e89",
+    "versionId": "g737bfeb1",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T10:36:19.854+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Resident Evil Title Screen Intro",
+         "tape": true
+        },
+        {
+         "name": "E.V.E. Intro",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Project Angeldust Interlude",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "a bulleT w/ my namE On",
+         "info": "Live debut",
+         "with": {
+          "mbid": "0f0ad748-667e-487e-b3b0-008e040dc1cd",
+          "name": "Spencer Chamberlain",
+          "sortName": "Chamberlain, Spencer",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spencer-chamberlain-53d6f785.html"
+         }
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "\"Project Kingslayer\" version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan brought up on stage to assist with vocals"
+        },
+        {
+         "name": "Follow You",
+         "info": "Acoustic"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "E.V.E. Interlude",
+         "tape": true,
+         "info": "Deploys Mobile Soul Purification Module also known as Oli"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-735b3e89.html"
+   },
+   {
+    "id": "335fccd1",
+    "versionId": "g737a8a6d",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-09-15T13:34:27.049+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Resident Evil Title Screen Intro",
+         "tape": true,
+         "info": "Cut scenes of each band member in game"
+        },
+        {
+         "name": "E.V.E. Intro",
+         "tape": true,
+         "info": "End of Nex Gen Research Program Intro"
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Project Angeldust Interlude",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "M8/Selene Interlude",
+         "tape": true,
+         "info": "M8 Uploads the Virus"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "\"Project Kingslayer\" version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true,
+         "info": "Songstar Application Jukebox selection whilst a fan is picked to come on Stage"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan Marleen on Stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "E.V.E. Interlude",
+         "tape": true,
+         "info": "Deploys Mobile Soul Purification Module also known as Oli"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Leeds Festival 2025 Sunday Headliner. The last UK show of the Post Human - Nex Gen Campaign",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/bramham-park-bramham-england-335fccd1.html"
+   },
+   {
+    "id": "2b5fccd2",
+    "versionId": "g537c07ad",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-09-02T21:42:59.424+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "Project Kingslayer Version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with fan Lily"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/little-johns-farm-reading-england-2b5fccd2.html"
+   },
+   {
+    "id": "351a14b",
+    "versionId": "g31c85b3",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-05-12T14:45:51.600+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid",
+         "info": "Riser Screens unveiled"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Itch For The Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan Gunther"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/utopia-stage-nuremberg-germany-351a14b.html"
+   },
+   {
+    "id": "6b51a61a",
+    "versionId": "gb1c85b6",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-05-12T14:46:40.811+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid",
+         "info": "Riser screens unveiled"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with fan Christina"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown",
+         "info": "Oli with fans in front row"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/utopia-stage-nurburg-germany-6b51a61a.html"
+   },
+   {
+    "id": "4347a727",
+    "versionId": "g4b4847a2",
+    "eventDate": "04-06-2025",
+    "lastUpdated": "2025-06-06T16:01:16.449+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bd6359c",
+     "name": "Palladium",
+     "city": {
+      "id": "2886242",
+      "name": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "stateCode": "07",
+      "coords": {
+       "lat": 50.9333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palladium-cologne-germany-1bd6359c.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         },
+         "info": "Live debut"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan on stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/palladium-cologne-germany-4347a727.html"
+   },
+   {
+    "id": "1b57a5a4",
+    "versionId": "gb1c85aa",
+    "eventDate": "14-12-2024",
+    "lastUpdated": "2026-05-12T14:47:19.337+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bd7d1e0",
+     "name": "Explanada del Estadio Azteca",
+     "city": {
+      "id": "3530597",
+      "name": "Mexico City",
+      "state": "Distrito Federal",
+      "stateCode": "DIF",
+      "coords": {
+       "lat": 19.434,
+       "long": -99.139
+      },
+      "country": {
+       "code": "MX",
+       "name": "Mexico"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/explanada-del-estadio-azteca-mexico-city-mexico-1bd7d1e0.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] (spi)ritual"
+        },
+        {
+         "name": "n/A"
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer",
+         "info": "The band played with luchador masks"
+        },
+        {
+         "name": "Ergen Deda",
+         "tape": true,
+         "info": "Bulgarian Voices Angelite song"
+        },
+        {
+         "name": "Parasite Eve"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true,
+         "info": "Snippets; Scream Star Application jukebox song selection"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Santa Claus on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT",
+         "info": "Dedicated to Thrown"
+        },
+        {
+         "name": "Can You Feel My Heart",
+         "info": "Dedicated to The Plot In You"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true,
+         "info": "with EVE intro and early career video package"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown",
+         "info": "Dedicated to Polaris"
+        },
+        {
+         "name": "Throne",
+         "info": "Dedicated to Spiritbox"
+        },
+        {
+         "name": "Driving Home for Christmas",
+         "tape": true,
+         "cover": {
+          "mbid": "c707b37e-cb5c-4694-be4d-46beefcb2475",
+          "name": "Chris Rea",
+          "sortName": "Rea, Chris",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/chris-rea-33d6b495.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Soundcheck: DArkSide",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2024/explanada-del-estadio-azteca-mexico-city-mexico-1b57a5a4.html"
+   },
+   {
+    "id": "2357acbf",
+    "versionId": "g1b1c85a0",
+    "eventDate": "11-12-2024",
+    "lastUpdated": "2026-05-12T14:48:14.995+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "63d2066b",
+     "name": "Movistar Arena",
+     "city": {
+      "id": "3688689",
+      "name": "Bogota",
+      "state": "Bogota D.C.",
+      "stateCode": "34",
+      "coords": {
+       "lat": 4.6,
+       "long": -74.083
+      },
+      "country": {
+       "code": "CO",
+       "name": "Colombia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/movistar-arena-bogota-colombia-63d2066b.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "PROJECT",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Lesser Banishing Ritual of the Pentagram",
+         "tape": true
+        },
+        {
+         "name": "[ost] (spi)ritual"
+        },
+        {
+         "name": "n/A"
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Rebellion's Cyber Attack",
+         "tape": true
+        },
+        {
+         "name": "Itch For The Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Parasite Eve"
+        },
+        {
+         "name": "Scream Star Application",
+         "tape": true
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan singing on stage"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Extinction Sequence",
+         "tape": true
+        },
+        {
+         "name": "Avalanche",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Soundcheck: Doomed",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2024/movistar-arena-bogota-colombia-2357acbf.html"
+   },
+   {
+    "id": "3b57acb8",
+    "versionId": "g1b1c85a4",
+    "eventDate": "08-12-2024",
+    "lastUpdated": "2026-05-12T14:48:50.332+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "33d3d86d",
+     "name": "Movistar Arena",
+     "city": {
+      "id": "3435910",
+      "name": "Buenos Aires",
+      "state": "Autonomous City of Buenos Aires",
+      "stateCode": "07",
+      "coords": {
+       "lat": -34.576,
+       "long": -58.409
+      },
+      "country": {
+       "code": "AR",
+       "name": "Argentina"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/movistar-arena-buenos-aires-argentina-33d3d86d.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        }
+       ]
+      },
+      {
+       "name": "",
+       "song": [
+        {
+         "name": "NEX GEN Research Program Introduction",
+         "tape": true,
+         "info": "video interlude introducing E.V.E"
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!",
+         "info": "extended intro"
+        },
+        {
+         "name": "PROJECT",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Lesser Banishing Ritual of the Pentagram",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "[ost] (spi)ritual"
+        },
+        {
+         "name": "n/A"
+        },
+        {
+         "name": "Sleepwalking",
+         "info": "extended piano intro"
+        },
+        {
+         "name": "Rebellion's Cyber Attack",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Parasite Eve",
+         "info": "extended Intro"
+        },
+        {
+         "name": "Scream Star Application",
+         "tape": true,
+         "info": "video interlude - Oliver chooses a volunteer to sing a song on stage"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true,
+         "info": "Scream Star Application jukebox song selection"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan singing on stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart",
+         "info": "extended Intro"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true,
+         "info": "with EVE intro and career video package"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "9000-X Quantum Edition Pro Max Lite Special U2 Red Version",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Extinction Sequence",
+         "tape": true,
+         "info": "video outro"
+        },
+        {
+         "name": "Avalanche",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2024/movistar-arena-buenos-aires-argentina-3b57acb8.html"
+   },
+   {
+    "id": "2b57acba",
+    "versionId": "g631cdea7",
+    "eventDate": "02-12-2024",
+    "lastUpdated": "2026-05-13T15:01:38.622+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d62229",
+     "name": "Movistar Arena",
+     "city": {
+      "id": "3871336",
+      "name": "Santiago",
+      "state": "Región Metropolitana",
+      "stateCode": "12",
+      "coords": {
+       "lat": -33.426,
+       "long": -70.567
+      },
+      "country": {
+       "code": "CL",
+       "name": "Chile"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/movistar-arena-santiago-chile-73d62229.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "NEX GEN Research Program Introduction",
+         "tape": true,
+         "info": "video interlude introducing E.V.E"
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!",
+         "info": "extended intro"
+        },
+        {
+         "name": "PROJECT @NGELDU$T",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Kool-Aid",
+         "info": "no outro"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Lesser Banishing Ritual of the Pentagram",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "[ost] (spi)ritual"
+        },
+        {
+         "name": "n/A"
+        },
+        {
+         "name": "Sleepwalking",
+         "info": "extended piano intro"
+        },
+        {
+         "name": "Rebellion's Cyber Attack",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Parasite Eve",
+         "info": "extended Intro"
+        },
+        {
+         "name": "Scream Star Application",
+         "tape": true,
+         "info": "video interlude - Oliver chooses a volunteer to sing a song on stage"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true,
+         "info": "Scream Star Application jukebox song selection"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan singing on stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true,
+         "info": "with EVE intro and career video package"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "9000-X Quantum Edition Pro Max Lite Special U2 Red Version",
+         "tape": true,
+         "info": "video interlude"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Extinction Sequence",
+         "tape": true,
+         "info": "video outro"
+        },
+        {
+         "name": "Avalanche",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2024/movistar-arena-santiago-chile-2b57acba.html"
+   },
+   {
+    "id": "3a8091f",
+    "versionId": "g4b1d97ba",
+    "eventDate": "30-11-2024",
+    "lastUpdated": "2026-05-19T19:24:58.787+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bd41616",
+     "name": "Allianz Parque",
+     "city": {
+      "id": "3448439",
+      "name": "São Paulo",
+      "state": "São Paulo",
+      "stateCode": "SP",
+      "coords": {
+       "lat": -23.5475,
+       "long": -46.63611111
+      },
+      "country": {
+       "code": "BR",
+       "name": "Brazil"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allianz-parque-sao-paulo-brazil-6bd41616.html"
+    },
+    "tour": {
+     "name": "NX_GN WRLD TOUR"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!",
+         "info": "Extended Intro"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] (spi)ritual",
+         "info": "live debut"
+        },
+        {
+         "name": "n/A"
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Parasite Eve"
+        },
+        {
+         "name": "Antivist",
+         "info": "also with Di Ferrero of NX Zero, song not included in the album",
+         "with": {
+          "mbid": "8ff3632c-5fe1-49f4-aa2a-483a6b4236c0",
+          "name": "Mc Lan",
+          "sortName": "Mc Lan",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/mc-lan-33c13499.html"
+         }
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true,
+         "info": "with EVE intro and early career video package"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown",
+         "info": "dedicated to Pedro Miranda, a Brazilian fan who recently passed away"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Concert was filmed for the album \"L.I.V.E. In São Paulo (Live Immersive Visual Experiment)\" Released on April 10th, 2026, and filmed to be shown in cinemas in March 25th. Biggest BMTH headlining show with 50,000 people",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2024/allianz-parque-sao-paulo-brazil-3a8091f.html"
+   }
+  ]
+ }
+}

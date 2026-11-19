@@ -1,0 +1,2331 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 2,
+  "total": 1549,
+  "setlist": [
+   {
+    "id": "1b4f3d78",
+    "versionId": "g1319a9a5",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-19T04:36:21.727+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "(With a snippet of \"Pray for Plagues\" during the breakdown)"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "disguised as a fan",
+         "with": {
+          "mbid": "83678db8-18e5-4cc8-a5c9-639cb22ad72a",
+          "name": "Will Ramos",
+          "sortName": "Ramos, Will",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/will-ramos-4bf227ba.html"
+         }
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/mainstage-01-clisson-france-1b4f3d78.html"
+   },
+   {
+    "id": "4341f3e3",
+    "versionId": "g2b18349a",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-14T23:52:10.757+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan on vocals called Vlad"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne",
+         "info": "dedicated to Oliver Tree who died in helicopter crash earlier that day"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/blue-stage-nickelsdorf-austria-4341f3e3.html"
+   },
+   {
+    "id": "5b41e790",
+    "versionId": "g5b18cb00",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-14T11:52:08.721+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With Pray for Plagues snippet"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan on vocals called Elis"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/park-360-hradec-kralove-czechia-5b41e790.html"
+   },
+   {
+    "id": "634ed693",
+    "versionId": "g6319cac7",
+    "eventDate": "09-06-2026",
+    "lastUpdated": "2026-06-21T21:49:48.160+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d1c249",
+     "name": "TAURON Arena Kraków",
+     "city": {
+      "id": "3094802",
+      "name": "Kraków",
+      "state": "Lesser Poland Voivodeship",
+      "stateCode": "77",
+      "coords": {
+       "lat": 50.0833333,
+       "long": 19.9166667
+      },
+      "country": {
+       "code": "PL",
+       "name": "Poland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tauron-arena-krakow-krakow-poland-73d1c249.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Stefan, a fan on the vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "DEHUMANIZED - Teaser",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/tauron-arena-krakow-krakow-poland-634ed693.html"
+   },
+   {
+    "id": "34895b7",
+    "versionId": "g4b1b47e2",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-10T12:44:29.012+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "bdfa9be",
+     "name": "Festival Stage",
+     "city": {
+      "id": "2689246",
+      "name": "Norje",
+      "state": "Blekinge County",
+      "stateCode": "02",
+      "coords": {
+       "lat": 56.1166667,
+       "long": 14.6666667
+      },
+      "country": {
+       "code": "SE",
+       "name": "Sweden"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festival-stage-norje-sweden-bdfa9be.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With Helena, a fan on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/festival-stage-norje-sweden-34895b7.html"
+   },
+   {
+    "id": "b4149e2",
+    "versionId": "g531d8b49",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-20T06:02:36.449+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Jacob, a fan on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed",
+         "info": "live debut with Maphra",
+         "with": {
+          "mbid": "af8dfee1-9375-4017-832e-4e25f0d28942",
+          "name": "Maphra",
+          "sortName": "Maphra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/maphra-1b9bb528.html"
+         }
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/temple-stage-columbus-oh-b4149e2.html"
+   },
+   {
+    "id": "1b4149f4",
+    "versionId": "g7b1c7698",
+    "eventDate": "15-05-2026",
+    "lastUpdated": "2026-05-16T17:19:15.192+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d6ca11",
+     "name": "Allstate Arena",
+     "city": {
+      "id": "4908179",
+      "name": "Rosemont",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.9953077,
+       "long": -87.8845092
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allstate-arena-rosemont-il-usa-73d6ca11.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Morgan (a fan) on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/allstate-arena-rosemont-il-1b4149f4.html"
+   },
+   {
+    "id": "341491f",
+    "versionId": "g2b1c3c3e",
+    "eventDate": "13-05-2026",
+    "lastUpdated": "2026-05-14T13:26:24.113+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3de154b",
+     "name": "Grand Casino Arena",
+     "city": {
+      "id": "5045360",
+      "name": "St. Paul",
+      "state": "Minnesota",
+      "stateCode": "MN",
+      "coords": {
+       "lat": 44.944,
+       "long": -93.093
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/grand-casino-arena-st-paul-mn-usa-3de154b.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/grand-casino-arena-st-paul-mn-341491f.html"
+   },
+   {
+    "id": "33499c55",
+    "versionId": "gb1cd972",
+    "eventDate": "12-05-2026",
+    "lastUpdated": "2026-05-13T15:14:01.792+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bd37286",
+     "name": "T-Mobile Center",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-center-kansas-city-mo-usa-6bd37286.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/t-mobile-center-kansas-city-mo-33499c55.html"
+   },
+   {
+    "id": "1b414974",
+    "versionId": "g6b1cf272",
+    "eventDate": "11-05-2026",
+    "lastUpdated": "2026-05-13T05:36:05.164+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bd2c342",
+     "name": "Enterprise Center",
+     "city": {
+      "id": "4407066",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 38.6272733,
+       "long": -90.1978889
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/enterprise-center-st-louis-mo-usa-4bd2c342.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song",
+         "info": "during this song, Sykes was hit by a phone that was thrown by a fan"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With \"Pray For Plagues\" tease during breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Touring Rythum Guitarist John Jones was absent from this show due to medical reasons. Oli did not come into the crowd during \"Drown\", likely due to Oli being hit in the head with a smartphone thrown by an audience member at the end of \"Happy Song\".",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/enterprise-center-st-louis-mo-1b414974.html"
+   },
+   {
+    "id": "134149fd",
+    "versionId": "g2306a477",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-06-27T01:22:04.311+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Marshalling Yard (The Second Half)",
+         "tape": true,
+         "info": "Resident Evil 2 score"
+        },
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide",
+         "info": "starts with confetti; extended bridge"
+        },
+        {
+         "name": "The House of Wolves",
+         "info": "extended intro riff; extended breakdown"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song",
+         "info": "extended bridge with wall of death"
+        },
+        {
+         "name": "Teardrops",
+         "info": "extended breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a banana man named Danek on vocals"
+        },
+        {
+         "name": "Follow You",
+         "info": "Oli asks for girls to get up on shoulders"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne",
+         "info": "Oli asks for everyone to sit down and jump up during bridge; ends with confetti and streamers"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/apex-stage-daytona-beach-fl-134149fd.html"
+   },
+   {
+    "id": "13414915",
+    "versionId": "g331f7451",
+    "eventDate": "07-05-2026",
+    "lastUpdated": "2026-05-09T00:20:46.311+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "23d6746f",
+     "name": "Bridgestone Arena",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bridgestone-arena-nashville-tn-usa-23d6746f.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan - Jessica (dressed as Captain Jack Sparrow) - on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/bridgestone-arena-nashville-tn-13414915.html"
+   },
+   {
+    "id": "13414919",
+    "versionId": "g131fd129",
+    "eventDate": "05-05-2026",
+    "lastUpdated": "2026-05-06T10:10:44.549+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d51671",
+     "name": "PPG Paints Arena",
+     "city": {
+      "id": "5206379",
+      "name": "Pittsburgh",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 40.4406248,
+       "long": -79.9958864
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ppg-paints-arena-pittsburgh-pa-usa-73d51671.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan Scotty"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart",
+         "info": "Dedicated to Amira Elfeky, The Plot In You and Motionless In White"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/ppg-paints-arena-pittsburgh-pa-13414919.html"
+   },
+   {
+    "id": "1b414920",
+    "versionId": "g331fe859",
+    "eventDate": "04-05-2026",
+    "lastUpdated": "2026-05-05T15:44:35.555+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3bd1a4bc",
+     "name": "CFG Bank Arena",
+     "city": {
+      "id": "4347778",
+      "name": "Baltimore",
+      "state": "Maryland",
+      "stateCode": "MD",
+      "coords": {
+       "lat": 39.2903848,
+       "long": -76.6121893
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/cfg-bank-arena-baltimore-md-usa-3bd1a4bc.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan, Owen of Glasswaves, on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/cfg-bank-arena-baltimore-md-1b414920.html"
+   },
+   {
+    "id": "341492f",
+    "versionId": "g131f8d05",
+    "eventDate": "02-05-2026",
+    "lastUpdated": "2026-05-04T10:08:20.251+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT",
+         "info": "Dedicated to Amira Elfeky, The Plot In You and Motionless In White"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true,
+         "info": "with Pray for Plagues tease"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/madison-square-garden-new-york-ny-341492f.html"
+   },
+   {
+    "id": "13414935",
+    "versionId": "g7b1e5218",
+    "eventDate": "01-05-2026",
+    "lastUpdated": "2026-05-02T11:51:17.895+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "13d63961",
+     "name": "DCU Center",
+     "city": {
+      "id": "4956184",
+      "name": "Worcester",
+      "state": "Massachusetts",
+      "stateCode": "MA",
+      "coords": {
+       "lat": 42.2625932,
+       "long": -71.8022934
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/dcu-center-worcester-ma-usa-13d63961.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan named Kyle"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown",
+         "info": "With Oli in the crowd"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/dcu-center-worcester-ma-13414935.html"
+   },
+   {
+    "id": "1b41493c",
+    "versionId": "g631fbaa7",
+    "eventDate": "29-04-2026",
+    "lastUpdated": "2026-05-03T04:43:11.306+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bd6d222",
+     "name": "Centre Bell",
+     "city": {
+      "id": "6077243",
+      "name": "Montreal",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 45.5088375,
+       "long": -73.587809
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/centre-bell-montreal-qc-canada-6bd6d222.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "EVE Intro / Diagnostics",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Scream Star Song Clips Medley",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "with fan Setara on vocals, for her 27th birthday"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true,
+         "info": "with EVE intro and early career video package"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown",
+         "info": "Oli singing at the barricade"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/centre-bell-montreal-qc-canada-1b41493c.html"
+   },
+   {
+    "id": "341493b",
+    "versionId": "g4b1e3706",
+    "eventDate": "28-04-2026",
+    "lastUpdated": "2026-04-29T21:26:24.369+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "2bd230ca",
+     "name": "Scotiabank Arena",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/scotiabank-arena-toronto-on-canada-2bd230ca.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "EVE Intro / Diagnostics",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Project: Angeldust Containment Breach",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Scream Star Song Clips Medley",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "w/ fan singing. Wall of Death"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "Doomed Tape",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/scotiabank-arena-toronto-on-canada-341493b.html"
+   },
+   {
+    "id": "334e24bd",
+    "versionId": "g31eb11b",
+    "eventDate": "25-04-2026",
+    "lastUpdated": "2026-04-26T18:06:50.359+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "7bdf8eac",
+     "name": "Purple Stage",
+     "city": {
+      "id": "5506956",
+      "name": "Las Vegas",
+      "state": "Nevada",
+      "stateCode": "NV",
+      "coords": {
+       "lat": 36.1749705,
+       "long": -115.137223
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/purple-stage-las-vegas-nv-usa-7bdf8eac.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/purple-stage-las-vegas-nv-334e24bd.html"
+   },
+   {
+    "id": "2b499c1a",
+    "versionId": "g331ea83d",
+    "eventDate": "23-04-2026",
+    "lastUpdated": "2026-04-26T23:22:01.138+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d63a75",
+     "name": "Hollywood Palladium",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-palladium-los-angeles-ca-usa-73d63a75.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia",
+         "info": "Live debut"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Sung by Shane, fan from crowd"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/hollywood-palladium-los-angeles-ca-2b499c1a.html"
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "status": 404,
+ "body": {
+  "code": 404,
+  "status": "Not Found",
+  "message": "not found",
+  "timestamp": "2026-11-19T13:13:52.774+0000"
+ }
+}

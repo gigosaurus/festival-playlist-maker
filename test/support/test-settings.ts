@@ -1,4 +1,4 @@
-import type { Settings } from "../../src/settings.ts";
+import { defaultPredictionSettings, type Settings } from "../../src/settings.ts";
 import type { RecordedResponse } from "./fake-http-client.ts";
 
 export const adminSpotifyUserId = "festival-admin";
@@ -11,6 +11,8 @@ export function testSettings(origin = "http://localhost:3100"): Settings {
     clashfinderUsername: "test-clashfinder-user",
     clashfinderPrivateKey: "test-clashfinder-private-key",
     musicbrainzContact: "admin@festival-playlist-maker.test",
+    setlistFmApiKey: "test-setlist-fm-key",
+    prediction: defaultPredictionSettings,
   };
 }
 

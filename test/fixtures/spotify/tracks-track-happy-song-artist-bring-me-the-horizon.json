@@ -1,0 +1,407 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Happy%20Song%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/7FqHuAvmREiIwVXVpZ9ooP"
+     },
+     "href": "https://api.spotify.com/v1/albums/7FqHuAvmREiIwVXVpZ9ooP",
+     "id": "7FqHuAvmREiIwVXVpZ9ooP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27390b88187a9831d91f2438927"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0290b88187a9831d91f2438927"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485190b88187a9831d91f2438927"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:7FqHuAvmREiIwVXVpZ9ooP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 239386,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1500769"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1yYE8EyuIV0rrvQ1bA2Fyf"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1yYE8EyuIV0rrvQ1bA2Fyf",
+    "id": "1yYE8EyuIV0rrvQ1bA2Fyf",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Happy Song",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:1yYE8EyuIV0rrvQ1bA2Fyf"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 310392,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502074"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4jASA6yE1A3BkD3TVF1NDk"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4jASA6yE1A3BkD3TVF1NDk",
+    "id": "4jASA6yE1A3BkD3TVF1NDk",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Happy Song - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:4jASA6yE1A3BkD3TVF1NDk"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/68Cbfwe31Sb4uKnr47tMxs"
+     },
+     "href": "https://api.spotify.com/v1/albums/68Cbfwe31Sb4uKnr47tMxs",
+     "id": "68Cbfwe31Sb4uKnr47tMxs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273623c53df279a93750e77fd84"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02623c53df279a93750e77fd84"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851623c53df279a93750e77fd84"
+      }
+     ],
+     "is_playable": true,
+     "name": "Alt Metal",
+     "release_date": "2026-05-22",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:68Cbfwe31Sb4uKnr47tMxs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/6Ad91Jof8Niiw0lGLLi3NW"
+      },
+      "href": "https://api.spotify.com/v1/artists/6Ad91Jof8Niiw0lGLLi3NW",
+      "id": "6Ad91Jof8Niiw0lGLLi3NW",
+      "name": "YUNGBLUD",
+      "type": "artist",
+      "uri": "spotify:artist:6Ad91Jof8Niiw0lGLLi3NW"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1UXEXWWOTTZNlyFapwHDbW"
+      },
+      "href": "https://api.spotify.com/v1/artists/1UXEXWWOTTZNlyFapwHDbW",
+      "id": "1UXEXWWOTTZNlyFapwHDbW",
+      "name": "Oli Sykes",
+      "type": "artist",
+      "uri": "spotify:artist:1UXEXWWOTTZNlyFapwHDbW"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 204458,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USUG12308057"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3acx1ihmDb8c9EnMF8k6HJ"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3acx1ihmDb8c9EnMF8k6HJ",
+    "id": "3acx1ihmDb8c9EnMF8k6HJ",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Happier",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:3acx1ihmDb8c9EnMF8k6HJ"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/49dRYUEg8iPbeKAYQKp1eA"
+     },
+     "href": "https://api.spotify.com/v1/albums/49dRYUEg8iPbeKAYQKp1eA",
+     "id": "49dRYUEg8iPbeKAYQKp1eA",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851090bb2b1e24029de9da3c02b"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:49dRYUEg8iPbeKAYQKp1eA"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 239997,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500976"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0zZYvNpoF1jFkRfUcXpNFl"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0zZYvNpoF1jFkRfUcXpNFl",
+    "id": "0zZYvNpoF1jFkRfUcXpNFl",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Happy Song",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:0zZYvNpoF1jFkRfUcXpNFl"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 282506,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001559"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0ChMOU9Q1J0kQVCiFYIBQR"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0ChMOU9Q1J0kQVCiFYIBQR",
+    "id": "0ChMOU9Q1J0kQVCiFYIBQR",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Happy Song - Live at the Royal Albert Hall",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:0ChMOU9Q1J0kQVCiFYIBQR"
+   }
+  ]
+ }
+}

@@ -10,4 +10,5 @@ Spotify removed artist top tracks and track popularity for Development Mode apps
 ## Consequences
 
 - Each song needs a Spotify search request, so the application makes more Spotify requests than with top tracks.
+- The setlist.fm API key permits a maximum of 2 requests each second and 1,440 requests each day. A calculation sends 1 to 10 requests for each artist, so a lineup of 150 artists can need more than one day. When the application reaches 1,440 requests in 24 hours, the calculation waits.
 - The setlist.fm terms permit only non-commercial use, require an attribution link and do not permit storage of setlist data beyond short-term caching.

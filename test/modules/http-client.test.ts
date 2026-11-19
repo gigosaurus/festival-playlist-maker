@@ -5,6 +5,9 @@ import {
   clashfinderCrawlDelay,
   clashfinderRequestLimit,
   RequestLimitError,
+  setlistFmLimitWait,
+  setlistFmRequestDelay,
+  setlistFmRequestLimit,
   spotifyLongestWait,
   spotifyRequestDelay,
   SpotifyQuotaError,
@@ -210,4 +213,70 @@ test("the HTTP client does not pace the Spotify log in requests", async () => {
   await client.send(new Request("https://accounts.spotify.com/api/token", { method: "POST" }));
 
   assert.deepEqual(clock.sleeps, []);
+});
+
+const setlists = "https://api.setlist.fm/rest/1.0/artist/074e3847-f67f-49f9-81f1-8c8cea147e8e/setlists?p=1";
+
+test("the HTTP client sends the setlist.fm API key and asks for JSON", async () => {
+  const { transport, client } = setUp();
+  const headers: Headers[] = [];
+  transport.send = async (request) => {
+    headers.push(request.headers);
+    return new Response("{}");
+  };
+
+  await client.send(new Request(setlists));
+  await client.send(new Request("https://musicbrainz.org/ws/2/artist?query=Gojira"));
+
+  assert.equal(headers[0]!.get("x-api-key"), "test-setlist-fm-key");
+  assert.equal(headers[0]!.get("accept"), "application/json");
+  assert.equal(headers[1]!.get("x-api-key"), null, "Other services do not get the setlist.fm API key");
+});
+
+test("the HTTP client waits for the pause between setlist.fm requests", async () => {
+  const { transport, clock, client } = setUp();
+  respondToAll(transport);
+
+  await client.send(new Request(setlists));
+  await client.send(new Request(setlists));
+
+  assert.deepEqual(clock.sleeps, [setlistFmRequestDelay]);
+});
+
+test("the HTTP client refuses a setlist.fm request above the limit of 1,440 requests in 24 hours", async () => {
+  const { transport, clock, client } = setUp();
+  respondToAll(transport);
+  for (let index = 0; index < setlistFmRequestLimit.requests; index++) {
+    await client.send(new Request(setlists));
+  }
+
+  await assert.rejects(client.send(new Request(setlists)), (error) => {
+    assert.ok(error instanceof RequestLimitError);
+    assert.match(error.message, /maximum of 1,440 requests to setlist\.fm in 24 hours\. Try again in 24 hours\./);
+    return true;
+  });
+  assert.equal(transport.requests.length, 1_440, "The refused request is not sent");
+
+  clock.advance(24 * 60 * 60_000);
+  await client.send(new Request(setlists));
+  assert.equal(transport.requests.length, 1_441);
+});
+
+test("after status 429 from setlist.fm, the HTTP client gives the time of the next possible request", async () => {
+  const { transport, clock, client } = setUp();
+  transport.respondTo("GET", setlists, { status: 429, body: "{}" });
+  const start = clock.now().getTime();
+
+  await assert.rejects(client.send(new Request(setlists)), (error) => {
+    assert.ok(error instanceof RequestLimitError);
+    assert.equal(error.retryAt.getTime(), start + setlistFmLimitWait, "Without Retry-After, the wait is the default wait");
+    return true;
+  });
+
+  transport.respondTo("GET", setlists, { status: 429, headers: { "retry-after": "5" }, body: "{}" });
+  await assert.rejects(client.send(new Request(setlists)), (error) => {
+    assert.ok(error instanceof RequestLimitError);
+    assert.equal(error.retryAt.getTime(), clock.now().getTime() + 5_000);
+    return true;
+  });
 });

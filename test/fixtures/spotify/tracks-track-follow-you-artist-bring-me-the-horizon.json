@@ -1,0 +1,312 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Follow%20You%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 4,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/7FqHuAvmREiIwVXVpZ9ooP"
+     },
+     "href": "https://api.spotify.com/v1/albums/7FqHuAvmREiIwVXVpZ9ooP",
+     "id": "7FqHuAvmREiIwVXVpZ9ooP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27390b88187a9831d91f2438927"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0290b88187a9831d91f2438927"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485190b88187a9831d91f2438927"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:7FqHuAvmREiIwVXVpZ9ooP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 231106,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500772"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6lFUdRItQEsEuD7dSINL47"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6lFUdRItQEsEuD7dSINL47",
+    "id": "6lFUdRItQEsEuD7dSINL47",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Follow You",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:6lFUdRItQEsEuD7dSINL47"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/49dRYUEg8iPbeKAYQKp1eA"
+     },
+     "href": "https://api.spotify.com/v1/albums/49dRYUEg8iPbeKAYQKp1eA",
+     "id": "49dRYUEg8iPbeKAYQKp1eA",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851090bb2b1e24029de9da3c02b"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:49dRYUEg8iPbeKAYQKp1eA"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 231106,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500772"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5EXdCRKd7mf5BRk1cgz2L2"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5EXdCRKd7mf5BRk1cgz2L2",
+    "id": "5EXdCRKd7mf5BRk1cgz2L2",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Follow You",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:5EXdCRKd7mf5BRk1cgz2L2"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 324085,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2502085"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2DqvEzx7VzxoDuBkJPTzED"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2DqvEzx7VzxoDuBkJPTzED",
+    "id": "2DqvEzx7VzxoDuBkJPTzED",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Follow You - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 16,
+    "type": "track",
+    "uri": "spotify:track:2DqvEzx7VzxoDuBkJPTzED"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 233520,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001568"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1nlN3WIoV8GuIU1V1DdaFb"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1nlN3WIoV8GuIU1V1DdaFb",
+    "id": "1nlN3WIoV8GuIU1V1DdaFb",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Follow You - Live at the Royal Albert Hall",
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:1nlN3WIoV8GuIU1V1DdaFb"
+   }
+  ]
+ }
+}

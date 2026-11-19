@@ -3,6 +3,7 @@ import { spotifyAuthoriseUrl, spotifyProfileUrl, spotifyTokenUrl } from "../../s
 import { listResponse, signedExportUrl, signedListUrl } from "../support/clashfinder.ts";
 import type { RecordedResponse } from "../support/fake-http-client.ts";
 import { musicbrainzSearchUrl, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
+import { respondWithRecordedSetlistFm } from "../support/setlist-fm.ts";
 import { respondWithRecordedSpotify } from "../support/spotify.ts";
 import {
   adminSpotifyUserId,
@@ -44,6 +45,11 @@ export interface MusicBrainz {
   willGiveSearch(text: string, response: RecordedResponse): Promise<void>;
 }
 
+export interface SetlistFm {
+  // Each recorded setlist page in test/fixtures/setlist-fm/.
+  willGiveRecordedSetlists(): Promise<void>;
+}
+
 export interface SpotifyAccount {
   id: string;
   displayName: string;
@@ -59,7 +65,7 @@ export interface Spotify {
   // Prepares the fake Spotify for the next log in.
   willLogIn(account: SpotifyAccount): Promise<void>;
   willRefuseNotOnAllowlist(): Promise<void>;
-  // An access token, and each recorded artist and search in test/fixtures/spotify/.
+  // An access token, and each recorded artist, search and track search in test/fixtures/spotify/.
   willGiveRecordedArtists(): Promise<void>;
   // The browser cannot open Spotify in the tests. The fake authorisation page
   // sends the browser back to the application immediately, as Spotify does.
@@ -84,6 +90,7 @@ export const test = base.extend<{
   logIn: (account?: SpotifyAccount) => Promise<void>;
   clashfinder: Clashfinder;
   musicBrainz: MusicBrainz;
+  setlistFm: SetlistFm;
   externalRedirects: ExternalRedirects;
   externalRequestGuard: void;
 }>({
@@ -117,6 +124,15 @@ export const test = base.extend<{
         await Promise.all(responses);
       },
       willGiveSearch: (text, response) => testServer.respondTo("GET", musicbrainzSearchUrl(text), response),
+    });
+  },
+  setlistFm: async ({ testServer }, use) => {
+    await use({
+      willGiveRecordedSetlists: async () => {
+        const responses: Promise<void>[] = [];
+        respondWithRecordedSetlistFm((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
+        await Promise.all(responses);
+      },
     });
   },
   spotify: async ({ testServer, externalRedirects }, use) => {
@@ -161,6 +177,11 @@ export const test = base.extend<{
         async (route) => {
           const url = new URL(route.request().url());
           if (url.protocol === "data:") return route.fallback();
+          // The Spotify embed player is a page in an iframe. The fake gives the track ID as the page text.
+          if (url.href.startsWith(spotifyEmbedPrefix)) {
+            const id = url.pathname.split("/").pop();
+            return route.fulfill({ contentType: "text/html", body: `<!doctype html><html lang="en"><title>Spotify player</title><p>Track ${id}</p></html>` });
+          }
           if (url.origin !== allowedOrigin) {
             blocked.push(url.href);
             return route.abort("blockedbyclient");
@@ -185,6 +206,8 @@ export const test = base.extend<{
     { auto: true },
   ],
 });
+
+const spotifyEmbedPrefix = "https://open.spotify.com/embed/track/";
 
 // The Spotify authorisation page sends the browser back to the redirect URI.
 function callback(authorisation: URL, answer: SpotifyAnswer): string {

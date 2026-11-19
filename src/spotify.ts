@@ -1,6 +1,6 @@
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
-import { RequestLimitError, spotifyApiOrigin, type HttpClient } from "./http-client.ts";
+import { RequestLimitError, SpotifyQuotaError, spotifyApiOrigin, type HttpClient } from "./http-client.ts";
 import { spotifyArtistAddressPattern } from "./musicbrainz.ts";
 import type { Settings } from "./settings.ts";
 import { spotifyTokenUrl } from "./spotify-log-in.ts";
@@ -21,13 +21,56 @@ export type SpotifyArtistResult =
 
 export type SpotifySearchResult = { outcome: "found"; artists: SpotifyArtist[] } | { outcome: "failed"; cause: string };
 
+export interface SpotifyTrack {
+  id: string;
+  name: string;
+  artistIds: string[];
+}
+
+// `retryAt` is set when a rate limit stopped the request. A quota error has no
+// `retryAt`, because Spotify does not tell when the quota is available again.
+export type SpotifyTrackSearchResult = { outcome: "found"; tracks: SpotifyTrack[] } | { outcome: "failed"; cause: string; retryAt?: Date };
+
 export interface Spotify {
   artist(id: string): Promise<SpotifyArtistResult>;
   searchArtists(name: string): Promise<SpotifySearchResult>;
+  // A track search with a Spotify search query, for example `track:"Throne" artist:"Bring Me The Horizon"`.
+  searchTracks(query: string): Promise<SpotifyTrackSearchResult>;
 }
 
 // The number of artists in a search result. Development Mode permits a maximum of 10.
 export const spotifySearchLimit = 5;
+
+// The number of tracks in a search result: the Development Mode maximum.
+export const spotifyTrackSearchLimit = 10;
+
+export function spotifyTrackSearchUrl(query: string): string {
+  const url = new URL(`${spotifyApiOrigin}/v1/search`);
+  url.searchParams.set("q", query);
+  url.searchParams.set("type", "track");
+  url.searchParams.set("limit", String(spotifyTrackSearchLimit));
+  return url.href;
+}
+
+// The search query for one song of an artist. A field filter cannot contain a double quotation mark.
+export function songQuery(song: string, artist: string): string {
+  return `track:"${song.replace(/"/g, " ")}" artist:"${artist.replace(/"/g, " ")}"`;
+}
+
+// The search query for the tracks of an artist: the Spotify search fallback (ADR-0002).
+export function artistTracksQuery(artist: string): string {
+  return `artist:"${artist.replace(/"/g, " ")}"`;
+}
+
+// The page of the track in Spotify.
+export function spotifyTrackAddress(id: string): string {
+  return `https://open.spotify.com/track/${encodeURIComponent(id)}`;
+}
+
+// The Spotify embed player for one track.
+export function spotifyTrackEmbedAddress(id: string): string {
+  return `https://open.spotify.com/embed/track/${encodeURIComponent(id)}`;
+}
 
 export function spotifyArtistUrl(id: string): string {
   return `${spotifyApiOrigin}/v1/artists/${encodeURIComponent(id)}`;
@@ -79,7 +122,8 @@ export function createSpotify(httpClient: HttpClient, database: Database, clock:
       try {
         response = await httpClient.send(new Request(url, { headers: { authorization: `Bearer ${token.value}` } }));
       } catch (error) {
-        if (error instanceof RequestLimitError) return new Failure(error.message);
+        if (error instanceof SpotifyQuotaError) return new Failure(error.message);
+        if (error instanceof RequestLimitError) return new Failure(error.message, error.retryAt);
         return new Failure(`The application could not connect to Spotify: ${error instanceof Error ? error.message : String(error)}`);
       }
       if (response.status === 401 && attempt === 1) {
@@ -149,7 +193,34 @@ export function createSpotify(httpClient: HttpClient, database: Database, clock:
       }
       return { outcome: "found", artists: items.flatMap((item) => readArtist(item) ?? []) };
     },
+
+    async searchTracks(query) {
+      const response = await get(spotifyTrackSearchUrl(query));
+      if (response instanceof Failure) {
+        return response.retryAt === undefined
+          ? { outcome: "failed", cause: response.cause }
+          : { outcome: "failed", cause: response.cause, retryAt: response.retryAt };
+      }
+      if (!response.ok) return { outcome: "failed", cause: await describe(response) };
+      const body = (await response.json().catch(() => undefined)) as { tracks?: { items?: unknown } } | undefined;
+      const items = body?.tracks?.items;
+      if (!Array.isArray(items)) {
+        return { outcome: "failed", cause: 'The Spotify response has no "tracks" list. The Spotify API possibly changed.' };
+      }
+      return { outcome: "found", tracks: items.flatMap((item) => readTrack(item) ?? []) };
+    },
   };
+}
+
+function readTrack(value: unknown): SpotifyTrack | undefined {
+  if (typeof value !== "object" || value === null) return undefined;
+  const { id, name, artists } = value as { id?: unknown; name?: unknown; artists?: unknown };
+  if (typeof id !== "string" || !spotifyIdPattern.test(id) || typeof name !== "string" || !Array.isArray(artists)) return undefined;
+  const artistIds = artists.flatMap((artist) => {
+    const artistId = typeof artist === "object" && artist !== null ? (artist as { id?: unknown }).id : undefined;
+    return typeof artistId === "string" ? [artistId] : [];
+  });
+  return { id, name, artistIds };
 }
 
 function readArtist(value: unknown): SpotifyArtist | undefined {
@@ -162,9 +233,12 @@ function readArtist(value: unknown): SpotifyArtist | undefined {
 // A failure before Spotify gave a usable response.
 class Failure {
   readonly cause: string;
+  // The time after which a new request is possible, after a rate limit.
+  readonly retryAt: Date | undefined;
 
-  constructor(cause: string) {
+  constructor(cause: string, retryAt?: Date) {
     this.cause = cause;
+    this.retryAt = retryAt;
   }
 }
 

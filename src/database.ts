@@ -105,6 +105,16 @@ const migrations: readonly string[] = [
     level TEXT NOT NULL CHECK (level IN ('not-interested', 'curious', 'keen', 'must-see')),
     PRIMARY KEY (user_id, lineup_name_id)
   ) STRICT`,
+  // The predicted songs of each MusicBrainz artist (#12). track_ids: the Spotify
+  // track IDs in order of score, as a JSON array. fallback is 1 when the tracks
+  // come from a Spotify search because the artist had no setlists. The table
+  // contains no setlist.fm data (ADR-0002).
+  `CREATE TABLE predicted_songs (
+    musicbrainz_id TEXT PRIMARY KEY,
+    track_ids TEXT NOT NULL,
+    fallback INTEGER NOT NULL CHECK (fallback IN (0, 1)),
+    calculated_at TEXT NOT NULL
+  ) STRICT`,
 ];
 
 export function openDatabase(path: string): Database {
