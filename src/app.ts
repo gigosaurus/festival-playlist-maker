@@ -40,8 +40,11 @@ import { festivalPage } from "./pages/festival-page.ts";
 import { festivalsPage } from "./pages/festivals-page.ts";
 import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-page.ts";
 import { notFoundPage } from "./pages/not-found-page.ts";
+import { predictedSongsPage } from "./pages/predicted-songs-page.ts";
 import { spotifyArtistPage } from "./pages/spotify-artist-page.ts";
+import { createPredictedSongQueue, findPredictedSongs, isValid, type PredictedSongs } from "./predicted-songs.ts";
 import { createSessions, type User } from "./sessions.ts";
+import { createSetlistFm } from "./setlist-fm.ts";
 import type { Settings } from "./settings.ts";
 import { createSpotifyArtistQueue, findSpotifyArtist, setSpotifyArtistByHand, type StoredSpotifyArtist } from "./spotify-artists.ts";
 import { completeSpotifyLogIn, startSpotifyLogIn } from "./spotify-log-in.ts";
@@ -86,7 +89,13 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   const musicBrainz = createMusicBrainz(httpClient);
   const artistSearches = createArtistSearchQueue(database, musicBrainz, clock);
   const spotify = createSpotify(httpClient, database, clock, settings);
-  const spotifyArtists = createSpotifyArtistQueue(database, musicBrainz, spotify, clock);
+  const setlistFm = createSetlistFm(httpClient);
+  const predictedSongs = createPredictedSongQueue({ database, setlistFm, spotify, clock, settings: settings.prediction });
+  // After a find of the Spotify artist, the predicted songs are calculated, except
+  // when they are valid. A different Spotify artist needs a new calculation.
+  const spotifyArtists = createSpotifyArtistQueue(database, musicBrainz, spotify, clock, (musicbrainzId, changed) =>
+    predictedSongs.calculate([musicbrainzId], { again: changed }),
+  );
   const sessions = createSessions(database, clock, settings);
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
@@ -256,6 +265,12 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       const missing = matchedArtists(names).filter((artist) => findSpotifyArtist(database, artist.id) === undefined);
       if (missing.length > 0) spotifyArtists.find(missing);
     }
+    // The same rule for the predicted songs. A result that is no longer valid is calculated again.
+    const predictionQueue = predictedSongs.state();
+    if (!predictionQueue.running && predictionQueue.problem === undefined) {
+      const missing = artistsWithoutPredictedSongs(names);
+      if (missing.length > 0) predictedSongs.calculate(missing);
+    }
     const saved = lineupNameFromQuery(festival.id, context.req.query("saved"));
     const spotifySaved = lineupNameFromQuery(festival.id, context.req.query("spotify"));
     return context.html(
@@ -265,6 +280,9 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
         queue: artistSearches.state(),
         spotifyArtists: storedSpotifyArtists(matchedArtists(names)),
         spotifyQueue: spotifyArtists.state(),
+        predictedSongs: storedPredictedSongs(matchedArtists(names)),
+        predictionQueue: predictedSongs.state(),
+        lookBackMonths: settings.prediction.lookBackMonths,
         ...(saved ? { saved } : {}),
         ...(spotifySaved ? { spotifySaved } : {}),
       }),
@@ -284,6 +302,37 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     const names = festivalArtistMatches(database, festival.id);
     spotifyArtists.find(matchedArtists(names).filter((artist) => findSpotifyArtist(database, artist.id) === undefined));
     return context.redirect(`/admin/festivals/${festival.id}/artist-matches`, 303);
+  });
+
+  app.post("/admin/festivals/:id/artist-matches/predicted-songs", (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    predictedSongs.calculate(artistsWithoutPredictedSongs(festivalArtistMatches(database, festival.id)));
+    return context.redirect(`/admin/festivals/${festival.id}/artist-matches`, 303);
+  });
+
+  app.get("/admin/festivals/:id/artist-matches/:lineupNameId/predicted-songs", (context) => {
+    const found = matchedLineupName(context.req.param("id"), context.req.param("lineupNameId"));
+    if (found === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    return context.html(
+      predictedSongsPage(context.var.user!, {
+        ...found,
+        spotify: findSpotifyArtist(database, found.artist.id),
+        songs: findPredictedSongs(database, found.artist.id),
+        waiting: predictedSongs.isWaiting(found.artist.id),
+        queue: predictedSongs.state(),
+        settings: settings.prediction,
+      }),
+    );
+  });
+
+  // Calculates the predicted songs again in the background (user story 70). The
+  // page shows that the calculation waits, and then the new result (FN-02).
+  app.post("/admin/festivals/:id/artist-matches/:lineupNameId/predicted-songs", (context) => {
+    const found = matchedLineupName(context.req.param("id"), context.req.param("lineupNameId"));
+    if (found === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    predictedSongs.calculate([found.artist.id], { again: true });
+    return context.redirect(`/admin/festivals/${found.festival.id}/artist-matches/${found.name.lineupNameId}/predicted-songs`, 303);
   });
 
   app.get("/admin/festivals/:id/artist-matches/:lineupNameId/spotify", (context) => {
@@ -314,6 +363,8 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     if (result.outcome === "not-found") return showProblem("Spotify has no artist at this address. Make sure that you copied the full address.");
     if (result.outcome === "failed") return showProblem(`The application could not get the artist from Spotify. ${result.cause}`);
     setSpotifyArtistByHand(database, clock, found.artist.id, result.artist);
+    // The predicted songs of the old Spotify artist are not correct.
+    predictedSongs.calculate([found.artist.id], { again: true });
     return context.redirect(`/admin/festivals/${found.festival.id}/artist-matches?spotify=${found.name.lineupNameId}`, 303);
   });
 
@@ -409,6 +460,26 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       if (stored !== undefined) result.set(artist.id, stored);
     }
     return result;
+  }
+
+  function storedPredictedSongs(artists: MusicBrainzArtist[]): Map<string, PredictedSongs> {
+    const result = new Map<string, PredictedSongs>();
+    for (const artist of artists) {
+      const stored = findPredictedSongs(database, artist.id);
+      if (stored !== undefined) result.set(artist.id, stored);
+    }
+    return result;
+  }
+
+  // The MusicBrainz IDs of the matched artists that have a Spotify artist and no valid predicted songs.
+  function artistsWithoutPredictedSongs(names: { match?: ArtistMatch }[]): string[] {
+    return matchedArtists(names)
+      .filter((artist) => findSpotifyArtist(database, artist.id)?.kind === "found")
+      .filter((artist) => {
+        const stored = findPredictedSongs(database, artist.id);
+        return stored === undefined || !isValid(stored, clock.now(), settings.prediction);
+      })
+      .map((artist) => artist.id);
   }
 
   // After a new lineup, the searches for the new names start in the background.

@@ -1,0 +1,387 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Drown%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/7FqHuAvmREiIwVXVpZ9ooP"
+     },
+     "href": "https://api.spotify.com/v1/albums/7FqHuAvmREiIwVXVpZ9ooP",
+     "id": "7FqHuAvmREiIwVXVpZ9ooP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27390b88187a9831d91f2438927"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0290b88187a9831d91f2438927"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485190b88187a9831d91f2438927"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:7FqHuAvmREiIwVXVpZ9ooP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 222093,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500797"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6o39Ln9118FKTMbM4BvcEy"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6o39Ln9118FKTMbM4BvcEy",
+    "id": "6o39Ln9118FKTMbM4BvcEy",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Drown",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:6o39Ln9118FKTMbM4BvcEy"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/49dRYUEg8iPbeKAYQKp1eA"
+     },
+     "href": "https://api.spotify.com/v1/albums/49dRYUEg8iPbeKAYQKp1eA",
+     "id": "49dRYUEg8iPbeKAYQKp1eA",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02090bb2b1e24029de9da3c02b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851090bb2b1e24029de9da3c02b"
+      }
+     ],
+     "is_playable": true,
+     "name": "That's The Spirit",
+     "release_date": "2015-09-11",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:49dRYUEg8iPbeKAYQKp1eA"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 222093,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL1500797"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4ZG1SFGFdcfxIWfFQiwS3N"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4ZG1SFGFdcfxIWfFQiwS3N",
+    "id": "4ZG1SFGFdcfxIWfFQiwS3N",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Drown",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:4ZG1SFGFdcfxIWfFQiwS3N"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 234549,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502089"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6xKn6gUCNc3xgddddz8GPJ"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6xKn6gUCNc3xgddddz8GPJ",
+    "id": "6xKn6gUCNc3xgddddz8GPJ",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Drown - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 22,
+    "type": "track",
+    "uri": "spotify:track:6xKn6gUCNc3xgddddz8GPJ"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 429120,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001571"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4XnSAIxLmqmJXX8uTEcatS"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4XnSAIxLmqmJXX8uTEcatS",
+    "id": "4XnSAIxLmqmJXX8uTEcatS",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Drown - Live at the Royal Albert Hall",
+    "track_number": 15,
+    "type": "track",
+    "uri": "spotify:track:4XnSAIxLmqmJXX8uTEcatS"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2HjtGG1LVyrN8yrNmt78Py"
+     },
+     "href": "https://api.spotify.com/v1/albums/2HjtGG1LVyrN8yrNmt78Py",
+     "id": "2HjtGG1LVyrN8yrNmt78Py",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273cfa7fccd67511c8e451812e8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02cfa7fccd67511c8e451812e8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851cfa7fccd67511c8e451812e8"
+      }
+     ],
+     "is_playable": true,
+     "name": "Drown (Live from Maida Vale)",
+     "release_date": "2015-12-26",
+     "release_date_precision": "day",
+     "total_tracks": 1,
+     "type": "album",
+     "uri": "spotify:album:2HjtGG1LVyrN8yrNmt78Py"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 225706,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBCAD1500806"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2TB3yZgVmXKZvmPWcCUr2H"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2TB3yZgVmXKZvmPWcCUr2H",
+    "id": "2TB3yZgVmXKZvmPWcCUr2H",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Drown - Live from Maida Vale",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:2TB3yZgVmXKZvmPWcCUr2H"
+   }
+  ]
+ }
+}

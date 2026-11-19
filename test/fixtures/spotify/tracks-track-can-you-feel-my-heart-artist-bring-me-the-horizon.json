@@ -1,0 +1,672 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Can%20You%20Feel%20My%20Heart%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 8,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6IYPmM3xsOPL2XPSvf1ZAz"
+     },
+     "href": "https://api.spotify.com/v1/albums/6IYPmM3xsOPL2XPSvf1ZAz",
+     "id": "6IYPmM3xsOPL2XPSvf1ZAz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273566acaba72c5509e3887c4b0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02566acaba72c5509e3887c4b0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851566acaba72c5509e3887c4b0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Sempiternal (Expanded Edition)",
+     "release_date": "2013-04-01",
+     "release_date_precision": "day",
+     "total_tracks": 13,
+     "type": "album",
+     "uri": "spotify:album:6IYPmM3xsOPL2XPSvf1ZAz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 227296,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1202415"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0WSa1sucoNRcEeULlZVQXj"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0WSa1sucoNRcEeULlZVQXj",
+    "id": "0WSa1sucoNRcEeULlZVQXj",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0WSa1sucoNRcEeULlZVQXj"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2hmePXeTr2b7cdRAtRjvPq"
+       },
+       "href": "https://api.spotify.com/v1/artists/2hmePXeTr2b7cdRAtRjvPq",
+       "id": "2hmePXeTr2b7cdRAtRjvPq",
+       "name": "Jeris Johnson",
+       "type": "artist",
+       "uri": "spotify:artist:2hmePXeTr2b7cdRAtRjvPq"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1NoegGXKwW97ZQB9ctl2Tw"
+     },
+     "href": "https://api.spotify.com/v1/albums/1NoegGXKwW97ZQB9ctl2Tw",
+     "id": "1NoegGXKwW97ZQB9ctl2Tw",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2737e06c7e5489ffe0fd0e86d03"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e027e06c7e5489ffe0fd0e86d03"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048517e06c7e5489ffe0fd0e86d03"
+      }
+     ],
+     "is_playable": true,
+     "name": "Can You Feel My Heart (Remix)",
+     "release_date": "2021-03-05",
+     "release_date_precision": "day",
+     "total_tracks": 1,
+     "type": "album",
+     "uri": "spotify:album:1NoegGXKwW97ZQB9ctl2Tw"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2hmePXeTr2b7cdRAtRjvPq"
+      },
+      "href": "https://api.spotify.com/v1/artists/2hmePXeTr2b7cdRAtRjvPq",
+      "id": "2hmePXeTr2b7cdRAtRjvPq",
+      "name": "Jeris Johnson",
+      "type": "artist",
+      "uri": "spotify:artist:2hmePXeTr2b7cdRAtRjvPq"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 197412,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2100234"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0bMOyiuk22fAKiwNoYsRYN"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0bMOyiuk22fAKiwNoYsRYN",
+    "id": "0bMOyiuk22fAKiwNoYsRYN",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart - Remix",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0bMOyiuk22fAKiwNoYsRYN"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 360360,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001569"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/28DcCxLamMqusGsWxXpwDf"
+    },
+    "href": "https://api.spotify.com/v1/tracks/28DcCxLamMqusGsWxXpwDf",
+    "id": "28DcCxLamMqusGsWxXpwDf",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart - Live at the Royal Albert Hall",
+    "track_number": 13,
+    "type": "track",
+    "uri": "spotify:track:28DcCxLamMqusGsWxXpwDf"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 390613,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502087"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3WyzwGdVcofoJElGfcRaQu"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3WyzwGdVcofoJElGfcRaQu",
+    "id": "3WyzwGdVcofoJElGfcRaQu",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 18,
+    "type": "track",
+    "uri": "spotify:track:3WyzwGdVcofoJElGfcRaQu"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1C4aOSd7ekrK5BBcatimCN"
+     },
+     "href": "https://api.spotify.com/v1/albums/1C4aOSd7ekrK5BBcatimCN",
+     "id": "1C4aOSd7ekrK5BBcatimCN",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27391492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0291492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485191492f8e1e57fba17e4b36e4"
+      }
+     ],
+     "is_playable": true,
+     "name": "Can You Feel My Heart",
+     "release_date": "2013-10-13",
+     "release_date_precision": "day",
+     "total_tracks": 3,
+     "type": "album",
+     "uri": "spotify:album:1C4aOSd7ekrK5BBcatimCN"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/5XI7v78OvII0GjeSPAVG57"
+      },
+      "href": "https://api.spotify.com/v1/artists/5XI7v78OvII0GjeSPAVG57",
+      "id": "5XI7v78OvII0GjeSPAVG57",
+      "name": "Shikari Sound System",
+      "type": "artist",
+      "uri": "spotify:artist:5XI7v78OvII0GjeSPAVG57"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 264320,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1301077"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0FcAGgd9KT5jClICT5aFMm"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0FcAGgd9KT5jClICT5aFMm",
+    "id": "0FcAGgd9KT5jClICT5aFMm",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart - Shikari Sound System Remix",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:0FcAGgd9KT5jClICT5aFMm"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/34pF0wOGswprAZCsI8A1Fs"
+     },
+     "href": "https://api.spotify.com/v1/albums/34pF0wOGswprAZCsI8A1Fs",
+     "id": "34pF0wOGswprAZCsI8A1Fs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851e489bfa973464d0cef3a37a5"
+      }
+     ],
+     "is_playable": true,
+     "name": "Lo-files",
+     "release_date": "2025-07-11",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:34pF0wOGswprAZCsI8A1Fs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/5zUSfxfP1NETZiaWt0Ui0a"
+      },
+      "href": "https://api.spotify.com/v1/artists/5zUSfxfP1NETZiaWt0Ui0a",
+      "id": "5zUSfxfP1NETZiaWt0Ui0a",
+      "name": "Casiio",
+      "type": "artist",
+      "uri": "spotify:artist:5zUSfxfP1NETZiaWt0Ui0a"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/4XbnhifKeOnyfTsCInrQsX"
+      },
+      "href": "https://api.spotify.com/v1/artists/4XbnhifKeOnyfTsCInrQsX",
+      "id": "4XbnhifKeOnyfTsCInrQsX",
+      "name": "No Spirit",
+      "type": "artist",
+      "uri": "spotify:artist:4XbnhifKeOnyfTsCInrQsX"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 162946,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2500845"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4oulNVAcHE3WWxyy8kYvcz"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4oulNVAcHE3WWxyy8kYvcz",
+    "id": "4oulNVAcHE3WWxyy8kYvcz",
+    "is_local": false,
+    "is_playable": true,
+    "name": "canyoufeelmy<3.tmpx",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:4oulNVAcHE3WWxyy8kYvcz"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1C4aOSd7ekrK5BBcatimCN"
+     },
+     "href": "https://api.spotify.com/v1/albums/1C4aOSd7ekrK5BBcatimCN",
+     "id": "1C4aOSd7ekrK5BBcatimCN",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27391492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0291492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485191492f8e1e57fba17e4b36e4"
+      }
+     ],
+     "is_playable": true,
+     "name": "Can You Feel My Heart",
+     "release_date": "2013-10-13",
+     "release_date_precision": "day",
+     "total_tracks": 3,
+     "type": "album",
+     "uri": "spotify:album:1C4aOSd7ekrK5BBcatimCN"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/4S5yXnFzWvHu16wfuDjjfM"
+      },
+      "href": "https://api.spotify.com/v1/artists/4S5yXnFzWvHu16wfuDjjfM",
+      "id": "4S5yXnFzWvHu16wfuDjjfM",
+      "name": "Jakwob",
+      "type": "artist",
+      "uri": "spotify:artist:4S5yXnFzWvHu16wfuDjjfM"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 273533,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1300901"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6McV55gkCmVY9zX9Mucg3R"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6McV55gkCmVY9zX9Mucg3R",
+    "id": "6McV55gkCmVY9zX9Mucg3R",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart - Jakwob Remix",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:6McV55gkCmVY9zX9Mucg3R"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1C4aOSd7ekrK5BBcatimCN"
+     },
+     "href": "https://api.spotify.com/v1/albums/1C4aOSd7ekrK5BBcatimCN",
+     "id": "1C4aOSd7ekrK5BBcatimCN",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27391492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0291492f8e1e57fba17e4b36e4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485191492f8e1e57fba17e4b36e4"
+      }
+     ],
+     "is_playable": true,
+     "name": "Can You Feel My Heart",
+     "release_date": "2013-10-13",
+     "release_date_precision": "day",
+     "total_tracks": 3,
+     "type": "album",
+     "uri": "spotify:album:1C4aOSd7ekrK5BBcatimCN"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 228360,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1202415"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/16pVm6CEelmu8uUlXEyq0s"
+    },
+    "href": "https://api.spotify.com/v1/tracks/16pVm6CEelmu8uUlXEyq0s",
+    "id": "16pVm6CEelmu8uUlXEyq0s",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Can You Feel My Heart",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:16pVm6CEelmu8uUlXEyq0s"
+   }
+  ]
+ }
+}

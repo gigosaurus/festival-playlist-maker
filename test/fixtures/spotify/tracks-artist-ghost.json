@@ -1,0 +1,387 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=artist%3A%22Ghost%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+       "id": "1Qp56T7n950O3EGMsSl81D",
+       "name": "Ghost",
+       "type": "artist",
+       "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0dfSsZm64lSVeIcbcS2cYi"
+     },
+     "href": "https://api.spotify.com/v1/albums/0dfSsZm64lSVeIcbcS2cYi",
+     "id": "0dfSsZm64lSVeIcbcS2cYi",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2731d58cc1747d729aee98efe77"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e021d58cc1747d729aee98efe77"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048511d58cc1747d729aee98efe77"
+      }
+     ],
+     "is_playable": true,
+     "name": "Seven Inches of Satanic Panic",
+     "release_date": "2019-09-13",
+     "release_date_precision": "day",
+     "total_tracks": 3,
+     "type": "album",
+     "uri": "spotify:album:0dfSsZm64lSVeIcbcS2cYi"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+      "id": "1Qp56T7n950O3EGMsSl81D",
+      "name": "Ghost",
+      "type": "artist",
+      "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 244804,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USC4R1902750"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2wBnZdVWa5jVpvYRfGU7rP"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2wBnZdVWa5jVpvYRfGU7rP",
+    "id": "2wBnZdVWa5jVpvYRfGU7rP",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Mary On A Cross",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:2wBnZdVWa5jVpvYRfGU7rP"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+       "id": "1Qp56T7n950O3EGMsSl81D",
+       "name": "Ghost",
+       "type": "artist",
+       "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2uaQ1K2eSqaWeVQRXeuGdN"
+     },
+     "href": "https://api.spotify.com/v1/albums/2uaQ1K2eSqaWeVQRXeuGdN",
+     "id": "2uaQ1K2eSqaWeVQRXeuGdN",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2735b752bd7476346431a8d1e79"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e025b752bd7476346431a8d1e79"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048515b752bd7476346431a8d1e79"
+      }
+     ],
+     "is_playable": true,
+     "name": "Meliora (Deluxe Edition)",
+     "release_date": "2016-09-16",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:2uaQ1K2eSqaWeVQRXeuGdN"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+      "id": "1Qp56T7n950O3EGMsSl81D",
+      "name": "Ghost",
+      "type": "artist",
+      "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+     }
+    ],
+    "disc_number": 2,
+    "duration_ms": 239293,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USC4R1601938"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5TNhjanmvwvmjCz2WYwSAv"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5TNhjanmvwvmjCz2WYwSAv",
+    "id": "5TNhjanmvwvmjCz2WYwSAv",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Square Hammer",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:5TNhjanmvwvmjCz2WYwSAv"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+       "id": "1Qp56T7n950O3EGMsSl81D",
+       "name": "Ghost",
+       "type": "artist",
+       "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2PFJKjBqXpYrRcdClhfcnX"
+     },
+     "href": "https://api.spotify.com/v1/albums/2PFJKjBqXpYrRcdClhfcnX",
+     "id": "2PFJKjBqXpYrRcdClhfcnX",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27337b6696c5c5a40ce24b76e1c"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0237b6696c5c5a40ce24b76e1c"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485137b6696c5c5a40ce24b76e1c"
+      }
+     ],
+     "is_playable": true,
+     "name": "Skeletá",
+     "release_date": "2025-04-25",
+     "release_date_precision": "day",
+     "total_tracks": 10,
+     "type": "album",
+     "uri": "spotify:album:2PFJKjBqXpYrRcdClhfcnX"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+      "id": "1Qp56T7n950O3EGMsSl81D",
+      "name": "Ghost",
+      "type": "artist",
+      "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 276400,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USC4R2452129"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4TjCaQsPQhGZUk0Hls4O3Y"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4TjCaQsPQhGZUk0Hls4O3Y",
+    "id": "4TjCaQsPQhGZUk0Hls4O3Y",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Lachryma",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:4TjCaQsPQhGZUk0Hls4O3Y"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+       "id": "1Qp56T7n950O3EGMsSl81D",
+       "name": "Ghost",
+       "type": "artist",
+       "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6128JCa2uBqHWia5AzJOKV"
+     },
+     "href": "https://api.spotify.com/v1/albums/6128JCa2uBqHWia5AzJOKV",
+     "id": "6128JCa2uBqHWia5AzJOKV",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273d12e0639819f09e00d73410e"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02d12e0639819f09e00d73410e"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851d12e0639819f09e00d73410e"
+      }
+     ],
+     "is_playable": true,
+     "name": "Prequelle",
+     "release_date": "2018-06-01",
+     "release_date_precision": "day",
+     "total_tracks": 10,
+     "type": "album",
+     "uri": "spotify:album:6128JCa2uBqHWia5AzJOKV"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+      "id": "1Qp56T7n950O3EGMsSl81D",
+      "name": "Ghost",
+      "type": "artist",
+      "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 219720,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USC4R1802371"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4pIKFpwflOdhYNIRmPTj3E"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4pIKFpwflOdhYNIRmPTj3E",
+    "id": "4pIKFpwflOdhYNIRmPTj3E",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Dance Macabre",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:4pIKFpwflOdhYNIRmPTj3E"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+       "id": "1Qp56T7n950O3EGMsSl81D",
+       "name": "Ghost",
+       "type": "artist",
+       "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/3fn4HfVz5dhmE0PG24rh6h"
+     },
+     "href": "https://api.spotify.com/v1/albums/3fn4HfVz5dhmE0PG24rh6h",
+     "id": "3fn4HfVz5dhmE0PG24rh6h",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27339df655040aa0f194c6d2972"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0239df655040aa0f194c6d2972"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485139df655040aa0f194c6d2972"
+      }
+     ],
+     "is_playable": true,
+     "name": "IMPERA",
+     "release_date": "2022-03-11",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:3fn4HfVz5dhmE0PG24rh6h"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Qp56T7n950O3EGMsSl81D"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Qp56T7n950O3EGMsSl81D",
+      "id": "1Qp56T7n950O3EGMsSl81D",
+      "name": "Ghost",
+      "type": "artist",
+      "uri": "spotify:artist:1Qp56T7n950O3EGMsSl81D"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 284266,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USC4R2110910"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4xAmbn7xiy6wGOs4oaxv70"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4xAmbn7xiy6wGOs4oaxv70",
+    "id": "4xAmbn7xiy6wGOs4oaxv70",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Call Me Little Sunshine",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:4xAmbn7xiy6wGOs4oaxv70"
+   }
+  ]
+ }
+}

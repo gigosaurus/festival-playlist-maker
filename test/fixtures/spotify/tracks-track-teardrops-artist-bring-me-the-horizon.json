@@ -1,0 +1,312 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Teardrops%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 4,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0e1WaSNDZnoPixaxDNdWo4"
+     },
+     "href": "https://api.spotify.com/v1/albums/0e1WaSNDZnoPixaxDNdWo4",
+     "id": "0e1WaSNDZnoPixaxDNdWo4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2735149c948fde506624246a684"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e025149c948fde506624246a684"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048515149c948fde506624246a684"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: SURVIVAL HORROR",
+     "release_date": "2020-10-30",
+     "release_date_precision": "day",
+     "total_tracks": 9,
+     "type": "album",
+     "uri": "spotify:album:0e1WaSNDZnoPixaxDNdWo4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 215003,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2001273"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3WATWS2Ywo5HeHtG0bE2iZ"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3WATWS2Ywo5HeHtG0bE2iZ",
+    "id": "3WATWS2Ywo5HeHtG0bE2iZ",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Teardrops",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:3WATWS2Ywo5HeHtG0bE2iZ"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4U4nKoTy4lsQlUoaGqg8U4"
+     },
+     "href": "https://api.spotify.com/v1/albums/4U4nKoTy4lsQlUoaGqg8U4",
+     "id": "4U4nKoTy4lsQlUoaGqg8U4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2737c2b1dc1639152beaeadf00d"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e027c2b1dc1639152beaeadf00d"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048517c2b1dc1639152beaeadf00d"
+      }
+     ],
+     "is_playable": true,
+     "name": "Teardrops",
+     "release_date": "2020-10-22",
+     "release_date_precision": "day",
+     "total_tracks": 1,
+     "type": "album",
+     "uri": "spotify:album:4U4nKoTy4lsQlUoaGqg8U4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 215003,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2001273"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3aniWcwiiYKHpm3F5TdeKD"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3aniWcwiiYKHpm3F5TdeKD",
+    "id": "3aniWcwiiYKHpm3F5TdeKD",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Teardrops",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:3aniWcwiiYKHpm3F5TdeKD"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5GliykP82xUTAgHRBpxWP6"
+     },
+     "href": "https://api.spotify.com/v1/albums/5GliykP82xUTAgHRBpxWP6",
+     "id": "5GliykP82xUTAgHRBpxWP6",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c5b322d3996f009837db6442"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c5b322d3996f009837db6442"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c5b322d3996f009837db6442"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: SURVIVAL HORROR",
+     "release_date": "2020-10-29",
+     "release_date_precision": "day",
+     "total_tracks": 9,
+     "type": "album",
+     "uri": "spotify:album:5GliykP82xUTAgHRBpxWP6"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 215003,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001376"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1UXD8meXASalxrypkKG5qd"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1UXD8meXASalxrypkKG5qd",
+    "id": "1UXD8meXASalxrypkKG5qd",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Teardrops",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:1UXD8meXASalxrypkKG5qd"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 257130,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502075"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4iT3cNh9OHDOh9f414goYn"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4iT3cNh9OHDOh9f414goYn",
+    "id": "4iT3cNh9OHDOh9f414goYn",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Teardrops - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:4iT3cNh9OHDOh9f414goYn"
+   }
+  ]
+ }
+}

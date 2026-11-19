@@ -2,11 +2,12 @@ import { html } from "hono/html";
 import { proposeArtist, type LineupNameMatch, type SearchQueueState } from "../artist-matches.ts";
 import type { QueueState } from "../background-queue.ts";
 import type { AdminFestival } from "../festivals.ts";
+import type { PredictedSongs, PredictionQueueState } from "../predicted-songs.ts";
 import type { User } from "../sessions.ts";
 import type { StoredSpotifyArtist } from "../spotify-artists.ts";
 import { spotifyArtistAddress } from "../spotify.ts";
 import { artistChoices, artistFacts, genreWarning } from "./artist-choices.ts";
-import { formatDateAndTime } from "./format.ts";
+import { count, formatDateAndTime } from "./format.ts";
 import { layout } from "./layout.ts";
 
 export interface ArtistMatchesPageState {
@@ -20,6 +21,10 @@ export interface ArtistMatchesPageState {
   spotifyQueue: QueueState;
   // The lineup name of the last save of a Spotify artist.
   spotifySaved?: LineupNameMatch;
+  // The predicted songs of each matched MusicBrainz artist, by MusicBrainz ID.
+  predictedSongs: Map<string, PredictedSongs>;
+  predictionQueue: PredictionQueueState;
+  lookBackMonths: number;
 }
 
 export function artistMatchesPage(user: User, state: ArtistMatchesPageState) {
@@ -162,7 +167,8 @@ function unmatchedName(festival: AdminFestival, name: LineupNameMatch) {
   `;
 }
 
-function matchedSection({ festival, spotifyArtists, spotifyQueue }: ArtistMatchesPageState, matched: LineupNameMatch[]) {
+function matchedSection(state: ArtistMatchesPageState, matched: LineupNameMatch[]) {
+  const { festival, spotifyArtists, spotifyQueue, predictedSongs, predictionQueue } = state;
   if (matched.length === 0) return "";
   const warningOf = (name: LineupNameMatch) =>
     name.match?.kind === "artist" ? genreWarning(name.match.artist, festival.expectedGenres) : undefined;
@@ -172,6 +178,10 @@ function matchedSection({ festival, spotifyArtists, spotifyQueue }: ArtistMatche
   const waiting = new Set(
     matched.flatMap((name) => (name.match?.kind === "artist" && !spotifyArtists.has(name.match.artist.id) ? name.match.artist.id : [])),
   ).size;
+  // The artists with a Spotify artist and no predicted songs.
+  const artistIds = new Set(matched.flatMap((name) => (name.match?.kind === "artist" ? name.match.artist.id : [])));
+  const withoutSongs = [...artistIds].filter((id) => spotifyArtists.get(id)?.kind === "found" && !predictedSongs.has(id)).length;
+  const fallbacks = [...artistIds].filter((id) => predictedSongs.get(id)?.fallback).length;
   return html`
     <section class="match-section" aria-labelledby="matched-heading">
       <h2 id="matched-heading">Artist matches (${matched.length})</h2>
@@ -181,8 +191,14 @@ function matchedSection({ festival, spotifyArtists, spotifyQueue }: ArtistMatche
             : "They are"} first in the list.</p>`
         : ""}
       ${waiting > 0 ? spotifyState(festival, waiting, spotifyQueue) : ""}
+      ${withoutSongs > 0 ? predictionState(festival, withoutSongs, predictionQueue) : ""}
+      ${fallbacks > 0
+        ? html`<p class="hint">${count(fallbacks, "artist has", "artists have")} no setlists in the last ${state.lookBackMonths} months and ${fallbacks === 1
+            ? "uses"
+            : "use"} the Spotify search fallback.</p>`
+        : ""}
       <ul class="matched-list">
-        ${sorted.map((name) => html`<li>${matchedName(festival, name, warningOf(name), spotifyArtists)}</li>`)}
+        ${sorted.map((name) => html`<li>${matchedName(state, name, warningOf(name))}</li>`)}
       </ul>
     </section>
   `;
@@ -209,16 +225,37 @@ function spotifyState(festival: AdminFestival, waiting: number, queue: QueueStat
   `;
 }
 
+// One calculation sends 1 or more setlist.fm requests and up to 20 Spotify requests.
+function predictionState(festival: AdminFestival, waiting: number, queue: PredictionQueueState) {
+  if (queue.problem !== undefined) {
+    return html`
+      <section class="notice" aria-labelledby="prediction-problem-heading">
+        <h3 id="prediction-problem-heading">The calculation of the predicted songs stopped on ${formatDateAndTime(queue.problem.at)}</h3>
+        <p class="problem-cause" data-external-text>${queue.problem.cause}</p>
+        <form method="post" action="/admin/festivals/${festival.id}/artist-matches/predicted-songs">
+          <button class="button-secondary" type="submit">Calculate the predicted songs again</button>
+        </form>
+      </section>
+    `;
+  }
+  return html`
+    <p class="search-progress">
+      ${waiting === 1 ? "1 artist waits" : `${waiting} artists wait`} for the predicted songs. The application calculates 1 artist in approximately 10 to 30 seconds.
+      ${queue.waitingUntil === undefined
+        ? ""
+        : html`A service limited the requests, so the calculation continues at ${formatDateAndTime(queue.waitingUntil)}.`}
+      <a href="/admin/festivals/${festival.id}/artist-matches">Show the new results</a>
+    </p>
+  `;
+}
+
 const sourceText = { musicbrainz: "from the MusicBrainz link", search: "from a Spotify search", admin: "set by hand" } as const;
 
-function matchedName(
-  festival: AdminFestival,
-  name: LineupNameMatch,
-  warning: string | undefined,
-  spotifyArtists: Map<string, StoredSpotifyArtist>,
-) {
+function matchedName(state: ArtistMatchesPageState, name: LineupNameMatch, warning: string | undefined) {
+  const { festival, spotifyArtists, predictedSongs } = state;
   const match = name.match!;
   const spotify = match.kind === "artist" ? spotifyArtists.get(match.artist.id) : undefined;
+  const songs = match.kind === "artist" ? predictedSongs.get(match.artist.id) : undefined;
   return html`
     <div class="matched-name">
       <p class="matched-lineup-name"><span data-external-text>${name.name}</span></p>
@@ -231,16 +268,31 @@ function matchedName(
         : html`<p class="matched-artist">No match</p>`}
       ${warning ? html`<p class="genre-warning">${warning}</p>` : ""}
       ${match.kind === "artist" ? spotifyLine(spotify) : ""}
+      ${spotify?.kind === "found" ? songsLine(songs, state.lookBackMonths) : ""}
     </div>
     <p class="matched-actions">
       <a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}">Change<span
         class="visually-hidden"> the match for <span data-external-text>${name.name}</span></span></a>
       ${match.kind === "artist"
         ? html`<a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}/spotify">Set the Spotify artist<span
-            class="visually-hidden"> for <span data-external-text>${name.name}</span></span></a>`
+              class="visually-hidden"> for <span data-external-text>${name.name}</span></span></a>
+            <a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}/predicted-songs">Show the predicted songs<span
+              class="visually-hidden"> for <span data-external-text>${name.name}</span></span></a>`
         : ""}
     </p>
   `;
+}
+
+// The predicted songs of a match (user stories 66 and 68).
+function songsLine(songs: PredictedSongs | undefined, lookBackMonths: number) {
+  if (songs === undefined) return html`<p class="matched-spotify">Predicted songs: waiting</p>`;
+  if (songs.trackIds.length === 0) {
+    return html`<p class="genre-warning">Warning: no predicted songs on Spotify. Playlists get no songs for this artist.</p>`;
+  }
+  if (songs.fallback) {
+    return html`<p class="genre-warning">Warning: no setlists in the last ${lookBackMonths} months. ${count(songs.trackIds.length, "song", "songs")} from a Spotify search.</p>`;
+  }
+  return html`<p class="matched-spotify">Predicted songs: ${count(songs.trackIds.length, "song", "songs")} from setlists</p>`;
 }
 
 // The Spotify artist of a match (user story 63). The link opens it in Spotify, in a new tab.

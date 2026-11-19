@@ -685,6 +685,44 @@ a.button {
   max-width: 40rem;
 }
 
+/* Predicted songs for one name */
+.calculate-form {
+  margin-bottom: 2rem;
+}
+
+/* The numbers show the order of prediction (LY-06). A counter puts each number
+   in the vertical centre of its player, which a list marker cannot do. */
+.predicted-song-list {
+  max-width: 40rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: song;
+}
+
+.predicted-song-list > li {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  counter-increment: song;
+}
+
+.predicted-song-list > li::before {
+  content: counter(song) ".";
+  color: var(--colour-muted);
+  font-weight: 600;
+}
+
+/* The Spotify embed player. Spotify draws the player with its own radius. */
+.spotify-player {
+  display: block;
+  width: 100%;
+  height: 80px;
+  border: 0;
+  border-radius: var(--radius-panel);
+}
+
 /* Festival list: the published festivals on the Festivals page. Each panel is one link. */
 .festival-list {
   list-style: none;

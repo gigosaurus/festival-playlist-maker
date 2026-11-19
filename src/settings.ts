@@ -15,4 +15,33 @@ export interface Settings {
   // An email address or a web address in the User-Agent of each MusicBrainz request.
   // MusicBrainz uses it to contact the operator of a client that causes problems.
   musicbrainzContact: string;
+  // The setlist.fm API key. Do not give it to a different person (setlist.fm API terms).
+  setlistFmApiKey: string;
+  prediction: PredictionSettings;
 }
+
+// The numbers of the song prediction method (issue #12).
+export interface PredictionSettings {
+  // The application uses the shows of this number of months before the calculation.
+  lookBackMonths: number;
+  // The weight of a show halves for each period of this number of months of age.
+  halfLifeMonths: number;
+  // The maximum number of predicted songs of an artist.
+  songCount: number;
+  // A result stays valid for this number of months after its calculation.
+  validMonths: number;
+  // The maximum number of setlist.fm pages for one artist. Each page has 20 setlists.
+  setlistPages: number;
+  // The maximum number of Spotify track searches for one artist. Each search
+  // uses Spotify quota, so a song list with few Spotify recordings stops here.
+  spotifySearches: number;
+}
+
+export const defaultPredictionSettings: PredictionSettings = {
+  lookBackMonths: 18,
+  halfLifeMonths: 6,
+  songCount: 10,
+  validMonths: 6,
+  setlistPages: 10,
+  spotifySearches: 20,
+};

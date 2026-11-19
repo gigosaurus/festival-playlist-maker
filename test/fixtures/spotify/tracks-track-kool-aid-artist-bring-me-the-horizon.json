@@ -1,0 +1,237 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Kool-Aid%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 3,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1k7OXnGQPV4zF3seDwRroD"
+     },
+     "href": "https://api.spotify.com/v1/albums/1k7OXnGQPV4zF3seDwRroD",
+     "id": "1k7OXnGQPV4zF3seDwRroD",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273df51a3d66223e5b01813e0c4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02df51a3d66223e5b01813e0c4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851df51a3d66223e5b01813e0c4"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: NeX GEn",
+     "release_date": "2024-05-24",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:1k7OXnGQPV4zF3seDwRroD"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 228470,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2301975"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0hpWmAB3L0OJ3VBeMkOQUu"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0hpWmAB3L0OJ3VBeMkOQUu",
+    "id": "0hpWmAB3L0OJ3VBeMkOQUu",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kool-Aid",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:0hpWmAB3L0OJ3VBeMkOQUu"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1JYAxspYlODs9LjYO8Okut"
+     },
+     "href": "https://api.spotify.com/v1/albums/1JYAxspYlODs9LjYO8Okut",
+     "id": "1JYAxspYlODs9LjYO8Okut",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27303118ee08a3bf91e95585b41"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0203118ee08a3bf91e95585b41"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485103118ee08a3bf91e95585b41"
+      }
+     ],
+     "is_playable": true,
+     "name": "Kool-Aid",
+     "release_date": "2024-01-05",
+     "release_date_precision": "day",
+     "total_tracks": 1,
+     "type": "album",
+     "uri": "spotify:album:1JYAxspYlODs9LjYO8Okut"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 228470,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2301975"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1rBiNR61IhvbzeKwfs3AwE"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1rBiNR61IhvbzeKwfs3AwE",
+    "id": "1rBiNR61IhvbzeKwfs3AwE",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kool-Aid",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:1rBiNR61IhvbzeKwfs3AwE"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 248095,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502077"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5chFoFO5ku818uPRIryLYw"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5chFoFO5ku818uPRIryLYw",
+    "id": "5chFoFO5ku818uPRIryLYw",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kool-Aid - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 8,
+    "type": "track",
+    "uri": "spotify:track:5chFoFO5ku818uPRIryLYw"
+   }
+  ]
+ }
+}

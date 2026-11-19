@@ -1,0 +1,633 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 15,
+  "setlist": [
+   {
+    "id": "53c1eb09",
+    "versionId": "1332e5f5",
+    "eventDate": "21-05-2009",
+    "lastUpdated": "2020-02-26T10:52:25.418+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "33d6c881",
+     "name": "Spaceland",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/spaceland-los-angeles-ca-usa-33d6c881.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/spaceland-los-angeles-ca-53c1eb09.html"
+   },
+   {
+    "id": "33c38811",
+    "versionId": "1b32e5f4",
+    "eventDate": "14-05-2009",
+    "lastUpdated": "2020-02-26T10:52:25.447+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "23d258df",
+     "name": "Bottletree Café",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bottletree-cafe-birmingham-al-usa-23d258df.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/bottletree-cafe-birmingham-al-33c38811.html"
+   },
+   {
+    "id": "6bdfc2d6",
+    "versionId": "332e5eb",
+    "eventDate": "11-05-2009",
+    "lastUpdated": "2020-02-26T10:52:25.449+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "3bd618ac",
+     "name": "Local 506",
+     "city": {
+      "id": "4460162",
+      "name": "Chapel Hill",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.9131996,
+       "long": -79.0558445
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/local-506-chapel-hill-nc-usa-3bd618ac.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/local-506-chapel-hill-nc-6bdfc2d6.html"
+   },
+   {
+    "id": "13d9dd75",
+    "versionId": "b32e5ea",
+    "eventDate": "10-05-2009",
+    "lastUpdated": "2020-02-26T10:52:25.451+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "43d6c34b",
+     "name": "Velvet Lounge",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/velvet-lounge-washington-dc-usa-43d6c34b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/velvet-lounge-washington-dc-13d9dd75.html"
+   },
+   {
+    "id": "23d54473",
+    "versionId": "5329f74d",
+    "eventDate": "09-05-2009",
+    "lastUpdated": "2020-11-19T13:39:41.919+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "5bd61fdc",
+     "name": "Music Hall of Williamsburg",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/music-hall-of-williamsburg-brooklyn-ny-usa-5bd61fdc.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Overloaded Ark",
+         "cover": {
+          "mbid": "b31b544d-3ee4-412f-b74b-f586a87470da",
+          "name": "Helena Espvall & Masaki Batoh",
+          "sortName": "Espvall, Helena & Batoh, Masaki",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/helena-espvall-and-masaki-batoh-3bd52000.html"
+         }
+        },
+        {
+         "name": "Guru in the Echo"
+        },
+        {
+         "name": "Piper"
+        },
+        {
+         "name": "Hazy Paradise",
+         "cover": {
+          "mbid": "251e5d69-b1b5-44b4-bd5b-280440cb4b44",
+          "name": "Earth and Fire",
+          "sortName": "Earth and Fire",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/earth-and-fire-3bd674f4.html"
+         }
+        },
+        {
+         "name": "Way to Shelkar"
+        },
+        {
+         "name": "Agate Scape"
+        },
+        {
+         "name": "Higher Order"
+        },
+        {
+         "name": "Who Found a Lost Rose in the Warship?"
+        },
+        {
+         "name": "Mex Square Blue"
+        },
+        {
+         "name": "Orange Sunshine"
+        },
+        {
+         "name": "Motherly Bluster"
+        },
+        {
+         "name": "Dominoes",
+         "cover": {
+          "mbid": "12327d75-47d5-45d9-84c2-3760b9210c17",
+          "name": "Syd Barrett",
+          "sortName": "Barrett, Syd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/syd-barrett-13d6dd09.html"
+         },
+         "info": "Celebration for the Grey Days"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Grisaille"
+        },
+        {
+         "name": "Aramaic Barbarous Dawn"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/music-hall-of-williamsburg-brooklyn-ny-23d54473.html"
+   },
+   {
+    "id": "3becdca8",
+    "versionId": "1b32e5e8",
+    "eventDate": "05-05-2009",
+    "lastUpdated": "2020-02-26T10:52:25.465+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "63d62ec3",
+     "name": "Empty Bottle",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/empty-bottle-chicago-il-usa-63d62ec3.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2009/empty-bottle-chicago-il-3becdca8.html"
+   },
+   {
+    "id": "13d215f9",
+    "versionId": "332e5ef",
+    "eventDate": "21-06-2008",
+    "lastUpdated": "2020-02-26T10:52:25.467+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "63d62ec3",
+     "name": "Empty Bottle",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/empty-bottle-chicago-il-usa-63d62ec3.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2008/empty-bottle-chicago-il-13d215f9.html"
+   },
+   {
+    "id": "1bb9d18c",
+    "versionId": "gb943d2e",
+    "eventDate": "19-05-2007",
+    "lastUpdated": "2023-05-16T09:39:56.702+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "5bd353dc",
+     "name": "Butlins Minehead Resort",
+     "city": {
+      "id": "2642450",
+      "name": "Minehead",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.2052778,
+       "long": -3.4772222
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/butlins-minehead-resort-minehead-england-5bd353dc.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2007/butlins-minehead-resort-minehead-england-1bb9d18c.html"
+   },
+   {
+    "id": "3dda5cf",
+    "versionId": "b32e5ee",
+    "eventDate": "16-05-2007",
+    "lastUpdated": "2020-02-26T10:52:25.469+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "2bd63482",
+     "name": "Whelan's",
+     "city": {
+      "id": "2964574",
+      "name": "Dublin",
+      "state": "Dublin",
+      "stateCode": "07",
+      "coords": {
+       "lat": 53.3330556,
+       "long": -6.2488889
+      },
+      "country": {
+       "code": "IE",
+       "name": "Ireland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/whelans-dublin-ireland-2bd63482.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2007/whelans-dublin-ireland-3dda5cf.html"
+   },
+   {
+    "id": "3b81b4e8",
+    "versionId": "g1bd2f5e8",
+    "eventDate": "09-10-2006",
+    "lastUpdated": "2021-03-14T12:24:38.258+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "1bd0a998",
+     "name": "BankART Studio NYK",
+     "city": {
+      "id": "1848354",
+      "name": "Yokohama",
+      "state": "Kanagawa",
+      "stateCode": "19",
+      "coords": {
+       "lat": 35.45,
+       "long": 139.65
+      },
+      "country": {
+       "code": "JP",
+       "name": "Japan"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bankart-studio-nyk-yokohama-japan-1bd0a998.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Overture"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2006/bankart-studio-nyk-yokohama-japan-3b81b4e8.html"
+   },
+   {
+    "id": "4b943b9a",
+    "versionId": "1332e5ed",
+    "eventDate": "02-10-2004",
+    "lastUpdated": "2020-02-26T10:52:25.471+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "63d6c247",
+     "name": "The Independent",
+     "city": {
+      "id": "5391959",
+      "name": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 37.775,
+       "long": -122.419
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-independent-san-francisco-ca-usa-63d6c247.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2004/the-independent-san-francisco-ca-4b943b9a.html"
+   },
+   {
+    "id": "2397104f",
+    "versionId": "1b32e5ec",
+    "eventDate": "01-10-2004",
+    "lastUpdated": "2020-02-26T10:52:25.472+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "2bd7d09e",
+     "name": "Jackpot Records",
+     "city": {
+      "id": "5746545",
+      "name": "Portland",
+      "state": "Oregon",
+      "stateCode": "OR",
+      "coords": {
+       "lat": 45.5234515,
+       "long": -122.6762071
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/jackpot-records-portland-or-usa-2bd7d09e.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2004/jackpot-records-portland-or-2397104f.html"
+   },
+   {
+    "id": "739b16dd",
+    "versionId": "332e5e3",
+    "eventDate": "26-09-2004",
+    "lastUpdated": "2020-02-26T10:52:25.474+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "63d62ec3",
+     "name": "Empty Bottle",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/empty-bottle-chicago-il-usa-63d62ec3.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/2004/empty-bottle-chicago-il-739b16dd.html"
+   },
+   {
+    "id": "3b295fb",
+    "versionId": "g1bf395e8",
+    "eventDate": "30-08-1997",
+    "lastUpdated": "2022-07-16T08:57:32.572+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "1bd3c1ac",
+     "name": "Eagles Club (basement hall)",
+     "city": {
+      "id": "5805687",
+      "name": "Olympia",
+      "state": "Washington",
+      "stateCode": "WA",
+      "coords": {
+       "lat": 47.0378741,
+       "long": -122.9006951
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/eagles-club-basement-hall-olympia-wa-usa-1bd3c1ac.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/1997/eagles-club-basement-hall-olympia-wa-3b295fb.html"
+   },
+   {
+    "id": "2bb16872",
+    "versionId": "g4bf84762",
+    "eventDate": "22-06-1995",
+    "lastUpdated": "2022-10-15T09:12:54.115+0000",
+    "artist": {
+     "mbid": "97ea6a8e-2011-45f0-895e-8bb082b1aa64",
+     "name": "Ghost",
+     "sortName": "Ghost",
+     "disambiguation": "Japanese psych rock",
+     "url": "https://www.setlist.fm/setlists/ghost-3d46923.html"
+    },
+    "venue": {
+     "id": "7bd4cae4",
+     "name": "Downstairs",
+     "city": {
+      "id": "4931972",
+      "name": "Cambridge",
+      "state": "Massachusetts",
+      "stateCode": "MA",
+      "coords": {
+       "lat": 42.375097,
+       "long": -71.1056079
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/downstairs-cambridge-ma-usa-7bd4cae4.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ghost/1995/downstairs-cambridge-ma-2bb16872.html"
+   }
+  ]
+ }
+}

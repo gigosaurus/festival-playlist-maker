@@ -4,7 +4,7 @@ Festival Playlist Maker makes a Spotify playlist from the lineup of a festival. 
 
 ## Configuration
 
-The application gets its Spotify, Clashfinder and MusicBrainz settings from a `.env` file in the repository root. Git and Docker do not copy this file. Make the file on each computer that runs the application:
+The application gets its Spotify, Clashfinder, MusicBrainz and setlist.fm settings from a `.env` file in the repository root. Git and Docker do not copy this file. Make the file on each computer that runs the application:
 
 ```sh
 SPOTIFY_CLIENT_ID=<client ID>
@@ -12,6 +12,7 @@ ADMIN_SPOTIFY_USER_ID=<Spotify user ID>
 CLASHFINDER_USERNAME=<Clashfinder username>
 CLASHFINDER_PRIVATE_KEY=<Clashfinder private key>
 MUSICBRAINZ_CONTACT=<email address or web address>
+SETLIST_FM_API_KEY=<setlist.fm API key>
 ```
 
 |Variable|Value|
@@ -22,6 +23,7 @@ MUSICBRAINZ_CONTACT=<email address or web address>
 |`CLASHFINDER_USERNAME`|The username of the Clashfinder account of the admin. It is the username that you use to log in at clashfinder.com. The account password is not necessary.|
 |`CLASHFINDER_PRIVATE_KEY`|The private key of the Clashfinder account. Log in to Clashfinder. Then open clashfinder.com/pages/api. The page shows the private key.|
 |`MUSICBRAINZ_CONTACT`|An email address or a web address of the admin. Each MusicBrainz request sends it in the User-Agent header, as the MusicBrainz API rules require. MusicBrainz uses it only to contact you when the application causes a problem. MusicBrainz can block an application that sends no contact.|
+|`SETLIST_FM_API_KEY`|The setlist.fm API key. Log in to setlist.fm, then apply for a key at setlist.fm/settings/api. setlist.fm permits only non-commercial use of the API. The application uses the setlists to calculate the predicted songs (ADR-0002).|
 
 Add the redirect URI to the Spotify developer app, at *Settings → Basic Information → Redirect URIs*. The two values must be the same text. Spotify accepts an HTTP address only for a loopback address. Use `127.0.0.1`, not `localhost`.
 
@@ -32,6 +34,8 @@ The Spotify account that owns the developer app has the admin role. Add each oth
 The application does not use the client secret (ADR-0001). Do not put the client secret in the .env file or in the repository.
 
 Clashfinder is the fallback lineup source (ADR-0004, ADR-0006). Do not put the Clashfinder private key in the repository.
+
+Do not put the setlist.fm API key in the repository. The setlist.fm API terms do not permit you to give the key to a different person.
 
 ## Run in a container
 

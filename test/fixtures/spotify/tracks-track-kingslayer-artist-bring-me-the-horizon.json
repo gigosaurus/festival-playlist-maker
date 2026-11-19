@@ -1,0 +1,342 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Kingslayer%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 4,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0e1WaSNDZnoPixaxDNdWo4"
+     },
+     "href": "https://api.spotify.com/v1/albums/0e1WaSNDZnoPixaxDNdWo4",
+     "id": "0e1WaSNDZnoPixaxDNdWo4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2735149c948fde506624246a684"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e025149c948fde506624246a684"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048515149c948fde506624246a684"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: SURVIVAL HORROR",
+     "release_date": "2020-10-30",
+     "release_date_precision": "day",
+     "total_tracks": 9,
+     "type": "album",
+     "uri": "spotify:album:0e1WaSNDZnoPixaxDNdWo4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq"
+      },
+      "href": "https://api.spotify.com/v1/artists/630wzNP2OL7fl4Xl0GnMWq",
+      "id": "630wzNP2OL7fl4Xl0GnMWq",
+      "name": "BABYMETAL",
+      "type": "artist",
+      "uri": "spotify:artist:630wzNP2OL7fl4Xl0GnMWq"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 220041,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2001276"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/7CAbF0By0Fpnbiu6Xn5ZF7"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7CAbF0By0Fpnbiu6Xn5ZF7",
+    "id": "7CAbF0By0Fpnbiu6Xn5ZF7",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kingslayer (feat. BABYMETAL)",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:7CAbF0By0Fpnbiu6Xn5ZF7"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5GliykP82xUTAgHRBpxWP6"
+     },
+     "href": "https://api.spotify.com/v1/albums/5GliykP82xUTAgHRBpxWP6",
+     "id": "5GliykP82xUTAgHRBpxWP6",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c5b322d3996f009837db6442"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c5b322d3996f009837db6442"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c5b322d3996f009837db6442"
+      }
+     ],
+     "is_playable": true,
+     "name": "POST HUMAN: SURVIVAL HORROR",
+     "release_date": "2020-10-29",
+     "release_date_precision": "day",
+     "total_tracks": 9,
+     "type": "album",
+     "uri": "spotify:album:5GliykP82xUTAgHRBpxWP6"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq"
+      },
+      "href": "https://api.spotify.com/v1/artists/630wzNP2OL7fl4Xl0GnMWq",
+      "id": "630wzNP2OL7fl4Xl0GnMWq",
+      "name": "BABYMETAL",
+      "type": "artist",
+      "uri": "spotify:artist:630wzNP2OL7fl4Xl0GnMWq"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 220041,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001476"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4CsCWk5q6tnBnx9YDUGg3Q"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4CsCWk5q6tnBnx9YDUGg3Q",
+    "id": "4CsCWk5q6tnBnx9YDUGg3Q",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kingslayer (feat. BABYMETAL)",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:4CsCWk5q6tnBnx9YDUGg3Q"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 219605,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502083"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5x2yMj0jNlfzdTKyS06mj8"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5x2yMj0jNlfzdTKyS06mj8",
+    "id": "5x2yMj0jNlfzdTKyS06mj8",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Kingslayer - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 14,
+    "type": "track",
+    "uri": "spotify:track:5x2yMj0jNlfzdTKyS06mj8"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/34pF0wOGswprAZCsI8A1Fs"
+     },
+     "href": "https://api.spotify.com/v1/albums/34pF0wOGswprAZCsI8A1Fs",
+     "id": "34pF0wOGswprAZCsI8A1Fs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851e489bfa973464d0cef3a37a5"
+      }
+     ],
+     "is_playable": true,
+     "name": "Lo-files",
+     "release_date": "2025-07-11",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:34pF0wOGswprAZCsI8A1Fs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1XFN3VcuKr4tsTtQlRiTgK"
+      },
+      "href": "https://api.spotify.com/v1/artists/1XFN3VcuKr4tsTtQlRiTgK",
+      "id": "1XFN3VcuKr4tsTtQlRiTgK",
+      "name": "Mondo Loops",
+      "type": "artist",
+      "uri": "spotify:artist:1XFN3VcuKr4tsTtQlRiTgK"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 182764,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2500823"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/27lDLTm1KL0YsEdtMFUxgY"
+    },
+    "href": "https://api.spotify.com/v1/tracks/27lDLTm1KL0YsEdtMFUxgY",
+    "id": "27lDLTm1KL0YsEdtMFUxgY",
+    "is_local": false,
+    "is_playable": true,
+    "name": "king_sl@yer.fmk",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:27lDLTm1KL0YsEdtMFUxgY"
+   }
+  ]
+ }
+}

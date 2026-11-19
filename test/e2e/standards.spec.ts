@@ -10,7 +10,8 @@
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { download2027Response, incorrectKeyResponse, unknownUserResponse } from "../support/clashfinder.ts";
-import { busyResponse } from "../support/musicbrainz.ts";
+import { busyResponse, musicbrainzIds } from "../support/musicbrainz.ts";
+import { respondWithRecordedSetlistFm, setlistFmRecordedAt, setlistFmSetlistsUrl } from "../support/setlist-fm.ts";
 import { quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
 import { matchNames } from "./artist-match-steps.ts";
 import { largeFestival } from "./large-lineup.ts";
@@ -52,6 +53,23 @@ async function addDownloadAndSearch(page: Page, clashfinder: Clashfinder, musicB
 const artistMatches = "/admin/festivals/1/artist-matches";
 // The lineup name IDs come from the order of the names in the Clashfinder export.
 const theProdigy = 8;
+const bringMeTheHorizon = 5;
+
+// Saves the match for Bring Me The Horizon, and waits for its predicted songs.
+// The time is the time of the setlist.fm recording.
+async function matchBringMeTheHorizon(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify, testServer: TestServer) {
+  await testServer.setTime(setlistFmRecordedAt);
+  const responses: Promise<void>[] = [];
+  respondWithRecordedSetlistFm((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
+  await Promise.all(responses);
+  await spotify.willGiveRecordedArtists();
+  await addDownloadAndSearch(page, clashfinder, musicBrainz);
+  await page.getByRole("button", { name: "Save the match for Bring Me The Horizon" }).click();
+  await expect(async () => {
+    await page.reload();
+    await expect(page.getByText("Predicted songs: 10 songs from setlists")).toBeVisible({ timeout: 1_000 });
+  }).toPass();
+}
 
 // Saves the match for The Prodigy, and waits for its Spotify artist.
 async function matchTheProdigy(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify): Promise<void> {
@@ -243,6 +261,33 @@ const pages: StandardsPage[] = [
       await expect(async () => {
         await page.reload();
         await expect(page.getByRole("button", { name: "Find the Spotify artists again" })).toBeVisible();
+      }).toPass();
+    },
+  },
+  {
+    name: "Artist matches, predicted songs",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: matchBringMeTheHorizon,
+  },
+  {
+    name: "Predicted songs for one name",
+    path: `${artistMatches}/${bringMeTheHorizon}/predicted-songs`,
+    user: testAdmin,
+    setUp: matchBringMeTheHorizon,
+  },
+  {
+    name: "Artist matches, calculation of predicted songs stopped",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz, spotify, testServer) => {
+      await spotify.willGiveRecordedArtists();
+      await testServer.respondTo("GET", setlistFmSetlistsUrl(musicbrainzIds.bringMeTheHorizon, 1), { status: 403, body: "" });
+      await addDownloadAndSearch(page, clashfinder, musicBrainz);
+      await page.getByRole("button", { name: "Save the match for Bring Me The Horizon" }).click();
+      await expect(async () => {
+        await page.reload();
+        await expect(page.getByRole("button", { name: "Calculate the predicted songs again" })).toBeVisible({ timeout: 1_000 });
       }).toPass();
     },
   },

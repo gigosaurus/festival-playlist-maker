@@ -1,0 +1,322 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Shadow%20Moses%22%20artist%3A%22Bring%20Me%20The%20Horizon%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 4,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6IYPmM3xsOPL2XPSvf1ZAz"
+     },
+     "href": "https://api.spotify.com/v1/albums/6IYPmM3xsOPL2XPSvf1ZAz",
+     "id": "6IYPmM3xsOPL2XPSvf1ZAz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273566acaba72c5509e3887c4b0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02566acaba72c5509e3887c4b0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851566acaba72c5509e3887c4b0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Sempiternal (Expanded Edition)",
+     "release_date": "2013-04-01",
+     "release_date_precision": "day",
+     "total_tracks": 13,
+     "type": "album",
+     "uri": "spotify:album:6IYPmM3xsOPL2XPSvf1ZAz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 243327,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL1202153"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/68osIGtVjM7QWVe6pazLHj"
+    },
+    "href": "https://api.spotify.com/v1/tracks/68osIGtVjM7QWVe6pazLHj",
+    "id": "68osIGtVjM7QWVe6pazLHj",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Shadow Moses",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:68osIGtVjM7QWVe6pazLHj"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/34pF0wOGswprAZCsI8A1Fs"
+     },
+     "href": "https://api.spotify.com/v1/albums/34pF0wOGswprAZCsI8A1Fs",
+     "id": "34pF0wOGswprAZCsI8A1Fs",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02e489bfa973464d0cef3a37a5"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851e489bfa973464d0cef3a37a5"
+      }
+     ],
+     "is_playable": true,
+     "name": "Lo-files",
+     "release_date": "2025-07-11",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:34pF0wOGswprAZCsI8A1Fs"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     },
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1XFN3VcuKr4tsTtQlRiTgK"
+      },
+      "href": "https://api.spotify.com/v1/artists/1XFN3VcuKr4tsTtQlRiTgK",
+      "id": "1XFN3VcuKr4tsTtQlRiTgK",
+      "name": "Mondo Loops",
+      "type": "artist",
+      "uri": "spotify:artist:1XFN3VcuKr4tsTtQlRiTgK"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 166881,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2500841"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1mdSf2B1wLuUl3XQQEtc00"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1mdSf2B1wLuUl3XQQEtc00",
+    "id": "1mdSf2B1wLuUl3XQQEtc00",
+    "is_local": false,
+    "is_playable": true,
+    "name": "shadowm0ses.frq",
+    "track_number": 20,
+    "type": "track",
+    "uri": "spotify:track:1mdSf2B1wLuUl3XQQEtc00"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0tlzXZQXAeBUCXv3eHHjXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/0tlzXZQXAeBUCXv3eHHjXU",
+     "id": "0tlzXZQXAeBUCXv3eHHjXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734bf04a609598d017306916d8"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024bf04a609598d017306916d8"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514bf04a609598d017306916d8"
+      }
+     ],
+     "is_playable": true,
+     "name": "L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+     "release_date": "2026-04-10",
+     "release_date_precision": "day",
+     "total_tracks": 23,
+     "type": "album",
+     "uri": "spotify:album:0tlzXZQXAeBUCXv3eHHjXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 304440,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBARL2502078"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4mEutkx8Qhkl3iQlSOgJZb"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4mEutkx8Qhkl3iQlSOgJZb",
+    "id": "4mEutkx8Qhkl3iQlSOgJZb",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Shadow Moses - L.I.V.E. In São Paulo (Live Immersive Virtual Experiment)",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:4mEutkx8Qhkl3iQlSOgJZb"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+       },
+       "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+       "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+       "name": "Bring Me The Horizon",
+       "type": "artist",
+       "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5dH7StOKoPnNEbWh86MwFz"
+     },
+     "href": "https://api.spotify.com/v1/albums/5dH7StOKoPnNEbWh86MwFz",
+     "id": "5dH7StOKoPnNEbWh86MwFz",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02b75f7297bea89ed838a58a82"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851b75f7297bea89ed838a58a82"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Royal Albert Hall",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5dH7StOKoPnNEbWh86MwFz"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF"
+      },
+      "href": "https://api.spotify.com/v1/artists/1Ffb6ejR6Fe5IamqA5oRUF",
+      "id": "1Ffb6ejR6Fe5IamqA5oRUF",
+      "name": "Bring Me The Horizon",
+      "type": "artist",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 309764,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "GBARL2001566"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6FZFdnkWL4y3ALbU2gsOa7"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6FZFdnkWL4y3ALbU2gsOa7",
+    "id": "6FZFdnkWL4y3ALbU2gsOa7",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Shadow Moses - Live at the Royal Albert Hall",
+    "track_number": 10,
+    "type": "track",
+    "uri": "spotify:track:6FZFdnkWL4y3ALbU2gsOa7"
+   }
+  ]
+ }
+}

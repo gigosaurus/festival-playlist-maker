@@ -3,7 +3,7 @@ import { createApp } from "./app.ts";
 import { systemClock } from "./clock.ts";
 import { openDatabase } from "./database.ts";
 import { createFetchHttpClient } from "./http-client.ts";
-import type { Settings } from "./settings.ts";
+import { defaultPredictionSettings, type Settings } from "./settings.ts";
 
 function requiredSetting(name: string): string {
   const value = process.env[name]?.trim();
@@ -24,6 +24,8 @@ const settings: Settings = {
   clashfinderUsername: requiredSetting("CLASHFINDER_USERNAME"),
   clashfinderPrivateKey: requiredSetting("CLASHFINDER_PRIVATE_KEY"),
   musicbrainzContact: requiredSetting("MUSICBRAINZ_CONTACT"),
+  setlistFmApiKey: requiredSetting("SETLIST_FM_API_KEY"),
+  prediction: defaultPredictionSettings,
 };
 
 const database = openDatabase(databasePath);
