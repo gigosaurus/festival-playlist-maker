@@ -23,7 +23,7 @@ test("the Festivals page sends no outbound request through the HTTP client", asy
 });
 
 test("the test server runs the application with a fake clock that tests can set", async ({ testServer }) => {
-  // No page shows the time yet. Later tests use this route to set the time.
+  // publish-festival.spec.ts uses this route for the order of complete festivals.
   await testServer.setTime(new Date("2027-06-12T10:00:00Z"));
 
   expect(await testServer.time()).toEqual(new Date("2027-06-12T10:00:00Z"));

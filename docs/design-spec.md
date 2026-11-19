@@ -9,9 +9,9 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Page | Address | Principal task | Who | Status |
 |---|---|---|---|---|
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
-| Festivals | `/` | Choose a published festival | User | Empty state only (#3). The list design is part of #9. |
-| Festival | – | Set interest levels for the lineup, then make or update the playlist | User | Planned (#10) |
-| Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, and get a lineup again | Admin | Done (#6) |
+| Festivals | `/` | Choose a published festival | User | Done (#9) |
+| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | The title, the dates and the lineup only (#9). #10 adds the interest levels. |
+| Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, get a lineup again, and publish a festival | Admin | Done (#6, #9) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
 | Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings and Spotify artists | Admin | Done (#7, #8) |
 | Artist match for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}` | Search MusicBrainz with a different text, or change a match | Admin | Done (#7) |
@@ -65,7 +65,13 @@ The page has four states: no problem, not on the allowlist, cancelled and failed
 - **Principal task:** choose a published festival.
 - **Who and from where:** a user on the allowlist. In version 1, the user comes from the Spotify log in, from a bookmark or from the wordmark on a different page. The user knows the application and the festival that they go to.
 - **Necessary before the task:** the published festivals, with the year and the dates of each one (user story 7).
-- **Supporting detail:** none at this time. #9 adds playlist status and the order of festivals that are complete.
+- **Supporting detail:** none. The playlist status of each festival (user story 8) comes with the playlist.
+
+The festivals that are still to come show first, the next festival first. A festival is still to come on its last day. The complete festivals show below them, in the section "Complete festivals", the most recent festival first (user story 10). The section heading tells the user why the order changes. A festival is complete after midnight in the United Kingdom, because the users and the festivals are in the United Kingdom.
+
+Each festival is one panel that is one link. The full panel opens the Festival page, because the user selects a festival from the list (LY-02). The festival name has the link colour, so that the panel reads as a link before the pointer is on it.
+
+A festival that is not published does not show, and its Festival page address gives Page not found (user story 9).
 
 Empty state: no festival is published. The user cannot do the principal task. The user can ask "is the page broken, or is there nothing yet?" and "what do I do now?". The text answers both questions: there are no published festivals, and a festival shows when the admin publishes it. The user knows the admin, so the text does not give contact details.
 
@@ -78,10 +84,29 @@ Empty state: no festival is published. The user cannot do the principal task. Th
 | An introduction about what the application does | Remove | The user already knows the application. Nothing on the page gives a reason to ask (CP-07). |
 | Display name and "Log out" in the site header | Keep visible | Shows which Spotify account is logged in, and lets the user end the session on a shared device (user story 3). It is in the shared header, so that it is on each page (PB-01). |
 | An illustration in the empty state | Remove | It gives no information (DC-05, LY-01). |
+| Each published festival: name and year, dates, as one link to the Festival page | Keep visible | User stories 6 and 7. The name and the year identify the edition. |
+| Section "Complete festivals" | Keep visible, when a published festival is complete | Explains the order (user story 10). There is no heading for the festivals to come, because the page title already names them. |
+| The number of artists of each festival | Remove | It does not help the user choose a festival. |
+| A status label "On now" | Remove | The dates show it. |
+
+### Festival
+
+- **Principal task:** set interest levels for the lineup, then make or update the playlist. #10 adds the interest levels. Until then, the page shows the lineup.
+- **Who and from where:** a user, from a festival on the Festivals page, or from a bookmark.
+- **Necessary before the task:** the festival name, the year and the dates, and the artists on the lineup.
+- **Supporting detail:** none at this time.
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Festivals" above the title | Keep visible | The way back. It has the title of its destination (IA-05). |
+| Page title "{festival} {year}" | Keep visible | Identifies the festival. It is the playlist name. |
+| Dates | Keep visible | Identify the edition. |
+| Section "Lineup", the number of artists, and the artists in alphabetical order | Keep visible | User story 11. The names are the lineup names, as the festival gives them. |
+| Lineup names marked "no match" | Remove | They are not artists, and playlists get no songs for them. |
 
 ### Manage festivals
 
-- **Principal task:** see each festival and the state of its lineup. Start to add a festival.
+- **Principal task:** see each festival and the state of its lineup. Start to add a festival. Publish a festival when its artist matches are complete.
 - **Who and from where:** the admin, from the link "Manage festivals" in the site header, or after "Add the festival". The admin knows the festivals, Clashfinder and the `.env` file.
 - **Necessary before the task:** the festivals, the dates, the lineup source, the number of lineup names and the time of the last lineup. When the last attempt failed: the time, the cause and if the festival kept its lineup.
 - **Supporting detail:** the expected genres. The admin can check them before the artist matches (#7).
@@ -96,7 +121,12 @@ A failure caused by the API key needs a change to the `.env` file. The cause the
 | Button "Add a festival" | Keep visible | The principal action. It opens the Add a festival page (CT-04). |
 | Notice after an action | Keep visible, after an action only | States the completed action first (CP-03), or the failure. |
 | Festival name and year, dates | Keep visible | Identify the festival. The name and the year are the playlist name. |
-| Status label "Not published" | Keep visible | Tells the admin that users do not see the festival. #9 adds "Publish". |
+| Status label "Published" or "Not published" | Keep visible | Tells the admin if users see the festival. |
+| Button "Publish" | Keep visible, when the festival is not published, has a lineup and each lineup name has an artist match or a "no match" mark | The principal action for a festival with complete artist matches (user story 51). Hidden text names the festival for screen readers. A published festival has no "Publish" button. Version 1 has no action to remove a publication. |
+| Hint "You can publish the festival when each lineup name has an artist match or a “no match” mark." | Keep visible, instead of "Publish", when names have no match | The admin expects a publish action. The hint tells the admin why it is not there. The Artist matches fact above it gives the number of names without a match, so the hint does not repeat the number (IA-03). |
+| Hint "You can publish the festival when it has a lineup." | Keep visible, instead of "Publish", when the festival has no lineup | The same question, for a festival without a lineup. |
+| Notice "Published {festival}" with "Users can see it on the Festivals page." | Keep visible, after "Publish" only | CP-03. The page reads the state from the database (FN-02). |
+| Notice "The application did not publish {festival}" | Keep visible, after "Publish" with names without a match only | Possible from an old page, after a new lineup. The festival in the list shows the cause. |
 | Lineup source, with a link to the Clashfinder page | Keep visible | The admin can check the page that gives the lineup. |
 | Lineup: number of names and time | Keep visible | Answers "did the application get the lineup, and when?". |
 | Lineup problem: time, cause, "keeps its previous lineup" | Keep visible, after a failure only | User story 49. The admin decides to correct the source or to try again. |
@@ -243,7 +273,8 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Section heading | `h2` | 1.25rem | 650 | 1.3 | Ink | Sections and the empty-state heading |
 | Lead text | `.lead` | 1.125rem | 400 | 1.5 | Ink | The first sentence of a page that has no section heading, for example Page not found |
 | Body text | `body`, `p` | 1rem | 400 | 1.5 | Ink | Normal text |
-| Supporting text | `.empty-state p`, `.festival-dates` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
+| Supporting text | `.empty-state p`, `.festival-dates`, `.publication-hint`, `.lineup-count` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
+| Festival name in the festival list | `.festival-link .festival-name` | 1.125rem | 650 | 1.5 | Link | The festival name and year on the Festivals page. The link colour shows that the panel is a link. |
 | Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
 | Label | `.label`, `.facts dt`, `.status-label`, `.badge` | 0.875rem | 600 | 1.4 | Ink | Form labels, fact names and status labels. Labels use sentence case, not uppercase (VS-06). |
 | Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it |
@@ -271,12 +302,12 @@ The difference in size and weight between the page title and the section heading
 | Rule | `--colour-rule` | #ded5c9 | Panel borders and list dividers |
 | Brand | `--colour-brand` | #1c1626 | Site header band, browser icon, theme colour |
 | On brand | `--colour-on-brand` | #f6f2ec | Text on the brand colour |
-| Link | `--colour-link` | #a3134f | Links, the strip under the site header, and the background of the principal action button |
+| Link | `--colour-link` | #a3134f | Links (also the festival name in a festival link panel), the strip under the site header, the background of the principal action button, and the border of a festival link panel when the pointer is on it |
 | Action hover | `--colour-action-hover` | #85103f | Background of the principal action button when the pointer is on it |
 | Problem | `--colour-problem` | #b42318 | The strip on a notice or a field with a problem, and the text of a field problem |
 | Success | `--colour-success` | #1e7b4a | The strip on a confirmation notice. Not used for text. |
 | Warning | `--colour-warning` | #94510a | The text of a genre warning and of a Spotify artist warning, and the strip on a warning notice. A warning does not stop an action. A problem does. |
-| Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page, and of a secondary button when the pointer is on it |
+| Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page, and of a secondary button or a festival link panel when the pointer is on it |
 | Badge | `--colour-badge` | #efe8df | Background of status labels and badges |
 | Focus | `--colour-focus` | #a3134f | Focus indicator on the page and on surfaces |
 | Focus on brand | `--colour-focus-on-brand` | #ff9cc4 | Focus indicator in the site header |
@@ -319,8 +350,11 @@ The application has only a light colour scheme in version 1. The standards test 
 | Site header | Brand background, 4px strip in the link colour at the bottom, no radius, no shadow | Visual identity. The strip separates the header from the page. It is not interactive. |
 | Content column | Maximum width 60rem, side padding 1rem (2rem from 40rem width) | Keeps the header and the page content aligned, and keeps lines at a legible length. |
 | Empty-state panel | Surface background, 1px rule border, radius 12px (`--radius-panel`), no shadow, maximum width 36rem | Groups the empty-state message, so that it reads as a state of the page and not as a section. |
-| Festival list (temporary) | 1px rule dividers, no radius | A plain list until #9 designs the festival list. |
-| Principal action button | Link background, on-brand text, radius 8px (`--radius-control`), no border, no shadow. Action hover background when the pointer is on it. | The one principal action of a page, for example "Log in with Spotify". |
+| Festival link panel | Surface background, 1px rule border, radius 12px, no shadow. The name at the left, the dates at the right, or below the name on a narrow screen. When the pointer is on it: selected background, link border, underlined name. Maximum width 40rem. | One published festival on the Festivals page. The full panel is one link to the Festival page (LY-02). |
+| Complete festivals | Section heading, 2.5rem space above | Separates the complete festivals from the festivals to come. |
+| Lineup list | 1px rule dividers, no radius, maximum width 40rem | The artists on the Festival page. The rows are a list to scan, not separate items to compare. |
+| Publish button | The principal action button, in the festival panel above "Get the lineup again" | The principal action for one festival on Manage festivals. It shows only when the admin can publish the festival, so a page has few of them. |
+| Principal action button | Link background, on-brand text, radius 8px (`--radius-control`), no border, no shadow. Action hover background when the pointer is on it. | The one principal action of a page, for example "Log in with Spotify", or of one item in a list, for example "Publish" for one festival. |
 | Header button | Brand background, 1px on-brand border, on-brand text, radius 8px. Colours change places when the pointer is on it. | A secondary action in the site header: "Log out". The border shows that it is a button, without the emphasis of the principal action. |
 | Account | Display name, then the header button, at the right of the site header. A long display name ends with an ellipsis at 14rem. | Shows the logged-in account. On a narrow screen, it moves below the wordmark. |
 | Notice | Surface background, 1px rule border, 4px strip in the problem colour on the left, radius 12px, no shadow, maximum width 36rem | A problem that stopped the last action of the user. The strip shows the state. |

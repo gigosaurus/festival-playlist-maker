@@ -6,7 +6,8 @@ import { count, formatDateAndTime, formatDateRange } from "./format.ts";
 import { layout } from "./layout.ts";
 
 // The result of the last action of the admin on this page.
-export type LastAction = { action: "added" | "got-lineup"; festival: AdminFestival };
+// "publish": the admin selected "Publish". The page reads the result from the festival.
+export type LastAction = { action: "added" | "got-lineup" | "publish"; festival: AdminFestival };
 
 // unmatchedNames: for each festival ID, the number of current lineup names without an artist match.
 export function adminFestivalsPage(
@@ -78,6 +79,7 @@ function festivalItem(festival: AdminFestival, unmatched: number) {
         </div>
       </dl>
       ${festival.lineupProblem ? lineupProblem(festival, festival.lineupProblem) : ""}
+      ${festival.published ? "" : publication(festival, unmatched)}
       <form method="post" action="/admin/festivals/${festival.id}/lineup">
         <button class="button-secondary" type="submit">
           ${festival.lineupUpdatedAt ? "Get the lineup again" : "Get the lineup"}<span class="visually-hidden">
@@ -85,6 +87,26 @@ function festivalItem(festival: AdminFestival, unmatched: number) {
         </button>
       </form>
     </article>
+  `;
+}
+
+// The publish action shows only when the admin can publish the festival (user story 51).
+// Before that, the text tells the admin what to do first. The Artist matches fact above gives the number.
+function publication(festival: AdminFestival, unmatched: number) {
+  if (festival.lineupNames === 0) {
+    return html`<p class="publication-hint">You can publish the festival when it has a lineup.</p>`;
+  }
+  if (unmatched > 0) {
+    return html`<p class="publication-hint">
+      You can publish the festival when each lineup name has an artist match or a “no match” mark.
+    </p>`;
+  }
+  return html`
+    <form class="publication" method="post" action="/admin/festivals/${festival.id}/publish">
+      <button class="button" type="submit">
+        Publish<span class="visually-hidden"> <span data-external-text>${festivalTitle(festival)}</span></span>
+      </button>
+    </form>
   `;
 }
 
@@ -114,6 +136,7 @@ function lineupProblem(festival: AdminFestival, problem: { at: Date; cause: stri
 
 function lastActionNotice({ action, festival }: LastAction) {
   const title = festivalTitle(festival);
+  if (action === "publish") return publishNotice(festival);
   const failed = festival.lineupProblem !== undefined;
   const names = count(festival.lineupNames, "lineup name", "lineup names");
   if (action === "added" && !failed) {
@@ -130,6 +153,21 @@ function lastActionNotice({ action, festival }: LastAction) {
   return html`
     <section class="notice" aria-labelledby="last-action-heading">
       <h2 id="last-action-heading">${heading}</h2>
+      <p>The cause is with the festival in the list.</p>
+    </section>
+  `;
+}
+
+// The festival is published, or the admin cannot publish it yet. The cause of the
+// second result is with the festival in the list.
+function publishNotice(festival: AdminFestival) {
+  const title = festivalTitle(festival);
+  if (festival.published) {
+    return confirmation(html`Published <span data-external-text>${title}</span>`, "Users can see it on the Festivals page.");
+  }
+  return html`
+    <section class="notice" aria-labelledby="last-action-heading">
+      <h2 id="last-action-heading">The application did not publish <span data-external-text>${title}</span></h2>
       <p>The cause is with the festival in the list.</p>
     </section>
   `;

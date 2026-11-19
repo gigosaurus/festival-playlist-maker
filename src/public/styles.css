@@ -685,21 +685,82 @@ a.button {
   max-width: 40rem;
 }
 
-/* Festival list (temporary, see #9) */
+/* Festival list: the published festivals on the Festivals page. Each panel is one link. */
 .festival-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  gap: 0.75rem;
+  max-width: 40rem;
+}
+
+.festival-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--colour-surface);
+  border: 1px solid var(--colour-rule);
+  border-radius: var(--radius-panel);
+  color: var(--colour-ink);
+  text-decoration: none;
+}
+
+.festival-link:hover {
+  background: var(--colour-selected);
+  border-color: var(--colour-link);
+}
+
+/* The festival name has the link colour, so that the panel reads as a link (VS-04). */
+.festival-link .festival-name {
+  color: var(--colour-link);
+  font-size: 1.125rem;
+  overflow-wrap: anywhere;
+}
+
+.festival-link:hover .festival-name {
+  text-decoration: underline;
+}
+
+.complete-festivals {
+  margin-top: 2.5rem;
+}
+
+/* Publication on Manage festivals */
+.publication {
+  margin: 0 0 1rem;
+}
+
+.publication-hint {
+  margin: 0 0 1rem;
+  color: var(--colour-muted);
+}
+
+/* Festival page */
+.festival-page-dates {
+  margin: -0.5rem 0 2rem;
+}
+
+.lineup-count {
+  margin: 0 0 0.75rem;
+  color: var(--colour-muted);
+}
+
+.lineup-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 40rem;
   border-top: 1px solid var(--colour-rule);
 }
 
-.festival-list li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.25rem 1rem;
-  padding: 0.875rem 0;
+.lineup-list li {
+  padding: 0.625rem 0;
   border-bottom: 1px solid var(--colour-rule);
+  overflow-wrap: anywhere;
 }
 
 .festival-name {
