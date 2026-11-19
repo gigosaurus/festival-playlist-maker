@@ -1,3 +1,4 @@
+import { festivalArtistMatches } from "./artist-matches.ts";
 import type { Database } from "./database.ts";
 import type { ValidFestival } from "./festival-form.ts";
 import type { LineupSourceSettings } from "./lineup-source.ts";
@@ -10,22 +11,69 @@ export interface PublishedFestival {
   endDate: string;
 }
 
-export function listPublishedFestivals(database: Database): PublishedFestival[] {
-  const rows = database
+// The published festivals for the Festivals page. A festival is complete after
+// its last day. The festivals that are still to come include a festival that is
+// on today. They show first, the next festival first. The complete festivals
+// show below them, the most recent festival first (user story 10).
+// today: the ISO date in the time zone of the users (see londonDate).
+export function listPublishedFestivals(database: Database, today: string): { toCome: PublishedFestival[]; complete: PublishedFestival[] } {
+  const festivals = database
     .prepare(
       `SELECT id, name, year, start_date, end_date
        FROM festival
        WHERE published = 1
        ORDER BY start_date, name`,
     )
-    .all() as { id: number; name: string; year: number; start_date: string; end_date: string }[];
-  return rows.map((row) => ({
-    id: row.id,
-    name: row.name,
-    year: row.year,
-    startDate: row.start_date,
-    endDate: row.end_date,
-  }));
+    .all() as unknown as PublishedFestivalRow[];
+  const all = festivals.map(toPublishedFestival);
+  return {
+    toCome: all.filter((festival) => festival.endDate >= today),
+    complete: all.filter((festival) => festival.endDate < today).reverse(),
+  };
+}
+
+export function findPublishedFestival(database: Database, id: number): PublishedFestival | undefined {
+  const row = database
+    .prepare("SELECT id, name, year, start_date, end_date FROM festival WHERE id = ? AND published = 1")
+    .get(id) as PublishedFestivalRow | undefined;
+  return row === undefined ? undefined : toPublishedFestival(row);
+}
+
+// The date in the United Kingdom, where the users and the festivals are. A
+// festival is complete at midnight in the United Kingdom, not in UTC.
+export function londonDate(time: Date): string {
+  return londonDateFormat.format(time);
+}
+
+// The en-CA locale gives ISO dates, for example "2027-06-11".
+const londonDateFormat = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/London" });
+
+interface PublishedFestivalRow {
+  id: number;
+  name: string;
+  year: number;
+  start_date: string;
+  end_date: string;
+}
+
+function toPublishedFestival(row: PublishedFestivalRow): PublishedFestival {
+  return { id: row.id, name: row.name, year: row.year, startDate: row.start_date, endDate: row.end_date };
+}
+
+// The result of an attempt to publish a festival. "unmatched": the number of
+// current lineup names without an artist match and without a "no match" mark.
+export type PublishResult = { outcome: "published" } | { outcome: "no-lineup" } | { outcome: "unmatched"; unmatched: number };
+
+// The admin can publish a festival only when each name on its lineup has an
+// artist match or is marked "no match" (user story 51). A festival without a
+// lineup has nothing for users to see, so the admin cannot publish it.
+export function publishFestival(database: Database, id: number): PublishResult {
+  const names = festivalArtistMatches(database, id);
+  if (names.length === 0) return { outcome: "no-lineup" };
+  const unmatched = names.filter((name) => name.match === undefined).length;
+  if (unmatched > 0) return { outcome: "unmatched", unmatched };
+  database.prepare("UPDATE festival SET published = 1 WHERE id = ?").run(id);
+  return { outcome: "published" };
 }
 
 // A festival as the admin sees it on the festival list.

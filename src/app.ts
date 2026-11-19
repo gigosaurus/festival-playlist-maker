@@ -18,7 +18,15 @@ import { createClashfinder } from "./clashfinder.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
 import { readFestivalForm, searchDates, validateFestival, type FestivalFormValues, type FieldProblems } from "./festival-form.ts";
-import { addFestival, findFestivalForAdmin, listFestivalsForAdmin, listPublishedFestivals } from "./festivals.ts";
+import {
+  addFestival,
+  findFestivalForAdmin,
+  findPublishedFestival,
+  listFestivalsForAdmin,
+  listPublishedFestivals,
+  londonDate,
+  publishFestival,
+} from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
 import { getFestivalLineup } from "./lineups.ts";
 import { createMusicBrainz, type MusicBrainzArtist } from "./musicbrainz.ts";
@@ -27,6 +35,7 @@ import { artistMatchesPage } from "./pages/artist-matches-page.ts";
 import { addFestivalPage, type AddFestivalPageState } from "./pages/add-festival-page.ts";
 import { adminFestivalsPage, type LastAction } from "./pages/admin-festivals-page.ts";
 import { adminOnlyPage } from "./pages/admin-only-page.ts";
+import { festivalPage } from "./pages/festival-page.ts";
 import { festivalsPage } from "./pages/festivals-page.ts";
 import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-page.ts";
 import { notFoundPage } from "./pages/not-found-page.ts";
@@ -220,6 +229,14 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     return context.redirect(`/admin/festivals?lineup=${id}`, 303);
   });
 
+  // The festival list shows the result: published, or the cause (FN-02).
+  app.post("/admin/festivals/:id/publish", (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    publishFestival(database, festival.id);
+    return context.redirect(`/admin/festivals?publish=${festival.id}`, 303);
+  });
+
   app.get("/admin/festivals/:id/artist-matches", (context) => {
     const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
     if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
@@ -331,7 +348,19 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     return context.redirect(`/admin/festivals/${festival.id}/artist-matches?saved=${name.lineupNameId}`, 303);
   });
 
-  app.get("/", (context) => context.html(festivalsPage(context.var.user!, listPublishedFestivals(database))));
+  app.get("/", (context) =>
+    context.html(festivalsPage(context.var.user!, listPublishedFestivals(database, londonDate(clock.now())))),
+  );
+
+  // A festival that is not published does not exist for users (user story 9).
+  app.get("/festivals/:id", (context) => {
+    const festival = findPublishedFestival(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const artists = festivalArtistMatches(database, festival.id)
+      .filter((name) => name.match?.kind === "artist")
+      .map((name) => name.name);
+    return context.html(festivalPage(context.var.user!, festival, artists));
+  });
 
   app.notFound((context) => context.html(notFoundPage(context.var.user!), 404));
 
@@ -431,7 +460,13 @@ function localAddress(value: string | undefined): string {
 // page reads the result from the database, so it shows the actual state (FN-02).
 function readLastAction(query: Record<string, string>, festivals: ReturnType<typeof listFestivalsForAdmin>): LastAction | undefined {
   const [action, value] =
-    query.added !== undefined ? (["added", query.added] as const) : query.lineup !== undefined ? (["got-lineup", query.lineup] as const) : [];
+    query.added !== undefined
+      ? (["added", query.added] as const)
+      : query.lineup !== undefined
+        ? (["got-lineup", query.lineup] as const)
+        : query.publish !== undefined
+          ? (["publish", query.publish] as const)
+          : [];
   if (action === undefined) return undefined;
   const festival = festivals.find((each) => String(each.id) === value);
   return festival === undefined ? undefined : { action, festival };

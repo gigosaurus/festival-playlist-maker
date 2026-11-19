@@ -12,6 +12,7 @@ import type { Page } from "@playwright/test";
 import { download2027Response, incorrectKeyResponse, unknownUserResponse } from "../support/clashfinder.ts";
 import { busyResponse } from "../support/musicbrainz.ts";
 import { quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
+import { matchNames } from "./artist-match-steps.ts";
 import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz, type Spotify, type TestServer } from "./fixtures.ts";
 
 interface StandardsPage {
@@ -62,6 +63,27 @@ async function matchTheProdigy(page: Page, clashfinder: Clashfinder, musicBrainz
   }).toPass();
 }
 
+// Adds Download 2027 and matches each lineup name. The test logs in the user after this.
+async function matchDownload(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify): Promise<void> {
+  await spotify.willGiveRecordedArtists();
+  await addDownloadAndSearch(page, clashfinder, musicBrainz);
+  await matchNames(page);
+}
+
+// Publishes Download 2027 as the admin, then logs in the user.
+async function publishDownloadForUser(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify): Promise<void> {
+  await matchDownload(page, clashfinder, musicBrainz, spotify);
+  await page.goto("/admin/festivals");
+  await page.getByRole("button", { name: "Publish Download 2027" }).click();
+  await expect(page.getByRole("heading", { name: "Published Download 2027" })).toBeVisible();
+  await page.context().clearCookies();
+  await spotify.willLogIn(testUser);
+  await spotify.answerAuthorisation("agree");
+  await page.goto("/log-in");
+  await page.getByRole("button", { name: "Log in with Spotify" }).click();
+  await expect(page.getByRole("button", { name: "Log out" })).toBeVisible();
+}
+
 const pages: StandardsPage[] = [
   { name: "Log in page", path: "/log-in" },
   { name: "Log in page, not on the allowlist", path: "/log-in?problem=not-on-allowlist" },
@@ -69,6 +91,22 @@ const pages: StandardsPage[] = [
   { name: "Log in page, failed", path: "/log-in?problem=failed" },
   { name: "Festivals page, empty state", path: "/", user: testUser },
   { name: "Page not found", path: "/no-such-page", user: testUser },
+  {
+    name: "Festivals page, a complete festival",
+    path: "/",
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz, spotify, testServer) => {
+      await publishDownloadForUser(page, clashfinder, musicBrainz, spotify);
+      // Download 2027 is complete, so the page shows the section "Complete festivals".
+      await testServer.setTime(new Date("2027-07-01T12:00:00Z"));
+    },
+  },
+  {
+    name: "Festival page",
+    path: "/festivals/1",
+    user: testAdmin,
+    setUp: publishDownloadForUser,
+  },
   { name: "Admin page for a user who is not the admin", path: "/admin/festivals", user: testUser },
   { name: "Manage festivals, empty state", path: "/admin/festivals", user: testAdmin },
   {
@@ -82,6 +120,28 @@ const pages: StandardsPage[] = [
     path: "/admin/festivals?added=1",
     user: testAdmin,
     setUp: (page, clashfinder) => addDownload(page, clashfinder, incorrectKeyResponse),
+  },
+  {
+    name: "Manage festivals, festival ready to publish",
+    path: "/admin/festivals",
+    user: testAdmin,
+    setUp: matchDownload,
+  },
+  {
+    name: "Manage festivals, festival published",
+    path: "/admin/festivals?publish=1",
+    user: testAdmin,
+    setUp: async (page, clashfinder, musicBrainz, spotify) => {
+      await matchDownload(page, clashfinder, musicBrainz, spotify);
+      await page.goto("/admin/festivals");
+      await page.getByRole("button", { name: "Publish Download 2027" }).click();
+    },
+  },
+  {
+    name: "Manage festivals, festival not published",
+    path: "/admin/festivals?publish=1",
+    user: testAdmin,
+    setUp: (page, clashfinder) => addDownload(page, clashfinder, download2027Response),
   },
   { name: "Add a festival", path: "/admin/festivals/new", user: testAdmin },
   { name: "Add a festival, problems", path: "/admin/festivals/new?search=", user: testAdmin },
