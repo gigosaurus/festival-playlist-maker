@@ -741,7 +741,37 @@ a.button {
 
 /* Festival page */
 .festival-page-dates {
-  margin: -0.5rem 0 2rem;
+  margin: -0.5rem 0 1rem;
+}
+
+.playlist-count {
+  margin: 0 0 2rem;
+}
+
+/* Search, filter and sort of the lineup. The script shows them. */
+.lineup-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.lineup-tools[hidden],
+.lineup-action[hidden],
+.lineup-save[hidden],
+.artist[hidden] {
+  display: none;
+}
+
+/* The two selects share one row on a narrow screen. */
+.lineup-tool {
+  flex: 1 1 9rem;
+  min-width: 0;
+}
+
+.lineup-tool-search {
+  flex: 1 1 16rem;
 }
 
 .lineup-count {
@@ -749,18 +779,113 @@ a.button {
   color: var(--colour-muted);
 }
 
+.lineup-action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1rem;
+  color: var(--colour-muted);
+}
+
 .lineup-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 40rem;
   border-top: 1px solid var(--colour-rule);
 }
 
-.lineup-list li {
-  padding: 0.625rem 0;
+/* One artist: the name and the genres, then the interest levels at the right,
+   or below the name on a narrow screen. */
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 0.75rem 0;
   border-bottom: 1px solid var(--colour-rule);
+}
+
+.artist-text {
+  flex: 1 1 14rem;
+  min-width: 0;
+}
+
+.artist-text p {
+  margin: 0;
   overflow-wrap: anywhere;
+}
+
+.artist-name {
+  font-weight: 650;
+}
+
+.artist-genres {
+  color: var(--colour-muted);
+  font-size: 0.9375rem;
+}
+
+.artist-problem {
+  flex: 1 1 100%;
+  margin: 0;
+}
+
+/* The interest levels of one artist: four radio buttons that look like
+   segments. The radio button covers its segment, so that the full segment
+   selects it. */
+.levels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  flex: 1 1 100%;
+}
+
+.level {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--colour-rule);
+  border-radius: var(--radius-control);
+  background: var(--colour-surface);
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.level:hover {
+  background: var(--colour-selected);
+}
+
+/* The chosen level: a 2px border. The padding is 1px less, so that the text does not move. */
+.level:has(.level-input:checked) {
+  padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
+  border: 2px solid var(--colour-link);
+  background: var(--colour-selected);
+  color: var(--colour-link);
+  font-weight: 650;
+}
+
+.level:has(.level-input:focus-visible) {
+  outline: 3px solid var(--colour-focus);
+  outline-offset: 2px;
+}
+
+.level-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.lineup-save {
+  margin: 1.5rem 0 0;
 }
 
 .festival-name {
@@ -778,5 +903,12 @@ a.button {
 
   .facts div {
     grid-template-columns: 9rem 1fr;
+  }
+}
+
+@media (min-width: 48rem) {
+  .levels {
+    flex: 0 0 auto;
+    grid-template-columns: repeat(4, 8rem);
   }
 }

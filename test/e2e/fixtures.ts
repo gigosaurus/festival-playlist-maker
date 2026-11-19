@@ -18,6 +18,18 @@ export interface TestServer {
   sentHttpRequests(): Promise<{ method: string; url: string; body?: string }[]>;
   // Each pause that the application asked the fake clock for, in milliseconds.
   sleeps(): Promise<number[]>;
+  // Adds a published festival with artist matches, without the admin pages. Gives its ID.
+  addPublishedFestival(festival: TestFestival): Promise<number>;
+}
+
+export interface TestFestival {
+  name: string;
+  year: number;
+  startDate: string;
+  endDate: string;
+  artists: { name: string; genres: string[] }[];
+  // Lineup names marked "no match".
+  noMatch: string[];
 }
 
 export interface Clashfinder {
@@ -84,6 +96,11 @@ export const test = base.extend<{
         expectOk(request.post("/__test/http-responses", { data: { method, url, response } })),
       sentHttpRequests: async () => (await request.get("/__test/http-requests")).json(),
       sleeps: async () => (await request.get("/__test/sleeps")).json(),
+      addPublishedFestival: async (festival) => {
+        const response = await request.post("/__test/published-festivals", { data: festival });
+        expect(response.ok(), await response.text()).toBe(true);
+        return (await response.json()).id;
+      },
     });
   },
   clashfinder: async ({ testServer }, use) => {

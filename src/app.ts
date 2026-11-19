@@ -28,6 +28,7 @@ import {
   publishFestival,
 } from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
+import { festivalLineup, isInterestLevel, saveInterestLevels, type InterestLevel } from "./interest-levels.ts";
 import { getFestivalLineup } from "./lineups.ts";
 import { createMusicBrainz, type MusicBrainzArtist } from "./musicbrainz.ts";
 import { artistMatchPage, type ArtistMatchPageState } from "./pages/artist-match-page.ts";
@@ -64,6 +65,7 @@ const publicDirectory = join(import.meta.dirname, "public");
 const staticFiles = {
   "/styles.css": { type: "text/css; charset=utf-8", body: readFileSync(join(publicDirectory, "styles.css")) },
   "/favicon.svg": { type: "image/svg+xml", body: readFileSync(join(publicDirectory, "favicon.svg")) },
+  "/festival-page.js": { type: "text/javascript; charset=utf-8", body: readFileSync(join(publicDirectory, "festival-page.js")) },
 };
 
 const sessionCookie = "session";
@@ -356,10 +358,31 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   app.get("/festivals/:id", (context) => {
     const festival = findPublishedFestival(database, Number(context.req.param("id")));
     if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
-    const artists = festivalArtistMatches(database, festival.id)
-      .filter((name) => name.match?.kind === "artist")
-      .map((name) => name.name);
-    return context.html(festivalPage(context.var.user!, festival, artists));
+    const user = context.var.user!;
+    const artists = festivalLineup(database, festival.id, user.id);
+    return context.html(festivalPage(user, { festival, artists, saved: context.req.query("saved") !== undefined }));
+  });
+
+  // Saves interest levels. Each field "level-{lineup name ID}" has one level.
+  // The script on the Festival page sends one field for each change, and asks
+  // for JSON. A browser without JavaScript sends the full form, and gets the
+  // Festival page again.
+  app.post("/festivals/:id/interest-levels", async (context) => {
+    const festival = findPublishedFestival(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const levels = new Map<number, InterestLevel>();
+    for (const [field, value] of Object.entries(await context.req.parseBody())) {
+      const id = /^level-(\d+)$/.exec(field)?.[1];
+      if (id === undefined) continue;
+      if (!isInterestLevel(value)) return context.text(`The interest level of ${field} is not valid.`, 400);
+      levels.set(Number(id), value);
+    }
+    const result = saveInterestLevels(database, festival.id, context.var.user!.id, levels);
+    if (result.outcome === "not-on-lineup") {
+      return context.text(`Lineup name ${result.lineupNameId} is not an artist on the lineup of this festival.`, 400);
+    }
+    if (context.req.header("accept")?.includes("application/json")) return context.json({ saved: levels.size });
+    return context.redirect(`/festivals/${festival.id}?saved`, 303);
   });
 
   app.notFound((context) => context.html(notFoundPage(context.var.user!), 404));
