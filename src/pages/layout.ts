@@ -12,10 +12,12 @@ export interface PageOptions {
   description: string;
   // The logged-in user. A page for a person who is not logged in has no user.
   user?: User;
+  // Scripts that the page needs. Each script is a module, so it runs after the page loads.
+  scripts?: string[];
   body: Content;
 }
 
-export function layout({ title, description, user, body }: PageOptions): Content {
+export function layout({ title, description, user, scripts = [], body }: PageOptions): Content {
   return html`<!doctype html>
 <html lang="en-GB">
   <head>
@@ -27,6 +29,7 @@ export function layout({ title, description, user, body }: PageOptions): Content
     <meta name="theme-color" content="#1c1626">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/styles.css">
+    ${scripts.map((script) => html`<script type="module" src="${script}"></script>`)}
   </head>
   <body>
     <header class="site-header">

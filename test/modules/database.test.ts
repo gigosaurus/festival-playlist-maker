@@ -35,7 +35,8 @@ test("openDatabase migrates a database file that has an earlier schema version",
   current.close();
 
   // A file with schema version 0 is a file from before the first migration.
-  const earlier = new DatabaseSync(path);
+  // Without foreign keys, the order of the tables is not important.
+  const earlier = new DatabaseSync(path, { enableForeignKeyConstraints: false });
   for (const { name } of earlier.prepare("SELECT name FROM sqlite_schema WHERE type = 'table'").all()) {
     earlier.exec(`DROP TABLE "${String(name)}"`);
   }

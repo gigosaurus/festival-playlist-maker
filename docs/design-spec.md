@@ -10,7 +10,7 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 |---|---|---|---|---|
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
 | Festivals | `/` | Choose a published festival | User | Done (#9) |
-| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | The title, the dates and the lineup only (#9). #10 adds the interest levels. |
+| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). #15 adds the playlist. |
 | Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, get a lineup again, and publish a festival | Admin | Done (#6, #9) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
 | Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings and Spotify artists | Admin | Done (#7, #8) |
@@ -91,18 +91,39 @@ Empty state: no festival is published. The user cannot do the principal task. Th
 
 ### Festival
 
-- **Principal task:** set interest levels for the lineup, then make or update the playlist. #10 adds the interest levels. Until then, the page shows the lineup.
-- **Who and from where:** a user, from a festival on the Festivals page, or from a bookmark.
-- **Necessary before the task:** the festival name, the year and the dates, and the artists on the lineup.
-- **Supporting detail:** none at this time.
+- **Principal task:** set the interest level of each artist on the lineup. Later, make or update the playlist (#15).
+- **Who and from where:** a user, from a festival on the Festivals page, or from a bookmark. The user knows the festival and some of its artists. The user usually sets the levels over several visits (user story 19).
+- **Necessary before the task:** the festival, the artists on the lineup, the genres of each artist (user story 17), and the interest level of each artist.
+- **Supporting detail:** the number of artists that the playlist will contain (user story 20). The search, the filter and the sort.
+
+A lineup has approximately 150 artists, so one action sets a level (user story 14). Each artist has four radio buttons that look like segments. A selection saves the level immediately. With the keyboard, Tab moves from artist to artist, and the arrow keys change the level. Each level that the user sets is saved. A different user has different levels.
+
+The application saves each change in the background, so the page shows no confirmation. When a save fails, the artist shows the level that the application saved last, and the problem under the artist (FN-02). The playlist count changes only after a save.
+
+The search, the filter and the sort apply together (FN-05). The address keeps them, so that a reload and Back show the same list. A change of interest level does not hide or move an artist. Otherwise, the artist can leave the screen before the user can correct a mistake. When the list is out of date, the page tells the user and gives "Update the list" (CP-01: the user sees an artist that does not agree with the filter).
+
+Without JavaScript, the radio buttons are one form, and "Save the interest levels" saves all of them. The search, the filter and the sort do not show, because they need the script.
+
+Empty states: a search or a filter without results says which condition gave no artist, and gives "Show all artists".
 
 | Content | Decision | Reason |
 |---|---|---|
 | Link "Festivals" above the title | Keep visible | The way back. It has the title of its destination (IA-05). |
 | Page title "{festival} {year}" | Keep visible | Identifies the festival. It is the playlist name. |
 | Dates | Keep visible | Identify the edition. |
-| Section "Lineup", the number of artists, and the artists in alphabetical order | Keep visible | User story 11. The names are the lineup names, as the festival gives them. |
+| "The playlist will contain N of M artists." | Keep visible | User story 20. Artists at Not interested get no songs. #15 adds the number of songs and the action that makes the playlist. |
+| Section "Lineup" | Keep visible | The principal task. |
+| Search field "Search by artist name", select "Interest level", select "Sort by" | Keep visible, with the script only | User stories 15 and 16. The accents and the case are not important in the search. |
+| The number of artists in the list ("150 artists", "12 of 150 artists") | Keep visible | Shows the result of the search and the filter. |
+| "No artist matches “…”.", "No artist has the interest level …", and "Show all artists" | Keep visible, when the list is empty | FN-04 empty state. Names the condition that gave no result. |
+| "Your last changes do not move or hide artists until you update the list." and "Update the list" | Keep visible, after a change that the filter or the sort does not show yet | Explains why an artist does not agree with the filter or the order. |
+| Each artist: lineup name, the first 3 genres, the four interest levels | Keep visible | User stories 11 to 13 and 17. The names are the lineup names, as the festival gives them. An artist without genres on MusicBrainz shows no genre line. |
+| "The application did not save the interest level. Select it again." | Keep visible, under the artist, after a failed save | FN-02. The level goes back to the saved level. |
+| Button "Save the interest levels" and the notice "Saved the interest levels" | Keep visible, without JavaScript only | The form needs a submit action when the script does not run. |
 | Lineup names marked "no match" | Remove | They are not artists, and playlists get no songs for them. |
+| A save button or a confirmation for each change | Remove | Each change saves immediately. A failure shows under the artist. |
+| Text that explains the default level Curious | Remove | Each artist shows Curious as the chosen level. Nothing on the page gives a reason to ask (CP-07). |
+| The number of songs for each level | Remove until #15 | The playlist does not exist yet. |
 
 ### Manage festivals
 
@@ -273,11 +294,15 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Section heading | `h2` | 1.25rem | 650 | 1.3 | Ink | Sections and the empty-state heading |
 | Lead text | `.lead` | 1.125rem | 400 | 1.5 | Ink | The first sentence of a page that has no section heading, for example Page not found |
 | Body text | `body`, `p` | 1rem | 400 | 1.5 | Ink | Normal text |
-| Supporting text | `.empty-state p`, `.festival-dates`, `.publication-hint`, `.lineup-count` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
+| Supporting text | `.empty-state p`, `.festival-dates`, `.publication-hint`, `.lineup-count`, `.lineup-action` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
+| Playlist count | `.playlist-count` | 1rem | 400 | 1.5 | Ink | "The playlist will contain N of M artists." on the Festival page. Ink, because it is information for a decision, not a qualification. |
+| Artist name | `.artist-name` | 1rem | 650 | 1.5 | Ink | The lineup name of one artist on the Festival page |
+| Artist genres | `.artist-genres` | 0.9375rem | 400 | 1.5 | Muted | The genres under the artist name |
+| Interest level | `.level` | 0.9375rem | 400, 650 when chosen | 1.25 | Ink, Link when chosen | The label of one interest level. The weight and the colour show the chosen level together with the border. |
 | Festival name in the festival list | `.festival-link .festival-name` | 1.125rem | 650 | 1.5 | Link | The festival name and year on the Festivals page. The link colour shows that the panel is a link. |
 | Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
 | Label | `.label`, `.facts dt`, `.status-label`, `.badge` | 0.875rem | 600 | 1.4 | Ink | Form labels, fact names and status labels. Labels use sentence case, not uppercase (VS-06). |
-| Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it |
+| Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it, and a failed save of an interest level |
 | Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page or a MusicBrainz artist in a list of choices |
 | Lineup name heading | `.match-item-heading` | 1.125rem | 650 | 1.4 | Ink | One lineup name on Admin: artist matches. Smaller than a section heading, larger than a choice label. |
 | Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres" and "Warning: no Spotify artist found". The text starts with "Warning", so the colour is not the only sign. |
@@ -307,7 +332,7 @@ The difference in size and weight between the page title and the section heading
 | Problem | `--colour-problem` | #b42318 | The strip on a notice or a field with a problem, and the text of a field problem |
 | Success | `--colour-success` | #1e7b4a | The strip on a confirmation notice. Not used for text. |
 | Warning | `--colour-warning` | #94510a | The text of a genre warning and of a Spotify artist warning, and the strip on a warning notice. A warning does not stop an action. A problem does. |
-| Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page, and of a secondary button or a festival link panel when the pointer is on it |
+| Selected | `--colour-selected` | #f9eef2 | Background of the chosen Clashfinder page and the chosen interest level, and of a secondary button, a festival link panel or an interest level when the pointer is on it |
 | Badge | `--colour-badge` | #efe8df | Background of status labels and badges |
 | Focus | `--colour-focus` | #a3134f | Focus indicator on the page and on surfaces |
 | Focus on brand | `--colour-focus-on-brand` | #ff9cc4 | Focus indicator in the site header |
@@ -352,7 +377,9 @@ The application has only a light colour scheme in version 1. The standards test 
 | Empty-state panel | Surface background, 1px rule border, radius 12px (`--radius-panel`), no shadow, maximum width 36rem | Groups the empty-state message, so that it reads as a state of the page and not as a section. |
 | Festival link panel | Surface background, 1px rule border, radius 12px, no shadow. The name at the left, the dates at the right, or below the name on a narrow screen. When the pointer is on it: selected background, link border, underlined name. Maximum width 40rem. | One published festival on the Festivals page. The full panel is one link to the Festival page (LY-02). |
 | Complete festivals | Section heading, 2.5rem space above | Separates the complete festivals from the festivals to come. |
-| Lineup list | 1px rule dividers, no radius, maximum width 40rem | The artists on the Festival page. The rows are a list to scan, not separate items to compare. |
+| Lineup list | 1px rule dividers, no radius, full column width. Each row: the name and the genres at the left, the interest levels at the right. Below 48rem width, the interest levels go below the name, with four equal columns. | The artists on the Festival page. The rows are a list to scan, not separate items to compare. |
+| Interest levels | Four segments, each one a radio button that covers the segment. Surface background, 1px rule border, radius 8px, minimum height 2.75rem. Chosen: 2px link border, selected background, link text, weight 650. Pointer on it: selected background. Keyboard focus: the focus indicator around the segment. | The interest level of one artist. The chosen state is the same as the page choice (PB-01). Each segment is a large target for touch (WCAG 2.5.8). |
+| Lineup tools | Search field, then two selects, on one row. On a narrow screen, the search field has its own row and the two selects share the next row. | Search, filter and sort on the Festival page. They show only when the script runs. |
 | Publish button | The principal action button, in the festival panel above "Get the lineup again" | The principal action for one festival on Manage festivals. It shows only when the admin can publish the festival, so a page has few of them. |
 | Principal action button | Link background, on-brand text, radius 8px (`--radius-control`), no border, no shadow. Action hover background when the pointer is on it. | The one principal action of a page, for example "Log in with Spotify", or of one item in a list, for example "Publish" for one festival. |
 | Header button | Brand background, 1px on-brand border, on-brand text, radius 8px. Colours change places when the pointer is on it. | A secondary action in the site header: "Log out". The border shows that it is a button, without the emphasis of the principal action. |

@@ -97,6 +97,14 @@ const migrations: readonly string[] = [
     CHECK ((spotify_id IS NULL) = (name IS NULL)),
     CHECK (spotify_id IS NOT NULL OR source = 'search')
   ) STRICT`,
+  // The interest level of each user for each lineup name (#10). A lineup name
+  // belongs to one festival. A missing row means Curious.
+  `CREATE TABLE interest_level (
+    user_id INTEGER NOT NULL REFERENCES user (id) ON DELETE CASCADE,
+    lineup_name_id INTEGER NOT NULL REFERENCES lineup_name (id) ON DELETE CASCADE,
+    level TEXT NOT NULL CHECK (level IN ('not-interested', 'curious', 'keen', 'must-see')),
+    PRIMARY KEY (user_id, lineup_name_id)
+  ) STRICT`,
 ];
 
 export function openDatabase(path: string): Database {

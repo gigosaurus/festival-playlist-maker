@@ -10,7 +10,10 @@ import { join } from "node:path";
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { createApp } from "../../src/app.ts";
+import { saveArtistMatch } from "../../src/artist-matches.ts";
 import { openDatabase } from "../../src/database.ts";
+import { addFestival, publishFestival } from "../../src/festivals.ts";
+import { getFestivalLineup } from "../../src/lineups.ts";
 import { FakeClock } from "./fake-clock.ts";
 import { FakeHttpClient, type RecordedResponse } from "./fake-http-client.ts";
 import { testSettings } from "./test-settings.ts";
@@ -53,7 +56,39 @@ const control = new Hono()
     httpClient.respondTo(method, url, response);
     return context.body(null, 204);
   })
-  .get("/__test/http-requests", (context) => context.json(httpClient.requests));
+  .get("/__test/http-requests", (context) => context.json(httpClient.requests))
+  // Adds a published festival with a lineup, without the admin pages. Each
+  // artist gets an artist match. Each name in noMatch is marked "no match".
+  // For tests that need a large lineup.
+  .post("/__test/published-festivals", async (context) => {
+    const festival = await context.req.json<PublishedFestivalRequest>();
+    const added = addFestival(
+      database,
+      { ...festival, expectedGenres: [], page: "test" },
+      { source: "clashfinder", page: "test", pageName: festival.name },
+    );
+    if (added.outcome !== "added") return context.text(`${festival.name} ${festival.year} exists.`, 400);
+    const names = [...festival.artists.map((artist) => artist.name), ...festival.noMatch];
+    const lineup = { entries: names.map((name) => ({ name })) };
+    await getFestivalLineup(database, { getLineup: async () => ({ outcome: "got", lineup }) }, clock, added.id);
+    festival.artists.forEach(({ name, genres }, index) => {
+      const artist = { id: `test-artist-${index}`, name, genres, ended: false, score: 100, votes: 1, aliases: [] };
+      saveArtistMatch(database, clock, name, { kind: "artist", artist });
+    });
+    for (const name of festival.noMatch) saveArtistMatch(database, clock, name, { kind: "no-match" });
+    const published = publishFestival(database, added.id);
+    if (published.outcome !== "published") return context.text(`The test server did not publish ${festival.name}.`, 500);
+    return context.json({ id: added.id });
+  });
+
+interface PublishedFestivalRequest {
+  name: string;
+  year: number;
+  startDate: string;
+  endDate: string;
+  artists: { name: string; genres: string[] }[];
+  noMatch: string[];
+}
 
 const server = serve({
   port,

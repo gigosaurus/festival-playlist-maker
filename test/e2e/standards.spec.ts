@@ -13,6 +13,7 @@ import { download2027Response, incorrectKeyResponse, unknownUserResponse } from 
 import { busyResponse } from "../support/musicbrainz.ts";
 import { quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
 import { matchNames } from "./artist-match-steps.ts";
+import { largeFestival } from "./large-lineup.ts";
 import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz, type Spotify, type TestServer } from "./fixtures.ts";
 
 interface StandardsPage {
@@ -106,6 +107,30 @@ const pages: StandardsPage[] = [
     path: "/festivals/1",
     user: testAdmin,
     setUp: publishDownloadForUser,
+  },
+  {
+    name: "Festival page, 150 artists",
+    path: "/festivals/1",
+    user: testUser,
+    setUp: async (_page, _clashfinder, _musicBrainz, _spotify, testServer) => {
+      await testServer.addPublishedFestival(largeFestival);
+    },
+  },
+  {
+    name: "Festival page, search without results",
+    path: "/festivals/1?search=nobody",
+    user: testUser,
+    setUp: async (_page, _clashfinder, _musicBrainz, _spotify, testServer) => {
+      await testServer.addPublishedFestival(largeFestival);
+    },
+  },
+  {
+    name: "Festival page, saved without JavaScript",
+    path: "/festivals/1?saved",
+    user: testUser,
+    setUp: async (_page, _clashfinder, _musicBrainz, _spotify, testServer) => {
+      await testServer.addPublishedFestival(largeFestival);
+    },
   },
   { name: "Admin page for a user who is not the admin", path: "/admin/festivals", user: testUser },
   { name: "Manage festivals, empty state", path: "/admin/festivals", user: testAdmin },
