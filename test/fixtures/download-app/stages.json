@@ -1,0 +1,763 @@
+{
+  "data": [
+    {
+      "id": 14008,
+      "external_id": "24307",
+      "published": true,
+      "name": "Ace Of Spades",
+      "priority": 80,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14009,
+      "external_id": "79",
+      "published": true,
+      "name": "Apex Stage",
+      "priority": 10,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14010,
+      "external_id": "1267",
+      "published": true,
+      "name": "Opus Stage",
+      "priority": 20,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14011,
+      "external_id": "81",
+      "published": true,
+      "name": "The Avalanche Stage hosted by Kerrang! Radio",
+      "priority": 30,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14012,
+      "external_id": "19523",
+      "published": true,
+      "name": "The Den",
+      "priority": 60,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14013,
+      "external_id": "5435",
+      "published": true,
+      "name": "The Doghouse",
+      "priority": 50,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14014,
+      "external_id": "1271",
+      "published": true,
+      "name": "The Dogtooth Stage",
+      "priority": 40,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14015,
+      "external_id": "24936",
+      "published": true,
+      "name": "The Outpost",
+      "priority": 70,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 14568,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 15873,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16006,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16007,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16008,
+      "published": true,
+      "name": "Yellow Campsite",
+      "priority": 95,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639300_stage_2160.jpeg"
+      },
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16009,
+      "published": true,
+      "name": "Blue Campsite",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639292_stage_2160.jpeg"
+      },
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16010,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16011,
+      "published": true,
+      "name": "Black Campsite",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639282_stage_2160.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16012,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16013,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16014,
+      "published": true,
+      "name": "Eco Campsite",
+      "priority": 150,
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "other-campsite",
+          "name": "Other Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T20:44:49+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16015,
+      "published": true,
+      "name": "Green Campsite",
+      "priority": 110,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639305_stage_2160.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16016,
+      "published": true,
+      "name": "Purple Campsite",
+      "priority": 110,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639301_stage_2160.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16017,
+      "published": true,
+      "name": "Red Campsite",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639281_stage_2160.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16018,
+      "published": true,
+      "name": "Orange Campsite",
+      "priority": 90,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_1440.jpeg",
+        "2160": "https://media.appmiral.com/prod/stage/0057/40/thumb_5639276_stage_2160.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "campsite",
+          "name": "Campsite",
+          "category": "Area",
+          "priority": 100,
+          "visible": true,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-18T21:00:07+00:00"
+        },
+        {
+          "slug": "general-campsite",
+          "name": "General Campsite",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:29+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16019,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16020,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16021,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16022,
+      "published": true,
+      "name": "South Car Park",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645441_stage_1440.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "car-park",
+          "name": "Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:38+00:00"
+        },
+        {
+          "slug": "general-car-park",
+          "name": "General Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:19:42+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16023,
+      "published": true,
+      "name": "East Car Park",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645444_stage_1440.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "car-park",
+          "name": "Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:38+00:00"
+        },
+        {
+          "slug": "general-car-park",
+          "name": "General Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:19:42+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16024,
+      "published": true,
+      "name": "North Car Park",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645443_stage_1440.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "car-park",
+          "name": "Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:38+00:00"
+        },
+        {
+          "slug": "general-car-park",
+          "name": "General Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:19:42+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16025,
+      "published": true,
+      "name": "West Car Park",
+      "priority": 100,
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_100.jpeg",
+        "250": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_250.jpeg",
+        "500": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_500.jpeg",
+        "720": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_720.jpeg",
+        "1080": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_1080.jpeg",
+        "1440": "https://media.appmiral.com/prod/stage/0057/46/thumb_5645456_stage_1440.jpeg"
+      },
+      "tracks": [],
+      "tags": [
+        {
+          "slug": "car-park",
+          "name": "Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:07:38+00:00"
+        },
+        {
+          "slug": "general-car-park",
+          "name": "General Car Park",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": true,
+          "show_in_search": false,
+          "modified_at": "2026-05-15T14:19:42+00:00"
+        }
+      ],
+      "show_in_search": false,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 16026,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16027,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16028,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16031,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16032,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16033,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16034,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16035,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16036,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16037,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16038,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16039,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16040,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16041,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16042,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16045,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 16046,
+      "deleted_at": "2026-06-02T15:12:20+00:00"
+    },
+    {
+      "id": 17846,
+      "external_id": "36873",
+      "published": true,
+      "name": "Hellfire Stage",
+      "priority": 100,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 18194,
+      "external_id": "37667",
+      "published": true,
+      "name": "The Crobar",
+      "priority": 100,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    },
+    {
+      "id": 18277,
+      "external_id": "37809",
+      "published": true,
+      "name": "BeatBox House of Punch",
+      "priority": 100,
+      "tracks": [],
+      "tags": [],
+      "show_in_search": true,
+      "show_in_filter": true,
+      "modified_at": "2026-11-12T20:59:51+00:00",
+      "show_section_titles": false
+    }
+  ],
+  "_links": {
+    "self": "https://app.appmiral.com/api/v7/events/downloadfestival/editions/downloadfestival2026/stages?max_per_page=250"
+  },
+  "_meta": {
+    "page": 1,
+    "max_per_page": 250,
+    "page_count": 50,
+    "total_count": 50
+  }
+}

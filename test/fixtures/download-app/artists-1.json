@@ -1,0 +1,4489 @@
+{
+  "data": [
+    {
+      "id": 2075688,
+      "deleted_at": "2026-11-19T08:31:04+00:00"
+    },
+    {
+      "id": 2131422,
+      "external_id": "38930",
+      "published": true,
+      "name": "High Vis",
+      "body": "<p>Birthed in 2016 from a cross-section of beloved UK punk groups, London’s High Vis have steadily become legends by virtue of their passionate performances and evolving discography of poetic, progressive hardcore. Comprised of singer Graham Sayle, drummer Edward “Ski” Harper, bassist Jack Muncaster, and guitarists Martin Macnamara and Rob Hammaren, the band fuse the fury of English street punk with touches of Brit pop melody, neo-psychedelia swirl, wiry post-punk rhythm, and even bits of Madchester groove.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0060/15/thumb_5914515_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0060/15/thumb_5914515_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0060/15/thumb_5914515_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0060/15/thumb_5914515_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-17T18:00:49+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131461,
+      "external_id": "38865",
+      "published": true,
+      "name": "SPLIT DOGS",
+      "body": "<p>Hailing from the UK, Split Dogs are sheer sweat and steel. Known for their no-nonsense British rock n roll sound, heavy riffs and chaotic live shows. Catch while you can.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894080_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894080_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894080_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894080_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-17T18:00:49+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131420,
+      "external_id": "38757",
+      "published": true,
+      "name": "HEALTH",
+      "body": "<p>HEALTH is an industrial and noise rock band consisting of three members, including Benjamin Jared Miller, Jake Duzsik, and John Famiglietti.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894041_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894041_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894041_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894041_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-17T17:45:38+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131441,
+      "external_id": "38797",
+      "published": true,
+      "name": "never easy",
+      "body": "<p>never easy’s Ugly & Numb are two small-town kids who grew up in rural Canada before meeting in Montreal and forming the band in 2023. They combine the bite of 2000s emo and nu-metal with heavy shoegaze, shaped by skate parks, video games and alternative culture.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894060_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894060_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894060_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894060_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-17T17:45:38+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131467,
+      "external_id": "38946",
+      "published": true,
+      "name": "The Hives",
+      "body": "<p>The Swedish five piece – Howlin’ Pelle Almqvist [vocals], Nicholaus Arson [guitar], Vigilante Carlstroem [guitar], The Johan and Only [bass], and Chris Dangerous [drums] play like their lives depend on it, with both total control and complete reckless abandon. They have consistently been one of the most inventive and irresistible rock bands of the 21st century. Formed in 1993 as young children in a steel industry town in Sweden, their first album, 1997s Barely Legal, opened the door and Veni Vidi Vicious, finished in the first days of the new millennium, convinced the world that rock was saved, earning them platinum albums and legions of fans.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894086_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894086_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894086_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894086_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-16T18:45:36+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131477,
+      "external_id": "39010",
+      "published": true,
+      "name": "Winona Fighter",
+      "body": "<p>Winona Fighter is a Nashville-based alternative punk trio known for their explosive energy, infectious melodies, and unapologetically raw approach to rock music. Fronted by vocalist and drummer Chloe “Coco” Kinnon, alongside guitarist Dan Fuson and bassist/producer Austin Luther, the band blends punk aggression, melodic hooks, and fearless songwriting into a sound entirely their own. With a reputation for electrifying live performances and a willingness to tackle everything from personal struggles to social and cultural issues, Winona Fighter has quickly established themselves as a rising force in the alternative rock scene.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894096_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894096_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894096_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894096_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-16T18:45:36+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131431,
+      "external_id": "38781",
+      "published": true,
+      "name": "Kreator",
+      "body": "<p>Having perfected the art of uniting the sheer fury and aggression of high octane thrash metal with epic melodies and a cinematic atmosphere, KREATOR have clearly evolved massively since their humble beginnings in the post-industrial tristesse of Essen, Germany to an internationally acclaimed headlining act.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894051_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894051_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894051_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894051_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-16T18:30:36+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131440,
+      "external_id": "39099",
+      "published": true,
+      "name": "Nasty",
+      "body": "<p>NASTY have been one of the most relentless and influential forces in hardcore and beatdown. Built on crushing downtempo breakdowns, massive hardcore riffs and unmistakably vicious vocals, the four-piece have carved out a sound that has become synonymous with modern beatdown hardcore — and earned them a reputation as one of the genre’s most powerful live acts.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894059_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894059_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894059_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894059_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131446,
+      "external_id": "38836",
+      "published": true,
+      "name": "Pierce The Veil",
+      "body": "<p>Since forming in San Diego in 2006, Pierce The Veil have grown from underground post-hardcore heroes into one of modern rock’s most influential and electrifying bands. Known for their explosive live shows and genre-blurring mix of emo, punk, metal, and pop, the trio – Vic Fuentes, Tony Perry, and Jaime Preciado – have released a string of acclaimed albums, sold millions of records, and earned a fiercely devoted global fanbase. They’ve headlined stages around the world, shared bills with icons like blink-182, Bring Me The Horizon, and Rise Against, and racked up over 2 billion streams across their catalog.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894065_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894065_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894065_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894065_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131462,
+      "external_id": "38869",
+      "published": true,
+      "name": "Static Dress",
+      "body": "<p>Static Dress is an award-winning UK based alternative group. Since their debut single ‘clean.’ was released in 2019, the band have released comic books (with accompanying soundtracks) and video games that centre around the Static Dress’ story and origins, littering a breadcrumb trail of clues for what is to come next in the process. Consideration is at the heart of the band’s process, forcing listeners to not only play the music, but engage with the vast array of multimedia opportunities to immerse themselves in the band’s art and overarching narrative.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894081_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894081_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894081_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894081_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131463,
+      "external_id": "38873",
+      "published": true,
+      "name": "Static-X",
+      "body": "<p>Static-X rose to fame with their 1999 platinum selling debut album Wisconsin Death Trip and went on to release five more albums over the course of the next decade. The band has sold more than 3-million albums in the US alone and has had multiple chart-topping radio singles.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894082_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894082_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894082_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894082_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131464,
+      "external_id": "38877",
+      "published": true,
+      "name": "Terror",
+      "body": "<p>Nobody could have ever guessed the trajectory that hardcore would have taken back when this movement was first formed. And in the early 2000s, nobody would have guessed that a band like TERROR would still be one of the most influential bands in the subgenre. Their aggression, coupled with a love and appreciation for the scene that so many have come and gone from, or even forgotten altogether, has let them thrive.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894083_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894083_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894083_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894083_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131472,
+      "external_id": "38889",
+      "published": true,
+      "name": "Turnstile",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894091_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894091_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894091_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894091_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T22:01:12+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131385,
+      "external_id": "38906",
+      "published": true,
+      "name": "Big Ass Truck I.E.",
+      "body": "<p>Born in the inland empire. Fueled by diesel and bad decisions. 2000 horsepower breakdowns. 12-ton riffs. Anyone in the way catches the back wheel stomp. Not a band. A wrecking crew on bald tires. Big Ass Truck I.E. isn’t here to partake in hardcore. It’s here to run it over, back it up, and run it over again. Big sound. Big energy. Big Ass Truck.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894005_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894005_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894005_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894005_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:45:45+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131379,
+      "external_id": "38697",
+      "published": true,
+      "name": "5 Seconds of Summer",
+      "body": "<p>Formed in Sydney, Australia in 2011, 5 Seconds of Summer have grown from local high school friends into one of the biggest bands of the 21st century. Across fourteen years, the multi-platinum group has sold over 18 million albums, moved more than six million tickets worldwide, generated over 10 billion streams, and achieved three Billboard 200 #1 debuts, while winning multiple accolades at the ARIA Awards, MTV EMAs, MTV VMAs, and beyond. Known for their genre-defying collaborations and globe-spanning tours, the quartet – Luke Hemmings, Michael Clifford, Calum Hood, and Ashton Irwin – continue to reinvent what a modern band can be.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894000_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894000_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894000_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894000_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131380,
+      "external_id": "38897",
+      "published": true,
+      "name": "Ally Nicholas",
+      "body": "<p>Ally Nicholas is the kind of artist who reminds you why rock music matters. Born in Chicago and turning to music for comfort during a difficult adolescence, songwriting quickly became the only way to make sense of the world happening around her. Characterized by a seasoned, innate darkness and drawing from subgenres like grunge, indie, shoegaze and metal, Ally soon found hope and direction in pursuing her artistry. Known for her standout vocals and soul-baring lyrics, Ally’s mission is simple – to make even the loneliest voices feel represented in her music, and to present her own evocative take on rock music to the world.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894001_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894001_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894001_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894001_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131381,
+      "external_id": "38701",
+      "published": true,
+      "name": "Ando San",
+      "body": "<p>Ando San was born and raised in San Fernando Valley, CA where he was surrounded by the sounds of R&B, hip-hop, funk, and soul that his family was dancing and singing to at any given time. Starting out as a metal vocalist at 13, Ando was very much alone in his variety of interests. He began developing a genre he calls “Prog-hop” which focuses heavily on progressive guitar and hip-hop beats. Through his music, Ando hopes to find meaning, connection, and peace in life.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894002_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894002_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894002_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894002_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131382,
+      "external_id": "38705",
+      "published": true,
+      "name": "ASAVA",
+      "body": "<p>Blending uncompromising rock energy with cinematic storytelling, ASAVA crafts a<br />distinct alt-metal sound that fuses music and visual artistry. Hailing from Canton, Ohio,<br />the four-piece consists of lead singer Liam Brocious, bassist Greg Cochran, drummer<br />Spencer Cindia, and guitarist Zach Rusher.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894003_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894003_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894003_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894003_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131383,
+      "external_id": "38709",
+      "published": true,
+      "name": "Basement",
+      "body": "<p>Since forming in 2009, Basement have always been the same five friends — vocalist Andrew Fisher, guitarists Alex Henery and Ronan Crix, bassist Duncan Stewart, and drummer James Fisher — with the same alchemic bond. An analog band who’ve thrived in an increasingly digital world without resting on the comforts of nostalgia. Five friends who’ve persisted through several breakups and breakthroughs, but have only grown as people and evolved as a musical unit.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894004_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894004_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894004_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894004_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131386,
+      "external_id": "38900",
+      "published": true,
+      "name": "Bilmuri",
+      "body": "<p>It was all or nothing. In under two years, Bilmuri quietly went from a D.I.Y. phenomenon (who was stoked to play for a couple hundred people) to selling out tours around the world. He attracted a cult audience under the radar, thanks to over a dozen projects including Eggy Pocket [2020] and Goblin Hours [2022]. 2024’s AMERICAN MOTOR SPORTS revved up a breakthrough, gathering over 100 million streams and properly introducing widespread audiences to its uncanny hybrid of alternative rock hooks, heavy metal riffing, emo introspection, and countrified charisma.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894006_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894006_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894006_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894006_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131387,
+      "external_id": "38651",
+      "published": true,
+      "name": "blink-182",
+      "body": "<p>Emerging from Southern California, blink-182 has persisted throughout eras and generations as one of the most influential bands of this century. To date, the trio—Mark Hoppus [bass, vocals], Tom DeLonge [guitar, vocals], and Travis Barker [drums]—has sold over 50 million albums worldwide, garnered a GRAMMY® Award nomination, tallied billions of streams, and topped charts globally. Boasting anthems such as “All The Small Things,” “What’s My Age Again?,” “I Miss You,” “Feeling This,” and more, their catalog spans the platinum Dude Ranch [1997], 5x-platinum Enema of the State [1999], 2x-platinum Take Off Your Pants and Jacket [2001], and 2x-platinum blink-182 [2003].</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894007_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894007_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894007_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894007_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131388,
+      "external_id": "39017",
+      "published": true,
+      "name": "Body Count ft. Ice-T",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894008_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894008_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894008_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894008_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131389,
+      "external_id": "38950",
+      "published": true,
+      "name": "Bodysnatcher",
+      "body": "<p>Named after the infamous Plainfield Ghoul, Ed Gein, Bodysnatcher have embodied darkness and aggression since their 2014 inception in Melbourne, Florida. Known for crushing breakdowns, eerie ambience, and relentless intensity, they leave destruction in their wake.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894009_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894009_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894009_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894009_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131390,
+      "external_id": "38952",
+      "published": true,
+      "name": "breakkaway",
+      "body": "<p>breakkaway exists in a state of liminality. The six-piece New York-based collective, musicians from around the globe drawn together by deep-seated connections stronger than any border, create music that traverses genres. It’s a place where pop sensibilities coalesce with the intensity of metal, the intimacy of folk, the grace of shoegaze, and the edge of electronica. It toes the precipice between the effervescent and the caustic, the abrasive and the tender. It is violence and it is beauty.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894011_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894011_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894011_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894011_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131391,
+      "external_id": "38909",
+      "published": true,
+      "name": "Bring Me The Horizon",
+      "body": "<p>Bring Me The Horizon are a generational force reshaping heavy music and youth culture. Led by Oli Sykes, the Sheffield band emerged from MySpace-era metalcore to build a sound that collides extreme heaviness with electronic, pop, and digital experimentation; volatile, maximal, and eclectic.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894012_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894012_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894012_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894012_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131392,
+      "external_id": "38713",
+      "published": true,
+      "name": "Cage Fight",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894013_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894013_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894013_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894013_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131393,
+      "external_id": "38956",
+      "published": true,
+      "name": "Cancer Bats",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894014_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894014_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894014_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894014_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131394,
+      "external_id": "38960",
+      "published": true,
+      "name": "Carcass",
+      "body": "<p>Without a doubt, UK legends CARCASS have released several classic albums over the years and changed the trajectory of extreme metal with each consecutive release. Whether it was inventing gore-grind or creating the template for melodic death metal, CARCASS has always made records by which bars were set and rules were broken.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894015_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894015_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894015_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894015_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131395,
+      "external_id": "38911",
+      "published": true,
+      "name": "Carpenter Brut",
+      "body": "<p>Since 2012, Carpenter Brut has established himself as a leading figure in the international synthwave scene. Blending electronic music, rock, and 1980s-inspired sounds, his visual and musical universe stands out with a polished, cinematic aesthetic built for the stage. Carpenter Brut is now widely recognized for the quality of his productions, the impact of his concerts, and his ability to bring together a diverse and loyal audience beyond the alternative scene.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894016_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894016_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894016_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894016_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131396,
+      "external_id": "38964",
+      "published": true,
+      "name": "Castle Rat",
+      "body": "<p>Castle Rat is a fantasy doom metal band hailing from NYC led by The Rat Queen on guitar and vocals. On her mission to expand and defend “The Realm” from those who seek to destroy it, The Rat Queen is joined by The Count on lead guitar, The Plague Doctor on bass, and The All-Seeing Druid on drums. Together they face the relentless wrath of their arch nemesis: Death, Herself — The Rat Reaperess. The Realm of Castle Rat exists for those who crave swords & sorcery; stoner & doom; Frazetta & Sabbath; battle-babes & beasts.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894017_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894017_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894017_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894017_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131397,
+      "external_id": "38968",
+      "published": true,
+      "name": "Cenobia",
+      "body": "<p>Cenobia offers you a tale of futility, redemption and transcendence. She presents a narrative entwined with her music and imagery, influenced by her most treasured video games, and paying homage to those that inspired her most. These creations are an extension of her visually, musically, and emotionally. Each chapter is lovingly crafted for her collective. An extension of her, gifted to you. Once she was nobody. Now, she is Cenobia. You will know her name.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894018_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894018_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894018_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894018_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131398,
+      "external_id": "38717",
+      "published": true,
+      "name": "Clutch",
+      "body": "<p>Seneca Valley High School classmates Neil Fallon (vocals), Tim Sult (guitar), Dan Maines (bass), and Jean-Paul Gaster (drums) share an unshakeable musical and personal bond now three decades strong. Shaped by the same region which birthed Bad Brains, Minor Threat, and Rites Of Spring, CLUTCH crafts hyper-literate and libertine jams informed by hardcore fury and fuzzy, athletic, stoner rock.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894019_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894019_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894019_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894019_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131399,
+      "external_id": "38721",
+      "published": true,
+      "name": "Comastatic",
+      "body": "<p>Comastatic is an alternative rock duo from Zurich, Switzerland. Formed in 2022 by singer ‘Mattia Di Paolo’ and Guitarist ‘Jules,’ Comastatic encapsulates the feeling of watching the world fall apart and being powerless to alter its course. Caught in a paralyzing equilibrium between existence and inertia, the band takes listeners into their own realm where chaos meets vulnerability.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894020_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894020_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894020_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894020_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131400,
+      "external_id": "38913",
+      "published": true,
+      "name": "Comeback Kid",
+      "body": "<p>Defying a sadly and increasingly pervasive trend in today’s heavy music scene, Comeback Kid have managed to not only maintain but expand the energy and urgency of their groundbreaking debut and sophomore LPs over the course of a decorated 25+ year career. Luckily – at least for their fervidly loyal fanbase – there’s a lot to be angry about these days.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894021_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894021_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894021_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894021_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131401,
+      "external_id": "38725",
+      "published": true,
+      "name": "Converge",
+      "body": "<p>For more than three decades, Converge have delivered musical and emotional catharsis, putting purpose before perception and intent before interpretation. Whether it’s their 2001 landmark recording Jane Doe or their 2021 Bloodmoon: I collaboration with Chelsea Wolfe, they have created some of the most compelling music, lyrics, and visual art of the 21st century. During that time, fewer bands have had a greater impact on the underground imagination.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894022_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894022_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894022_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894022_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131402,
+      "external_id": "38729",
+      "published": true,
+      "name": "Currents",
+      "body": "<p>Currents never compromise neither creatively, nor philosophically. As if controlling chaos by hand, the Connecticut quintet—Brian Wille [vocals], Chris Wiseman [guitar], Ryan Castaldi [guitar], Matt Young [drums], and Christian Pulgarin [bass]—balance an inclination for invention with innate intensity, defying expectations and expanding the scope of heavy music in the process. By following an internal creative compass, the group have continued to tread a singular path without comparison.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894023_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894023_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894023_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894023_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131403,
+      "external_id": "38733",
+      "published": true,
+      "name": "Dayseeker",
+      "body": "<p>Sad rock. That’s usually how frontman Rory Rodriguez describes it to curious newcomers. But there’s more to Dayseeker than melancholy. Formed in Southern California and forged in adversity, Dayseeker evolved from post-hardcore upstarts into one of the most emotionally resonant and stylistically agile bands in heavy music today. Their songs don’t just process grief, heartbreak, and trauma — they transform them into something magnetic, powerful, and ultimately empowering.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894024_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894024_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894024_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894024_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131404,
+      "external_id": "39179",
+      "published": true,
+      "name": "Deaf Havana",
+      "body": "<p>Deaf Havana are brothers James and Matt Veck-Gilodi, one of the most enduring bands in British alternative rock. Their 2011 album ‘Fools and Worthless Liars’ was honest, emotional and full of huge choruses, and it reached far beyond the scene it came from. It took brothers James and Matt Veck-Gilodi from sweaty grassroots rooms to sold-out venues, festival stages and BBC Radio 1. It went on to be certified Silver in the UK and is still regarded as one of the defining British alternative records of its generation.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894025_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894025_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894025_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894025_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131405,
+      "external_id": "38915",
+      "published": true,
+      "name": "DeathbyRomy",
+      "body": "<p>DeathbyRomy is a Los Angeles–based independent artist whose music fuses energetic alt-pop with industrial grit, pulsating dance synths and unflinching honesty. Blurring the lines between vulnerability and power, she has become one of the most distinctive voices in modern alternative pop music—amassing over 200 million global streams and a devoted worldwide fanbase drawn to her darkly glamorous, genre-bending sound.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894026_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894026_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894026_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894026_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131406,
+      "external_id": "38917",
+      "published": true,
+      "name": "Dexter and The Moonrocks",
+      "body": "<p>They dreamed of being pool cleaners their entire lives. Instead, Dexter and The Moonrocks ended up being one of alternative rock’s most undeniable breakout acts. At any given gig, you’ll find goth chicks, cowboys, headbangers, heshers, rebels, and outcasts of all ages singing along to every word, tearing up, and generally rocking out in the moment.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894027_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894027_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894027_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894027_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131407,
+      "external_id": "38737",
+      "published": true,
+      "name": "Dogma",
+      "body": "<p>Dogma is a theatrical hard rock and metal project built around anonymous characters, cinematic storytelling and a philosophy centered on individual freedom, desire and personal responsibility. Fronted by Lilith alongside Lamia, Rusalka, Nixe and Abrahel, Dogma uses the imagery and language of religion, confession, obedience, worship and sin to explore the opposite ideas: self-determination, reason, desire, ambition and freedom from imposed morality. At the center of the project lies a simple principle: you shape your fate.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894028_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894028_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894028_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894028_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131408,
+      "external_id": "39116",
+      "published": true,
+      "name": "DOWN",
+      "body": "<p>DOWN was never just a band. It’s a brotherhood rooted in childhood friendships that have endured for decades. It’s an homage to the city of New Orleans, Louisiana. It’s the sound of five heavy metal lifers jamming together in a room without rules. It’s music meant for anybody who has ever headbanged, played air guitar, or worn a weathered tour t-shirt like armor. For over three decades, the quintet – Philip H. Anselmo, Pepper Keenan, Kirk Windstein, Jimmy Bower, and Pat Bruders – have quietly built a legacy like no other. As soon as they get together, magic ensues conjured by earthquaking grooves, bellowing straight from the soul, and riffing loud enough to awaken an ancient deity.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894029_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894029_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894029_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894029_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131409,
+      "external_id": "38741",
+      "published": true,
+      "name": "Dragged Under",
+      "body": "<p>Dragged Under isn’t here to be liked; they’re here to be heard. Emerging from Seattle as a voice for the fed up, the band quickly cemented their place in the modern rock landscape with a “live and let live” philosophy and a refusal to conform. Dragged Under continues to lead the way into an era of self-discovery, proving that even when the battery is low, the impact is higher than ever.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894030_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894030_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894030_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894030_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131410,
+      "external_id": "38745",
+      "published": true,
+      "name": "EMNW",
+      "body": "<p>EMNW is a Japanese two-MC mixture-rock duo, Emma and Menu driving the revival of Japan’s Y2K-era mixture movement. They carry the spirit of the early-2000s scene into the modern era, rebuilding it for a new generation where cute and heavy collide. Fusing Punk, Ska, Hip-Hop, and Nu-metal with relentless energy, EMNW delivers a sound that is playful, brutal, and unapologetically contemporary.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894031_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894031_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894031_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894031_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131411,
+      "external_id": "38749",
+      "published": true,
+      "name": "Evanescence",
+      "body": "<p>When Evanescence stormed onto the scene in the early 2000s, they introduced a sound that captured the world’s attention. Their debut album Fallen became one of the most critically and commercially successful releases of the 21st century, earning two Grammy Awards and achieving diamond certification in the United States. Hit singles “Bring Me to Life” and “My Immortal” propelled the band into the spotlight, while 2006’s follow-up, The Open Door, deepened an unwavering connection with fans. Two decades later, that connection remains as strong as ever.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894032_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894032_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894032_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894032_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131412,
+      "external_id": "38919",
+      "published": true,
+      "name": "Faith No More",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894033_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894033_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894033_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894033_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131413,
+      "external_id": "38972",
+      "published": true,
+      "name": "Fit For A King",
+      "body": "<p>Fit For A King harness the power of their brotherhood in order to perpetually push forward. The music contains traces of the members’ personal and collective experiences grafted onto an ever-evolving sonic palette of metalcore unpredictability, alternative melody, and deathcore brutality laced with electronic alchemy. As trends came and went in the background of the last decade, the quintet— Ryan Kirby [vocals], Bobby Lynge [guitar], Daniel Gailey [guitar], Ryan “Tuck” O’Leary [bass], and Trey Celaya [drums]—have weathered trials and tribulations as well as enduring the chaos of a world constantly influx.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894034_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894034_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894034_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894034_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131414,
+      "external_id": "38974",
+      "published": true,
+      "name": "Ghostemane",
+      "body": "<p>Eric Ghoste has been releasing music as Ghostemane since 2014. As the project’s sole architect, Ghoste has created a singular canon of extreme music, incorporating elements of industrial, hardcore, acoustic, southern “phonk” rap, and experimental genres. With every album, Ghoste has grown as a producer, writer, and performer, blending his influences with increasing fluidity and ambition.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894035_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894035_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894035_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894035_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131415,
+      "external_id": "38976",
+      "published": true,
+      "name": "grandson",
+      "body": "<p>For grandson the inspiration that “really resparked my sense of purpose as an artist” was two-fold. Watching social issues get weaponized to advance corporate agendas around the world- directly impacting the communities that championed his music and resisted fiercely alongside him. His second motivation was for his fans. He recognized that audiences ultimately come to grandson to find an outlet for catharsis and anger- to find community and channel their pain and hopelessness into something meaningful. “I believe that finding connection with one another, through music or otherwise, and making collective demands for a brighter, better future, can lead us to a more holistic way of living, thinking, and consuming. It all starts with a cathartic release of energy. Meet you in the pit.”</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894036_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894036_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894036_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894036_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131416,
+      "external_id": "38921",
+      "published": true,
+      "name": "Guilt Trip",
+      "body": "<p>Embodying the grit and gusto of Manchester, Guilt Trip bring a blast of homegrown intensity to their hybrid of hardcore and metal. The five piece—Jay Valentine [vocals], Jak Maden [guitar], Sam Baker [guitar], Tom Aimson [drums], and Lily Kilcoyne [bass]—slide striking melodies in between throat-slitting thrashy riffs and earth-splitting breakdowns.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894037_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894037_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894037_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894037_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131417,
+      "external_id": "38753",
+      "published": true,
+      "name": "GWAR",
+      "body": "<p>The story of GWAR is carved across the history of this hopeless planet, but GWAR themselves are not of this world…Their story begins far past Uranus, in the deepest reaches of space, where the beings known as GWAR were warriors in the Scumdogs of the Universe, an elite fighting force in the army of the Master of All Reality. But GWAR proved too reckless and powerful, and after a series of tragic but hilarious blunders, they were banished to the furthest reaches of the galaxy, with orders to conquer an insignificant backwater prehistoric mudball known as the planet Earth. Once here, GWAR, the original Ancient Aliens, shaped the face of the globe, wiping out the dinosaurs, and mating with apes to create the human race. Having accidentally given rise to all human history, the Master of All Reality froze them in Antarctic ice where they could do no more harm. It was there they were discovered by a shady entrepreneur known as Sleazy P Martini, who sat the band down in front of professional wrestling, late-night horror movies, and heavy metal music until GWAR became the cultural force they are today!</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894038_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894038_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894038_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894038_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131418,
+      "external_id": "38923",
+      "published": true,
+      "name": "HANABIE.",
+      "body": "<p>HANABIE. is a Tokyo-based all-girl rock band formed in 2015 by YUKINA, MATSURI, and HETTSU while they were still in high school. With drummer CHIKA joining in 2023, the band established its current four-member lineup. Blending crushing metalcore riffs, powerful screams, infectious hooks, and a uniquely Japanese sense of color and chaos, HANABIE. have created their own unmistakable style, which they call “HARAJUKU CORE”</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894039_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894039_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894039_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894039_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131419,
+      "external_id": "38926",
+      "published": true,
+      "name": "Hawthorne Heights",
+      "body": "<p>Hawthorne Heights, formed in Dayton, Ohio in 2001, built their reputation on emotionally raw songwriting, blending the urgency of post-hardcore with the melodic sensibilities of early 2000s emo and punk. Frontman JT Woodruff’s lyrics often explore themes of distance, identity, and perseverance, drawing on both personal experiences and the band’s deep roots in the alternative music scene.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894040_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894040_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894040_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894040_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131421,
+      "external_id": "38928",
+      "published": true,
+      "name": "Heaven’s Basement",
+      "body": "<p>Some bands fade away. Heaven’s Basement stopped mid-riff. When the British hard rockers called time in January 2017, they left behind one album, a reputation as one of the hardest-working live acts in the country, and the nagging feeling that the best chapter was still unwritten. Nearly a decade on, the amps are warming up, the riffs still bite, and the unfinished business is finally back on the agenda.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894042_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894042_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894042_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894042_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131423,
+      "external_id": "38761",
+      "published": true,
+      "name": "Highly Suspect",
+      "body": "<p>Never content to follow, HIGHLY SUSPECT push rock music forward by trusting their instincts and raising a middle finger to everything else. The multi-Grammy Award-nominated band don’t just talk about burning the rules and breaking the mold; they actually do so. The band’s mix of gritty guitars, off-kilter synths, hip-hop production, and beautifully possessed vocals transformed them into a phenomenon beloved by a diehard global fanbase.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894043_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894043_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894043_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894043_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131424,
+      "external_id": "38765",
+      "published": true,
+      "name": "Holding Absence",
+      "body": "<p>At a time in society when connection appears to be at its most prominent, yet those within are more stranded than ever before, the art being produced must reflect reality rather than possibility. Holding Absence have made something that speaks directly to the seemingly universal experience of loneliness. Pulling influence from the chaotic boldness of hyperpop and ethereal tranquility of lo-fi whilst still keeping plenty of post-hardcore grit at their heart, the result is as exploratory as it is emphatic. Documenting the state of things as it is serving as a benchmark for the future done in a beautiful, brutal and boundless way that is not to be taken lightly.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894044_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894044_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894044_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894044_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131425,
+      "external_id": "38769",
+      "published": true,
+      "name": "Hollow Pact",
+      "body": "<p>Music medicates even the deepest wounds, and Florida’s own Hollow Pact not only wields that power, they amplify it to the breaking point. An infectious collision of rock, metal, and alternative, Hollow Pact’s sound swings from unrelenting chaos to haunting calm in a single breath. Frontman Jager’s scream tears straight from the gut, shredding over gnashing distortion one moment, then pulling the air still with a melody that feels almost weightless the next.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894045_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894045_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894045_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894045_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131426,
+      "external_id": "38773",
+      "published": true,
+      "name": "Honey Revenge",
+      "body": "<p>Honey Revenge is a pop-rock duo founded by Devin Papadol (vocals) and Donny Lloyd (guitar)—a kismet collaboration born when two musicians from opposite coasts crossed paths in Los Angeles. Their debut album, Retrovision (Thriller Records, 2023), earned early praise from BBC Radio 1, MTV, Rock Sound, and Kerrang! for its dynamic guitar work, playful lyricism, and pastel-soaked visual identity. With a sharpened visual world, anthemic songwriting, and high-energy performances, Honey Revenge continues to carve out their own lane in modern pop-rock—bold, vibrant, and built for longevity.Honey Revenge is a pop-rock duo founded by Devin Papadol (vocals) and Donny Lloyd (guitar)—a kismet collaboration born when two musicians from opposite coasts crossed paths in Los Angeles. Their debut album, Retrovision (Thriller Records, 2023), earned early praise from BBC Radio 1, MTV, Rock Sound, and Kerrang! for its dynamic guitar work, playful lyricism, and pastel-soaked visual identity. With a sharpened visual world, anthemic songwriting, and high-energy performances, Honey Revenge continues to carve out their own lane in modern pop-rock—bold, vibrant, and built for longevity.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894046_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894046_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894046_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894046_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131427,
+      "external_id": "38685",
+      "published": true,
+      "name": "Hot Mulligan",
+      "body": "<p>HOT MULLIGAN is a ride-or-die testament to staying true to yourself. When the emo band formed in 2014 and cut their teeth playing house shows and naming songs by closing their eyes and typing into auto-correct on their phones, no one expected they’d be selling out thousand-cap venues, one of their scene’s most respected bands a decade later.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894047_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894047_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894047_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894047_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131428,
+      "external_id": "38777",
+      "published": true,
+      "name": "I Prevail",
+      "body": "<p>Since forming in Metro Detroit, Michigan in 2013, metalcore/post-hardcore outfit I Prevail have enjoyed vast amounts of critical and commercial success. Their first album, 2016’s Lifelines, achieved gold status in both the US and Canada, while 2019’s TRAUMA repeated that accomplishment in Canada. The latter was nominated for Best Rock Album at that year’s Grammys, with single “Bow Down” also a contender for Best Metal Performance. 2022’s TRUE POWER saw the band continue to forge their own musical path, refusing to conform to the expectations of the genre.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894048_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894048_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894048_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894048_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131429,
+      "external_id": "39097",
+      "published": true,
+      "name": "Jinjer",
+      "body": "<p>Over the past 16 years, JINJER have risen from the Ukrainian underground to become one of the most powerful and forward-thinking forces in modern metal. Combining progressive groove, technical precision, crushing heaviness and the unmistakable vocals of Tatiana Shmayluk, the band have built a sound and identity entirely their own.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894049_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894049_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894049_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894049_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131430,
+      "external_id": "38932",
+      "published": true,
+      "name": "Karen Dió",
+      "body": "<p>Nothing is permanent. Karen Dió knows that better than most. “I have to be so unattached to friends, things, and objects,” she says, a mindset forged through constant moves growing up and carried with her into music. Across her songs, Dió explores the passage of time, personal freedom and eternal youth with a perspective shaped by experience rather than nostalgia. Backed by Hopeless Records, Dió is also determined to shine a light on Brazil’s punk rock community on a global scale. For her, representing her Latin roots isn’t a talking point, it’s a responsibility. “If I can open that door for Latin American artists, then I’ve accomplished my goal,” she says.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894050_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894050_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894050_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894050_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131432,
+      "external_id": "38934",
+      "published": true,
+      "name": "Ladrones",
+      "body": "<p>From Guadalajara, an exhilarating new sound is taking shape. Ladrones — composed of Zxmyr, Cirujano Resendez, José Macario, and Diego Zornoza — have built what they call “Flow Pesado”: a collision of nu metal, hip-hop, and regional Mexican music. What began as a studio collaboration between friends grew into a project rooted in shared history and instinct.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894052_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894052_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894052_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894052_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131433,
+      "external_id": "38785",
+      "published": true,
+      "name": "Locked Shut",
+      "body": "<p>Locked Shut are a hardcore band from Columbia, Missouri, where there isn’t much of a built-in scene. They’ve been putting it together themselves, booking shows, and building it as they go. Metallic hardcore. Fast, heavy, and straightforward.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894053_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894053_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894053_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894053_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131434,
+      "external_id": "38936",
+      "published": true,
+      "name": "Malevolence",
+      "body": "<p>Malevolence have never waited for permission. From the underground to festival main stages, they’ve built their reputation on sheer force of will, crushing live shows, and an unshakable foundation of heavy riffs and harder work. Malevolence don’t deal in facades or empty gestures; their music is an unfiltered expression of the struggles, victories, and unshakable brotherhood that have carried them this far.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894054_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894054_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894054_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894054_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131435,
+      "external_id": "38789",
+      "published": true,
+      "name": "Maple’s Pet Dinosaur",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894055_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894055_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894055_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894055_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131436,
+      "external_id": "39101",
+      "published": true,
+      "name": "Mötley Crüe",
+      "body": "<p>Hailing from Los Angeles, CA, Mötley Crüe has commandeered the rock pantheon for 40+ years. The band has sold over 100 million albums worldwide and has amassed 7 USA Platinum and Multi-Platinum albums, 8 Gold, Platinum or Multi-Platinum singles, 22 Top 40 mainstream rock hits, 6 Top 20 pop singles, 3 GRAMMY® nominations, 5 New York Times Best Selling books, a star on the Hollywood Walk of Fame, and a hit Netflix movie. Known for their iconic live performances, Mötley Crüe has sold out countless tours around the world in front of millions of fans and pioneered the Las Vegas rock residency with a sold-out run in 2012.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894056_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894056_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894056_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894056_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131438,
+      "external_id": "38793",
+      "published": true,
+      "name": "Nails",
+      "body": "<p>Combining elements of grindcore, crust-punk, and death metal, NAILS emerged in 2007 in Southern California and quickly rose to the fore of the extreme metal underground with their unrelenting sound and savage live shows.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894057_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894057_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894057_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894057_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131439,
+      "external_id": "38980",
+      "published": true,
+      "name": "Napalm Death",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894058_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894058_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894058_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894058_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131442,
+      "external_id": "38819",
+      "published": true,
+      "name": "Orbit Culture",
+      "body": "<p>Despite coming from a country rich in metal history, ORBIT CULTURE’s story is one of isolated teens in the rural town of Eksjö, Sweden, making music surrounded by dense, Scandinavian woods and winter gloom. “It’s dark and cold all the time and the only thing you have is snow and streetlights,” says Niklas. Inspired by a steady diet of Metallica, Gojira and Static-X, Karlsson found an outlet that would eventually become an obsession. “We were small-town kids from nowhere,” he says. “We were never part of a scene or anything, so we had to do it ourselves. We’re still very much of a ‘Do It Yourself’ kind of band.”</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894061_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894061_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894061_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894061_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131443,
+      "external_id": "38823",
+      "published": true,
+      "name": "Pain Of Truth",
+      "body": "<p>PAIN OF TRUTH is more than just a band name, it’s a mantra for the Long Island, NY based hardcore band and their fans. Since 2020, Pain of Truth has been a driving force of the genre, blending old school sounds with new school swagger. With their unstoppable drive and true to themselves approach, the band continue to cement a lasting impact in the world of hardcore and beyond.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894062_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894062_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894062_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894062_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131444,
+      "external_id": "38828",
+      "published": true,
+      "name": "Paledusk",
+      "body": "<p>Paledusk is a five-piece rock band hailing from Fukuoka, Japan, featuring Kaito (Vocals), Daidai (Guitar), Tsubasa (Guitar), John (Bass), and Bob (Drums). Their shocking, roller-coaster sonic style has generated massive buzz. With a unique stance and strong presence, Paledusk has captured immense support not only from metal and rock listeners but also across genres like hardcore and hip-hop, pushing the band sound into an entirely new phase.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894063_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894063_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894063_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894063_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131445,
+      "external_id": "38832",
+      "published": true,
+      "name": "Parkway Drive",
+      "body": "<p>Formed in Byron Bay in 2003, Parkway Drive have risen from teenage metal underdogs to global heavy music icons. With a career spanning over two decades, the band – fronted by Winston McCall with guitarists Jeff Ling and Luke Kilpatrick, bassist Jia O’Connor, and drummer Ben Gordon – has carved out an extraordinary legacy, redefining the sound and spectacle of modern heavy music.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894064_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894064_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894064_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894064_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131447,
+      "external_id": "38840",
+      "published": true,
+      "name": "Point North",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894066_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894066_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894066_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894066_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131448,
+      "external_id": "38940",
+      "published": true,
+      "name": "PRESIDENT",
+      "body": "<p>Launching in 2025 and operating under the cloak of minimalism and anonymity, PRESIDENT have been cultivating intrigue with each single and live performance. Refusing to conform to the traditional structures of genre or identity, PRESIDENT prioritize intent over image.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894067_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894067_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894067_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894067_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131449,
+      "external_id": "39075",
+      "published": true,
+      "name": "Primus",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894068_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894068_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894068_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894068_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131450,
+      "external_id": "38984",
+      "published": true,
+      "name": "PVRIS",
+      "body": "<p>Hailing from Boston, MA, PVRIS – the creative project of vocalist/ instrumentalist/ songwriter, Lyndsey Gunnulfsen (aka Lynn Gunn) – focuses on artistry, emotional resonance, and storytelling in her music. Rather than be tied down to a specific genre, PVRIS has always explored a diverse, eclectic mix of sounds, resulting in a genre all their own. It is this controversial, innovative, and risk-taking approach that has led to Lynn being lauded as a modern pop/rock icon.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894069_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894069_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894069_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894069_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131451,
+      "external_id": "38990",
+      "published": true,
+      "name": "Reclus.É",
+      "body": "<p>Reclus.É is the melding of Daniel P Carter and Soren Bryce’s brains. Equal parts cathartic and insightful, cinematic and hopeful – the project is an interpretation of what it means to exist in the now. Taking their name from French anarchist geographer Élisée Reclus, the project is a disparate mix of the taught brittleness of Fugazi and The Sound, the blissed out chimes of Stone Roses, the cold lushness of The Cure and the frenetic pace of Bad Brains, all acting as a bedrock for Soren’s incredible vocals.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894070_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894070_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894070_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894070_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131452,
+      "external_id": "38844",
+      "published": true,
+      "name": "Riff Wood",
+      "body": "<p>Riff Wood is a rock band from Davis County, Utah composed of best friends Carson Groves, Hyrum Russon, and Asher “Shredder” Winegar. Born from a shared love of music, the trio started rocking out together at the age of 11, honing their sound and building a lasting friendship. With friendship as their foundation and a passion for rock driving them forward, Riff Wood is on a mission to take the stage and make their mark on the music world.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894071_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894071_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894071_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894071_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131453,
+      "external_id": "38942",
+      "published": true,
+      "name": "sace6",
+      "body": "<p>sace6 are pop’s newest innovators, a Northeast-bred duo (NY + NJ) turning emotional contrast into sonic chemistry. Formed in 2024 by sace. and Noah Thomas, the project lives where pop melody, R&B intimacy, and metal intensity collide, genres not blended, but forced to coexist. Built on a monochromatic romanticism and a tension heavy aesthetic, sace6 creates music that feels both fragile and confrontational. Their sound thrives on duality: softness versus distortion, vulnerability versus volume.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894072_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894072_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894072_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894072_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131454,
+      "external_id": "38992",
+      "published": true,
+      "name": "Senses Fail",
+      "body": "<p>Senses Fail have been called any number of things across their years as a band – emo, screamo, post-hardcore, metalcore, pop punk. It’s testament to the band’s perpetual evolution as much as it is their steely endurance – a quality which frontman Buddy Nielsen has required bottomless reserves of along the ride. It’s through the songs of Senses Fail that Nielsen has forever made sense of and peace with life’s highs and lows; a journey that began in the leafy suburbs of Ridgewood, New Jersey with the iconic Gold-selling debut album Let It Enfold You, and which has since seen Senses Fail become one of rock music’s most cherished, celebrated names.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894073_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894073_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894073_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894073_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131455,
+      "external_id": "38849",
+      "published": true,
+      "name": "Showing Teeth",
+      "body": "<p>Showing Teeth sonically taps into nature’s feral side. Within the span of a song, the Kentucky-born and Tennessee-based heavy music disruptor will alternate between guttural growls and anesthetizing melodies with primal unpredictability. Complemented by a “Southern American Gothic” aesthetic, she cuts a path out of the countryside’s darkest corners and reaches towering peaks of catharsis, unraveling self-doubt, alienation, and isolation against a soundtrack that crushes as it caresses.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894074_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894074_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894074_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894074_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131456,
+      "external_id": "38853",
+      "published": true,
+      "name": "SKYND",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894075_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894075_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894075_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894075_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131457,
+      "external_id": "38857",
+      "published": true,
+      "name": "SOFT PLAY",
+      "body": "<p>SOFT PLAY have established themselves as one of the most distinctive and electrifying forces in British punk rock. Formerly known as SLAVES, the duo of Isaac Holman and Laurie Vincent have built a formidable reputation on their uncompromising sound, irreverent humour and explosive live performances, winning over audiences around the world.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894076_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894076_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894076_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894076_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131458,
+      "external_id": "38944",
+      "published": true,
+      "name": "Soil",
+      "body": "<p>Formed in 1997, Chicago Heavy Rock band SOiL quickly took the scene by storm. The band has sold over 2 million albums worldwide and is best known for the hit singles “Halo”, “Unreal”, “Redefine”, “The Lesser Man”, and “Shine On”.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894077_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894077_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894077_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894077_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131459,
+      "external_id": "38689",
+      "published": true,
+      "name": "SPEED",
+      "body": "<p>SPEED and hardcore are two words that have become synonymous on a global scale. The Sydney band have staked claim on the genre through an unwavering ethos built on community and conviction; a nonstop touring schedule across the globe, and records that have reverberated through the underground and beyond.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894078_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894078_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894078_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894078_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131460,
+      "external_id": "38861",
+      "published": true,
+      "name": "Split Chain",
+      "body": "<p>Bristol’s nu-gaze shapeshifters, Split Chain offer a fusion of shoegaze haze, post hardcore attack and nu-metal crunch, creating an expansive sonic atmosphere through gritty, metallic vocals, head-splitting drums, and distorted emo melodies.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894079_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894079_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894079_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894079_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131465,
+      "external_id": "38996",
+      "published": true,
+      "name": "The Dark.FM",
+      "body": "<p>THE DARK.FM occupy a space that has been begging to be occupied within heavy music. A bridge between sounds, communities and cultures that has been ready and waiting for someone to build it. What started as a collaboration between vocalist Craig Johns Jr. and guitarist Alan Ashby that transcended music quickly became about appreciating not just moments in time, but how worlds are built. From flicking through old PlayStation magazines to grasp the visuals that defined the beginning of the Millennium to scouring Rick Owens collections and pondering which daring pieces best represented their intent, the pair quickly found that the strands connecting their passions for music, fashion, and film were deeply intertwined.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894084_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894084_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894084_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894084_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131466,
+      "external_id": "38881",
+      "published": true,
+      "name": "The Devil Wears Prada",
+      "body": "<p>The Devil Wears Prada have always explored life’s extremes in their music. They’ve never shied away from staring down darkness, dealing with depression, making sense of confusion, soothing anxiety, or grappling with faith, existence, and death. At the same time, they’ve mirrored life’s ups and downs by alternating between crushing heaviness and heart-wrenching melodies. After over two decades of making music, their union as bandmates—but more importantly as friends—is stronger than ever.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894085_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894085_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894085_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894085_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131468,
+      "external_id": "38885",
+      "published": true,
+      "name": "THE HOWLING",
+      "body": "<p>THE HOWLING are drenched in drama and full of fever, blending punk rock urgency with a gothic grandeur. The UK rockers mix the ambition of My Chemical Romance and the drive of Green Day with a helping of Sisters Of Mercy melodrama. Since launching in 2025, they have experienced a frantic rise and quickly established themselves as one of the UK’s most exciting emerging rock acts, with their debut EP ‘Salvo’ earning support from Kerrang!, Rock Sound and BBC Radio 1.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894087_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894087_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894087_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894087_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131469,
+      "external_id": "38693",
+      "published": true,
+      "name": "The Prodigy",
+      "body": "<p>Liam H and Maxim have spent 35 years bringing their blistering live shows to Warehouse raves, Serbian castles, New York overpasses, muddy festival fields and anywhere else around the world that they can bring their soundsystem. The live performance, which includes longterm live members Leo Crabtree (drums) and Rob Holliday (Guitar) continues to break new ground in production and performance, with retina blasting visuals and soul shaking bass, delivered with their legendary no-holds barred energy.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894088_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894088_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894088_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894088_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131470,
+      "external_id": "39095",
+      "published": true,
+      "name": "The Raven Age",
+      "body": "<p>Since the release of Blood Omen in 2023, The Raven Age have continued to carve out their place in modern British metal. Blending crushing riffs, soaring melodies, and massive choruses with a darker, more ambitious sound, the band continues to push forward and raise the bar. Wings up. Take flight. New heights ahead.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894089_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894089_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894089_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894089_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131471,
+      "external_id": "38948",
+      "published": true,
+      "name": "Trash Talk",
+      "body": "<p>Trash Talk is a five-piece hardcore punk band formed in Sacramento, California, in 2005. Rooted in hardcore, thrash, and powerviolence, the band carved out a distinct identity through an abrasive, uncompromising sound that routinely breaks containment.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894090_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894090_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894090_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894090_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131473,
+      "external_id": "39000",
+      "published": true,
+      "name": "Villanelle",
+      "body": "<p>VILLANELLE are a UK-based grunge-leaning rock band formed in summer 2023 by friends Gene Gallagher (vocals/guitar), Ben Taylor (guitar) and Jack Schiavo (bass). Sitting at the forefront of a new wave of grunge revivalism, the trio blend raw authenticity with swaggering, hook-driven rock and roll. Drawing influence from Nirvana, Smashing Pumpkins, My Bloody Valentine, Dinosaur Jr and The Who, their sound balances lo-fi grit with arena-ready intensity.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894092_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894092_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894092_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894092_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131474,
+      "external_id": "39002",
+      "published": true,
+      "name": "VIOLENT VIRA",
+      "body": "<p>VIOLENT VIRA channels her music from traumatic yet deeply relatable life experiences and extraordinary empathy for the world around her. That sensitivity manifests at both extremes, swinging between beguiling melodies and cathartic screams. The Mexican-American songstress born Amy Gonzalez, alongside bandmates Anthony Brown and Matt Bolling, has quietly emerged as a hard rock phenomenon with hundreds of millions of streams and dozens of sold-out shows.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894093_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894093_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894093_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894093_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131475,
+      "external_id": "39004",
+      "published": true,
+      "name": "Waterparks",
+      "body": "<p>Waterparks writes anthems that define artistic eras, emotionally precise, sonically distinct, and color-coded. Awsten Knight, Geoff Wigington, and Otto Wood have built one of modern rock’s most vibrant, shapeshifting catalogs, reaching 1 billion streams and a No. 1 Alternative Album in the U.S.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894094_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894094_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894094_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894094_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131476,
+      "external_id": "39008",
+      "published": true,
+      "name": "Windwaker",
+      "body": "<p>Windwaker tear at the seams of their sonic boundaries, refining and finessing their craft into something truly unique. Emerging out of Melbourne, Victoria, the Australian outfit have grown a dedicated and passionate fanbase, amassing millions of digital streams since their inception in 2017.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894095_performance_100.jpeg",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894095_performance_120.jpeg",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894095_performance_250.jpeg",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894095_performance_500.jpeg"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131478,
+      "external_id": "38893",
+      "published": true,
+      "name": "XCOMM",
+      "body": "<p>XCOMM are a Venice Beach hardcore punk band making fast, furious, sharply self-aware music with the rare combination of youthful volatility, serious songwriting chops and absolutely no interest in waiting their turn.</p>",
+      "priority": 100,
+      "category": "regular",
+      "image": {
+        "-1": "",
+        "100": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894097_performance_100.png",
+        "120": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894097_performance_120.png",
+        "250": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894097_performance_250.png",
+        "500": "https://media.appmiral.com/prod/performance/0059/95/thumb_5894097_performance_500.png"
+      },
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:30:52+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131384,
+      "external_id": "38904",
+      "published": true,
+      "name": "Better Lovers",
+      "priority": 100,
+      "category": "regular",
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:15:45+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2131437,
+      "external_id": "38938",
+      "published": true,
+      "name": "Murderdolls",
+      "body": "<p>Amid a musical landscape full of baggy pants, backwards caps, and tracksuits, the metallic glam punk MURDERDOLLS defied the prevailing trends and brought back hard, fast rock ’n’ roll. They dug up the corpse of rock and injected pure, undead, unadulterated life back into it. And it was glorious! With sinister, sneering vocals, huge hooks, gang vocal choruses, pounding rhythms, and some of the catchiest riffs ever penned, MURDERDOLLS wrote songs for arenas and played them in theatres, making their adrenaline-fueled odes to darkness that much more thrilling.</p>",
+      "priority": 100,
+      "category": "regular",
+      "hide_image_on_overview": "never",
+      "hide_image_on_detail": "never",
+      "links": {},
+      "performances": [],
+      "tags": [
+        {
+          "slug": "artist",
+          "name": "artist",
+          "category": "other",
+          "priority": 100,
+          "visible": false,
+          "filter": false,
+          "show_in_search": false,
+          "modified_at": "2025-11-03T22:04:37+00:00"
+        }
+      ],
+      "tracks": [],
+      "show_in_search": true,
+      "show_in_intake": true,
+      "show_in_artists": true,
+      "modified_at": "2026-11-12T21:15:45+00:00",
+      "show_section_titles": false,
+      "allow_favoriting": true
+    },
+    {
+      "id": 2062933,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062934,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062935,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062936,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062937,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062938,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062939,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062940,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062941,
+      "deleted_at": "2026-11-16T05:31:00+00:00"
+    },
+    {
+      "id": 2062942,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062943,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062944,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062945,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062946,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062947,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062948,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062949,
+      "deleted_at": "2026-11-15T13:31:05+00:00"
+    },
+    {
+      "id": 2062950,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062951,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062952,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062953,
+      "deleted_at": "2026-11-15T13:31:05+00:00"
+    },
+    {
+      "id": 2062954,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062955,
+      "deleted_at": "2026-11-15T13:31:05+00:00"
+    },
+    {
+      "id": 2062956,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062957,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062958,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062959,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062960,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062961,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062962,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062963,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062964,
+      "deleted_at": "2026-11-16T05:31:00+00:00"
+    },
+    {
+      "id": 2062965,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062966,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062968,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062969,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062970,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062971,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062972,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062973,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062974,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062975,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062976,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062977,
+      "deleted_at": "2026-11-16T05:30:59+00:00"
+    },
+    {
+      "id": 2062978,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062979,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062980,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062981,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062982,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062983,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062985,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062986,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062987,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062988,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062989,
+      "deleted_at": "2026-11-18T02:31:13+00:00"
+    },
+    {
+      "id": 2062990,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062991,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062992,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062993,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062994,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062995,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062996,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062997,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062998,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2062999,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063000,
+      "deleted_at": "2026-11-16T05:31:00+00:00"
+    },
+    {
+      "id": 2063001,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063002,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063003,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063004,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063005,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063007,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063009,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063010,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063011,
+      "deleted_at": "2026-11-18T02:31:13+00:00"
+    },
+    {
+      "id": 2063012,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063013,
+      "deleted_at": "2026-11-16T05:31:00+00:00"
+    },
+    {
+      "id": 2063014,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063015,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063016,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063017,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063018,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063019,
+      "deleted_at": "2026-11-16T05:31:00+00:00"
+    },
+    {
+      "id": 2063020,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063021,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063022,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063023,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063024,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063025,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2063026,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2065064,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075689,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075690,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075722,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075723,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075724,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075725,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075726,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075727,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075728,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075729,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075730,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075731,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2075732,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080318,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080418,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080419,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080420,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080421,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080422,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080423,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080424,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080425,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080426,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080427,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080428,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080429,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080430,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080431,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080432,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080433,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080434,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080435,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080436,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080437,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080438,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080439,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080440,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080441,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080442,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080443,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080444,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080445,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080446,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080447,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080448,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080449,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080450,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080451,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080452,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080453,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080454,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080455,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080456,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080457,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080458,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080459,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080460,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    },
+    {
+      "id": 2080461,
+      "deleted_at": "2026-10-21T15:45:26+00:00"
+    }
+  ],
+  "_links": {
+    "self": "https://app.appmiral.com/api/v7/events/downloadfestival/editions/downloadfestival2026/artists?include_related=true&max_per_page=250",
+    "next": "https://app.appmiral.com/api/v7/events/downloadfestival/editions/downloadfestival2026/artists?include_related=true&max_per_page=250&cursor=de9cb584000616f2411d5168ee98fe6a&page=2"
+  },
+  "_meta": {
+    "page": 1,
+    "max_per_page": 250,
+    "page_count": 250,
+    "total_count": 385
+  }
+}

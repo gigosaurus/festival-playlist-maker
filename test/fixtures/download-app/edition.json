@@ -1,0 +1,335 @@
+{
+  "id": 984,
+  "published": true,
+  "name": "Download Festival 2026",
+  "route_identifier": "downloadfestival2026",
+  "timezone": "Europe/London",
+  "start_date": "2026-06-10T07:00:00+00:00",
+  "end_date": "2026-06-15T07:00:00+00:00",
+  "dates": [
+    {
+      "id": 4492,
+      "published": true,
+      "type": "fixed",
+      "name": "Wednesday",
+      "name_midnight": "Wednesday Night",
+      "title": "Day 1",
+      "subtitle": "10 June",
+      "time_zone": "Europe/London",
+      "start_date": "2026-06-10T05:00:00+00:00",
+      "end_date": "2026-06-11T05:00:00+00:00",
+      "schedule_scale": 2,
+      "show_in_schedule": true,
+      "show_in_line_up": true,
+      "show_in_calendar": true
+    },
+    {
+      "id": 4493,
+      "published": true,
+      "type": "fixed",
+      "name": "Thursday",
+      "name_midnight": "Thursday Night",
+      "title": "Day 2",
+      "subtitle": "11 June",
+      "time_zone": "Europe/London",
+      "start_date": "2026-06-11T05:00:00+00:00",
+      "end_date": "2026-06-12T05:00:00+00:00",
+      "schedule_scale": 2,
+      "show_in_schedule": true,
+      "show_in_line_up": true,
+      "show_in_calendar": true
+    },
+    {
+      "id": 4494,
+      "published": true,
+      "type": "fixed",
+      "name": "Friday",
+      "name_midnight": "Friday Night",
+      "title": "Day 3",
+      "subtitle": "12 June",
+      "time_zone": "Europe/London",
+      "start_date": "2026-06-12T05:00:00+00:00",
+      "end_date": "2026-06-13T05:00:00+00:00",
+      "schedule_scale": 2,
+      "show_in_schedule": true,
+      "show_in_line_up": true,
+      "show_in_calendar": true
+    },
+    {
+      "id": 4495,
+      "published": true,
+      "type": "fixed",
+      "name": "Saturday",
+      "name_midnight": "Saturday Night",
+      "title": "Day 4",
+      "subtitle": "13 June",
+      "time_zone": "Europe/London",
+      "start_date": "2026-06-13T05:00:00+00:00",
+      "end_date": "2026-06-14T05:00:00+00:00",
+      "schedule_scale": 2,
+      "show_in_schedule": true,
+      "show_in_line_up": true,
+      "show_in_calendar": true
+    },
+    {
+      "id": 4496,
+      "published": true,
+      "type": "fixed",
+      "name": "Sunday",
+      "name_midnight": "Sunday Night",
+      "title": "Day 5",
+      "subtitle": "14 June",
+      "time_zone": "Europe/London",
+      "start_date": "2026-06-14T05:00:00+00:00",
+      "end_date": "2026-06-15T05:00:00+00:00",
+      "schedule_scale": 2,
+      "show_in_schedule": true,
+      "show_in_line_up": true,
+      "show_in_calendar": true
+    }
+  ],
+  "menu_items": [
+    {
+      "id": 11718,
+      "published": true,
+      "name": "Home",
+      "priority": 10,
+      "icon_image": {
+        "-1": "",
+        "40": "https://media.appmiral.com/prod/menuitem/0056/35/thumb_5534200_menuitem_40.png",
+        "80": "https://media.appmiral.com/prod/menuitem/0056/35/thumb_5534200_menuitem_80.png",
+        "120": "https://media.appmiral.com/prod/menuitem/0056/35/thumb_5534200_menuitem_120.png",
+        "160": "https://media.appmiral.com/prod/menuitem/0056/35/thumb_5534200_menuitem_160.png"
+      },
+      "link": {
+        "link_type": "internal_link",
+        "internal_url": "appmiral-downloadfestival://feed"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": true
+    },
+    {
+      "id": 12423,
+      "published": true,
+      "name": "Artists",
+      "priority": 40,
+      "icon_image": {
+        "200": "https://appmiral-sonata-media.s3.eu-west-1.amazonaws.com/menu-icons/android/music-thin.png"
+      },
+      "link": {
+        "link_type": "internal_link",
+        "internal_url": "appmiral-downloadfestival://artists#grid"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11724,
+      "published": true,
+      "name": "Tickets",
+      "priority": 45,
+      "icon_name": "ticket",
+      "link": {
+        "link_type": "browser_link",
+        "url": "https://downloadfestival.co.uk/tickets/#no-camping"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11727,
+      "published": true,
+      "name": "Info & FAQs",
+      "priority": 50,
+      "icon_name": "practical",
+      "link": {
+        "link_type": "browser_link",
+        "url": "https://downloadfestival.co.uk/info/"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11742,
+      "published": true,
+      "name": "Merch",
+      "priority": 90,
+      "icon_name": "merch",
+      "link": {
+        "link_type": "browser_link",
+        "url": "https://shop.downloadfestival.co.uk/"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 14598,
+      "published": true,
+      "name": "Humans Of Download",
+      "priority": 90,
+      "icon_image": {
+        "200": "https://appmiral-sonata-media.s3.eu-west-1.amazonaws.com/menu-icons/android/heart-filled.png"
+      },
+      "link": {
+        "link_type": "browser_link",
+        "url": "https://downloadfestival.co.uk/humans-of-download/"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11728,
+      "published": true,
+      "name": "Partners",
+      "priority": 100,
+      "icon_name": "partner",
+      "link": {
+        "link_type": "internal_link",
+        "internal_url": "appmiral-downloadfestival://sponsors"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11726,
+      "published": true,
+      "name": "Official #DLXXIV playlist",
+      "priority": 120,
+      "icon_name": "radio",
+      "link": {
+        "link_type": "internal_link",
+        "internal_url": "appmiral-downloadfestival://playlists/3429"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    },
+    {
+      "id": 11729,
+      "published": true,
+      "name": "Settings",
+      "priority": 130,
+      "icon_name": "settings",
+      "link": {
+        "link_type": "internal_link",
+        "internal_url": "appmiral-downloadfestival://settings"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "children": [],
+      "is_center_item": false
+    }
+  ],
+  "carousel_interval": 0,
+  "carousel_items": [
+    {
+      "id": 1173,
+      "published": true,
+      "name": "Download Festival Video Carousel",
+      "priority": 100,
+      "link": {
+        "link_type": "none"
+      },
+      "ios_enabled": true,
+      "android_enabled": true,
+      "cover_image": {
+        "-1": "",
+        "500": "https://media.appmiral.com/prod/carousel/0058/27/thumb_5726496_carousel_500.png",
+        "720": "https://media.appmiral.com/prod/carousel/0058/27/thumb_5726496_carousel_720.png",
+        "1080": "https://media.appmiral.com/prod/carousel/0058/27/thumb_5726496_carousel_1080.png",
+        "1440": "https://media.appmiral.com/prod/carousel/0058/27/thumb_5726496_carousel_1440.png",
+        "2160": "https://media.appmiral.com/prod/carousel/0058/27/thumb_5726496_carousel_2160.png"
+      },
+      "video_url": "https://media.appmiral.com/carousel-videos/downloadfestival2026/download_festival_video_carousel_hls.m3u8"
+    }
+  ],
+  "app_review_requests": [
+    {
+      "id": 4,
+      "published": true,
+      "name": "App Review Artists",
+      "event_identifier": "artists_view",
+      "ios_enabled": true,
+      "android_enabled": true,
+      "start_date": "2026-03-16T08:23:00+00:00",
+      "end_date": "2027-03-17T23:55:00+00:00"
+    }
+  ],
+  "chatbot_link": {
+    "link_type": "none"
+  },
+  "app_icon": {
+    "-1": "",
+    "100": "https://media.appmiral.com/prod/edition_app_icon/0058/27/thumb_5726466_edition_app_icon_100.png",
+    "150": "https://media.appmiral.com/prod/edition_app_icon/0058/27/thumb_5726466_edition_app_icon_150.png",
+    "300": "https://media.appmiral.com/prod/edition_app_icon/0058/27/thumb_5726466_edition_app_icon_300.png"
+  },
+  "feed_action_1": "notifications",
+  "feed_action_2": "search",
+  "links": {
+    "website": "https://downloadfestival.co.uk/"
+  },
+  "has_profiles": true,
+  "has_segments": false,
+  "sns_topic_arn": "arn:aws:sns:eu-west-1:000000000000:test-topic",
+  "tickets": true,
+  "tickets_linked_account": true,
+  "tickets_manual_add": false,
+  "tickets_scan_add": false,
+  "cashless": false,
+  "cashless_linked_account": false,
+  "cashless_manual_add": false,
+  "cashless_scan_add": false,
+  "locales": [
+    "en"
+  ],
+  "layout": {
+    "ios": {
+      "section_padding": 8,
+      "section_spacing": 8,
+      "item_spacing": 8,
+      "item_corner_radius": 8,
+      "content_inset": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "content_icon_corner_radius": 8,
+      "separator_inset": 8,
+      "schedule_item_corner_radius": 8,
+      "schedule_item_host_corner_radius": 8,
+      "card_item_corner_radius": 8
+    },
+    "android": {
+      "item_padding": 8,
+      "item_corner_radius": 8,
+      "content_padding": 8,
+      "content_icon_corner_radius": 8,
+      "schedule_item_corner_radius": 8,
+      "schedule_item_host_corner_radius": 8,
+      "card_item_corner_radius": 8
+    }
+  },
+  "has_appmiral_analytics": false,
+  "use_remote_reminders": true,
+  "cashless_nfc_add": false,
+  "has_vendor_sharing": false,
+  "has_artist_sharing": false,
+  "has_artist_recommendations": false
+}
