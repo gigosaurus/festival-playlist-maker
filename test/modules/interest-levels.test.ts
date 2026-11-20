@@ -3,7 +3,7 @@ import { test, type TestContext } from "node:test";
 import { saveArtistMatch } from "../../src/artist-matches.ts";
 import { openDatabase } from "../../src/database.ts";
 import { addFestival } from "../../src/festivals.ts";
-import { festivalLineup, playlistArtistCount, saveInterestLevels } from "../../src/interest-levels.ts";
+import { festivalLineup, saveInterestLevels } from "../../src/interest-levels.ts";
 import { getFestivalLineup } from "../../src/lineups.ts";
 import type { MusicBrainzArtist } from "../../src/musicbrainz.ts";
 import { FakeClock } from "../support/fake-clock.ts";
@@ -67,7 +67,6 @@ test("festivalLineup gives each artist on the lineup with its genres at Curious,
       { name: "Ghost", genres: ["metal"], level: "curious" },
     ],
   );
-  assert.equal(playlistArtistCount(lineup), 2);
 });
 
 test("festivalLineup does not include a lineup name without an artist match", async (t) => {
@@ -107,7 +106,6 @@ test("saveInterestLevels saves the level of each user separately, and a new save
     ["Ghost", "curious"],
     ["Turnstile", "keen"],
   ]);
-  assert.equal(playlistArtistCount(festivalLineup(database, festival, alex)), 2);
 });
 
 test("saveInterestLevels saves nothing when a lineup name is not an artist on the lineup of the festival", async (t) => {

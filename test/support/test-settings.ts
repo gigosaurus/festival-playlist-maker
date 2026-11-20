@@ -1,4 +1,4 @@
-import { defaultPredictionSettings, type Settings } from "../../src/settings.ts";
+import { defaultPlaylistSettings, defaultPredictionSettings, type Settings } from "../../src/settings.ts";
 import type { RecordedResponse } from "./fake-http-client.ts";
 
 export const adminSpotifyUserId = "festival-admin";
@@ -13,6 +13,7 @@ export function testSettings(origin = "http://localhost:3100"): Settings {
     musicbrainzContact: "admin@festival-playlist-maker.test",
     setlistFmApiKey: "test-setlist-fm-key",
     prediction: defaultPredictionSettings,
+    playlist: defaultPlaylistSettings,
   };
 }
 

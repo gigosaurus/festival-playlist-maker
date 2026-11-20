@@ -36,3 +36,5 @@ node --env-file-if-exists=.env test/fixtures/spotify/record-tracks.ts --new data
 ```
 
 Some responses are not recordings, because a test cannot cause them safely on the real API: the token response (`test/support/test-settings.ts`), and the status 404 response, the status 429 responses and the quota error (`test/support/spotify.ts`). They have the shapes of the Spotify Web API reference.
+
+The playlist responses (#15) are also not recordings, because a recording makes a playlist in a real Spotify account: the playlist from `POST /v1/me/playlists`, the items responses from `PUT` and `POST /v1/playlists/{id}/items`, and the status 403 response (`test/support/spotify.ts`). They have the shapes of the Spotify Web API reference after the Development Mode changes of February 2026. That change removed `POST /v1/users/{user_id}/playlists` and the `/tracks` playlist endpoints.

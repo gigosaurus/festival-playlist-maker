@@ -47,7 +47,7 @@ test("the page lists each artist on the lineup with its genres, at Curious, with
   await expect(artistRows(page)).toHaveCount(150);
   await expect(lineup(page).getByText("150 artists", { exact: true })).toBeVisible();
   await expect(lineup(page).getByRole("radio", { name: "Curious", checked: true })).toHaveCount(150);
-  await expect(page.getByText("The playlist will contain 150 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 284 songs by 149 of 150 artists.")).toBeVisible();
   await expect(artistRows(page).first()).toContainText("Black Choir");
   await expect(artistRows(page).filter({ hasText: "Bring Me The Horizon" })).toContainText("hard rock");
   await expect(lineup(page).getByText("???")).toHaveCount(0);
@@ -67,10 +67,10 @@ test("one action sets an interest level, and the level stays after a reload and 
   await level(page, "Ghost", "Must see").check();
   await level(page, "Black Choir", "Not interested").check();
 
-  await expect(page.getByText("The playlist will contain 149 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 287 songs by 148 of 150 artists.")).toBeVisible();
   await expectSaved(page, "Ghost", "Must see");
   await expectSaved(page, "Black Choir", "Not interested");
-  await expect(page.getByText("The playlist will contain 149 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 287 songs by 148 of 150 artists.")).toBeVisible();
 
   await context.clearCookies();
   await logIn();
@@ -100,7 +100,7 @@ test("the last of several fast changes is the saved level", async ({ page }) => 
   await page.keyboard.press("ArrowLeft");
   await page.keyboard.press("ArrowLeft");
   await page.keyboard.press("ArrowLeft");
-  await expect(page.getByText("The playlist will contain 149 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 282 songs by 148 of 150 artists.")).toBeVisible();
 
   await expectSaved(page, "Ghost", "Not interested");
 });
@@ -115,7 +115,7 @@ test("search, filter and sort operate together, and the address keeps them", asy
   ] as const) {
     await level(page, artist, name).check();
   }
-  await expect(page.getByText("The playlist will contain 149 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 292 songs by 148 of 150 artists.")).toBeVisible();
   await page.reload();
 
   // Search: the case and the accents are not important.
@@ -222,7 +222,7 @@ test("when a save fails, the artist shows the level that the application saved, 
   const ghost = artistRows(page).filter({ hasText: "Ghost" });
   await expect(ghost.getByRole("alert")).toHaveText("The application did not save the interest level. Select it again.");
   await expect(level(page, "Ghost", "Curious")).toBeChecked();
-  await expect(page.getByText("The playlist will contain 150 of 150 artists.")).toBeVisible();
+  await expect(page.getByText("The playlist will contain 284 songs by 149 of 150 artists.")).toBeVisible();
   expect(await axeViolations(page)).toEqual([]);
 
   await page.unroute(`**${festivalPath}/interest-levels`);
@@ -267,6 +267,6 @@ test.describe("without JavaScript", () => {
 
     await expect(page.getByRole("heading", { name: "Saved the interest levels" })).toBeVisible();
     await expect(level(page, "Ghost", "Must see")).toBeChecked();
-    await expect(page.getByText("The playlist will contain 149 of 150 artists.")).toBeVisible();
+    await expect(page.getByText("The playlist will contain 287 songs by 148 of 150 artists.")).toBeVisible();
   });
 });

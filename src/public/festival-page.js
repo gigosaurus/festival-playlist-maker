@@ -1,6 +1,8 @@
 // The Festival page (src/pages/festival-page.ts).
 // - Saves the interest level of an artist immediately when the user changes it.
 // - Shows the search, the filter and the sort, and applies them to the lineup.
+// - Changes the number of songs in the playlist after each saved interest level.
+// - Prevents a second "Make the playlist" while the first one waits for Spotify.
 // The address keeps the search, the filter and the sort, so that a reload and
 // Back show the same list.
 
@@ -10,6 +12,8 @@ const tools = document.querySelector("[data-lineup-tools]");
 const form = document.querySelector("[data-interest-levels]");
 const lineupCount = document.querySelector("[data-lineup-count]");
 const playlistCount = document.querySelector("[data-playlist-count]");
+const songCounts = JSON.parse(playlistCount.dataset.songCounts);
+const playlistForm = document.querySelector("[data-playlist-form]");
 const showAll = document.querySelector("[data-show-all]");
 const updateList = document.querySelector("[data-update-list]");
 const list = form.querySelector("ul");
@@ -27,6 +31,7 @@ const artists = [...list.children].map((element) => ({
   name: comparable(element.querySelector(".artist-name").textContent),
   level: element.dataset.level,
   saved: element.dataset.level,
+  predictedSongs: Number(element.dataset.songs),
   version: 0,
   sending: Promise.resolve(),
 }));
@@ -38,6 +43,25 @@ apply();
 
 tools.addEventListener("submit", (event) => event.preventDefault());
 form.addEventListener("submit", (event) => event.preventDefault());
+// Spotify can need some seconds. The browser shows its loading state, and the button
+// shows that the request is in progress.
+playlistForm.addEventListener("submit", (event) => {
+  const button = playlistForm.querySelector("button");
+  if (button.disabled) {
+    event.preventDefault();
+    return;
+  }
+  button.dataset.label = button.textContent;
+  button.disabled = true;
+  button.textContent = button.textContent.startsWith("Make") ? "Making the playlist…" : "Updating the playlist…";
+});
+// After Back, the browser can show the page from its cache, with the button disabled.
+addEventListener("pageshow", () => {
+  const button = playlistForm.querySelector("button");
+  if (button.dataset.label === undefined) return;
+  button.disabled = false;
+  button.textContent = button.dataset.label;
+});
 tools.addEventListener("input", () => {
   writeAddress();
   apply();
@@ -182,7 +206,10 @@ async function save(artist, level) {
   }
 }
 
+// The same numbers as playlistCount in src/pages/festival-page.ts.
 function updatePlaylistCount() {
-  const playlist = artists.filter((artist) => artist.saved !== "not-interested").length;
-  playlistCount.textContent = `The playlist will contain ${playlist} of ${artistCount(artists.length)}.`;
+  const songs = artists.map((artist) => Math.min(songCounts[artist.saved], artist.predictedSongs));
+  const total = songs.reduce((sum, each) => sum + each, 0);
+  const playlistArtists = songs.filter((each) => each > 0).length;
+  playlistCount.textContent = `The playlist will contain ${total} ${total === 1 ? "song" : "songs"} by ${playlistArtists} of ${artistCount(artists.length)}.`;
 }

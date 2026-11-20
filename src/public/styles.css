@@ -759,6 +759,14 @@ a.button {
   overflow-wrap: anywhere;
 }
 
+/* The festival name, and the badge when the user has a playlist for the festival. */
+.festival-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+}
+
 .festival-link:hover .festival-name {
   text-decoration: underline;
 }
@@ -782,8 +790,46 @@ a.button {
   margin: -0.5rem 0 1rem;
 }
 
-.playlist-count {
+/* Playlist panel: the number of songs, the link, the last update and the action. */
+.playlist {
+  background: var(--colour-surface);
+  border: 1px solid var(--colour-rule);
+  border-radius: var(--radius-panel);
+  padding: 1.25rem 1.5rem 1.5rem;
   margin: 0 0 2rem;
+  max-width: 40rem;
+}
+
+.playlist h2 {
+  margin-top: 0;
+}
+
+.playlist-link {
+  margin: 0;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.playlist-updated {
+  margin: 0 0 1rem;
+  color: var(--colour-muted);
+}
+
+.playlist .genre-warning {
+  margin: 0 0 1rem;
+}
+
+.playlist-count {
+  margin: 0 0 1rem;
+}
+
+.playlist-form {
+  margin: 0;
+}
+
+/* The request waits for Spotify. */
+.button:disabled {
+  cursor: progress;
 }
 
 /* Search, filter and sort of the lineup. The script shows them. */

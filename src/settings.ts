@@ -1,3 +1,5 @@
+import type { InterestLevel } from "./interest-levels.ts";
+
 // The settings that the application gets from its environment.
 export interface Settings {
   // The client ID of the Spotify developer app. The application uses PKCE and
@@ -18,6 +20,7 @@ export interface Settings {
   // The setlist.fm API key. Do not give it to a different person (setlist.fm API terms).
   setlistFmApiKey: string;
   prediction: PredictionSettings;
+  playlist: PlaylistSettings;
 }
 
 // The numbers of the song prediction method (issues #12, #13 and #14).
@@ -83,4 +86,14 @@ export const defaultPredictionSettings: PredictionSettings = {
   albumFocusedMonths: 12,
   albumFocusedWeight: 0.1,
   coverTopSongs: 10,
+};
+
+// The numbers of the playlist builder (#15).
+export interface PlaylistSettings {
+  // The maximum number of predicted songs of an artist in the playlist, for each interest level.
+  songCounts: Record<InterestLevel, number>;
+}
+
+export const defaultPlaylistSettings: PlaylistSettings = {
+  songCounts: { "not-interested": 0, curious: 2, keen: 4, "must-see": 7 },
 };

@@ -3,7 +3,7 @@ import { createApp } from "./app.ts";
 import { systemClock } from "./clock.ts";
 import { openDatabase } from "./database.ts";
 import { createFetchHttpClient } from "./http-client.ts";
-import { defaultPredictionSettings, type Settings } from "./settings.ts";
+import { defaultPlaylistSettings, defaultPredictionSettings, type Settings } from "./settings.ts";
 
 function requiredSetting(name: string): string {
   const value = process.env[name]?.trim();
@@ -26,6 +26,7 @@ const settings: Settings = {
   musicbrainzContact: requiredSetting("MUSICBRAINZ_CONTACT"),
   setlistFmApiKey: requiredSetting("SETLIST_FM_API_KEY"),
   prediction: defaultPredictionSettings,
+  playlist: defaultPlaylistSettings,
 };
 
 const database = openDatabase(databasePath);

@@ -9,8 +9,8 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Page | Address | Principal task | Who | Status |
 |---|---|---|---|---|
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
-| Festivals | `/` | Choose a published festival | User | Done (#9) |
-| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). #15 adds the playlist. |
+| Festivals | `/` | Choose a published festival | User | Done (#9, #15) |
+| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). Make the playlist done (#15). #16 adds the changes after an update. |
 | Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, get a lineup again, and publish a festival | Admin | Done (#6, #9) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
 | Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings, Spotify artists and predicted songs | Admin | Done (#7, #8, #12, #14) |
@@ -66,7 +66,7 @@ The page has four states: no problem, not on the allowlist, cancelled and failed
 - **Principal task:** choose a published festival.
 - **Who and from where:** a user on the allowlist. In version 1, the user comes from the Spotify log in, from a bookmark or from the wordmark on a different page. The user knows the application and the festival that they go to.
 - **Necessary before the task:** the published festivals, with the year and the dates of each one (user story 7).
-- **Supporting detail:** none. The playlist status of each festival (user story 8) comes with the playlist.
+- **Supporting detail:** the mark "Your playlist is made" on each festival for which the user has a playlist (user story 8). The user goes back to a festival to update the playlist.
 
 The festivals that are still to come show first, the next festival first. A festival is still to come on its last day. The complete festivals show below them, in the section "Complete festivals", the most recent festival first (user story 10). The section heading tells the user why the order changes. A festival is complete after midnight in the United Kingdom, because the users and the festivals are in the United Kingdom.
 
@@ -89,13 +89,16 @@ Empty state: no festival is published. The user cannot do the principal task. Th
 | Section "Complete festivals" | Keep visible, when a published festival is complete | Explains the order (user story 10). There is no heading for the festivals to come, because the page title already names them. |
 | The number of artists of each festival | Remove | It does not help the user choose a festival. |
 | A status label "On now" | Remove | The dates show it. |
+| Badge "Your playlist is made" after the festival name | Keep visible, when the user has a playlist for the festival | User story 8. It shows also when the playlist does not have all of the songs, because the playlist exists in Spotify. |
+| The time of the last update on the Festivals page | Remove | The Festival page shows it, next to the action that uses it. |
 
 ### Festival
 
-- **Principal task:** set the interest level of each artist on the lineup. Later, make or update the playlist (#15).
+- **Principal task:** set the interest level of each artist on the lineup, then make or update the playlist (#15).
 - **Who and from where:** a user, from a festival on the Festivals page, or from a bookmark. The user knows the festival and some of its artists. The user usually sets the levels over several visits (user story 19).
 - **Necessary before the task:** the festival, the artists on the lineup, the genres of each artist (user story 17), and the interest level of each artist.
-- **Supporting detail:** the number of artists that the playlist will contain (user story 20). The search, the filter and the sort.
+- **Necessary before the playlist action:** the number of songs and artists that the playlist will contain (user story 20). After the first playlist: the link to it and the time of the last update (user stories 32 and 34).
+- **Supporting detail:** the search, the filter and the sort. "No predicted songs" under an artist that gives no songs.
 
 A lineup has approximately 150 artists, so one action sets a level (user story 14). Each artist has four radio buttons that look like segments. A selection saves the level immediately. With the keyboard, Tab moves from artist to artist, and the arrow keys change the level. Each level that the user sets is saved. A different user has different levels.
 
@@ -107,12 +110,29 @@ Without JavaScript, the radio buttons are one form, and "Save the interest level
 
 Empty states: a search or a filter without results says which condition gave no artist, and gives "Show all artists".
 
+The Playlist panel is above the lineup. A user who comes back usually wants to update the playlist, and a lineup of 150 artists puts the end of the page far away. The panel gives the number of songs and artists, then the action. The number changes after each saved level, so the user sees the length before the action (user story 20). An artist with no predicted songs gives no songs. The count therefore says "149 of 150 artists", and the artist shows "No predicted songs", so that the user can find the artist that the count does not include (CP-01).
+
+"Make the playlist" makes a private playlist "{festival} {year}" in the Spotify account of the user. The button then becomes "Update the playlist", which sets the songs of the same playlist. The request waits for Spotify, which can take some seconds for a large playlist. The script disables the button and changes its label, so that a second select does not make a second playlist. The server also refuses a second request for the same playlist while the first one runs.
+
+The confirmation shows only after Spotify accepted each request (FN-02). A failure shows the Festival page with a problem notice. The heading tells the user what happened to the playlist: not made, did not change, or does not have all of the songs (user story 33). The text gives the cause from Spotify, and the wait after a rate limit, or "Try again later.". When Spotify stops after some of the songs, the playlist exists but is not complete. After the notice, the panel shows a warning until an update completes.
+
 | Content | Decision | Reason |
 |---|---|---|
 | Link "Festivals" above the title | Keep visible | The way back. It has the title of its destination (IA-05). |
 | Page title "{festival} {year}" | Keep visible | Identifies the festival. It is the playlist name. |
 | Dates | Keep visible | Identify the edition. |
-| "The playlist will contain N of M artists." | Keep visible | User story 20. Artists at Not interested get no songs. #15 adds the number of songs and the action that makes the playlist. |
+| Panel "Playlist" | Keep visible, above the lineup | Groups the playlist count, the link, the last update and the action. |
+| "The playlist will contain N songs by A of M artists." | Keep visible | User story 20. Artists at Not interested and artists without predicted songs give no songs. |
+| Button "Make the playlist", then "Update the playlist" | Keep visible | User story 22. The principal action of the panel. The label names the result (CT-04). |
+| Link "Open {festival} {year} in Spotify" | Keep visible, after the playlist is made | User story 34. The playlist name in the link agrees with the name in Spotify (user story 24). |
+| "Last update: {date} at {time}" | Keep visible, after the first complete update | User story 32. |
+| "Warning: the playlist in Spotify does not have all of the songs. Update the playlist." | Keep visible, when the last attempt stopped after some of the songs, except when the notice says it | The playlist exists but is not complete. The text gives the correction. |
+| Notice "Made the playlist {festival} {year} in Spotify" or "Updated …" | Keep visible, after a success only | CP-03, FN-02. The panel below gives the count, so the notice does not repeat it (IA-03). |
+| Problem notices: "The application did not make the playlist", "The playlist did not change", "The playlist in Spotify does not have all of the songs", "The playlist would contain no songs", "The application is already making this playlist" | Keep visible, after a failure only | User story 33. Each heading states the result for the playlist. The text gives the cause and the next action. |
+| "No predicted songs" under an artist | Keep visible, when the artist has no predicted songs | Explains why the count does not include the artist (CP-01). |
+| The playlist description and the setlist.fm attribution | Remove from the page | They are in the playlist in Spotify. The page has no reason to show them. |
+| The song count of each level (2, 4, 7) | Remove | The count changes after each level, so the user sees the result. The numbers are settings. |
+| A list of the songs in the playlist | Remove | Spotify shows the playlist. #18 adds the player for each artist. |
 | Section "Lineup" | Keep visible | The principal task. |
 | Search field "Search by artist name", select "Interest level", select "Sort by" | Keep visible, with the script only | User stories 15 and 16. The accents and the case are not important in the search. |
 | The number of artists in the list ("150 artists", "12 of 150 artists") | Keep visible | Shows the result of the search and the filter. |
@@ -124,7 +144,6 @@ Empty states: a search or a filter without results says which condition gave no 
 | Lineup names marked "no match" | Remove | They are not artists, and playlists get no songs for them. |
 | A save button or a confirmation for each change | Remove | Each change saves immediately. A failure shows under the artist. |
 | Text that explains the default level Curious | Remove | Each artist shows Curious as the chosen level. Nothing on the page gives a reason to ask (CP-07). |
-| The number of songs for each level | Remove until #15 | The playlist does not exist yet. |
 
 ### Manage festivals
 
@@ -341,10 +360,11 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Section heading | `h2` | 1.25rem | 650 | 1.3 | Ink | Sections and the empty-state heading |
 | Lead text | `.lead` | 1.125rem | 400 | 1.5 | Ink | The first sentence of a page that has no section heading, for example Page not found |
 | Body text | `body`, `p` | 1rem | 400 | 1.5 | Ink | Normal text |
-| Supporting text | `.empty-state p`, `.festival-dates`, `.publication-hint`, `.lineup-count`, `.lineup-action` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
-| Playlist count | `.playlist-count` | 1rem | 400 | 1.5 | Ink | "The playlist will contain N of M artists." on the Festival page. Ink, because it is information for a decision, not a qualification. |
+| Supporting text | `.empty-state p`, `.festival-dates`, `.publication-hint`, `.lineup-count`, `.lineup-action`, `.playlist-updated` | 1rem | 400 | 1.5 | Muted | Text that explains or qualifies the text above it |
+| Playlist count | `.playlist-count` | 1rem | 400 | 1.5 | Ink | "The playlist will contain N songs by A of M artists." on the Festival page. Ink, because it is information for a decision, not a qualification. |
+| Playlist link | `.playlist-link a` | 1rem | 650 | 1.5 | Link | "Open {festival} {year} in Spotify". The weight shows that it is the result of the principal action. |
 | Artist name | `.artist-name` | 1rem | 650 | 1.5 | Ink | The lineup name of one artist on the Festival page |
-| Artist genres | `.artist-genres` | 0.9375rem | 400 | 1.5 | Muted | The genres under the artist name |
+| Artist genres | `.artist-genres` | 0.9375rem | 400 | 1.5 | Muted | The genres under the artist name, and "No predicted songs" |
 | Interest level | `.level` | 0.9375rem | 400, 650 when chosen | 1.25 | Ink, Link when chosen | The label of one interest level. The weight and the colour show the chosen level together with the border. |
 | Festival name in the festival list | `.festival-link .festival-name` | 1.125rem | 650 | 1.5 | Link | The festival name and year on the Festivals page. The link colour shows that the panel is a link. |
 | Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
@@ -352,7 +372,7 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Field problem | `.field-problem` | 1rem | 600 | 1.5 | Problem | The problem of one form field and how to correct it, and a failed save of an interest level |
 | Choice label | `.choice-label` | 1rem | 650 | 1.5 | Ink | The name of a Clashfinder page or a MusicBrainz artist in a list of choices |
 | Lineup name heading | `.match-item-heading` | 1.125rem | 650 | 1.4 | Ink | One lineup name on Admin: artist matches. Smaller than a section heading, larger than a choice label. |
-| Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres", "Warning: no Spotify artist found" and the warnings about predicted songs. The text starts with "Warning", so the colour is not the only sign. |
+| Genre warning | `.genre-warning` | 0.9375rem | 600 | 1.5 | Warning | "Warning: none of the expected genres", "Warning: no Spotify artist found", the warnings about predicted songs and the warning about a playlist that does not have all of the songs. The text starts with "Warning", so the colour is not the only sign. |
 | Matched lineup name | `.matched-lineup-name` | 1rem | 650 | 1.5 | Ink | The lineup name in the list of artist matches |
 | Matched artist | `.matched-artist`, `.matched-spotify` | 0.9375rem | 400 | 1.5 | Muted | The artist of a match, with its facts, its Spotify artist and its predicted songs |
 | Song number | `.predicted-song-list > li::before` | 1rem | 600 | 1.5 | Muted | The position of a song in the order of prediction |
@@ -423,13 +443,14 @@ The application has only a light colour scheme in version 1. The standards test 
 | Site header | Brand background, 4px strip in the link colour at the bottom, no radius, no shadow | Visual identity. The strip separates the header from the page. It is not interactive. |
 | Content column | Maximum width 60rem, side padding 1rem (2rem from 40rem width) | Keeps the header and the page content aligned, and keeps lines at a legible length. |
 | Empty-state panel | Surface background, 1px rule border, radius 12px (`--radius-panel`), no shadow, maximum width 36rem | Groups the empty-state message, so that it reads as a state of the page and not as a section. |
-| Festival link panel | Surface background, 1px rule border, radius 12px, no shadow. The name at the left, the dates at the right, or below the name on a narrow screen. When the pointer is on it: selected background, link border, underlined name. Maximum width 40rem. | One published festival on the Festivals page. The full panel is one link to the Festival page (LY-02). |
+| Festival link panel | Surface background, 1px rule border, radius 12px, no shadow. The name and the badge "Your playlist is made" at the left, the dates at the right, or below the name on a narrow screen. When the pointer is on it: selected background, link border, underlined name. Maximum width 40rem. | One published festival on the Festivals page. The full panel is one link to the Festival page (LY-02). |
 | Complete festivals | Section heading, 2.5rem space above | Separates the complete festivals from the festivals to come. |
 | Lineup list | 1px rule dividers, no radius, full column width. Each row: the name and the genres at the left, the interest levels at the right. Below 48rem width, the interest levels go below the name, with four equal columns. | The artists on the Festival page. The rows are a list to scan, not separate items to compare. |
 | Interest levels | Four segments, each one a radio button that covers the segment. Surface background, 1px rule border, radius 8px, minimum height 2.75rem. Chosen: 2px link border, selected background, link text, weight 650. Pointer on it: selected background. Keyboard focus: the focus indicator around the segment. | The interest level of one artist. The chosen state is the same as the page choice (PB-01). Each segment is a large target for touch (WCAG 2.5.8). |
+| Playlist panel | Surface background, 1px rule border, radius 12px, no shadow, maximum width 40rem. The section heading, the link and the last update, the count, then the principal action button. | The playlist of the user on the Festival page. A panel separates it from the lineup, which is a list without panels. |
 | Lineup tools | Search field, then two selects, on one row. On a narrow screen, the search field has its own row and the two selects share the next row. | Search, filter and sort on the Festival page. They show only when the script runs. |
 | Publish button | The principal action button, in the festival panel above "Get the lineup again" | The principal action for one festival on Manage festivals. It shows only when the admin can publish the festival, so a page has few of them. |
-| Principal action button | Link background, on-brand text, radius 8px (`--radius-control`), no border, no shadow. Action hover background when the pointer is on it. | The one principal action of a page, for example "Log in with Spotify", or of one item in a list, for example "Publish" for one festival. |
+| Principal action button | Link background, on-brand text, radius 8px (`--radius-control`), no border, no shadow. Action hover background when the pointer is on it. A progress pointer when it is disabled during a request. | The one principal action of a page, for example "Log in with Spotify", or of one item in a list, for example "Publish" for one festival. |
 | Header button | Brand background, 1px on-brand border, on-brand text, radius 8px. Colours change places when the pointer is on it. | A secondary action in the site header: "Log out". The border shows that it is a button, without the emphasis of the principal action. |
 | Account | Display name, then the header button, at the right of the site header. A long display name ends with an ellipsis at 14rem. | Shows the logged-in account. On a narrow screen, it moves below the wordmark. |
 | Notice | Surface background, 1px rule border, 4px strip in the problem colour on the left, radius 12px, no shadow, maximum width 36rem | A problem that stopped the last action of the user. The strip shows the state. |
@@ -441,7 +462,7 @@ The application has only a light colour scheme in version 1. The standards test 
 | Input | Surface background, 1px muted border, radius 8px | Text fields and date fields. The muted border has 3:1 contrast for a control (WCAG 1.4.11). |
 | Field with a problem | 4px strip in the problem colour on the left, the problem text above the input | Shows the field that needs a correction. The text also shows it without colour. |
 | Festival panel | Surface background, 1px rule border, radius 12px, no shadow | One festival on Manage festivals. The festivals are separate items that the admin scans (LY-02). |
-| Status label, badge | Badge background, ink text, radius 4px | A state ("Not published") or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
+| Status label, badge | Badge background, ink text, radius 4px | A state ("Not published", "Your playlist is made") or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
 | Facts | Label and value pairs. Two columns from 40rem width, one column on a narrow screen. | The facts of a festival, or of the artist on Spotify artist for one name. |
 | Inline problem | 4px strip in the problem colour on the left, no background | A problem inside a panel, for example a failed lineup attempt. There is no panel in a panel. |
 | Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results, or one MusicBrainz artist or "No match" in the artist choices. The full label selects the radio button. A fact does not break across two lines. |

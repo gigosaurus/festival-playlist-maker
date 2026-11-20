@@ -4,7 +4,12 @@ import type { User } from "../sessions.ts";
 import { formatDateRange } from "./format.ts";
 import { layout } from "./layout.ts";
 
-export function festivalsPage(user: User, festivals: { toCome: PublishedFestival[]; complete: PublishedFestival[] }) {
+// withPlaylist: the IDs of the festivals for which the user has a playlist (user story 8).
+export function festivalsPage(
+  user: User,
+  festivals: { toCome: PublishedFestival[]; complete: PublishedFestival[] },
+  withPlaylist: Set<number>,
+) {
   const { toCome, complete } = festivals;
   return layout({
     title: "Festivals",
@@ -13,12 +18,12 @@ export function festivalsPage(user: User, festivals: { toCome: PublishedFestival
     body: html`
       <h1>Festivals</h1>
       ${toCome.length === 0 && complete.length === 0 ? emptyState() : ""}
-      ${toCome.length > 0 ? festivalList(toCome) : ""}
+      ${toCome.length > 0 ? festivalList(toCome, withPlaylist) : ""}
       ${complete.length > 0
         ? html`
             <section class="complete-festivals" aria-labelledby="complete-festivals-heading">
               <h2 id="complete-festivals-heading">Complete festivals</h2>
-              ${festivalList(complete)}
+              ${festivalList(complete, withPlaylist)}
             </section>
           `
         : ""}
@@ -37,14 +42,17 @@ function emptyState() {
 
 // Each festival is one link that opens its Festival page. The dates are in the
 // link, so that the full panel opens the page.
-function festivalList(festivals: PublishedFestival[]) {
+function festivalList(festivals: PublishedFestival[], withPlaylist: Set<number>) {
   return html`
     <ul class="festival-list">
       ${festivals.map(
         (festival) => html`
           <li>
             <a class="festival-link" href="/festivals/${festival.id}">
-              <span class="festival-name" data-external-text>${festival.name} ${festival.year}</span>
+              <span class="festival-title">
+                <span class="festival-name" data-external-text>${festival.name} ${festival.year}</span>
+                ${withPlaylist.has(festival.id) ? html`<span class="badge">Your playlist is made</span>` : ""}
+              </span>
               <span class="festival-dates">${formatDateRange(festival.startDate, festival.endDate)}</span>
             </a>
           </li>
