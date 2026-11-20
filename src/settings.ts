@@ -20,10 +20,16 @@ export interface Settings {
   prediction: PredictionSettings;
 }
 
-// The numbers of the song prediction method (issues #12 and #13).
+// The numbers of the song prediction method (issues #12, #13 and #14).
 export interface PredictionSettings {
   // The application uses the shows of this number of months before the calculation.
   lookBackMonths: number;
+  // When an artist has fewer than this number of shows in the look-back period,
+  // the application uses the next period in `longLookBackMonths`.
+  fewShows: number;
+  // The longer look-back periods, in months, from the shortest to the longest.
+  // A result from a longer period gets the long look-back mark.
+  longLookBackMonths: number[];
   // The weight of a show halves for each period of this number of months of age.
   halfLifeMonths: number;
   // The maximum number of predicted songs of an artist.
@@ -49,10 +55,21 @@ export interface PredictionSettings {
   // setlist.fm users add setlists after a show. A result "not a festival set"
   // from fewer than this number of days after the date is checked again.
   festivalSetCheckDays: number;
+  // A show is album-focused when more than `albumFocusedShare` of its songs come
+  // from one album that was released in the `albumFocusedMonths` months before the show.
+  albumFocusedShare: number;
+  albumFocusedMonths: number;
+  // The weight of an album-focused show is this number of times the weight of a different show.
+  albumFocusedWeight: number;
+  // A cover is kept only when it is one of this number of songs with the highest score,
+  // and Spotify has a recording of it by the performing artist.
+  coverTopSongs: number;
 }
 
 export const defaultPredictionSettings: PredictionSettings = {
   lookBackMonths: 18,
+  fewShows: 5,
+  longLookBackMonths: [36, 60],
   halfLifeMonths: 6,
   songCount: 10,
   validMonths: 6,
@@ -62,4 +79,8 @@ export const defaultPredictionSettings: PredictionSettings = {
   festivalSetWeight: 2,
   tourShowLimit: 3,
   festivalSetCheckDays: 30,
+  albumFocusedShare: 0.5,
+  albumFocusedMonths: 12,
+  albumFocusedWeight: 0.1,
+  coverTopSongs: 10,
 };

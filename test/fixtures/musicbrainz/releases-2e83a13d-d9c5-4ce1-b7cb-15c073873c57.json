@@ -1,0 +1,829 @@
+{
+ "release-count": 2,
+ "release-offset": 0,
+ "releases": [
+  {
+   "barcode": "196873287485",
+   "release-events": [
+    {
+     "area": {
+      "disambiguation": "",
+      "sort-name": "[Worldwide]",
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "name": "[Worldwide]",
+      "type": null,
+      "iso-3166-1-codes": [
+       "XW"
+      ],
+      "type-id": null
+     },
+     "date": "2025-07-11"
+    }
+   ],
+   "disambiguation": "",
+   "date": "2025-07-11",
+   "country": "XW",
+   "packaging": "None",
+   "media": [
+    {
+     "position": 1,
+     "id": "8d433dae-19e8-4f7a-b22a-9135e0aa7045",
+     "title": "",
+     "format": "Digital Media",
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+     "tracks": [
+      {
+       "position": 1,
+       "id": "f32de623-45ac-4341-ae28-4b73770fa3c5",
+       "length": 162946,
+       "title": "canyoufeelmy<3.tmpx",
+       "number": "1",
+       "recording": {
+        "id": "a198e17a-7d07-41f4-85c6-31d0c344b361",
+        "length": 162946,
+        "title": "canyoufeelmy<3.tmpx",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "length": 290201,
+        "id": "e84f1f69-0bde-466a-a91d-8844be5391d1",
+        "title": "(U)topia.drm",
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11"
+       },
+       "number": "2",
+       "length": 290201,
+       "id": "d1a23c5a-56dc-433b-b473-266cc9b448bf",
+       "position": 2,
+       "title": "(U)topia.drm"
+      },
+      {
+       "recording": {
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "in_the_dark.ech",
+        "id": "7209b54a-81a3-4db6-8c33-0af2860cfbb1",
+        "length": 188288
+       },
+       "number": "3",
+       "title": "in_the_dark.ech",
+       "length": 188288,
+       "id": "10277965-5dfe-4fa4-9fd9-ccb815527fa4",
+       "position": 3
+      },
+      {
+       "number": "4",
+       "recording": {
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "title": "followU.bnd",
+        "id": "a738dced-deb8-4164-81e5-b9dddcca338f",
+        "length": 209611
+       },
+       "title": "followU.bnd",
+       "position": 4,
+       "length": 209611,
+       "id": "ca2b1ce5-d7e5-4b19-ae95-69132e977bc8"
+      },
+      {
+       "number": "5",
+       "recording": {
+        "id": "67c130e4-fb9b-4373-b031-4852c4e918d9",
+        "length": 188456,
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "title": "Darkside.verXx"
+       },
+       "position": 5,
+       "length": 188456,
+       "id": "493f490e-25a5-4a5b-9202-d8d3b21b68dc",
+       "title": "Darkside.verXx"
+      },
+      {
+       "number": "6",
+       "recording": {
+        "title": "king_sl@yer.fmk",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 182764,
+        "id": "1f553180-bd03-4d54-9319-f880d8fc8cd6"
+       },
+       "position": 6,
+       "length": 182764,
+       "id": "85037687-ee48-423a-ac0b-f298749f19d8",
+       "title": "king_sl@yer.fmk"
+      },
+      {
+       "id": "8e678726-4997-469a-9073-3b5e7ab8037c",
+       "length": 265328,
+       "position": 7,
+       "title": "sL33pwalking.idl",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "title": "sL33pwalking.idl",
+        "length": 265328,
+        "id": "06405212-5056-47d3-8bb4-29e4e1ac775a"
+       },
+       "number": "7"
+      },
+      {
+       "position": 8,
+       "id": "fc6cade9-bb3f-4996-b157-02cecfd9499b",
+       "length": 205212,
+       "title": "drwn.vvv",
+       "number": "8",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "drwn.vvv",
+        "length": 205212,
+        "id": "b50b83ef-3c85-4fbc-8587-762f18cee34c"
+       }
+      },
+      {
+       "number": "9",
+       "recording": {
+        "title": "losT_404.nll",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 207982,
+        "id": "7462d499-5d70-4c5f-9a3e-e37d28e4ed1b"
+       },
+       "position": 9,
+       "id": "89f59655-49ab-48d0-8fb7-c9094bd848a5",
+       "length": 207982,
+       "title": "losT_404.nll"
+      },
+      {
+       "number": "10",
+       "recording": {
+        "id": "0431d93b-7b7d-497e-9430-54524eead82b",
+        "length": 208224,
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "title": "seenitallbefore_xx.arch"
+       },
+       "position": 10,
+       "length": 208224,
+       "id": "22dc80f1-24c8-4b70-9c06-963768557be3",
+       "title": "seenitallbefore_xx.arch"
+      },
+      {
+       "number": "11",
+       "recording": {
+        "id": "03d3235f-e461-4c15-b88c-c92ef0f9baa2",
+        "length": 194987,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "parasite.ev3"
+       },
+       "title": "parasite.ev3",
+       "position": 11,
+       "id": "7a564397-8ea0-4ba7-bea6-327df8eac299",
+       "length": 194987
+      },
+      {
+       "recording": {
+        "length": 309218,
+        "id": "7ff553a5-db2f-45a4-8700-4b31fe765f17",
+        "title": "med!cine.fbk",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false
+       },
+       "number": "12",
+       "title": "med!cine.fbk",
+       "id": "aa1d5a42-815e-4a14-8b4b-a1ee387cb597",
+       "length": 309218,
+       "position": 12
+      },
+      {
+       "title": "koolaid.xxo",
+       "position": 13,
+       "id": "7cfc600e-251e-4284-9ef7-ee34ec34b3c6",
+       "length": 198246,
+       "number": "13",
+       "recording": {
+        "title": "koolaid.xxo",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 198246,
+        "id": "902aabd6-11b2-45b7-9986-6b2a87c8afe7"
+       }
+      },
+      {
+       "position": 14,
+       "id": "e44ec32d-2241-40b9-8668-ceefc7c9c701",
+       "length": 225338,
+       "title": "d1g_it.core",
+       "number": "14",
+       "recording": {
+        "length": 225338,
+        "id": "de22aa44-5ace-4d13-ba95-51a5780e3cdc",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "d1g_it.core"
+       }
+      },
+      {
+       "recording": {
+        "id": "2c93d936-4da0-4764-a70e-0364132c5944",
+        "length": 218993,
+        "title": "DOOMED.errX",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": ""
+       },
+       "number": "15",
+       "title": "DOOMED.errX",
+       "id": "469582a9-cd49-41cb-b6b0-a8ff839ae142",
+       "length": 218993,
+       "position": 15
+      },
+      {
+       "number": "16",
+       "recording": {
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "avalanche_.drft",
+        "id": "33b52888-a676-4350-974d-e65aad4cf82b",
+        "length": 260402
+       },
+       "position": 16,
+       "id": "aa6d9c50-d7c3-47eb-a7d0-0f0b3355491e",
+       "length": 260402,
+       "title": "avalanche_.drft"
+      },
+      {
+       "title": "1DayTheOnlyButterfliesLeftWillBInurChestAsuMarchTowards UrDeath.finx",
+       "id": "19cd81c8-6c50-49c3-8907-4fee14fc6af4",
+       "length": 206815,
+       "position": 17,
+       "recording": {
+        "title": "1DayTheOnlyButterfliesLeftWillBInurChestAsuMarchTowards UrDeath.finx",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "id": "77282449-3efc-4abe-b47f-a2d1a63c409b",
+        "length": 206815
+       },
+       "number": "17"
+      },
+      {
+       "title": "sTr4nG3r5.vsn0",
+       "position": 18,
+       "id": "4a54e9f9-b61e-4d77-8fdf-e9b60341cb9e",
+       "length": 185200,
+       "number": "18",
+       "recording": {
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "sTr4nG3r5.vsn0",
+        "id": "7afda1e6-b560-48dc-96bd-8c2547d8190f",
+        "length": 185200
+       }
+      },
+      {
+       "id": "11fbabad-7265-4b6f-90dd-e0e986dc9b20",
+       "length": 259907,
+       "position": 19,
+       "title": "1x1.syncd",
+       "recording": {
+        "title": "1x1.syncd",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 259907,
+        "id": "930ba150-219f-467a-9415-3bada34cb370"
+       },
+       "number": "19"
+      },
+      {
+       "title": "shadowm0ses.frq",
+       "id": "e139cf26-af5a-4aa4-bc3e-56c51da8a99d",
+       "length": 165562,
+       "position": 20,
+       "recording": {
+        "id": "ff6cf28d-aef7-4802-b27a-0c3ad3710663",
+        "length": 165562,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "shadowm0ses.frq"
+       },
+       "number": "20"
+      },
+      {
+       "title": "m0th3r.tng",
+       "position": 21,
+       "id": "60999ea1-d1cf-444d-a4df-16a1cb1bcc93",
+       "length": 243249,
+       "number": "21",
+       "recording": {
+        "title": "m0th3r.tng",
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "length": 243249,
+        "id": "f0fdcc7c-5804-41d7-99d9-2b5332b6bce2"
+       }
+      },
+      {
+       "recording": {
+        "title": "DiE4u.sysrsk",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "id": "4c9c795b-0813-413e-8f85-0402e50e7ed9",
+        "length": 201000
+       },
+       "number": "22",
+       "title": "DiE4u.sysrsk",
+       "length": 201000,
+       "id": "aee84ea9-3fb1-4b92-b45d-0fdc0aa3d490",
+       "position": 22
+      },
+      {
+       "recording": {
+        "title": "Throne.GOD",
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "length": 127329,
+        "id": "0d70facf-daea-4df1-bff6-48f393de8d3e"
+       },
+       "number": "23",
+       "id": "05b34c81-8416-46e8-8ac8-0c7ed92ff155",
+       "length": 127329,
+       "position": 23,
+       "title": "Throne.GOD"
+      }
+     ],
+     "track-offset": 0,
+     "track-count": 23
+    }
+   ],
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+   },
+   "id": "249cd75a-605f-4f4b-826e-64c1ef4bac5f",
+   "asin": null,
+   "title": "Lo-files",
+   "status": "Official",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "cover-art-archive": {
+    "back": false,
+    "darkened": false,
+    "front": true,
+    "artwork": true,
+    "count": 1
+   },
+   "quality": "normal"
+  },
+  {
+   "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+   },
+   "media": [
+    {
+     "tracks": [
+      {
+       "number": "A1",
+       "recording": {
+        "title": "canyoufeelmy<3.tmpx",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "id": "a198e17a-7d07-41f4-85c6-31d0c344b361",
+        "length": 162946
+       },
+       "position": 1,
+       "length": 162946,
+       "id": "6227b06d-1549-40c3-8db7-550a119f528f",
+       "title": "canyoufeelmy<3.tmpx"
+      },
+      {
+       "title": "(U)topia.drm",
+       "id": "af311a74-95c3-436f-bab5-549cc1cb672b",
+       "length": 290201,
+       "position": 2,
+       "recording": {
+        "id": "e84f1f69-0bde-466a-a91d-8844be5391d1",
+        "length": 290201,
+        "title": "(U)topia.drm",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": ""
+       },
+       "number": "A2"
+      },
+      {
+       "number": "A3",
+       "recording": {
+        "id": "7209b54a-81a3-4db6-8c33-0af2860cfbb1",
+        "length": 188288,
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "title": "in_the_dark.ech"
+       },
+       "position": 3,
+       "id": "ec987c6c-4f31-490c-93cf-69513594e9a0",
+       "length": 188288,
+       "title": "in_the_dark.ech"
+      },
+      {
+       "position": 4,
+       "length": 209611,
+       "id": "a425ebd7-4f5b-492c-91b6-f49175fcbd1c",
+       "title": "followU.bnd",
+       "number": "A4",
+       "recording": {
+        "length": 209611,
+        "id": "a738dced-deb8-4164-81e5-b9dddcca338f",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "followU.bnd"
+       }
+      },
+      {
+       "number": "A5",
+       "recording": {
+        "title": "Darkside.verXx",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "id": "67c130e4-fb9b-4373-b031-4852c4e918d9",
+        "length": 188456
+       },
+       "title": "Darkside.verXx",
+       "position": 5,
+       "id": "b893b63f-de5e-43b9-b544-7acc0b678a20",
+       "length": 188456
+      },
+      {
+       "recording": {
+        "length": 182764,
+        "id": "1f553180-bd03-4d54-9319-f880d8fc8cd6",
+        "title": "king_sl@yer.fmk",
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11"
+       },
+       "number": "A6",
+       "id": "853772cc-b29b-47ca-9521-198fa29d011e",
+       "length": 182764,
+       "position": 6,
+       "title": "king_sl@yer.fmk"
+      },
+      {
+       "number": "B1",
+       "recording": {
+        "id": "06405212-5056-47d3-8bb4-29e4e1ac775a",
+        "length": 265328,
+        "title": "sL33pwalking.idl",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": ""
+       },
+       "title": "sL33pwalking.idl",
+       "position": 7,
+       "length": 265328,
+       "id": "8058f951-ac7e-4dba-a466-3a4f6b12e8f6"
+      },
+      {
+       "title": "drwn.vvv",
+       "length": 205212,
+       "id": "28c0eea0-9730-4806-ba04-67867bd18402",
+       "position": 8,
+       "recording": {
+        "title": "drwn.vvv",
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "length": 205212,
+        "id": "b50b83ef-3c85-4fbc-8587-762f18cee34c"
+       },
+       "number": "B2"
+      },
+      {
+       "position": 9,
+       "length": 207982,
+       "id": "fc5326db-49f0-4468-a689-c64ff5b0e29e",
+       "title": "losT_404.nll",
+       "number": "B3",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "losT_404.nll",
+        "length": 207982,
+        "id": "7462d499-5d70-4c5f-9a3e-e37d28e4ed1b"
+       }
+      },
+      {
+       "title": "seenitallbefore_xx.arch",
+       "id": "10669dcb-cc77-4962-bc4f-eec69cfc6952",
+       "length": 208224,
+       "position": 10,
+       "recording": {
+        "id": "0431d93b-7b7d-497e-9430-54524eead82b",
+        "length": 208224,
+        "title": "seenitallbefore_xx.arch",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": ""
+       },
+       "number": "B4"
+      },
+      {
+       "length": 194987,
+       "id": "b6e9396b-fc04-4801-9fec-52039ace1d46",
+       "position": 11,
+       "title": "parasite.ev3",
+       "recording": {
+        "id": "03d3235f-e461-4c15-b88c-c92ef0f9baa2",
+        "length": 194987,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "parasite.ev3"
+       },
+       "number": "B5"
+      },
+      {
+       "number": "B6",
+       "recording": {
+        "id": "7ff553a5-db2f-45a4-8700-4b31fe765f17",
+        "length": 309218,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "med!cine.fbk"
+       },
+       "position": 12,
+       "id": "b8544677-be6c-4ef2-9c0f-c99de3d2dcac",
+       "length": 309218,
+       "title": "med!cine.fbk"
+      }
+     ],
+     "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+     "format": "Vinyl",
+     "track-offset": 0,
+     "track-count": 12,
+     "id": "f2780351-505b-441a-8906-d7af293df7fb",
+     "position": 1,
+     "title": ""
+    },
+    {
+     "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+     "format": "Vinyl",
+     "tracks": [
+      {
+       "title": "koolaid.xxo",
+       "position": 1,
+       "length": 198246,
+       "id": "92b1d79b-4f32-4cc3-a65c-4a9bcd8664fc",
+       "number": "C1",
+       "recording": {
+        "length": 198246,
+        "id": "902aabd6-11b2-45b7-9986-6b2a87c8afe7",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "koolaid.xxo"
+       }
+      },
+      {
+       "recording": {
+        "id": "de22aa44-5ace-4d13-ba95-51a5780e3cdc",
+        "length": 225338,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "d1g_it.core"
+       },
+       "number": "C2",
+       "title": "d1g_it.core",
+       "length": 225338,
+       "id": "6ba5baaf-51ff-40b3-b49e-708db29a4e4c",
+       "position": 2
+      },
+      {
+       "length": 218993,
+       "id": "e4fd0f24-44a3-4264-9686-f3f1e8d0bf20",
+       "position": 3,
+       "title": "DOOMED.errX",
+       "recording": {
+        "length": 218993,
+        "id": "2c93d936-4da0-4764-a70e-0364132c5944",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "title": "DOOMED.errX"
+       },
+       "number": "C3"
+      },
+      {
+       "title": "avalanche_.drft",
+       "position": 4,
+       "id": "bca09e03-878a-40d6-a3b4-7d89172d15db",
+       "length": 260402,
+       "number": "C4",
+       "recording": {
+        "id": "33b52888-a676-4350-974d-e65aad4cf82b",
+        "length": 260402,
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "disambiguation": "",
+        "title": "avalanche_.drft"
+       }
+      },
+      {
+       "title": "1DayTheOnlyButterfliesLeftWillBInurChestAsuMarchTowards UrDeath.finx",
+       "length": 206815,
+       "id": "6dda851d-e0ab-4acd-8b56-d7773579d36d",
+       "position": 5,
+       "recording": {
+        "title": "1DayTheOnlyButterfliesLeftWillBInurChestAsuMarchTowards UrDeath.finx",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 206815,
+        "id": "77282449-3efc-4abe-b47f-a2d1a63c409b"
+       },
+       "number": "C5"
+      },
+      {
+       "id": "f8175a0c-23f2-42d2-b337-e693f4449f95",
+       "length": 185200,
+       "position": 6,
+       "title": "sTr4nG3r5.vsn0",
+       "recording": {
+        "title": "sTr4nG3r5.vsn0",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "id": "7afda1e6-b560-48dc-96bd-8c2547d8190f",
+        "length": 185200
+       },
+       "number": "C6"
+      },
+      {
+       "recording": {
+        "id": "930ba150-219f-467a-9415-3bada34cb370",
+        "length": 259907,
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "title": "1x1.syncd"
+       },
+       "number": "D1",
+       "id": "dd152eae-b644-45a7-b95a-5665e4afd981",
+       "length": 259907,
+       "position": 7,
+       "title": "1x1.syncd"
+      },
+      {
+       "title": "shadowm0ses.frq",
+       "position": 8,
+       "id": "a8e26531-6ad0-4cf7-b058-da86b84f0c7d",
+       "length": 165562,
+       "number": "D2",
+       "recording": {
+        "title": "shadowm0ses.frq",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "disambiguation": "",
+        "id": "ff6cf28d-aef7-4802-b27a-0c3ad3710663",
+        "length": 165562
+       }
+      },
+      {
+       "recording": {
+        "title": "m0th3r.tng",
+        "disambiguation": "",
+        "first-release-date": "2025-07-11",
+        "video": false,
+        "length": 243249,
+        "id": "f0fdcc7c-5804-41d7-99d9-2b5332b6bce2"
+       },
+       "number": "D3",
+       "title": "m0th3r.tng",
+       "id": "046fef23-903f-450d-bf73-168e6b117fd6",
+       "length": 243249,
+       "position": 9
+      },
+      {
+       "title": "DiE4u.sysrsk",
+       "id": "b22db3f3-e59b-4674-8526-81553257ba2f",
+       "length": 201000,
+       "position": 10,
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "title": "DiE4u.sysrsk",
+        "length": 201000,
+        "id": "4c9c795b-0813-413e-8f85-0402e50e7ed9"
+       },
+       "number": "D4"
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "first-release-date": "2025-07-11",
+        "title": "Throne.GOD",
+        "length": 127329,
+        "id": "0d70facf-daea-4df1-bff6-48f393de8d3e"
+       },
+       "number": "D5",
+       "length": 127329,
+       "id": "6ae78845-a675-426a-a0e0-8a27b820da85",
+       "position": 11,
+       "title": "Throne.GOD"
+      }
+     ],
+     "track-offset": 0,
+     "track-count": 11,
+     "position": 2,
+     "id": "6544ad4a-49b4-4bcb-b5d5-24ec681bbe64",
+     "title": ""
+    }
+   ],
+   "packaging-id": null,
+   "packaging": null,
+   "country": "GB",
+   "date": "2026-04-18",
+   "disambiguation": "",
+   "barcode": null,
+   "release-events": [
+    {
+     "date": "2026-04-18",
+     "area": {
+      "name": "United Kingdom",
+      "type": null,
+      "iso-3166-1-codes": [
+       "GB"
+      ],
+      "type-id": null,
+      "disambiguation": "",
+      "sort-name": "United Kingdom",
+      "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+     }
+    },
+    {
+     "area": {
+      "type-id": null,
+      "name": "United States",
+      "type": null,
+      "iso-3166-1-codes": [
+       "US"
+      ],
+      "sort-name": "United States",
+      "id": "489ce91b-6658-3307-9877-795b68554c98",
+      "disambiguation": ""
+     },
+     "date": "2026-04-18"
+    }
+   ],
+   "cover-art-archive": {
+    "count": 1,
+    "front": true,
+    "artwork": true,
+    "darkened": false,
+    "back": false
+   },
+   "quality": "normal",
+   "status": "Official",
+   "title": "Lo-files",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "asin": null,
+   "id": "2b61a1fe-38fd-4881-afda-52164a5296e9"
+  }
+ ]
+}

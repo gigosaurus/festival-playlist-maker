@@ -1,0 +1,237 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22War%20Within%20a%20Breath%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 3,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2eia0myWFgoHuttJytCxgX"
+     },
+     "href": "https://api.spotify.com/v1/albums/2eia0myWFgoHuttJytCxgX",
+     "id": "2eia0myWFgoHuttJytCxgX",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2733c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e023c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048513c2579a4f8cacd5b95b8fa68"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Los Angeles",
+     "release_date": "1999-11-02",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:2eia0myWFgoHuttJytCxgX"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 216426,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920176"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3Hxu3Ey1TV9mZ5XqMXckiS"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3Hxu3Ey1TV9mZ5XqMXckiS",
+    "id": "3Hxu3Ey1TV9mZ5XqMXckiS",
+    "is_local": false,
+    "is_playable": true,
+    "name": "War Within a Breath",
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:3Hxu3Ey1TV9mZ5XqMXckiS"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 212400,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM10312744"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4QUF4MldSfAo8pUoviscSg"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4QUF4MldSfAo8pUoviscSg",
+    "id": "4QUF4MldSfAo8pUoviscSg",
+    "is_local": false,
+    "is_playable": true,
+    "name": "War Within a Breath - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 8,
+    "type": "track",
+    "uri": "spotify:track:4QUF4MldSfAo8pUoviscSg"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5lexBcLuhxCaLB8LbM3JvR"
+     },
+     "href": "https://api.spotify.com/v1/albums/5lexBcLuhxCaLB8LbM3JvR",
+     "id": "5lexBcLuhxCaLB8LbM3JvR",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c71f08ca0b0474036976e315"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Mexico City (Live)",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:5lexBcLuhxCaLB8LbM3JvR"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 208935,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM12004829"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/15fvyIaDEZ2MfwxuKFSz2B"
+    },
+    "href": "https://api.spotify.com/v1/tracks/15fvyIaDEZ2MfwxuKFSz2B",
+    "id": "15fvyIaDEZ2MfwxuKFSz2B",
+    "is_local": false,
+    "is_playable": true,
+    "name": "War Within a Breath - Live, Mexico City, Mexico, October 28, 1999",
+    "track_number": 10,
+    "type": "track",
+    "uri": "spotify:track:15fvyIaDEZ2MfwxuKFSz2B"
+   }
+  ]
+ }
+}

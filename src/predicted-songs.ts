@@ -2,13 +2,13 @@ import { comparableName } from "./artist-matches.ts";
 import { createBackgroundQueue, type QueueState } from "./background-queue.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
-import type { FestivalDays, MusicBrainz } from "./musicbrainz.ts";
+import type { Album, FestivalDays, MusicBrainz } from "./musicbrainz.ts";
 import type { PredictionSettings } from "./settings.ts";
-import type { SetlistFm, Show } from "./setlist-fm.ts";
+import type { SetlistFm, SetlistPageResult, Show } from "./setlist-fm.ts";
 import { findSpotifyArtist } from "./spotify-artists.ts";
 import { artistTracksQuery, songQuery, type Spotify, type SpotifyArtist, type SpotifyTrack } from "./spotify.ts";
 
-// Predicted songs (issues #12 and #13, ADR-0002): the songs that an artist will
+// Predicted songs (issues #12, #13 and #14, ADR-0002): the songs that an artist will
 // probably play at a festival, from recent setlists on setlist.fm. Each song is a Spotify
 // track of the Spotify artist of the MusicBrainz artist.
 
@@ -18,27 +18,51 @@ export interface PredictedSongs {
   // True when the artist has no setlists in the look-back period, and the
   // tracks come from a Spotify search for the artist.
   fallback: boolean;
+  // The look-back period of the calculation, in months. A fallback result has the longest period.
+  lookBackMonths: number;
   calculatedAt: Date;
 }
 
-// The store keeps only the Spotify track IDs, the mark and the calculation time.
+// The store keeps only the Spotify track IDs, the marks and the calculation time.
 // It keeps no setlist.fm data, because the setlist.fm terms do not permit it (ADR-0002).
 export function findPredictedSongs(database: Database, musicbrainzId: string): PredictedSongs | undefined {
-  const row = database.prepare("SELECT track_ids, fallback, calculated_at FROM predicted_songs WHERE musicbrainz_id = ?").get(musicbrainzId) as
-    | { track_ids: string; fallback: number; calculated_at: string }
-    | undefined;
+  const row = database
+    .prepare("SELECT track_ids, fallback, look_back_months, calculated_at FROM predicted_songs WHERE musicbrainz_id = ?")
+    .get(musicbrainzId) as { track_ids: string; fallback: number; look_back_months: number; calculated_at: string } | undefined;
   if (row === undefined) return undefined;
-  return { trackIds: JSON.parse(row.track_ids) as string[], fallback: row.fallback === 1, calculatedAt: new Date(row.calculated_at) };
+  return {
+    trackIds: JSON.parse(row.track_ids) as string[],
+    fallback: row.fallback === 1,
+    lookBackMonths: row.look_back_months,
+    calculatedAt: new Date(row.calculated_at),
+  };
 }
 
 export function savePredictedSongs(database: Database, musicbrainzId: string, songs: PredictedSongs): void {
   database
     .prepare(
-      `INSERT INTO predicted_songs (musicbrainz_id, track_ids, fallback, calculated_at) VALUES (?, ?, ?, ?)
+      `INSERT INTO predicted_songs (musicbrainz_id, track_ids, fallback, look_back_months, calculated_at) VALUES (?, ?, ?, ?, ?)
        ON CONFLICT (musicbrainz_id) DO UPDATE
-       SET track_ids = excluded.track_ids, fallback = excluded.fallback, calculated_at = excluded.calculated_at`,
+       SET track_ids = excluded.track_ids, fallback = excluded.fallback, look_back_months = excluded.look_back_months,
+           calculated_at = excluded.calculated_at`,
     )
-    .run(musicbrainzId, JSON.stringify(songs.trackIds), songs.fallback ? 1 : 0, songs.calculatedAt.toISOString());
+    .run(musicbrainzId, JSON.stringify(songs.trackIds), songs.fallback ? 1 : 0, songs.lookBackMonths, songs.calculatedAt.toISOString());
+}
+
+// The long look-back mark (#14): the artist had fewer than `fewShows` shows in the
+// usual look-back period, so the songs come from a longer period and are less reliable.
+export function hasLongLookBack(songs: PredictedSongs, settings: PredictionSettings): boolean {
+  return !songs.fallback && songs.lookBackMonths > settings.lookBackMonths;
+}
+
+// The look-back periods in months, from the shortest to the longest.
+export function lookBackPeriods(settings: PredictionSettings): number[] {
+  return [settings.lookBackMonths, ...settings.longLookBackMonths];
+}
+
+// The longest look-back period. An artist with no shows in it gets the Spotify search fallback.
+export function longestLookBack(settings: PredictionSettings): number {
+  return Math.max(...lookBackPeriods(settings));
 }
 
 // The time at which a result stops being valid.
@@ -53,6 +77,8 @@ export function isValid(songs: PredictedSongs, now: Date, settings: PredictionSe
 export interface ScoredSong {
   name: string;
   score: number;
+  // True when setlist.fm marks the song as a cover in one or more of its shows.
+  cover: boolean;
 }
 
 const dayMilliseconds = 24 * 60 * 60 * 1000;
@@ -65,9 +91,10 @@ export function lookBackStart(now: Date, settings: PredictionSettings): Date {
   return addMonths(now, -settings.lookBackMonths);
 }
 
-// A show with the result of its venue-and-date check.
+// A show with the result of its venue-and-date check and of the album-focused rule.
 export interface CheckedShow extends Show {
   festivalSet: boolean;
+  albumFocused: boolean;
 }
 
 // True when the show is in the look-back period and has a song that is not a tape.
@@ -76,7 +103,25 @@ export function countsForScore(show: Show, now: Date, settings: PredictionSettin
   return show.date >= lookBackStart(now, settings) && show.date <= now && show.songs.some((song) => !song.tape && comparableName(song.name) !== "");
 }
 
+// True when more than `albumFocusedShare` of the songs of the show come from one
+// album that was released in the `albumFocusedMonths` months before the show (#14).
+// Tape songs are not songs of the show.
+export function isAlbumFocused(show: Show, albums: Album[], settings: PredictionSettings): boolean {
+  const songs = new Set(show.songs.filter((song) => !song.tape).map((song) => comparableName(song.name)));
+  songs.delete("");
+  if (songs.size === 0) return false;
+  const day = isoDate(show.date);
+  const earliest = isoDate(addMonths(show.date, -settings.albumFocusedMonths));
+  return albums.some((album) => {
+    if (album.released > day || album.released < earliest) return false;
+    const albumSongs = new Set(album.songs.map(comparableName));
+    const fromAlbum = [...songs].filter((song) => albumSongs.has(song)).length;
+    return fromAlbum > songs.size * settings.albumFocusedShare;
+  });
+}
+
 // The weight of each show. The weight halves for each `halfLifeMonths` of age.
+// An album-focused show counts `albumFocusedWeight`, so that a new album does not fill the playlist.
 // A festival set counts `festivalSetWeight`. All the other shows of one tour
 // together count a maximum of `tourShowLimit` shows: when a tour has more shows,
 // the weight of each of its shows is multiplied by the limit divided by the number of shows.
@@ -90,7 +135,9 @@ export function showWeights(shows: CheckedShow[], now: Date, settings: Predictio
   });
   return shows.map((show, index) => {
     if (!counts[index]) return 0;
-    const age = 0.5 ** ((now.getTime() - show.date.getTime()) / monthMilliseconds / settings.halfLifeMonths);
+    const age =
+      0.5 ** ((now.getTime() - show.date.getTime()) / monthMilliseconds / settings.halfLifeMonths) *
+      (show.albumFocused ? settings.albumFocusedWeight : 1);
     if (show.festivalSet) return age * settings.festivalSetWeight;
     const inTour = show.tour === undefined ? 0 : tourShows.get(show.tour)!;
     return inTour > settings.tourShowLimit ? (age * settings.tourShowLimit) / inTour : age;
@@ -112,8 +159,9 @@ export function scoreSongs(shows: CheckedShow[], now: Date, settings: Prediction
       const key = comparableName(song.name);
       if (song.tape || key === "" || played.has(key)) continue;
       played.add(key);
-      const scored = songs.get(key) ?? { name: song.name, score: 0 };
+      const scored = songs.get(key) ?? { name: song.name, score: 0, cover: false };
       scored.score += weight;
+      scored.cover ||= song.cover;
       songs.set(key, scored);
     }
   });
@@ -153,6 +201,48 @@ export function isFinal(stored: VenueDate, date: Date, settings: PredictionSetti
   return stored.festivalSet || stored.checkedAt.getTime() - date.getTime() >= settings.festivalSetCheckDays * dayMilliseconds;
 }
 
+// The songs to find on Spotify, in order of score. A cover is kept only when it is
+// one of the `coverTopSongs` songs with the highest score (#14), because an artist
+// plays some covers only sometimes. The Spotify search then keeps a cover only when
+// Spotify has a recording of it by the performing artist (findTrack).
+export function songsToFind(songs: ScoredSong[], settings: PredictionSettings): ScoredSong[] {
+  return songs.filter((song, rank) => !song.cover || rank < settings.coverTopSongs).slice(0, settings.spotifySearches);
+}
+
+// Gets the setlist pages of an artist, the most recent first, until they cover the
+// look-back period (#14). When the artist has fewer than `fewShows` shows that count in the
+// period, it gets more pages for the next longer period. The result has the shows
+// and the period. When no period has enough shows, the period is the longest one.
+// A page has the most recent setlists first, so a page with a show before the
+// period is the last page necessary for that period.
+export async function lookBackShows(
+  getPage: (page: number) => Promise<SetlistPageResult>,
+  now: Date,
+  settings: PredictionSettings,
+): Promise<{ shows: Show[]; lookBackMonths: number } | { cause: string }> {
+  const shows: Show[] = [];
+  let page = 0;
+  let complete = false;
+  const periods = lookBackPeriods(settings);
+  for (const months of periods) {
+    const period = { ...settings, lookBackMonths: months };
+    const start = lookBackStart(now, period);
+    while (!complete && page < settings.setlistPages && !shows.some((show) => show.date < start)) {
+      page++;
+      const result = await getPage(page);
+      if (result.outcome === "no-setlists") {
+        complete = true;
+        break;
+      }
+      if (result.outcome === "failed") return { cause: result.cause };
+      shows.push(...result.shows);
+      complete = result.lastPage;
+    }
+    if (shows.filter((show) => countsForScore(show, now, period)).length >= settings.fewShows) return { shows, lookBackMonths: months };
+  }
+  return { shows, lookBackMonths: periods.at(-1)! };
+}
+
 // The track of the artist for a song. A track with the same name is first. Then
 // a track with the same name after a suffix, for example "Throne - Live" or "Throne (Remastered)".
 export function findTrack(tracks: SpotifyTrack[], song: string, artistId: string): SpotifyTrack | undefined {
@@ -169,7 +259,7 @@ function withoutSuffix(name: string): string {
 }
 
 export type PredictionResult =
-  | { outcome: "predicted"; trackIds: string[]; fallback: boolean }
+  | { outcome: "predicted"; trackIds: string[]; fallback: boolean; lookBackMonths: number }
   // The MusicBrainz artist has no Spotify artist, so the application cannot find its tracks.
   | { outcome: "no-spotify-artist" }
   | { outcome: "failed"; cause: string };
@@ -183,7 +273,7 @@ export interface SongPrediction {
 export interface PredictionDependencies {
   database: Database;
   setlistFm: SetlistFm;
-  musicBrainz: Pick<MusicBrainz, "festivalDays">;
+  musicBrainz: Pick<MusicBrainz, "festivalDays" | "albums">;
   spotify: Spotify;
   clock: Clock;
   settings: PredictionSettings;
@@ -206,20 +296,6 @@ export function createSongPrediction({ database, setlistFm, musicBrainz, spotify
     }
   }
 
-  // The shows in the look-back period. A page has the most recent setlists first,
-  // so the application stops at the first page with a show before the period.
-  async function recentShows(musicbrainzId: string, start: Date): Promise<Show[] | { cause: string }> {
-    const shows: Show[] = [];
-    for (let page = 1; page <= settings.setlistPages; page++) {
-      const result = await patiently(() => setlistFm.artistSetlists(musicbrainzId, page));
-      if (result.outcome === "no-setlists") break;
-      if (result.outcome === "failed") return { cause: result.cause };
-      shows.push(...result.shows);
-      if (result.lastPage || result.shows.some((show) => show.date < start)) break;
-    }
-    return shows;
-  }
-
   // Marks each show that counts as a festival set or not (#13). A show is a
   // festival set when its date is in a MusicBrainz festival of the artist, or
   // when setlist.fm has `festivalSetArtists` or more artists at the venue on the date.
@@ -227,33 +303,41 @@ export function createSongPrediction({ database, setlistFm, musicBrainz, spotify
   // other artists at the festival use it. For the other shows, the application
   // uses a final stored result, and sends a setlist.fm request only when there is none.
   // A show without a venue ID and without a MusicBrainz festival is not a festival set.
-  async function checkShows(shows: Show[], now: Date, festivals: FestivalDays[]): Promise<CheckedShow[] | { cause: string }> {
+  // `period` has the look-back period of the calculation.
+  async function checkShows(
+    shows: Show[],
+    now: Date,
+    period: PredictionSettings,
+    festivals: FestivalDays[],
+    albums: Album[],
+  ): Promise<CheckedShow[] | { cause: string }> {
     const checked: CheckedShow[] = [];
     for (const show of shows) {
-      if (!countsForScore(show, now, settings)) {
-        checked.push({ ...show, festivalSet: false });
+      if (!countsForScore(show, now, period)) {
+        checked.push({ ...show, festivalSet: false, albumFocused: false });
         continue;
       }
+      const albumFocused = isAlbumFocused(show, albums, period);
       if (inFestival(show.date, festivals)) {
         if (show.venueId !== undefined) saveVenueDate(database, show.venueId, show.date, { festivalSet: true, checkedAt: clock.now() });
-        checked.push({ ...show, festivalSet: true });
+        checked.push({ ...show, festivalSet: true, albumFocused });
         continue;
       }
       if (show.venueId === undefined) {
-        checked.push({ ...show, festivalSet: false });
+        checked.push({ ...show, festivalSet: false, albumFocused });
         continue;
       }
       const stored = findVenueDate(database, show.venueId, show.date);
-      if (stored !== undefined && isFinal(stored, show.date, settings)) {
-        checked.push({ ...show, festivalSet: stored.festivalSet });
+      if (stored !== undefined && isFinal(stored, show.date, period)) {
+        checked.push({ ...show, festivalSet: stored.festivalSet, albumFocused });
         continue;
       }
       const venueId = show.venueId;
       const result = await patiently(() => setlistFm.venueArtists(venueId, show.date));
       if (result.outcome === "failed") return { cause: result.cause };
-      const festivalSet = result.artists >= settings.festivalSetArtists;
+      const festivalSet = result.artists >= period.festivalSetArtists;
       saveVenueDate(database, venueId, show.date, { festivalSet, checkedAt: clock.now() });
-      checked.push({ ...show, festivalSet });
+      checked.push({ ...show, festivalSet, albumFocused });
     }
     return checked;
   }
@@ -261,7 +345,7 @@ export function createSongPrediction({ database, setlistFm, musicBrainz, spotify
   // The tracks of the songs, in order of score. A song with no Spotify recording is removed.
   async function tracksOf(songs: ScoredSong[], artist: SpotifyArtist): Promise<string[] | { cause: string }> {
     const trackIds: string[] = [];
-    for (const song of songs.slice(0, settings.spotifySearches)) {
+    for (const song of songsToFind(songs, settings)) {
       if (trackIds.length >= settings.songCount) break;
       const result = await patiently(() => spotify.searchTracks(songQuery(song.name, artist.name)));
       if (result.outcome === "failed") return { cause: result.cause };
@@ -292,26 +376,34 @@ export function createSongPrediction({ database, setlistFm, musicBrainz, spotify
       const stored = findSpotifyArtist(database, musicbrainzId);
       if (stored?.kind !== "found") return { outcome: "no-spotify-artist" };
       const now = clock.now();
-      const recent = await recentShows(musicbrainzId, lookBackStart(now, settings));
+      const recent = await lookBackShows((page) => patiently(() => setlistFm.artistSetlists(musicbrainzId, page)), now, settings);
       if ("cause" in recent) return { outcome: "failed", cause: recent.cause };
+      const { lookBackMonths } = recent;
+      const period = { ...settings, lookBackMonths };
       // An artist with no shows in the period gets the fallback, so it needs no MusicBrainz request.
       let festivals: FestivalDays[] = [];
-      if (recent.some((show) => countsForScore(show, now, settings))) {
-        const result = await musicBrainz.festivalDays(musicbrainzId);
-        if (result.outcome === "failed") return { outcome: "failed", cause: result.cause };
-        festivals = result.festivals;
+      let albums: Album[] = [];
+      if (recent.shows.some((show) => countsForScore(show, now, period))) {
+        const festivalResult = await musicBrainz.festivalDays(musicbrainzId);
+        if (festivalResult.outcome === "failed") return { outcome: "failed", cause: festivalResult.cause };
+        festivals = festivalResult.festivals;
+        // An album released before this date cannot make a show in the period album-focused.
+        const since = isoDate(addMonths(lookBackStart(now, period), -settings.albumFocusedMonths));
+        const albumResult = await musicBrainz.albums(musicbrainzId, since);
+        if (albumResult.outcome === "failed") return { outcome: "failed", cause: albumResult.cause };
+        albums = albumResult.albums;
       }
-      const shows = await checkShows(recent, now, festivals);
+      const shows = await checkShows(recent.shows, now, period, festivals, albums);
       if ("cause" in shows) return { outcome: "failed", cause: shows.cause };
-      const songs = scoreSongs(shows, now, settings);
+      const songs = scoreSongs(shows, now, period);
       if (songs.length > 0) {
         const trackIds = await tracksOf(songs, stored.artist);
         if ("cause" in trackIds) return { outcome: "failed", cause: trackIds.cause };
-        if (trackIds.length > 0) return { outcome: "predicted", trackIds, fallback: false };
+        if (trackIds.length > 0) return { outcome: "predicted", trackIds, fallback: false, lookBackMonths };
       }
       const trackIds = await searchTracksOf(stored.artist);
       if ("cause" in trackIds) return { outcome: "failed", cause: trackIds.cause };
-      return { outcome: "predicted", trackIds, fallback: true };
+      return { outcome: "predicted", trackIds, fallback: true, lookBackMonths };
     },
   };
 }
@@ -334,7 +426,8 @@ export interface PredictedSongQueue {
 }
 
 // One calculation sends 1 or more setlist.fm requests for the setlists, 1 or more
-// MusicBrainz requests for the festivals, 1 setlist.fm request for each venue and
+// MusicBrainz requests for the festivals, 1 or more MusicBrainz requests for the
+// albums and 1 more for each album of the period, 1 setlist.fm request for each venue and
 // date without a final result and without a MusicBrainz festival, and a maximum of
 // `spotifySearches` Spotify requests. With stored venue-and-date results, it takes approximately 10
 // to 30 seconds. The first calculation of an artist with many shows takes longer.
@@ -352,7 +445,12 @@ export function createPredictedSongQueue(
       const result = await prediction.predict(musicbrainzId);
       if (result.outcome === "failed") return result.cause;
       if (result.outcome === "predicted") {
-        savePredictedSongs(database, musicbrainzId, { trackIds: result.trackIds, fallback: result.fallback, calculatedAt: clock.now() });
+        savePredictedSongs(database, musicbrainzId, {
+          trackIds: result.trackIds,
+          fallback: result.fallback,
+          lookBackMonths: result.lookBackMonths,
+          calculatedAt: clock.now(),
+        });
       }
       return undefined;
     } finally {

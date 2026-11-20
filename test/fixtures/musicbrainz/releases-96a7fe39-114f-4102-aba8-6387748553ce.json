@@ -1,0 +1,2459 @@
+{
+ "releases": [
+  {
+   "id": "18c42dd8-e16d-49fb-a4a8-8bb0e5c7f5fd",
+   "title": "POST HUMAN: NeX GEn",
+   "quality": "normal",
+   "asin": null,
+   "barcode": "198028144926",
+   "release-events": [
+    {
+     "area": {
+      "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+      "sort-name": "Europe",
+      "iso-3166-1-codes": [
+       "XE"
+      ],
+      "type": null,
+      "disambiguation": "",
+      "name": "Europe",
+      "type-id": null
+     },
+     "date": "2024-09-27"
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "media": [
+    {
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "length": 19320,
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "position": 1,
+       "id": "1ec857a3-0d6a-4732-8c61-34cb047de591",
+       "recording": {
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 19320,
+        "title": "[ost] dreamseeker",
+        "video": false
+       }
+      },
+      {
+       "id": "f8ee8fbf-0a49-4ba4-bdf9-3fb6213934a8",
+       "position": 2,
+       "recording": {
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 242666,
+        "title": "YOUtopia",
+        "video": false
+       },
+       "length": 242666,
+       "title": "YOUtopia",
+       "number": "2"
+      },
+      {
+       "recording": {
+        "length": 228466,
+        "video": false,
+        "title": "Kool‐Aid",
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "disambiguation": ""
+       },
+       "position": 3,
+       "id": "10bd712d-ab91-49ac-8b11-376e4ed6e549",
+       "title": "Kool‐Aid",
+       "number": "3",
+       "length": 228466
+      },
+      {
+       "position": 4,
+       "id": "06add259-0c21-4c30-be9f-a9d3b357fa3c",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "video": false,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "length": 240586
+       },
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "number": "4",
+       "length": 240586
+      },
+      {
+       "number": "5",
+       "title": "liMOusIne",
+       "length": 251946,
+       "id": "4df94683-62a3-4922-a9f1-b51ea6d8fa03",
+       "position": 5,
+       "recording": {
+        "title": "liMOusIne",
+        "video": false,
+        "length": 251946,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8"
+       }
+      },
+      {
+       "id": "1cde9daa-d63b-41bf-a408-383ce9561d57",
+       "position": 6,
+       "recording": {
+        "first-release-date": "2023-10-13",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "disambiguation": "",
+        "length": 165360,
+        "title": "DArkSide",
+        "video": false
+       },
+       "length": 165360,
+       "number": "6",
+       "title": "DArkSide"
+      },
+      {
+       "length": 260613,
+       "title": "a bulleT w/ my namE On",
+       "number": "7",
+       "id": "111f3e8b-3472-40c5-92d3-d85570818f36",
+       "position": 7,
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "title": "a bulleT w/ my namE On",
+        "video": false,
+        "length": 260613
+       }
+      },
+      {
+       "title": "[ost] (spi)ritual",
+       "number": "8",
+       "length": 114213,
+       "recording": {
+        "title": "[ost] (spi)ritual",
+        "video": false,
+        "length": 114213,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a"
+       },
+       "id": "ea727f37-3373-4727-84fd-b6851cf08b57",
+       "position": 8
+      },
+      {
+       "title": "n/A",
+       "number": "9",
+       "length": 200240,
+       "id": "c2ec9d23-e5e2-4d2e-9fb8-9dca260464fd",
+       "position": 9,
+       "recording": {
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 200240,
+        "title": "n/A",
+        "video": false
+       }
+      },
+      {
+       "recording": {
+        "video": false,
+        "title": "LosT",
+        "length": 205480,
+        "disambiguation": "",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "first-release-date": "2023-05-04"
+       },
+       "id": "7c9e4298-1046-4dc3-a4ae-32aa26ada129",
+       "position": 10,
+       "title": "LosT",
+       "number": "10",
+       "length": 205480
+      },
+      {
+       "position": 11,
+       "id": "f73514a1-ba05-4f42-a2e7-06b8194b87a1",
+       "recording": {
+        "length": 195826,
+        "video": false,
+        "title": "sTraNgeRs",
+        "first-release-date": "2022-07-06",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "disambiguation": ""
+       },
+       "length": 195826,
+       "title": "sTraNgeRs",
+       "number": "11"
+      },
+      {
+       "recording": {
+        "length": 203773,
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "disambiguation": ""
+       },
+       "position": 12,
+       "id": "4966389c-07e7-488b-9e25-8e0b20ed07d8",
+       "length": 203773,
+       "number": "12",
+       "title": "R.i.p. (duskCOre RemIx)"
+      },
+      {
+       "number": "13",
+       "title": "AmEN!",
+       "length": 189546,
+       "id": "c1926252-6b9e-4acf-b90d-41eece7cf780",
+       "position": 13,
+       "recording": {
+        "video": false,
+        "title": "AmEN!",
+        "length": 189546,
+        "disambiguation": "",
+        "first-release-date": "2023-06-01",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e"
+       }
+      },
+      {
+       "number": "14",
+       "title": "[ost] p.u.s.s.‐e",
+       "length": 169106,
+       "recording": {
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e",
+        "length": 169106,
+        "disambiguation": "",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "first-release-date": "2024-05-24"
+       },
+       "position": 14,
+       "id": "930859da-5533-4619-b985-745159798750"
+      },
+      {
+       "number": "15",
+       "title": "DiE4u",
+       "length": 207120,
+       "id": "d08b7d17-bece-48ba-9cd6-64565edd0e1f",
+       "position": 15,
+       "recording": {
+        "disambiguation": "",
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "first-release-date": "2021-09-16",
+        "video": false,
+        "title": "DiE4u",
+        "length": 207120
+       }
+      },
+      {
+       "id": "110551c9-5a07-44bd-b82e-8dacf3d7a2f1",
+       "position": 16,
+       "recording": {
+        "disambiguation": "",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "first-release-date": "2024-05-24",
+        "video": false,
+        "title": "DIg It",
+        "length": 434693
+       },
+       "title": "DIg It",
+       "number": "16",
+       "length": 434693
+      }
+     ],
+     "id": "99204a87-e315-45c4-b820-13605a4869d1",
+     "title": "",
+     "format": "CD",
+     "position": 1,
+     "track-count": 16
+    }
+   ],
+   "disambiguation": "",
+   "cover-art-archive": {
+    "artwork": false,
+    "darkened": false,
+    "count": 0,
+    "back": false,
+    "front": false
+   },
+   "packaging": "Super Jewel Box",
+   "status": "Official",
+   "country": "XE",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging-id": "dfb7da53-866f-4dfd-a016-80bafaeff3db",
+   "date": "2024-09-27"
+  },
+  {
+   "cover-art-archive": {
+    "front": true,
+    "back": false,
+    "count": 1,
+    "darkened": false,
+    "artwork": true
+   },
+   "disambiguation": "通常盤",
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "media": [
+    {
+     "track-count": 19,
+     "format": "CD",
+     "position": 1,
+     "title": "",
+     "id": "eff6c9c8-513f-394d-9c11-e8dec50007ec",
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "position": 1,
+       "id": "1b6e3cdc-911b-4a8a-8ad8-d27e41b8033a",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "disambiguation": "",
+        "length": 19320,
+        "video": false,
+        "title": "[ost] dreamseeker"
+       },
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "length": 20320
+      },
+      {
+       "number": "2",
+       "title": "YOUtopia",
+       "length": 242666,
+       "recording": {
+        "title": "YOUtopia",
+        "video": false,
+        "length": 242666,
+        "disambiguation": "",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115",
+        "first-release-date": "2024-05-24"
+       },
+       "id": "280df24c-efb0-4eef-a41c-5bba7b8d0268",
+       "position": 2
+      },
+      {
+       "length": 228466,
+       "number": "3",
+       "title": "Kool‐Aid",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "video": false,
+        "title": "Kool‐Aid",
+        "length": 228466
+       },
+       "position": 3,
+       "id": "61b64c58-5039-4c8d-b14b-3e9f69c28d8f"
+      },
+      {
+       "recording": {
+        "length": 240586,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "disambiguation": ""
+       },
+       "position": 4,
+       "id": "0fbb83b8-2ab3-4f83-8ada-2ed58620b78c",
+       "length": 240586,
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "number": "4"
+      },
+      {
+       "position": 5,
+       "id": "8bee1b36-84de-4830-a540-2e6fe90a109d",
+       "recording": {
+        "disambiguation": "",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "first-release-date": "2024-05-24",
+        "video": false,
+        "title": "liMOusIne",
+        "length": 251946
+       },
+       "number": "5",
+       "title": "liMOusIne",
+       "length": 251946
+      },
+      {
+       "id": "1ae425fb-e9d9-4d3e-a77a-a0b9171670b7",
+       "position": 6,
+       "recording": {
+        "video": false,
+        "title": "DArkSide",
+        "length": 165360,
+        "disambiguation": "",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "first-release-date": "2023-10-13"
+       },
+       "number": "6",
+       "title": "DArkSide",
+       "length": 165360
+      },
+      {
+       "recording": {
+        "title": "a bulleT w/ my namE On",
+        "video": false,
+        "length": 260613,
+        "disambiguation": "",
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "first-release-date": "2024-05-24"
+       },
+       "position": 7,
+       "id": "1f2f6def-8058-47a2-96ab-f549e55b7f50",
+       "length": 260613,
+       "title": "a bulleT w/ my namE On",
+       "number": "7"
+      },
+      {
+       "title": "[ost] (spi)ritual",
+       "number": "8",
+       "length": 114213,
+       "id": "4a771ec6-8733-4bc1-afec-cd6b13158217",
+       "position": 8,
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "disambiguation": "",
+        "length": 114213,
+        "video": false,
+        "title": "[ost] (spi)ritual"
+       }
+      },
+      {
+       "length": 200240,
+       "title": "n/A",
+       "number": "9",
+       "recording": {
+        "length": 200240,
+        "title": "n/A",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477",
+        "disambiguation": ""
+       },
+       "position": 9,
+       "id": "99d942b0-7fe8-4eb1-9ed3-75583142892b"
+      },
+      {
+       "title": "LosT",
+       "number": "10",
+       "length": 205480,
+       "recording": {
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "first-release-date": "2023-05-04",
+        "disambiguation": "",
+        "length": 205480,
+        "title": "LosT",
+        "video": false
+       },
+       "id": "200acc9f-c105-49cd-8e5a-b114116aa2b1",
+       "position": 10
+      },
+      {
+       "title": "sTraNgeRs",
+       "number": "11",
+       "length": 195826,
+       "id": "81548475-3066-48d2-b974-553e580072d0",
+       "position": 11,
+       "recording": {
+        "length": 195826,
+        "title": "sTraNgeRs",
+        "video": false,
+        "first-release-date": "2022-07-06",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "disambiguation": "",
+        "length": 203773,
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false
+       },
+       "id": "7521bb5c-7142-4cf2-a98d-d5b2f3bcab3b",
+       "position": 12,
+       "length": 203773,
+       "number": "12",
+       "title": "R.i.p. (duskCOre RemIx)"
+      },
+      {
+       "length": 189546,
+       "number": "13",
+       "title": "AmEN!",
+       "recording": {
+        "title": "AmEN!",
+        "video": false,
+        "length": 189546,
+        "disambiguation": "",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e",
+        "first-release-date": "2023-06-01"
+       },
+       "id": "f76a0673-6039-4bd4-b795-62b70ce6ec95",
+       "position": 13
+      },
+      {
+       "length": 169106,
+       "title": "[ost] p.u.s.s.‐e",
+       "number": "14",
+       "recording": {
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 169106,
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e"
+       },
+       "id": "30470bd8-804b-42f6-9ec2-907f65844a81",
+       "position": 14
+      },
+      {
+       "position": 15,
+       "id": "cfc2e514-c670-4fab-93ed-8666c34440af",
+       "recording": {
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "first-release-date": "2021-09-16",
+        "disambiguation": "",
+        "length": 207120,
+        "title": "DiE4u",
+        "video": false
+       },
+       "title": "DiE4u",
+       "number": "15",
+       "length": 207120
+      },
+      {
+       "recording": {
+        "title": "DIg It",
+        "video": false,
+        "length": 434693,
+        "disambiguation": "",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "first-release-date": "2024-05-24"
+       },
+       "position": 16,
+       "id": "27fb86cf-6f0e-4c49-939e-534c6d0314a1",
+       "number": "16",
+       "title": "DIg It",
+       "length": 432680
+      },
+      {
+       "title": "DArkSide (Live from Tokyo)",
+       "number": "17",
+       "length": 200586,
+       "position": 17,
+       "id": "6f7a9062-8426-4239-908f-ae15a25b77a0",
+       "recording": {
+        "length": 200586,
+        "video": false,
+        "title": "DArkSide",
+        "id": "038d8010-2943-47d2-bd0c-61105940a97a",
+        "first-release-date": "2024-09-27",
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan"
+       }
+      },
+      {
+       "recording": {
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan",
+        "id": "4da5f245-c650-4de5-8237-44e599ba04d1",
+        "first-release-date": "2024-09-27",
+        "video": false,
+        "title": "LosT",
+        "length": 264413
+       },
+       "id": "287edb99-16ae-4b69-8c79-55f572bf122f",
+       "position": 18,
+       "number": "18",
+       "title": "LosT (Live from Tokyo)",
+       "length": 264413
+      },
+      {
+       "id": "40c92c9f-71e3-44d5-9196-5ebe5ac8194f",
+       "position": 19,
+       "recording": {
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan",
+        "first-release-date": "2024-09-27",
+        "id": "f0628611-3c15-473d-9e7b-011be7dafbf7",
+        "title": "AmEN!",
+        "video": false,
+        "length": 283320
+       },
+       "number": "19",
+       "title": "AmEN! (Live from Tokyo)",
+       "length": 283320
+      }
+     ]
+    }
+   ],
+   "quality": "normal",
+   "title": "POST HUMAN: NeX GEn",
+   "release-events": [
+    {
+     "date": "2024-09-27",
+     "area": {
+      "type": null,
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+      "iso-3166-1-codes": [
+       "JP"
+      ],
+      "sort-name": "Japan",
+      "type-id": null,
+      "name": "Japan",
+      "disambiguation": ""
+     }
+    }
+   ],
+   "barcode": "4547366698237",
+   "asin": "B0DBHFX518",
+   "id": "643b6821-1b47-4442-b4c3-1d23bc04f5a4",
+   "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+   "date": "2024-09-27",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "country": "JP",
+   "status": "Official",
+   "packaging": "Jewel Case"
+  },
+  {
+   "cover-art-archive": {
+    "count": 1,
+    "back": false,
+    "front": true,
+    "artwork": true,
+    "darkened": false
+   },
+   "disambiguation": "",
+   "id": "7e2f7290-50a8-4a85-9b68-799bce4e933f",
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "media": [
+    {
+     "track-count": 16,
+     "position": 1,
+     "format": "Digital Media",
+     "title": "",
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "length": 19000,
+       "title": "[ost] dreamseeker",
+       "number": "1",
+       "position": 1,
+       "id": "e7671e32-752f-43b3-ba83-04f19df0b192",
+       "recording": {
+        "length": 19320,
+        "video": false,
+        "title": "[ost] dreamseeker",
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "disambiguation": ""
+       }
+      },
+      {
+       "length": 242000,
+       "number": "2",
+       "title": "YOUtopia",
+       "position": 2,
+       "id": "bed3ddb2-8b85-45a1-b815-7aac6642841d",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115",
+        "disambiguation": "",
+        "length": 242666,
+        "title": "YOUtopia",
+        "video": false
+       }
+      },
+      {
+       "recording": {
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "disambiguation": "",
+        "length": 228466,
+        "video": false,
+        "title": "Kool‐Aid"
+       },
+       "id": "4b77c5a5-7715-4fad-88cb-77a58abb8b7b",
+       "position": 3,
+       "title": "Kool‐Aid",
+       "number": "3",
+       "length": 224000
+      },
+      {
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "number": "4",
+       "length": 240000,
+       "id": "4aee4998-1c3a-4dee-a0f5-9c94564d1070",
+       "position": 4,
+       "recording": {
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "video": false,
+        "length": 240586,
+        "disambiguation": "",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "first-release-date": "2024-05-24"
+       }
+      },
+      {
+       "id": "fc5c166c-5704-4bc0-b27a-1d3ba4864948",
+       "position": 5,
+       "recording": {
+        "length": 251946,
+        "video": false,
+        "title": "liMOusIne",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       },
+       "number": "5",
+       "title": "liMOusIne",
+       "length": 251000
+      },
+      {
+       "length": 164000,
+       "title": "DArkSide",
+       "number": "6",
+       "id": "0e419161-2cb0-4ae6-b78b-919388102454",
+       "position": 6,
+       "recording": {
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "first-release-date": "2023-10-13",
+        "disambiguation": "",
+        "length": 165360,
+        "video": false,
+        "title": "DArkSide"
+       }
+      },
+      {
+       "number": "7",
+       "title": "a bulleT w/ my namE On",
+       "length": 260000,
+       "position": 7,
+       "id": "c51465fb-e47a-487f-ae4d-83ae411afd0a",
+       "recording": {
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 260613,
+        "title": "a bulleT w/ my namE On",
+        "video": false
+       }
+      },
+      {
+       "length": 114000,
+       "number": "8",
+       "title": "[ost] (spi)ritual",
+       "id": "168a4d37-d9c1-4bac-a298-75579c4fb995",
+       "position": 8,
+       "recording": {
+        "title": "[ost] (spi)ritual",
+        "video": false,
+        "length": 114213,
+        "disambiguation": "",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "first-release-date": "2024-05-24"
+       }
+      },
+      {
+       "recording": {
+        "title": "n/A",
+        "video": false,
+        "length": 200240,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477"
+       },
+       "id": "5e4fe4a1-96e3-4bb5-ba1d-4408328bb1f7",
+       "position": 9,
+       "length": 200000,
+       "title": "n/A",
+       "number": "9"
+      },
+      {
+       "length": 205000,
+       "title": "LosT",
+       "number": "10",
+       "recording": {
+        "title": "LosT",
+        "video": false,
+        "length": 205480,
+        "disambiguation": "",
+        "first-release-date": "2023-05-04",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3"
+       },
+       "id": "25573d90-2954-4a4b-aa5e-6283b2d2f3c7",
+       "position": 10
+      },
+      {
+       "number": "11",
+       "title": "sTraNgeRs",
+       "length": 195000,
+       "position": 11,
+       "id": "b2cdb9df-5935-4d9f-b9b8-89d93b589376",
+       "recording": {
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "first-release-date": "2022-07-06",
+        "disambiguation": "",
+        "length": 195826,
+        "video": false,
+        "title": "sTraNgeRs"
+       }
+      },
+      {
+       "number": "12",
+       "title": "R.i.p. (duskCOre RemIx)",
+       "length": 203000,
+       "position": 12,
+       "id": "66af2f3a-646c-4fe6-9f7c-85b2267963d7",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "disambiguation": "",
+        "length": 203773,
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false
+       }
+      },
+      {
+       "length": 189000,
+       "number": "13",
+       "title": "AmEN!",
+       "recording": {
+        "title": "AmEN!",
+        "video": false,
+        "length": 189546,
+        "disambiguation": "",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e",
+        "first-release-date": "2023-06-01"
+       },
+       "id": "c2742326-b960-4860-93cf-97bb14e35ca7",
+       "position": 13
+      },
+      {
+       "length": 169000,
+       "title": "[ost] p.u.s.s.‐e",
+       "number": "14",
+       "position": 14,
+       "id": "fea712d3-8b20-4eb0-9094-fbf276893c6b",
+       "recording": {
+        "title": "[ost] p.u.s.s.‐e",
+        "video": false,
+        "length": 169106,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c"
+       }
+      },
+      {
+       "length": 207000,
+       "title": "DiE4u",
+       "number": "15",
+       "recording": {
+        "disambiguation": "",
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "first-release-date": "2021-09-16",
+        "title": "DiE4u",
+        "video": false,
+        "length": 207120
+       },
+       "position": 15,
+       "id": "21e862b4-f1da-4b8d-b61f-be9ff70f15d8"
+      },
+      {
+       "recording": {
+        "length": 434693,
+        "title": "DIg It",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "disambiguation": ""
+       },
+       "id": "08cc1cc6-22d1-41be-9d13-1a69054fe41e",
+       "position": 16,
+       "length": 432000,
+       "title": "DIg It",
+       "number": "16"
+      }
+     ],
+     "id": "5f9835ff-ad93-3b9f-80c1-028bcf8677f5"
+    }
+   ],
+   "quality": "normal",
+   "title": "POST HUMAN: NeX GEn",
+   "asin": null,
+   "barcode": "196872087246",
+   "release-events": [
+    {
+     "area": {
+      "sort-name": "[Worldwide]",
+      "iso-3166-1-codes": [
+       "XW"
+      ],
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "type": null,
+      "name": "[Worldwide]",
+      "disambiguation": "",
+      "type-id": null
+     },
+     "date": "2024-05-24"
+    }
+   ],
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "date": "2024-05-24",
+   "status": "Official",
+   "packaging": "None",
+   "country": "XW"
+  },
+  {
+   "status": "Official",
+   "packaging": "Cardboard/Paper Sleeve",
+   "country": "XE",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "date": "2024-09-27",
+   "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+   "id": "a4a1b95e-da80-4262-a86d-f9c62406c2c2",
+   "media": [
+    {
+     "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "length": 19000,
+       "number": "A1",
+       "title": "[ost] dreamseeker",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "video": false,
+        "title": "[ost] dreamseeker",
+        "length": 19320
+       },
+       "position": 1,
+       "id": "a4e056dd-1fce-45be-a54e-5a55af155676"
+      },
+      {
+       "title": "YOUtopia",
+       "number": "A2",
+       "length": 243000,
+       "position": 2,
+       "id": "8e1c410a-3bec-416e-8569-337e70d3ebad",
+       "recording": {
+        "video": false,
+        "title": "YOUtopia",
+        "length": 242666,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115"
+       }
+      },
+      {
+       "id": "607f8cb8-4fee-4a4e-bf62-66ffd90cdaf8",
+       "position": 3,
+       "recording": {
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "disambiguation": "",
+        "length": 228466,
+        "video": false,
+        "title": "Kool‐Aid"
+       },
+       "number": "A3",
+       "title": "Kool‐Aid",
+       "length": 228000
+      },
+      {
+       "number": "A4",
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "length": 241000,
+       "position": 4,
+       "id": "6e05b799-d771-4ef0-a871-180755dd5097",
+       "recording": {
+        "length": 240586,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "length": 251946,
+        "title": "liMOusIne",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "disambiguation": ""
+       },
+       "position": 5,
+       "id": "c2b8a788-629b-4fa2-9b56-933522c7538e",
+       "length": 252000,
+       "title": "liMOusIne",
+       "number": "A5"
+      },
+      {
+       "id": "ecb3ea75-90de-412b-ac27-c0e89580ab9e",
+       "position": 6,
+       "recording": {
+        "length": 165360,
+        "video": false,
+        "title": "DArkSide",
+        "first-release-date": "2023-10-13",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "disambiguation": ""
+       },
+       "length": 165000,
+       "number": "B1",
+       "title": "DArkSide"
+      },
+      {
+       "number": "B2",
+       "title": "a bulleT w/ my namE On",
+       "length": 261000,
+       "id": "9e8c6dd3-915d-4f3e-a16a-4816b615ec25",
+       "position": 7,
+       "recording": {
+        "video": false,
+        "title": "a bulleT w/ my namE On",
+        "length": 260613,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785"
+       }
+      },
+      {
+       "length": 114000,
+       "title": "[ost] (spi)ritual",
+       "number": "B3",
+       "position": 8,
+       "id": "9fa7e1e5-004a-470f-babf-4b68f259ae2f",
+       "recording": {
+        "length": 114213,
+        "video": false,
+        "title": "[ost] (spi)ritual",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       }
+      },
+      {
+       "position": 9,
+       "id": "9a919335-7fda-4d7c-ace3-c8ff000659fa",
+       "recording": {
+        "title": "n/A",
+        "video": false,
+        "length": 200240,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477"
+       },
+       "length": 200000,
+       "title": "n/A",
+       "number": "B4"
+      }
+     ],
+     "id": "06499cff-1cf1-4bb7-bc1f-f2717d3f43d7",
+     "title": "",
+     "format": "12\" Vinyl",
+     "position": 1,
+     "track-count": 9
+    },
+    {
+     "title": "",
+     "id": "4433af81-ee31-4cf1-909b-89b3184bab3d",
+     "tracks": [
+      {
+       "length": 205000,
+       "number": "C1",
+       "title": "LosT",
+       "recording": {
+        "first-release-date": "2023-05-04",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "disambiguation": "",
+        "length": 205480,
+        "video": false,
+        "title": "LosT"
+       },
+       "position": 1,
+       "id": "301c84f9-3e71-45bb-a97f-aac3f02a8526"
+      },
+      {
+       "number": "C2",
+       "title": "sTraNgeRs",
+       "length": 196000,
+       "position": 2,
+       "id": "20b27863-a1bc-46fa-90aa-0eacff2c4350",
+       "recording": {
+        "length": 195826,
+        "video": false,
+        "title": "sTraNgeRs",
+        "first-release-date": "2022-07-06",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false,
+        "length": 203773,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0"
+       },
+       "position": 3,
+       "id": "8fd4f59d-1328-47a5-8872-49095304b442",
+       "length": 204000,
+       "title": "R.i.p. (duskCOre RemIx)",
+       "number": "C3"
+      },
+      {
+       "position": 4,
+       "id": "906a49c5-ecc9-4933-b654-b28dda0ccac2",
+       "recording": {
+        "video": false,
+        "title": "AmEN!",
+        "length": 189546,
+        "disambiguation": "",
+        "first-release-date": "2023-06-01",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e"
+       },
+       "number": "C4",
+       "title": "AmEN!",
+       "length": 190000
+      },
+      {
+       "number": "D1",
+       "title": "[ost] p.u.s.s.‐e",
+       "length": 169000,
+       "id": "37f7c91e-f634-46b3-b065-f12930a170dd",
+       "position": 5,
+       "recording": {
+        "length": 169106,
+        "title": "[ost] p.u.s.s.‐e",
+        "video": false,
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       }
+      },
+      {
+       "length": 207000,
+       "title": "DiE4u",
+       "number": "D2",
+       "id": "c1af8c6f-fe56-43db-a1b6-d8d48fa2127d",
+       "position": 6,
+       "recording": {
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "first-release-date": "2021-09-16",
+        "disambiguation": "",
+        "length": 207120,
+        "title": "DiE4u",
+        "video": false
+       }
+      },
+      {
+       "id": "5968b87c-6b38-404b-b343-9bf43aca8edf",
+       "position": 7,
+       "recording": {
+        "length": 434693,
+        "video": false,
+        "title": "DIg It",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       },
+       "number": "D3",
+       "title": "DIg It",
+       "length": 435000
+      }
+     ],
+     "track-offset": 0,
+     "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+     "track-count": 7,
+     "position": 2,
+     "format": "12\" Vinyl"
+    }
+   ],
+   "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+   },
+   "barcode": "194399434413",
+   "asin": null,
+   "release-events": [
+    {
+     "area": {
+      "type": null,
+      "sort-name": "Europe",
+      "iso-3166-1-codes": [
+       "XE"
+      ],
+      "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+      "type-id": null,
+      "name": "Europe",
+      "disambiguation": ""
+     },
+     "date": "2024-09-27"
+    }
+   ],
+   "title": "POST HUMAN: NeX GEn",
+   "quality": "normal",
+   "cover-art-archive": {
+    "back": false,
+    "front": false,
+    "count": 0,
+    "darkened": false,
+    "artwork": false
+   },
+   "disambiguation": ""
+  },
+  {
+   "country": "XE",
+   "status": "Official",
+   "packaging": "Gatefold Cover",
+   "date": "2024-09-27",
+   "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "media": [
+    {
+     "id": "27cc4c04-bbd3-3686-b194-fe91120beb2b",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "length": 19320,
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "position": 1,
+       "id": "2adae469-59cc-477e-a79a-a848992da198",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "title": "[ost] dreamseeker",
+        "video": false,
+        "length": 19320
+       }
+      },
+      {
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115",
+        "disambiguation": "",
+        "length": 242666,
+        "title": "YOUtopia",
+        "video": false
+       },
+       "id": "fbcaab7f-aa2f-4691-942e-50d44e06f6e1",
+       "position": 2,
+       "length": 242666,
+       "title": "YOUtopia",
+       "number": "2"
+      },
+      {
+       "recording": {
+        "title": "Kool‐Aid",
+        "video": false,
+        "length": 228466,
+        "disambiguation": "",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "first-release-date": "2024-01-05"
+       },
+       "id": "640aa451-62c8-40f9-a4bb-c88652eadc5b",
+       "position": 3,
+       "number": "3",
+       "title": "Kool‐Aid",
+       "length": 228466
+      },
+      {
+       "length": 240586,
+       "number": "4",
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "disambiguation": "",
+        "length": 240586,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "video": false
+       },
+       "position": 4,
+       "id": "99dc53b9-0b59-4cc5-a888-f8cfbe6c9d2d"
+      },
+      {
+       "position": 5,
+       "id": "c3aa308c-5fe2-4cc9-8a21-f7dd3549ff86",
+       "recording": {
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 251946,
+        "video": false,
+        "title": "liMOusIne"
+       },
+       "number": "5",
+       "title": "liMOusIne",
+       "length": 251946
+      },
+      {
+       "recording": {
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "first-release-date": "2023-10-13",
+        "disambiguation": "",
+        "length": 165360,
+        "video": false,
+        "title": "DArkSide"
+       },
+       "id": "80da0e7d-6a83-41d4-a543-9d52df313f10",
+       "position": 6,
+       "number": "6",
+       "title": "DArkSide",
+       "length": 165360
+      },
+      {
+       "recording": {
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 260613,
+        "title": "a bulleT w/ my namE On",
+        "video": false
+       },
+       "id": "b03d2a4c-fd09-4eea-9e98-843969e2d001",
+       "position": 7,
+       "length": 260613,
+       "number": "7",
+       "title": "a bulleT w/ my namE On"
+      },
+      {
+       "title": "[ost] (spi)ritual",
+       "number": "8",
+       "length": 114213,
+       "position": 8,
+       "id": "6c5392d4-673d-47e8-b078-9b36168e6129",
+       "recording": {
+        "length": 114213,
+        "video": false,
+        "title": "[ost] (spi)ritual",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 200240,
+        "title": "n/A",
+        "video": false
+       },
+       "position": 9,
+       "id": "314369ca-9ca8-424b-8b4a-cf7b552417dc",
+       "length": 200240,
+       "title": "n/A",
+       "number": "9"
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2023-05-04",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "video": false,
+        "title": "LosT",
+        "length": 205480
+       },
+       "id": "a86dfccf-b555-4c4a-82e3-f8e710973c92",
+       "position": 10,
+       "length": 205480,
+       "title": "LosT",
+       "number": "10"
+      },
+      {
+       "number": "11",
+       "title": "sTraNgeRs",
+       "length": 195826,
+       "recording": {
+        "video": false,
+        "title": "sTraNgeRs",
+        "length": 195826,
+        "disambiguation": "",
+        "first-release-date": "2022-07-06",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985"
+       },
+       "id": "843cb07b-5639-46f9-96a7-f7ee4b0cec7b",
+       "position": 11
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false,
+        "length": 203773
+       },
+       "id": "92ca5704-3ead-441e-90fa-8d978f8706bd",
+       "position": 12,
+       "number": "12",
+       "title": "R.i.p. (duskCOre RemIx)",
+       "length": 203773
+      },
+      {
+       "id": "47a427a3-80d8-4358-a736-ac952c9e1300",
+       "position": 13,
+       "recording": {
+        "length": 189546,
+        "video": false,
+        "title": "AmEN!",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e",
+        "first-release-date": "2023-06-01",
+        "disambiguation": ""
+       },
+       "number": "13",
+       "title": "AmEN!",
+       "length": 189546
+      },
+      {
+       "recording": {
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e",
+        "length": 169106,
+        "disambiguation": "",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "first-release-date": "2024-05-24"
+       },
+       "position": 14,
+       "id": "ece366df-5c25-4463-b839-a9fdd2195011",
+       "length": 169106,
+       "title": "[ost] p.u.s.s.‐e",
+       "number": "14"
+      },
+      {
+       "recording": {
+        "length": 207120,
+        "video": false,
+        "title": "DiE4u",
+        "first-release-date": "2021-09-16",
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "disambiguation": ""
+       },
+       "id": "299bbfe5-8a19-4ed6-bbfe-d79188bc86ee",
+       "position": 15,
+       "length": 207120,
+       "number": "15",
+       "title": "DiE4u"
+      },
+      {
+       "id": "32bdc29c-4bc4-4f5c-8d13-560086257cbd",
+       "position": 16,
+       "recording": {
+        "length": 434693,
+        "title": "DIg It",
+        "video": false,
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "first-release-date": "2024-05-24",
+        "disambiguation": ""
+       },
+       "number": "16",
+       "title": "DIg It",
+       "length": 434693
+      }
+     ],
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "title": "",
+     "format": "CD",
+     "position": 1,
+     "track-count": 16
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "asin": "B0C7MPFXTB",
+   "barcode": "194399434321",
+   "release-events": [
+    {
+     "area": {
+      "type": null,
+      "iso-3166-1-codes": [
+       "XE"
+      ],
+      "sort-name": "Europe",
+      "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+      "type-id": null,
+      "name": "Europe",
+      "disambiguation": ""
+     },
+     "date": "2024-09-27"
+    }
+   ],
+   "title": "POST HUMAN: NeX GEn",
+   "quality": "normal",
+   "id": "b68c9b8a-398c-492e-be34-1c0025e0fc33",
+   "disambiguation": "",
+   "cover-art-archive": {
+    "back": true,
+    "front": true,
+    "count": 2,
+    "darkened": false,
+    "artwork": true
+   }
+  },
+  {
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+   "date": "2024-09-27",
+   "status": "Official",
+   "packaging": "Gatefold Cover",
+   "country": "XE",
+   "disambiguation": "",
+   "cover-art-archive": {
+    "artwork": false,
+    "darkened": false,
+    "count": 0,
+    "front": false,
+    "back": false
+   },
+   "id": "d8ce304e-4bac-4eca-8ba4-9bae3df01c41",
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "media": [
+    {
+     "position": 1,
+     "format": "CD",
+     "track-count": 16,
+     "track-offset": 0,
+     "tracks": [
+      {
+       "id": "16ce3ffc-f136-46fe-a41d-9713989d2c54",
+       "position": 1,
+       "recording": {
+        "video": false,
+        "title": "[ost] dreamseeker",
+        "length": 19320,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5"
+       },
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "length": 19320
+      },
+      {
+       "number": "2",
+       "title": "YOUtopia",
+       "length": 242666,
+       "position": 2,
+       "id": "b1b021d1-2ef7-45a6-8ef6-01e2dfeae409",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115",
+        "video": false,
+        "title": "YOUtopia",
+        "length": 242666
+       }
+      },
+      {
+       "length": 228466,
+       "number": "3",
+       "title": "Kool‐Aid",
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "title": "Kool‐Aid",
+        "video": false,
+        "length": 228466
+       },
+       "position": 3,
+       "id": "2711cdeb-624f-435b-9b9f-46eda2152794"
+      },
+      {
+       "length": 240586,
+       "number": "4",
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "recording": {
+        "disambiguation": "",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "first-release-date": "2024-05-24",
+        "video": false,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "length": 240586
+       },
+       "id": "527cb5a4-f5eb-474a-843d-e671a80ae2d9",
+       "position": 4
+      },
+      {
+       "position": 5,
+       "id": "ae0381f9-7fa8-45ce-bf10-767f86e387f9",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "disambiguation": "",
+        "length": 251946,
+        "video": false,
+        "title": "liMOusIne"
+       },
+       "length": 251946,
+       "number": "5",
+       "title": "liMOusIne"
+      },
+      {
+       "recording": {
+        "length": 165360,
+        "video": false,
+        "title": "DArkSide",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "first-release-date": "2023-10-13",
+        "disambiguation": ""
+       },
+       "position": 6,
+       "id": "ac0f8082-59a4-4a7b-8a00-621c279880ca",
+       "number": "6",
+       "title": "DArkSide",
+       "length": 165360
+      },
+      {
+       "number": "7",
+       "title": "a bulleT w/ my namE On",
+       "length": 260613,
+       "position": 7,
+       "id": "c8148c01-ab10-4b48-8cd0-81f9119b4319",
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "disambiguation": "",
+        "length": 260613,
+        "video": false,
+        "title": "a bulleT w/ my namE On"
+       }
+      },
+      {
+       "length": 114213,
+       "number": "8",
+       "title": "[ost] (spi)ritual",
+       "id": "21802fdd-0898-4ecf-9045-a4d69e8208ac",
+       "position": 8,
+       "recording": {
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 114213,
+        "video": false,
+        "title": "[ost] (spi)ritual"
+       }
+      },
+      {
+       "number": "9",
+       "title": "n/A",
+       "length": 200240,
+       "recording": {
+        "video": false,
+        "title": "n/A",
+        "length": 200240,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477"
+       },
+       "position": 9,
+       "id": "d96ef460-23c6-4b96-b2b0-7cf11e8fbfff"
+      },
+      {
+       "title": "LosT",
+       "number": "10",
+       "length": 205480,
+       "position": 10,
+       "id": "58cd1af3-7d9e-4b08-9c65-6c91fc09bbb8",
+       "recording": {
+        "title": "LosT",
+        "video": false,
+        "length": 205480,
+        "disambiguation": "",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "first-release-date": "2023-05-04"
+       }
+      },
+      {
+       "title": "sTraNgeRs",
+       "number": "11",
+       "length": 195826,
+       "recording": {
+        "video": false,
+        "title": "sTraNgeRs",
+        "length": 195826,
+        "disambiguation": "",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "first-release-date": "2022-07-06"
+       },
+       "id": "92d9d713-699c-48b4-9080-27010f43e69f",
+       "position": 11
+      },
+      {
+       "position": 12,
+       "id": "5a738044-563d-417f-8d7b-6f100489421b",
+       "recording": {
+        "disambiguation": "",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "first-release-date": "2024-05-24",
+        "title": "R.i.p. (duskCOre RemIx)",
+        "video": false,
+        "length": 203773
+       },
+       "title": "R.i.p. (duskCOre RemIx)",
+       "number": "12",
+       "length": 203773
+      },
+      {
+       "number": "13",
+       "title": "AmEN!",
+       "length": 189546,
+       "position": 13,
+       "id": "0f43c3e0-7117-4a47-942d-fd1c5e4a348a",
+       "recording": {
+        "disambiguation": "",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e",
+        "first-release-date": "2023-06-01",
+        "video": false,
+        "title": "AmEN!",
+        "length": 189546
+       }
+      },
+      {
+       "length": 169106,
+       "number": "14",
+       "title": "[ost] p.u.s.s.‐e",
+       "recording": {
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e",
+        "length": 169106,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c"
+       },
+       "position": 14,
+       "id": "0122ee15-1cab-46c1-8b5a-b37d28e53afe"
+      },
+      {
+       "length": 207120,
+       "number": "15",
+       "title": "DiE4u",
+       "position": 15,
+       "id": "f4745eea-0452-4f4f-b79c-f8bbfdece434",
+       "recording": {
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "first-release-date": "2021-09-16",
+        "disambiguation": "",
+        "length": 207120,
+        "video": false,
+        "title": "DiE4u"
+       }
+      },
+      {
+       "id": "2e5fafcc-75eb-4c3d-8aec-d5da5da9a373",
+       "position": 16,
+       "recording": {
+        "title": "DIg It",
+        "video": false,
+        "length": 434693,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e"
+       },
+       "length": 434693,
+       "title": "DIg It",
+       "number": "16"
+      }
+     ],
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "id": "74613984-c768-410d-b4c2-e8966e4ff628",
+     "title": ""
+    }
+   ],
+   "quality": "normal",
+   "title": "POST HUMAN: NeX GEn",
+   "release-events": [
+    {
+     "date": "2024-09-27",
+     "area": {
+      "disambiguation": "",
+      "name": "Europe",
+      "type-id": null,
+      "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+      "iso-3166-1-codes": [
+       "XE"
+      ],
+      "sort-name": "Europe",
+      "type": null
+     }
+    }
+   ],
+   "barcode": "194399434321",
+   "asin": null
+  },
+  {
+   "disambiguation": "完全生産限定盤",
+   "cover-art-archive": {
+    "artwork": true,
+    "darkened": false,
+    "count": 1,
+    "front": true,
+    "back": false
+   },
+   "media": [
+    {
+     "title": "",
+     "track-offset": 0,
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "tracks": [
+      {
+       "recording": {
+        "disambiguation": "",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5",
+        "first-release-date": "2024-05-24",
+        "title": "[ost] dreamseeker",
+        "video": false,
+        "length": 19320
+       },
+       "position": 1,
+       "id": "05f0b13f-c580-4c40-bbba-9849a3855b1e",
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "length": 20320
+      },
+      {
+       "number": "2",
+       "title": "YOUtopia",
+       "length": 242666,
+       "recording": {
+        "video": false,
+        "title": "YOUtopia",
+        "length": 242666,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115"
+       },
+       "id": "0903f5db-575f-47b3-b425-f1670c13b8e0",
+       "position": 2
+      },
+      {
+       "number": "3",
+       "title": "Kool‐Aid",
+       "length": 228466,
+       "position": 3,
+       "id": "e0841235-6138-42fe-8394-a712b7dc9913",
+       "recording": {
+        "first-release-date": "2024-01-05",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "disambiguation": "",
+        "length": 228466,
+        "title": "Kool‐Aid",
+        "video": false
+       }
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "first-release-date": "2024-05-24",
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "video": false,
+        "length": 240586
+       },
+       "id": "58d0445d-1938-40a6-b1bf-5b6e180dd9d0",
+       "position": 4,
+       "length": 240586,
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "number": "4"
+      },
+      {
+       "recording": {
+        "length": 251946,
+        "title": "liMOusIne",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8",
+        "disambiguation": ""
+       },
+       "id": "746bb85a-1103-4857-b753-df28baf8a02e",
+       "position": 5,
+       "title": "liMOusIne",
+       "number": "5",
+       "length": 251946
+      },
+      {
+       "number": "6",
+       "title": "DArkSide",
+       "length": 165360,
+       "id": "6e271501-468a-42c1-8acd-3bbb8901c535",
+       "position": 6,
+       "recording": {
+        "length": 165360,
+        "title": "DArkSide",
+        "video": false,
+        "first-release-date": "2023-10-13",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "disambiguation": ""
+       }
+      },
+      {
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "disambiguation": "",
+        "length": 260613,
+        "video": false,
+        "title": "a bulleT w/ my namE On"
+       },
+       "position": 7,
+       "id": "a364f099-d259-4f04-bf94-9150a216f417",
+       "length": 260613,
+       "number": "7",
+       "title": "a bulleT w/ my namE On"
+      },
+      {
+       "recording": {
+        "length": 114213,
+        "video": false,
+        "title": "[ost] (spi)ritual",
+        "first-release-date": "2024-05-24",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "disambiguation": ""
+       },
+       "position": 8,
+       "id": "b2353a1a-fa97-400f-aa69-547a63497304",
+       "length": 114213,
+       "number": "8",
+       "title": "[ost] (spi)ritual"
+      },
+      {
+       "number": "9",
+       "title": "n/A",
+       "length": 200240,
+       "recording": {
+        "length": 200240,
+        "title": "n/A",
+        "video": false,
+        "first-release-date": "2024-05-24",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477",
+        "disambiguation": ""
+       },
+       "id": "cf1683d4-3928-4584-9c2b-f19349a9d67a",
+       "position": 9
+      },
+      {
+       "number": "10",
+       "title": "LosT",
+       "length": 205480,
+       "recording": {
+        "length": 205480,
+        "video": false,
+        "title": "LosT",
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "first-release-date": "2023-05-04",
+        "disambiguation": ""
+       },
+       "id": "f0ece7bf-00b9-47ae-86ed-bc4b16bc96a7",
+       "position": 10
+      },
+      {
+       "length": 195826,
+       "number": "11",
+       "title": "sTraNgeRs",
+       "position": 11,
+       "id": "23617e56-d44d-479c-b014-a3212bd436d2",
+       "recording": {
+        "first-release-date": "2022-07-06",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "disambiguation": "",
+        "length": 195826,
+        "title": "sTraNgeRs",
+        "video": false
+       }
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "first-release-date": "2024-05-24",
+        "video": false,
+        "title": "R.i.p. (duskCOre RemIx)",
+        "length": 203773
+       },
+       "id": "1415af95-52a4-42df-8f66-c2b6c54982d6",
+       "position": 12,
+       "title": "R.i.p. (duskCOre RemIx)",
+       "number": "12",
+       "length": 203773
+      },
+      {
+       "recording": {
+        "title": "AmEN!",
+        "video": false,
+        "length": 189546,
+        "disambiguation": "",
+        "first-release-date": "2023-06-01",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e"
+       },
+       "id": "e1c5222c-b4ed-4526-9d2f-c3ddb9ce5de8",
+       "position": 13,
+       "length": 189546,
+       "title": "AmEN!",
+       "number": "13"
+      },
+      {
+       "title": "[ost] p.u.s.s.‐e",
+       "number": "14",
+       "length": 169106,
+       "id": "1aecb779-aa11-4419-995f-650960513480",
+       "position": 14,
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e",
+        "length": 169106
+       }
+      },
+      {
+       "number": "15",
+       "title": "DiE4u",
+       "length": 207120,
+       "id": "ef0f279e-512f-4e5d-b346-2f29ec5413e1",
+       "position": 15,
+       "recording": {
+        "length": 207120,
+        "title": "DiE4u",
+        "video": false,
+        "first-release-date": "2021-09-16",
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "disambiguation": ""
+       }
+      },
+      {
+       "id": "8878330e-16d9-4266-bdf0-559490e97485",
+       "position": 16,
+       "recording": {
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "title": "DIg It",
+        "video": false,
+        "length": 434693
+       },
+       "title": "DIg It",
+       "number": "16",
+       "length": 432680
+      },
+      {
+       "number": "17",
+       "title": "DArkSide (live from Tokyo)",
+       "length": 200586,
+       "recording": {
+        "id": "038d8010-2943-47d2-bd0c-61105940a97a",
+        "first-release-date": "2024-09-27",
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan",
+        "length": 200586,
+        "video": false,
+        "title": "DArkSide"
+       },
+       "position": 17,
+       "id": "50532ab6-853d-471e-a2ce-e634b6db9a03"
+      },
+      {
+       "recording": {
+        "video": false,
+        "title": "LosT",
+        "length": 264413,
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan",
+        "id": "4da5f245-c650-4de5-8237-44e599ba04d1",
+        "first-release-date": "2024-09-27"
+       },
+       "id": "862f63c5-c0f9-48d8-b1f9-c22b318c6594",
+       "position": 18,
+       "number": "18",
+       "title": "LosT (live from Tokyo)",
+       "length": 264413
+      },
+      {
+       "number": "19",
+       "title": "AmEN! (live from Tokyo)",
+       "length": 283320,
+       "position": 19,
+       "id": "36dd1630-402e-4f0b-83f4-d32e0abd967e",
+       "recording": {
+        "length": 283320,
+        "video": false,
+        "title": "AmEN!",
+        "first-release-date": "2024-09-27",
+        "id": "f0628611-3c15-473d-9e7b-011be7dafbf7",
+        "disambiguation": "live, 2023-11-03: Makuhari Messe Kokusai Tenjijou Hall 9-10, Chiba, Japan"
+       }
+      }
+     ],
+     "id": "7cebe103-cca1-3fbf-9d4b-06228a9a5490",
+     "track-count": 19,
+     "position": 1,
+     "format": "CD"
+    }
+   ],
+   "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+   },
+   "release-events": [
+    {
+     "date": "2024-09-27",
+     "area": {
+      "type-id": null,
+      "disambiguation": "",
+      "name": "Japan",
+      "type": null,
+      "iso-3166-1-codes": [
+       "JP"
+      ],
+      "sort-name": "Japan",
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+     }
+    }
+   ],
+   "asin": "B0DBHJK76L",
+   "barcode": "4547366698220",
+   "quality": "normal",
+   "title": "POST HUMAN: NeX GEn",
+   "id": "d973a1d2-3ffe-4ab9-9016-fa5dbb4fe96a",
+   "date": "2024-09-27",
+   "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "country": "JP",
+   "status": "Official",
+   "packaging": "Cardboard/Paper Sleeve"
+  },
+  {
+   "cover-art-archive": {
+    "artwork": true,
+    "darkened": false,
+    "count": 4,
+    "back": true,
+    "front": true
+   },
+   "disambiguation": "",
+   "id": "f0aacd41-ac38-40f0-9cc1-35aede4c1916",
+   "media": [
+    {
+     "track-count": 16,
+     "position": 1,
+     "format": "CD",
+     "title": "",
+     "id": "77c1c482-ffb8-31eb-94d0-8080ff63a943",
+     "track-offset": 0,
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "tracks": [
+      {
+       "id": "8422c8eb-c2a0-4b95-b3ec-0ef942d3068c",
+       "position": 1,
+       "recording": {
+        "title": "[ost] dreamseeker",
+        "video": false,
+        "length": 19320,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "3fe4cd36-239a-44a6-96fc-a383325ceab5"
+       },
+       "number": "1",
+       "title": "[ost] dreamseeker",
+       "length": 19320
+      },
+      {
+       "number": "2",
+       "title": "YOUtopia",
+       "length": 242666,
+       "id": "69a08b77-1463-46fe-abd7-69a7905a11fb",
+       "position": 2,
+       "recording": {
+        "video": false,
+        "title": "YOUtopia",
+        "length": 242666,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "7e1ba78d-80b6-4c6c-8467-d6aaf5f47115"
+       }
+      },
+      {
+       "recording": {
+        "video": false,
+        "title": "Kool‐Aid",
+        "length": 228466,
+        "disambiguation": "",
+        "id": "d6854daf-ad89-4c43-b695-9270c0b91e4f",
+        "first-release-date": "2024-01-05"
+       },
+       "position": 3,
+       "id": "3b282fc1-534d-4c76-92a7-acc6f06a86f4",
+       "length": 228466,
+       "number": "3",
+       "title": "Kool‐Aid"
+      },
+      {
+       "recording": {
+        "video": false,
+        "title": "Top 10 staTues tHat CriEd bloOd",
+        "length": 240586,
+        "disambiguation": "",
+        "id": "fb3663d8-4e75-4a31-8cb5-6ab09671e955",
+        "first-release-date": "2024-05-24"
+       },
+       "id": "899d8f7a-172b-4bd0-8882-dc4237034eb9",
+       "position": 4,
+       "number": "4",
+       "title": "Top 10 staTues tHat CriEd bloOd",
+       "length": 240586
+      },
+      {
+       "length": 251946,
+       "title": "liMOusIne",
+       "number": "5",
+       "position": 5,
+       "id": "70289f67-3792-4565-9954-6214bec5dc6e",
+       "recording": {
+        "title": "liMOusIne",
+        "video": false,
+        "length": 251946,
+        "disambiguation": "",
+        "first-release-date": "2024-05-24",
+        "id": "34fc829e-d9ac-4377-bc0e-77ba7a7a0ce8"
+       }
+      },
+      {
+       "length": 165360,
+       "title": "DArkSide",
+       "number": "6",
+       "recording": {
+        "length": 165360,
+        "video": false,
+        "title": "DArkSide",
+        "id": "20946cde-5f1e-46bc-b24f-81cccea3fd6d",
+        "first-release-date": "2023-10-13",
+        "disambiguation": ""
+       },
+       "id": "b372c5b4-8dce-4c4f-b2f0-addbe410f5ca",
+       "position": 6
+      },
+      {
+       "number": "7",
+       "title": "a bulleT w/ my namE On",
+       "length": 260613,
+       "position": 7,
+       "id": "8d986f6b-3484-4eca-9e71-ae52e0c8dcac",
+       "recording": {
+        "id": "6d9f25a6-9bc2-42c3-80c2-e30d2584d785",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 260613,
+        "title": "a bulleT w/ my namE On",
+        "video": false
+       }
+      },
+      {
+       "number": "8",
+       "title": "[ost] (spi)ritual",
+       "length": 114213,
+       "recording": {
+        "title": "[ost] (spi)ritual",
+        "video": false,
+        "length": 114213,
+        "disambiguation": "",
+        "id": "e1cfc131-4840-4976-b1f7-5413d762f74a",
+        "first-release-date": "2024-05-24"
+       },
+       "id": "0a7f38fc-a7ec-4e84-823b-c4cb2ab2b1e6",
+       "position": 8
+      },
+      {
+       "title": "n/A",
+       "number": "9",
+       "length": 200240,
+       "position": 9,
+       "id": "1a44fbda-7b26-40d7-9c85-5148bf952558",
+       "recording": {
+        "disambiguation": "",
+        "id": "aab27b3a-299e-4ed0-bb4e-5c8cd0530477",
+        "first-release-date": "2024-05-24",
+        "video": false,
+        "title": "n/A",
+        "length": 200240
+       }
+      },
+      {
+       "id": "36a9d5be-4330-479c-a49f-56f88aea8d39",
+       "position": 10,
+       "recording": {
+        "length": 205480,
+        "title": "LosT",
+        "video": false,
+        "id": "e89428ed-4422-4736-ba20-9142da057be3",
+        "first-release-date": "2023-05-04",
+        "disambiguation": ""
+       },
+       "number": "10",
+       "title": "LosT",
+       "length": 205480
+      },
+      {
+       "length": 195826,
+       "title": "sTraNgeRs",
+       "number": "11",
+       "recording": {
+        "disambiguation": "",
+        "id": "99592600-f6a5-4d61-84c9-67002c202985",
+        "first-release-date": "2022-07-06",
+        "title": "sTraNgeRs",
+        "video": false,
+        "length": 195826
+       },
+       "position": 11,
+       "id": "dc541318-9564-44eb-88a6-e99ff95fe513"
+      },
+      {
+       "title": "R.i.p. (duskCOre RemIx)",
+       "number": "12",
+       "length": 203773,
+       "recording": {
+        "first-release-date": "2024-05-24",
+        "id": "d10a9d57-f7c4-434f-97c4-eb80c6c784a0",
+        "disambiguation": "",
+        "length": 203773,
+        "video": false,
+        "title": "R.i.p. (duskCOre RemIx)"
+       },
+       "id": "4c47ece3-6544-455b-ac6e-6bfa5aa740e3",
+       "position": 12
+      },
+      {
+       "title": "AmEN!",
+       "number": "13",
+       "length": 189546,
+       "position": 13,
+       "id": "886aa50a-e704-4416-a311-da4c2bc3c277",
+       "recording": {
+        "first-release-date": "2023-06-01",
+        "id": "9f331d71-12ee-46c8-b155-b3828e4cfd7e",
+        "disambiguation": "",
+        "length": 189546,
+        "title": "AmEN!",
+        "video": false
+       }
+      },
+      {
+       "title": "[ost] p.u.s.s.‐e",
+       "number": "14",
+       "length": 169106,
+       "position": 14,
+       "id": "24cd332d-ad4e-49bd-8ebf-def9ae69baea",
+       "recording": {
+        "length": 169106,
+        "video": false,
+        "title": "[ost] p.u.s.s.‐e",
+        "first-release-date": "2024-05-24",
+        "id": "932f6dd8-3004-4cc8-b2aa-507a48c1341c",
+        "disambiguation": ""
+       }
+      },
+      {
+       "title": "DiE4u",
+       "number": "15",
+       "length": 207120,
+       "recording": {
+        "length": 207120,
+        "title": "DiE4u",
+        "video": false,
+        "first-release-date": "2021-09-16",
+        "id": "55d93c8d-d5a5-4504-91a1-5a63f994b9f6",
+        "disambiguation": ""
+       },
+       "position": 15,
+       "id": "97a7daba-ce75-4352-9e0a-1454032820c3"
+      },
+      {
+       "position": 16,
+       "id": "3a80b574-de31-4b3a-85e3-98d6ec636e0b",
+       "recording": {
+        "id": "7c1ca799-bb7d-400b-b480-7d51b2860b5e",
+        "first-release-date": "2024-05-24",
+        "disambiguation": "",
+        "length": 434693,
+        "title": "DIg It",
+        "video": false
+       },
+       "length": 434693,
+       "title": "DIg It",
+       "number": "16"
+      }
+     ]
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "asin": null,
+   "barcode": "0194399434321",
+   "release-events": [
+    {
+     "date": "2024-09-27",
+     "area": {
+      "iso-3166-1-codes": [
+       "AU"
+      ],
+      "sort-name": "Australia",
+      "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+      "type": null,
+      "name": "Australia",
+      "disambiguation": "",
+      "type-id": null
+     }
+    }
+   ],
+   "quality": "normal",
+   "title": "POST HUMAN: NeX GEn",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "date": "2024-09-27",
+   "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+   "status": "Official",
+   "packaging": "Gatefold Cover",
+   "country": "AU"
+  }
+ ],
+ "release-offset": 0,
+ "release-count": 8
+}

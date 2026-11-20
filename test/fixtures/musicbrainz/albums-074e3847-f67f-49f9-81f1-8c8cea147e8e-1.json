@@ -1,0 +1,204 @@
+{
+ "release-group-offset": 0,
+ "release-group-count": 17,
+ "release-groups": [
+  {
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2015-06-22",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Live at Wembley",
+   "primary-type": "Album",
+   "id": "00584f3e-580e-487b-867c-b623ec50f300",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [],
+   "title": "POST HUMAN: SURVIVAL HORROR",
+   "secondary-type-ids": [],
+   "first-release-date": "2020-10-29",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "id": "2d1d9561-4c16-41d4-8234-dfe30c6334eb",
+   "primary-type": "Album"
+  },
+  {
+   "primary-type": "Album",
+   "id": "2e83a13d-d9c5-4ce1-b7cb-15c073873c57",
+   "first-release-date": "2025-07-11",
+   "title": "Lo-files",
+   "secondary-type-ids": [],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": []
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [],
+   "id": "3351433a-72a3-4c58-9fc5-9c628a35742e",
+   "primary-type": "Album",
+   "secondary-type-ids": [],
+   "title": "amo",
+   "first-release-date": "2019-01-25",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "id": "497feea7-e7b6-4380-b999-0d253f75adc4",
+   "primary-type": "Album",
+   "secondary-type-ids": [],
+   "title": "Count Your Blessings | Repented",
+   "first-release-date": "2026-07-10",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": []
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "4c519efc-f513-4a62-ae3d-01087b5a0bba",
+   "primary-type": "Album",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "L.I.V.E. in São Paulo (Live Immersive Virtual Experiment)",
+   "first-release-date": "2026-04-10",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "id": "4dcf93d7-2372-44e4-816c-4ef225b448c8",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "title": "There Is a Hell Believe Me I’ve Seen It. There Is a Heaven Let’s Keep It a Secret",
+   "secondary-type-ids": [],
+   "first-release-date": "2010-10-04",
+   "secondary-types": [],
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [],
+   "title": "That’s the Spirit",
+   "first-release-date": "2015-09-04",
+   "id": "78113c03-d7dc-4200-91f0-5b20088e403d",
+   "primary-type": "Album"
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [],
+   "id": "96a7fe39-114f-4102-aba8-6387748553ce",
+   "primary-type": "Album",
+   "secondary-type-ids": [],
+   "title": "POST HUMAN: NeX GEn",
+   "first-release-date": "2024-05-24",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "secondary-types": [
+    "Compilation"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "title": "2004 - 2013",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "first-release-date": "2017-11-24",
+   "id": "9cb90886-99ff-4da9-9aa1-901e7f1eb13f",
+   "primary-type": "Album"
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "primary-type": "Album",
+   "id": "a5377a12-7614-4e2d-94a1-324dbc37480b",
+   "first-release-date": "2014-11-24",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "title": "Limited Box Set",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "id": "b2947bde-f35a-4e83-b70a-985460388027",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Live at Wacken Open Air",
+   "first-release-date": "2009",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "secondary-types": [],
+   "primary-type": "Album",
+   "id": "bd29e155-81aa-3600-8de3-a9dea76da4c9",
+   "first-release-date": "2008-09-29",
+   "secondary-type-ids": [],
+   "title": "Suicide Season",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "secondary-types": [
+    "Remix"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "id": "cf967c9e-133a-49ed-a9e5-8d6a7f4c2760",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2025-01-31",
+   "title": "Wish I Could Forget (The Remixes)",
+   "secondary-type-ids": [
+    "0c60f497-ff81-3818-befd-abfc84a4858b"
+   ]
+  },
+  {
+   "primary-type": "Album",
+   "id": "e1b2407b-03fd-41f1-b920-472d57607654",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2016-12-02",
+   "title": "Live at the Royal Albert Hall",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [],
+   "title": "Count Your Blessings",
+   "first-release-date": "2006-10-30",
+   "id": "ea8e2fec-ed89-3918-a9e4-bf4e8e5f7e28",
+   "primary-type": "Album"
+  },
+  {
+   "primary-type": "Album",
+   "id": "f0c8edf8-26a7-4425-9ce9-82b00e90669a",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2013-03-29",
+   "secondary-type-ids": [],
+   "title": "Sempiternal",
+   "secondary-types": [],
+   "disambiguation": ""
+  }
+ ]
+}

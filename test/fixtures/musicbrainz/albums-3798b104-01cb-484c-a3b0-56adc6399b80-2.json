@@ -1,0 +1,118 @@
+{
+ "release-group-offset": 100,
+ "release-groups": [
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "first-release-date": "",
+   "id": "05437b8b-a4ad-38f8-b330-28d029aa7678",
+   "title": "Fear Is Your Only God",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "secondary-types": [
+    "Demo"
+   ],
+   "primary-type": "Album",
+   "title": "Bombs and Bullets",
+   "first-release-date": "1994",
+   "id": "76ab0923-20e9-42da-9b03-b19ee83799de",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "81598169-0d6c-3bce-b4be-866fa658eda3"
+   ]
+  },
+  {
+   "first-release-date": "",
+   "id": "a9fcbdc8-fda3-344b-bc0f-58d9e449169e",
+   "primary-type": "Album",
+   "title": "KROQ Dysfunctional Family Picnic",
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "first-release-date": "",
+   "id": "c0544679-341f-3be7-a72d-8bd270baf4ed",
+   "primary-type": "Album",
+   "title": "Year of the Boomerang",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "title": "Get Up, Stand Up",
+   "primary-type": "Album",
+   "id": "c1221cef-e3a4-35bc-a941-c81d81f781e6",
+   "first-release-date": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": ""
+  },
+  {
+   "first-release-date": "",
+   "id": "d6a22da3-31e8-32f0-9e7f-fc9283a1fd4c",
+   "primary-type": "Album",
+   "title": "Bulls on Parade",
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "title": "Going Into Action",
+   "first-release-date": "",
+   "id": "dd4c5a50-74c6-3cbd-acf8-c6709f806ca3"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "id": "f6bfe286-62db-3beb-9383-28884548dfd9",
+   "first-release-date": "",
+   "title": "Rage on Stage",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  }
+ ],
+ "release-group-count": 108
+}

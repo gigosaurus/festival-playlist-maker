@@ -1,0 +1,306 @@
+{
+ "event-offset": 0,
+ "event-count": 20,
+ "events": [
+  {
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2007-10-28",
+    "begin": "2007-10-28"
+   },
+   "cancelled": false,
+   "time": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "id": "0defcb00-8ea4-4383-93ae-6189f32559c7",
+   "setlist": "",
+   "name": "Vegoose 2007, day 3: Double Down Stage"
+  },
+  {
+   "type": "Festival",
+   "life-span": {
+    "begin": "2008-08-22",
+    "end": "2008-08-22",
+    "ended": true
+   },
+   "time": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "setlist": "",
+   "disambiguation": "",
+   "id": "179b238d-8e69-47af-a65f-300bdff536bd",
+   "name": "Reading Festival 2008, day 1: Main Stage"
+  },
+  {
+   "disambiguation": "",
+   "id": "1a4b67a8-2440-46f7-ae31-22bac4b1b23a",
+   "setlist": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Rock en Seine 2008, day 1: Grande Scène",
+   "type": "Festival",
+   "time": "",
+   "cancelled": false,
+   "life-span": {
+    "end": "2008-08-20",
+    "ended": true,
+    "begin": "2008-08-20"
+   }
+  },
+  {
+   "type": "Festival",
+   "life-span": {
+    "begin": "2022-08-26",
+    "end": "2022-08-28",
+    "ended": true
+   },
+   "time": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "setlist": "",
+   "disambiguation": "",
+   "id": "31dfc370-4e7d-4614-b0ec-036590a312ae",
+   "name": "Reading Festival 2022"
+  },
+  {
+   "life-span": {
+    "ended": true,
+    "end": "2020-04-17",
+    "begin": "2020-04-17"
+   },
+   "time": "",
+   "cancelled": true,
+   "type": "Festival",
+   "name": "Coachella Valley Music and Arts Festival 2020, Day 4",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "setlist": "",
+   "disambiguation": "weekend 2",
+   "id": "635a8c61-e026-4338-8e1a-377cf0ddef3b"
+  },
+  {
+   "setlist": "",
+   "id": "6f23b07a-16ad-41c3-aecf-e9e4051c99b3",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Roskilde Festival 1996, Day 1: Orange",
+   "type": "Festival",
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "begin": "1996-06-27",
+    "end": "1996-06-27",
+    "ended": true
+   }
+  },
+  {
+   "life-span": {
+    "begin": "2010-06-04",
+    "ended": true,
+    "end": "2010-06-04"
+   },
+   "time": "",
+   "cancelled": false,
+   "type": "Festival",
+   "name": "Rock am Ring 2010, Day 2: Centerstage",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "id": "780b3ee4-32b0-4d8e-b3e8-8b416510aa42",
+   "setlist": ""
+  },
+  {
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "ended": true,
+    "end": "2022-08-28",
+    "begin": "2022-08-26"
+   },
+   "type": "Festival",
+   "name": "Leeds Festival 2022",
+   "id": "7921612c-2a0d-4eab-94dc-fe77715d0b9f",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "disambiguation": "",
+   "id": "86ab2a14-9492-4a3a-b098-bd8455d9285b",
+   "setlist": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Coachella Valley Music and Arts Festival 2007, Day 3: Coachella Stage",
+   "type": "Festival",
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "end": "2007-04-29",
+    "ended": true,
+    "begin": "2007-04-29"
+   }
+  },
+  {
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "end": "1997-07-05",
+    "ended": true,
+    "begin": "1997-07-05"
+   },
+   "type": "Concert",
+   "name": "KISS at Finsbury Park",
+   "disambiguation": "",
+   "setlist": "@ [3798b104-01cb-484c-a3b0-56adc6399b80|Rage Against the Machine]\r\n* [3fdd8132-32cb-4272-bd29-77fd48d01834|People of the Sun]\r\n* [b3e5952c-81e3-3a64-b465-37f8fb1d711a|Know Your Enemy]\r\n* [68f31b04-a0cc-4b15-806f-351e7f0c3273|Vietnow]\r\n* [ad766dd3-58b5-39a0-9020-8be72ec1a59f|Bombtrack]\r\n* [3fff3842-e572-394e-a3c0-69a9dccccd50|The Ghost of Tom Joad]\r\n* [0d8d16f2-8a9a-3d58-ac87-4158c34836a1|Without a Face]\r\n* [5215f194-ffdf-3d06-81e4-2437ce42f646|Fistful of Steel]\r\n* [8ae68331-df96-4ecd-807f-aa565d60901a|Sound of da Police]\r\n* [38697076-780a-4742-b3b2-06b79a522741|Bulls on Parade]\r\n* [8fbd384d-273b-3e97-8792-769ac327d1fe|Bullet in the Head]\r\n* [32ca89bc-03d4-3b68-b172-511401d1a433|Killing in the Name]\r\n* [a1761f22-5596-3701-b141-4bb445385f53|Freedom]\r\n\r\n@ [e212efdf-98b2-4dce-92ed-62cfc1e29854|Skunk Anansie]\r\n\r\n@ [0d4696bc-6a04-4525-80a8-40308054b91c|Thunder]\r\n\r\n@ [57111f1f-9829-45ea-bb4e-a5aba37cd1d1|L7]\r\n\r\n@ [e1f1e33e-2e4c-4d43-b91b-7064068d3283|KISS]\r\n* [f6d82fe6-e09f-372c-ac13-dfe5f5031e1b|Deuce]\r\n* [43305184-df0d-39f3-9ae2-914245664b92|King of the Night Time World]\r\n* [96d1408f-4780-3ff4-b234-c6c0d633f89e|Let Me Go, Rock ’n Roll]\r\n* [7e6376ff-9ea1-370b-94ce-4b5313ccee79|Do You Love Me]\r\n* [41629cae-b649-3b2e-bac1-5006a2f2ca21|Firehouse]\r\n* [ef979ba4-242e-3b0f-a2dc-1c57ba6dc4f6|Watchin’ You]\r\n* [cfc0ad98-7b8c-31ff-a804-d47c8e8b1f12|Shock Me]\r\n* Ace Frehley guitar solo\r\n* [a35d9cc6-4732-3181-920b-0f1a0d876d56|Calling Dr. Love]\r\n* [92651d41-fea1-34fb-a1d1-c772ea1b00a4|Shout It Out Loud]\r\n* [d14dc99a-a45e-394d-8fb7-06dc91670b58|Love Gun]\r\n* [913a7e1f-b57a-3a1c-a055-9df1626ace54|Cold Gin]\r\n* [0c309dd6-867a-3998-babe-57ffca970d54|I Was Made for Lovin’ You]\r\n* Gene Simmons bass solo\r\n* [75a72144-fbcf-3c3f-aabd-e85dec885cad|God of Thunder]\r\n* Peter Criss drum solo\r\n* [8d9cf249-1f5c-433c-a0ea-dae54cf38a7e|New York Groove]\r\n* [16458c21-79a6-33b5-9b93-9606010012c6|100,000 Years]\r\n* [52cb581c-5972-3d49-9cdb-bb2b472f99b9|Black Diamond]\r\n# encore\r\n* [512c4801-5184-3061-934d-e3542921aa66|Detroit Rock City]\r\n* [b280b95a-4085-3bc0-b29a-d29016a0725b|Beth]\r\n* [de4c0fa3-a578-38e6-99fd-3448f7cbd640|Rock and Roll All Nite]",
+   "id": "8930a280-9b39-4be7-ad72-63bc469bb821",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+  },
+  {
+   "disambiguation": "",
+   "id": "8f0910a2-529e-4f31-b8e1-9149dede96be",
+   "setlist": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Voodoo Music Experience 2007, day 1",
+   "type": "Festival",
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "begin": "2007-10-26",
+    "end": "2007-10-26",
+    "ended": true
+   }
+  },
+  {
+   "setlist": "",
+   "disambiguation": "",
+   "id": "9b823fa1-6325-432e-976e-e968b851ce4a",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "name": "Rage Against the Machine in East Troy",
+   "type": "Concert",
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "begin": "2007-08-24",
+    "end": "2007-08-24",
+    "ended": true
+   }
+  },
+  {
+   "name": "Free Tibet ’99",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "setlist": "",
+   "disambiguation": "USA",
+   "id": "9f49adcf-c634-4117-94e6-0998336ad7aa",
+   "life-span": {
+    "begin": "1999-06-13",
+    "ended": true,
+    "end": "1999-06-13"
+   },
+   "time": "",
+   "cancelled": false,
+   "type": "Concert"
+  },
+  {
+   "type": "Concert",
+   "time": "",
+   "cancelled": false,
+   "life-span": {
+    "begin": "2000-02-03",
+    "ended": true,
+    "end": "2000-02-03"
+   },
+   "disambiguation": "",
+   "setlist": "",
+   "id": "a1e71ec6-88ce-4400-aeab-9eb13e4e1565",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "name": "Rage Against the Machine au Zénith"
+  },
+  {
+   "name": "Coachella Valley Music and Arts Festival 2020, Day 1",
+   "disambiguation": "weekend 1",
+   "id": "a635ef48-7128-464c-859d-a87d7266f83e",
+   "setlist": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "time": "",
+   "cancelled": true,
+   "life-span": {
+    "end": "2020-04-10",
+    "ended": true,
+    "begin": "2020-04-10"
+   },
+   "type": "Festival"
+  },
+  {
+   "name": "Pukkelpop 1993: Main Stage",
+   "disambiguation": "",
+   "setlist": "",
+   "id": "d139ddbb-f487-4e48-8e81-d9be78f6e5c0",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "time": "",
+   "cancelled": false,
+   "life-span": {
+    "begin": "1993-08-28",
+    "end": "1993-08-28",
+    "ended": true
+   },
+   "type": "Festival"
+  },
+  {
+   "name": "RBC Bluesfest 2022, RBC Stage",
+   "disambiguation": "",
+   "setlist": "",
+   "id": "db1bc628-ce66-4949-8a16-931ecdcf6374",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "time": "",
+   "life-span": {
+    "begin": "2022-07-07",
+    "end": "2022-07-17",
+    "ended": true
+   },
+   "type": "Festival"
+  },
+  {
+   "name": "Rock im Park 2008, Day 2",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "Saturday",
+   "setlist": "",
+   "id": "de65a756-fec9-4790-bbfe-c67c924126f6",
+   "life-span": {
+    "end": "2008-06-07",
+    "ended": true,
+    "begin": "2008-06-07"
+   },
+   "cancelled": false,
+   "time": "",
+   "type": "Festival"
+  },
+  {
+   "name": "Rock im Park 2010, Day 1",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "setlist": "",
+   "id": "f295e0d6-6c4b-483b-a169-a76f8ace508e",
+   "disambiguation": "",
+   "life-span": {
+    "begin": "2010-06-03",
+    "ended": true,
+    "end": "2010-06-03"
+   },
+   "cancelled": false,
+   "time": "",
+   "type": "Festival"
+  },
+  {
+   "time": "13:00",
+   "cancelled": false,
+   "life-span": {
+    "begin": "1996-08-23",
+    "end": "1996-08-23",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "Reading Festival 1996, day 1: Main Stage",
+   "setlist": "",
+   "disambiguation": "",
+   "id": "fb1c5078-fdd1-4f49-9d83-f7b8b7ad9abc",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  }
+ ]
+}

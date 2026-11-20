@@ -1,0 +1,537 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Bulls%20on%20Parade%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 7,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/24E6rDvGDuYFjlGewp4ntF"
+     },
+     "href": "https://api.spotify.com/v1/albums/24E6rDvGDuYFjlGewp4ntF",
+     "id": "24E6rDvGDuYFjlGewp4ntF",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273053f006079bce979e5fef1e1"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02053f006079bce979e5fef1e1"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851053f006079bce979e5fef1e1"
+      }
+     ],
+     "is_playable": true,
+     "name": "Evil Empire",
+     "release_date": "1996-04-16",
+     "release_date_precision": "day",
+     "total_tracks": 11,
+     "type": "album",
+     "uri": "spotify:album:24E6rDvGDuYFjlGewp4ntF"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 229466,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19502563"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0tZ3mElWcr74OOhKEiNz1x"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0tZ3mElWcr74OOhKEiNz1x",
+    "id": "0tZ3mElWcr74OOhKEiNz1x",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls On Parade",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:0tZ3mElWcr74OOhKEiNz1x"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 317493,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM10312737"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3YyUzKsTKFMPJkEvlEh8vW"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3YyUzKsTKFMPJkEvlEh8vW",
+    "id": "3YyUzKsTKFMPJkEvlEh8vW",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls on Parade - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:3YyUzKsTKFMPJkEvlEh8vW"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1twQEQUB9cGQJRKBIuV5zE"
+     },
+     "href": "https://api.spotify.com/v1/albums/1twQEQUB9cGQJRKBIuV5zE",
+     "id": "1twQEQUB9cGQJRKBIuV5zE",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273250a2ee38bcf60e1e3cbdf04"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02250a2ee38bcf60e1e3cbdf04"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851250a2ee38bcf60e1e3cbdf04"
+      }
+     ],
+     "is_playable": true,
+     "name": "Woodstock '99",
+     "release_date": "1999-10-19",
+     "release_date_precision": "day",
+     "total_tracks": 33,
+     "type": "album",
+     "uri": "spotify:album:1twQEQUB9cGQJRKBIuV5zE"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 229306,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19911549"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/50p3xSYXz8kq5rE568tQfn"
+    },
+    "href": "https://api.spotify.com/v1/tracks/50p3xSYXz8kq5rE568tQfn",
+    "id": "50p3xSYXz8kq5rE568tQfn",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls on Parade - Live",
+    "track_number": 7,
+    "type": "track",
+    "uri": "spotify:track:50p3xSYXz8kq5rE568tQfn"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5lexBcLuhxCaLB8LbM3JvR"
+     },
+     "href": "https://api.spotify.com/v1/albums/5lexBcLuhxCaLB8LbM3JvR",
+     "id": "5lexBcLuhxCaLB8LbM3JvR",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c71f08ca0b0474036976e315"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Mexico City (Live)",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:5lexBcLuhxCaLB8LbM3JvR"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 235032,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM12004830"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0t01cuDrRy8UTntCrSsy4K"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0t01cuDrRy8UTntCrSsy4K",
+    "id": "0t01cuDrRy8UTntCrSsy4K",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls On Parade - Live, Mexico City, Mexico, October 28, 1999",
+    "track_number": 11,
+    "type": "track",
+    "uri": "spotify:track:0t01cuDrRy8UTntCrSsy4K"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4DryY9zPDIteGZvJJS5QXU"
+     },
+     "href": "https://api.spotify.com/v1/albums/4DryY9zPDIteGZvJJS5QXU",
+     "id": "4DryY9zPDIteGZvJJS5QXU",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2737c3eb06233bce88a1a27fe2c"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e027c3eb06233bce88a1a27fe2c"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048517c3eb06233bce88a1a27fe2c"
+      }
+     ],
+     "is_playable": true,
+     "name": "80s & 90s Party Hits",
+     "release_date": "2023-06-13",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:4DryY9zPDIteGZvJJS5QXU"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 229466,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19502563"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/7cOieCZ82gWhIjanKWCs0d"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7cOieCZ82gWhIjanKWCs0d",
+    "id": "7cOieCZ82gWhIjanKWCs0d",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls On Parade",
+    "track_number": 8,
+    "type": "track",
+    "uri": "spotify:track:7cOieCZ82gWhIjanKWCs0d"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/7LSb480ijrv0OAy60psIYv"
+     },
+     "href": "https://api.spotify.com/v1/albums/7LSb480ijrv0OAy60psIYv",
+     "id": "7LSb480ijrv0OAy60psIYv",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273fee3ffd197f3c6e2b8d32dcd"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02fee3ffd197f3c6e2b8d32dcd"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851fee3ffd197f3c6e2b8d32dcd"
+      }
+     ],
+     "is_playable": true,
+     "name": "Rock Clássico",
+     "release_date": "2019-03-29",
+     "release_date_precision": "day",
+     "total_tracks": 70,
+     "type": "album",
+     "uri": "spotify:album:7LSb480ijrv0OAy60psIYv"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 229466,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19502563"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4BzQKZBs91uB3vxlKtkldG"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4BzQKZBs91uB3vxlKtkldG",
+    "id": "4BzQKZBs91uB3vxlKtkldG",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls On Parade",
+    "track_number": 58,
+    "type": "track",
+    "uri": "spotify:track:4BzQKZBs91uB3vxlKtkldG"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/222skmRNQTZ0IGcdw8d2GA"
+     },
+     "href": "https://api.spotify.com/v1/albums/222skmRNQTZ0IGcdw8d2GA",
+     "id": "222skmRNQTZ0IGcdw8d2GA",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27362c46fb19885a63d96c31998"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0262c46fb19885a63d96c31998"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485162c46fb19885a63d96c31998"
+      }
+     ],
+     "is_playable": true,
+     "name": "The 90s: Decade of Classics",
+     "release_date": "2023-06-13",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:222skmRNQTZ0IGcdw8d2GA"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 229466,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19502563"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3mClFFdWUbP7oPhzlr5o3v"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3mClFFdWUbP7oPhzlr5o3v",
+    "id": "3mClFFdWUbP7oPhzlr5o3v",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bulls On Parade",
+    "track_number": 8,
+    "type": "track",
+    "uri": "spotify:track:3mClFFdWUbP7oPhzlr5o3v"
+   }
+  ]
+ }
+}

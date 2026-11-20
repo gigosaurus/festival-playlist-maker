@@ -1,0 +1,219 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 2,
+  "setlist": [
+   {
+    "id": "6bb26e1a",
+    "versionId": "g3b9088c8",
+    "eventDate": "03-08-2022",
+    "lastUpdated": "2023-06-19T05:09:47.864+0000",
+    "artist": {
+     "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+     "name": "Run the Jewels",
+     "sortName": "Run the Jewels",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+    },
+    "venue": {
+     "id": "3bd2b05c",
+     "name": "Capital One Arena",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/capital-one-arena-washington-dc-usa-3bd2b05c.html"
+    },
+    "tour": {
+     "name": "“Public Service Announcement” Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Legend Has It"
+        },
+        {
+         "name": "yankee and the brave (ep. 4)"
+        },
+        {
+         "name": "ooh la la"
+        },
+        {
+         "name": "Blockbuster Night Part 1"
+        },
+        {
+         "name": "Oh My Darling Don't Cry"
+        },
+        {
+         "name": "Nobody Speak",
+         "cover": {
+          "mbid": "efa2c11a-1a35-4b60-bc1b-66d37de88511",
+          "name": "DJ Shadow",
+          "sortName": "Shadow, DJ",
+          "disambiguation": "US hip hop producer, DJ & instrumentalist",
+          "url": "https://www.setlist.fm/setlists/dj-shadow-bd6d932.html"
+         }
+        },
+        {
+         "name": "JU$T"
+        },
+        {
+         "name": "Stay Gold"
+        },
+        {
+         "name": "Don't Get Captured"
+        },
+        {
+         "name": "walking in the snow"
+        },
+        {
+         "name": "a few words for the firing squad (radiation)"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 2 at Capital One Arena.  Originally scheduled for 8/05/2020 but postponed due to the COVID-19 pandemic.  Support act on Rage Against The Machine's \"'Public Service Announcement' Tour\".",
+    "url": "https://www.setlist.fm/setlist/run-the-jewels/2022/capital-one-arena-washington-dc-6bb26e1a.html"
+   },
+   {
+    "id": "5bb26f80",
+    "versionId": "g13fb7989",
+    "eventDate": "03-08-2022",
+    "lastUpdated": "2022-10-03T16:31:55.725+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "3bd2b05c",
+     "name": "Capital One Arena",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/capital-one-arena-washington-dc-usa-3bd2b05c.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 2 at Capital One Arena.  Originally scheduled for 8/05/2020 but postponed due to the COVID-19 pandemic.  Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/capital-one-arena-washington-dc-5bb26f80.html"
+   }
+  ]
+ }
+}

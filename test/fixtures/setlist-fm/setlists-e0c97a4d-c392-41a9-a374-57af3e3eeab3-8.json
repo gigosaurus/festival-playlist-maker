@@ -1,0 +1,1620 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 8,
+  "total": 372,
+  "setlist": [
+   {
+    "id": "635bfa2b",
+    "versionId": "g2b73a07a",
+    "eventDate": "15-06-2025",
+    "lastUpdated": "2025-07-20T19:03:50.104+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd178f8",
+     "name": "Starland Yard",
+     "city": {
+      "id": "4221552",
+      "name": "Savannah",
+      "state": "Georgia",
+      "stateCode": "GA",
+      "coords": {
+       "lat": 32.0835407,
+       "long": -81.0998342
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/starland-yard-savannah-ga-usa-3bd178f8.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "“Peg” by Steely Dan jam included in the song"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Islands of Men"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad",
+         "info": "Cameron jokes, “I forgot we were headlining this thing”"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Crusades"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/starland-yard-savannah-ga-635bfa2b.html"
+   },
+   {
+    "id": "6346762f",
+    "versionId": "g6b0c5672",
+    "eventDate": "11-06-2025",
+    "lastUpdated": "2026-09-13T19:55:27.818+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d2c83b",
+     "name": "The Blue Room",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-blue-room-nashville-tn-usa-23d2c83b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "I Will Let You Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      },
+      {
+       "name": "Encore: 3D Country",
+       "song": [
+        {
+         "name": "2122",
+         "info": "with The Beach Boys' \"Surfin' U.S.A\" snippet in tribute to Brian Wilson, who passed away that day"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"Islands of Men\" through \"Trinidad\" recorded for live album",
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-blue-room-nashville-tn-6346762f.html"
+   },
+   {
+    "id": "735bfa35",
+    "versionId": "g7b0c560c",
+    "eventDate": "09-06-2025",
+    "lastUpdated": "2026-09-13T20:14:58.134+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bde1f68",
+     "name": "Asheville Yards",
+     "city": {
+      "id": "4453066",
+      "name": "Asheville",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.6009452,
+       "long": -82.554015
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/asheville-yards-asheville-nc-usa-5bde1f68.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "I Will Let You Down",
+         "info": "live debut by Geese; in tribute to Sly Stone"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/asheville-yards-asheville-nc-735bfa35.html"
+   },
+   {
+    "id": "6b5bfa36",
+    "versionId": "g2366f4df",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2025-10-16T05:32:10.666+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "6bd0a622",
+     "name": "Firefly Distillery",
+     "city": {
+      "id": "4589387",
+      "name": "North Charleston",
+      "state": "South Carolina",
+      "stateCode": "SC",
+      "coords": {
+       "lat": 32.8885608973779,
+       "long": -80.0075054168701
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/firefly-distillery-north-charleston-sc-usa-6bd0a622.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Trinidad",
+         "info": "not on written setlist"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "opening for vampire weekend",
+    "url": "https://www.setlist.fm/setlist/geese/2025/firefly-distillery-north-charleston-sc-6b5bfa36.html"
+   },
+   {
+    "id": "7b5bfa30",
+    "versionId": "g436a4b23",
+    "eventDate": "04-06-2025",
+    "lastUpdated": "2026-02-23T11:07:28.686+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bdef584",
+     "name": "Broadview Stage at SPAC",
+     "city": {
+      "id": "5136334",
+      "name": "Saratoga Springs",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 43.0831301,
+       "long": -73.7845651
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/broadview-stage-at-spac-saratoga-springs-ny-usa-1bdef584.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "3D Country"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Domoto",
+         "info": "Introduced as 'B-Punk'"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "2122",
+         "info": "Not on setlist"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/broadview-stage-at-spac-saratoga-springs-ny-7b5bfa30.html"
+   },
+   {
+    "id": "735bfa31",
+    "versionId": "g3b18a02c",
+    "eventDate": "03-06-2025",
+    "lastUpdated": "2026-06-11T19:38:34.137+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bdff8f0",
+     "name": "Outdoors",
+     "city": {
+      "id": "5206379",
+      "name": "Pittsburgh",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 40.4406248,
+       "long": -79.9958864
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/outdoors-pittsburgh-pa-usa-3bdff8f0.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Man in Me",
+         "tape": true,
+         "cover": {
+          "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+          "name": "Bob Dylan",
+          "sortName": "Dylan, Bob",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+         }
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Flock of geese in a \"V\" flew over the venue right before the band started and the crowd cheered.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/outdoors-pittsburgh-pa-735bfa31.html"
+   },
+   {
+    "id": "7b5bfa3c",
+    "versionId": "g3366f4e5",
+    "eventDate": "02-06-2025",
+    "lastUpdated": "2026-02-23T11:05:23.653+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd0c360",
+     "name": "KEMBA Live!",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/kemba-live-columbus-oh-usa-5bd0c360.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "3D Country"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/kemba-live-columbus-oh-7b5bfa3c.html"
+   },
+   {
+    "id": "7b5bfa38",
+    "versionId": "g2366f4e7",
+    "eventDate": "31-05-2025",
+    "lastUpdated": "2025-10-16T05:30:51.859+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "43d467df",
+     "name": "Metropolitan Opera House",
+     "city": {
+      "id": "4560349",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 39.952335,
+       "long": -75.163789
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/metropolitan-opera-house-philadelphia-pa-usa-43d467df.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "quoted Interstellar Overdrive - Pink Floyd"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/metropolitan-opera-house-philadelphia-pa-7b5bfa38.html"
+   },
+   {
+    "id": "6b5bfa3a",
+    "versionId": "g3366f4e1",
+    "eventDate": "30-05-2025",
+    "lastUpdated": "2026-02-23T11:05:07.089+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "43d467df",
+     "name": "Metropolitan Opera House",
+     "city": {
+      "id": "4560349",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 39.952335,
+       "long": -75.163789
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/metropolitan-opera-house-philadelphia-pa-usa-43d467df.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Man in Me",
+         "tape": true,
+         "cover": {
+          "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+          "name": "Bob Dylan",
+          "sortName": "Dylan, Bob",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+         }
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "3D Country"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/metropolitan-opera-house-philadelphia-pa-6b5bfa3a.html"
+   },
+   {
+    "id": "6b5bfa46",
+    "versionId": "g2366f4e3",
+    "eventDate": "29-05-2025",
+    "lastUpdated": "2025-10-16T05:30:15.154+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d5a1e1",
+     "name": "Thompson's Point",
+     "city": {
+      "id": "4975802",
+      "name": "Portland",
+      "state": "Maine",
+      "stateCode": "ME",
+      "coords": {
+       "lat": 43.661471,
+       "long": -70.2553259
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/thompsons-point-portland-me-usa-13d5a1e1.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Supporting Vampire Weekend",
+    "url": "https://www.setlist.fm/setlist/geese/2025/thompsons-point-portland-me-6b5bfa46.html"
+   },
+   {
+    "id": "735bfa41",
+    "versionId": "g2b66f4ee",
+    "eventDate": "27-05-2025",
+    "lastUpdated": "2026-02-23T11:05:38.471+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d2f957",
+     "name": "Champlain Valley Fairgrounds and Exposition Center",
+     "city": {
+      "id": "5235952",
+      "name": "Essex Junction",
+      "state": "Vermont",
+      "stateCode": "VT",
+      "coords": {
+       "lat": 44.4906054,
+       "long": -73.1109604
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/champlain-valley-fairgrounds-and-exposition-center-essex-junction-vt-usa-3d2f957.html"
+    },
+    "tour": {
+     "name": "Only God Was Above Us"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "3D Country"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/champlain-valley-fairgrounds-and-exposition-center-essex-junction-vt-735bfa41.html"
+   },
+   {
+    "id": "2b5fd43e",
+    "versionId": "g3b362840",
+    "eventDate": "18-05-2025",
+    "lastUpdated": "2026-10-25T19:30:09.683+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63df9227",
+     "name": "Desert Stage",
+     "city": {
+      "id": "5780993",
+      "name": "Salt Lake City",
+      "state": "Utah",
+      "stateCode": "UT",
+      "coords": {
+       "lat": 40.7607794,
+       "long": -111.8910474
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/desert-stage-salt-lake-city-ut-usa-63df9227.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122",
+         "info": "Mr. Brightside riff quoted in verse 2"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Au Pays du Cocaine",
+         "info": "False start, Cameron improvises a song about Salt Lake City while technical issues are resolved"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad",
+         "info": "Live debut) (“There’s A Bomb In My Car”"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Gravity Blues and Getting Killed not on printed setlist (Soundchecked 'Long Island City Here I Come' & 'Taxes')",
+    "url": "https://www.setlist.fm/setlist/geese/2025/desert-stage-salt-lake-city-ut-2b5fd43e.html"
+   },
+   {
+    "id": "534c2b25",
+    "versionId": "g436e2f73",
+    "eventDate": "21-03-2025",
+    "lastUpdated": "2025-12-17T21:51:15.181+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73dee275",
+     "name": "Rabbit Hole",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rabbit-hole-brooklyn-ny-usa-73dee275.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "2122"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/geese/2025/rabbit-hole-brooklyn-ny-534c2b25.html"
+   },
+   {
+    "id": "5358b72d",
+    "versionId": "g63781a87",
+    "eventDate": "08-03-2025",
+    "lastUpdated": "2026-02-23T11:06:41.995+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "33d51c09",
+     "name": "The Burl",
+     "city": {
+      "id": "4297983",
+      "name": "Lexington",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 37.9886892,
+       "long": -84.4777153
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-burl-lexington-ky-usa-33d51c09.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "2122",
+         "info": "Interstellar Overdrive"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "3D Country"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Undoer"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-burl-lexington-ky-5358b72d.html"
+   },
+   {
+    "id": "7b5a8ad0",
+    "versionId": "g136b8951",
+    "eventDate": "31-01-2025",
+    "lastUpdated": "2026-02-02T04:00:35.681+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73d61eed",
+     "name": "Silverlake Lounge",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/silverlake-lounge-los-angeles-ca-usa-73d61eed.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Cowboy Nudes"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/geese/2025/silverlake-lounge-los-angeles-ca-7b5a8ad0.html"
+   },
+   {
+    "id": "7b5f3654",
+    "versionId": "g535e331d",
+    "eventDate": "07-12-2024",
+    "lastUpdated": "2024-12-07T22:54:23.607+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd61fdc",
+     "name": "Music Hall of Williamsburg",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/music-hall-of-williamsburg-brooklyn-ny-usa-5bd61fdc.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Here My Angels Come"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Killing My Borrowed Time"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Islands of Men"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Acoustic show",
+    "url": "https://www.setlist.fm/setlist/geese/2024/music-hall-of-williamsburg-brooklyn-ny-7b5f3654.html"
+   },
+   {
+    "id": "3b5f3094",
+    "versionId": "g2b63842e",
+    "eventDate": "07-12-2024",
+    "lastUpdated": "2025-11-22T20:18:09.086+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd61fdc",
+     "name": "Music Hall of Williamsburg",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/music-hall-of-williamsburg-brooklyn-ny-usa-5bd61fdc.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Art of War"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "2122",
+         "info": "with \"American Idiot\" (Green Day) snippet"
+        },
+        {
+         "name": "Exploding House"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Disco"
+        },
+        {
+         "name": "Free as Hell",
+         "info": "Live debut"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Low Era"
+        },
+        {
+         "name": "Fantasies/Survival"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2024/music-hall-of-williamsburg-brooklyn-ny-3b5f3094.html"
+   },
+   {
+    "id": "635f3e5f",
+    "versionId": "g7b69ea74",
+    "eventDate": "06-12-2024",
+    "lastUpdated": "2026-02-19T23:18:30.984+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd61fdc",
+     "name": "Music Hall of Williamsburg",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/music-hall-of-williamsburg-brooklyn-ny-usa-5bd61fdc.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Killing My Borrowed Time"
+        },
+        {
+         "name": "Cobra",
+         "info": "Live debut"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Half Real",
+         "info": "Live debut"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Roadrunner\" (The Modern Lovers) snippet"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Fantasies/Survival"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Here My Angels Come",
+         "info": "Live debut"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Drinking Age",
+         "cover": {
+          "mbid": "79c6b6f4-cb92-4f03-a1ef-82e7aa4eddbb",
+          "name": "Cameron Winter",
+          "sortName": "Winter, Cameron",
+          "disambiguation": "frontman of NYC‐based band Geese",
+          "url": "https://www.setlist.fm/setlists/cameron-winter-3bf83c58.html"
+         },
+         "info": "Cameron Winter solo"
+        },
+        {
+         "name": "I Want You (She's So Heavy)",
+         "cover": {
+          "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+          "name": "The Beatles",
+          "sortName": "Beatles, The",
+          "disambiguation": "UK rock band, “The Fab Four”",
+          "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+         }
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2024/music-hall-of-williamsburg-brooklyn-ny-635f3e5f.html"
+   },
+   {
+    "id": "5b5fc73c",
+    "versionId": "g336bfc59",
+    "eventDate": "05-12-2024",
+    "lastUpdated": "2026-02-02T18:17:19.493+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd61fdc",
+     "name": "Music Hall of Williamsburg",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/music-hall-of-williamsburg-brooklyn-ny-usa-5bd61fdc.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "$0",
+         "cover": {
+          "mbid": "79c6b6f4-cb92-4f03-a1ef-82e7aa4eddbb",
+          "name": "Cameron Winter",
+          "sortName": "Winter, Cameron",
+          "disambiguation": "frontman of NYC‐based band Geese",
+          "url": "https://www.setlist.fm/setlists/cameron-winter-3bf83c58.html"
+         },
+         "info": "Live debut by Geese) (Started out as Cameron solo, rest of band joined at the end"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Marquee Moon",
+         "cover": {
+          "mbid": "490bde43-5edb-4a93-b3b3-7a0465fd8909",
+          "name": "Television",
+          "sortName": "Television",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/television-7bd6ae1c.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2024/music-hall-of-williamsburg-brooklyn-ny-5b5fc73c.html"
+   },
+   {
+    "id": "43a9738f",
+    "versionId": "g53121f59",
+    "eventDate": "12-10-2024",
+    "lastUpdated": "2026-03-31T17:41:17.095+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "4bdfb712",
+     "name": "T-Mobile Stage",
+     "city": {
+      "id": "4671654",
+      "name": "Austin",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 30.267153,
+       "long": -97.7430608
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-stage-austin-tx-usa-4bdfb712.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Fantasies/Survival"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "3D Country"
+        },
+        {
+         "name": "Crusades"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2024/t-mobile-stage-austin-tx-43a9738f.html"
+   }
+  ]
+ }
+}

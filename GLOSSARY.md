@@ -48,6 +48,14 @@ _Avoid_: Live festival, active festival
 A show on setlist.fm on a day of a MusicBrainz festival event of the artist, or a show where 10 or more artists played at the same venue on the same date.
 _Avoid_: Festival show, festival appearance
 
+**Album-focused show**:
+A show where more than half of the songs come from one album that was released in the 12 months before the show. It counts 0.1, so that a new album does not fill the playlist.
+_Avoid_: Album show, album tour
+
+**Look-back period**:
+The months before a calculation from which the application uses setlists for the predicted songs: 18 months. When an artist has fewer than 5 shows in this period, the period is 3 years, and then 5 years. A result from a longer period has the long look-back mark.
+_Avoid_: Window, history, time range
+
 **Predicted songs**:
 The songs that an artist will probably play at a festival, in order of probability. The application calculates them from recent setlists on setlist.fm.
 _Avoid_: Top tracks, setlist, likely songs

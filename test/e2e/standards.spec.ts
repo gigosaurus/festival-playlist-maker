@@ -54,6 +54,25 @@ const artistMatches = "/admin/festivals/1/artist-matches";
 // The lineup name IDs come from the order of the names in the Clashfinder export.
 const theProdigy = 8;
 const bringMeTheHorizon = 5;
+const turnstile = 4;
+
+// Matches "Turnstile" to Rage Against the Machine, and waits for its predicted songs
+// with the long look-back mark (#14). The time is the time of the setlist.fm recording.
+async function matchRageAgainstTheMachine(page: Page, clashfinder: Clashfinder, musicBrainz: MusicBrainz, spotify: Spotify, testServer: TestServer) {
+  await testServer.setTime(setlistFmRecordedAt);
+  const responses: Promise<void>[] = [];
+  respondWithRecordedSetlistFm((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
+  await Promise.all(responses);
+  await spotify.willGiveRecordedArtists();
+  await addDownloadAndSearch(page, clashfinder, musicBrainz);
+  await page.goto(`${artistMatches}/${turnstile}?search=${encodeURIComponent("Rage Against the Machine")}`);
+  await page.getByRole("radio", { name: "Rage Against the Machine", exact: true }).check();
+  await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
+  await expect(async () => {
+    await page.reload();
+    await expect(page.getByText(/^Warning: fewer than 5 shows in the last 18 months/)).toBeVisible({ timeout: 1_000 });
+  }).toPass();
+}
 
 // Saves the match for Bring Me The Horizon, and waits for its predicted songs.
 // The time is the time of the setlist.fm recording.
@@ -275,6 +294,18 @@ const pages: StandardsPage[] = [
     path: `${artistMatches}/${bringMeTheHorizon}/predicted-songs`,
     user: testAdmin,
     setUp: matchBringMeTheHorizon,
+  },
+  {
+    name: "Artist matches, long look-back mark",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: matchRageAgainstTheMachine,
+  },
+  {
+    name: "Predicted songs for one name, long look-back mark",
+    path: `${artistMatches}/${turnstile}/predicted-songs`,
+    user: testAdmin,
+    setUp: matchRageAgainstTheMachine,
   },
   {
     name: "Artist matches, calculation of predicted songs stopped",

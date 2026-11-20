@@ -2,8 +2,9 @@ import { html } from "hono/html";
 import { proposeArtist, type LineupNameMatch, type SearchQueueState } from "../artist-matches.ts";
 import type { QueueState } from "../background-queue.ts";
 import type { AdminFestival } from "../festivals.ts";
-import type { PredictedSongs, PredictionQueueState } from "../predicted-songs.ts";
+import { hasLongLookBack, longestLookBack, type PredictedSongs, type PredictionQueueState } from "../predicted-songs.ts";
 import type { User } from "../sessions.ts";
+import type { PredictionSettings } from "../settings.ts";
 import type { StoredSpotifyArtist } from "../spotify-artists.ts";
 import { spotifyArtistAddress } from "../spotify.ts";
 import { artistChoices, artistFacts, genreWarning } from "./artist-choices.ts";
@@ -24,7 +25,7 @@ export interface ArtistMatchesPageState {
   // The predicted songs of each matched MusicBrainz artist, by MusicBrainz ID.
   predictedSongs: Map<string, PredictedSongs>;
   predictionQueue: PredictionQueueState;
-  lookBackMonths: number;
+  predictionSettings: PredictionSettings;
 }
 
 export function artistMatchesPage(user: User, state: ArtistMatchesPageState) {
@@ -182,6 +183,12 @@ function matchedSection(state: ArtistMatchesPageState, matched: LineupNameMatch[
   const artistIds = new Set(matched.flatMap((name) => (name.match?.kind === "artist" ? name.match.artist.id : [])));
   const withoutSongs = [...artistIds].filter((id) => spotifyArtists.get(id)?.kind === "found" && !predictedSongs.has(id)).length;
   const fallbacks = [...artistIds].filter((id) => predictedSongs.get(id)?.fallback).length;
+  // The artists with the long look-back mark (#14, user story 67).
+  const settings = state.predictionSettings;
+  const longLookBacks = [...artistIds].filter((id) => {
+    const songs = predictedSongs.get(id);
+    return songs !== undefined && hasLongLookBack(songs, settings);
+  }).length;
   return html`
     <section class="match-section" aria-labelledby="matched-heading">
       <h2 id="matched-heading">Artist matches (${matched.length})</h2>
@@ -192,8 +199,12 @@ function matchedSection(state: ArtistMatchesPageState, matched: LineupNameMatch[
         : ""}
       ${waiting > 0 ? spotifyState(festival, waiting, spotifyQueue) : ""}
       ${withoutSongs > 0 ? predictionState(festival, withoutSongs, predictionQueue) : ""}
+      ${longLookBacks > 0
+        ? html`<p class="hint">${count(longLookBacks, "artist has", "artists have")} fewer than ${settings.fewShows} shows in the last ${settings.lookBackMonths} months
+            and ${longLookBacks === 1 ? "uses" : "use"} older setlists.</p>`
+        : ""}
       ${fallbacks > 0
-        ? html`<p class="hint">${count(fallbacks, "artist has", "artists have")} no setlists in the last ${state.lookBackMonths} months and ${fallbacks === 1
+        ? html`<p class="hint">${count(fallbacks, "artist has", "artists have")} no setlists in the last ${longestLookBack(settings)} months and ${fallbacks === 1
             ? "uses"
             : "use"} the Spotify search fallback.</p>`
         : ""}
@@ -270,7 +281,7 @@ function matchedName(state: ArtistMatchesPageState, name: LineupNameMatch, warni
         : html`<p class="matched-artist">No match</p>`}
       ${warning ? html`<p class="genre-warning">${warning}</p>` : ""}
       ${match.kind === "artist" ? spotifyLine(spotify) : ""}
-      ${spotify?.kind === "found" ? songsLine(songs, state.lookBackMonths) : ""}
+      ${spotify?.kind === "found" ? songsLine(songs, state.predictionSettings) : ""}
     </div>
     <p class="matched-actions">
       <a href="/admin/festivals/${festival.id}/artist-matches/${name.lineupNameId}">Change<span
@@ -285,14 +296,21 @@ function matchedName(state: ArtistMatchesPageState, name: LineupNameMatch, warni
   `;
 }
 
-// The predicted songs of a match (user stories 66 and 68).
-function songsLine(songs: PredictedSongs | undefined, lookBackMonths: number) {
+// The predicted songs of a match (user stories 66 to 68).
+function songsLine(songs: PredictedSongs | undefined, settings: PredictionSettings) {
   if (songs === undefined) return html`<p class="matched-spotify">Predicted songs: waiting</p>`;
   if (songs.trackIds.length === 0) {
     return html`<p class="genre-warning">Warning: no predicted songs on Spotify. Playlists get no songs for this artist.</p>`;
   }
   if (songs.fallback) {
-    return html`<p class="genre-warning">Warning: no setlists in the last ${lookBackMonths} months. ${count(songs.trackIds.length, "song", "songs")} from a Spotify search.</p>`;
+    return html`<p class="genre-warning">Warning: no setlists in the last ${songs.lookBackMonths} months. ${count(songs.trackIds.length, "song", "songs")} from a Spotify search.</p>`;
+  }
+  if (hasLongLookBack(songs, settings)) {
+    return html`<p class="genre-warning">Warning: fewer than ${settings.fewShows} shows in the last ${settings.lookBackMonths} months. ${count(
+      songs.trackIds.length,
+      "song",
+      "songs",
+    )} from setlists of the last ${songs.lookBackMonths} months.</p>`;
   }
   return html`<p class="matched-spotify">Predicted songs: ${count(songs.trackIds.length, "song", "songs")} from setlists</p>`;
 }

@@ -1,0 +1,1979 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 6,
+  "total": 372,
+  "setlist": [
+   {
+    "id": "234f485f",
+    "versionId": "g7b63fa10",
+    "eventDate": "22-11-2025",
+    "lastUpdated": "2025-11-23T04:44:55.168+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd63960",
+     "name": "Dodger Stadium",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/dodger-stadium-los-angeles-ca-usa-1bd63960.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with an excerpt of \"Kill Everything\" by fakemink played from Cameron's iPhone"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/dodger-stadium-los-angeles-ca-234f485f.html"
+   },
+   {
+    "id": "7345b215",
+    "versionId": "g6b61f6c6",
+    "eventDate": "21-11-2025",
+    "lastUpdated": "2025-12-07T19:37:28.068+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd17634",
+     "name": "Brooklyn Paramount",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/brooklyn-paramount-brooklyn-ny-usa-7bd17634.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men",
+         "info": "Cameron paused this song briefly to check on a fan"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with excerpt of \"Fun House\" by the Stooges, featuring members of opener Racing Mount Pleasant"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Killing My Borrowed Time",
+         "info": "tour debut"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down",
+         "info": "dedicated this song to the state of Alaska after a fan said they were from there"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad",
+         "info": "band “dedicated” song to Waylon Jennings, calling it a cover of his"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/brooklyn-paramount-brooklyn-ny-7345b215.html"
+   },
+   {
+    "id": "7b4e2a18",
+    "versionId": "g3b63ac2c",
+    "eventDate": "20-11-2025",
+    "lastUpdated": "2025-11-21T15:39:52.574+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd17634",
+     "name": "Brooklyn Paramount",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/brooklyn-paramount-brooklyn-ny-usa-7bd17634.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Shoot You Down\" by the Stone Roses as a tribute to Mani"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/brooklyn-paramount-brooklyn-ny-7b4e2a18.html"
+   },
+   {
+    "id": "634f6643",
+    "versionId": "g1b189d34",
+    "eventDate": "17-11-2025",
+    "lastUpdated": "2026-06-11T21:08:42.598+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d4b48f",
+     "name": "Blue Note Jazz Club",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-note-jazz-club-new-york-ny-usa-23d4b48f.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Down on the Street",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "Loose",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "T.V. Eye",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "I Wanna Be Your Dog",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "Ghost Rider",
+         "cover": {
+          "mbid": "7a0f02e0-0ab8-4a62-9e14-c6925cfaed07",
+          "name": "Suicide",
+          "sortName": "Suicide",
+          "disambiguation": "Alan Vega and Martin Rev",
+          "url": "https://www.setlist.fm/setlists/suicide-7bd6ae18.html"
+         }
+        },
+        {
+         "name": "I'm Waiting for the Man",
+         "cover": {
+          "mbid": "94b0fb9d-a066-4823-b2ec-af1d324bcfcf",
+          "name": "The Velvet Underground",
+          "sortName": "Velvet Underground, The",
+          "disambiguation": "Lou Reed’s seminal rock band",
+          "url": "https://www.setlist.fm/setlists/the-velvet-underground-3bd6a894.html"
+         }
+        },
+        {
+         "name": "1969",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "1970",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "Search and Destroy",
+         "cover": {
+          "mbid": "1253e5e9-eaa7-4ce6-81b8-09725e8cee43",
+          "name": "Iggy and The Stooges",
+          "sortName": "Iggy and The Stooges",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/iggy-and-the-stooges-7bd65ad0.html"
+         }
+        },
+        {
+         "name": "Fun House",
+         "cover": {
+          "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+          "name": "The Stooges",
+          "sortName": "Stooges, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+         }
+        },
+        {
+         "name": "Suzanne",
+         "cover": {
+          "mbid": "65314b12-0e08-43fa-ba33-baaa7b874c15",
+          "name": "Leonard Cohen",
+          "sortName": "Cohen, Leonard",
+          "disambiguation": "Canadian singer‐songwriter and poet",
+          "url": "https://www.setlist.fm/setlists/leonard-cohen-bd6d12a.html"
+         }
+        },
+        {
+         "name": "Interstellar Overdrive",
+         "cover": {
+          "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+          "name": "Pink Floyd",
+          "sortName": "Pink Floyd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pink-floyd-13d6adc5.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Private event hosted by Chase Sapphire Reserve and Parcelle.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/blue-note-jazz-club-new-york-ny-634f6643.html"
+   },
+   {
+    "id": "7b45b210",
+    "versionId": "g6362eabf",
+    "eventDate": "15-11-2025",
+    "lastUpdated": "2025-11-16T04:57:46.240+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd5d378",
+     "name": "Levon Helm Studios",
+     "city": {
+      "id": "5145072",
+      "name": "Woodstock",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 42.0409247,
+       "long": -74.1181971
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/levon-helm-studios-woodstock-ny-usa-5bd5d378.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trinidad"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "First World Warrior"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/levon-helm-studios-woodstock-ny-7b45b210.html"
+   },
+   {
+    "id": "7345b211",
+    "versionId": "g5362f7a1",
+    "eventDate": "14-11-2025",
+    "lastUpdated": "2025-11-15T21:52:14.432+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "43d61f2f",
+     "name": "Paradise Rock Club",
+     "city": {
+      "id": "4930956",
+      "name": "Boston",
+      "state": "Massachusetts",
+      "stateCode": "MA",
+      "coords": {
+       "lat": 42.3584308,
+       "long": -71.0597732
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/paradise-rock-club-boston-ma-usa-43d61f2f.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Including snippet of “Roadrunner” by The Modern Lovers"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/paradise-rock-club-boston-ma-7345b211.html"
+   },
+   {
+    "id": "6345b213",
+    "versionId": "g23697027",
+    "eventDate": "13-11-2025",
+    "lastUpdated": "2026-02-23T11:21:51.007+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "bd7e1be",
+     "name": "Union Transfer",
+     "city": {
+      "id": "4560349",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 39.952335,
+       "long": -75.163789
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/union-transfer-philadelphia-pa-usa-bd7e1be.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/geese/2025/union-transfer-philadelphia-pa-6345b213.html"
+   },
+   {
+    "id": "7345b21d",
+    "versionId": "g3b69702c",
+    "eventDate": "12-11-2025",
+    "lastUpdated": "2026-02-23T11:20:20.031+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d635a7",
+     "name": "9:30 Club",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/930-club-washington-dc-usa-3d635a7.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with The Stooges' \"TV Eye\" snippet"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad",
+         "info": "Cameron left the stage towards the end shouting \"fuck these people who live here\" (the government)"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2025/930-club-washington-dc-7345b21d.html"
+   },
+   {
+    "id": "7345b219",
+    "versionId": "gb6295b2",
+    "eventDate": "10-11-2025",
+    "lastUpdated": "2025-11-14T22:46:56.445+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73d6c245",
+     "name": "Cat's Cradle",
+     "city": {
+      "id": "4459343",
+      "name": "Carrboro",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.9101438,
+       "long": -79.0752895
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/cats-cradle-carrboro-nc-usa-73d6c245.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Interstellar Overdrive\" jam"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"Domoto,\" \"Tomorrow's Crusades,\" and \"Trinidad\" were not on the written setlist.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/cats-cradle-carrboro-nc-7345b219.html"
+   },
+   {
+    "id": "6b45b226",
+    "versionId": "gb627926",
+    "eventDate": "09-11-2025",
+    "lastUpdated": "2025-11-19T05:22:16.286+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d615b1",
+     "name": "The Grey Eagle",
+     "city": {
+      "id": "4453066",
+      "name": "Asheville",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.6009452,
+       "long": -82.554015
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-grey-eagle-asheville-nc-usa-13d615b1.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With \"T.V. Eye\" by The Stooges jam"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Cowboy Nudes",
+         "info": "Cameron said \"Here's one of our hits,\" \"New York City underwater\" line changed to \"North Carolina\""
+        },
+        {
+         "name": "Tomorrow's Crusades",
+         "info": "Cameron wished happy birthday to a fan in the crowd) (>"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad",
+         "info": "Not on printed setlist"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Soundcheck included 100 Horses, Bow Down, Long Island City Here I Come, Trinidad, Taxes, Husbands, Half Real, Islands of Men",
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-grey-eagle-asheville-nc-6b45b226.html"
+   },
+   {
+    "id": "1b45b1d0",
+    "versionId": "g5b65d764",
+    "eventDate": "08-11-2025",
+    "lastUpdated": "2025-11-09T04:58:10.966+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d72145",
+     "name": "Terminal West",
+     "city": {
+      "id": "4180439",
+      "name": "Atlanta",
+      "state": "Georgia",
+      "stateCode": "GA",
+      "coords": {
+       "lat": 33.7489954,
+       "long": -84.3879824
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/terminal-west-atlanta-ga-usa-13d72145.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Interstellar Overdrive\" snippet"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Show was livestreamed on nugs.net | Soundcheck included: Tomorrow's Crusades, Half Real, 100 Horses, Taxes, Long Island City Here I Come, Islands of Men, Jesse",
+    "url": "https://www.setlist.fm/setlist/geese/2025/terminal-west-atlanta-ga-1b45b1d0.html"
+   },
+   {
+    "id": "2b45b0ee",
+    "versionId": "g4b659fe2",
+    "eventDate": "06-11-2025",
+    "lastUpdated": "2025-11-07T15:35:20.055+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63d106f7",
+     "name": "Downstairs",
+     "city": {
+      "id": "4699066",
+      "name": "Houston",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 29.7632836,
+       "long": -95.3632715
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/downstairs-houston-tx-usa-63d106f7.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses",
+         "info": "“we wrote this song with Houston in mind”"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Included snippet of 'Ghost Rider' by Suicide"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes",
+         "info": "listed as “Texas” on printed setlist"
+        },
+        {
+         "name": "Long Island City Here I Come",
+         "info": "preceded by thanks to Houston crowd and those who were at the previous year’s gig"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"3D Country\" was printed on the setlist but swapped for Undoer.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/downstairs-houston-tx-2b45b0ee.html"
+   },
+   {
+    "id": "7b45b22c",
+    "versionId": "g31679b3",
+    "eventDate": "05-11-2025",
+    "lastUpdated": "2026-03-02T23:22:08.178+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd6c2f0",
+     "name": "Stubb's Bar-B-Q",
+     "city": {
+      "id": "4671654",
+      "name": "Austin",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 30.267153,
+       "long": -97.7430608
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/stubbs-bar-b-q-austin-tx-usa-7bd6c2f0.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with excerpt of “T.V. Eye” by The Stooges"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Tomorrow's Crusades",
+         "info": ">"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Space Race on printed setlist but not played",
+    "url": "https://www.setlist.fm/setlist/geese/2025/stubbs-bar-b-q-austin-tx-7b45b22c.html"
+   },
+   {
+    "id": "6b45b22e",
+    "versionId": "g236450cb",
+    "eventDate": "04-11-2025",
+    "lastUpdated": "2025-11-05T22:39:46.864+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "4bd34746",
+     "name": "Tulips",
+     "city": {
+      "id": "4691930",
+      "name": "Fort Worth",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.725409,
+       "long": -97.3208496
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tulips-fort-worth-tx-usa-4bd34746.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Fantasies/Survival"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With a moment of silence observing the death of former U.S. Vice President, Dick Cheney"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/tulips-fort-worth-tx-6b45b22e.html"
+   },
+   {
+    "id": "2b45b072",
+    "versionId": "g1b657568",
+    "eventDate": "01-11-2025",
+    "lastUpdated": "2025-11-12T03:37:01.040+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd7e264",
+     "name": "Crescent Ballroom",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/crescent-ballroom-phoenix-az-usa-7bd7e264.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with “TV Eye” by The Stooges jam"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Show delayed 4 minutes due to game 7 of World Series",
+    "url": "https://www.setlist.fm/setlist/geese/2025/crescent-ballroom-phoenix-az-2b45b072.html"
+   },
+   {
+    "id": "7345b229",
+    "versionId": "g2b6ed8ee",
+    "eventDate": "31-10-2025",
+    "lastUpdated": "2025-12-16T03:40:45.728+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd59cea",
+     "name": "Quartyard",
+     "city": {
+      "id": "5391811",
+      "name": "San Diego",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 32.7153292,
+       "long": -117.1572551
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/quartyard-san-diego-ca-usa-2bd59cea.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with snippets of 'Down on the Street', 'Loose', & 'TV Eye' by The Stooges"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "I'm Waiting for the Man",
+         "cover": {
+          "mbid": "94b0fb9d-a066-4823-b2ec-af1d324bcfcf",
+          "name": "The Velvet Underground",
+          "sortName": "Velvet Underground, The",
+          "disambiguation": "Lou Reed’s seminal rock band",
+          "url": "https://www.setlist.fm/setlists/the-velvet-underground-3bd6a894.html"
+         }
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/quartyard-san-diego-ca-7345b229.html"
+   },
+   {
+    "id": "6345b22b",
+    "versionId": "g5b6497ec",
+    "eventDate": "30-10-2025",
+    "lastUpdated": "2025-10-31T05:33:53.690+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd74988",
+     "name": "The Fonda Theatre",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-fonda-theatre-los-angeles-ca-usa-1bd74988.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With T.V. Eye by the Stooges snippet"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-fonda-theatre-los-angeles-ca-6345b22b.html"
+   },
+   {
+    "id": "7b45b234",
+    "versionId": "g4b674b7e",
+    "eventDate": "28-10-2025",
+    "lastUpdated": "2025-10-29T07:00:16.327+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d23db7",
+     "name": "The Fillmore",
+     "city": {
+      "id": "5391959",
+      "name": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 37.775,
+       "long": -122.419
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-fillmore-san-francisco-ca-usa-3d23db7.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With T.V. Eye by The Stooges interlude"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-fillmore-san-francisco-ca-7b45b234.html"
+   },
+   {
+    "id": "6b45b236",
+    "versionId": "g7b64f6dc",
+    "eventDate": "26-10-2025",
+    "lastUpdated": "2025-11-01T10:35:22.092+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd6340e",
+     "name": "Wonder Ballroom",
+     "city": {
+      "id": "5746545",
+      "name": "Portland",
+      "state": "Oregon",
+      "stateCode": "OR",
+      "coords": {
+       "lat": 45.5234515,
+       "long": -122.6762071
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/wonder-ballroom-portland-or-usa-2bd6340e.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with “Loose” by The Stooges interlude"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/wonder-ballroom-portland-or-6b45b236.html"
+   },
+   {
+    "id": "6345b237",
+    "versionId": "g3367148d",
+    "eventDate": "25-10-2025",
+    "lastUpdated": "2025-10-26T20:34:47.562+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd0eb94",
+     "name": "Hollywood Theatre",
+     "city": {
+      "id": "6173331",
+      "name": "Vancouver",
+      "state": "British Columbia",
+      "stateCode": "BC",
+      "coords": {
+       "lat": 49.249657393,
+       "long": -123.119340403
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-theatre-vancouver-bc-canada-5bd0eb94.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With “Down on the Street” (The Stooges) jam"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad",
+         "info": "first chorus was started early by Max and then aborted shortly thereafter"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/hollywood-theatre-vancouver-bc-canada-6345b237.html"
+   }
+  ]
+ }
+}

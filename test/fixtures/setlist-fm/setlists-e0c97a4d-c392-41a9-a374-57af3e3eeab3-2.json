@@ -1,0 +1,1922 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 2,
+  "total": 372,
+  "setlist": [
+   {
+    "id": "3b7710c0",
+    "versionId": "g6b097a6e",
+    "eventDate": "17-10-2026",
+    "lastUpdated": "2026-10-19T05:06:38.986+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd7bc1a",
+     "name": "Hollywood Forever Cemetery",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-forever-cemetery-los-angeles-ca-usa-2bd7bc1a.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "2122",
+         "info": "Played “L.A.” by Neil Young in the middle of song"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/hollywood-forever-cemetery-los-angeles-ca-3b7710c0.html"
+   },
+   {
+    "id": "5b77eb28",
+    "versionId": "g4b091b12",
+    "eventDate": "16-10-2026",
+    "lastUpdated": "2026-10-18T04:41:03.959+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd7bc1a",
+     "name": "Hollywood Forever Cemetery",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-forever-cemetery-los-angeles-ca-usa-2bd7bc1a.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "2122",
+         "info": "with partial cover of \"Now I Wanna Sniff Some Glue\" by the Ramones"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Long Island City Here I Come was printed on setlist but not played. Replaced with Trinidad.",
+    "url": "https://www.setlist.fm/setlist/geese/2026/hollywood-forever-cemetery-los-angeles-ca-5b77eb28.html"
+   },
+   {
+    "id": "4b77eb2a",
+    "versionId": "g1b09c540",
+    "eventDate": "15-10-2026",
+    "lastUpdated": "2026-10-16T20:57:43.158+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd7bc1a",
+     "name": "Hollywood Forever Cemetery",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-forever-cemetery-los-angeles-ca-usa-2bd7bc1a.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played recording of \"I Love L.A.\" by Randy Newman in the middle"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2026/hollywood-forever-cemetery-los-angeles-ca-4b77eb2a.html"
+   },
+   {
+    "id": "4377eb2b",
+    "versionId": "g6309a673",
+    "eventDate": "13-10-2026",
+    "lastUpdated": "2026-10-14T07:30:58.677+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "5bd023b0",
+     "name": "Gallagher Square",
+     "city": {
+      "id": "5391811",
+      "name": "San Diego",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 32.7153292,
+       "long": -117.1572551
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/gallagher-square-san-diego-ca-usa-5bd023b0.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played “San Diego Zoo” by The 6ths through his phone in the middle of the song"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/gallagher-square-san-diego-ca-4377eb2b.html"
+   },
+   {
+    "id": "2371dccb",
+    "versionId": "g7b086a18",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T03:42:57.805+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "4bdfb712",
+     "name": "T-Mobile Stage",
+     "city": {
+      "id": "4671654",
+      "name": "Austin",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 30.267153,
+       "long": -97.7430608
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-stage-austin-tx-usa-4bdfb712.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/t-mobile-stage-austin-tx-2371dccb.html"
+   },
+   {
+    "id": "637cb28f",
+    "versionId": "gb3719a2",
+    "eventDate": "09-10-2026",
+    "lastUpdated": "2026-11-03T16:53:03.291+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63d1864b",
+     "name": "Walter Where?House",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/walter-wherehouse-phoenix-az-usa-63d1864b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Unknown",
+         "tape": true
+        },
+        {
+         "name": "Spit",
+         "tape": true,
+         "cover": {
+          "mbid": "1f804ef4-e3b2-430b-9cd1-883f234ea603",
+          "name": "Gelli Haha",
+          "sortName": "Haha, Gelli",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/gelli-haha-73ee6ec1.html"
+         }
+        },
+        {
+         "name": "45:33 Part 6",
+         "tape": true,
+         "cover": {
+          "mbid": "2aaf7396-6ab8-40f3-9776-a41c42c8e26b",
+          "name": "LCD Soundsystem",
+          "sortName": "LCD Soundsystem",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lcd-soundsystem-73d69619.html"
+         }
+        },
+        {
+         "name": "Elixir",
+         "tape": true,
+         "cover": {
+          "mbid": "1989dd59-7f11-4c90-9450-4d728ed07fb0",
+          "name": "Ghostemane",
+          "sortName": "Ghostemane",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/ghostemane-7bcf0e74.html"
+         }
+        },
+        {
+         "name": "No Nein",
+         "tape": true,
+         "cover": {
+          "mbid": "cc3aace2-1161-4090-bebb-d05447855745",
+          "name": "1tbsp & Mietze Conte",
+          "sortName": "1tbsp & Mietze Conte",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/1tbsp-and-mietze-conte-73964add.html"
+         }
+        },
+        {
+         "name": "A Little Suntin Suntin",
+         "tape": true,
+         "cover": {
+          "mbid": "07065c90-1519-4bd9-8259-9872f3c9a776",
+          "name": "Paul Johnson",
+          "sortName": "Johnson, Paul",
+          "disambiguation": "Chicago house music DJ/producer",
+          "url": "https://www.setlist.fm/setlists/paul-johnson-43d6931b.html"
+         }
+        },
+        {
+         "name": "Love for Love",
+         "tape": true,
+         "cover": {
+          "mbid": "37a0943e-9638-48fe-9a56-7192d7efbbed",
+          "name": "Robin S",
+          "sortName": "Robin S",
+          "disambiguation": "US singer Robin Stone",
+          "url": "https://www.setlist.fm/setlists/robin-s-4bd6935e.html"
+         }
+        },
+        {
+         "name": "Can't Truss",
+         "tape": true,
+         "cover": {
+          "mbid": "6b850b5d-cacc-43de-96ec-b941067d88e8",
+          "name": "LÉON",
+          "sortName": "LÉON",
+          "disambiguation": "Swedish singer",
+          "url": "https://www.setlist.fm/setlists/leon-63c2fe9b.html"
+         }
+        },
+        {
+         "name": "DJs Make You Move",
+         "tape": true,
+         "info": "Stereoheadz song"
+        },
+        {
+         "name": "CD Player IV",
+         "tape": true,
+         "cover": {
+          "mbid": "e294d11b-fc47-41a9-b38b-3205c34d17ba",
+          "name": "death’s dynamic shroud",
+          "sortName": "death’s dynamic shroud",
+          "disambiguation": "vaporwave",
+          "url": "https://www.setlist.fm/setlists/deaths-dynamic-shroud-6bc69212.html"
+         }
+        },
+        {
+         "name": "Unknown",
+         "tape": true
+        },
+        {
+         "name": "Unknown",
+         "tape": true
+        },
+        {
+         "name": "45:33 Part 6",
+         "tape": true,
+         "cover": {
+          "mbid": "2aaf7396-6ab8-40f3-9776-a41c42c8e26b",
+          "name": "LCD Soundsystem",
+          "sortName": "LCD Soundsystem",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lcd-soundsystem-73d69619.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "DJ Set by Max and Emily",
+    "url": "https://www.setlist.fm/setlist/geese/2026/walter-wherehouse-phoenix-az-637cb28f.html"
+   },
+   {
+    "id": "437c9f17",
+    "versionId": "gb081d16",
+    "eventDate": "09-10-2026",
+    "lastUpdated": "2026-10-10T20:04:03.125+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73d5c641",
+     "name": "Arcosanti",
+     "city": {
+      "id": "5551636",
+      "name": "Arcosanti",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 34.3430846,
+       "long": -112.1007134
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/arcosanti-arcosanti-az-usa-73d5c641.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "2122",
+         "info": "With “Interstellar Overdrive” by Pink Floyd"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/arcosanti-arcosanti-az-437c9f17.html"
+   },
+   {
+    "id": "2b77e88a",
+    "versionId": "g3b08444c",
+    "eventDate": "08-10-2026",
+    "lastUpdated": "2026-10-13T05:06:15.323+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd07410",
+     "name": "Arizona Financial Theatre",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/arizona-financial-theatre-phoenix-az-usa-3bd07410.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played “1901” by Phoenix through his phone speakers into guitar pickups during bridge"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Encore not printed on setlist. Cameron broke a tambourine during \"Long Island City Here I Come\".",
+    "url": "https://www.setlist.fm/setlist/geese/2026/arizona-financial-theatre-phoenix-az-2b77e88a.html"
+   },
+   {
+    "id": "4377eb57",
+    "versionId": "g33088481",
+    "eventDate": "06-10-2026",
+    "lastUpdated": "2026-10-07T23:38:52.446+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d3dd69",
+     "name": "Teatro Metropólitan",
+     "city": {
+      "id": "3530597",
+      "name": "Mexico City",
+      "state": "Distrito Federal",
+      "stateCode": "DIF",
+      "coords": {
+       "lat": 19.434,
+       "long": -99.139
+      },
+      "country": {
+       "code": "MX",
+       "name": "Mexico"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/teatro-metropolitan-mexico-city-mexico-13d3dd69.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trinidad"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played a clip of James Taylor's \"Mexico\" on his phone midway through"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/teatro-metropolitan-mexico-city-mexico-4377eb57.html"
+   },
+   {
+    "id": "3371dcdd",
+    "versionId": "g1b089d88",
+    "eventDate": "04-10-2026",
+    "lastUpdated": "2026-10-07T03:27:28.123+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "4bdfb712",
+     "name": "T-Mobile Stage",
+     "city": {
+      "id": "4671654",
+      "name": "Austin",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 30.267153,
+       "long": -97.7430608
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-stage-austin-tx-usa-4bdfb712.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Domoto",
+         "info": "drummer Max Bassin's cymbal stand broke, leading to an acoustic version being performed"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "'Cobra' originally printed on paper setlist but cut presumably due to issues with drum kit",
+    "url": "https://www.setlist.fm/setlist/geese/2026/t-mobile-stage-austin-tx-3371dcdd.html"
+   },
+   {
+    "id": "3b774c34",
+    "versionId": "g530b7b89",
+    "eventDate": "03-10-2026",
+    "lastUpdated": "2026-10-04T12:51:08.302+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd26dfc",
+     "name": "Forest Hills Stadium",
+     "city": {
+      "id": "5133266",
+      "name": "Queens",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7498243,
+       "long": -73.7976337
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/forest-hills-stadium-queens-ny-usa-1bd26dfc.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Now I Wanna Sniff Some Glue\" (Ramones) in the middle"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Livestreamed on YouTube",
+    "url": "https://www.setlist.fm/setlist/geese/2026/forest-hills-stadium-queens-ny-3b774c34.html"
+   },
+   {
+    "id": "5377eb51",
+    "versionId": "gb0b2956",
+    "eventDate": "02-10-2026",
+    "lastUpdated": "2026-10-03T06:11:01.369+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd26dfc",
+     "name": "Forest Hills Stadium",
+     "city": {
+      "id": "5133266",
+      "name": "Queens",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7498243,
+       "long": -73.7976337
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/forest-hills-stadium-queens-ny-usa-1bd26dfc.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "2122",
+         "info": "Snippet of Baby, I Love You by The Ramones played via Cameron's Phone midway through 2122."
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/forest-hills-stadium-queens-ny-5377eb51.html"
+   },
+   {
+    "id": "4b77eb5e",
+    "versionId": "g4b090356",
+    "eventDate": "30-09-2026",
+    "lastUpdated": "2026-10-18T21:19:36.195+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "33dfa04d",
+     "name": "Hellbender by the Orange Peel",
+     "city": {
+      "id": "4453066",
+      "name": "Asheville",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.6009452,
+       "long": -82.554015
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hellbender-by-the-orange-peel-asheville-nc-usa-33dfa04d.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "2122"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "St. Elmo",
+         "info": "Snippet"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Encore not on printed setlist. Soundcheck: Space Race, Islands of Men",
+    "url": "https://www.setlist.fm/setlist/geese/2026/hellbender-by-the-orange-peel-asheville-nc-4b77eb5e.html"
+   },
+   {
+    "id": "4b77eb5a",
+    "versionId": "g5b0be764",
+    "eventDate": "29-09-2026",
+    "lastUpdated": "2026-10-01T19:56:37.673+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d61d57",
+     "name": "Ryman Auditorium",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ryman-auditorium-nashville-tn-usa-3d61d57.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trinidad"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played a clip of Bob Dylan's \"Peggy Day\" on his phone midway through"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2026/ryman-auditorium-nashville-tn-4b77eb5a.html"
+   },
+   {
+    "id": "5b715bd0",
+    "versionId": "g730bae51",
+    "eventDate": "28-09-2026",
+    "lastUpdated": "2026-09-29T12:03:01.598+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d61d57",
+     "name": "Ryman Auditorium",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ryman-auditorium-nashville-tn-usa-3d61d57.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played a clip of Bob Dylan's \"Girl from the North Country\" on his phone midway through"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Long Island City Here I Come cut from setlist after Taxes",
+    "url": "https://www.setlist.fm/setlist/geese/2026/ryman-auditorium-nashville-tn-5b715bd0.html"
+   },
+   {
+    "id": "5b775708",
+    "versionId": "g5b0d53d8",
+    "eventDate": "20-09-2026",
+    "lastUpdated": "2026-09-21T00:43:23.835+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bded9b8",
+     "name": "Midtown Green",
+     "city": {
+      "id": "4781708",
+      "name": "Richmond",
+      "state": "Virginia",
+      "stateCode": "VA",
+      "coords": {
+       "lat": 37.5537575,
+       "long": -77.4602617
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/midtown-green-richmond-va-usa-1bded9b8.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Contains elements of “Seven Nation Army” by The White Stripes"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/midtown-green-richmond-va-5b775708.html"
+   },
+   {
+    "id": "6b48fefa",
+    "versionId": "g5b0d0fd0",
+    "eventDate": "18-09-2026",
+    "lastUpdated": "2026-09-19T13:19:57.603+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73dfc6a5",
+     "name": "Piedmont Stage",
+     "city": {
+      "id": "4180439",
+      "name": "Atlanta",
+      "state": "Georgia",
+      "stateCode": "GA",
+      "coords": {
+       "lat": 33.7489954,
+       "long": -84.3879824
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/piedmont-stage-atlanta-ga-usa-73dfc6a5.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sirius",
+         "tape": true,
+         "cover": {
+          "mbid": "f98711e5-06f7-43ed-8239-da0f61a9c460",
+          "name": "The Alan Parsons Project",
+          "sortName": "Parsons, Alan, Project, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-alan-parsons-project-43d6b307.html"
+         }
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played Lifestyle by Rich Gang from a phone through his pickups during the bridge"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/piedmont-stage-atlanta-ga-6b48fefa.html"
+   },
+   {
+    "id": "73755e1d",
+    "versionId": "g2b0cfcaa",
+    "eventDate": "03-09-2026",
+    "lastUpdated": "2026-09-08T22:04:04.669+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63dfea9b",
+     "name": "Woods",
+     "city": {
+      "id": "2638664",
+      "name": "Salisbury",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.068,
+       "long": -1.796
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/woods-salisbury-england-63dfea9b.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with Pink Floyd's \"Interstellar Overdrive\" jam"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2026/woods-salisbury-england-73755e1d.html"
+   },
+   {
+    "id": "2b416c52",
+    "versionId": "g630fde03",
+    "eventDate": "02-09-2026",
+    "lastUpdated": "2026-09-02T23:25:07.582+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63d63217",
+     "name": "Troxy",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/troxy-london-england-63d63217.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "2122",
+         "info": "with fragment of Up the Junction by Squeeze"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Disco"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2026/troxy-london-england-2b416c52.html"
+   },
+   {
+    "id": "734126c5",
+    "versionId": "g430f3faf",
+    "eventDate": "01-09-2026",
+    "lastUpdated": "2026-09-03T22:03:36.139+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63d63217",
+     "name": "Troxy",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/troxy-london-england-63d63217.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played Oasis' cover of ‘Help’ by The Beatles in the middle of the song through his phone"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/troxy-london-england-734126c5.html"
+   }
+  ]
+ }
+}

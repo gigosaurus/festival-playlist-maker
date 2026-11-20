@@ -20,12 +20,19 @@ The script needs a database in which the admin logged in, and `SPOTIFY_CLIENT_ID
 
 The search results change when Spotify changes its ranking. After a new recording, some expected values in the tests can change.
 
-The track searches are the searches of a calculation of the predicted songs of Bring Me the Horizon and of the Japanese band "Ghost" (`predictedArtists` in `test/support/spotify.ts`). The calculation uses the recorded setlist.fm responses, at the time of that recording. To record them again, from the repository root:
+The track searches are the searches of a calculation of the predicted songs of Bring Me the Horizon, of the Japanese band "Ghost" and of Rage Against the Machine (`predictedArtists` in `test/support/spotify.ts`), and the searches in `coverSearches` (#14). The calculation uses the recorded setlist.fm responses, at the time of that recording. To record them again, from the repository root:
 
 ```sh
 node --env-file-if-exists=.env test/fixtures/spotify/record-tracks.ts data/festival-playlist-maker.sqlite test/fixtures/spotify
 ```
 
-The script has the same needs as `record.ts`. Record the setlist.fm responses first, because the searches come from the setlists (`test/fixtures/setlist-fm/README.md`).
+The script has the same needs as `record.ts`. Record the setlist.fm responses first, because the searches come from the setlists (`test/fixtures/setlist-fm/README.md`). The script uses the Spotify name of each artist in the queries, and shows a name that is different from `predictedArtists`.
+
+To record only the responses that have no file, add `--new` to either script. The other recorded responses then do not change, so the expected values in the tests stay correct:
+
+```sh
+node --env-file-if-exists=.env test/fixtures/spotify/record.ts --new data/festival-playlist-maker.sqlite test/fixtures/spotify
+node --env-file-if-exists=.env test/fixtures/spotify/record-tracks.ts --new data/festival-playlist-maker.sqlite test/fixtures/spotify
+```
 
 Some responses are not recordings, because a test cannot cause them safely on the real API: the token response (`test/support/test-settings.ts`), and the status 404 response, the status 429 responses and the quota error (`test/support/spotify.ts`). They have the shapes of the Spotify Web API reference.

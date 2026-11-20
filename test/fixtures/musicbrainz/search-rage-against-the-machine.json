@@ -1,0 +1,228 @@
+{
+ "created": "2026-11-20T10:26:08.059Z",
+ "count": 201657,
+ "offset": 0,
+ "artists": [
+  {
+   "id": "3798b104-01cb-484c-a3b0-56adc6399b80",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 100,
+   "name": "Rage Against the Machine",
+   "sort-name": "Rage Against the Machine",
+   "country": "US",
+   "area": {
+    "id": "489ce91b-6658-3307-9877-795b68554c98",
+    "type": "Country",
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "name": "United States",
+    "sort-name": "United States",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "begin-area": {
+    "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Los Angeles",
+    "sort-name": "Los Angeles",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "end-area": {
+    "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+    "type": "City",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "name": "Los Angeles",
+    "sort-name": "Los Angeles",
+    "life-span": {
+     "ended": null
+    }
+   },
+   "isnis": [
+    "0000000122905407"
+   ],
+   "life-span": {
+    "begin": "1991-08",
+    "end": "2024-01",
+    "ended": true
+   },
+   "aliases": [
+    {
+     "sort-name": "Rage Against the Machine",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "レイジアゲインストザマシーン",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Rage Against the Machine",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "レイジ・アゲインスト・ザ・マシーン",
+     "locale": "ja",
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Rage",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "Rage",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Rage Against the Machine",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "Rage Against the Machine",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "Rage Againts the Machine",
+     "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+     "name": "Rage Againts the Machine",
+     "locale": null,
+     "type": "Search hint",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    },
+    {
+     "sort-name": "RATM",
+     "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+     "name": "RATM",
+     "locale": null,
+     "type": "Artist name",
+     "primary": null,
+     "begin-date": null,
+     "end-date": null
+    }
+   ],
+   "tags": [
+    {
+     "count": -2,
+     "name": "political"
+    },
+    {
+     "count": -1,
+     "name": "rock"
+    },
+    {
+     "count": 2,
+     "name": "alternative rock"
+    },
+    {
+     "count": 1,
+     "name": "heavy metal"
+    },
+    {
+     "count": 1,
+     "name": "metal"
+    },
+    {
+     "count": -1,
+     "name": "american"
+    },
+    {
+     "count": 2,
+     "name": "nu metal"
+    },
+    {
+     "count": 13,
+     "name": "alternative metal"
+    },
+    {
+     "count": 0,
+     "name": "rapcore"
+    },
+    {
+     "count": 5,
+     "name": "funk metal"
+    },
+    {
+     "count": 10,
+     "name": "rap metal"
+    },
+    {
+     "count": 5,
+     "name": "rap rock"
+    },
+    {
+     "count": -1,
+     "name": "rock and indie"
+    },
+    {
+     "count": -1,
+     "name": "best of"
+    },
+    {
+     "count": -1,
+     "name": "angry"
+    },
+    {
+     "count": 0,
+     "name": "hard alternative"
+    }
+   ]
+  },
+  {
+   "id": "cc936e21-4644-4cbe-8e84-24761003a60d",
+   "score": 65,
+   "name": "Rage Against the System",
+   "sort-name": "Rage Against the System",
+   "disambiguation": "Rage Against the Machine tribute band",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "6207725e-0a42-447c-b724-df55b40a8d23",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 65,
+   "name": "Rage Outside Your Door",
+   "sort-name": "Door, Rage Outside Your",
+   "disambiguation": "Rage Against the Machine",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "d01a1a85-e304-4c2e-b8a1-d9937b71c5aa",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 64,
+   "name": "Slaves Against the Machine",
+   "sort-name": "Slaves Against the Machine",
+   "disambiguation": "Rage Against the Machine tribute band",
+   "life-span": {
+    "ended": null
+   }
+  },
+  {
+   "id": "48a5b9e8-4407-4c76-abae-209c8939b1f1",
+   "type": "Group",
+   "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+   "score": 63,
+   "name": "Rage Against ’Em",
+   "sort-name": "Rage Against ’Em",
+   "disambiguation": "tribute to Rage Against the Machine, from Newcastle",
+   "life-span": {
+    "ended": null
+   }
+  }
+ ]
+}

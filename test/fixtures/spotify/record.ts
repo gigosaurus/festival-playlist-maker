@@ -1,22 +1,24 @@
 // Records Spotify responses for the Spotify artist tests.
 // Usage, from the repository root:
-//   node --env-file-if-exists=.env test/fixtures/spotify/record.ts <database file> <output directory>
+//   node --env-file-if-exists=.env test/fixtures/spotify/record.ts [--new] <database file> <output directory>
 // The script gets an access token with the refresh token of the admin in the
 // database file. When Spotify gives a new refresh token, the script writes it to
 // the database file, so that the application can continue to use it. The script
 // reads SPOTIFY_CLIENT_ID and ADMIN_SPOTIFY_USER_ID. It waits 2 seconds between requests.
-import { writeFileSync } from "node:fs";
+// With --new, the script records only the responses that have no file, so that the recorded responses do not change.
+import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { spotifyArtistUrl, spotifySearchUrl } from "../../../src/spotify.ts";
 import { spotifyTokenUrl } from "../../../src/spotify-log-in.ts";
 import { artistFileName, recordedSpotifySearches, searchFileName, spotifyIds } from "../../support/spotify.ts";
 
-const [databasePath, output] = process.argv.slice(2);
+const onlyNew = process.argv[2] === "--new";
+const [databasePath, output] = process.argv.slice(onlyNew ? 3 : 2);
 const clientId = process.env.SPOTIFY_CLIENT_ID?.trim();
 const adminId = process.env.ADMIN_SPOTIFY_USER_ID?.trim();
 if (databasePath === undefined || output === undefined || !clientId || !adminId) {
-  console.error("Usage: node --env-file=.env test/fixtures/spotify/record.ts <database file> <output directory>");
+  console.error("Usage: node --env-file=.env test/fixtures/spotify/record.ts [--new] <database file> <output directory>");
   process.exit(1);
 }
 
@@ -45,6 +47,7 @@ if (tokens.refresh_token !== undefined) {
 database.close();
 
 async function record(url: string, file: string): Promise<void> {
+  if (onlyNew && existsSync(join(output!, file))) return;
   const response = await fetch(url, { headers: { authorization: `Bearer ${tokens.access_token}` } });
   const body = await response.text();
   if (response.ok) writeFileSync(join(output!, file), `${JSON.stringify(JSON.parse(body), null, 1)}\n`);

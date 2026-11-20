@@ -22,6 +22,7 @@ export const spotifyIds = {
   motleyCrue: "0cc6vw3VN8YlIcvr1v7tBL",
   parkwayDrive: "159qqlGwzE04xyqpfAwRLo",
   pierceTheVeil: "4iJLPqClelZOBCBifm8Fzv",
+  rageAgainstTheMachine: "2d0hyoQ5ynDBnkvAbJKORj",
   theProdigy: "4k1ELeJKT1ISyDv8JivPpB",
   turnstile: "2qnpHrOzdmOo1S4ox3j17x",
 };
@@ -33,11 +34,23 @@ export const recordedSpotifySearches = ["Ghost", "Bring Me the Horizon UK"];
 // The artists with recorded track searches (record-tracks.ts), and their Spotify
 // artists. Bring Me the Horizon has setlists. The Japanese band "Ghost" has
 // setlists only from 2009, so it gets the Spotify search fallback. Its Spotify
-// artist is the Swedish band, as the search found it.
+// artist is the Swedish band, as the search found it. Rage Against the Machine has
+// setlists only from 2022 and before, so it gets the long look-back mark (#14).
 export const predictedArtists: { musicbrainzId: string; spotifyArtist: SpotifyArtist }[] = [
   { musicbrainzId: musicbrainzIds.bringMeTheHorizon, spotifyArtist: { id: spotifyIds.bringMeTheHorizon, name: "Bring Me The Horizon" } },
   { musicbrainzId: musicbrainzIds.ghostJapan, spotifyArtist: { id: spotifyIds.ghostSweden, name: "Ghost" } },
+  {
+    musicbrainzId: musicbrainzIds.rageAgainstTheMachine,
+    spotifyArtist: { id: spotifyIds.rageAgainstTheMachine, name: "Rage Against The Machine" },
+  },
 ];
+
+// The Spotify artist of Limp Bizkit, from its MusicBrainz Spotify link. The cover tests use it (#14).
+export const limpBizkitSpotifyId = "165ZgPlLkK7bf5bDoFc6Sb";
+
+// Track searches for covers that a calculation with the recorded responses does not send (#14).
+// "Behind Blue Eyes" is a song of The Who. Limp Bizkit plays it at most shows.
+export const coverSearches: { song: string; artist: string }[] = [{ song: "Behind Blue Eyes", artist: "Limp Bizkit" }];
 
 // The file name of a recorded track search, for example
 // "tracks-track-throne-artist-bring-me-the-horizon.json".

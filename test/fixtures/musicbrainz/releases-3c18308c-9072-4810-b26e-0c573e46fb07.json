@@ -1,0 +1,1120 @@
+{
+ "release-count": 5,
+ "releases": [
+  {
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging": "None",
+   "media": [
+    {
+     "track-count": 11,
+     "title": "",
+     "position": 1,
+     "tracks": [
+      {
+       "position": 1,
+       "title": "Trinidad",
+       "recording": {
+        "id": "f1a06a0f-7254-4079-9976-94fdc190ead1",
+        "first-release-date": "2025-07-29",
+        "disambiguation": "",
+        "video": false,
+        "length": 224824,
+        "title": "Trinidad"
+       },
+       "id": "95edcc65-040e-4252-8fe3-f3f69b7179c8",
+       "length": 224824,
+       "number": "1"
+      },
+      {
+       "recording": {
+        "title": "Cobra",
+        "length": 185153,
+        "disambiguation": "",
+        "video": false,
+        "id": "eda65515-9b83-48ef-b011-f6ce9a1b7fbb",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "807d7f23-54d1-48bf-a2bc-d6670d59eb21",
+       "title": "Cobra",
+       "position": 2,
+       "number": "2",
+       "length": 185153
+      },
+      {
+       "number": "3",
+       "length": 248229,
+       "recording": {
+        "title": "Husbands",
+        "length": 248229,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "3b8f97ce-12ad-4ae9-a39f-0e7ffd91da5d"
+       },
+       "id": "fcc5a2f1-0033-4d14-b299-803533728943",
+       "position": 3,
+       "title": "Husbands"
+      },
+      {
+       "position": 4,
+       "title": "Getting Killed",
+       "recording": {
+        "title": "Getting Killed",
+        "length": 284532,
+        "disambiguation": "",
+        "video": false,
+        "id": "1a9540f1-6c65-42ed-bdff-ed5c7d703eab",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "942abaac-1156-46ec-9ddb-f91cf72fee3c",
+       "length": 284532,
+       "number": "4"
+      },
+      {
+       "number": "5",
+       "length": 354139,
+       "id": "8c44892e-a1c5-4460-9e4c-8dcc9aa321af",
+       "recording": {
+        "title": "Islands of Men",
+        "length": 354139,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "153d0c03-70b3-4314-a5b5-622fe7903fb2"
+       },
+       "position": 5,
+       "title": "Islands of Men"
+      },
+      {
+       "recording": {
+        "id": "211c18d7-1836-4814-9230-b746cee7bba5",
+        "first-release-date": "2025-08-26",
+        "disambiguation": "",
+        "video": false,
+        "length": 226356,
+        "title": "100 Horses"
+       },
+       "id": "7c9667be-9c5b-496d-bfa8-6d4ffeb0050e",
+       "title": "100 Horses",
+       "position": 6,
+       "number": "6",
+       "length": 226356
+      },
+      {
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "9cbc01fc-1b58-4d82-b75c-de5d8d5d824c",
+        "title": "Half Real",
+        "length": 202202
+       },
+       "id": "1dc0db60-e24a-4fa3-acbb-8536ea89bd2b",
+       "title": "Half Real",
+       "position": 7,
+       "number": "7",
+       "length": 202202
+      },
+      {
+       "position": 8,
+       "title": "Au pays du cocaine",
+       "id": "394d519a-dc86-4067-82f3-e009dee507b1",
+       "recording": {
+        "id": "de3cc966-527a-4a52-b48d-d70e7d719594",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "",
+        "video": false,
+        "length": 210946,
+        "title": "Au pays du cocaine"
+       },
+       "length": 210946,
+       "number": "8"
+      },
+      {
+       "position": 9,
+       "title": "Bow Down",
+       "id": "e31461cf-a016-4e85-a611-bdb33c7c2e60",
+       "recording": {
+        "title": "Bow Down",
+        "length": 208287,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "6953cfe9-69b9-407b-9e59-91578be0c017"
+       },
+       "length": 208287,
+       "number": "9"
+      },
+      {
+       "position": 10,
+       "title": "Taxes",
+       "id": "efe4e90d-2863-4c8c-ac7c-9933f0585369",
+       "recording": {
+        "title": "Taxes",
+        "length": 197662,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-07-08",
+        "id": "38d1fb45-1421-4da8-8f7d-32a50fa254f4"
+       },
+       "length": 197662,
+       "number": "10"
+      },
+      {
+       "length": 397020,
+       "number": "11",
+       "position": 11,
+       "title": "Long Island City Here I Come",
+       "id": "3b576a9a-616e-49c7-8b48-1e0d653ca87c",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "5dfb7119-c853-4aab-aab4-3a3fec630632",
+        "first-release-date": "2025-09-26",
+        "title": "Long Island City Here I Come",
+        "length": 397020
+       }
+      }
+     ],
+     "track-offset": 0,
+     "id": "af2d8763-2b9c-4488-b46c-e6bfc764fcf8",
+     "format": "Digital Media",
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794"
+    }
+   ],
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "asin": null,
+   "release-events": [
+    {
+     "date": "2025-09-26",
+     "area": {
+      "disambiguation": "",
+      "name": "[Worldwide]",
+      "sort-name": "[Worldwide]",
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "type-id": null,
+      "type": null,
+      "iso-3166-1-codes": [
+       "XW"
+      ]
+     }
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "quality": "normal",
+   "title": "Getting Killed",
+   "id": "0bf006ce-45a5-4963-89cb-cd285fd768bb",
+   "date": "2025-09-26",
+   "cover-art-archive": {
+    "front": true,
+    "count": 2,
+    "artwork": true,
+    "back": false,
+    "darkened": false
+   },
+   "status": "Official",
+   "disambiguation": "",
+   "country": "XW",
+   "barcode": "5400863187996"
+  },
+  {
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "asin": null,
+   "release-events": [
+    {
+     "date": "2025-09-26",
+     "area": null
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": null
+   },
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging": "None",
+   "media": [
+    {
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+     "format": "Digital Media",
+     "id": "a68c23f7-5921-458d-b4cd-c2be7c63251d",
+     "tracks": [
+      {
+       "length": 225000,
+       "number": "1",
+       "title": "Trinidad",
+       "position": 1,
+       "recording": {
+        "title": "Trinidad",
+        "length": 225000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "ee208d7a-0eb6-470e-b44c-206ede27cc36",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "465a26ed-727c-4265-8144-6dc5384295e2"
+      },
+      {
+       "recording": {
+        "title": "Cobra",
+        "length": 185000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "13234336-3ef7-4ddb-9840-c884bdbcc349",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "299bec7e-8dde-43e8-89f5-8b65b88cf50b",
+       "position": 2,
+       "title": "Cobra",
+       "number": "2",
+       "length": 185000
+      },
+      {
+       "position": 3,
+       "title": "Husbands",
+       "recording": {
+        "id": "b979e5db-5a6b-4b9c-a382-58b594aa4c0e",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "length": 248000,
+        "title": "Husbands"
+       },
+       "id": "82de5241-05e6-46d5-adc6-cc0bf8c91811",
+       "length": 248000,
+       "number": "3"
+      },
+      {
+       "position": 4,
+       "title": "Getting Killed",
+       "recording": {
+        "title": "Getting Killed",
+        "length": 285000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "d71897ad-16f1-411a-b2d6-418a1f5c55ae",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "593d81b6-5327-4dba-9813-cf92014b2f58",
+       "length": 285000,
+       "number": "4"
+      },
+      {
+       "title": "Islands of Men",
+       "position": 5,
+       "recording": {
+        "title": "Islands of Men",
+        "length": 354000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "29d1ed8b-2267-4c6f-aeb0-14f6328faaf9",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "36daa1b1-d1bf-4a96-a997-80534bc291f7",
+       "length": 354000,
+       "number": "5"
+      },
+      {
+       "recording": {
+        "title": "100 Horses",
+        "length": 226000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "3907e366-c234-4470-b9ad-17b6df53821e",
+        "first-release-date": "2025-09-26"
+       },
+       "id": "e8c23dc8-7302-42cc-b235-04078c2da64c",
+       "title": "100 Horses",
+       "position": 6,
+       "number": "6",
+       "length": 226000
+      },
+      {
+       "position": 7,
+       "title": "Half Real",
+       "id": "24b9c1a8-9f58-4ea7-90ee-46b8ba9a0d78",
+       "recording": {
+        "title": "Half Real",
+        "length": 202000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "01eb937a-0d64-4564-bd3e-271b3ad36ae1",
+        "first-release-date": "2025-09-26"
+       },
+       "length": 202000,
+       "number": "7"
+      },
+      {
+       "number": "8",
+       "length": 211000,
+       "id": "87e996a1-88b5-4471-b7ce-34a9c76456a2",
+       "recording": {
+        "length": 211000,
+        "title": "Au Pays du Cocaine",
+        "first-release-date": "2025-09-26",
+        "id": "a737f256-c6d6-46e9-97f8-bbc46223bc74",
+        "video": false,
+        "disambiguation": "Dolby Atmos mix"
+       },
+       "title": "Au Pays du Cocaine",
+       "position": 8
+      },
+      {
+       "position": 9,
+       "title": "Bow Down",
+       "recording": {
+        "first-release-date": "2025-09-26",
+        "id": "b438dd4e-4174-4313-aef6-129814d15ff7",
+        "video": false,
+        "disambiguation": "Dolby Atmos mix",
+        "length": 208000,
+        "title": "Bow Down"
+       },
+       "id": "5c661db4-00f5-422e-8564-88a7a292b829",
+       "length": 208000,
+       "number": "9"
+      },
+      {
+       "length": 198000,
+       "number": "10",
+       "position": 10,
+       "title": "Taxes",
+       "id": "07700255-09f6-4e8f-b61e-0f6d6b7e5c32",
+       "recording": {
+        "length": 198000,
+        "title": "Taxes",
+        "first-release-date": "2025-09-26",
+        "id": "c12a14b3-62a6-4859-9c78-66fddd9cfd9c",
+        "video": false,
+        "disambiguation": "Dolby Atmos mix"
+       }
+      },
+      {
+       "number": "11",
+       "length": 397000,
+       "id": "a976746f-c576-4857-9345-069d78cb0d9b",
+       "recording": {
+        "title": "Long Island City Here I Come",
+        "length": 397000,
+        "disambiguation": "Dolby Atmos mix",
+        "video": false,
+        "id": "9027d37f-bb7f-4b66-8b45-abc548192d22",
+        "first-release-date": "2025-09-26"
+       },
+       "position": 11,
+       "title": "Long Island City Here I Come"
+      }
+     ],
+     "track-offset": 0,
+     "position": 1,
+     "title": "",
+     "track-count": 11
+    }
+   ],
+   "id": "15815e76-ec59-4c1c-a8f3-032757fbbc04",
+   "date": "2025-09-26",
+   "quality": "normal",
+   "title": "Getting Killed",
+   "disambiguation": "Dolby Atmos mix",
+   "country": null,
+   "cover-art-archive": {
+    "darkened": false,
+    "count": 1,
+    "front": true,
+    "artwork": true,
+    "back": false
+   },
+   "status": "Official",
+   "barcode": "5400863191429"
+  },
+  {
+   "barcode": "5400863191436",
+   "country": "XW",
+   "disambiguation": "",
+   "status": "Official",
+   "cover-art-archive": {
+    "darkened": false,
+    "artwork": true,
+    "back": false,
+    "count": 1,
+    "front": true
+   },
+   "id": "2b637090-036e-4f86-8183-e1be856e1421",
+   "date": "2025-09-26",
+   "quality": "normal",
+   "title": "Getting Killed",
+   "release-events": [
+    {
+     "date": "2025-09-26",
+     "area": {
+      "name": "[Worldwide]",
+      "disambiguation": "",
+      "sort-name": "[Worldwide]",
+      "type": null,
+      "iso-3166-1-codes": [
+       "XW"
+      ],
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "type-id": null
+     }
+    }
+   ],
+   "asin": null,
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "media": [
+    {
+     "id": "873303b0-ced6-4296-bcb0-d7ab024bd81a",
+     "tracks": [
+      {
+       "id": "82140b6e-8d1d-4bd0-a6fa-203384e73f66",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-07-29",
+        "id": "f1a06a0f-7254-4079-9976-94fdc190ead1",
+        "title": "Trinidad",
+        "length": 224824
+       },
+       "position": 1,
+       "title": "Trinidad",
+       "number": "1",
+       "length": 224824
+      },
+      {
+       "position": 2,
+       "title": "Cobra",
+       "recording": {
+        "first-release-date": "2025-09-26",
+        "id": "eda65515-9b83-48ef-b011-f6ce9a1b7fbb",
+        "video": false,
+        "disambiguation": "",
+        "length": 185153,
+        "title": "Cobra"
+       },
+       "id": "b92fd20c-9775-4719-a2ae-66eda826ed06",
+       "length": 185153,
+       "number": "2"
+      },
+      {
+       "recording": {
+        "title": "Husbands",
+        "length": 248229,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "3b8f97ce-12ad-4ae9-a39f-0e7ffd91da5d"
+       },
+       "id": "1e8ab594-e123-4a67-8dd7-64b148e6bc3d",
+       "position": 3,
+       "title": "Husbands",
+       "number": "3",
+       "length": 248229
+      },
+      {
+       "title": "Getting Killed",
+       "position": 4,
+       "id": "326f2522-994c-493b-9414-7396a7830657",
+       "recording": {
+        "length": 284532,
+        "title": "Getting Killed",
+        "id": "1a9540f1-6c65-42ed-bdff-ed5c7d703eab",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "",
+        "video": false
+       },
+       "length": 284532,
+       "number": "4"
+      },
+      {
+       "number": "5",
+       "length": 354139,
+       "recording": {
+        "id": "153d0c03-70b3-4314-a5b5-622fe7903fb2",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "",
+        "video": false,
+        "length": 354139,
+        "title": "Islands of Men"
+       },
+       "id": "7d44a2e3-ad8b-47f6-9981-b2aed9b25877",
+       "title": "Islands of Men",
+       "position": 5
+      },
+      {
+       "position": 6,
+       "title": "100 Horses",
+       "recording": {
+        "length": 226356,
+        "title": "100 Horses",
+        "first-release-date": "2025-08-26",
+        "id": "211c18d7-1836-4814-9230-b746cee7bba5",
+        "video": false,
+        "disambiguation": ""
+       },
+       "id": "1905445f-8e28-4528-ac0c-3e82fa810085",
+       "length": 226356,
+       "number": "6"
+      },
+      {
+       "length": 202202,
+       "number": "7",
+       "title": "Half Real",
+       "position": 7,
+       "id": "e21f9afc-6d86-4b4a-955b-bfa74c158fed",
+       "recording": {
+        "first-release-date": "2025-09-26",
+        "id": "9cbc01fc-1b58-4d82-b75c-de5d8d5d824c",
+        "video": false,
+        "disambiguation": "",
+        "length": 202202,
+        "title": "Half Real"
+       }
+      },
+      {
+       "length": 210946,
+       "number": "8",
+       "title": "Au pays du cocaine",
+       "position": 8,
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "de3cc966-527a-4a52-b48d-d70e7d719594",
+        "first-release-date": "2025-09-26",
+        "title": "Au pays du cocaine",
+        "length": 210946
+       },
+       "id": "bc5e1386-a226-467f-95be-28669d133317"
+      },
+      {
+       "number": "9",
+       "length": 208287,
+       "recording": {
+        "id": "6953cfe9-69b9-407b-9e59-91578be0c017",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "",
+        "video": false,
+        "length": 208287,
+        "title": "Bow Down"
+       },
+       "id": "07e60536-0b78-44fd-9884-c7781fe998b2",
+       "position": 9,
+       "title": "Bow Down"
+      },
+      {
+       "length": 197662,
+       "number": "10",
+       "title": "Taxes",
+       "position": 10,
+       "id": "137333cb-3fe5-4144-befc-a2630c8eca2f",
+       "recording": {
+        "length": 197662,
+        "title": "Taxes",
+        "first-release-date": "2025-07-08",
+        "id": "38d1fb45-1421-4da8-8f7d-32a50fa254f4",
+        "video": false,
+        "disambiguation": ""
+       }
+      },
+      {
+       "number": "11",
+       "length": 397020,
+       "id": "80f65648-663f-4807-93bc-886118e17d09",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "5dfb7119-c853-4aab-aab4-3a3fec630632",
+        "first-release-date": "2025-09-26",
+        "title": "Long Island City Here I Come",
+        "length": 397020
+       },
+       "position": 11,
+       "title": "Long Island City Here I Come"
+      }
+     ],
+     "track-offset": 0,
+     "position": 1,
+     "title": "",
+     "track-count": 11,
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+     "format": "Digital Media"
+    }
+   ],
+   "packaging": "None"
+  },
+  {
+   "barcode": "4988031844458",
+   "disambiguation": "",
+   "country": "JP",
+   "status": "Official",
+   "cover-art-archive": {
+    "front": false,
+    "count": 0,
+    "artwork": false,
+    "back": false,
+    "darkened": false
+   },
+   "id": "a554644b-9732-4a30-abfe-ef7c193cdbda",
+   "date": "2026-02-20",
+   "quality": "normal",
+   "title": "Getting Killed",
+   "release-events": [
+    {
+     "date": "2026-02-20",
+     "area": {
+      "sort-name": "Japan",
+      "name": "Japan",
+      "disambiguation": "",
+      "iso-3166-1-codes": [
+       "JP"
+      ],
+      "type": null,
+      "type-id": null,
+      "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+     }
+    }
+   ],
+   "packaging-id": null,
+   "asin": null,
+   "text-representation": {
+    "script": "Latn",
+    "language": null
+   },
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "media": [
+    {
+     "title": "",
+     "track-count": 12,
+     "position": 1,
+     "tracks": [
+      {
+       "position": 1,
+       "title": "Trinidad",
+       "recording": {
+        "id": "5942adb3-1aa5-4084-96a6-38164df0451e",
+        "first-release-date": "2026-02-20",
+        "disambiguation": "",
+        "video": false,
+        "length": 224000,
+        "title": "Trinidad"
+       },
+       "id": "bcf62a3d-d7e2-4278-8687-8af9066f0bfd",
+       "length": 224000,
+       "number": "1"
+      },
+      {
+       "number": "2",
+       "length": 185000,
+       "id": "9ac0edd5-5f98-408e-ae07-b11051d4bba9",
+       "recording": {
+        "title": "Cobra",
+        "length": 185000,
+        "disambiguation": "",
+        "video": false,
+        "id": "fb8176cb-040d-4628-81c5-6ff0a187df2d",
+        "first-release-date": "2026-02-20"
+       },
+       "position": 2,
+       "title": "Cobra"
+      },
+      {
+       "recording": {
+        "title": "Husbands",
+        "length": 248000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-02-20",
+        "id": "5d555ea2-450c-457e-8eb6-d860620537d4"
+       },
+       "id": "8de2f76a-5884-4076-b4a5-d06950729547",
+       "position": 3,
+       "title": "Husbands",
+       "number": "3",
+       "length": 248000
+      },
+      {
+       "number": "4",
+       "length": 284000,
+       "id": "a35106ec-6878-4ddf-88ce-2f02e5c1ad55",
+       "recording": {
+        "length": 284000,
+        "title": "Getting Killed",
+        "first-release-date": "2026-02-20",
+        "id": "f9662e00-4b93-4ffe-8785-e1f184471457",
+        "video": false,
+        "disambiguation": ""
+       },
+       "title": "Getting Killed",
+       "position": 4
+      },
+      {
+       "id": "fc7d8bc6-75a6-469a-a638-dc26634b9fe4",
+       "recording": {
+        "title": "Islands Of Men",
+        "length": 354000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-02-20",
+        "id": "247df309-52f9-4e73-b794-bb814b97ce22"
+       },
+       "position": 5,
+       "title": "Islands Of Men",
+       "number": "5",
+       "length": 354000
+      },
+      {
+       "recording": {
+        "first-release-date": "2026-02-20",
+        "id": "08d291ae-590c-40cf-b5f1-ada8853edda6",
+        "video": false,
+        "disambiguation": "",
+        "length": 226000,
+        "title": "100 Horses"
+       },
+       "id": "c674a444-4bc5-40f5-9830-63457ec57be6",
+       "title": "100 Horses",
+       "position": 6,
+       "number": "6",
+       "length": 226000
+      },
+      {
+       "title": "Half Real",
+       "position": 7,
+       "id": "210c1763-1442-4fa3-a980-a07963a1feca",
+       "recording": {
+        "id": "bcfeca6c-73cb-48b5-b2db-9beb4d8e9795",
+        "first-release-date": "2026-02-20",
+        "disambiguation": "",
+        "video": false,
+        "length": 202000,
+        "title": "Half Real"
+       },
+       "length": 202000,
+       "number": "7"
+      },
+      {
+       "position": 8,
+       "title": "Au Pays Du Cocaine",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-02-20",
+        "id": "767d1e09-9a5e-4910-94aa-43cd75feaeb2",
+        "title": "Au Pays Du Cocaine",
+        "length": 210000
+       },
+       "id": "c331595f-a889-4aa4-89d7-dfc778fe4505",
+       "length": 210000,
+       "number": "8"
+      },
+      {
+       "length": 208000,
+       "number": "9",
+       "title": "Bow Down",
+       "position": 9,
+       "id": "1fffb7d7-7a71-449d-b3b6-8bcebde4bce7",
+       "recording": {
+        "title": "Bow Down",
+        "length": 208000,
+        "disambiguation": "",
+        "video": false,
+        "id": "7378e078-9dd4-430e-b0bc-c92d4dc6389a",
+        "first-release-date": "2026-02-20"
+       }
+      },
+      {
+       "id": "0a9280b6-417f-417f-9c22-016ef5bccf3f",
+       "recording": {
+        "length": 197000,
+        "title": "Taxes",
+        "id": "513b8ed6-b1c3-4c17-bc1f-19f99b7d13cf",
+        "first-release-date": "2026-02-20",
+        "disambiguation": "",
+        "video": false
+       },
+       "title": "Taxes",
+       "position": 10,
+       "number": "10",
+       "length": 197000
+      },
+      {
+       "position": 11,
+       "title": "Long Island City Here I Come",
+       "id": "a01f9c89-eb15-4c9e-b69a-dc39fbcb5871",
+       "recording": {
+        "title": "Long Island City Here I Come",
+        "length": 397000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-02-20",
+        "id": "a54306de-c22f-4247-99cb-814f26b7b683"
+       },
+       "length": 397000,
+       "number": "11"
+      },
+      {
+       "length": 445000,
+       "number": "12",
+       "position": 12,
+       "title": "Islands Of Men (Recorded Live At Majestic Theatre, Detroit MI)",
+       "recording": {
+        "id": "e0514490-94e6-4781-a866-0ca67ee9e04c",
+        "first-release-date": "2026-02-20",
+        "disambiguation": "",
+        "video": false,
+        "length": 445000,
+        "title": "Islands Of Men (Recorded Live At Majestic Theatre, Detroit MI)"
+       },
+       "id": "7f9143cf-f73b-4028-9cae-b78ff99cf502"
+      }
+     ],
+     "track-offset": 0,
+     "id": "b0ee13a1-0029-48dd-8e04-d6f8e2317461",
+     "format": "CD",
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+    }
+   ],
+   "packaging": null
+  },
+  {
+   "barcode": "5400863188009",
+   "disambiguation": "",
+   "country": "XE",
+   "cover-art-archive": {
+    "front": true,
+    "count": 8,
+    "back": true,
+    "artwork": true,
+    "darkened": false
+   },
+   "status": "Official",
+   "id": "ec6ae29f-a4cd-4108-a470-1c0aea0698bf",
+   "date": "2025-09-26",
+   "quality": "normal",
+   "title": "Getting Killed",
+   "asin": null,
+   "packaging-id": null,
+   "release-events": [
+    {
+     "date": "2025-09-26",
+     "area": {
+      "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+      "type-id": null,
+      "iso-3166-1-codes": [
+       "XE"
+      ],
+      "type": null,
+      "disambiguation": "",
+      "name": "Europe",
+      "sort-name": "Europe"
+     }
+    },
+    {
+     "date": "2025-09-26",
+     "area": {
+      "sort-name": "United States",
+      "disambiguation": "",
+      "name": "United States",
+      "type-id": null,
+      "id": "489ce91b-6658-3307-9877-795b68554c98",
+      "iso-3166-1-codes": [
+       "US"
+      ],
+      "type": null
+     }
+    }
+   ],
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging": null,
+   "media": [
+    {
+     "title": "",
+     "track-count": 11,
+     "position": 1,
+     "track-offset": 0,
+     "tracks": [
+      {
+       "id": "af5ec541-470f-44bf-a470-39fcb0f37ce3",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-07-29",
+        "id": "f1a06a0f-7254-4079-9976-94fdc190ead1",
+        "title": "Trinidad",
+        "length": 224824
+       },
+       "position": 1,
+       "title": "Trinidad",
+       "number": "1",
+       "length": 225866
+      },
+      {
+       "title": "Cobra",
+       "position": 2,
+       "id": "bea60666-3199-4b6a-b796-d882316114fb",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "eda65515-9b83-48ef-b011-f6ce9a1b7fbb",
+        "title": "Cobra",
+        "length": 185153
+       },
+       "length": 185160,
+       "number": "2"
+      },
+      {
+       "number": "3",
+       "length": 248226,
+       "id": "22947303-5bf6-4bfd-b0a7-9660c7c836dd",
+       "recording": {
+        "id": "3b8f97ce-12ad-4ae9-a39f-0e7ffd91da5d",
+        "first-release-date": "2025-09-26",
+        "disambiguation": "",
+        "video": false,
+        "length": 248229,
+        "title": "Husbands"
+       },
+       "position": 3,
+       "title": "Husbands"
+      },
+      {
+       "length": 284533,
+       "number": "4",
+       "title": "Getting Killed",
+       "position": 4,
+       "recording": {
+        "title": "Getting Killed",
+        "length": 284532,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "1a9540f1-6c65-42ed-bdff-ed5c7d703eab"
+       },
+       "id": "89daea52-412f-46cd-8887-b6dfdfdb6751"
+      },
+      {
+       "length": 354133,
+       "number": "5",
+       "title": "Islands of Men",
+       "position": 5,
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "153d0c03-70b3-4314-a5b5-622fe7903fb2",
+        "title": "Islands of Men",
+        "length": 354139
+       },
+       "id": "5fca4f83-0386-402d-b8a1-c9139bb7beb3"
+      },
+      {
+       "length": 226360,
+       "number": "6",
+       "position": 6,
+       "title": "100 Horses",
+       "id": "09f9d0b1-c751-482c-86f1-13bce1e7bea1",
+       "recording": {
+        "length": 226356,
+        "title": "100 Horses",
+        "id": "211c18d7-1836-4814-9230-b746cee7bba5",
+        "first-release-date": "2025-08-26",
+        "disambiguation": "",
+        "video": false
+       }
+      },
+      {
+       "id": "ab8891ee-0026-49a8-81bc-34face71600f",
+       "recording": {
+        "length": 202202,
+        "title": "Half Real",
+        "first-release-date": "2025-09-26",
+        "id": "9cbc01fc-1b58-4d82-b75c-de5d8d5d824c",
+        "video": false,
+        "disambiguation": ""
+       },
+       "position": 7,
+       "title": "Half Real",
+       "number": "7",
+       "length": 202200
+      },
+      {
+       "id": "ec68b50e-359b-444c-ad55-89eac530ecf2",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "de3cc966-527a-4a52-b48d-d70e7d719594",
+        "title": "Au pays du cocaine",
+        "length": 210946
+       },
+       "position": 8,
+       "title": "Au pays du cocaine",
+       "number": "8",
+       "length": 210946
+      },
+      {
+       "title": "Bow Down",
+       "position": 9,
+       "recording": {
+        "first-release-date": "2025-09-26",
+        "id": "6953cfe9-69b9-407b-9e59-91578be0c017",
+        "video": false,
+        "disambiguation": "",
+        "length": 208287,
+        "title": "Bow Down"
+       },
+       "id": "953c95d9-c30d-44de-884b-92ec374b1c41",
+       "length": 208280,
+       "number": "9"
+      },
+      {
+       "length": 197666,
+       "number": "10",
+       "title": "Taxes",
+       "position": 10,
+       "id": "1ec6daf8-ad4e-4ca6-8152-430300249d96",
+       "recording": {
+        "length": 197662,
+        "title": "Taxes",
+        "id": "38d1fb45-1421-4da8-8f7d-32a50fa254f4",
+        "first-release-date": "2025-07-08",
+        "disambiguation": "",
+        "video": false
+       }
+      },
+      {
+       "position": 11,
+       "title": "Long Island City Here I Come",
+       "recording": {
+        "title": "Long Island City Here I Come",
+        "length": 397020,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2025-09-26",
+        "id": "5dfb7119-c853-4aab-aab4-3a3fec630632"
+       },
+       "id": "d8598466-3061-429f-96c0-b160fbbc9264",
+       "length": 399080,
+       "number": "11"
+      }
+     ],
+     "id": "65f25176-7546-4d9b-8392-8aa60034aafc",
+     "format": "CD",
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+    }
+   ]
+  }
+ ],
+ "release-offset": 0
+}
