@@ -29,6 +29,8 @@ export interface LineupArtist {
   lineupNameId: number;
   // The lineup name, as the lineup source gives it.
   name: string;
+  // The MusicBrainz artist of the artist match.
+  musicbrainzId: string;
   // The genres of the MusicBrainz artist, the genre with the most votes first.
   genres: string[];
   level: InterestLevel;
@@ -51,16 +53,11 @@ export function festivalLineup(database: Database, festivalId: number, userId: n
   );
   return festivalArtistMatches(database, festivalId).flatMap(({ lineupNameId, name, match }) =>
     match?.kind === "artist"
-      ? [{ lineupNameId, name, genres: match.artist.genres, level: levels.get(lineupNameId) ?? defaultInterestLevel }]
+      ? [{ lineupNameId, name, musicbrainzId: match.artist.id, genres: match.artist.genres, level: levels.get(lineupNameId) ?? defaultInterestLevel }]
       : [],
   );
 }
 
-// The number of artists that the playlist will contain: each artist that does
-// not have the interest level Not interested.
-export function playlistArtistCount(artists: LineupArtist[]): number {
-  return artists.filter((artist) => artist.level !== "not-interested").length;
-}
 
 export type SaveResult = { outcome: "saved" } | { outcome: "not-on-lineup"; lineupNameId: number };
 

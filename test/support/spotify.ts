@@ -124,3 +124,50 @@ export const quotaExceededResponse: RecordedResponse = {
   headers: { "content-type": "application/json; charset=utf-8" },
   body: JSON.stringify({ error: { status: 429, message: "Quota exceeded", reason: "QUOTA_EXCEEDED" } }),
 };
+
+// The playlist responses (#15) are not recordings: a recording makes a playlist in
+// a real Spotify account. They have the shapes of the Spotify Web API reference
+// ("Create Playlist", "Add Items to Playlist" and "Update Playlist Items", February 2026).
+export const testPlaylistId = "3cEYpjA9oz9GiPac4AsH4n";
+
+// Status 201 from POST /v1/me/playlists.
+export function playlistMadeResponse(name: string, description: string, ownerId: string): RecordedResponse {
+  return {
+    status: 201,
+    headers: { "content-type": "application/json; charset=utf-8" },
+    body: JSON.stringify({
+      collaborative: false,
+      description,
+      external_urls: { spotify: `https://open.spotify.com/playlist/${testPlaylistId}` },
+      href: `https://api.spotify.com/v1/playlists/${testPlaylistId}`,
+      id: testPlaylistId,
+      images: [],
+      name,
+      owner: {
+        external_urls: { spotify: `https://open.spotify.com/user/${ownerId}` },
+        href: `https://api.spotify.com/v1/users/${ownerId}`,
+        id: ownerId,
+        type: "user",
+        uri: `spotify:user:${ownerId}`,
+        display_name: ownerId,
+      },
+      public: false,
+      snapshot_id: "AAAAAQAAAAA",
+      items: { href: `https://api.spotify.com/v1/playlists/${testPlaylistId}/items`, limit: 100, next: null, offset: 0, previous: null, total: 0, items: [] },
+      type: "playlist",
+      uri: `spotify:playlist:${testPlaylistId}`,
+    }),
+  };
+}
+
+// Status 200 from PUT /v1/playlists/{id}/items (replace), or status 201 from POST (add).
+export function playlistItemsResponse(status: 200 | 201): RecordedResponse {
+  return { status, headers: { "content-type": "application/json; charset=utf-8" }, body: JSON.stringify({ snapshot_id: "AAAAAgAAAAA" }) };
+}
+
+// Status 403 from a playlist request. Spotify gives it, for example, when the log in has no playlist scope.
+export const forbiddenResponse: RecordedResponse = {
+  status: 403,
+  headers: { "content-type": "application/json; charset=utf-8" },
+  body: JSON.stringify({ error: { status: 403, message: "Insufficient client scope" } }),
+};

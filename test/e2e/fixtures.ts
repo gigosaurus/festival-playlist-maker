@@ -4,7 +4,9 @@ import { listResponse, signedExportUrl, signedListUrl } from "../support/clashfi
 import type { RecordedResponse } from "../support/fake-http-client.ts";
 import { musicbrainzSearchUrl, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
 import { respondWithRecordedSetlistFm } from "../support/setlist-fm.ts";
-import { respondWithRecordedSpotify } from "../support/spotify.ts";
+import { playlistDescription } from "../../src/playlists.ts";
+import { spotifyMyPlaylistsUrl, spotifyPlaylistItemsUrl } from "../../src/spotify.ts";
+import { playlistItemsResponse, playlistMadeResponse, respondWithRecordedSpotify, testPlaylistId } from "../support/spotify.ts";
 import {
   adminSpotifyUserId,
   spotifyNotOnAllowlistResponse,
@@ -28,7 +30,8 @@ export interface TestFestival {
   year: number;
   startDate: string;
   endDate: string;
-  artists: { name: string; genres: string[] }[];
+  // trackIds: the predicted songs of the artist.
+  artists: { name: string; genres: string[]; trackIds?: string[] }[];
   // Lineup names marked "no match".
   noMatch: string[];
 }
@@ -67,6 +70,8 @@ export interface Spotify {
   willRefuseNotOnAllowlist(): Promise<void>;
   // An access token, and each recorded artist, search and track search in test/fixtures/spotify/.
   willGiveRecordedArtists(): Promise<void>;
+  // Spotify makes the playlist "Download 2027" (testPlaylistId) and accepts its items.
+  willMakePlaylist(): Promise<void>;
   // The browser cannot open Spotify in the tests. The fake authorisation page
   // sends the browser back to the application immediately, as Spotify does.
   answerAuthorisation(answer: SpotifyAnswer): Promise<void>;
@@ -149,6 +154,12 @@ export const test = base.extend<{
         const responses: Promise<void>[] = [];
         respondWithRecordedSpotify((method, url, response) => responses.push(testServer.respondTo(method, url, response)));
         await Promise.all(responses);
+      },
+      willMakePlaylist: async () => {
+        await testServer.respondTo("POST", spotifyTokenUrl, spotifyTokenResponse());
+        await testServer.respondTo("POST", spotifyMyPlaylistsUrl, playlistMadeResponse("Download 2027", playlistDescription, testUser.id));
+        await testServer.respondTo("PUT", spotifyPlaylistItemsUrl(testPlaylistId), playlistItemsResponse(200));
+        await testServer.respondTo("POST", spotifyPlaylistItemsUrl(testPlaylistId), playlistItemsResponse(201));
       },
       answerAuthorisation: async (answer) => {
         externalRedirects.add((url) => (url.href.startsWith(`${spotifyAuthoriseUrl}?`) ? callback(url, answer) : undefined));

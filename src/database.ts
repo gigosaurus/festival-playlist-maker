@@ -130,6 +130,20 @@ const migrations: readonly string[] = [
   // usual period is the long look-back mark. The results before this migration
   // used the usual period of 18 months.
   `ALTER TABLE predicted_songs ADD COLUMN look_back_months INTEGER NOT NULL DEFAULT 18 CHECK (look_back_months > 0)`,
+  // The playlist of each user for each festival (#15). spotify_id and address: the
+  // Spotify playlist. made_at: the time at which Spotify made it. updated_at: the
+  // time of the last update that set all of the songs, NULL before the first one.
+  // complete is 0 when the last attempt changed the songs but did not set all of them.
+  `CREATE TABLE playlist (
+    user_id INTEGER NOT NULL REFERENCES user (id) ON DELETE CASCADE,
+    festival_id INTEGER NOT NULL REFERENCES festival (id) ON DELETE CASCADE,
+    spotify_id TEXT NOT NULL,
+    address TEXT NOT NULL,
+    made_at TEXT NOT NULL,
+    updated_at TEXT,
+    complete INTEGER NOT NULL DEFAULT 0 CHECK (complete IN (0, 1)),
+    PRIMARY KEY (user_id, festival_id)
+  ) STRICT`,
 ];
 
 export function openDatabase(path: string): Database {

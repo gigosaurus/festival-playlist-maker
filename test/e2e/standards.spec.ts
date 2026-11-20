@@ -169,6 +169,18 @@ const pages: StandardsPage[] = [
       await testServer.addPublishedFestival(largeFestival);
     },
   },
+  {
+    name: "Festival page, playlist made",
+    path: "/festivals/1?playlist=made",
+    user: testUser,
+    setUp: makeLargePlaylist,
+  },
+  {
+    name: "Festivals page, a festival with a playlist",
+    path: "/",
+    user: testUser,
+    setUp: makeLargePlaylist,
+  },
   { name: "Admin page for a user who is not the admin", path: "/admin/festivals", user: testUser },
   { name: "Manage festivals, empty state", path: "/admin/festivals", user: testAdmin },
   {
@@ -485,4 +497,13 @@ async function interfaceText(page: Page): Promise<string[]> {
     }
     return texts;
   });
+}
+
+// Adds the festival with 150 artists, and makes the playlist of the user.
+async function makeLargePlaylist(page: Page, _clashfinder: Clashfinder, _musicBrainz: MusicBrainz, spotify: Spotify, testServer: TestServer) {
+  await testServer.addPublishedFestival(largeFestival);
+  await spotify.willMakePlaylist();
+  await page.goto("/festivals/1");
+  await page.getByRole("button", { name: "Make the playlist" }).click();
+  await expect(page.getByRole("heading", { name: "Made the playlist Download 2027 in Spotify" })).toBeVisible();
 }

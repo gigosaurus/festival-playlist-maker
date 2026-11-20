@@ -28,7 +28,7 @@ import {
   publishFestival,
 } from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
-import { festivalLineup, isInterestLevel, saveInterestLevels, type InterestLevel } from "./interest-levels.ts";
+import { isInterestLevel, saveInterestLevels, type InterestLevel } from "./interest-levels.ts";
 import { getFestivalLineup } from "./lineups.ts";
 import { createMusicBrainz, type MusicBrainzArtist } from "./musicbrainz.ts";
 import { artistMatchPage, type ArtistMatchPageState } from "./pages/artist-match-page.ts";
@@ -42,13 +42,14 @@ import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-pag
 import { notFoundPage } from "./pages/not-found-page.ts";
 import { predictedSongsPage } from "./pages/predicted-songs-page.ts";
 import { spotifyArtistPage } from "./pages/spotify-artist-page.ts";
+import { createPlaylistBuilder, festivalsWithPlaylist, findPlaylist, playlistArtists, type BuildResult } from "./playlists.ts";
 import { createPredictedSongQueue, findPredictedSongs, isValid, type PredictedSongs } from "./predicted-songs.ts";
 import { createSessions, type User } from "./sessions.ts";
 import { createSetlistFm } from "./setlist-fm.ts";
 import type { Settings } from "./settings.ts";
 import { createSpotifyArtistQueue, findSpotifyArtist, setSpotifyArtistByHand, type StoredSpotifyArtist } from "./spotify-artists.ts";
 import { completeSpotifyLogIn, startSpotifyLogIn } from "./spotify-log-in.ts";
-import { createSpotify, readSpotifyArtistId } from "./spotify.ts";
+import { createSpotify, createSpotifyPlaylists, readSpotifyArtistId } from "./spotify.ts";
 
 // The application gets all of its connections to the outside world here.
 // main.ts gives the real ones. The tests give a fake HTTP client and a fake clock.
@@ -96,6 +97,12 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   const spotifyArtists = createSpotifyArtistQueue(database, musicBrainz, spotify, clock, (musicbrainzId, changed) =>
     predictedSongs.calculate([musicbrainzId], { again: changed }),
   );
+  const playlists = createPlaylistBuilder({
+    database,
+    spotify: createSpotifyPlaylists(httpClient, database, clock, settings),
+    clock,
+    settings: settings.playlist,
+  });
   const sessions = createSessions(database, clock, settings);
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
@@ -402,7 +409,13 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   });
 
   app.get("/", (context) =>
-    context.html(festivalsPage(context.var.user!, listPublishedFestivals(database, londonDate(clock.now())))),
+    context.html(
+      festivalsPage(
+        context.var.user!,
+        listPublishedFestivals(database, londonDate(clock.now())),
+        festivalsWithPlaylist(database, context.var.user!.id),
+      ),
+    ),
   );
 
   // A festival that is not published does not exist for users (user story 9).
@@ -410,8 +423,47 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     const festival = findPublishedFestival(database, Number(context.req.param("id")));
     if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
     const user = context.var.user!;
-    const artists = festivalLineup(database, festival.id, user.id);
-    return context.html(festivalPage(user, { festival, artists, saved: context.req.query("saved") !== undefined }));
+    const playlist = findPlaylist(database, user.id, festival.id);
+    // The confirmation after "Make the playlist" or "Update the playlist". The redirect
+    // comes only after Spotify accepted each request (FN-02).
+    const done = context.req.query("playlist");
+    const playlistResult: BuildResult | undefined =
+      playlist?.complete && (done === "made" || done === "updated") ? { outcome: "done", made: done === "made" } : undefined;
+    return context.html(
+      festivalPage(user, {
+        festival,
+        artists: playlistArtists(database, festival.id, user.id),
+        settings: settings.playlist,
+        ...(playlist ? { playlist } : {}),
+        ...(playlistResult ? { playlistResult } : {}),
+        saved: context.req.query("saved") !== undefined,
+      }),
+    );
+  });
+
+  // Makes the playlist, or sets the songs of the playlist that the user has (#15).
+  // After a success, the browser goes to the Festival page, so that a refresh does
+  // not send the request again. A failure shows the Festival page with the cause.
+  app.post("/festivals/:id/playlist", async (context) => {
+    const festival = findPublishedFestival(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const user = context.var.user!;
+    const result = await playlists.build(festival, user.id);
+    if (result.outcome === "done") {
+      return context.redirect(`/festivals/${festival.id}?playlist=${result.made ? "made" : "updated"}`, 303);
+    }
+    const playlist = findPlaylist(database, user.id, festival.id);
+    const status = result.outcome === "failed" ? 502 : result.outcome === "busy" ? 409 : 400;
+    return context.html(
+      festivalPage(user, {
+        festival,
+        artists: playlistArtists(database, festival.id, user.id),
+        settings: settings.playlist,
+        ...(playlist ? { playlist } : {}),
+        playlistResult: result,
+      }),
+      status,
+    );
   });
 
   // Saves interest levels. Each field "level-{lineup name ID}" has one level.

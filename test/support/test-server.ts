@@ -14,6 +14,7 @@ import { saveArtistMatch } from "../../src/artist-matches.ts";
 import { openDatabase } from "../../src/database.ts";
 import { addFestival, publishFestival } from "../../src/festivals.ts";
 import { getFestivalLineup } from "../../src/lineups.ts";
+import { savePredictedSongs } from "../../src/predicted-songs.ts";
 import { FakeClock } from "./fake-clock.ts";
 import { FakeHttpClient, type RecordedResponse } from "./fake-http-client.ts";
 import { testSettings } from "./test-settings.ts";
@@ -71,9 +72,12 @@ const control = new Hono()
     const names = [...festival.artists.map((artist) => artist.name), ...festival.noMatch];
     const lineup = { entries: names.map((name) => ({ name })) };
     await getFestivalLineup(database, { getLineup: async () => ({ outcome: "got", lineup }) }, clock, added.id);
-    festival.artists.forEach(({ name, genres }, index) => {
+    festival.artists.forEach(({ name, genres, trackIds }, index) => {
       const artist = { id: `test-artist-${index}`, name, genres, ended: false, score: 100, votes: 1, aliases: [] };
       saveArtistMatch(database, clock, name, { kind: "artist", artist });
+      if (trackIds !== undefined && trackIds.length > 0) {
+        savePredictedSongs(database, artist.id, { trackIds, fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
+      }
     });
     for (const name of festival.noMatch) saveArtistMatch(database, clock, name, { kind: "no-match" });
     const published = publishFestival(database, added.id);
@@ -86,7 +90,8 @@ interface PublishedFestivalRequest {
   year: number;
   startDate: string;
   endDate: string;
-  artists: { name: string; genres: string[] }[];
+  // trackIds: the predicted songs of the artist. An artist without them has no predicted songs.
+  artists: { name: string; genres: string[]; trackIds?: string[] }[];
   noMatch: string[];
 }
 
