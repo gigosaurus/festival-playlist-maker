@@ -14,12 +14,14 @@ import { join } from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { openDatabase } from "../../../src/database.ts";
 import { createSongPrediction } from "../../../src/predicted-songs.ts";
+import { createMusicBrainz } from "../../../src/musicbrainz.ts";
 import { createSetlistFm } from "../../../src/setlist-fm.ts";
 import { defaultPredictionSettings } from "../../../src/settings.ts";
 import { setSpotifyArtistByHand } from "../../../src/spotify-artists.ts";
 import { spotifyTrackSearchUrl, type Spotify } from "../../../src/spotify.ts";
 import { spotifyTokenUrl } from "../../../src/spotify-log-in.ts";
 import { FakeHttpClient } from "../../support/fake-http-client.ts";
+import { respondWithRecordedMusicBrainz } from "../../support/musicbrainz.ts";
 import { respondWithRecordedSetlistFm, setlistFmRecordedAt } from "../../support/setlist-fm.ts";
 import { predictedArtists, trackSearchFileName } from "../../support/spotify.ts";
 
@@ -76,15 +78,18 @@ const spotify = {
 } as Spotify;
 
 // The calculation reads the Spotify artist from a database, so the script uses a temporary one.
+// The setlist.fm and MusicBrainz responses are the recorded responses.
 const directory = mkdtempSync(join(tmpdir(), "record-tracks-"));
 const database = openDatabase(join(directory, "record.sqlite"));
 const setlistTransport = new FakeHttpClient();
 respondWithRecordedSetlistFm(setlistTransport.respondTo.bind(setlistTransport));
+respondWithRecordedMusicBrainz(setlistTransport.respondTo.bind(setlistTransport));
 const clock = { now: () => new Date(setlistFmRecordedAt), sleep: async () => undefined };
 for (const { musicbrainzId, spotifyArtist } of predictedArtists) setSpotifyArtistByHand(database, clock, musicbrainzId, spotifyArtist);
 const prediction = createSongPrediction({
   database,
   setlistFm: createSetlistFm(setlistTransport),
+  musicBrainz: createMusicBrainz(setlistTransport),
   spotify,
   clock,
   settings: defaultPredictionSettings,

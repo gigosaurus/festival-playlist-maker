@@ -1,0 +1,448 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "634176e3",
+    "versionId": "g3060967",
+    "eventDate": "25-06-2026",
+    "lastUpdated": "2026-07-01T15:10:45.763+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bdf96ce",
+     "name": "Helviti",
+     "city": {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "state": "Capital Region",
+      "stateCode": "17",
+      "coords": {
+       "lat": 55.6776812020993,
+       "long": 12.5709342956543
+      },
+      "country": {
+       "code": "DK",
+       "name": "Denmark"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/helviti-copenhagen-denmark-6bdf96ce.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of Pray For Plagues during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan singing on stage / Emily"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Dehumanized",
+         "tape": true,
+         "info": "New song"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/helviti-copenhagen-denmark-634176e3.html"
+   },
+   {
+    "id": "534e67d1",
+    "versionId": "g309696f",
+    "eventDate": "25-06-2026",
+    "lastUpdated": "2026-10-19T15:29:18.751+0000",
+    "artist": {
+     "mbid": "c5eb9407-caeb-4303-b383-6929aa94021c",
+     "name": "Papa Roach",
+     "sortName": "Papa Roach",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/papa-roach-23d6bcdf.html"
+    },
+    "venue": {
+     "id": "6bdf96ce",
+     "name": "Helviti",
+     "city": {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "state": "Capital Region",
+      "stateCode": "17",
+      "coords": {
+       "lat": 55.6776812020993,
+       "long": 12.5709342956543
+      },
+      "country": {
+       "code": "DK",
+       "name": "Denmark"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/helviti-copenhagen-denmark-6bdf96ce.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Even If It Kills Me"
+        },
+        {
+         "name": "Blood Brothers"
+        },
+        {
+         "name": "Dead Cell"
+        },
+        {
+         "name": "...To Be Loved",
+         "info": "with snippet of \"Blitzkrieg Bop\" by Ramones"
+        },
+        {
+         "name": "Kill the Noise"
+        },
+        {
+         "name": "Getting Away With Murder"
+        },
+        {
+         "name": "Devil May Cry Season 2",
+         "tape": true,
+         "info": "Snippet"
+        },
+        {
+         "name": "See U in Hell",
+         "info": "with Jagger Shaddix"
+        },
+        {
+         "name": "California Love",
+         "cover": {
+          "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+          "name": "2Pac",
+          "sortName": "2Pac",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/2pac-1bd6b904.html"
+         },
+         "info": "with band introductions"
+        },
+        {
+         "name": "Liar"
+        },
+        {
+         "name": "BRAINDEAD",
+         "info": "with Brixton Shaddix"
+        },
+        {
+         "name": "Falling Apart"
+        },
+        {
+         "name": "Scars"
+        },
+        {
+         "name": "Help"
+        },
+        {
+         "name": "Born for Greatness"
+        },
+        {
+         "name": "Hey, Good Lookin'",
+         "tape": true,
+         "cover": {
+          "mbid": "6aad1485-862b-42d4-ac7e-cfab197214d0",
+          "name": "Hank Williams With His Drifting Cowboys",
+          "sortName": "Williams, Hank, With His Drifting Cowboys",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/hank-williams-with-his-drifting-cowboys-3d66973.html"
+         }
+        },
+        {
+         "name": "Between Angels and Insects"
+        },
+        {
+         "name": "Blind / My Own Summer (Shove It) / Break Stuff / Chop Suey",
+         "info": "Nu metal time machine medley"
+        },
+        {
+         "name": "Last Resort",
+         "info": "with snippet of Queen's \"We Will Rock You\""
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/papa-roach/2026/helviti-copenhagen-denmark-534e67d1.html"
+   },
+   {
+    "id": "4b4a679e",
+    "versionId": "gb06c1a6",
+    "eventDate": "25-06-2026",
+    "lastUpdated": "2026-06-29T19:50:38.016+0000",
+    "artist": {
+     "mbid": "d8f0f6ac-a0a7-47bd-9786-f9106d7bdd11",
+     "name": "Ice Nine Kills",
+     "sortName": "Ice Nine Kills",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/ice-nine-kills-3d7553f.html"
+    },
+    "venue": {
+     "id": "6bdf96ce",
+     "name": "Helviti",
+     "city": {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "state": "Capital Region",
+      "stateCode": "17",
+      "coords": {
+       "lat": 55.6776812020993,
+       "long": 12.5709342956543
+      },
+      "country": {
+       "code": "DK",
+       "name": "Denmark"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/helviti-copenhagen-denmark-6bdf96ce.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meat & Greet"
+        },
+        {
+         "name": "Wurst Vacation"
+        },
+        {
+         "name": "Ex-Mørtis",
+         "with": {
+          "mbid": "5e5480be-eded-44ad-9c45-f6136ec2f5db",
+          "name": "Reel Big Fish",
+          "sortName": "Reel Big Fish",
+          "disambiguation": "California ska punk band",
+          "url": "https://www.setlist.fm/setlists/reel-big-fish-63d68a2b.html"
+         }
+        },
+        {
+         "name": "The Great Unknown"
+        },
+        {
+         "name": "Funeral Derangements"
+        },
+        {
+         "name": "The Laugh Track"
+        },
+        {
+         "name": "The Shower Scene"
+        },
+        {
+         "name": "Linoleum",
+         "cover": {
+          "mbid": "dcaa4f81-bfb7-44eb-8594-4e74f004b6e4",
+          "name": "NOFX",
+          "sortName": "NOFX",
+          "disambiguation": "US punk rock band",
+          "url": "https://www.setlist.fm/setlists/nofx-1bd689c0.html"
+         }
+        },
+        {
+         "name": "Opening Night...",
+         "tape": true
+        },
+        {
+         "name": "Welcome to Horrorwood"
+        },
+        {
+         "name": "Hip to Be Scared"
+        },
+        {
+         "name": "Twisting the Knife",
+         "with": {
+          "mbid": "5085901f-0d74-438d-a81e-6d9a6758ef5e",
+          "name": "Hannah Hermione Greenwood",
+          "sortName": "Hannah Hermione Greenwood",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/hannah-hermione-greenwood-13c859a1.html"
+         }
+        },
+        {
+         "name": "The American Nightmare"
+        },
+        {
+         "name": "A Work of Art",
+         "with": {
+          "mbid": "5085901f-0d74-438d-a81e-6d9a6758ef5e",
+          "name": "Hannah Hermione Greenwood",
+          "sortName": "Hannah Hermione Greenwood",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/hannah-hermione-greenwood-13c859a1.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ice-nine-kills/2026/helviti-copenhagen-denmark-4b4a679e.html"
+   },
+   {
+    "id": "434e4753",
+    "versionId": "g331958a1",
+    "eventDate": "25-06-2026",
+    "lastUpdated": "2026-06-25T13:00:24.828+0000",
+    "artist": {
+     "mbid": "a8e935c6-3fcc-414c-900c-77e8170e7e7c",
+     "name": "Black Label Society",
+     "sortName": "Black Label Society",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/black-label-society-73d682a9.html"
+    },
+    "venue": {
+     "id": "6bdf96ce",
+     "name": "Helviti",
+     "city": {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "state": "Capital Region",
+      "stateCode": "17",
+      "coords": {
+       "lat": 55.6776812020993,
+       "long": 12.5709342956543
+      },
+      "country": {
+       "code": "DK",
+       "name": "Denmark"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/helviti-copenhagen-denmark-6bdf96ce.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Whole Lotta Sabbath",
+         "tape": true
+        },
+        {
+         "name": "Funeral Bell"
+        },
+        {
+         "name": "Name in Blood"
+        },
+        {
+         "name": "Destroy & Conquer"
+        },
+        {
+         "name": "A Love Unreal"
+        },
+        {
+         "name": "Heart of Darkness"
+        },
+        {
+         "name": "No More Tears",
+         "cover": {
+          "mbid": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+          "name": "Ozzy Osbourne",
+          "sortName": "Osbourne, Ozzy",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/ozzy-osbourne-1bd681dc.html"
+         },
+         "info": "2nd half, from the solo"
+        },
+        {
+         "name": "Set You Free"
+        },
+        {
+         "name": "Fire It Up",
+         "info": "Extended dueling guitar solos"
+        },
+        {
+         "name": "Suicide Messiah",
+         "info": "With bass solo intro"
+        },
+        {
+         "name": "Stillborn",
+         "info": "Extended band solos"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/black-label-society/2026/helviti-copenhagen-denmark-434e4753.html"
+   }
+  ]
+ }
+}

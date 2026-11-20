@@ -1,0 +1,576 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 6,
+  "setlist": [
+   {
+    "id": "7b4fba14",
+    "versionId": "g5b062774",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-30T17:26:01.539+0000",
+    "artist": {
+     "mbid": "d8f0f6ac-a0a7-47bd-9786-f9106d7bdd11",
+     "name": "Ice Nine Kills",
+     "sortName": "Ice Nine Kills",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/ice-nine-kills-3d7553f.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meat & Greet"
+        },
+        {
+         "name": "Wurst Vacation"
+        },
+        {
+         "name": "Ex-Mørtis"
+        },
+        {
+         "name": "The Great Unknown"
+        },
+        {
+         "name": "Funeral Derangements"
+        },
+        {
+         "name": "The Laugh Track"
+        },
+        {
+         "name": "The Shower Scene"
+        },
+        {
+         "name": "Linoleum",
+         "cover": {
+          "mbid": "dcaa4f81-bfb7-44eb-8594-4e74f004b6e4",
+          "name": "NOFX",
+          "sortName": "NOFX",
+          "disambiguation": "US punk rock band",
+          "url": "https://www.setlist.fm/setlists/nofx-1bd689c0.html"
+         }
+        },
+        {
+         "name": "Welcome to Horrorwood"
+        },
+        {
+         "name": "Hip to Be Scared"
+        },
+        {
+         "name": "Twisting the Knife",
+         "with": {
+          "mbid": "a1b55dd2-99f8-44cf-ac8e-7ca3c361b678",
+          "name": "Jill Wylde",
+          "sortName": "Wylde, Jill",
+          "disambiguation": "Rock-Metal/multi-instrunentalist",
+          "url": "https://www.setlist.fm/setlists/jill-wylde-5bfbef78.html"
+         }
+        },
+        {
+         "name": "The American Nightmare"
+        },
+        {
+         "name": "A Work of Art"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/ice-nine-kills/2026/south-stage-dessel-belgium-7b4fba14.html"
+   },
+   {
+    "id": "734fba09",
+    "versionId": "g43191307",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-23T16:43:29.330+0000",
+    "artist": {
+     "mbid": "321fdfbb-426b-43f7-8295-fa9aca6348d9",
+     "name": "Hollywood Undead",
+     "sortName": "Hollywood Undead",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/hollywood-undead-63d7aeb7.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "tour": {
+     "name": "European Tour 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Undead"
+        },
+        {
+         "name": "1x1"
+        },
+        {
+         "name": "CHAOS"
+        },
+        {
+         "name": "Riot"
+        },
+        {
+         "name": "SAVIOR"
+        },
+        {
+         "name": "War Child"
+        },
+        {
+         "name": "Hear Me Now"
+        },
+        {
+         "name": "Comin' in Hot"
+        },
+        {
+         "name": "Another Way Out",
+         "info": "With \"Du Hast\" snipped"
+        },
+        {
+         "name": "Sweet Caroline",
+         "cover": {
+          "mbid": "a42d3fd5-55de-4206-86c3-4fbb5404018f",
+          "name": "Neil Diamond",
+          "sortName": "Diamond, Neil",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/neil-diamond-bd6bd42.html"
+         },
+         "info": "Not the full song"
+        },
+        {
+         "name": "Bullet"
+        },
+        {
+         "name": "Day of the Dead"
+        },
+        {
+         "name": "Everywhere I Go"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Probably incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/hollywood-undead/2026/south-stage-dessel-belgium-734fba09.html"
+   },
+   {
+    "id": "534e4f1d",
+    "versionId": "g3319e881",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-21T00:33:43.264+0000",
+    "artist": {
+     "mbid": "05dffdbe-dc6e-4c8d-a075-50a09c4cb45c",
+     "name": "Architects",
+     "sortName": "Architects",
+     "disambiguation": "British metal band",
+     "url": "https://www.setlist.fm/setlists/architects-13d61531.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Elegy"
+        },
+        {
+         "name": "Whiplash"
+        },
+        {
+         "name": "Doomsday"
+        },
+        {
+         "name": "Black Lungs"
+        },
+        {
+         "name": "Gravedigger"
+        },
+        {
+         "name": "Blackhole"
+        },
+        {
+         "name": "Impermanence"
+        },
+        {
+         "name": "deep fake"
+        },
+        {
+         "name": "Curse"
+        },
+        {
+         "name": "Broken Mirror"
+        },
+        {
+         "name": "Brain Dead"
+        },
+        {
+         "name": "A Match Made in Heaven"
+        },
+        {
+         "name": "when we were young"
+        },
+        {
+         "name": "Everything Ends"
+        },
+        {
+         "name": "Seeing Red"
+        },
+        {
+         "name": "Animals"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/architects/2026/south-stage-dessel-belgium-534e4f1d.html"
+   },
+   {
+    "id": "534e4f19",
+    "versionId": "g43191f37",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-23T05:31:55.839+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "\"Project: Kingslayer\" version"
+        },
+        {
+         "name": "Kingslayer",
+         "with": {
+          "mbid": "27e2997f-f7a1-4353-bcc4-57b9274fa9a4",
+          "name": "BABYMETAL",
+          "sortName": "BABYMETAL",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/babymetal-5bd19f80.html"
+         }
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan on stage(emily)"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/south-stage-dessel-belgium-534e4f19.html"
+   },
+   {
+    "id": "534c1f15",
+    "versionId": "g1b19756c",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-24T12:12:52.730+0000",
+    "artist": {
+     "mbid": "736680eb-da66-4859-bc3a-9e340c570625",
+     "name": "Malevolence",
+     "sortName": "Malevolence",
+     "disambiguation": "British hardcore band from Sheffield",
+     "url": "https://www.setlist.fm/setlists/malevolence-4bd9d762.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "tour": {
+     "name": "Live in Europe Summer 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trenches"
+        },
+        {
+         "name": "Life Sentence"
+        },
+        {
+         "name": "So Help Me God"
+        },
+        {
+         "name": "Still Waters Run Deep"
+        },
+        {
+         "name": "Karma"
+        },
+        {
+         "name": "Self Supremacy"
+        },
+        {
+         "name": "Higher Place"
+        },
+        {
+         "name": "Keep Your Distance"
+        },
+        {
+         "name": "Serpents Chokehold"
+        },
+        {
+         "name": "On Broken Glass"
+        },
+        {
+         "name": "If It's All the Same to You"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/malevolence/2026/south-stage-dessel-belgium-534c1f15.html"
+   },
+   {
+    "id": "434c1f0b",
+    "versionId": "g2b19204a",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-23T00:32:44.223+0000",
+    "artist": {
+     "mbid": "8fe41e6a-53f6-4318-99f1-7e8cb40ea40f",
+     "name": "Fleddy Melculy",
+     "sortName": "Fleddy Melculy",
+     "disambiguation": "Belgian metal parody band",
+     "url": "https://www.setlist.fm/setlists/fleddy-melculy-23c3f81f.html"
+    },
+    "venue": {
+     "id": "2bdfb4fe",
+     "name": "South Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/south-stage-dessel-belgium-2bdfb4fe.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Welkom in Helgië"
+        },
+        {
+         "name": "Fuck You Fleddy!"
+        },
+        {
+         "name": "Feestje in uw huisje"
+        },
+        {
+         "name": "Apu van de nightshop"
+        },
+        {
+         "name": "Geen Vlees Wel Vis"
+        },
+        {
+         "name": "Pinker"
+        },
+        {
+         "name": "Brood"
+        },
+        {
+         "name": "Fuck dees fucking kut kak machien"
+        },
+        {
+         "name": "T-Shirt van Metallica"
+        },
+        {
+         "name": "Ik ben mijn sleutels kwijt"
+        },
+        {
+         "name": "Varken"
+        },
+        {
+         "name": "DOE UW WERK"
+        },
+        {
+         "name": "NIKS"
+        },
+        {
+         "name": "Ik ben kwaad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/fleddy-melculy/2026/south-stage-dessel-belgium-434c1f0b.html"
+   }
+  ]
+ }
+}

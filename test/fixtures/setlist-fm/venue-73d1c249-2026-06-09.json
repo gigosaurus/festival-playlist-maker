@@ -1,0 +1,219 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 2,
+  "setlist": [
+   {
+    "id": "6b4ed692",
+    "versionId": "g31b516b",
+    "eventDate": "09-06-2026",
+    "lastUpdated": "2026-06-09T22:06:41.409+0000",
+    "artist": {
+     "mbid": "9ca10859-49e2-44e3-b3d6-04c535207bc2",
+     "name": "Knocked Loose",
+     "sortName": "Knocked Loose",
+     "disambiguation": "hardcore band",
+     "url": "https://www.setlist.fm/setlists/knocked-loose-3c281bf.html"
+    },
+    "venue": {
+     "id": "73d1c249",
+     "name": "TAURON Arena Kraków",
+     "city": {
+      "id": "3094802",
+      "name": "Kraków",
+      "state": "Lesser Poland Voivodeship",
+      "stateCode": "77",
+      "coords": {
+       "lat": 50.0833333,
+       "long": 19.9166667
+      },
+      "country": {
+       "code": "PL",
+       "name": "Poland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tauron-arena-krakow-krakow-poland-73d1c249.html"
+    },
+    "tour": {
+     "name": "Europe & UK Tour 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Blinding Faith"
+        },
+        {
+         "name": "Don't Reach for Me"
+        },
+        {
+         "name": "Mistakes Like Fractures"
+        },
+        {
+         "name": "Piece by Piece"
+        },
+        {
+         "name": "Moss Covers All"
+        },
+        {
+         "name": "Take Me Home"
+        },
+        {
+         "name": "Hive Mind"
+        },
+        {
+         "name": "Suffocate"
+        },
+        {
+         "name": "Counting Worms"
+        },
+        {
+         "name": "Deep in the Willow"
+        },
+        {
+         "name": "Everything Is Quiet Now"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/knocked-loose/2026/tauron-arena-krakow-krakow-poland-6b4ed692.html"
+   },
+   {
+    "id": "634ed693",
+    "versionId": "g6319cac7",
+    "eventDate": "09-06-2026",
+    "lastUpdated": "2026-06-21T21:49:48.160+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d1c249",
+     "name": "TAURON Arena Kraków",
+     "city": {
+      "id": "3094802",
+      "name": "Kraków",
+      "state": "Lesser Poland Voivodeship",
+      "stateCode": "77",
+      "coords": {
+       "lat": 50.0833333,
+       "long": 19.9166667
+      },
+      "country": {
+       "code": "PL",
+       "name": "Poland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tauron-arena-krakow-krakow-poland-73d1c249.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Stefan, a fan on the vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "DEHUMANIZED - Teaser",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/tauron-arena-krakow-krakow-poland-634ed693.html"
+   }
+  ]
+ }
+}

@@ -226,6 +226,8 @@ function spotifyState(festival: AdminFestival, waiting: number, queue: QueueStat
 }
 
 // One calculation sends 1 or more setlist.fm requests and up to 20 Spotify requests.
+// The first calculation of an artist with many shows also sends 1 setlist.fm
+// request for each venue and date (#13), so it can take approximately 1 minute.
 function predictionState(festival: AdminFestival, waiting: number, queue: PredictionQueueState) {
   if (queue.problem !== undefined) {
     return html`
@@ -240,7 +242,7 @@ function predictionState(festival: AdminFestival, waiting: number, queue: Predic
   }
   return html`
     <p class="search-progress">
-      ${waiting === 1 ? "1 artist waits" : `${waiting} artists wait`} for the predicted songs. The application calculates 1 artist in approximately 10 to 30 seconds.
+      ${waiting === 1 ? "1 artist waits" : `${waiting} artists wait`} for the predicted songs. The application calculates 1 artist in approximately 10 seconds to 1 minute.
       ${queue.waitingUntil === undefined
         ? ""
         : html`A service limited the requests, so the calculation continues at ${formatDateAndTime(queue.waitingUntil)}.`}

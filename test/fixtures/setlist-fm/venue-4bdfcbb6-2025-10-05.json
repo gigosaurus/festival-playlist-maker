@@ -1,0 +1,537 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 7,
+  "setlist": [
+   {
+    "id": "b5b69c6",
+    "versionId": "g230020ab",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:23:00.341+0000",
+    "artist": {
+     "mbid": "33319aed-9bd7-4cd1-903c-716845c1b7cd",
+     "name": "Black Veil Brides",
+     "sortName": "Black Veil Brides",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/black-veil-brides-53d2bf81.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Knives and Pens"
+        },
+        {
+         "name": "Bleeders"
+        },
+        {
+         "name": "Hallelujah"
+        },
+        {
+         "name": "Faithless"
+        },
+        {
+         "name": "Coffin"
+        },
+        {
+         "name": "Devil"
+        },
+        {
+         "name": "The Legacy"
+        },
+        {
+         "name": "In the End"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/black-veil-brides/2025/aftershock-stage-sacramento-ca-b5b69c6.html"
+   },
+   {
+    "id": "b5b69ba",
+    "versionId": "g330020b5",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:22:41.645+0000",
+    "artist": {
+     "mbid": "e2c3c508-f0ab-49af-92c9-a81d66d67405",
+     "name": "Story of the Year",
+     "sortName": "Story of the Year",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/story-of-the-year-43d68faf.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "And the Hero Will Drown"
+        },
+        {
+         "name": "War"
+        },
+        {
+         "name": "Tear Me to Pieces"
+        },
+        {
+         "name": "Anthem of Our Dying Day"
+        },
+        {
+         "name": "Real Life"
+        },
+        {
+         "name": "In the Shadows"
+        },
+        {
+         "name": "Until the Day I Die"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/story-of-the-year/2025/aftershock-stage-sacramento-ca-b5b69ba.html"
+   },
+   {
+    "id": "735b06b9",
+    "versionId": "g2b0020ea",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:12:47.328+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan from the crowd sang on stage (oscar salazar)"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/aftershock-stage-sacramento-ca-735b06b9.html"
+   },
+   {
+    "id": "6b5b06a6",
+    "versionId": "g330020b9",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:20:53.037+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "tour": {
+     "name": "2025 Festival Appearances"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "Pretend"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2025/aftershock-stage-sacramento-ca-6b5b06a6.html"
+   },
+   {
+    "id": "6b5b06a2",
+    "versionId": "g2b0020c6",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:20:28.228+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Thoughts & Prayers"
+        },
+        {
+         "name": "Necessary Evil"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Nothing Ever After",
+         "cover": {
+          "mbid": "5f43abf6-92a5-468a-a633-b73f94627972",
+          "name": "ILLENIUM",
+          "sortName": "ILLENIUM",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/illenium-73c62ebd.html"
+         }
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2025/aftershock-stage-sacramento-ca-6b5b06a2.html"
+   },
+   {
+    "id": "235b685f",
+    "versionId": "g2b0020b6",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:22:20.385+0000",
+    "artist": {
+     "mbid": "5dfdca28-9ddc-4853-933c-8bc97d87beec",
+     "name": "Marilyn Manson",
+     "sortName": "Marilyn Manson",
+     "disambiguation": "the band",
+     "url": "https://www.setlist.fm/setlists/marilyn-manson-bd6a522.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "tour": {
+     "name": "One Assassination Under God"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Nod If You Understand"
+        },
+        {
+         "name": "Disposable Teens"
+        },
+        {
+         "name": "Angel With the Scabbed Wings"
+        },
+        {
+         "name": "Tourniquet"
+        },
+        {
+         "name": "Sacrilegious"
+        },
+        {
+         "name": "This Is the New Shit"
+        },
+        {
+         "name": "mOBSCENE"
+        },
+        {
+         "name": "The Dope Show",
+         "info": "Teased “I Don’t Like The Drugs (but The Drugs Like Me”"
+        },
+        {
+         "name": "As Sick as the Secrets Within"
+        },
+        {
+         "name": "Sweet Dreams (Are Made of This)",
+         "cover": {
+          "mbid": "b4d32cff-f19e-455f-86c4-f347d824ca61",
+          "name": "Eurythmics",
+          "sortName": "Eurythmics",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/eurythmics-7bd6be44.html"
+         }
+        },
+        {
+         "name": "The Beautiful People"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/marilyn-manson/2025/aftershock-stage-sacramento-ca-235b685f.html"
+   },
+   {
+    "id": "235b6853",
+    "versionId": "g330020bd",
+    "eventDate": "05-10-2025",
+    "lastUpdated": "2026-08-13T02:21:17.581+0000",
+    "artist": {
+     "mbid": "e0d839ad-3880-4530-ac32-6d373006678f",
+     "name": "Sleep Theory",
+     "sortName": "Sleep Theory",
+     "disambiguation": "American band",
+     "url": "https://www.setlist.fm/setlists/sleep-theory-3fa6903.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "tour": {
+     "name": "The Afterglow Tour Part II"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Fallout"
+        },
+        {
+         "name": "Parasite"
+        },
+        {
+         "name": "Gravity"
+        },
+        {
+         "name": "Hourglass"
+        },
+        {
+         "name": "Stuck in My Head"
+        },
+        {
+         "name": "Numb"
+        },
+        {
+         "name": "Static"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Aftershock Stage",
+    "url": "https://www.setlist.fm/setlist/sleep-theory/2025/aftershock-stage-sacramento-ca-235b6853.html"
+   }
+  ]
+ }
+}

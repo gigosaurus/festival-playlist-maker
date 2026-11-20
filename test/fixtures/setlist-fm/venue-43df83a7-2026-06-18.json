@@ -1,0 +1,481 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 5,
+  "setlist": [
+   {
+    "id": "b4f3d76",
+    "versionId": "g3b19b4a4",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-18T19:59:31.856+0000",
+    "artist": {
+     "mbid": "854a1807-025b-42a8-ba8c-2a39717f1d25",
+     "name": "Breaking Benjamin",
+     "sortName": "Breaking Benjamin",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/breaking-benjamin-5bd6bfc0.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I Will Not Bow"
+        },
+        {
+         "name": "Until the End"
+        },
+        {
+         "name": "Blow Me Away"
+        },
+        {
+         "name": "So Cold"
+        },
+        {
+         "name": "Polyamorous"
+        },
+        {
+         "name": "Dear Agony"
+        },
+        {
+         "name": "Something Wicked"
+        },
+        {
+         "name": "Breath"
+        },
+        {
+         "name": "Awaken"
+        },
+        {
+         "name": "Failure"
+        },
+        {
+         "name": "The Diary of Jane"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First show in France",
+    "url": "https://www.setlist.fm/setlist/breaking-benjamin/2026/mainstage-01-clisson-france-b4f3d76.html"
+   },
+   {
+    "id": "1b4f3d78",
+    "versionId": "g1319a9a5",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-19T04:36:21.727+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "(With a snippet of \"Pray for Plagues\" during the breakdown)"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "“Project: Kingslayer” version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "disguised as a fan",
+         "with": {
+          "mbid": "83678db8-18e5-4cc8-a5c9-639cb22ad72a",
+          "name": "Will Ramos",
+          "sortName": "Ramos, Will",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/will-ramos-4bf227ba.html"
+         }
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/mainstage-01-clisson-france-1b4f3d78.html"
+   },
+   {
+    "id": "1b4f3d74",
+    "versionId": "g6b193ae2",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-22T10:25:14.068+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "tour": {
+     "name": "Europe Tour Summer 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Closure"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Been Here Before"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/mainstage-01-clisson-france-1b4f3d74.html"
+   },
+   {
+    "id": "134f3d7d",
+    "versionId": "g6b06d622",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-29T08:04:28.062+0000",
+    "artist": {
+     "mbid": "c5eb9407-caeb-4303-b383-6929aa94021c",
+     "name": "Papa Roach",
+     "sortName": "Papa Roach",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/papa-roach-23d6bcdf.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Even If It Kills Me"
+        },
+        {
+         "name": "Blood Brothers"
+        },
+        {
+         "name": "Dead Cell"
+        },
+        {
+         "name": "...To Be Loved",
+         "info": "with snippet of \"Blitzkrieg Bop\" by Ramones"
+        },
+        {
+         "name": "Kill the Noise"
+        },
+        {
+         "name": "Getting Away With Murder"
+        },
+        {
+         "name": "See U in Hell",
+         "info": "with Jagger Shaddix"
+        },
+        {
+         "name": "California Love",
+         "cover": {
+          "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+          "name": "2Pac",
+          "sortName": "2Pac",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/2pac-1bd6b904.html"
+         },
+         "info": "with band introductions"
+        },
+        {
+         "name": "Liar"
+        },
+        {
+         "name": "BRAINDEAD",
+         "info": "with Brixton Shaddix"
+        },
+        {
+         "name": "Scars"
+        },
+        {
+         "name": "Help"
+        },
+        {
+         "name": "Born for Greatness"
+        },
+        {
+         "name": "Hey, Good Lookin'",
+         "tape": true,
+         "cover": {
+          "mbid": "6aad1485-862b-42d4-ac7e-cfab197214d0",
+          "name": "Hank Williams With His Drifting Cowboys",
+          "sortName": "Williams, Hank, With His Drifting Cowboys",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/hank-williams-with-his-drifting-cowboys-3d66973.html"
+         }
+        },
+        {
+         "name": "Between Angels and Insects"
+        },
+        {
+         "name": "Blind / My Own Summer (Shove It) / Break Stuff / Chop Suey",
+         "info": "Nu metal time machine medley"
+        },
+        {
+         "name": "Last Resort",
+         "info": "with snippet of Queen's \"We Will Rock You\""
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/papa-roach/2026/mainstage-01-clisson-france-134f3d7d.html"
+   },
+   {
+    "id": "134f3d69",
+    "versionId": "g131971f5",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-24T15:12:43.828+0000",
+    "artist": {
+     "mbid": "dc0da7d1-231c-4058-8e6e-1c0801848602",
+     "name": "We Came as Romans",
+     "sortName": "We Came as Romans",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/we-came-as-romans-7bd41a00.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "ALL IS BEAUTIFUL..."
+        },
+        {
+         "name": "bad luck"
+        },
+        {
+         "name": "red smoke"
+        },
+        {
+         "name": "Cold Like War"
+        },
+        {
+         "name": "lake of fire"
+        },
+        {
+         "name": "Lost in the Moment"
+        },
+        {
+         "name": "culture wound"
+        },
+        {
+         "name": "Darkbloom"
+        },
+        {
+         "name": "no rest for the dreamer"
+        },
+        {
+         "name": "where did you go?"
+        },
+        {
+         "name": "Black Hole"
+        },
+        {
+         "name": "BECAUSE WE’RE DOOMED"
+        },
+        {
+         "name": "Daggers"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/we-came-as-romans/2026/mainstage-01-clisson-france-134f3d69.html"
+   }
+  ]
+ }
+}

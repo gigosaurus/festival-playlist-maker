@@ -1,0 +1,308 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "5b74e700",
+    "versionId": "g731cde0d",
+    "eventDate": "12-05-2026",
+    "lastUpdated": "2026-05-13T14:37:35.141+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "6bd37286",
+     "name": "T-Mobile Center",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-center-kansas-city-mo-usa-6bd37286.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Will You Love Me When I’m Dead"
+        },
+        {
+         "name": "Take Me Under"
+        },
+        {
+         "name": ""
+        },
+        {
+         "name": ""
+        },
+        {
+         "name": "Forever Overdose"
+        },
+        {
+         "name": "Tonight"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2026/t-mobile-center-kansas-city-mo-5b74e700.html"
+   },
+   {
+    "id": "33499c55",
+    "versionId": "gb1cd972",
+    "eventDate": "12-05-2026",
+    "lastUpdated": "2026-05-13T15:14:01.792+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "6bd37286",
+     "name": "T-Mobile Center",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-center-kansas-city-mo-usa-6bd37286.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/t-mobile-center-kansas-city-mo-33499c55.html"
+   },
+   {
+    "id": "23499cc7",
+    "versionId": "g531cf3cd",
+    "eventDate": "12-05-2026",
+    "lastUpdated": "2026-05-13T05:18:22.286+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "6bd37286",
+     "name": "T-Mobile Center",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-center-kansas-city-mo-usa-6bd37286.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/t-mobile-center-kansas-city-mo-23499cc7.html"
+   },
+   {
+    "id": "23499cc3",
+    "versionId": "g4b1cf3ba",
+    "eventDate": "12-05-2026",
+    "lastUpdated": "2026-05-13T05:21:39.796+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "6bd37286",
+     "name": "T-Mobile Center",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/t-mobile-center-kansas-city-mo-usa-6bd37286.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Hollow Points"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/t-mobile-center-kansas-city-mo-23499cc3.html"
+   }
+  ]
+ }
+}

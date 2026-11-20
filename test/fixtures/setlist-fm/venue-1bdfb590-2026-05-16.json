@@ -1,0 +1,487 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 6,
+  "setlist": [
+   {
+    "id": "b4149e6",
+    "versionId": "g4b1c67ce",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-17T04:44:55.893+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Rats"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Necessary Evil"
+        },
+        {
+         "name": "Hollow Points"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/temple-stage-columbus-oh-b4149e6.html"
+   },
+   {
+    "id": "b4149e2",
+    "versionId": "g531d8b49",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-20T06:02:36.449+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Jacob, a fan on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed",
+         "info": "live debut with Maphra",
+         "with": {
+          "mbid": "af8dfee1-9375-4017-832e-4e25f0d28942",
+          "name": "Maphra",
+          "sortName": "Maphra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/maphra-1b9bb528.html"
+         }
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/temple-stage-columbus-oh-b4149e2.html"
+   },
+   {
+    "id": "b4149da",
+    "versionId": "g4b1c5bba",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-17T13:39:33.237+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/temple-stage-columbus-oh-b4149da.html"
+   },
+   {
+    "id": "3b4e54c0",
+    "versionId": "g131c616d",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-17T05:22:04.403+0000",
+    "artist": {
+     "mbid": "b267ca80-034e-4dc1-9ed4-ec45f1fed41d",
+     "name": "Good Charlotte",
+     "sortName": "Good Charlotte",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/good-charlotte-43d68fab.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Anthem"
+        },
+        {
+         "name": "Girls & Boys"
+        },
+        {
+         "name": "Riot Girl"
+        },
+        {
+         "name": "Keep Your Hands Off My Girl"
+        },
+        {
+         "name": "Predictable"
+        },
+        {
+         "name": "Bodies"
+        },
+        {
+         "name": "Hold On"
+        },
+        {
+         "name": "Rejects"
+        },
+        {
+         "name": "The Young and the Hopeless"
+        },
+        {
+         "name": "Little Things"
+        },
+        {
+         "name": "The River"
+        },
+        {
+         "name": "Dance Floor Anthem"
+        },
+        {
+         "name": "I Just Wanna Live"
+        },
+        {
+         "name": "Lifestyles of the Rich & Famous"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/good-charlotte/2026/temple-stage-columbus-oh-3b4e54c0.html"
+   },
+   {
+    "id": "334e54c5",
+    "versionId": "g31c558b",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-17T15:22:16.850+0000",
+    "artist": {
+     "mbid": "669b08a0-2144-4800-a446-1522cfef228c",
+     "name": "Palaye Royale",
+     "sortName": "Palaye Royale",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/palaye-royale-5bccbb10.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "No Love in LA"
+        },
+        {
+         "name": "Little Bastards"
+        },
+        {
+         "name": "Fucking With My Head"
+        },
+        {
+         "name": "Showbiz"
+        },
+        {
+         "name": "You'll Be Fine"
+        },
+        {
+         "name": "Mr. Doctor Man"
+        },
+        {
+         "name": "For You"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/palaye-royale/2026/temple-stage-columbus-oh-334e54c5.html"
+   },
+   {
+    "id": "2b4e54c6",
+    "versionId": "g631c722f",
+    "eventDate": "16-05-2026",
+    "lastUpdated": "2026-05-16T20:18:49.375+0000",
+    "artist": {
+     "mbid": "33319aed-9bd7-4cd1-903c-716845c1b7cd",
+     "name": "Black Veil Brides",
+     "sortName": "Black Veil Brides",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/black-veil-brides-53d2bf81.html"
+    },
+    "venue": {
+     "id": "1bdfb590",
+     "name": "Temple Stage",
+     "city": {
+      "id": "4509177",
+      "name": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 39.9611755,
+       "long": -82.9987942
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/temple-stage-columbus-oh-usa-1bdfb590.html"
+    },
+    "tour": {
+     "name": "North American Tour 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Knives and Pens"
+        },
+        {
+         "name": "Bleeders"
+        },
+        {
+         "name": "Hallelujah"
+        },
+        {
+         "name": "Vindicate"
+        },
+        {
+         "name": "Certainty"
+        },
+        {
+         "name": "Revenger"
+        },
+        {
+         "name": "The Legacy"
+        },
+        {
+         "name": "In the End"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/black-veil-brides/2026/temple-stage-columbus-oh-2b4e54c6.html"
+   }
+  ]
+ }
+}

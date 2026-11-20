@@ -1,0 +1,506 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 7,
+  "setlist": [
+   {
+    "id": "7b4f5e7c",
+    "versionId": "g5b1c1f94",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-05-15T14:17:19.655+0000",
+    "artist": {
+     "mbid": "afd55c72-d123-4237-9818-fa3ce634b3dd",
+     "name": "Highly Suspect",
+     "sortName": "Highly Suspect",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/highly-suspect-33d89819.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Run for Your Death (More Pills)"
+        },
+        {
+         "name": "Lost"
+        },
+        {
+         "name": "Serotonia"
+        },
+        {
+         "name": "Lydia"
+        },
+        {
+         "name": "Wasted",
+         "info": "Rich on lead vocals"
+        },
+        {
+         "name": "Pink Lullabye"
+        },
+        {
+         "name": "Claudeland"
+        },
+        {
+         "name": "My Name Is Human"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/highly-suspect/2026/apex-stage-daytona-beach-fl-7b4f5e7c.html"
+   },
+   {
+    "id": "634f5e77",
+    "versionId": "gb1ca57e",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-05-11T15:41:37.773+0000",
+    "artist": {
+     "mbid": "e2d4b394-a2cc-4848-bb15-e5b7c55cc059",
+     "name": "Magnolia Park",
+     "sortName": "Magnolia Park",
+     "disambiguation": "pop punk/alternative rock band",
+     "url": "https://www.setlist.fm/setlists/magnolia-park-4bf237c2.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Animal"
+        },
+        {
+         "name": "Shadow Talk"
+        },
+        {
+         "name": "Cult"
+        },
+        {
+         "name": "ASK FOR IT"
+        },
+        {
+         "name": "Shallow"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/magnolia-park/2026/apex-stage-daytona-beach-fl-634f5e77.html"
+   },
+   {
+    "id": "4b4f5ffa",
+    "versionId": "g31f4963",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-05-10T14:17:56.565+0000",
+    "artist": {
+     "mbid": "33319aed-9bd7-4cd1-903c-716845c1b7cd",
+     "name": "Black Veil Brides",
+     "sortName": "Black Veil Brides",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/black-veil-brides-53d2bf81.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "tour": {
+     "name": "North American Tour 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Knives and Pens"
+        },
+        {
+         "name": "Bleeders"
+        },
+        {
+         "name": "Hallelujah"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Set ended after third song",
+    "url": "https://www.setlist.fm/setlist/black-veil-brides/2026/apex-stage-daytona-beach-fl-4b4f5ffa.html"
+   },
+   {
+    "id": "34149f3",
+    "versionId": "g31c950b",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-05-12T04:01:17.727+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/apex-stage-daytona-beach-fl-34149f3.html"
+   },
+   {
+    "id": "1b4149fc",
+    "versionId": "g231cf4c7",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-05-13T01:55:29.252+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Whorror",
+         "tape": true
+        },
+        {
+         "name": "Meltdown",
+         "info": "shortened; no 2nd verse or chorus"
+        },
+        {
+         "name": "Sign of Life",
+         "info": "extended intro"
+        },
+        {
+         "name": "Afraid of the Dark",
+         "info": "shortened; no first chorus or 2nd verse"
+        },
+        {
+         "name": "Rats",
+         "info": "stopped during intro and restarted due to injury in crowd"
+        },
+        {
+         "name": "Slaughterhouse",
+         "info": "''One Mutilation Under God'' sing-along intro; THX sample"
+        },
+        {
+         "name": "Necessary Evil",
+         "info": "stopped during bridge due to injury in crowd, not finished"
+        },
+        {
+         "name": "Hollow Points"
+        },
+        {
+         "name": "Scoring the End of the World",
+         "info": "extended symphonic intro"
+        },
+        {
+         "name": "Not My Type: Dead as Fuck 2"
+        },
+        {
+         "name": "Another Life",
+         "info": "extended symphonic intro"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/apex-stage-daytona-beach-fl-1b4149fc.html"
+   },
+   {
+    "id": "134149fd",
+    "versionId": "g2306a477",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-06-27T01:22:04.311+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Marshalling Yard (The Second Half)",
+         "tape": true,
+         "info": "Resident Evil 2 score"
+        },
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide",
+         "info": "starts with confetti; extended bridge"
+        },
+        {
+         "name": "The House of Wolves",
+         "info": "extended intro riff; extended breakdown"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song",
+         "info": "extended bridge with wall of death"
+        },
+        {
+         "name": "Teardrops",
+         "info": "extended breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a banana man named Danek on vocals"
+        },
+        {
+         "name": "Follow You",
+         "info": "Oli asks for girls to get up on shoulders"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne",
+         "info": "Oli asks for everyone to sit down and jump up during bridge; ends with confetti and streamers"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/apex-stage-daytona-beach-fl-134149fd.html"
+   },
+   {
+    "id": "134149f1",
+    "versionId": "g5b13035c",
+    "eventDate": "09-05-2026",
+    "lastUpdated": "2026-04-09T17:14:58.817+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "4bdfafd6",
+     "name": "Apex Stage",
+     "city": {
+      "id": "4152872",
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 29.2108147,
+       "long": -81.0228331
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-daytona-beach-fl-usa-4bdfafd6.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2026/apex-stage-daytona-beach-fl-134149f1.html"
+   }
+  ]
+ }
+}

@@ -34,6 +34,18 @@ export function musicbrainzLinksUrl(id: string): string {
   return `${musicbrainzOrigin}/ws/2/artist/${encodeURIComponent(id)}?inc=url-rels&fmt=json`;
 }
 
+// The maximum number of events on one page of an event browse request.
+export const eventsPerPage = 100;
+
+// The application gets a maximum of this number of event pages for one artist.
+// Most artists have fewer than 100 events on MusicBrainz.
+export const maximumEventPages = 5;
+
+// The events of an artist, for example the festival days where the artist played (#13).
+export function musicbrainzEventsUrl(id: string, offset: number): string {
+  return `${musicbrainzOrigin}/ws/2/event?artist=${encodeURIComponent(id)}&limit=${eventsPerPage}&offset=${offset}&fmt=json`;
+}
+
 export function musicbrainzArtistAddress(id: string): string {
   return `${musicbrainzOrigin}/artist/${encodeURIComponent(id)}`;
 }
@@ -68,11 +80,22 @@ export type ArtistSearchResult = { outcome: "found"; artists: MusicBrainzArtist[
 
 export type SpotifyLinksResult = { outcome: "found"; spotifyIds: string[] } | { outcome: "failed"; cause: string };
 
+// A festival event: the first and the last day, as YYYY-MM-DD. A festival day has the same first and last day.
+export interface FestivalDays {
+  begin: string;
+  end: string;
+}
+
+export type FestivalDaysResult = { outcome: "found"; festivals: FestivalDays[] } | { outcome: "failed"; cause: string };
+
 export interface MusicBrainz {
   searchArtists(text: string): Promise<ArtistSearchResult>;
   // The Spotify artist IDs of the current Spotify links of a MusicBrainz artist.
   // Usually there is one link or none.
   spotifyLinks(musicbrainzId: string): Promise<SpotifyLinksResult>;
+  // The days of the events of type "Festival" that have a link to the artist.
+  // An event without a full first date is not in the result.
+  festivalDays(musicbrainzId: string): Promise<FestivalDaysResult>;
 }
 
 // A Spotify artist address, for example https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF.
@@ -124,7 +147,38 @@ export function createMusicBrainz(httpClient: HttpClient): MusicBrainz {
       });
       return { outcome: "found", spotifyIds: [...new Set(ids)] };
     },
+
+    async festivalDays(musicbrainzId) {
+      const festivals: FestivalDays[] = [];
+      for (let page = 0; page < maximumEventPages; page++) {
+        const response = await send(httpClient, musicbrainzEventsUrl(musicbrainzId, page * eventsPerPage), "application/json");
+        if (response instanceof Failure) return { outcome: "failed", cause: response.cause };
+        let body: unknown;
+        try {
+          body = await response.json();
+        } catch {
+          return { outcome: "failed", cause: "The MusicBrainz response is not valid JSON. The MusicBrainz API possibly changed." };
+        }
+        if (!isRecord(body) || !Array.isArray(body.events)) {
+          return { outcome: "failed", cause: 'The MusicBrainz response has no "events" list. The MusicBrainz API possibly changed.' };
+        }
+        for (const event of body.events) {
+          if (!isRecord(event) || event.type !== "Festival" || !isRecord(event["life-span"])) continue;
+          const begin = fullDate(event["life-span"].begin);
+          if (begin === undefined) continue;
+          const end = fullDate(event["life-span"].end);
+          festivals.push({ begin, end: end !== undefined && end >= begin ? end : begin });
+        }
+        const total = typeof body["event-count"] === "number" ? body["event-count"] : 0;
+        if ((page + 1) * eventsPerPage >= total) break;
+      }
+      return { outcome: "found", festivals };
+    },
   };
+}
+
+function fullDate(value: unknown): string | undefined {
+  return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) ? value : undefined;
 }
 
 async function getGenres(httpClient: HttpClient): Promise<Set<string> | Failure> {

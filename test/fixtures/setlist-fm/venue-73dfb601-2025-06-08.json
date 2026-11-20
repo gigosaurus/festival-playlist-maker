@@ -1,0 +1,688 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 7,
+  "setlist": [
+   {
+    "id": "b51a142",
+    "versionId": "g3b6a007c",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:00:02.819+0000",
+    "artist": {
+     "mbid": "892500b7-09a6-4049-ba92-2d192dd70563",
+     "name": "Biffy Clyro",
+     "sortName": "Biffy Clyro",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/biffy-clyro-13d6bdf9.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "A Little Love"
+        },
+        {
+         "name": "A Hunger in Your Haunt"
+        },
+        {
+         "name": "The Captain"
+        },
+        {
+         "name": "That Golden Rule"
+        },
+        {
+         "name": "Biblical"
+        },
+        {
+         "name": "Re-Arrange"
+        },
+        {
+         "name": "Wolves of Winter"
+        },
+        {
+         "name": "Tiny Indoor Fireworks"
+        },
+        {
+         "name": "Space"
+        },
+        {
+         "name": "Different People"
+        },
+        {
+         "name": "Mountains"
+        },
+        {
+         "name": "Black Chandelier"
+        },
+        {
+         "name": "Instant History"
+        },
+        {
+         "name": "Living Is a Problem Because Everything Dies"
+        },
+        {
+         "name": "Bubbles"
+        },
+        {
+         "name": "Many of Horror"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/biffy-clyro/2025/utopia-stage-nuremberg-germany-b51a142.html"
+   },
+   {
+    "id": "73449635",
+    "versionId": "g336a002d",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:08:47.243+0000",
+    "artist": {
+     "mbid": "9ca10859-49e2-44e3-b3d6-04c535207bc2",
+     "name": "Knocked Loose",
+     "sortName": "Knocked Loose",
+     "disambiguation": "hardcore band",
+     "url": "https://www.setlist.fm/setlists/knocked-loose-3c281bf.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Blinding Faith"
+        },
+        {
+         "name": "Don't Reach for Me"
+        },
+        {
+         "name": "Mistakes Like Fractures"
+        },
+        {
+         "name": "Deadringer"
+        },
+        {
+         "name": "Piece by Piece"
+        },
+        {
+         "name": "Where Light Divides the Holler"
+        },
+        {
+         "name": "God Knows"
+        },
+        {
+         "name": "Moss Covers All"
+        },
+        {
+         "name": "Take Me Home"
+        },
+        {
+         "name": "Suffocate"
+        },
+        {
+         "name": "Billy No Mates"
+        },
+        {
+         "name": "Counting Worms"
+        },
+        {
+         "name": "Deep in the Willow"
+        },
+        {
+         "name": "Everything Is Quiet Now"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/knocked-loose/2025/utopia-stage-nuremberg-germany-73449635.html"
+   },
+   {
+    "id": "6346c673",
+    "versionId": "g336a0071",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:00:24.764+0000",
+    "artist": {
+     "mbid": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+     "name": "Weezer",
+     "sortName": "Weezer",
+     "disambiguation": "American rock band",
+     "url": "https://www.setlist.fm/setlists/weezer-33d6a4f9.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "tour": {
+     "name": "2025 EU/UK Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hash Pipe"
+        },
+        {
+         "name": "My Name Is Jonas"
+        },
+        {
+         "name": "Dope Nose"
+        },
+        {
+         "name": "Island in the Sun"
+        },
+        {
+         "name": "Holiday"
+        },
+        {
+         "name": "Undone - The Sweater Song"
+        },
+        {
+         "name": "Pork and Beans"
+        },
+        {
+         "name": "Why Bother?"
+        },
+        {
+         "name": "Perfect Situation"
+        },
+        {
+         "name": "Surf Wax America"
+        },
+        {
+         "name": "No One Else"
+        },
+        {
+         "name": "You Gave Your Love to Me Softly"
+        },
+        {
+         "name": "Beverly Hills"
+        },
+        {
+         "name": "Say It Ain't So"
+        },
+        {
+         "name": "Buddy Holly"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/weezer/2025/utopia-stage-nuremberg-germany-6346c673.html"
+   },
+   {
+    "id": "4344ef33",
+    "versionId": "g3b6a0028",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:08:24.173+0000",
+    "artist": {
+     "mbid": "ca16b398-e6b7-4eaa-a00c-3fe8cf4349f4",
+     "name": "Roy Bianco & Die Abbrunzati Boys",
+     "sortName": "Roy Bianco & Die Abbrunzati Boys",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/roy-bianco-and-die-abbrunzati-boys-7bfe7a1c.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "tour": {
+     "name": "Kult Sommer 2025"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bella Napoli"
+        },
+        {
+         "name": "Brennerautobahn"
+        },
+        {
+         "name": "Velocità"
+        },
+        {
+         "name": "Giro"
+        },
+        {
+         "name": "Goodbye, Arrivederci"
+        },
+        {
+         "name": "Ich liebte die Musik"
+        },
+        {
+         "name": "Sophia Loren"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/roy-bianco-and-die-abbrunzati-boys/2025/utopia-stage-nuremberg-germany-4344ef33.html"
+   },
+   {
+    "id": "3b44ec98",
+    "versionId": "g336a0035",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:08:00.375+0000",
+    "artist": {
+     "mbid": "35581de7-591f-424f-9c64-7b22fd45605e",
+     "name": "Sportfreunde Stiller",
+     "sortName": "Sportfreunde Stiller",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/sportfreunde-stiller-33d6e0a1.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "'54, '74, '90, 2010",
+         "info": "Rock im Park Version"
+        },
+        {
+         "name": "Wunderbaren Jahren"
+        },
+        {
+         "name": "Du bist eine Bank"
+        },
+        {
+         "name": "New York, Rio, Rosenheim"
+        },
+        {
+         "name": "Applaus, Applaus"
+        },
+        {
+         "name": "Für immer Frühling",
+         "cover": {
+          "mbid": "720050a7-aa33-4bb2-a133-01cc98964823",
+          "name": "SOFFIE",
+          "sortName": "Soffie",
+          "disambiguation": "German indie‐pop",
+          "url": "https://www.setlist.fm/setlists/soffie-3e745a3.html"
+         },
+         "with": {
+          "mbid": "720050a7-aa33-4bb2-a133-01cc98964823",
+          "name": "SOFFIE",
+          "sortName": "Soffie",
+          "disambiguation": "German indie‐pop",
+          "url": "https://www.setlist.fm/setlists/soffie-3e745a3.html"
+         }
+        },
+        {
+         "name": "Rock & Roll Queen",
+         "cover": {
+          "mbid": "20e264d7-b4d5-4e49-8931-a9c67ff07f04",
+          "name": "The Subways",
+          "sortName": "Subways, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-subways-2bd6b8fe.html"
+         },
+         "with": {
+          "mbid": "20e264d7-b4d5-4e49-8931-a9c67ff07f04",
+          "name": "The Subways",
+          "sortName": "Subways, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-subways-2bd6b8fe.html"
+         }
+        },
+        {
+         "name": "Ich, Roque",
+         "with": {
+          "mbid": "20e264d7-b4d5-4e49-8931-a9c67ff07f04",
+          "name": "The Subways",
+          "sortName": "Subways, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-subways-2bd6b8fe.html"
+         }
+        },
+        {
+         "name": "1. Wahl"
+        },
+        {
+         "name": "Ein Kompliment"
+        },
+        {
+         "name": "Ich war noch niemals in New York",
+         "cover": {
+          "mbid": "20e903b8-4b5f-414a-a467-dd6e46933d3e",
+          "name": "Udo Jürgens",
+          "sortName": "Jürgens, Udo",
+          "disambiguation": "Austrian–Swiss composer, singer and songwriter",
+          "url": "https://www.setlist.fm/setlists/udo-jurgens-43d68b07.html"
+         }
+        },
+        {
+         "name": "Siehst du das genauso?"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Special Surprise Act",
+    "url": "https://www.setlist.fm/setlist/sportfreunde-stiller/2025/utopia-stage-nuremberg-germany-3b44ec98.html"
+   },
+   {
+    "id": "351a14b",
+    "versionId": "g31c85b3",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-05-12T14:45:51.600+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid",
+         "info": "Riser Screens unveiled"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Itch For The Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan Gunther"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/utopia-stage-nuremberg-germany-351a14b.html"
+   },
+   {
+    "id": "1b51a14c",
+    "versionId": "g2b6a0072",
+    "eventDate": "08-06-2025",
+    "lastUpdated": "2026-01-29T17:00:12.230+0000",
+    "artist": {
+     "mbid": "db008806-16f6-48fc-8521-3d953709689d",
+     "name": "A Day to Remember",
+     "sortName": "Day to Remember, A",
+     "disambiguation": "US post‐hardcore band",
+     "url": "https://www.setlist.fm/setlists/a-day-to-remember-1bd63d44.html"
+    },
+    "venue": {
+     "id": "73dfb601",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861650",
+      "name": "Nuremberg",
+      "state": "Bavaria",
+      "stateCode": "02",
+      "coords": {
+       "lat": 49.4477778,
+       "long": 11.0683333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nuremberg-germany-73dfb601.html"
+    },
+    "tour": {
+     "name": "UK + Europe"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "R. Strauss: Also sprach Zarathustra, Op. 30",
+         "tape": true
+        },
+        {
+         "name": "The Downfall of Us All"
+        },
+        {
+         "name": "I'm Made of Wax, Larry, What Are You Made Of?"
+        },
+        {
+         "name": "2nd Sucks"
+        },
+        {
+         "name": "Right Back at It Again"
+        },
+        {
+         "name": "Bad Blood"
+        },
+        {
+         "name": "Paranoia"
+        },
+        {
+         "name": "Have Faith in Me"
+        },
+        {
+         "name": "All My Friends"
+        },
+        {
+         "name": "Mr. Highway's Thinking About the End"
+        },
+        {
+         "name": "Miracle"
+        },
+        {
+         "name": "LeBron"
+        },
+        {
+         "name": "All I Want"
+        },
+        {
+         "name": "If It Means a Lot to You"
+        },
+        {
+         "name": "Flowers"
+        },
+        {
+         "name": "All Signs Point to Lauderdale"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/a-day-to-remember/2025/utopia-stage-nuremberg-germany-1b51a14c.html"
+   }
+  ]
+ }
+}

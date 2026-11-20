@@ -1,0 +1,326 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "7b5b0694",
+    "versionId": "g2b6d6c46",
+    "eventDate": "02-10-2025",
+    "lastUpdated": "2026-01-22T02:30:02.545+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "1bde6564",
+     "name": "Mortgage Matchup Center",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mortgage-matchup-center-phoenix-az-usa-1bde6564.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "Pretend"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2025/mortgage-matchup-center-phoenix-az-7b5b0694.html"
+   },
+   {
+    "id": "6b5b06c6",
+    "versionId": "g7b780674",
+    "eventDate": "02-10-2025",
+    "lastUpdated": "2025-10-04T07:09:09.624+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bde6564",
+     "name": "Mortgage Matchup Center",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mortgage-matchup-center-phoenix-az-usa-1bde6564.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something",
+         "tape": true,
+         "info": "After the credits rolled, this played as an “After Show” song. I have a video with the song playing."
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/mortgage-matchup-center-phoenix-az-6b5b06c6.html"
+   },
+   {
+    "id": "6b5b06ae",
+    "versionId": "g7378326d",
+    "eventDate": "02-10-2025",
+    "lastUpdated": "2025-10-03T03:30:06.650+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "1bde6564",
+     "name": "Mortgage Matchup Center",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mortgage-matchup-center-phoenix-az-usa-1bde6564.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Thoughts & Prayers"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Necessary Evil"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Nothing Ever After",
+         "cover": {
+          "mbid": "5f43abf6-92a5-468a-a633-b73f94627972",
+          "name": "ILLENIUM",
+          "sortName": "ILLENIUM",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/illenium-73c62ebd.html"
+         }
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Another Life",
+         "info": "Song was restarted due to a fake emergency in the pit"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2025/mortgage-matchup-center-phoenix-az-6b5b06ae.html"
+   },
+   {
+    "id": "35b0177",
+    "versionId": "g63783693",
+    "eventDate": "02-10-2025",
+    "lastUpdated": "2025-10-03T01:38:09.694+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "1bde6564",
+     "name": "Mortgage Matchup Center",
+     "city": {
+      "id": "5308655",
+      "name": "Phoenix",
+      "state": "Arizona",
+      "stateCode": "AZ",
+      "coords": {
+       "lat": 33.4483771,
+       "long": -112.0740373
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mortgage-matchup-center-phoenix-az-usa-1bde6564.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Will You Love Me When I’m Dead"
+        },
+        {
+         "name": "Take Me Under"
+        },
+        {
+         "name": "Death of Me"
+        },
+        {
+         "name": "Forever Overdose"
+        },
+        {
+         "name": "Tonight"
+        },
+        {
+         "name": "Hold Onto Me"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2025/mortgage-matchup-center-phoenix-az-35b0177.html"
+   }
+  ]
+ }
+}

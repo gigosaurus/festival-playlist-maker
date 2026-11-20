@@ -90,7 +90,7 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
   const artistSearches = createArtistSearchQueue(database, musicBrainz, clock);
   const spotify = createSpotify(httpClient, database, clock, settings);
   const setlistFm = createSetlistFm(httpClient);
-  const predictedSongs = createPredictedSongQueue({ database, setlistFm, spotify, clock, settings: settings.prediction });
+  const predictedSongs = createPredictedSongQueue({ database, setlistFm, musicBrainz, spotify, clock, settings: settings.prediction });
   // After a find of the Spotify artist, the predicted songs are calculated, except
   // when they are valid. A different Spotify artist needs a new calculation.
   const spotifyArtists = createSpotifyArtistQueue(database, musicBrainz, spotify, clock, (musicbrainzId, changed) =>

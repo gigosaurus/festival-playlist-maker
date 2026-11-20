@@ -1,0 +1,186 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 2,
+  "setlist": [
+   {
+    "id": "33499c11",
+    "versionId": "g31111bb",
+    "eventDate": "23-04-2026",
+    "lastUpdated": "2026-04-24T03:32:09.245+0000",
+    "artist": {
+     "mbid": "a13e51cc-e031-45aa-92e4-1c92520faa0a",
+     "name": "Dying Wish",
+     "sortName": "Dying Wish",
+     "disambiguation": "Portland hardcore",
+     "url": "https://www.setlist.fm/setlists/dying-wish-1bf0890c.html"
+    },
+    "venue": {
+     "id": "73d63a75",
+     "name": "Hollywood Palladium",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-palladium-los-angeles-ca-usa-73d63a75.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I Don't Belong Anywhere"
+        },
+        {
+         "name": "Watch My Promise Die"
+        },
+        {
+         "name": "A Curse Upon Iron"
+        },
+        {
+         "name": "Symptoms of Survival"
+        },
+        {
+         "name": "I Brought You My Soul (Your World Brought Me Despair)"
+        },
+        {
+         "name": "Cowards Feed, Cowards Bleed"
+        },
+        {
+         "name": "Lost in the Fall"
+        },
+        {
+         "name": "I'll Know You're Not Around"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/dying-wish/2026/hollywood-palladium-los-angeles-ca-33499c11.html"
+   },
+   {
+    "id": "2b499c1a",
+    "versionId": "g331ea83d",
+    "eventDate": "23-04-2026",
+    "lastUpdated": "2026-04-26T23:22:01.138+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d63a75",
+     "name": "Hollywood Palladium",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hollywood-palladium-los-angeles-ca-usa-73d63a75.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "[ost] dreamseeker",
+         "tape": true
+        },
+        {
+         "name": "YOUtopia",
+         "info": "Live debut"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Sung by Shane, fan from crowd"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/hollywood-palladium-los-angeles-ca-2b499c1a.html"
+   }
+  ]
+ }
+}

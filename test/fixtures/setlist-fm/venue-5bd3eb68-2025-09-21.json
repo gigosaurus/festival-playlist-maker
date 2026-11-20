@@ -1,0 +1,1393 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 41,
+  "setlist": [
+   {
+    "id": "b5b397a",
+    "versionId": "g37b9517",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T13:27:43.351+0000",
+    "artist": {
+     "mbid": "653f3412-63c8-4bd8-bce1-a33aaf93a837",
+     "name": "Wage War",
+     "sortName": "Wage War",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/wage-war-23c4544b.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "TOMBSTONE"
+        },
+        {
+         "name": "NAIL5"
+        },
+        {
+         "name": "Godspeed"
+        },
+        {
+         "name": "Low"
+        },
+        {
+         "name": "Circle the Drain"
+        },
+        {
+         "name": "Stitch"
+        },
+        {
+         "name": "BLUR"
+        },
+        {
+         "name": "HAPPY HUNTING"
+        },
+        {
+         "name": "MAGNETIC"
+        },
+        {
+         "name": "Manic"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/wage-war/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b397a.html"
+   },
+   {
+    "id": "b5b3936",
+    "versionId": "g7b7b9a8c",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T13:14:40.405+0000",
+    "artist": {
+     "mbid": "deeea939-7f89-4762-b09f-79269cd70d3b",
+     "name": "Queensrÿche",
+     "sortName": "Queensrÿche",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/queensryche-3d691e3.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Queen of the Reich"
+        },
+        {
+         "name": "Operation: Mindcrime"
+        },
+        {
+         "name": "Take Hold of the Flame"
+        },
+        {
+         "name": "Empire"
+        },
+        {
+         "name": "Eyes of a Stranger"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Start and end times were adjusted due to rain and lightning forcing the festival schedule to be altered.",
+    "url": "https://www.setlist.fm/setlist/queensryche/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b3936.html"
+   },
+   {
+    "id": "b5b35fa",
+    "versionId": "g1b7b6928",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-27T21:32:08.706+0000",
+    "artist": {
+     "mbid": "dde3d9b1-0e44-48bc-b0c9-d739b3570000",
+     "name": "Tech N9ne",
+     "sortName": "Tech N9ne",
+     "disambiguation": "US rapper",
+     "url": "https://www.setlist.fm/setlists/tech-n9ne-1bd68114.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kickiter",
+         "tape": true
+        },
+        {
+         "name": "Roll Call"
+        },
+        {
+         "name": "No Reason (The Mosh Pit Song)"
+        },
+        {
+         "name": "Riotmaker"
+        },
+        {
+         "name": "Straight Out the Gate"
+        },
+        {
+         "name": "Einstein"
+        },
+        {
+         "name": "E.B.A.H."
+        },
+        {
+         "name": "The Beast"
+        },
+        {
+         "name": "Am I a Psycho?"
+        },
+        {
+         "name": "Midwest Choppers"
+        },
+        {
+         "name": "Midwest Choppers 2"
+        },
+        {
+         "name": "Worldwide Choppers"
+        },
+        {
+         "name": "Speedom"
+        },
+        {
+         "name": "K.O.D."
+        },
+        {
+         "name": "Killing You"
+        },
+        {
+         "name": "Stamina",
+         "info": "Followed by band introductions"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Tech N9ne ran out of time and did not perform his full setlist.  His scheduled start time was pushed back from 2:50 to 3:20 due to rain and lightning delays causing the festival schedule to be adjusted.",
+    "url": "https://www.setlist.fm/setlist/tech-n9ne/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35fa.html"
+   },
+   {
+    "id": "b5b35f6",
+    "versionId": "g3b7b3808",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-25T17:16:45.578+0000",
+    "artist": {
+     "mbid": "41f4d85a-0bd7-4602-a3e3-8c47f36efb0a",
+     "name": "Accept",
+     "sortName": "Accept",
+     "disambiguation": "German heavy metal band",
+     "url": "https://www.setlist.fm/setlists/accept-7bd69eb8.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Fast as a Shark",
+         "info": "Without intro"
+        },
+        {
+         "name": "Restless and Wild"
+        },
+        {
+         "name": "Straight Up Jack"
+        },
+        {
+         "name": "Metal Heart",
+         "info": "short"
+        },
+        {
+         "name": "Teutonic Terror"
+        },
+        {
+         "name": "Balls to the Wall",
+         "info": "short"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Without Uwe Lulis. Final show before his departure on September 25th.",
+    "url": "https://www.setlist.fm/setlist/accept/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35f6.html"
+   },
+   {
+    "id": "b5b35f2",
+    "versionId": "g537bcfc9",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-24T23:47:43.504+0000",
+    "artist": {
+     "mbid": "05106775-5d45-4131-aecc-1177f813ba11",
+     "name": "Testament",
+     "sortName": "Testament",
+     "disambiguation": "thrash metal band, originally named Legacy",
+     "url": "https://www.setlist.fm/setlists/testament-6bd68e9a.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Disciples of the Watch",
+         "tape": true,
+         "info": "Intro only"
+        },
+        {
+         "name": "Practice What You Preach"
+        },
+        {
+         "name": "Sins of Omission"
+        },
+        {
+         "name": "More Than Meets the Eye"
+        },
+        {
+         "name": "Infanticide A.I.",
+         "info": "Live debut"
+        },
+        {
+         "name": "The Haunting"
+        },
+        {
+         "name": "Electric Crown"
+        },
+        {
+         "name": "Return to Serenity"
+        },
+        {
+         "name": "Into the Pit"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/testament/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35f2.html"
+   },
+   {
+    "id": "b5b35e2",
+    "versionId": "g4b6683aa",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-10-16T01:20:41.394+0000",
+    "artist": {
+     "mbid": "a13e51cc-e031-45aa-92e4-1c92520faa0a",
+     "name": "Dying Wish",
+     "sortName": "Dying Wish",
+     "disambiguation": "Portland hardcore",
+     "url": "https://www.setlist.fm/setlists/dying-wish-1bf0890c.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "tour": {
+     "name": "Flesh Stays Together"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I Don't Belong Anywhere"
+        },
+        {
+         "name": "Watch My Promise Die"
+        },
+        {
+         "name": "Symptoms of Survival"
+        },
+        {
+         "name": "Cowards Feed, Cowards Bleed"
+        },
+        {
+         "name": "Torn From Your Silhouette"
+        },
+        {
+         "name": "Lost in the Fall"
+        },
+        {
+         "name": "I Brought You My Soul (Your World Brought Me Despair)"
+        },
+        {
+         "name": "I'll Know You're Not Around"
+        },
+        {
+         "name": "Innate Thirst"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/dying-wish/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35e2.html"
+   },
+   {
+    "id": "b5b35de",
+    "versionId": "g1b7b1908",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-26T18:27:44.510+0000",
+    "artist": {
+     "mbid": "93820dd4-86f7-4541-800f-ceca10d32925",
+     "name": "Kami Kehoe",
+     "sortName": "Kehoe, Kami",
+     "disambiguation": "American singer",
+     "url": "https://www.setlist.fm/setlists/kami-kehoe-3e6ad5f.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DOPAMINE"
+        },
+        {
+         "name": "SLEEP WHEN IM DEAD"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/kami-kehoe/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35de.html"
+   },
+   {
+    "id": "b5b35da",
+    "versionId": "g1b1a69dc",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2026-06-01T16:39:11.424+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Will You Love Me When I’m Dead"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b5b35da.html"
+   },
+   {
+    "id": "b43e5da",
+    "versionId": "g6b7b9a9e",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T13:11:39.750+0000",
+    "artist": {
+     "mbid": "5cf3bae7-166f-44c2-b48f-63ddea9d4fb2",
+     "name": "Crown the Empire",
+     "sortName": "Crown the Empire",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/crown-the-empire-43deb38f.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Zero"
+        },
+        {
+         "name": "In Another Life"
+        },
+        {
+         "name": "Superstar"
+        },
+        {
+         "name": "The Fallout"
+        },
+        {
+         "name": "DOGMA"
+        },
+        {
+         "name": "BLURRY (Out of Place)"
+        },
+        {
+         "name": "Makeshift Chemistry"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Time slot pushed back to 1:35-2:05 due to rain and lightning pushing back festival doors opening.",
+    "url": "https://www.setlist.fm/setlist/crown-the-empire/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-b43e5da.html"
+   },
+   {
+    "id": "7b5b3e8c",
+    "versionId": "g2b7bf85e",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T11:43:07.415+0000",
+    "artist": {
+     "mbid": "4cda7e49-b8cc-4efe-a8f6-b294d812496d",
+     "name": "Slaughter to Prevail",
+     "sortName": "Slaughter to Prevail",
+     "disambiguation": "Russian deathcore from Yekarinburg",
+     "url": "https://www.setlist.fm/setlists/slaughter-to-prevail-6bc5e6de.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Banditos"
+        },
+        {
+         "name": "Baba Yaga"
+        },
+        {
+         "name": "Bratva"
+        },
+        {
+         "name": "Viking"
+        },
+        {
+         "name": "Russian Grizzly in America"
+        },
+        {
+         "name": "Kid of Darkness"
+        },
+        {
+         "name": "Demolisher"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/slaughter-to-prevail/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-7b5b3e8c.html"
+   },
+   {
+    "id": "7b5b3e84",
+    "versionId": "g637b9aa7",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T13:10:20.785+0000",
+    "artist": {
+     "mbid": "681b5ab2-b7dd-4dff-85e9-1e84503ad36a",
+     "name": "Memphis May Fire",
+     "sortName": "Memphis May Fire",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/memphis-may-fire-43d60bcb.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Misery"
+        },
+        {
+         "name": "Somebody"
+        },
+        {
+         "name": "Overdose"
+        },
+        {
+         "name": "Make Believe"
+        },
+        {
+         "name": "Chaotic"
+        },
+        {
+         "name": "Hell is Empty"
+        },
+        {
+         "name": "Blood & Water"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/memphis-may-fire/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-7b5b3e84.html"
+   },
+   {
+    "id": "7b5b3e80",
+    "versionId": "g1b7bc9fc",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-25T01:40:39.963+0000",
+    "artist": {
+     "mbid": "b9ca7096-68de-455f-8a36-1f1ebb2abf2a",
+     "name": "Escape the Fate",
+     "sortName": "Escape the Fate",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/escape-the-fate-43d69fd3.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "One for the Money"
+        },
+        {
+         "name": "Gorgeous Nightmare"
+        },
+        {
+         "name": "H8 MY SELF"
+        },
+        {
+         "name": "Broken Heart"
+        },
+        {
+         "name": "Low"
+        },
+        {
+         "name": "The Flood"
+        },
+        {
+         "name": "This War Is Ours (The Guillotine II)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/escape-the-fate/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-7b5b3e80.html"
+   },
+   {
+    "id": "735b3e89",
+    "versionId": "g737bfeb1",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T10:36:19.854+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Resident Evil Title Screen Intro",
+         "tape": true
+        },
+        {
+         "name": "E.V.E. Intro",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Project Angeldust Interlude",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "a bulleT w/ my namE On",
+         "info": "Live debut",
+         "with": {
+          "mbid": "0f0ad748-667e-487e-b3b0-008e040dc1cd",
+          "name": "Spencer Chamberlain",
+          "sortName": "Chamberlain, Spencer",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spencer-chamberlain-53d6f785.html"
+         }
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "\"Project Kingslayer\" version"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "medicine / Oh No / Seen It All Before / True Friends / a bulleT w/ my namE On / The House of Wolves / Pray for Plagues / The Comedown / Antivist",
+         "tape": true
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan brought up on stage to assist with vocals"
+        },
+        {
+         "name": "Follow You",
+         "info": "Acoustic"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "E.V.E. Interlude",
+         "tape": true,
+         "info": "Deploys Mobile Soul Purification Module also known as Oli"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-735b3e89.html"
+   },
+   {
+    "id": "635bc2f7",
+    "versionId": "g437b87e7",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T01:00:53.369+0000",
+    "artist": {
+     "mbid": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
+     "name": "Evanescence",
+     "sortName": "Evanescence",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/evanescence-43d6bfc7.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Afterlife"
+        },
+        {
+         "name": "What You Want"
+        },
+        {
+         "name": "Going Under"
+        },
+        {
+         "name": "Take Cover"
+        },
+        {
+         "name": "Yeah Right"
+        },
+        {
+         "name": "Call Me When You're Sober"
+        },
+        {
+         "name": "Wasted on You"
+        },
+        {
+         "name": "End of the Dream"
+        },
+        {
+         "name": "Fight Like a Girl"
+        },
+        {
+         "name": "Better Without You"
+        },
+        {
+         "name": "Imaginary"
+        },
+        {
+         "name": "Use My Voice"
+        },
+        {
+         "name": "My Immortal"
+        },
+        {
+         "name": "Bring Me to Life",
+         "info": "First performance with Paul McCoy since 2016",
+         "with": {
+          "mbid": "f0ff291a-4005-4353-a854-b2a83e4e6f34",
+          "name": "Paul McCoy",
+          "sortName": "McCoy, Paul",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/paul-mccoy-73d6867d.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/evanescence/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-635bc2f7.html"
+   },
+   {
+    "id": "635bc2eb",
+    "versionId": "g5b7b8314",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T04:16:51.636+0000",
+    "artist": {
+     "mbid": "9ca10859-49e2-44e3-b3d6-04c535207bc2",
+     "name": "Knocked Loose",
+     "sortName": "Knocked Loose",
+     "disambiguation": "hardcore band",
+     "url": "https://www.setlist.fm/setlists/knocked-loose-3c281bf.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Blinding Faith"
+        },
+        {
+         "name": "Don't Reach for Me"
+        },
+        {
+         "name": "Mistakes Like Fractures"
+        },
+        {
+         "name": "God Knows"
+        },
+        {
+         "name": "Moss Covers All"
+        },
+        {
+         "name": "Take Me Home"
+        },
+        {
+         "name": "Sit & Mourn"
+        },
+        {
+         "name": "Suffocate"
+        },
+        {
+         "name": "Billy No Mates"
+        },
+        {
+         "name": "Counting Worms"
+        },
+        {
+         "name": "Deep in the Willow"
+        },
+        {
+         "name": "Everything Is Quiet Now"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/knocked-loose/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-635bc2eb.html"
+   },
+   {
+    "id": "5b43ff18",
+    "versionId": "g7b7b9a20",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T12:54:14.086+0000",
+    "artist": {
+     "mbid": "d5a66bb2-c0ef-48cc-abfd-6debde3b0088",
+     "name": "Fox Lake",
+     "sortName": "Fox Lake",
+     "disambiguation": "Denver hardcore/nu-metal",
+     "url": "https://www.setlist.fm/setlists/fox-lake-3bf20880.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/fox-lake/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-5b43ff18.html"
+   },
+   {
+    "id": "53436f39",
+    "versionId": "g4b7933a2",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-10-10T09:01:15.753+0000",
+    "artist": {
+     "mbid": "11b34f7b-42d0-4d16-a96f-f47a517cca7d",
+     "name": "Return to Dust",
+     "sortName": "Return to Dust",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/return-to-dust-73f9367d.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Summer Rain"
+        },
+        {
+         "name": "Disarray"
+        },
+        {
+         "name": "Shine"
+        },
+        {
+         "name": "Abyss"
+        },
+        {
+         "name": "Black Road"
+        },
+        {
+         "name": "Bored"
+        },
+        {
+         "name": "Belly Up"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Face Down and Downfall were on the printed setlist, but were not played",
+    "url": "https://www.setlist.fm/setlist/return-to-dust/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-53436f39.html"
+   },
+   {
+    "id": "4b43ff1a",
+    "versionId": "g737b9a19",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-22T12:55:16.263+0000",
+    "artist": {
+     "mbid": "a7629008-f140-4880-9b4b-ced9a730b2c1",
+     "name": "Orthodox",
+     "sortName": "Orthodox",
+     "disambiguation": "straight edge hardcore band from Nashville, TN, US",
+     "url": "https://www.setlist.fm/setlists/orthodox-2bff80e2.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sacred Place"
+        },
+        {
+         "name": "Searching for a Pulse"
+        },
+        {
+         "name": "Head on a Spike"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/orthodox/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-4b43ff1a.html"
+   },
+   {
+    "id": "4343ff1b",
+    "versionId": "g437bebff",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-24T01:03:08.228+0000",
+    "artist": {
+     "mbid": "c4a3dc14-e745-4ca8-af27-e89ff19232d3",
+     "name": "156/Silence",
+     "sortName": "156/Silence",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/156silence-2bc84c5a.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Target Acquired"
+        },
+        {
+         "name": "Product Placement"
+        },
+        {
+         "name": "Change Agent"
+        },
+        {
+         "name": "Blood Loss"
+        },
+        {
+         "name": "Our Parting Ways",
+         "info": "New unreleased song live debut"
+        },
+        {
+         "name": "Sleep Spikes"
+        },
+        {
+         "name": "Better Written Villain"
+        },
+        {
+         "name": "Character Development (Cold Start)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/156silence/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-4343ff1b.html"
+   },
+   {
+    "id": "35b397f",
+    "versionId": "g4b7bfbce",
+    "eventDate": "21-09-2025",
+    "lastUpdated": "2025-09-23T13:31:41.035+0000",
+    "artist": {
+     "mbid": "fabb37f8-eb2a-4cc1-a72a-b56935bbb72d",
+     "name": "Three Days Grace",
+     "sortName": "Three Days Grace",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/three-days-grace-33d6bcd9.html"
+    },
+    "venue": {
+     "id": "5bd3eb68",
+     "name": "Highland Festival Grounds at the Kentucky Expo Center",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-usa-5bd3eb68.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "It's All Over",
+         "tape": true
+        },
+        {
+         "name": "Animal I Have Become"
+        },
+        {
+         "name": "So Called Life"
+        },
+        {
+         "name": "Break"
+        },
+        {
+         "name": "Painkiller"
+        },
+        {
+         "name": "Home"
+        },
+        {
+         "name": "Mayday"
+        },
+        {
+         "name": "I Hate Everything About You"
+        },
+        {
+         "name": "Kill Me Fast"
+        },
+        {
+         "name": "The Good Life"
+        },
+        {
+         "name": "Never Too Late"
+        },
+        {
+         "name": "Riot"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/three-days-grace/2025/highland-festival-grounds-at-the-kentucky-expo-center-louisville-ky-35b397f.html"
+   }
+  ]
+ }
+}

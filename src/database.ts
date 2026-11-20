@@ -115,6 +115,17 @@ const migrations: readonly string[] = [
     fallback INTEGER NOT NULL CHECK (fallback IN (0, 1)),
     calculated_at TEXT NOT NULL
   ) STRICT`,
+  // The venue-and-date results (#13): festival_set is 1 when setlist.fm had
+  // enough artists at the venue on the date for a festival set. venue_id is the
+  // setlist.fm venue ID. date is YYYY-MM-DD. checked_at is the time of the
+  // setlist.fm request. The table keeps no setlists and no artists (ADR-0002).
+  `CREATE TABLE venue_date (
+    venue_id TEXT NOT NULL,
+    date TEXT NOT NULL,
+    festival_set INTEGER NOT NULL CHECK (festival_set IN (0, 1)),
+    checked_at TEXT NOT NULL,
+    PRIMARY KEY (venue_id, date)
+  ) STRICT`,
 ];
 
 export function openDatabase(path: string): Database {

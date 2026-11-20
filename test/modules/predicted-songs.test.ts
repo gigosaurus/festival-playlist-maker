@@ -2,13 +2,16 @@ import assert from "node:assert/strict";
 import { test, type TestContext } from "node:test";
 import { openDatabase } from "../../src/database.ts";
 import { setlistFmLimitWait, withServiceRules } from "../../src/http-client.ts";
-import { createMusicBrainz } from "../../src/musicbrainz.ts";
+import { createMusicBrainz, musicbrainzEventsUrl } from "../../src/musicbrainz.ts";
 import {
   createPredictedSongQueue,
   createSongPrediction,
   findPredictedSongs,
   findTrack,
+  findVenueDate,
+  saveVenueDate,
   scoreSongs,
+  type CheckedShow,
 } from "../../src/predicted-songs.ts";
 import { createSessions } from "../../src/sessions.ts";
 import { createSetlistFm, type Show } from "../../src/setlist-fm.ts";
@@ -17,12 +20,14 @@ import { createSpotifyArtistQueue, saveFoundSpotifyArtist, setSpotifyArtistByHan
 import { artistTracksQuery, createSpotify, songQuery, spotifyTrackSearchUrl } from "../../src/spotify.ts";
 import { FakeClock } from "../support/fake-clock.ts";
 import { FakeHttpClient, type RecordedResponse } from "../support/fake-http-client.ts";
-import { musicbrainzIds, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
+import { busyResponse, musicbrainzIds, respondWithRecordedMusicBrainz } from "../support/musicbrainz.ts";
 import {
+  recordedVenueDates,
   respondWithRecordedSetlistFm,
   setlistFmRateLimitResponse,
   setlistFmRecordedAt,
   setlistFmSetlistsUrl,
+  setlistFmVenueSetlistsUrl,
 } from "../support/setlist-fm.ts";
 import {
   predictedArtists,
@@ -71,18 +76,20 @@ function setUp(t: TestContext, predictionSettings: PredictionSettings = settings
   respondWithRecordedSetlistFm(respondTo);
   const httpClient = withServiceRules(transport, appSettings, clock);
   const setlistFm = createSetlistFm(httpClient);
+  const musicBrainz = createMusicBrainz(httpClient);
   const spotify = createSpotify(httpClient, database, clock, appSettings);
   for (const { musicbrainzId, spotifyArtist } of predictedArtists) {
     saveFoundSpotifyArtist(database, clock, musicbrainzId, { artist: spotifyArtist, source: "musicbrainz" });
   }
-  const dependencies = { database, setlistFm, spotify, clock, settings: predictionSettings };
+  const dependencies = { database, setlistFm, musicBrainz, spotify, clock, settings: predictionSettings };
   const prediction = createSongPrediction(dependencies);
   const queue = createPredictedSongQueue(dependencies);
   const sent = (prefix: string) => transport.requests.filter(({ url }) => url.startsWith(prefix));
-  return { database, clock, transport, setlistFm, spotify, prediction, queue, httpClient, appSettings, sent };
+  return { database, clock, transport, setlistFm, musicBrainz, spotify, prediction, queue, httpClient, appSettings, sent };
 }
 
 const setlistRequests = "https://api.setlist.fm/";
+const musicbrainzEventRequests = "https://musicbrainz.org/ws/2/event";
 const trackSearches = "https://api.spotify.com/v1/search";
 
 test("each recorded track search has its query in track-searches.json", () => {
@@ -104,6 +111,45 @@ test("setlist.fm gives the shows of an artist, with the tape songs marked", asyn
   assert.equal(first!.songs.length, 16);
   assert.deepEqual(first!.songs[0], { name: "Pray for Plagues", tape: false });
   assert.deepEqual(first!.songs.find((song) => song.name === "Memorial"), { name: "Memorial", tape: true });
+  assert.equal(first!.venueId, "3bd634d0");
+  assert.equal(first!.tour, "Count Your Blessings | Repented");
+});
+
+// Reading Festival 2025 (Little John's Farm) and Hellfest 2026 (Mainstage 01).
+const reading = { venueId: "63d6cecf", date: new Date("2025-08-23T00:00:00Z") };
+const hellfestMainStage = { venueId: "43df83a7", date: new Date("2026-06-18T00:00:00Z") };
+// Two shows that are not festival sets: Madison Square Garden (4 artists), and
+// Las Vegas "Purple Stage" (8 artists), which is not a festival on MusicBrainz.
+const madisonSquareGarden = { venueId: "23d63cc7", date: new Date("2026-05-02T00:00:00Z") };
+const purpleStage = { venueId: "7bdf8eac", date: new Date("2026-04-25T00:00:00Z") };
+
+test("setlist.fm gives the number of artists at a venue on a date", async (t) => {
+  const { setlistFm } = setUp(t);
+
+  // Reading has 45 setlists on 3 pages, so the count is the total.
+  assert.deepEqual(await setlistFm.venueArtists(reading.venueId, reading.date), { outcome: "found", artists: 45 });
+  // setlist.fm has a venue for each stage of some festivals. The main stage of Hellfest has 5 artists on that date.
+  assert.deepEqual(await setlistFm.venueArtists(hellfestMainStage.venueId, hellfestMainStage.date), { outcome: "found", artists: 5 });
+});
+
+test("setlist.fm gives 0 artists for a venue and date with no setlists", async (t) => {
+  const { setlistFm, transport } = setUp(t);
+  transport.respondTo("GET", setlistFmVenueSetlistsUrl("unknown", reading.date), {
+    status: 404,
+    body: '{"code":404,"status":"Not Found","message":"not found"}',
+  });
+
+  assert.deepEqual(await setlistFm.venueArtists("unknown", reading.date), { outcome: "found", artists: 0 });
+});
+
+test("one artist with two setlists on one date is one artist", async (t) => {
+  const { setlistFm, transport } = setUp(t);
+  const setlist = (mbid: string) => ({ artist: { mbid, name: mbid }, eventDate: "23-08-2025" });
+  transport.respondTo("GET", setlistFmVenueSetlistsUrl("club", reading.date), {
+    body: JSON.stringify({ setlist: [setlist("a"), setlist("a"), setlist("b")], total: 3, page: 1, itemsPerPage: 20 }),
+  });
+
+  assert.deepEqual(await setlistFm.venueArtists("club", reading.date), { outcome: "found", artists: 2 });
 });
 
 test("setlist.fm gives “no setlists” for an artist that it has no setlists of", async (t) => {
@@ -124,8 +170,40 @@ test("the last page of the setlists is marked", async (t) => {
 
 const now = new Date("2027-01-01T00:00:00Z");
 
-function show(date: string, ...songs: (string | { name: string; tape: true })[]): Show {
-  return { date: new Date(`${date}T00:00:00Z`), songs: songs.map((song) => (typeof song === "string" ? { name: song, tape: false } : song)) };
+// The festival days of Bring Me the Horizon in the look-back period, in the recorded
+// MusicBrainz events: Rock am Ring, Rock im Park, Sweden Rock, Rock for People,
+// Nova Rock, Hellfest, Graspop, Tons of Rock, Tuska, Rock in Rio and Furnace Fest.
+const musicbrainzFestivalDays = [
+  "2025-06-06", "2025-06-08", "2026-06-06", "2026-06-12", "2026-06-14", "2026-06-18", "2026-06-20", "2026-06-24", "2026-06-28", "2026-09-05", "2026-10-11",
+];
+// The dates with 10 or more artists at the venue in the recorded setlist.fm searches:
+// Reading, Leeds, Louder Than Life, Rock for People, Tons of Rock, Provinssi, Tuska, Sziget and Furnace Fest.
+const setlistFmFestivalDays = ["2025-08-23", "2025-08-24", "2025-09-21", "2026-06-12", "2026-06-24", "2026-06-27", "2026-06-28", "2026-08-14", "2026-10-11"];
+// The festival sets: the dates from MusicBrainz or from setlist.fm.
+const recordedFestivalSets = [...new Set([...musicbrainzFestivalDays, ...setlistFmFestivalDays])].sort();
+
+function show(date: string, ...songs: (string | { name: string; tape: true })[]): CheckedShow {
+  return {
+    date: new Date(`${date}T00:00:00Z`),
+    songs: songs.map((song) => (typeof song === "string" ? { name: song, tape: false } : song)),
+    festivalSet: false,
+  };
+}
+
+function festivalSet(date: string, ...songs: string[]): CheckedShow {
+  return { ...show(date, ...songs), festivalSet: true };
+}
+
+function tourShow(tour: string, date: string, ...songs: string[]): CheckedShow {
+  return { ...show(date, ...songs), tour };
+}
+
+function scoreOf(scored: { name: string; score: number }[], name: string): number | undefined {
+  return scored.find((song) => song.name === name)?.score;
+}
+
+function near(actual: number | undefined, expected: number, message: string): void {
+  assert.ok(actual !== undefined && Math.abs(actual - expected) < 0.01, `${message}: ${actual}, not ${expected}`);
 }
 
 test("the score of a song is the sum of the weights of its shows, and the weight halves for each 6 months of age", () => {
@@ -165,6 +243,81 @@ test("the look-back period and the half-life are settings", () => {
   assert.ok(Math.abs(scored[0]!.score - 0.5) < 0.01);
 });
 
+test("a festival set counts 2", () => {
+  const scored = scoreSongs([festivalSet("2027-01-01", "Festival"), show("2027-01-01", "Club")], now, settings);
+
+  near(scoreOf(scored, "Festival"), 2, "Festival");
+  near(scoreOf(scored, "Club"), 1, "Club");
+  assert.deepEqual(scored.map((song) => song.name), ["Festival", "Club"], "Festival sets count more than tour shows");
+});
+
+test("all the shows of one tour together count a maximum of 3 shows", () => {
+  const longTour = ["2027-01-01", "2027-01-01", "2027-01-01", "2027-01-01", "2027-01-01", "2027-01-01"].map((date) =>
+    tourShow("Arena Tour", date, "Tour song"),
+  );
+  const scored = scoreSongs([...longTour, tourShow("Short Tour", "2027-01-01", "Short tour song"), show("2027-01-01", "One-off")], now, settings);
+
+  // 6 shows of one tour count 3. Each show counts 3/6.
+  near(scoreOf(scored, "Tour song"), 3, "Tour song");
+  near(scoreOf(scored, "Short tour song"), 1, "A tour with 3 shows or fewer");
+  near(scoreOf(scored, "One-off"), 1, "A show without a tour");
+});
+
+test("the tour limit keeps the age of each show", () => {
+  const scored = scoreSongs(
+    [1, 2, 3, 4].map(() => tourShow("Tour", "2027-01-01", "New")).concat([1, 2, 3, 4].map(() => tourShow("Tour", "2026-07-02", "Old"))),
+    now,
+    settings,
+  );
+
+  // 8 shows count 3, so each show counts 3/8 of its weight.
+  near(scoreOf(scored, "New"), 4 * (3 / 8), "New");
+  near(scoreOf(scored, "Old"), 4 * (3 / 8) * 0.5, "Old");
+});
+
+test("festival sets with a tour name are not in the tour limit", () => {
+  // setlist.fm often gives a tour name, for example "Summer Shows 2026", to festival sets.
+  const scored = scoreSongs(
+    [
+      ...[1, 2, 3, 4, 5].map(() => ({ ...festivalSet("2027-01-01", "Festival song"), tour: "Summer Shows" })),
+      ...[1, 2, 3, 4].map(() => tourShow("Summer Shows", "2027-01-01", "Club song")),
+    ],
+    now,
+    settings,
+  );
+
+  near(scoreOf(scored, "Festival song"), 10, "Festival song");
+  near(scoreOf(scored, "Club song"), 3, "Club song");
+});
+
+test("the festival set weight and the tour limit are settings", () => {
+  const shows = [festivalSet("2027-01-01", "Festival"), ...[1, 2, 3, 4].map(() => tourShow("Tour", "2027-01-01", "Tour song"))];
+
+  const scored = scoreSongs(shows, now, { ...settings, festivalSetWeight: 5, tourShowLimit: 2 });
+
+  near(scoreOf(scored, "Festival"), 5, "Festival");
+  near(scoreOf(scored, "Tour song"), 2, "Tour song");
+});
+
+test("the recorded shows of Bring Me the Horizon: festival sets count more than the shows of a long tour", async (t) => {
+  const { setlistFm } = setUp(t);
+  const shows: Show[] = [];
+  for (const page of [1, 2, 3]) {
+    const result = await setlistFm.artistSetlists(bringMeTheHorizon.musicbrainzId, page);
+    if (result.outcome === "found") shows.push(...result.shows);
+  }
+  const festivalSets = new Set(recordedFestivalSets);
+  const checked = shows.map((each) => ({ ...each, festivalSet: festivalSets.has(each.date.toISOString().slice(0, 10)) }));
+  const before = scoreSongs(checked.map((each) => ({ ...each, festivalSet: false, tour: undefined })), setlistFmRecordedAt, settings);
+  const after = scoreSongs(checked, setlistFmRecordedAt, settings);
+  const position = (scored: { name: string }[], name: string) => scored.findIndex((song) => song.name === name);
+
+  // "The House of Wolves" is mostly from the 17 shows of "N. American Ascension Program 2".
+  // "AmEN!" is mostly from festival sets.
+  assert.ok(position(before, "The House of Wolves") < position(before, "AmEN!"));
+  assert.ok(position(after, "AmEN!") < position(after, "The House of Wolves"));
+});
+
 test("a song gets the track of the same artist with the same name, before a live version", () => {
   const tracks = [
     { id: "other", name: "Throne", artistIds: ["someone-else"] },
@@ -184,14 +337,109 @@ test("the predicted songs are a maximum of 10 Spotify tracks in order of score",
   const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
 
   assert.deepEqual(result, { outcome: "predicted", trackIds: bringMeTheHorizonTracks, fallback: false });
-  // The setlists of the last 18 months are on 3 pages.
+  // The setlists of the last 18 months are on 3 pages. Then 1 MusicBrainz request
+  // for the festivals, and 1 setlist.fm search for each venue and date that is not a MusicBrainz festival day.
+  const urls = sent(setlistRequests).map(({ url }) => url);
   assert.deepEqual(
-    sent(setlistRequests).map(({ url }) => url),
+    urls.slice(0, 3),
     [1, 2, 3].map((page) => setlistFmSetlistsUrl(bringMeTheHorizon.musicbrainzId, page)),
+  );
+  assert.deepEqual(sent(musicbrainzEventRequests).map(({ url }) => url), [musicbrainzEventsUrl(bringMeTheHorizon.musicbrainzId, 0)]);
+  assert.deepEqual(
+    new Set(urls.slice(3)),
+    new Set(
+      recordedVenueDates()
+        .filter(({ date }) => !musicbrainzFestivalDays.includes(date.toISOString().slice(0, 10)))
+        .map(({ venueId, date }) => setlistFmVenueSetlistsUrl(venueId, date)),
+    ),
   );
   // One search for each song, until 10 songs have a track.
   assert.equal(sent(trackSearches).length, 10);
   assert.equal(sent(trackSearches)[0]!.url, spotifyTrackSearchUrl(songQuery("DArkSide", "Bring Me The Horizon")));
+});
+
+test("a show is a festival set when MusicBrainz has a festival of the artist on the date, or when setlist.fm has 10 or more artists at the venue", async (t) => {
+  const { prediction, database, sent } = setUp(t);
+
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  const festivalSets = database.prepare("SELECT date FROM venue_date WHERE festival_set = 1 ORDER BY date").all().map(({ date }) => date);
+  assert.deepEqual(festivalSets, recordedFestivalSets);
+  // Hellfest has only 5 artists at "Mainstage 01" on setlist.fm, but MusicBrainz has the festival. No setlist.fm search is necessary.
+  assert.equal(findVenueDate(database, hellfestMainStage.venueId, hellfestMainStage.date)?.festivalSet, true);
+  assert.ok(!sent(setlistRequests).some(({ url }) => url === setlistFmVenueSetlistsUrl(hellfestMainStage.venueId, hellfestMainStage.date)));
+  assert.equal(findVenueDate(database, madisonSquareGarden.venueId, madisonSquareGarden.date)?.festivalSet, false);
+  assert.equal(findVenueDate(database, purpleStage.venueId, purpleStage.date)?.festivalSet, false);
+});
+
+test("MusicBrainz gives the days of the festival events of an artist", async (t) => {
+  const { musicBrainz } = setUp(t);
+
+  const result = await musicBrainz.festivalDays(bringMeTheHorizon.musicbrainzId);
+
+  assert.equal(result.outcome, "found");
+  if (result.outcome !== "found") return;
+  // A festival day, and a festival of 3 days. "Outbreak Presents" in Manchester is a concert, so it is not in the result.
+  assert.ok(result.festivals.some(({ begin, end }) => begin === "2026-06-18" && end === "2026-06-18"), "Hellfest 2026, Thursday");
+  assert.ok(result.festivals.some(({ begin, end }) => begin === "2027-06-04" && end === "2027-06-06"), "Rock am Ring 2027");
+  assert.ok(!result.festivals.some(({ begin }) => begin === "2026-07-10"));
+});
+
+test("a MusicBrainz failure stops the calculation with its cause", async (t) => {
+  const { prediction, transport, database } = setUp(t);
+  transport.respondTo("GET", musicbrainzEventsUrl(bringMeTheHorizon.musicbrainzId, 0), busyResponse);
+
+  const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  assert.equal(result.outcome, "failed");
+  assert.match(result.outcome === "failed" ? result.cause : "", /MusicBrainz was busy/);
+  assert.equal(findVenueDate(database, madisonSquareGarden.venueId, madisonSquareGarden.date), undefined);
+});
+
+test("an artist with no shows in the look-back period gets no MusicBrainz request", async (t) => {
+  const { prediction, sent } = setUp(t);
+
+  await prediction.predict(ghostJapan.musicbrainzId);
+
+  assert.deepEqual(sent(musicbrainzEventRequests), []);
+});
+
+test("the result for each venue and date is stored and used again without a new setlist.fm request", async (t) => {
+  const { prediction, sent } = setUp(t);
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+  const first = sent(setlistRequests).length;
+
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  // Only the 3 setlist pages again.
+  assert.equal(sent(setlistRequests).length, first + 3);
+});
+
+test("a result “not a festival set” from less than 30 days after the date is checked again", async (t) => {
+  const { prediction, database, sent } = setUp(t);
+  const day = 24 * 60 * 60 * 1000;
+  // Reading, checked 2 days after the date, when setlist.fm had few setlists.
+  saveVenueDate(database, reading.venueId, reading.date, { festivalSet: false, checkedAt: new Date(reading.date.getTime() + 2 * day) });
+  // Madison Square Garden, checked 40 days after the date.
+  saveVenueDate(database, madisonSquareGarden.venueId, madisonSquareGarden.date, {
+    festivalSet: false,
+    checkedAt: new Date(madisonSquareGarden.date.getTime() + 40 * day),
+  });
+
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  const urls = sent(setlistRequests).map(({ url }) => url);
+  assert.ok(urls.includes(setlistFmVenueSetlistsUrl(reading.venueId, reading.date)));
+  assert.ok(!urls.includes(setlistFmVenueSetlistsUrl(madisonSquareGarden.venueId, madisonSquareGarden.date)));
+  assert.equal(findVenueDate(database, reading.venueId, reading.date)?.festivalSet, true);
+});
+
+test("the festival set threshold is a setting", async (t) => {
+  const { prediction, database } = setUp(t, { ...settings, festivalSetArtists: 8 });
+
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  assert.equal(findVenueDate(database, purpleStage.venueId, purpleStage.date)?.festivalSet, true);
 });
 
 test("a song with no Spotify recording is not in the result", async (t) => {
@@ -248,6 +496,9 @@ test("the store contains only the Spotify track IDs, the mark and the calculatio
 
   const columns = database.prepare("SELECT name FROM pragma_table_info('predicted_songs')").all().map((row) => row.name);
   assert.deepEqual(columns, ["musicbrainz_id", "track_ids", "fallback", "calculated_at"]);
+  // The venue-and-date results keep only the venue ID, the date and the result.
+  const venueColumns = database.prepare("SELECT name FROM pragma_table_info('venue_date')").all().map((row) => row.name);
+  assert.deepEqual(venueColumns, ["venue_id", "date", "festival_set", "checked_at"]);
   const rows = database.prepare("SELECT * FROM predicted_songs ORDER BY musicbrainz_id").all();
   // The calculation time is the end of the calculation. The pauses between requests move the fake clock.
   for (const row of rows) assert.ok(new Date(String(row.calculated_at)) >= setlistFmRecordedAt);
@@ -292,12 +543,14 @@ test("a recalculation replaces a valid result", async (t) => {
   queue.calculate([bringMeTheHorizon.musicbrainzId]);
   await queue.idle();
   const first = findPredictedSongs(database, bringMeTheHorizon.musicbrainzId)!.calculatedAt;
+  const firstRequests = sent(setlistRequests).length;
   clock.advance(60 * 60 * 1000);
 
   queue.calculate([bringMeTheHorizon.musicbrainzId], { again: true });
   await queue.idle();
 
-  assert.equal(sent(setlistRequests).length, 6);
+  // The second calculation gets the 3 setlist pages again, and uses the stored venue-and-date results.
+  assert.equal(sent(setlistRequests).length, firstRequests + 3);
   const second = findPredictedSongs(database, bringMeTheHorizon.musicbrainzId)!;
   assert.ok(second.calculatedAt.getTime() > first.getTime() + 60 * 60 * 1000);
   assert.deepEqual(second.trackIds, bringMeTheHorizonTracks);

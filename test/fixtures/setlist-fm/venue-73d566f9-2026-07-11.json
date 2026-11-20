@@ -1,0 +1,559 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 8,
+  "setlist": [
+   {
+    "id": "7b765a64",
+    "versionId": "g23074cff",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-11T11:35:21.779+0000",
+    "artist": {
+     "mbid": "f6fda393-9536-460e-992b-7670d56904d3",
+     "name": "Still In Love",
+     "sortName": "Love, Still In",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/still-in-love-13e0fded.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/still-in-love/2026/bowlers-exhibition-centre-manchester-england-7b765a64.html"
+   },
+   {
+    "id": "7b765a60",
+    "versionId": "g430487d3",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-13T12:31:02.573+0000",
+    "artist": {
+     "mbid": "e87c14c7-d22d-4f9c-b564-2d66af0cc120",
+     "name": "HERIOT",
+     "sortName": "HERIOT",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/heriot-2bf048d6.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Commander of Pain"
+        },
+        {
+         "name": "Siege Lord"
+        },
+        {
+         "name": "Demure"
+        },
+        {
+         "name": "Foul Void"
+        },
+        {
+         "name": "Soul Chasm"
+        },
+        {
+         "name": "Solvent Gaze"
+        },
+        {
+         "name": "Mourn"
+        },
+        {
+         "name": "Master of Deceit"
+        },
+        {
+         "name": "Opaline"
+        },
+        {
+         "name": "At the Fortress Gate"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/heriot/2026/bowlers-exhibition-centre-manchester-england-7b765a60.html"
+   },
+   {
+    "id": "73765a65",
+    "versionId": "g33074c05",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-11T11:34:17.304+0000",
+    "artist": {
+     "mbid": "666a7898-fefa-4e7e-b231-2859a3812660",
+     "name": "Car Underwater",
+     "sortName": "Car Underwater",
+     "disambiguation": "Los Angeles emo band",
+     "url": "https://www.setlist.fm/setlists/car-underwater-6b9b1eba.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/car-underwater/2026/bowlers-exhibition-centre-manchester-england-73765a65.html"
+   },
+   {
+    "id": "73765a61",
+    "versionId": "gb0481aa",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-13T13:51:05.760+0000",
+    "artist": {
+     "mbid": "a13e51cc-e031-45aa-92e4-1c92520faa0a",
+     "name": "Dying Wish",
+     "sortName": "Dying Wish",
+     "disambiguation": "Portland hardcore",
+     "url": "https://www.setlist.fm/setlists/dying-wish-1bf0890c.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I Don't Belong Anywhere"
+        },
+        {
+         "name": "Watch My Promise Die"
+        },
+        {
+         "name": "A Curse Upon Iron"
+        },
+        {
+         "name": "Symptoms of Survival"
+        },
+        {
+         "name": "I Brought You My Soul (Your World Brought Me Despair)"
+        },
+        {
+         "name": "Cowards Feed, Cowards Bleed"
+        },
+        {
+         "name": "Lost in the Fall"
+        },
+        {
+         "name": "I'll Know You're Not Around"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/dying-wish/2026/bowlers-exhibition-centre-manchester-england-73765a61.html"
+   },
+   {
+    "id": "6b765a66",
+    "versionId": "g1304a591",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-12T13:54:51.441+0000",
+    "artist": {
+     "mbid": "afaac371-0244-441c-b68d-794c98df6264",
+     "name": "Rolo Tomassi",
+     "sortName": "Rolo Tomassi",
+     "disambiguation": "British mathcore band",
+     "url": "https://www.setlist.fm/setlists/rolo-tomassi-23d640ef.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Drip"
+        },
+        {
+         "name": "Labyrinthine"
+        },
+        {
+         "name": "Rituals"
+        },
+        {
+         "name": "Tempest"
+        },
+        {
+         "name": "Aftermath"
+        },
+        {
+         "name": "A Flood of Light"
+        },
+        {
+         "name": "Prescience"
+        },
+        {
+         "name": "Cloaked"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rolo-tomassi/2026/bowlers-exhibition-centre-manchester-england-6b765a66.html"
+   },
+   {
+    "id": "6b765a62",
+    "versionId": "g2b35e0fe",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-11-16T04:33:00.769+0000",
+    "artist": {
+     "mbid": "9f61afe8-7142-44ee-b518-4dbb1caefb82",
+     "name": "Static Dress",
+     "sortName": "Static Dress",
+     "disambiguation": "English post-hardcore/rock band",
+     "url": "https://www.setlist.fm/setlists/static-dress-6bf48e3e.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "lose the rain",
+         "tape": true
+        },
+        {
+         "name": "questioning"
+        },
+        {
+         "name": "Pharmacy Film"
+        },
+        {
+         "name": "face."
+        },
+        {
+         "name": "clean."
+        },
+        {
+         "name": "Nostalgia Kills",
+         "with": {
+          "mbid": "4af64db6-0182-4538-800c-bece70ae3a2a",
+          "name": "Showing Teeth",
+          "sortName": "Showing Teeth",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/showing-teeth-339ab075.html"
+         }
+        },
+        {
+         "name": "Courtney, Just Relax",
+         "with": {
+          "mbid": "2b8d2358-f9fb-466f-94bc-e199b0949254",
+          "name": "Emma Boster",
+          "sortName": "Boster, Emma",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/emma-boster-7be6fa68.html"
+         }
+        },
+        {
+         "name": "Death to the Overground"
+        },
+        {
+         "name": "Male-bomb"
+        },
+        {
+         "name": "dull blade disguise"
+        },
+        {
+         "name": "Classic.Death.Pose."
+        },
+        {
+         "name": "...hospice"
+        },
+        {
+         "name": "sweet.",
+         "with": {
+          "mbid": "666a7898-fefa-4e7e-b231-2859a3812660",
+          "name": "Car Underwater",
+          "sortName": "Car Underwater",
+          "disambiguation": "Los Angeles emo band",
+          "url": "https://www.setlist.fm/setlists/car-underwater-6b9b1eba.html"
+         }
+        },
+        {
+         "name": "human props"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/static-dress/2026/bowlers-exhibition-centre-manchester-england-6b765a62.html"
+   },
+   {
+    "id": "63765a63",
+    "versionId": "g7b044ad0",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-19T04:33:30.128+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "tour": {
+     "name": "Count Your Blessings | Repented"
+    },
+    "sets": {
+     "set": [
+      {
+       "name": "Count Your Blessings | Repented",
+       "song": [
+        {
+         "name": "Pray for Plagues"
+        },
+        {
+         "name": "Tell Slater Not to Wash His Dick",
+         "info": "ext. outro"
+        },
+        {
+         "name": "For Stevie Wonder's Eyes Only (Braille)",
+         "info": "Restarted"
+        },
+        {
+         "name": "A Lot Like Vegas"
+        },
+        {
+         "name": "Black & Blue"
+        },
+        {
+         "name": "Slow Dance"
+        },
+        {
+         "name": "Liquor & Love Lost",
+         "info": "Referred to as the original demo title, ‘Dragon Slaying’ on written setlist"
+        },
+        {
+         "name": "(I Used to Make Out With) Medusa"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting"
+        },
+        {
+         "name": "Off the Heezay",
+         "info": "Dedicated to former band member Curtis Ward"
+        },
+        {
+         "name": "Dehumanized"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Suicide Season",
+         "info": "Partially sang a cappella"
+        },
+        {
+         "name": "Re: They Have No Reflections"
+        },
+        {
+         "name": "Memorial",
+         "tape": true
+        },
+        {
+         "name": "Blessed With a Curse"
+        },
+        {
+         "name": "Diamonds Aren't Forever"
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/bowlers-exhibition-centre-manchester-england-63765a63.html"
+   },
+   {
+    "id": "53727b3d",
+    "versionId": "g7b04bea0",
+    "eventDate": "11-07-2026",
+    "lastUpdated": "2026-07-11T22:17:45.324+0000",
+    "artist": {
+     "mbid": "4af64db6-0182-4538-800c-bece70ae3a2a",
+     "name": "Showing Teeth",
+     "sortName": "Showing Teeth",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/showing-teeth-339ab075.html"
+    },
+    "venue": {
+     "id": "73d566f9",
+     "name": "Bowlers Exhibition Centre",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bowlers-exhibition-centre-manchester-england-73d566f9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bad Exchanges"
+        },
+        {
+         "name": "Disfigured by fear"
+        },
+        {
+         "name": "Shallow Grave"
+        },
+        {
+         "name": "Make it out"
+        },
+        {
+         "name": "Rip"
+        },
+        {
+         "name": "Hell hath no fury"
+        },
+        {
+         "name": "Labyrinth"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/showing-teeth/2026/bowlers-exhibition-centre-manchester-england-53727b3d.html"
+   }
+  ]
+ }
+}

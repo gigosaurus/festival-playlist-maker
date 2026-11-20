@@ -1,0 +1,1504 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 22,
+  "setlist": [
+   {
+    "id": "b4e9d5e",
+    "versionId": "g4306cba7",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-29T16:08:03.568+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "with snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan singing on stage / Väinö"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Dehumanized",
+         "tape": true,
+         "info": "New song"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/tornavansaari-seinajoki-finland-b4e9d5e.html"
+   },
+   {
+    "id": "b4b9d9e",
+    "versionId": "g6b06f28e",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-28T14:42:48.829+0000",
+    "artist": {
+     "mbid": "3d52eb30-3917-4d4b-9511-c32d84e3ce5e",
+     "name": "Gettomasa",
+     "sortName": "Gettomasa",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/gettomasa-53d81f6d.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Lössi"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/gettomasa/2026/tornavansaari-seinajoki-finland-b4b9d9e.html"
+   },
+   {
+    "id": "b4b9d96",
+    "versionId": "g43069787",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-27T15:48:54.182+0000",
+    "artist": {
+     "mbid": "025f15cb-e1f1-43f6-b02b-4ba722f1ba45",
+     "name": "supermodel*",
+     "sortName": "supermodel*",
+     "disambiguation": "Virginia-born, LA based artist/producer Frankie Beanie",
+     "url": "https://www.setlist.fm/setlists/supermodel-7b903a04.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "F*ck yr idols"
+        },
+        {
+         "name": "i used to live in england"
+        },
+        {
+         "name": "No future"
+        },
+        {
+         "name": "Your house"
+        },
+        {
+         "name": "Cherry Garcia"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Incomplete",
+    "url": "https://www.setlist.fm/setlist/supermodel/2026/tornavansaari-seinajoki-finland-b4b9d96.html"
+   },
+   {
+    "id": "7b771a10",
+    "versionId": "g31f0153",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-05-08T14:24:48.758+0000",
+    "artist": {
+     "mbid": "1f726264-552e-40f4-8ed4-59e5705c963a",
+     "name": "Malla",
+     "sortName": "Malla",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/malla-6bdfde0a.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/malla/2026/tornavansaari-seinajoki-finland-7b771a10.html"
+   },
+   {
+    "id": "73771a11",
+    "versionId": "g1b06d16c",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-29T08:58:50.662+0000",
+    "artist": {
+     "mbid": "30518945-1726-4094-8a9f-898803fb1c21",
+     "name": "Vesta",
+     "sortName": "Vesta",
+     "disambiguation": "Finnish pop singer-songwriter",
+     "url": "https://www.setlist.fm/setlists/vesta-1bca4570.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Suomi soimaan"
+        },
+        {
+         "name": "Sun Katu"
+        },
+        {
+         "name": "Vestangel"
+        },
+        {
+         "name": "Rakastut muihin tyttöihin"
+        },
+        {
+         "name": "Fine dine"
+        },
+        {
+         "name": "Valonsäteet"
+        },
+        {
+         "name": "Kesäwau"
+        },
+        {
+         "name": "Tilaisuus teki varkaan"
+        },
+        {
+         "name": "Ilmassa on taikaa"
+        },
+        {
+         "name": "Hei Suomi"
+        },
+        {
+         "name": "Jää mun viereen"
+        },
+        {
+         "name": "Petturi"
+        },
+        {
+         "name": "Helmi"
+        },
+        {
+         "name": "Ota Varovasti"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Lupaa et sä lähet",
+         "cover": {
+          "mbid": "2aa0e306-748d-42d7-b514-aa9e7ebc99bb",
+          "name": "Viivi",
+          "sortName": "Viivi",
+          "disambiguation": "Finnish musician Viivi Korhonen",
+          "url": "https://www.setlist.fm/setlists/viivi-43f11fcf.html"
+         }
+        },
+        {
+         "name": "Kot Kot",
+         "cover": {
+          "mbid": "7d863b14-ff39-49e0-9efc-956e15769457",
+          "name": "Käärijä",
+          "sortName": "Käärijä",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kaarija-3bfaf4fc.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/vesta/2026/tornavansaari-seinajoki-finland-73771a11.html"
+   },
+   {
+    "id": "73771a0d",
+    "versionId": "gb0fbdca",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-08-30T20:24:03.992+0000",
+    "artist": {
+     "mbid": "0a5415f3-47bf-40e3-9ea4-f44b17945526",
+     "name": "Sur-rur",
+     "sortName": "Sur-rur",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/sur-rur-33d60c6d.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kaipaan takaisin"
+        },
+        {
+         "name": "Jos itku tulee"
+        },
+        {
+         "name": "Puolittain juuristaan vieraantunut kotiseutuhistorioitsija"
+        },
+        {
+         "name": "Härveli"
+        },
+        {
+         "name": "Jeesusleirille"
+        },
+        {
+         "name": "Nukahdin kesken pitsan"
+        },
+        {
+         "name": "Riitapukarit"
+        },
+        {
+         "name": "Väität olevasi tyytyväinen"
+        },
+        {
+         "name": "Siili"
+        },
+        {
+         "name": "(Haluan muuttaa asumaan) sairaalaan"
+        },
+        {
+         "name": "Aurinko ei mahdu"
+        },
+        {
+         "name": "Laava on menneen talven lumia"
+        },
+        {
+         "name": "Negatiiviset uut"
+        },
+        {
+         "name": "Maisema"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Typerysten aika"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/sur-rur/2026/tornavansaari-seinajoki-finland-73771a0d.html"
+   },
+   {
+    "id": "73771a09",
+    "versionId": "g131f0171",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-05-08T14:22:04.436+0000",
+    "artist": {
+     "mbid": "4310cf5c-52a9-42cf-9875-6cc9cff08f6b",
+     "name": "Tuomas Norvio",
+     "sortName": "Norvio, Tuomas",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/tuomas-norvio-13d0d969.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/tuomas-norvio/2026/tornavansaari-seinajoki-finland-73771a09.html"
+   },
+   {
+    "id": "7371eac1",
+    "versionId": "g23018443",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-08-17T11:45:47.042+0000",
+    "artist": {
+     "mbid": "29f0030f-47e7-41c4-828f-4b45753de2a5",
+     "name": "Free Carmen",
+     "sortName": "Free Carmen",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/free-carmen-5b845bb0.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/free-carmen/2026/tornavansaari-seinajoki-finland-7371eac1.html"
+   },
+   {
+    "id": "6b771a0a",
+    "versionId": "g1b1f017c",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-05-08T14:21:45.175+0000",
+    "artist": {
+     "mbid": "3314d557-cb1f-409c-a783-04d93fe6bd4c",
+     "name": "Hildá Länsman",
+     "sortName": "Länsman, Hildá",
+     "disambiguation": "A sámi joik artist and musician from Sápmi, Finland.",
+     "url": "https://www.setlist.fm/setlists/hilda-lansman-5bf5d3fc.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/hilda-lansman/2026/tornavansaari-seinajoki-finland-6b771a0a.html"
+   },
+   {
+    "id": "63771a07",
+    "versionId": "g6b0692ee",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-27T18:52:21.313+0000",
+    "artist": {
+     "mbid": "b8b36888-0670-46d4-86a6-337c4fadf4fd",
+     "name": "Saimaa",
+     "sortName": "Saimaa",
+     "disambiguation": "Finnish musical collective",
+     "url": "https://www.setlist.fm/setlists/saimaa-4bc42726.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Edestakaisin (Laihia-Heinäpää)",
+         "cover": {
+          "mbid": "73a919cc-c2d8-416e-a98c-7556eedb787d",
+          "name": "Juice Leskinen Slam",
+          "sortName": "Leskinen, Juice, Slam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/juice-leskinen-slam-33d60411.html"
+         }
+        },
+        {
+         "name": "Muistan sen niin"
+        },
+        {
+         "name": "Neidon ryöstö",
+         "cover": {
+          "mbid": "55943b0c-285b-4ebe-809f-4c43af273885",
+          "name": "Markku Blomqvist",
+          "sortName": "Blomqvist, Markku",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/markku-blomqvist-4bd22f3a.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/saimaa/2026/tornavansaari-seinajoki-finland-63771a07.html"
+   },
+   {
+    "id": "3b4c7470",
+    "versionId": "g131f0179",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-05-08T14:21:16.484+0000",
+    "artist": {
+     "mbid": "89bf49b4-f799-44ae-9f12-14bfc927d36e",
+     "name": "Maarit",
+     "sortName": "Maarit",
+     "disambiguation": "Finnish singer Maarit Hurmerinta",
+     "url": "https://www.setlist.fm/setlists/maarit-53d67f05.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/maarit/2026/tornavansaari-seinajoki-finland-3b4c7470.html"
+   },
+   {
+    "id": "3b4878d0",
+    "versionId": "gb1f015a",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-05-08T14:24:18.900+0000",
+    "artist": {
+     "mbid": "3d66dfc8-b1a2-4e24-81f5-cbdaf4ad6112",
+     "name": "louna0nline",
+     "sortName": "louna0nline",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/louna0nline-4b9eabf6.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/louna0nline/2026/tornavansaari-seinajoki-finland-3b4878d0.html"
+   },
+   {
+    "id": "34c3907",
+    "versionId": "g2306c067",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-29T19:59:41.579+0000",
+    "artist": {
+     "mbid": "cf760609-8a36-41ae-89a4-d05792183025",
+     "name": "Mirella",
+     "sortName": "Mirella Roininen",
+     "disambiguation": "Finnish pop singer",
+     "url": "https://www.setlist.fm/setlists/mirella-73e45ec5.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Vähän enemmän"
+        },
+        {
+         "name": "Make up your mind"
+        },
+        {
+         "name": "Uuteen eiliseen"
+        },
+        {
+         "name": "Painava sydän"
+        },
+        {
+         "name": "Timanttei"
+        },
+        {
+         "name": "Tytöt"
+        },
+        {
+         "name": "Aja tai kuole",
+         "cover": {
+          "mbid": "3b9c2335-891a-4a14-bd49-c842ab05b563",
+          "name": "Lauri Haav",
+          "sortName": "Haav, Lauri",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lauri-haav-73f3c2b9.html"
+         }
+        },
+        {
+         "name": "Seireeni"
+        },
+        {
+         "name": "Kaikki viel edessä"
+        },
+        {
+         "name": "Pidä kii",
+         "cover": {
+          "mbid": "3b9c2335-891a-4a14-bd49-c842ab05b563",
+          "name": "Lauri Haav",
+          "sortName": "Haav, Lauri",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lauri-haav-73f3c2b9.html"
+         }
+        },
+        {
+         "name": "Luotathan"
+        },
+        {
+         "name": "Palamaan",
+         "cover": {
+          "mbid": "d11e13c7-fa9f-4635-be3b-0c6ee83dc30f",
+          "name": "Isac Elliot",
+          "sortName": "Elliot, Isac",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/isac-elliot-1bdd111c.html"
+         }
+        },
+        {
+         "name": "Löytää mut"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/mirella/2026/tornavansaari-seinajoki-finland-34c3907.html"
+   },
+   {
+    "id": "34c3903",
+    "versionId": "g4b00d776",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-08-11T19:33:25.383+0000",
+    "artist": {
+     "mbid": "a5f0f298-776a-4909-bc09-4fd56a680542",
+     "name": "Blood Incantation",
+     "sortName": "Blood Incantation",
+     "disambiguation": "US progressive death metal band",
+     "url": "https://www.setlist.fm/setlists/blood-incantation-23c5e067.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "Absolute Elsetour - Europe 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Stargate [Tablet I]"
+        },
+        {
+         "name": "The Stargate [Tablet II]"
+        },
+        {
+         "name": "The Stargate [Tablet III]"
+        },
+        {
+         "name": "The Message [Tablet I]"
+        },
+        {
+         "name": "The Message [Tablet II]"
+        },
+        {
+         "name": "The Message [Tablet III]"
+        },
+        {
+         "name": "Vitrification of Blood (Part 1)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/blood-incantation/2026/tornavansaari-seinajoki-finland-34c3903.html"
+   },
+   {
+    "id": "33749401",
+    "versionId": "g1b068d8c",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-27T19:50:23.276+0000",
+    "artist": {
+     "mbid": "cf9e32d3-940b-4424-9505-148eb60ffb01",
+     "name": "KUUMAA",
+     "sortName": "KUUMAA",
+     "disambiguation": "Finnish pop band",
+     "url": "https://www.setlist.fm/setlists/kuumaa-3bc8ccf4.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "KUUMAA 10 - kesä 26"
+    },
+    "sets": {
+     "set": [
+      {
+       "name": "Acoustic",
+       "song": [
+        {
+         "name": "Hyvikset ja pahikset"
+        },
+        {
+         "name": "Elokuva"
+        },
+        {
+         "name": "Oo vielä sekunnin mun"
+        },
+        {
+         "name": "Juna-asema"
+        },
+        {
+         "name": "Haloo",
+         "cover": {
+          "mbid": "0db5fe99-78a8-4826-b4c7-7552db622779",
+          "name": "PMMP & Kuumaa",
+          "sortName": "PMMP & KUUMAA",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pmmp-and-kuumaa-53e04f79.html"
+         }
+        },
+        {
+         "name": "Luotan tulevaan"
+        },
+        {
+         "name": "Voiton puolella",
+         "info": "unrealesed song"
+        },
+        {
+         "name": "Meille ei kävisi niin"
+        },
+        {
+         "name": "Pieni ystävä"
+        },
+        {
+         "name": "Jos pääsen maaliin"
+        },
+        {
+         "name": "Kerran sadassa vuodessa"
+        },
+        {
+         "name": "Satama"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "KUUMAA x Hartwall Vichy spesiaalikeikka. Keikalle pääsyn mahdollisti joko arvontavoitto tai jonottaminen. Paikkoja oli rajoitetusti.",
+    "url": "https://www.setlist.fm/setlist/kuumaa/2026/tornavansaari-seinajoki-finland-33749401.html"
+   },
+   {
+    "id": "334c7471",
+    "versionId": "g3b06c490",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-29T18:41:23.747+0000",
+    "artist": {
+     "mbid": "bf6c9ae2-2c50-4c51-ab0d-89838bff2b93",
+     "name": "Antti Autio",
+     "sortName": "Autio, Antti",
+     "disambiguation": "singer/songwriter",
+     "url": "https://www.setlist.fm/setlists/antti-autio-13cb4131.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kuuma ja cool"
+        },
+        {
+         "name": "Viimeiseen virtaan"
+        },
+        {
+         "name": "Maailman reunalla"
+        },
+        {
+         "name": "Haahuillen"
+        },
+        {
+         "name": "Tuhansien öitten läpi"
+        },
+        {
+         "name": "Kaikki hyvin"
+        },
+        {
+         "name": "Liikaa"
+        },
+        {
+         "name": "Yksin"
+        },
+        {
+         "name": "Kaunein sana maailmassa"
+        },
+        {
+         "name": "Pihkassa",
+         "info": "The audience sang alone, Antti joined in singing in the last chorus"
+        },
+        {
+         "name": "Oodi"
+        },
+        {
+         "name": "Sinä"
+        },
+        {
+         "name": "Norja"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/antti-autio/2026/tornavansaari-seinajoki-finland-334c7471.html"
+   },
+   {
+    "id": "2b4c7472",
+    "versionId": "gb068d8e",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-27T19:50:06.674+0000",
+    "artist": {
+     "mbid": "7e42efc4-c5da-4d33-b1fe-81900e83d62f",
+     "name": "Ellinoora",
+     "sortName": "Ellinoora",
+     "disambiguation": "Ellinoora Leikas",
+     "url": "https://www.setlist.fm/setlists/ellinoora-3bdae80c.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "Pop Sinfonia"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kultainen sukupolvi",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Funeral Song",
+         "cover": {
+          "mbid": "012e3432-71d3-4317-9ce5-b60cb6cdc38f",
+          "name": "The Rasmus",
+          "sortName": "Rasmus, The",
+          "disambiguation": "Finnish rock band",
+          "url": "https://www.setlist.fm/setlists/the-rasmus-13d6d165.html"
+         },
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Osuma",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Matkalla",
+         "cover": {
+          "mbid": "bc78fa63-5867-46ab-8636-d1172540d858",
+          "name": "Anna Puu",
+          "sortName": "Puu, Anna",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/anna-puu-bd4b172.html"
+         },
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Meille käy hyvin",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Dinosauruksii",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Ahdistuksen aika",
+         "cover": {
+          "mbid": "b10806de-2198-4313-af6a-13df4acb912f",
+          "name": "Jamie Cullum",
+          "sortName": "Cullum, Jamie",
+          "disambiguation": "pianist, jazz‐pop artist",
+          "url": "https://www.setlist.fm/setlists/jamie-cullum-73d6ca8d.html"
+         },
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Elefantin paino",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Bäng bäng typerä sydän",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Pyhä Madonna",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Leijonakuningas",
+         "with": {
+          "mbid": "ec314f7f-c40d-4c72-9a7c-0d5a23aa3ec9",
+          "name": "Sinfonia Lahti",
+          "sortName": "Lahti Symphony Orchestra",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sinfonia-lahti-7bd4b660.html"
+         }
+        },
+        {
+         "name": "Bitter Sweet Symphony",
+         "tape": true,
+         "cover": {
+          "mbid": "d4d17620-fd97-4574-92a8-a2cb7e72ce42",
+          "name": "The Verve",
+          "sortName": "Verve, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-verve-bd6bd5a.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ellinoora/2026/tornavansaari-seinajoki-finland-2b4c7472.html"
+   },
+   {
+    "id": "1b4c390c",
+    "versionId": "g2b079036",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-07-05T07:01:20.168+0000",
+    "artist": {
+     "mbid": "e267e8dd-12c6-4d48-8db7-788bdbce1e4b",
+     "name": "Averagekidluke",
+     "sortName": "Averagekidluke",
+     "disambiguation": "hiphop from Finland",
+     "url": "https://www.setlist.fm/setlists/averagekidluke-6bf986f2.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "Kesä '26"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Alcoholic"
+        },
+        {
+         "name": "Trap Queen"
+        },
+        {
+         "name": "Rich Man"
+        },
+        {
+         "name": "Kissa",
+         "cover": {
+          "mbid": "bcf703b0-7069-4788-8836-972034112611",
+          "name": "AHTI",
+          "sortName": "AHTI",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/ahti-2bfa1886.html"
+         }
+        },
+        {
+         "name": "Iha miten vaa",
+         "cover": {
+          "mbid": "2e3e1e55-39bb-4590-87c4-e9d2169bd1e8",
+          "name": "Ares",
+          "sortName": "Ares",
+          "disambiguation": "Finnish rap artist",
+          "url": "https://www.setlist.fm/setlists/ares-43ff4ff3.html"
+         }
+        },
+        {
+         "name": "Mitä meist jää"
+        },
+        {
+         "name": "Make up your mind",
+         "cover": {
+          "mbid": "cf760609-8a36-41ae-89a4-d05792183025",
+          "name": "Mirella",
+          "sortName": "Mirella Roininen",
+          "disambiguation": "Finnish pop singer",
+          "url": "https://www.setlist.fm/setlists/mirella-73e45ec5.html"
+         }
+        },
+        {
+         "name": "On/Off"
+        },
+        {
+         "name": "Italia",
+         "cover": {
+          "mbid": "d11e13c7-fa9f-4635-be3b-0c6ee83dc30f",
+          "name": "Isac Elliot",
+          "sortName": "Elliot, Isac",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/isac-elliot-1bdd111c.html"
+         }
+        },
+        {
+         "name": "Älä pelkää"
+        },
+        {
+         "name": "Elovena tyttö"
+        },
+        {
+         "name": "Anna armoo"
+        },
+        {
+         "name": "Hell Yeah"
+        },
+        {
+         "name": "MEININKI"
+        },
+        {
+         "name": "Vihaa mua"
+        },
+        {
+         "name": "Mitä sydämelle käy"
+        },
+        {
+         "name": "Diva"
+        },
+        {
+         "name": "Vitun hyvin"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/averagekidluke/2026/tornavansaari-seinajoki-finland-1b4c390c.html"
+   },
+   {
+    "id": "1b4b9d9c",
+    "versionId": "g13068dad",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-27T19:44:01.079+0000",
+    "artist": {
+     "mbid": "7449cc7e-5fe0-4fd4-9901-7e715391ee50",
+     "name": "PRESIDENT",
+     "sortName": "PRESIDENT",
+     "disambiguation": "UK metal band",
+     "url": "https://www.setlist.fm/setlists/president-2392f4f7.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Ike for President Advertisement",
+         "tape": true
+        },
+        {
+         "name": "Fearless"
+        },
+        {
+         "name": "Dionysus"
+        },
+        {
+         "name": "DOOM LOOP"
+        },
+        {
+         "name": "RAGE"
+        },
+        {
+         "name": "Angel Wings"
+        },
+        {
+         "name": "Conclave",
+         "info": "With extended outro"
+        },
+        {
+         "name": "Mercy"
+        },
+        {
+         "name": "Destroy Me"
+        },
+        {
+         "name": "In the Name of the Father"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/president/2026/tornavansaari-seinajoki-finland-1b4b9d9c.html"
+   },
+   {
+    "id": "1b4b9d90",
+    "versionId": "g4b06f312",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-06-28T13:41:16.716+0000",
+    "artist": {
+     "mbid": "f74c7996-4c0b-4ebd-b1e7-219e21c41286",
+     "name": "Stam1na",
+     "sortName": "Stam1na",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/stam1na-3bd6fcac.html"
+    },
+    "venue": {
+     "id": "43d53783",
+     "name": "Törnävänsaari",
+     "city": {
+      "id": "642149",
+      "name": "Seinäjoki",
+      "state": "Southern Ostrobothnia",
+      "stateCode": "03",
+      "coords": {
+       "lat": 62.567,
+       "long": 23.067
+      },
+      "country": {
+       "code": "FI",
+       "name": "Finland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/tornavansaari-seinajoki-finland-43d53783.html"
+    },
+    "tour": {
+     "name": "2026/2 – About Sinnepäin 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Golem",
+         "info": "first time as show opener"
+        },
+        {
+         "name": "Hammasratas"
+        },
+        {
+         "name": "Suhdeluku"
+        },
+        {
+         "name": "Lahja"
+        },
+        {
+         "name": "Valtiaan uudet vaateet"
+        },
+        {
+         "name": "Muistipalapelit"
+        },
+        {
+         "name": "Kuoliaaksi ruoskitut hevoset"
+        },
+        {
+         "name": "Enkelinmurskain"
+        },
+        {
+         "name": "Toivonkipinä"
+        },
+        {
+         "name": "Käärmeennyrkki"
+        },
+        {
+         "name": "Eloonjäänyt"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/stam1na/2026/tornavansaari-seinajoki-finland-1b4b9d90.html"
+   }
+  ]
+ }
+}

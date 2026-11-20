@@ -1,8 +1,8 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { genreListUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../src/musicbrainz.ts";
+import { eventsPerPage, genreListUrl, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../src/musicbrainz.ts";
 
-export { genreListUrl, musicbrainzLinksUrl, musicbrainzSearchUrl };
+export { genreListUrl, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl };
 import type { RecordedResponse } from "./fake-http-client.ts";
 
 // Recorded MusicBrainz responses. test/fixtures/musicbrainz/README.md tells how
@@ -27,6 +27,16 @@ function recorded(file: string, contentType: string): RecordedResponse {
 // The file name of the recorded lookup of an artist with its links.
 export function linksFileName(musicbrainzId: string): string {
   return `links-${musicbrainzId}.json`;
+}
+
+// The file name of a recorded page of the events of an artist. The first page is 1.
+export function eventsFileName(musicbrainzId: string, page: number): string {
+  return `events-${musicbrainzId}-${page}.json`;
+}
+
+// A recorded page of the events of an artist.
+export function eventsResponse(musicbrainzId: string, page: number): RecordedResponse {
+  return recorded(eventsFileName(musicbrainzId, page), "application/json; charset=utf-8");
 }
 
 // The full genre list (2,226 genres).
@@ -83,6 +93,12 @@ export function respondWithRecordedMusicBrainz(respondTo: (method: string, url: 
   respondTo("GET", genreListUrl, genreListResponse());
   for (const text of recordedSearches) respondTo("GET", musicbrainzSearchUrl(text), searchResponse(text));
   for (const id of Object.values(musicbrainzIds)) respondTo("GET", musicbrainzLinksUrl(id), linksResponse(id));
+  for (const file of readdirSync(fixtures)) {
+    const match = /^events-(.+)-(\d+)\.json$/.exec(file);
+    if (match === null) continue;
+    const page = Number(match[2]);
+    respondTo("GET", musicbrainzEventsUrl(match[1]!, (page - 1) * eventsPerPage), eventsResponse(match[1]!, page));
+  }
 }
 
 // Status 503: MusicBrainz is busy, or the client sent too many requests. Recorded 18 November 2026.

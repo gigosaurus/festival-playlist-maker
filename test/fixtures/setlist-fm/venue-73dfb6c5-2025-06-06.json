@@ -1,0 +1,710 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 7,
+  "setlist": [
+   {
+    "id": "7b51a61c",
+    "versionId": "g4b6aff32",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:33:27.972+0000",
+    "artist": {
+     "mbid": "db008806-16f6-48fc-8521-3d953709689d",
+     "name": "A Day to Remember",
+     "sortName": "Day to Remember, A",
+     "disambiguation": "US post‐hardcore band",
+     "url": "https://www.setlist.fm/setlists/a-day-to-remember-1bd63d44.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "UK + Europe"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Downfall of Us All"
+        },
+        {
+         "name": "I'm Made of Wax, Larry, What Are You Made Of?"
+        },
+        {
+         "name": "2nd Sucks"
+        },
+        {
+         "name": "Right Back at It Again"
+        },
+        {
+         "name": "Bad Blood"
+        },
+        {
+         "name": "Paranoia"
+        },
+        {
+         "name": "Have Faith in Me"
+        },
+        {
+         "name": "All My Friends"
+        },
+        {
+         "name": "Mr. Highway's Thinking About the End"
+        },
+        {
+         "name": "Resentment"
+        },
+        {
+         "name": "LeBron"
+        },
+        {
+         "name": "All I Want"
+        },
+        {
+         "name": "If It Means a Lot to You"
+        },
+        {
+         "name": "Flowers"
+        },
+        {
+         "name": "All Signs Point to Lauderdale"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/a-day-to-remember/2025/utopia-stage-nurburg-germany-7b51a61c.html"
+   },
+   {
+    "id": "7b51a600",
+    "versionId": "g636afe57",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:57:47.238+0000",
+    "artist": {
+     "mbid": "cf075492-d880-4afc-b87b-d6b03e33dacc",
+     "name": "Electric Callboy",
+     "sortName": "Electric Callboy",
+     "disambiguation": "German metalcore, fka Eskimo Callboy",
+     "url": "https://www.setlist.fm/setlists/electric-callboy-2bd270b2.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "Festivals 2025"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Pump It"
+        },
+        {
+         "name": "MC Thunder II (Dancing Like a Ninja)"
+        },
+        {
+         "name": "Elevator Operator"
+        },
+        {
+         "name": "Spaceman"
+        },
+        {
+         "name": "Still Waiting",
+         "cover": {
+          "mbid": "f2eef649-a6d5-4114-afba-e50ab26254d2",
+          "name": "Sum 41",
+          "sortName": "Sum 41",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sum-41-53d68fad.html"
+         }
+        },
+        {
+         "name": "Hypa Hypa"
+        },
+        {
+         "name": "Revery"
+        },
+        {
+         "name": "Everytime We Touch",
+         "cover": {
+          "mbid": "656ad517-b741-47ba-845a-e6ea223d8b39",
+          "name": "Maggie Reilly",
+          "sortName": "Reilly, Maggie",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/maggie-reilly-7bd6a210.html"
+         }
+        },
+        {
+         "name": "Crawling",
+         "cover": {
+          "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+          "name": "Linkin Park",
+          "sortName": "Linkin Park",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/linkin-park-bd6bdae.html"
+         },
+         "info": "acoustic"
+        },
+        {
+         "name": "Hurrikan"
+        },
+        {
+         "name": "MC Thunder",
+         "info": "with HandOfBlood"
+        },
+        {
+         "name": "Mindreader"
+        },
+        {
+         "name": "RATATATA",
+         "cover": {
+          "mbid": "4340620d-9ada-4c61-b234-d0f65da833de",
+          "name": "BABYMETAL × Electric Callboy",
+          "sortName": "BABYMETAL × Electric Callboy",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/babymetal--electric-callboy-43ee4f37.html"
+         }
+        },
+        {
+         "name": "We Got the Moves"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "first Very Special Guest of the day",
+    "url": "https://www.setlist.fm/setlist/electric-callboy/2025/utopia-stage-nurburg-germany-7b51a600.html"
+   },
+   {
+    "id": "6b51a61a",
+    "versionId": "gb1c85b6",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-05-12T14:46:40.811+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Prelude (Final Fantasy Series)",
+         "tape": true,
+         "cover": {
+          "mbid": "92bb085a-2924-4479-b627-181a1835d2f5",
+          "name": "Nobuo Uematsu",
+          "sortName": "Uematsu, Nobuo",
+          "disambiguation": "video game, film & anime composer known for Final Fantasy",
+          "url": "https://www.setlist.fm/setlists/nobuo-uematsu-23d3986f.html"
+         }
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid",
+         "info": "Riser screens unveiled"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with fan Christina"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Overture",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown",
+         "info": "Oli with fans in front row"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/utopia-stage-nurburg-germany-6b51a61a.html"
+   },
+   {
+    "id": "6351a613",
+    "versionId": "g5b6aff3c",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:32:52.664+0000",
+    "artist": {
+     "mbid": "892500b7-09a6-4049-ba92-2d192dd70563",
+     "name": "Biffy Clyro",
+     "sortName": "Biffy Clyro",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/biffy-clyro-13d6bdf9.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "A Little Love",
+         "info": "unreleased"
+        },
+        {
+         "name": "A Hunger in Your Haunt"
+        },
+        {
+         "name": "The Captain"
+        },
+        {
+         "name": "That Golden Rule"
+        },
+        {
+         "name": "Biblical"
+        },
+        {
+         "name": "Re-Arrange"
+        },
+        {
+         "name": "Wolves of Winter"
+        },
+        {
+         "name": "Tiny Indoor Fireworks"
+        },
+        {
+         "name": "Space"
+        },
+        {
+         "name": "Different People"
+        },
+        {
+         "name": "Mountains"
+        },
+        {
+         "name": "Black Chandelier"
+        },
+        {
+         "name": "Instant History"
+        },
+        {
+         "name": "Living Is a Problem Because Everything Dies"
+        },
+        {
+         "name": "Bubbles"
+        },
+        {
+         "name": "Many of Horror"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/biffy-clyro/2025/utopia-stage-nurburg-germany-6351a613.html"
+   },
+   {
+    "id": "534483a5",
+    "versionId": "g6b6afe56",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:57:57.597+0000",
+    "artist": {
+     "mbid": "ca16b398-e6b7-4eaa-a00c-3fe8cf4349f4",
+     "name": "Roy Bianco & Die Abbrunzati Boys",
+     "sortName": "Roy Bianco & Die Abbrunzati Boys",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/roy-bianco-and-die-abbrunzati-boys-7bfe7a1c.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "Kult Sommer 2025"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Brennerautobahn"
+        },
+        {
+         "name": "Santorin"
+        },
+        {
+         "name": "Ich liebte die Musik"
+        },
+        {
+         "name": "Supersonic",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Goodbye, Arrivederci"
+        },
+        {
+         "name": "Giro"
+        },
+        {
+         "name": "Bella Napoli"
+        },
+        {
+         "name": "Velocità"
+        },
+        {
+         "name": "Ponte di Rialto"
+        },
+        {
+         "name": "Sophia Loren"
+        },
+        {
+         "name": "Quanto Costa"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Billed as \"Very Special Guest\"",
+    "url": "https://www.setlist.fm/setlist/roy-bianco-and-die-abbrunzati-boys/2025/utopia-stage-nurburg-germany-534483a5.html"
+   },
+   {
+    "id": "4b448372",
+    "versionId": "g736afe55",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:58:07.649+0000",
+    "artist": {
+     "mbid": "9ca10859-49e2-44e3-b3d6-04c535207bc2",
+     "name": "Knocked Loose",
+     "sortName": "Knocked Loose",
+     "disambiguation": "hardcore band",
+     "url": "https://www.setlist.fm/setlists/knocked-loose-3c281bf.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Reach for Me"
+        },
+        {
+         "name": "Blinding Faith"
+        },
+        {
+         "name": "Mistakes Like Fractures"
+        },
+        {
+         "name": "Belleville"
+        },
+        {
+         "name": "Deadringer"
+        },
+        {
+         "name": "Piece by Piece"
+        },
+        {
+         "name": "Where Light Divides the Holler"
+        },
+        {
+         "name": "God Knows"
+        },
+        {
+         "name": "Moss Covers All"
+        },
+        {
+         "name": "Take Me Home"
+        },
+        {
+         "name": "Suffocate"
+        },
+        {
+         "name": "Billy No Mates"
+        },
+        {
+         "name": "Counting Worms"
+        },
+        {
+         "name": "Deep in the Willow"
+        },
+        {
+         "name": "Everything Is Quiet Now"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/knocked-loose/2025/utopia-stage-nurburg-germany-4b448372.html"
+   },
+   {
+    "id": "435fdf3b",
+    "versionId": "g5b6aff30",
+    "eventDate": "06-06-2025",
+    "lastUpdated": "2026-01-25T11:33:39.161+0000",
+    "artist": {
+     "mbid": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+     "name": "Weezer",
+     "sortName": "Weezer",
+     "disambiguation": "American rock band",
+     "url": "https://www.setlist.fm/setlists/weezer-33d6a4f9.html"
+    },
+    "venue": {
+     "id": "73dfb6c5",
+     "name": "Utopia Stage",
+     "city": {
+      "id": "2861653",
+      "name": "Nürburg",
+      "state": "Rhineland-Palatinate",
+      "stateCode": "08",
+      "coords": {
+       "lat": 50.3333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/utopia-stage-nurburg-germany-73dfb6c5.html"
+    },
+    "tour": {
+     "name": "2025 EU/UK Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hash Pipe"
+        },
+        {
+         "name": "My Name Is Jonas"
+        },
+        {
+         "name": "Dope Nose",
+         "info": "with “Troublemaker” snippet"
+        },
+        {
+         "name": "Island in the Sun"
+        },
+        {
+         "name": "Holiday"
+        },
+        {
+         "name": "Undone - The Sweater Song"
+        },
+        {
+         "name": "Pork and Beans"
+        },
+        {
+         "name": "Why Bother?"
+        },
+        {
+         "name": "Perfect Situation"
+        },
+        {
+         "name": "Surf Wax America"
+        },
+        {
+         "name": "No One Else",
+         "info": "Tour debut"
+        },
+        {
+         "name": "You Gave Your Love to Me Softly"
+        },
+        {
+         "name": "Beverly Hills"
+        },
+        {
+         "name": "Say It Ain't So"
+        },
+        {
+         "name": "Buddy Holly"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/weezer/2025/utopia-stage-nurburg-germany-435fdf3b.html"
+   }
+  ]
+ }
+}
