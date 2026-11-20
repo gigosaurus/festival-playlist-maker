@@ -46,6 +46,22 @@ export function musicbrainzEventsUrl(id: string, offset: number): string {
   return `${musicbrainzOrigin}/ws/2/event?artist=${encodeURIComponent(id)}&limit=${eventsPerPage}&offset=${offset}&fmt=json`;
 }
 
+// The maximum number of release groups on one page of a release group browse request.
+export const releaseGroupsPerPage = 100;
+
+// The application gets a maximum of this number of release group pages for one artist.
+export const maximumReleaseGroupPages = 3;
+
+// The albums of an artist (#14). The album-focused rule needs the release date and the songs of each album.
+export function musicbrainzAlbumsUrl(id: string, offset: number): string {
+  return `${musicbrainzOrigin}/ws/2/release-group?artist=${encodeURIComponent(id)}&type=album&limit=${releaseGroupsPerPage}&offset=${offset}&fmt=json`;
+}
+
+// The official releases of an album, with their tracks.
+export function musicbrainzAlbumReleasesUrl(releaseGroupId: string): string {
+  return `${musicbrainzOrigin}/ws/2/release?release-group=${encodeURIComponent(releaseGroupId)}&status=official&inc=recordings&limit=25&fmt=json`;
+}
+
 export function musicbrainzArtistAddress(id: string): string {
   return `${musicbrainzOrigin}/artist/${encodeURIComponent(id)}`;
 }
@@ -88,6 +104,16 @@ export interface FestivalDays {
 
 export type FestivalDaysResult = { outcome: "found"; festivals: FestivalDays[] } | { outcome: "failed"; cause: string };
 
+// A studio album: the first release date as YYYY-MM-DD, and the titles of its tracks.
+// For a date with only a year or a month, the date is the first possible day.
+export interface Album {
+  title: string;
+  released: string;
+  songs: string[];
+}
+
+export type AlbumsResult = { outcome: "found"; albums: Album[] } | { outcome: "failed"; cause: string };
+
 export interface MusicBrainz {
   searchArtists(text: string): Promise<ArtistSearchResult>;
   // The Spotify artist IDs of the current Spotify links of a MusicBrainz artist.
@@ -96,6 +122,10 @@ export interface MusicBrainz {
   // The days of the events of type "Festival" that have a link to the artist.
   // An event without a full first date is not in the result.
   festivalDays(musicbrainzId: string): Promise<FestivalDaysResult>;
+  // The studio albums of the artist that were first released on `since` (YYYY-MM-DD) or later.
+  // Live albums, compilations, remix albums and other release groups with a secondary type are not in the result.
+  // The songs come from the first official release of each album.
+  albums(musicbrainzId: string, since: string): Promise<AlbumsResult>;
 }
 
 // A Spotify artist address, for example https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF.
@@ -174,7 +204,71 @@ export function createMusicBrainz(httpClient: HttpClient): MusicBrainz {
       }
       return { outcome: "found", festivals };
     },
+
+    async albums(musicbrainzId, since) {
+      const recent: { id: string; title: string; released: string }[] = [];
+      for (let page = 0; page < maximumReleaseGroupPages; page++) {
+        const body = await getJson(httpClient, musicbrainzAlbumsUrl(musicbrainzId, page * releaseGroupsPerPage));
+        if (body instanceof Failure) return { outcome: "failed", cause: body.cause };
+        if (!Array.isArray(body["release-groups"])) {
+          return { outcome: "failed", cause: 'The MusicBrainz response has no "release-groups" list. The MusicBrainz API possibly changed.' };
+        }
+        for (const group of body["release-groups"]) {
+          if (!isRecord(group) || typeof group.id !== "string" || group["primary-type"] !== "Album") continue;
+          if (Array.isArray(group["secondary-types"]) && group["secondary-types"].length > 0) continue;
+          const released = firstDay(group["first-release-date"]);
+          if (released === undefined || released < since) continue;
+          recent.push({ id: group.id, title: text(group.title) ?? "", released });
+        }
+        const total = typeof body["release-group-count"] === "number" ? body["release-group-count"] : 0;
+        if ((page + 1) * releaseGroupsPerPage >= total) break;
+      }
+      const albums: Album[] = [];
+      for (const { id, title, released } of recent) {
+        const body = await getJson(httpClient, musicbrainzAlbumReleasesUrl(id));
+        if (body instanceof Failure) return { outcome: "failed", cause: body.cause };
+        if (!Array.isArray(body.releases)) {
+          return { outcome: "failed", cause: 'The MusicBrainz response has no "releases" list. The MusicBrainz API possibly changed.' };
+        }
+        const first = firstRelease(body.releases.filter(isRecord));
+        if (first === undefined) continue;
+        albums.push({ title, released, songs: trackTitles(first) });
+      }
+      return { outcome: "found", albums };
+    },
   };
+}
+
+// The release with the earliest date. A release without a date is last.
+function firstRelease(releases: Record<string, unknown>[]): Record<string, unknown> | undefined {
+  const dateOf = (release: Record<string, unknown>) => firstDay(release.date) ?? "9999-99-99";
+  return [...releases].sort((a, b) => dateOf(a).localeCompare(dateOf(b)))[0];
+}
+
+function trackTitles(release: Record<string, unknown>): string[] {
+  const media = Array.isArray(release.media) ? release.media.filter(isRecord) : [];
+  return media.flatMap((medium) =>
+    (Array.isArray(medium.tracks) ? medium.tracks.filter(isRecord) : []).flatMap((track) => text(track.title) ?? []),
+  );
+}
+
+// The first possible day of a partial date: "2026" is "2026-01-01" and "2026-08" is "2026-08-01".
+function firstDay(value: unknown): string | undefined {
+  const date = partialDate(value);
+  if (date === undefined) return undefined;
+  return date.length === 4 ? `${date}-01-01` : date.length === 7 ? `${date}-01` : date;
+}
+
+async function getJson(httpClient: HttpClient, url: string): Promise<Record<string, unknown> | Failure> {
+  const response = await send(httpClient, url, "application/json");
+  if (response instanceof Failure) return response;
+  let body: unknown;
+  try {
+    body = await response.json();
+  } catch {
+    return new Failure("The MusicBrainz response is not valid JSON. The MusicBrainz API possibly changed.");
+  }
+  return isRecord(body) ? body : new Failure("The MusicBrainz response is not a JSON object. The MusicBrainz API possibly changed.");
 }
 
 function fullDate(value: unknown): string | undefined {

@@ -1,0 +1,762 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Behind%20Blue%20Eyes%22%20artist%3A%22Limp%20Bizkit%22&type=track&locale=*",
+  "limit": 10,
+  "next": "https://api.spotify.com/v1/search?offset=10&limit=10&query=track%3A%22Behind%20Blue%20Eyes%22%20artist%3A%22Limp%20Bizkit%22&type=track&locale=*",
+  "offset": 0,
+  "previous": null,
+  "total": 23,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/3oUoQ0UH7Rv06x1kpSjS36"
+     },
+     "href": "https://api.spotify.com/v1/albums/3oUoQ0UH7Rv06x1kpSjS36",
+     "id": "3oUoQ0UH7Rv06x1kpSjS36",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27344971d48c21dbd132f2d506e"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0244971d48c21dbd132f2d506e"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485144971d48c21dbd132f2d506e"
+      }
+     ],
+     "is_playable": true,
+     "name": "Results May Vary",
+     "release_date": "2003-01-01",
+     "release_date_precision": "day",
+     "total_tracks": 18,
+     "type": "album",
+     "uri": "spotify:album:3oUoQ0UH7Rv06x1kpSjS36"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269973,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1MTQHCpraD4S8g5PAFKzoj"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1MTQHCpraD4S8g5PAFKzoj",
+    "id": "1MTQHCpraD4S8g5PAFKzoj",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 16,
+    "type": "track",
+    "uri": "spotify:track:1MTQHCpraD4S8g5PAFKzoj"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1b6ImeR9stPxinKh503cEr"
+     },
+     "href": "https://api.spotify.com/v1/albums/1b6ImeR9stPxinKh503cEr",
+     "id": "1b6ImeR9stPxinKh503cEr",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2736759776498b27ba06e842f84"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e026759776498b27ba06e842f84"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048516759776498b27ba06e842f84"
+      }
+     ],
+     "is_playable": true,
+     "name": "Results May Vary",
+     "release_date": "2003-01-01",
+     "release_date_precision": "day",
+     "total_tracks": 17,
+     "type": "album",
+     "uri": "spotify:album:1b6ImeR9stPxinKh503cEr"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269973,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/24HDDjOF9vMrDGKrK8vXK1"
+    },
+    "href": "https://api.spotify.com/v1/tracks/24HDDjOF9vMrDGKrK8vXK1",
+    "id": "24HDDjOF9vMrDGKrK8vXK1",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 15,
+    "type": "track",
+    "uri": "spotify:track:24HDDjOF9vMrDGKrK8vXK1"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6Rptl6Fyf8MNVwI6BQqKeP"
+     },
+     "href": "https://api.spotify.com/v1/albums/6Rptl6Fyf8MNVwI6BQqKeP",
+     "id": "6Rptl6Fyf8MNVwI6BQqKeP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273453e654355636ce77fa0e9b6"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02453e654355636ce77fa0e9b6"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851453e654355636ce77fa0e9b6"
+      }
+     ],
+     "is_playable": true,
+     "name": "Behind Blue Eyes",
+     "release_date": "2003-09-23",
+     "release_date_precision": "day",
+     "total_tracks": 3,
+     "type": "album",
+     "uri": "spotify:album:6Rptl6Fyf8MNVwI6BQqKeP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 271000,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1fkDyrHRPjG4lnPpAeyMBd"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1fkDyrHRPjG4lnPpAeyMBd",
+    "id": "1fkDyrHRPjG4lnPpAeyMBd",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:1fkDyrHRPjG4lnPpAeyMBd"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6S9h7GVuauRzHoyEFmtyMD"
+     },
+     "href": "https://api.spotify.com/v1/albums/6S9h7GVuauRzHoyEFmtyMD",
+     "id": "6S9h7GVuauRzHoyEFmtyMD",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273ae121469f19d731efff9b976"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02ae121469f19d731efff9b976"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851ae121469f19d731efff9b976"
+      }
+     ],
+     "is_playable": true,
+     "name": "Greatest Hitz",
+     "release_date": "2005-11-08",
+     "release_date_precision": "day",
+     "total_tracks": 17,
+     "type": "album",
+     "uri": "spotify:album:6S9h7GVuauRzHoyEFmtyMD"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0ApGb6NH1TQP7klarPq2VW"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0ApGb6NH1TQP7klarPq2VW",
+    "id": "0ApGb6NH1TQP7klarPq2VW",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 13,
+    "type": "track",
+    "uri": "spotify:track:0ApGb6NH1TQP7klarPq2VW"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/1RylctYsdF1nIN4Vn916Tc"
+     },
+     "href": "https://api.spotify.com/v1/albums/1RylctYsdF1nIN4Vn916Tc",
+     "id": "1RylctYsdF1nIN4Vn916Tc",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273a89aa954014166404028a7b4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02a89aa954014166404028a7b4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851a89aa954014166404028a7b4"
+      }
+     ],
+     "is_playable": true,
+     "name": "Greatest Hitz",
+     "release_date": "2005-01-01",
+     "release_date_precision": "day",
+     "total_tracks": 18,
+     "type": "album",
+     "uri": "spotify:album:1RylctYsdF1nIN4Vn916Tc"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/54rZnh93otfFvkG37BkY39"
+    },
+    "href": "https://api.spotify.com/v1/tracks/54rZnh93otfFvkG37BkY39",
+    "id": "54rZnh93otfFvkG37BkY39",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 13,
+    "type": "track",
+    "uri": "spotify:track:54rZnh93otfFvkG37BkY39"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/50na3UenOpUOS1uuWXM0AY"
+     },
+     "href": "https://api.spotify.com/v1/albums/50na3UenOpUOS1uuWXM0AY",
+     "id": "50na3UenOpUOS1uuWXM0AY",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273ca96d9b4e0df1d0120bf6d9b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02ca96d9b4e0df1d0120bf6d9b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851ca96d9b4e0df1d0120bf6d9b"
+      }
+     ],
+     "is_playable": true,
+     "name": "Greatest Hitz",
+     "release_date": "2005-11-08",
+     "release_date_precision": "day",
+     "total_tracks": 17,
+     "type": "album",
+     "uri": "spotify:album:50na3UenOpUOS1uuWXM0AY"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2F8mhprAH20PKf32agtk1d"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2F8mhprAH20PKf32agtk1d",
+    "id": "2F8mhprAH20PKf32agtk1d",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 13,
+    "type": "track",
+    "uri": "spotify:track:2F8mhprAH20PKf32agtk1d"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+       },
+       "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+       "id": "165ZgPlLkK7bf5bDoFc6Sb",
+       "name": "Limp Bizkit",
+       "type": "artist",
+       "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6tbD7TXKlegmp644gE2iKe"
+     },
+     "href": "https://api.spotify.com/v1/albums/6tbD7TXKlegmp644gE2iKe",
+     "id": "6tbD7TXKlegmp644gE2iKe",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27347d1eb0fd1fee9b671944ae9"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0247d1eb0fd1fee9b671944ae9"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485147d1eb0fd1fee9b671944ae9"
+      }
+     ],
+     "is_playable": true,
+     "name": "Results May Vary",
+     "release_date": "2003-09-23",
+     "release_date_precision": "day",
+     "total_tracks": 18,
+     "type": "album",
+     "uri": "spotify:album:6tbD7TXKlegmp644gE2iKe"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269973,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/56DFXkq3NqKXc0YjtlKV2Y"
+    },
+    "href": "https://api.spotify.com/v1/tracks/56DFXkq3NqKXc0YjtlKV2Y",
+    "id": "56DFXkq3NqKXc0YjtlKV2Y",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 16,
+    "type": "track",
+    "uri": "spotify:track:56DFXkq3NqKXc0YjtlKV2Y"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6c6cuQU28XHUiptVeeyvsa"
+     },
+     "href": "https://api.spotify.com/v1/albums/6c6cuQU28XHUiptVeeyvsa",
+     "id": "6c6cuQU28XHUiptVeeyvsa",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273bac9f5c5fcc5d7751f58631b"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02bac9f5c5fcc5d7751f58631b"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851bac9f5c5fcc5d7751f58631b"
+      }
+     ],
+     "is_playable": true,
+     "name": "Emo Rock",
+     "release_date": "2021-05-07",
+     "release_date_precision": "day",
+     "total_tracks": 43,
+     "type": "album",
+     "uri": "spotify:album:6c6cuQU28XHUiptVeeyvsa"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/304z1OjU57mCgK6flwRhPE"
+    },
+    "href": "https://api.spotify.com/v1/tracks/304z1OjU57mCgK6flwRhPE",
+    "id": "304z1OjU57mCgK6flwRhPE",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:304z1OjU57mCgK6flwRhPE"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6tW47DNFjXOHr1NSd1Vq84"
+     },
+     "href": "https://api.spotify.com/v1/albums/6tW47DNFjXOHr1NSd1Vq84",
+     "id": "6tW47DNFjXOHr1NSd1Vq84",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2732e97e23030a1a83932f5f8f1"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e022e97e23030a1a83932f5f8f1"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048512e97e23030a1a83932f5f8f1"
+      }
+     ],
+     "is_playable": true,
+     "name": "Summer Acoustic Hits",
+     "release_date": "2022-07-07",
+     "release_date_precision": "day",
+     "total_tracks": 40,
+     "type": "album",
+     "uri": "spotify:album:6tW47DNFjXOHr1NSd1Vq84"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5bliBduWhNktvtIn2vAZZz"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5bliBduWhNktvtIn2vAZZz",
+    "id": "5bliBduWhNktvtIn2vAZZz",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 39,
+    "type": "track",
+    "uri": "spotify:track:5bliBduWhNktvtIn2vAZZz"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/22jxrcXbFbkJv8guKOe7xe"
+     },
+     "href": "https://api.spotify.com/v1/albums/22jxrcXbFbkJv8guKOe7xe",
+     "id": "22jxrcXbFbkJv8guKOe7xe",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273331c8a1f27e212e156beb2cb"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02331c8a1f27e212e156beb2cb"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851331c8a1f27e212e156beb2cb"
+      }
+     ],
+     "is_playable": true,
+     "name": "2000s Rock Bangers",
+     "release_date": "2026-10-02",
+     "release_date_precision": "day",
+     "total_tracks": 80,
+     "type": "album",
+     "uri": "spotify:album:22jxrcXbFbkJv8guKOe7xe"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb"
+      },
+      "href": "https://api.spotify.com/v1/artists/165ZgPlLkK7bf5bDoFc6Sb",
+      "id": "165ZgPlLkK7bf5bDoFc6Sb",
+      "name": "Limp Bizkit",
+      "type": "artist",
+      "uri": "spotify:artist:165ZgPlLkK7bf5bDoFc6Sb"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 269386,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USIR10312186"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2SnedddfR0Kno7DiJpEnc8"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2SnedddfR0Kno7DiJpEnc8",
+    "id": "2SnedddfR0Kno7DiJpEnc8",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Behind Blue Eyes",
+    "track_number": 33,
+    "type": "track",
+    "uri": "spotify:track:2SnedddfR0Kno7DiJpEnc8"
+   }
+  ]
+ }
+}

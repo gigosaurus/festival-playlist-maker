@@ -1,0 +1,2738 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 1135,
+  "setlist": [
+   {
+    "id": "5349d7b5",
+    "versionId": "g53084b8d",
+    "eventDate": "12-10-2026",
+    "lastUpdated": "2026-10-13T03:52:40.137+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "5bdf9f14",
+     "name": "The Truth",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-truth-nashville-tn-usa-5bdf9f14.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Making Love to Morgan Wallen"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Out of Style"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/the-truth-nashville-tn-5349d7b5.html"
+   },
+   {
+    "id": "5b49d7b0",
+    "versionId": "g1309b589",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T18:06:42.176+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "5bdf9f14",
+     "name": "The Truth",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-truth-nashville-tn-usa-5bdf9f14.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Fred sings with his back to the crowd, facing a huge picture of Sam Rivers as the backdrop."
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Bring It Back"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With 13-year old fan on stage for vocals"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "Dedicated to the ladies and Tom Cruise"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "With house lights on"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "While not relevant to the show itself, if you are planning on going to see Limp Bizkit you should know they don't sell merch at concerts, likely because they don't want to give the venue a cut.  Buy it online beforehand.",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/the-truth-nashville-tn-5b49d7b0.html"
+   },
+   {
+    "id": "7b480640",
+    "versionId": "g6b0b22da",
+    "eventDate": "02-10-2026",
+    "lastUpdated": "2026-10-03T14:37:54.578+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "4bdfcbb6",
+     "name": "Aftershock Stage",
+     "city": {
+      "id": "5389489",
+      "name": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 38.5815719,
+       "long": -121.4943996
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/aftershock-stage-sacramento-ca-usa-4bdfcbb6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bitch Ass Motherfucker",
+         "tape": true
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "DJ Lethal Remix",
+         "tape": true
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         }
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         }
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Tell Me When to Go",
+         "tape": true,
+         "cover": {
+          "mbid": "a449973b-074b-4cf0-a4d6-f11fa2d1073f",
+          "name": "E‐40",
+          "sortName": "E‐40",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/e40-13d6810d.html"
+         }
+        },
+        {
+         "name": "Hot Dog",
+         "info": "w/ \"Master of Puppets\" by Metallica intro"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "1fb910ff-917b-409e-a787-6143fd7b1387",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "US singer/songwriter, known for “Tainted Love”",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-6bd65686.html"
+         }
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Alive",
+         "tape": true,
+         "cover": {
+          "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+          "name": "Pearl Jam",
+          "sortName": "Pearl Jam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pearl-jam-23d6b80b.html"
+         }
+        },
+        {
+         "name": "No Fucks To Give",
+         "tape": true,
+         "cover": {
+          "mbid": "41af87be-6542-4f8a-adb3-2e9d7c97cd47",
+          "name": "King Willonius",
+          "sortName": "King Willonius",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/king-willonius-53e5a3ad.html"
+         },
+         "info": "Played while Wes's guitar was being fixed"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Nookie / Full Nelson",
+         "info": "For Full Nelson, the audience member chosen lost their dad in 2023 and Limp Bizkit helped them throu"
+        },
+        {
+         "name": "In Da Club",
+         "tape": true,
+         "cover": {
+          "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+          "name": "50 Cent",
+          "sortName": "50 Cent",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/50-cent-2bd69cce.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "The Promise",
+         "tape": true,
+         "cover": {
+          "mbid": "d3dcef08-31d2-45b4-8e12-e4c7ac0d26c8",
+          "name": "When in Rome",
+          "sortName": "When in Rome",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/when-in-rome-4bd607b2.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/aftershock-stage-sacramento-ca-7b480640.html"
+   },
+   {
+    "id": "3b4890c8",
+    "versionId": "g430b67df",
+    "eventDate": "19-09-2026",
+    "lastUpdated": "2026-10-04T23:19:26.374+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "bdfc522",
+     "name": "Louder Stage",
+     "city": {
+      "id": "4299276",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "stateCode": "KY",
+      "coords": {
+       "lat": 38.2542376,
+       "long": -85.759407
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/louder-stage-louisville-ky-usa-bdfc522.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bitch Ass Motherfucker",
+         "tape": true
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Alive",
+         "tape": true,
+         "cover": {
+          "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+          "name": "Pearl Jam",
+          "sortName": "Pearl Jam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pearl-jam-23d6b80b.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Santeria",
+         "cover": {
+          "mbid": "95f5b748-d370-47fe-85bd-0af2dc450bc0",
+          "name": "Sublime",
+          "sortName": "Sublime",
+          "disambiguation": "ska punk",
+          "url": "https://www.setlist.fm/setlists/sublime-3d689bb.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Nookie / Full Nelson"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "Second time"
+        },
+        {
+         "name": "The Promise",
+         "tape": true,
+         "cover": {
+          "mbid": "d3dcef08-31d2-45b4-8e12-e4c7ac0d26c8",
+          "name": "When in Rome",
+          "sortName": "When in Rome",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/when-in-rome-4bd607b2.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/louder-stage-louisville-ky-3b4890c8.html"
+   },
+   {
+    "id": "537437ed",
+    "versionId": "g330d3421",
+    "eventDate": "17-09-2026",
+    "lastUpdated": "2026-09-18T12:17:42.907+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "4bd6dbd6",
+     "name": "Harris Park",
+     "city": {
+      "id": "6058560",
+      "name": "London",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 42.983389283,
+       "long": -81.233042387
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/harris-park-london-on-canada-4bd6dbd6.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Alive",
+         "cover": {
+          "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+          "name": "Pearl Jam",
+          "sortName": "Pearl Jam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pearl-jam-23d6b80b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Seven Nation Army",
+         "cover": {
+          "mbid": "11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5",
+          "name": "The White Stripes",
+          "sortName": "White Stripes, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-white-stripes-3bd69864.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "1fb910ff-917b-409e-a787-6143fd7b1387",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "US singer/songwriter, known for “Tainted Love”",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-6bd65686.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Alive",
+         "tape": true,
+         "cover": {
+          "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+          "name": "Pearl Jam",
+          "sortName": "Pearl Jam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pearl-jam-23d6b80b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "I Can't Wait",
+         "tape": true,
+         "cover": {
+          "mbid": "5e709ff3-170e-40ff-83ad-ecfb3030ad38",
+          "name": "Nu Shooz",
+          "sortName": "Nu Shooz",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/nu-shooz-2bd71822.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Alive",
+         "cover": {
+          "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+          "name": "Pearl Jam",
+          "sortName": "Pearl Jam",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pearl-jam-23d6b80b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Sweet Child o' Mine",
+         "cover": {
+          "mbid": "eeb1195b-f213-4ce1-b28c-8565211f8e43",
+          "name": "Guns N’ Roses",
+          "sortName": "Guns N’ Roses",
+          "disambiguation": "American hard rock band from Los Angeles",
+          "url": "https://www.setlist.fm/setlists/guns-n-roses-7bd69e24.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "Dedicated to \"you and Tom Cruise\" - included Richie Buxton introduction and Sam Rivers tribute"
+        },
+        {
+         "name": "In Da Club",
+         "tape": true,
+         "cover": {
+          "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+          "name": "50 Cent",
+          "sortName": "50 Cent",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/50-cent-2bd69cce.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "Brought two fans onstage to sing"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "The Promise",
+         "tape": true,
+         "cover": {
+          "mbid": "d3dcef08-31d2-45b4-8e12-e4c7ac0d26c8",
+          "name": "When in Rome",
+          "sortName": "When in Rome",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/when-in-rome-4bd607b2.html"
+         },
+         "info": "Snippet"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/harris-park-london-on-canada-537437ed.html"
+   },
+   {
+    "id": "4b4ae7a6",
+    "versionId": "g73058a31",
+    "eventDate": "19-07-2026",
+    "lastUpdated": "2026-07-20T20:25:07.807+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "6bdffaf2",
+     "name": "The Yard Stage",
+     "city": {
+      "id": "5161723",
+      "name": "Mansfield",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 40.75839,
+       "long": -82.5154471
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-yard-stage-mansfield-oh-usa-6bdffaf2.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie",
+         "info": "Played until second chorus"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Played until second chorus"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Boiler and Dad Vibes potentially cut due to injury stoppages and set length",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/the-yard-stage-mansfield-oh-4b4ae7a6.html"
+   },
+   {
+    "id": "3b4c4c90",
+    "versionId": "g1305e9c1",
+    "eventDate": "18-07-2026",
+    "lastUpdated": "2026-07-21T14:55:21.969+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "13d1fd85",
+     "name": "Credit Union 1 Amphitheatre",
+     "city": {
+      "id": "4913723",
+      "name": "Tinley Park",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.5733669,
+       "long": -87.7844944
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/credit-union-1-amphitheatre-tinley-park-il-usa-13d1fd85.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "Brought up 2 girls from the audience to sing with. One dressed like Durst from the 90's"
+        },
+        {
+         "name": "Boiler",
+         "info": "(Partial) w/ Sam Rivers Tribute"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "Broken Lizard in character as Super Troopers"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/credit-union-1-amphitheatre-tinley-park-il-3b4c4c90.html"
+   },
+   {
+    "id": "1b4af140",
+    "versionId": "g73044e69",
+    "eventDate": "17-07-2026",
+    "lastUpdated": "2026-07-19T01:44:47.088+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "5bd00b18",
+     "name": "Amphitheater Venue",
+     "city": {
+      "id": "5247387",
+      "name": "Cadott",
+      "state": "Wisconsin",
+      "stateCode": "WI",
+      "coords": {
+       "lat": 44.9480187,
+       "long": -91.1507031
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/amphitheater-venue-cadott-wi-usa-5bd00b18.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Set cut short because of heavy rain",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/amphitheater-venue-cadott-wi-1b4af140.html"
+   },
+   {
+    "id": "2348fcfb",
+    "versionId": "g2b04c44a",
+    "eventDate": "10-07-2026",
+    "lastUpdated": "2026-07-15T14:30:23.360+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73dfda65",
+     "name": "RBC Stage",
+     "city": {
+      "id": "6094817",
+      "name": "Ottawa",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 45.4209405046496,
+       "long": -75.6902861595154
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rbc-stage-ottawa-on-canada-73dfda65.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hot Dog",
+         "info": "followed by ‘Master of Puppets’ snippet"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "with": {
+          "mbid": "74e8d712-b0d4-48dc-96ea-d866e483824a",
+          "name": "Tom Green",
+          "sortName": "Green, Tom",
+          "disambiguation": "Canadian comedian/actor",
+          "url": "https://www.setlist.fm/setlists/tom-green-53d4e3bd.html"
+         }
+        },
+        {
+         "name": "Nookie",
+         "info": "until the second chorus"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/rbc-stage-ottawa-on-canada-2348fcfb.html"
+   },
+   {
+    "id": "1349a5b9",
+    "versionId": "g7b0776b8",
+    "eventDate": "09-07-2026",
+    "lastUpdated": "2026-07-10T09:26:36.227+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "7bdfea1c",
+     "name": "Scène Bell",
+     "city": {
+      "id": "6325494",
+      "name": "Quebec City",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 46.812,
+       "long": -71.215
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/scene-bell-quebec-city-qc-canada-7bdfea1c.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "9 Teen 90 Nine",
+         "info": "Shortened"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Generation",
+         "info": "With DJ Lethal intro"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "1fb910ff-917b-409e-a787-6143fd7b1387",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "US singer/songwriter, known for “Tainted Love”",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-6bd65686.html"
+         },
+         "info": "Soft Cell snippet"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "I Can't Wait",
+         "tape": true,
+         "cover": {
+          "mbid": "5e709ff3-170e-40ff-83ad-ecfb3030ad38",
+          "name": "Nu Shooz",
+          "sortName": "Nu Shooz",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/nu-shooz-2bd71822.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With Fred Durst dressed girl from the crowd singing on stage"
+        },
+        {
+         "name": "In da Club",
+         "tape": true,
+         "cover": {
+          "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+          "name": "50 Cent",
+          "sortName": "50 Cent",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/50-cent-2bd69cce.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Dedicated to Sam Rivers with cellphone light wave by the public"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "The Promise",
+         "tape": true,
+         "cover": {
+          "mbid": "d3dcef08-31d2-45b4-8e12-e4c7ac0d26c8",
+          "name": "When in Rome",
+          "sortName": "When in Rome",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/when-in-rome-4bd607b2.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/scene-bell-quebec-city-qc-canada-1349a5b9.html"
+   },
+   {
+    "id": "6b4c5ee2",
+    "versionId": "g63077e7b",
+    "eventDate": "03-07-2026",
+    "lastUpdated": "2026-07-10T02:51:48.415+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "4bdfb7ce",
+     "name": "Main Stage",
+     "city": {
+      "id": "6359224",
+      "name": "Viveiro",
+      "state": "Galicia",
+      "stateCode": "58",
+      "coords": {
+       "lat": 43.6555044627283,
+       "long": -7.58279126868027
+      },
+      "country": {
+       "code": "ES",
+       "name": "Spain"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/main-stage-viveiro-spain-4bdfb7ce.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With fan \"Vomit Queen\" singing on stage"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/main-stage-viveiro-spain-6b4c5ee2.html"
+   },
+   {
+    "id": "13488119",
+    "versionId": "g4b064336",
+    "eventDate": "01-07-2026",
+    "lastUpdated": "2026-07-03T20:30:02.774+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "3bdef0f0",
+     "name": "Movistar Arena",
+     "city": {
+      "id": "3117735",
+      "name": "Madrid",
+      "state": "Autonomous Region of Madrid",
+      "stateCode": "29",
+      "coords": {
+       "lat": 40.4165020941502,
+       "long": -3.70256423950195
+      },
+      "country": {
+       "code": "ES",
+       "name": "Spain"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/movistar-arena-madrid-spain-3bdef0f0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Stuck"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Wes Borland's Freestyle",
+         "info": "Snippet"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With two audience members singing"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "With Death By Romy"
+        },
+        {
+         "name": "Aserejé",
+         "tape": true,
+         "info": "Las Kétchup"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "3fcfb644-3efc-492b-a1e0-8de7df006b8b",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "vocalist for Aquarian Dream",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-7bd72a50.html"
+         },
+         "info": "Soft Cell"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         },
+         "info": "Spandau Ballet"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"Leech\" was on the printed setlist. Got replaced by \"Eat you alive\" on Fred's decision.",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/movistar-arena-madrid-spain-13488119.html"
+   },
+   {
+    "id": "334e58b5",
+    "versionId": "g63050a0b",
+    "eventDate": "27-06-2026",
+    "lastUpdated": "2026-07-24T09:13:34.224+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Out of Style"
+        },
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog",
+         "info": "w/ \"Master of Puppets\" by Metallica intro"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Nookie",
+         "info": "Until breakdown"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With a fan on stage"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Played until the second chorus."
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "w/\"It'll Be OK\" snippet as intro"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First Limp Bizkit show in Norway.",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/ekebergsletta-oslo-norway-334e58b5.html"
+   },
+   {
+    "id": "4b48975e",
+    "versionId": "g7b084a00",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-10-13T04:07:04.620+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "53d6cb29",
+     "name": "Parkbühne Wuhlheide",
+     "city": {
+      "id": "2950159",
+      "name": "Berlin",
+      "state": "Berlin",
+      "stateCode": "16",
+      "coords": {
+       "lat": 52.5166667,
+       "long": 13.4
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/parkbuhne-wuhlheide-berlin-germany-53d6cb29.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Out of Style"
+        },
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "Hot Dog",
+         "info": "w/ \"Master of Puppets\" by Metallica intro"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "3fcfb644-3efc-492b-a1e0-8de7df006b8b",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "vocalist for Aquarian Dream",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-7bd72a50.html"
+         }
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Stuck",
+         "info": "Restarted after the first verse; First time played since 2016; First time played fully since 2014"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         }
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie",
+         "info": "Until the bridge"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with Suki Wong of DeathbyRomy"
+        },
+        {
+         "name": "99 Luftballons",
+         "tape": true,
+         "cover": {
+          "mbid": "c954d136-c7fd-4fd9-8bb0-fb0491fc6a02",
+          "name": "Nena",
+          "sortName": "Nena",
+          "disambiguation": "the band, until 1987",
+          "url": "https://www.setlist.fm/setlists/nena-5bd6ff9c.html"
+         }
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Until the bridge"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/parkbuhne-wuhlheide-berlin-germany-4b48975e.html"
+   },
+   {
+    "id": "4348975f",
+    "versionId": "g63195e73",
+    "eventDate": "23-06-2026",
+    "lastUpdated": "2026-06-25T09:49:59.952+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "53d5afd1",
+     "name": "SparkassenPark",
+     "city": {
+      "id": "2869894",
+      "name": "Mönchengladbach",
+      "state": "North Rhine-Westphalia",
+      "stateCode": "07",
+      "coords": {
+       "lat": 51.2,
+       "long": 6.4333333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sparkassenpark-monchengladbach-germany-53d5afd1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Making Love to Morgan Wallen",
+         "info": "Live debut"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "w/ 2 girls on Stage"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/sparkassenpark-monchengladbach-germany-4348975f.html"
+   },
+   {
+    "id": "1b4f3d3c",
+    "versionId": "g7306d6fd",
+    "eventDate": "20-06-2026",
+    "lastUpdated": "2026-06-29T08:11:15.848+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "43df83a7",
+     "name": "Mainstage 01",
+     "city": {
+      "id": "3024578",
+      "name": "Clisson",
+      "state": "Pays de la Loire",
+      "stateCode": "52",
+      "coords": {
+       "lat": 47.083,
+       "long": -1.283
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mainstage-01-clisson-france-43df83a7.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "with": {
+          "mbid": "f8060e2e-3dd9-431a-b7ae-31b1e656c7ee",
+          "name": "Slay Squad",
+          "sortName": "Slay Squad",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/slay-squad-3bf8541c.html"
+         }
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Break Stuff",
+         "with": {
+          "mbid": "f8060e2e-3dd9-431a-b7ae-31b1e656c7ee",
+          "name": "Slay Squad",
+          "sortName": "Slay Squad",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/slay-squad-3bf8541c.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/mainstage-01-clisson-france-1b4f3d3c.html"
+   },
+   {
+    "id": "b4e61fe",
+    "versionId": "gb19e92e",
+    "eventDate": "18-06-2026",
+    "lastUpdated": "2026-06-20T23:59:19.142+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "33dfb4fd",
+     "name": "North Stage",
+     "city": {
+      "id": "2799511",
+      "name": "Dessel",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.233,
+       "long": 5.117
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/north-stage-dessel-belgium-33dfb4fd.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Intro",
+         "tape": true
+        },
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         }
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "Hot Dog",
+         "info": "with Metallica 'Master of Puppets' intro."
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "3fcfb644-3efc-492b-a1e0-8de7df006b8b",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "vocalist for Aquarian Dream",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-7bd72a50.html"
+         },
+         "info": "Soft Cell Version"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Boy",
+         "tape": true,
+         "cover": {
+          "mbid": "874b3a85-db6e-49f2-b8bf-747ca5c10d27",
+          "name": "Book of Love",
+          "sortName": "Book of Love",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/book-of-love-4bd7effe.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "With two fans."
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         }
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Cars",
+         "tape": true,
+         "cover": {
+          "mbid": "6cb79cb2-9087-44d4-828b-5c6fdff2c957",
+          "name": "Gary Numan",
+          "sortName": "Numan, Gary",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/gary-numan-7bd68a84.html"
+         }
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Break Stuff",
+         "with": {
+          "mbid": "f8060e2e-3dd9-431a-b7ae-31b1e656c7ee",
+          "name": "Slay Squad",
+          "sortName": "Slay Squad",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/slay-squad-3bf8541c.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/north-stage-dessel-belgium-b4e61fe.html"
+   },
+   {
+    "id": "634e529f",
+    "versionId": "gb180d0a",
+    "eventDate": "15-06-2026",
+    "lastUpdated": "2026-06-16T01:57:44.836+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73d4ea3d",
+     "name": "Plateia Nerou",
+     "city": {
+      "id": "255274",
+      "name": "Piraeus",
+      "state": "Attica",
+      "stateCode": "ESYE31",
+      "coords": {
+       "lat": 37.9474464019929,
+       "long": 23.6370849609375
+      },
+      "country": {
+       "code": "GR",
+       "name": "Greece"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/plateia-nerou-piraeus-greece-73d4ea3d.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Just Like This"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog",
+         "info": "w/\"Master of Puppets\" main riff as intro"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with 2 girls on stage singing"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Bring It Back"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "w/\"It'll Bè Ok\" snippet ad intro"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First ever show in Greece",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/plateia-nerou-piraeus-greece-634e529f.html"
+   },
+   {
+    "id": "234fe093",
+    "versionId": "g130131e1",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-08-20T06:54:13.029+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "3bdfb498",
+     "name": "Apex Stage",
+     "city": {
+      "id": "2653591",
+      "name": "Castle Donington",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 52.8429056250398,
+       "long": -1.34187698364258
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/apex-stage-castle-donington-england-3bdfb498.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "No Fucks To Give",
+         "tape": true,
+         "cover": {
+          "mbid": "41af87be-6542-4f8a-adb3-2e9d7c97cd47",
+          "name": "King Willonius",
+          "sortName": "King Willonius",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/king-willonius-53e5a3ad.html"
+         }
+        },
+        {
+         "name": "Break Stuff",
+         "info": "with ‘Break Stuff’ and ‘Thieves’ intro snippets"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Bring It Back"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "3fcfb644-3efc-492b-a1e0-8de7df006b8b",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "vocalist for Aquarian Dream",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-7bd72a50.html"
+         },
+         "info": "Soft Cell version."
+        },
+        {
+         "name": "Hot Dog",
+         "with": {
+          "mbid": "4b98945e-a710-4f13-8bd1-6daa43fd1a5d",
+          "name": "Lauren Sanderson",
+          "sortName": "Sanderson, Lauren",
+          "disambiguation": "US | pop",
+          "url": "https://www.setlist.fm/setlists/lauren-sanderson-2bcc544e.html"
+         }
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with 4 fans invited on stage to sing"
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "info": "The Outfield song"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Cars",
+         "tape": true,
+         "cover": {
+          "mbid": "6cb79cb2-9087-44d4-828b-5c6fdff2c957",
+          "name": "Gary Numan",
+          "sortName": "Numan, Gary",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/gary-numan-7bd68a84.html"
+         }
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "99 Luftballons",
+         "tape": true,
+         "cover": {
+          "mbid": "c954d136-c7fd-4fd9-8bb0-fb0491fc6a02",
+          "name": "Nena",
+          "sortName": "Nena",
+          "disambiguation": "the band, until 1987",
+          "url": "https://www.setlist.fm/setlists/nena-5bd6ff9c.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way",
+         "info": "‘It’ll Be OK’ intro; cut short due to crowd accident, followed by extended break"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "The Promise",
+         "tape": true,
+         "cover": {
+          "mbid": "d3dcef08-31d2-45b4-8e12-e4c7ac0d26c8",
+          "name": "When in Rome",
+          "sortName": "When in Rome",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/when-in-rome-4bd607b2.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/apex-stage-castle-donington-england-234fe093.html"
+   },
+   {
+    "id": "434eeb7b",
+    "versionId": "g6b07aace",
+    "eventDate": "11-06-2026",
+    "lastUpdated": "2026-07-04T17:16:03.139+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Intro",
+         "tape": true
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "True",
+         "tape": true,
+         "cover": {
+          "mbid": "4c0d9acf-a8a1-4765-9c56-05f92f68c048",
+          "name": "Spandau Ballet",
+          "sortName": "Spandau Ballet",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/spandau-ballet-6bd6be8e.html"
+         }
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Bring It Back"
+        },
+        {
+         "name": "Tainted Love",
+         "tape": true,
+         "cover": {
+          "mbid": "3fcfb644-3efc-492b-a1e0-8de7df006b8b",
+          "name": "Gloria Jones",
+          "sortName": "Jones, Gloria",
+          "disambiguation": "vocalist for Aquarian Dream",
+          "url": "https://www.setlist.fm/setlists/gloria-jones-7bd72a50.html"
+         },
+         "info": "Soft Cell version."
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with two fans on the stage performing and Jacoby Shaddix from Papa Roach doing a hype up"
+        },
+        {
+         "name": "99 Luftballons",
+         "tape": true,
+         "cover": {
+          "mbid": "c954d136-c7fd-4fd9-8bb0-fb0491fc6a02",
+          "name": "Nena",
+          "sortName": "Nena",
+          "disambiguation": "the band, until 1987",
+          "url": "https://www.setlist.fm/setlists/nena-5bd6ff9c.html"
+         }
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Cars",
+         "tape": true,
+         "cover": {
+          "mbid": "6cb79cb2-9087-44d4-828b-5c6fdff2c957",
+          "name": "Gary Numan",
+          "sortName": "Numan, Gary",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/gary-numan-7bd68a84.html"
+         }
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "Boiler",
+         "info": "preceded by a partial of 'All Apologies' by Nirvana"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "Reprise"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2026/park-360-hradec-kralove-czechia-434eeb7b.html"
+   }
+  ]
+ }
+}

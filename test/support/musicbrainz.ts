@@ -1,8 +1,17 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { eventsPerPage, genreListUrl, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../src/musicbrainz.ts";
+import {
+  eventsPerPage,
+  genreListUrl,
+  musicbrainzAlbumReleasesUrl,
+  musicbrainzAlbumsUrl,
+  musicbrainzEventsUrl,
+  musicbrainzLinksUrl,
+  musicbrainzSearchUrl,
+  releaseGroupsPerPage,
+} from "../../src/musicbrainz.ts";
 
-export { genreListUrl, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl };
+export { genreListUrl, musicbrainzAlbumReleasesUrl, musicbrainzAlbumsUrl, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl };
 import type { RecordedResponse } from "./fake-http-client.ts";
 
 // Recorded MusicBrainz responses. test/fixtures/musicbrainz/README.md tells how
@@ -39,6 +48,15 @@ export function eventsResponse(musicbrainzId: string, page: number): RecordedRes
   return recorded(eventsFileName(musicbrainzId, page), "application/json; charset=utf-8");
 }
 
+// The file name of a recorded album request (#14): "albums-<artist ID>-<page>.json" for a
+// page of the albums of an artist, and "releases-<release group ID>.json" for the releases of one album.
+export function albumsFileName(url: string): string {
+  const { searchParams } = new URL(url);
+  const artist = searchParams.get("artist");
+  if (artist !== null) return `albums-${artist}-${Number(searchParams.get("offset")) / releaseGroupsPerPage + 1}.json`;
+  return `releases-${searchParams.get("release-group")}.json`;
+}
+
 // The full genre list (2,226 genres).
 export function genreListResponse(): RecordedResponse {
   return recorded("genres.txt", "text/plain; charset=utf-8");
@@ -64,7 +82,7 @@ export const download2027Names = [
 ];
 
 // Each search text that has a recorded response.
-export const recordedSearches = [...download2027Names, "Ghost", "BMTH"];
+export const recordedSearches = [...download2027Names, "Ghost", "BMTH", "Rage Against the Machine"];
 
 // The recorded lookup of an artist with its links.
 export function linksResponse(musicbrainzId: string): RecordedResponse {
@@ -72,7 +90,8 @@ export function linksResponse(musicbrainzId: string): RecordedResponse {
 }
 
 // The MusicBrainz artists that have a recorded lookup with links: the proposed
-// artist of each Download 2027 name, and two artists with no Spotify link.
+// artist of each Download 2027 name, two artists with no Spotify link, and Rage
+// Against the Machine, which has few recent shows (#14).
 export const musicbrainzIds = {
   blink182: "0743b15a-3c32-48c8-ad58-cb325350befa",
   bringMeTheHorizon: "074e3847-f67f-49f9-81f1-8c8cea147e8e",
@@ -84,6 +103,7 @@ export const musicbrainzIds = {
   motleyCrue: "26f07661-e115-471d-a930-206f5c89d17c",
   parkwayDrive: "a436dd02-0549-4c91-b608-df451217fdeb",
   pierceTheVeil: "8ed919fb-eaee-45a1-ba99-b3ede9ca5f1d",
+  rageAgainstTheMachine: "3798b104-01cb-484c-a3b0-56adc6399b80",
   theProdigy: "4a4ee089-93b1-4470-af9a-6ff575d32704",
   turnstile: "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
 };
@@ -98,6 +118,17 @@ export function respondWithRecordedMusicBrainz(respondTo: (method: string, url: 
     if (match === null) continue;
     const page = Number(match[2]);
     respondTo("GET", musicbrainzEventsUrl(match[1]!, (page - 1) * eventsPerPage), eventsResponse(match[1]!, page));
+  }
+  for (const file of readdirSync(fixtures)) {
+    const albums = /^albums-(.+)-(\d+)\.json$/.exec(file);
+    const releases = /^releases-(.+)\.json$/.exec(file);
+    const url =
+      albums !== null
+        ? musicbrainzAlbumsUrl(albums[1]!, (Number(albums[2]) - 1) * releaseGroupsPerPage)
+        : releases !== null
+          ? musicbrainzAlbumReleasesUrl(releases[1]!)
+          : undefined;
+    if (url !== undefined) respondTo("GET", url, recorded(file, "application/json; charset=utf-8"));
   }
 }
 

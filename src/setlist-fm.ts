@@ -8,7 +8,8 @@ export interface Show {
   // The date of the show, at 00:00 UTC.
   date: Date;
   // The songs in the order of the setlist, with the songs of all sets and encores.
-  songs: { name: string; tape: boolean }[];
+  // `cover` is true when the song is a song of a different artist (issue #14).
+  songs: { name: string; tape: boolean; cover: boolean }[];
   // The setlist.fm venue ID. A setlist without a venue ID has none.
   venueId?: string;
   // The name of the tour on setlist.fm. A show that is not in a tour has none.
@@ -118,7 +119,7 @@ export function createSetlistFm(httpClient: HttpClient): SetlistFm {
 }
 
 // A setlist: { "eventDate": "11-10-2026", "venue": { "id": "3bd634d0" }, "tour": { "name": "…" },
-// "sets": { "set": [{ "song": [{ "name": "…", "tape": true }] }] } }.
+// "sets": { "set": [{ "song": [{ "name": "…", "tape": true, "cover": { "name": "…" } }] }] } }.
 function readShow(value: unknown): Show | undefined {
   if (typeof value !== "object" || value === null) return undefined;
   const { eventDate, sets, venue, tour } = value as { eventDate?: unknown; sets?: { set?: unknown }; venue?: { id?: unknown }; tour?: { name?: unknown } };
@@ -128,8 +129,10 @@ function readShow(value: unknown): Show | undefined {
   for (const set of Array.isArray(sets?.set) ? sets.set : []) {
     const list = (set as { song?: unknown }).song;
     for (const song of Array.isArray(list) ? list : []) {
-      const { name, tape } = song as { name?: unknown; tape?: unknown };
-      if (typeof name === "string" && name.trim() !== "") songs.push({ name: name.trim(), tape: tape === true });
+      const { name, tape, cover } = song as { name?: unknown; tape?: unknown; cover?: unknown };
+      if (typeof name === "string" && name.trim() !== "") {
+        songs.push({ name: name.trim(), tape: tape === true, cover: typeof cover === "object" && cover !== null });
+      }
     }
   }
   const show: Show = { date: new Date(Date.UTC(Number(date[3]), Number(date[2]) - 1, Number(date[1]))), songs };

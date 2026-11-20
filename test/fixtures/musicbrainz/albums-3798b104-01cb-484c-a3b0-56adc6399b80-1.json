@@ -1,0 +1,1394 @@
+{
+ "release-group-count": 108,
+ "release-group-offset": 0,
+ "release-groups": [
+  {
+   "title": "2008-01-22: The Battle of Sydney: Sydney Entertainment Centre, Sydney, Australia",
+   "id": "08731690-9ab9-3578-832d-10d57d1592d3",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2008",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "title": "Best Collection",
+   "id": "099d9ac3-12c8-4543-a9ac-28bb2ee77466",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "secondary-types": [
+    "Compilation"
+   ],
+   "first-release-date": "2014",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "id": "1305859b-8937-397f-9c33-39f62eb672fb",
+   "secondary-type-ids": [],
+   "title": "Rage Against the Machine",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1992-11-06",
+   "disambiguation": "",
+   "secondary-types": []
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "13aec8ad-55b1-46e6-af76-f265b3ca9906",
+   "title": "1999-11-05: El Rey Theatre, Hollywood, CA, USA"
+  },
+  {
+   "id": "1b469da1-e542-346b-84e6-4d7fe45be181",
+   "secondary-type-ids": [],
+   "title": "Evil Empire",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1996-03-28",
+   "disambiguation": "",
+   "secondary-types": []
+  },
+  {
+   "title": "Renegades / The Battle of Los Angeles",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "1b95c80d-6093-4f1e-b5c3-2764532b1b91",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2010-10-12",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "title": "1999-12-11: Lakewood Arena, New Orleans, LA, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "1d04d408-5a42-3d07-a395-68ac3a7f4aa6",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "id": "1e18f596-b4ec-4663-9311-36aa3e1622f6",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "The Handler Of The Revolver (Live)",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2021-02-08",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "Bombtracks, Volume 1: Studio Tracks",
+   "id": "2307cb61-1c69-3ba8-b56b-e4f1adf8b0d9",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "secondary-types": [
+    "Compilation"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "first-release-date": "2023",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "24a9553a-c923-443d-9c79-7d2812e59bf8",
+   "title": "No Escape Live 1993"
+  },
+  {
+   "secondary-types": [],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "1999-09",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "title": "The Battle of Los Angeles",
+   "secondary-type-ids": [],
+   "id": "25e72bf4-09fc-3e66-9d31-9247d91b4819"
+  },
+  {
+   "id": "25eb7fe1-3a82-4b84-82e7-73053227d9d1",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Use The Revolver",
+   "primary-type": "Album",
+   "first-release-date": "2021-06-30",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "1999‐07‐24: Woodstock ’99, Rome, NY, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "29065276-b589-3b5b-9805-7dd6da93db44",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "1999",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "2baebe9b-4386-43ed-b22a-12758cbcf5c9",
+   "title": "Silence Is Betrayal (Live 1993)",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2023-07-27",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "Live 1995",
+   "id": "2c176d62-3e2b-4ba9-ac65-39605de1cc49",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "first-release-date": "2021-05-25",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1996",
+   "disambiguation": "",
+   "title": "Electric Factory",
+   "id": "3272a56f-e41e-3638-879f-d6767375dd4f",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2021-12-10",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "3415efc6-369f-4834-9bf6-69bbf32ddc44",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "LIVE IN BRAZIL 2010 (Live)"
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2020-09-02",
+   "title": "Live in LA 1993",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "37acf185-99db-4e02-bd70-226b7b2070e9"
+  },
+  {
+   "title": "Live at the Grand Olympic Auditorium",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "37f5bd3a-bb14-3480-96c5-feadf0dbe038",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2003-11-21",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "title": "Renegades",
+   "secondary-type-ids": [],
+   "id": "38c1dd77-0116-380c-a4f5-2ea8e13389a3",
+   "secondary-types": [],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2000-11-28"
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "3a316461-29cb-4781-966a-f0f93b740988",
+   "title": "2008-09-03: RNC FUCK YOU: Target Center, Minneapolis, MN, USA"
+  },
+  {
+   "id": "3ae9e412-5d79-33c4-9c59-90e432fcf532",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "America’s Most Wanted",
+   "first-release-date": "1994",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "first-release-date": "2000-04-02",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "title": "The Battle of Dusseldorf",
+   "id": "3cab1029-c22c-3baf-a5aa-6aab33ce8b0f",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "title": "1999-11-06: Virgin on Sunset, Los Angeles, CA, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "3f8ef8fb-b49d-3cc5-9a5a-7f5574c87691",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "title": "Freedom Fighters",
+   "id": "40543e4f-ec87-40c3-9ef4-e41e8a5bbc4d",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1996",
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Compilation",
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "1996",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "title": "Protest And Survive",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "4245e59b-1669-4dbb-98fb-0b45985e0673"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "44373b57-cd92-4900-885e-884fe1df5d45",
+   "title": "Irvine Meadows June ’95",
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2016-04-19",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "4b510c1e-383f-49ec-9d58-dfe2d86f2c84",
+   "title": "Going into Action",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1993",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "Live on Tour 1993",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "4bb52711-2560-4c98-b0a7-bd56163f4bd4",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2025-04-12"
+  },
+  {
+   "id": "55399028-fe94-48c7-867a-3ad4fae84569",
+   "secondary-type-ids": [
+    "81598169-0d6c-3bce-b4be-866fa658eda3"
+   ],
+   "title": "Rage Against the Machine",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1991-12",
+   "disambiguation": "",
+   "secondary-types": [
+    "Demo"
+   ]
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "557403ad-c90c-3a2e-9a3e-304113e4e786",
+   "title": "2008-01-28: Big Day Out: Flemington Racecourse, Melbourne, Australia"
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "2001-02-20",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "title": "The Battle of Mexico City",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "57114399-0ef2-3c26-b119-6ed3f8e378d9"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "58e5d773-ab1e-4210-9de6-62b5f7ae6141",
+   "title": "Live in California 1995",
+   "disambiguation": "",
+   "first-release-date": "2020-09-02",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2003",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "59a9520e-cefc-4cde-aa77-7143dabed5fa",
+   "title": "×2: Rage Against the Machine / Evil Empire"
+  },
+  {
+   "title": "Township Rebellion: Live in the U.S.A.",
+   "id": "5e9f10aa-017d-4269-a353-fd2dedaa6594",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1994",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "title": "…From Los Angeles, California",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "63068026-9a79-45e3-a98f-c4c3f98654fc",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "1999",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "title": "2007-04-29: Coachella Festival, Indio, CA, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "64b7179e-3cda-3203-8444-7072379c2c19",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2007-04-29",
+   "primary-type": "Album"
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1993",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "67295d00-8d38-4353-95f1-60fe98c9a62c",
+   "title": "Revolution"
+  },
+  {
+   "secondary-types": [
+    "Compilation"
+   ],
+   "first-release-date": "2010-05-25",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "title": "The Collection",
+   "id": "6c74387d-90ba-442f-a20b-20b2396339f1",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ]
+  },
+  {
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "726e524e-cb0d-4d05-8193-263e8c334c1a",
+   "title": "Guerilla Downloads",
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2001",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "title": "The Palace of Exile",
+   "id": "74a1bc4a-0666-3433-96db-fd93d70227de",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1999",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2021-02-08",
+   "primary-type": "Album",
+   "title": "Killing in the Name of Karma (live)",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "75b42453-2710-4371-ae8f-40f458b86b80"
+  },
+  {
+   "title": "Collaborageons",
+   "id": "760164a6-b0ee-4d16-bafc-8f05b57ea314",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "secondary-types": [
+    "Compilation"
+   ],
+   "first-release-date": "2004-03-01",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1994",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "76cb7c88-a288-3c40-bc56-63a69952b6a3",
+   "title": "1994-05-23: Bulletproof: Pinkpop: Megaland, Landgraaf, Netherlands"
+  },
+  {
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2018",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "782cbc94-e2c6-4c26-94f3-23bdcdf8d7f4",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Warner Theater, Washington, November 18, 1980 (Remastered, Live On Broadcasting)"
+  },
+  {
+   "title": "Hit Collection 2000",
+   "id": "7c2ab8a2-dc83-45f4-bb1a-9ea6c57c2325",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "secondary-types": [
+    "Compilation"
+   ],
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2000",
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "",
+   "disambiguation": "",
+   "title": "1991-10-23: Live at the Quad: California State University, Northridge, CA, USA",
+   "id": "7d30827e-1c67-32ce-b45a-fc38ac8c4eff",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2008",
+   "title": "2008-02-09: Wake Up Messe: Makuhari Event Hall, Chiba, Japan",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "7db26173-2ab1-4354-9025-5f7918b9381b"
+  },
+  {
+   "disambiguation": "",
+   "first-release-date": "2021-05-17",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "7e8cf189-d9ec-41b2-8742-38af35d5b857",
+   "title": "Paintings of Rebellion (live ’95)"
+  },
+  {
+   "title": "Big Apple Boogie (Live)",
+   "id": "81007401-09df-4193-b664-7d6e3de29a4b",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2023-03-14",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "1997-11-25",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "827c1309-41c4-4a65-9c92-b3714972c1c6",
+   "title": "Rage Against the Machine"
+  },
+  {
+   "title": "Angry Souls",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "82a8cb50-17ba-40ec-8ab1-7ddd308022be",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1997"
+  },
+  {
+   "title": "Full Of Rage (Live)",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "83a075a6-f209-4865-9fbf-c0c2cdd3b499",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "2021-02-08",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "8568a1ff-ab6e-3a05-9c07-9e904f0bbe2d",
+   "title": "Best Ever"
+  },
+  {
+   "title": "Unplugged And Rare",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "857ee84d-bc36-3895-9267-c29e11e9f5f0",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1993",
+   "primary-type": "Album"
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1996",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "title": "Free Tibet",
+   "id": "89366a1d-1ad2-36d6-888d-7a1741f90cac",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "id": "8db7f074-4f34-3d44-aed5-5625ad766c06",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "1993-06-29: Killing Your Enemy: Lollapalooza, Harriet Island Park, St. Paul, MN, USA",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "Greatest Hits",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "8ff1f87e-2929-4d6a-8702-3478c014d5cd",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "disambiguation": "",
+   "first-release-date": "2006",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "id": "90642a9f-9179-451f-9d8a-d44d356d5954",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Fahrenheit 451",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1994",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "9113a3f2-e38a-35f6-bdc1-aaa48bbb80b0",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "America’s Most Wanted"
+  },
+  {
+   "title": "1996-08-11: Tyler Arena, Mayville, ND, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "9941eec3-247d-3ea1-a328-e4e687c3cc8e",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "9a54d263-b73e-3b97-9b7d-b2085a9d5c56",
+   "title": "Platinum Collection 2000",
+   "disambiguation": "",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "9c307513-feb3-47a7-86bb-d364f04fb920",
+   "title": "Live on Air Tonight",
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2022-07-23",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2000",
+   "title": "2000-02-03: The Battle of Paris: Le Zénith, Paris, France",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "9e656824-3949-38e7-89a2-4481f0e5e42b"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "a0dc5a37-7897-480c-9381-464bec14eba3",
+   "title": "LIVE IN THE USA 1999 (Live)",
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2021-12-10",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "disambiguation": "",
+   "first-release-date": "2016-09-02",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "a3e7bdf5-a57c-45e8-ba8e-37307840fcf9",
+   "title": "End of the Party"
+  },
+  {
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2022",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "a56f8555-e669-483a-aca5-9f8d91123080",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Overloaded (Live)"
+  },
+  {
+   "title": "Live At The Wireless",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "a8c0e46d-4676-4e2b-ad49-1e8c6cfb5631",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2003-03-16"
+  },
+  {
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2000",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "ae8689d0-78cd-40ee-9e4f-1f00585a6738",
+   "title": "Rock Guerrillas"
+  },
+  {
+   "disambiguation": "",
+   "first-release-date": "1997-07-16",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation",
+    "Live"
+   ],
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "af529466-8edf-35c2-b52f-f51cc20c14a0",
+   "title": "Live & Rare"
+  },
+  {
+   "first-release-date": "1996",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "af9c5ddb-42c4-47dd-98b9-c3c1eab31772",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Rage On Stage"
+  },
+  {
+   "id": "b005b764-22a9-426d-a81b-067607b14e77",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+    "81598169-0d6c-3bce-b4be-866fa658eda3"
+   ],
+   "title": "Demo 1991",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2022",
+   "disambiguation": "",
+   "secondary-types": [
+    "Compilation",
+    "Demo"
+   ]
+  },
+  {
+   "title": "Blown Away",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "bc093595-b2b9-479f-8a17-37de64a749f6",
+   "secondary-types": [
+    "Compilation",
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "1997",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "bc9783a7-f1f1-3afc-908b-2647d91e33b7",
+   "title": "1996-10-01: Scream Louder: Hollywood Palladium, Los Angeles, CA, USA",
+   "disambiguation": "",
+   "first-release-date": "1997",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "id": "c7d1f18e-4ee9-3e37-88b4-b294ad872064",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "title": "Best 2000",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "title": "Democratic National Convention 2000",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "c89a1831-a4c8-49e2-b380-8e9b04734fac",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2018-04-21",
+   "primary-type": "Album"
+  },
+  {
+   "first-release-date": "1994",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "ca786904-97f0-4d72-86fa-f2e523e43ed9",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Live & Alive"
+  },
+  {
+   "id": "cadbbe5a-0231-45ff-8f02-8ebaec3103fc",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "1999-06-13: Alpine Valley, East Troy, WI, USA",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "2022-07-11: United Center, Chicago, IL, USA",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "cdf04d5d-9be4-40d0-b7c8-e1152add6842",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "first-release-date": "2012",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "title": "Live at Finsbury Park",
+   "id": "d1f39c64-3234-4d34-bdb4-7a346e40d08f",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ]
+  },
+  {
+   "id": "d575418c-a39d-42f1-8759-3af8b75cd7b6",
+   "secondary-type-ids": [],
+   "title": "J.F.K.",
+   "primary-type": "Album",
+   "first-release-date": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": "",
+   "secondary-types": []
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "d5b16ae9-5ced-434a-9694-3b3ddde601ff",
+   "title": "The Temptress (Live)",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2021-02-08",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "first-release-date": "1993",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "d933ad0f-7007-3a5b-a750-939b0da80ff3",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "1993-02-07: Justify Those That Die: Melkweg, Amsterdam, Netherlands"
+  },
+  {
+   "title": "Fuck the Administration",
+   "id": "df058383-e834-39bb-8d26-e0ffa76e3b8d",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1994",
+   "primary-type": "Album",
+   "disambiguation": ""
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1993-12-12",
+   "primary-type": "Album",
+   "title": "Live & Loud ’93",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "dfc7b19e-5103-4c55-aff8-6bef014426e1"
+  },
+  {
+   "title": "Rage Against the Machine / Evil Empire / The Battle of Los Angeles",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "e2d7ffa2-bdcd-4df0-abbe-a6877547ae8f",
+   "secondary-types": [
+    "Compilation"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2002-09-23",
+   "primary-type": "Album"
+  },
+  {
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "e447de79-9ee7-3883-8d80-8f160ee45b8b",
+   "title": "30 Songs for a Revolution",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2002",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "first-release-date": "1994",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "title": "Forget Your Existence!",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "e4c68910-78a5-47ca-b1c8-120a889d7566"
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "e6a15b78-4b62-3f48-b1c0-b50ffbfaa91b",
+   "title": "1997-01-20: Radio Free L.A.: Sony Studios, Santa Monica, CA, USA",
+   "disambiguation": "",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1997-01-20",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "e982f415-d87e-4bab-93a7-226b6aa06abf",
+   "title": "Recordings (Live)",
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2022-08-22",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "title": "1999-10-10: The Battle of Indio: Coachella Festival, Indio, CA, USA",
+   "id": "e9ea95ed-05b1-4fc2-ab48-b591e823d970",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "secondary-types": [
+    "Live"
+   ],
+   "primary-type": "Album",
+   "first-release-date": "1999",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "disambiguation": ""
+  },
+  {
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "id": "ea0dcdcc-6173-47f3-919d-a818b23d52a9",
+   "title": "The Dirty Dozen",
+   "disambiguation": "",
+   "first-release-date": "1994",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "id": "eafbebb8-3fad-422f-90b0-06c54e9295c5",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ],
+   "title": "Unreleased and Remixed, Part 1",
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2001-09-24",
+   "disambiguation": "",
+   "secondary-types": [
+    "Compilation"
+   ]
+  },
+  {
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type": "Album",
+   "first-release-date": "2021-05-25",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "title": "Live 1993",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "f5b17fe9-44c2-430e-838b-39cfd5a95426"
+  },
+  {
+   "secondary-types": [
+    "Compilation"
+   ],
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "",
+   "disambiguation": "",
+   "title": "Bombtracks, Volume 2: Remixes & Live",
+   "id": "f62c9b19-f10a-39a7-b678-ce4c20c7e160",
+   "secondary-type-ids": [
+    "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+   ]
+  },
+  {
+   "title": "Unplugged & Fm",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "f7518676-dd4e-45ea-a99d-984a91a7d942",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2015-11-25",
+   "primary-type": "Album"
+  },
+  {
+   "id": "f999c4d4-62f1-4b5b-a17b-159edcebd2f1",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Who’s on First?",
+   "first-release-date": "1996",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ]
+  },
+  {
+   "first-release-date": "2025-10-13",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "primary-type": "Album",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "fd1a6011-fb92-4912-9c6d-895716d00338",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "Moscow 1996"
+  },
+  {
+   "primary-type": "Album",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "1994",
+   "disambiguation": "",
+   "secondary-types": [
+    "Live"
+   ],
+   "id": "fd854b57-e8ea-314f-ad85-f88ffa9057fd",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "title": "1993-02-02: The Killing Zone: The Melody, Stockholm, Sweden"
+  },
+  {
+   "title": "Sound Above Ground: A Decade of the Weapon (Rarities 1991-2000)",
+   "secondary-type-ids": [
+    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+   ],
+   "id": "ff721411-d049-4236-9737-3093190599c4",
+   "secondary-types": [
+    "Live"
+   ],
+   "disambiguation": "",
+   "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+   "first-release-date": "2024",
+   "primary-type": "Album"
+  }
+ ]
+}

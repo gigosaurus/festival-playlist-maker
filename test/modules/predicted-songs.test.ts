@@ -2,19 +2,24 @@ import assert from "node:assert/strict";
 import { test, type TestContext } from "node:test";
 import { openDatabase } from "../../src/database.ts";
 import { setlistFmLimitWait, withServiceRules } from "../../src/http-client.ts";
-import { createMusicBrainz, musicbrainzEventsUrl } from "../../src/musicbrainz.ts";
+import { createMusicBrainz, musicbrainzAlbumsUrl, musicbrainzEventsUrl } from "../../src/musicbrainz.ts";
 import {
   createPredictedSongQueue,
   createSongPrediction,
   findPredictedSongs,
   findTrack,
   findVenueDate,
+  hasLongLookBack,
+  isAlbumFocused,
+  lookBackShows,
+  lookBackStart,
   saveVenueDate,
   scoreSongs,
+  songsToFind,
   type CheckedShow,
 } from "../../src/predicted-songs.ts";
 import { createSessions } from "../../src/sessions.ts";
-import { createSetlistFm, type Show } from "../../src/setlist-fm.ts";
+import { createSetlistFm, type SetlistFm, type SetlistPageResult, type Show } from "../../src/setlist-fm.ts";
 import { defaultPredictionSettings, type PredictionSettings } from "../../src/settings.ts";
 import { createSpotifyArtistQueue, saveFoundSpotifyArtist, setSpotifyArtistByHand } from "../../src/spotify-artists.ts";
 import { artistTracksQuery, createSpotify, songQuery, spotifyTrackSearchUrl } from "../../src/spotify.ts";
@@ -30,6 +35,7 @@ import {
   setlistFmVenueSetlistsUrl,
 } from "../support/setlist-fm.ts";
 import {
+  limpBizkitSpotifyId,
   predictedArtists,
   quotaExceededResponse,
   rateLimitResponse,
@@ -109,8 +115,8 @@ test("setlist.fm gives the shows of an artist, with the tape songs marked", asyn
   assert.equal(first!.date.toISOString(), "2026-10-11T00:00:00.000Z");
   // The songs of the set and of the encore. "Memorial" is a tape.
   assert.equal(first!.songs.length, 16);
-  assert.deepEqual(first!.songs[0], { name: "Pray for Plagues", tape: false });
-  assert.deepEqual(first!.songs.find((song) => song.name === "Memorial"), { name: "Memorial", tape: true });
+  assert.deepEqual(first!.songs[0], { name: "Pray for Plagues", tape: false, cover: false });
+  assert.deepEqual(first!.songs.find((song) => song.name === "Memorial"), { name: "Memorial", tape: true, cover: false });
   assert.equal(first!.venueId, "3bd634d0");
   assert.equal(first!.tour, "Count Your Blessings | Repented");
 });
@@ -182,11 +188,14 @@ const setlistFmFestivalDays = ["2025-08-23", "2025-08-24", "2025-09-21", "2026-0
 // The festival sets: the dates from MusicBrainz or from setlist.fm.
 const recordedFestivalSets = [...new Set([...musicbrainzFestivalDays, ...setlistFmFestivalDays])].sort();
 
-function show(date: string, ...songs: (string | { name: string; tape: true })[]): CheckedShow {
+function show(date: string, ...songs: (string | { name: string; tape?: boolean; cover?: boolean })[]): CheckedShow {
   return {
     date: new Date(`${date}T00:00:00Z`),
-    songs: songs.map((song) => (typeof song === "string" ? { name: song, tape: false } : song)),
+    songs: songs.map((song) =>
+      typeof song === "string" ? { name: song, tape: false, cover: false } : { tape: false, cover: false, ...song },
+    ),
     festivalSet: false,
+    albumFocused: false,
   };
 }
 
@@ -307,7 +316,7 @@ test("the recorded shows of Bring Me the Horizon: festival sets count more than 
     if (result.outcome === "found") shows.push(...result.shows);
   }
   const festivalSets = new Set(recordedFestivalSets);
-  const checked = shows.map((each) => ({ ...each, festivalSet: festivalSets.has(each.date.toISOString().slice(0, 10)) }));
+  const checked = shows.map((each) => ({ ...each, festivalSet: festivalSets.has(each.date.toISOString().slice(0, 10)), albumFocused: false }));
   const before = scoreSongs(checked.map((each) => ({ ...each, festivalSet: false, tour: undefined })), setlistFmRecordedAt, settings);
   const after = scoreSongs(checked, setlistFmRecordedAt, settings);
   const position = (scored: { name: string }[], name: string) => scored.findIndex((song) => song.name === name);
@@ -336,7 +345,7 @@ test("the predicted songs are a maximum of 10 Spotify tracks in order of score",
 
   const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
 
-  assert.deepEqual(result, { outcome: "predicted", trackIds: bringMeTheHorizonTracks, fallback: false });
+  assert.deepEqual(result, { outcome: "predicted", trackIds: bringMeTheHorizonTracks, fallback: false, lookBackMonths: 18 });
   // The setlists of the last 18 months are on 3 pages. Then 1 MusicBrainz request
   // for the festivals, and 1 setlist.fm search for each venue and date that is not a MusicBrainz festival day.
   const urls = sent(setlistRequests).map(({ url }) => url);
@@ -349,6 +358,7 @@ test("the predicted songs are a maximum of 10 Spotify tracks in order of score",
     new Set(urls.slice(3)),
     new Set(
       recordedVenueDates()
+        .filter(({ date }) => date >= lookBackStart(setlistFmRecordedAt, settings))
         .filter(({ date }) => !musicbrainzFestivalDays.includes(date.toISOString().slice(0, 10)))
         .map(({ venueId, date }) => setlistFmVenueSetlistsUrl(venueId, date)),
     ),
@@ -452,7 +462,12 @@ test("a song with no Spotify recording is not in the result", async (t) => {
   const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
 
   // The number of songs is a setting. Kool-Aid takes the place of Happy Song.
-  assert.deepEqual(result, { outcome: "predicted", trackIds: [bringMeTheHorizonTracks[0], bringMeTheHorizonTracks[2], bringMeTheHorizonTracks[3]], fallback: false });
+  assert.deepEqual(result, {
+    outcome: "predicted",
+    trackIds: [bringMeTheHorizonTracks[0], bringMeTheHorizonTracks[2], bringMeTheHorizonTracks[3]],
+    fallback: false,
+    lookBackMonths: 18,
+  });
 });
 
 test("an artist with no setlists in the look-back period gets tracks from a Spotify search, with the fallback mark", async (t) => {
@@ -461,7 +476,8 @@ test("an artist with no setlists in the look-back period gets tracks from a Spot
   // The Japanese band "Ghost" has setlists only from 2009. Its Spotify artist is the Swedish band.
   const result = await prediction.predict(ghostJapan.musicbrainzId);
 
-  assert.deepEqual(result, { outcome: "predicted", trackIds: ghostSearchTracks, fallback: true });
+  // The look-back period is the longest one, because the artist has fewer than 5 shows in each period.
+  assert.deepEqual(result, { outcome: "predicted", trackIds: ghostSearchTracks, fallback: true, lookBackMonths: 60 });
   assert.deepEqual(
     sent(trackSearches).map(({ url }) => url),
     [spotifyTrackSearchUrl(artistTracksQuery("Ghost"))],
@@ -477,7 +493,12 @@ test("an artist that setlist.fm has no setlists of gets the Spotify search fallb
   });
   setSpotifyArtistByHand(database, clock, ghostJapan.musicbrainzId, ghostJapan.spotifyArtist);
 
-  assert.deepEqual(await prediction.predict(ghostJapan.musicbrainzId), { outcome: "predicted", trackIds: ghostSearchTracks, fallback: true });
+  assert.deepEqual(await prediction.predict(ghostJapan.musicbrainzId), {
+    outcome: "predicted",
+    trackIds: ghostSearchTracks,
+    fallback: true,
+    lookBackMonths: 60,
+  });
 });
 
 test("an artist without a Spotify artist gets no calculation", async (t) => {
@@ -488,14 +509,14 @@ test("an artist without a Spotify artist gets no calculation", async (t) => {
   assert.equal(transport.requests.length, 0);
 });
 
-test("the store contains only the Spotify track IDs, the mark and the calculation time", async (t) => {
+test("the store contains only the Spotify track IDs, the marks and the calculation time", async (t) => {
   const { queue, database } = setUp(t);
 
   queue.calculate([bringMeTheHorizon.musicbrainzId, ghostJapan.musicbrainzId]);
   await queue.idle();
 
   const columns = database.prepare("SELECT name FROM pragma_table_info('predicted_songs')").all().map((row) => row.name);
-  assert.deepEqual(columns, ["musicbrainz_id", "track_ids", "fallback", "calculated_at"]);
+  assert.deepEqual(columns, ["musicbrainz_id", "track_ids", "fallback", "calculated_at", "look_back_months"]);
   // The venue-and-date results keep only the venue ID, the date and the result.
   const venueColumns = database.prepare("SELECT name FROM pragma_table_info('venue_date')").all().map((row) => row.name);
   assert.deepEqual(venueColumns, ["venue_id", "date", "festival_set", "checked_at"]);
@@ -503,10 +524,10 @@ test("the store contains only the Spotify track IDs, the mark and the calculatio
   // The calculation time is the end of the calculation. The pauses between requests move the fake clock.
   for (const row of rows) assert.ok(new Date(String(row.calculated_at)) >= setlistFmRecordedAt);
   assert.deepEqual(
-    rows.map(({ musicbrainz_id, track_ids, fallback }) => ({ musicbrainz_id, track_ids, fallback })),
+    rows.map(({ musicbrainz_id, track_ids, fallback, look_back_months }) => ({ musicbrainz_id, track_ids, fallback, look_back_months })),
     [
-      { musicbrainz_id: bringMeTheHorizon.musicbrainzId, track_ids: JSON.stringify(bringMeTheHorizonTracks), fallback: 0 },
-      { musicbrainz_id: ghostJapan.musicbrainzId, track_ids: JSON.stringify(ghostSearchTracks), fallback: 1 },
+      { musicbrainz_id: bringMeTheHorizon.musicbrainzId, track_ids: JSON.stringify(bringMeTheHorizonTracks), fallback: 0, look_back_months: 18 },
+      { musicbrainz_id: ghostJapan.musicbrainzId, track_ids: JSON.stringify(ghostSearchTracks), fallback: 1, look_back_months: 60 },
     ],
   );
   // No other table has setlist.fm data, for example a song name.
@@ -648,4 +669,279 @@ test("a find of a Spotify artist reports a different Spotify artist, so that the
     [artist.id, false],
     [artist.id, true],
   ]);
+});
+
+// Issue #14: album-focused shows, covers and the long look-back.
+
+// Geese released "Getting Killed" on 26 September 2025. Most shows of its tour have
+// more than half of their songs from that album.
+const geese = "e0c97a4d-c392-41a9-a374-57af3e3eeab3";
+// Limp Bizkit plays the covers "Behind Blue Eyes" (The Who) and "Faith" (George Michael).
+const limpBizkit = "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c";
+
+const albumRequests = "https://musicbrainz.org/ws/2/release";
+
+async function recordedShows(setlistFm: SetlistFm, musicbrainzId: string): Promise<{ shows: Show[]; lookBackMonths: number }> {
+  const result = await lookBackShows((page) => setlistFm.artistSetlists(musicbrainzId, page), setlistFmRecordedAt, settings);
+  assert.ok(!("cause" in result));
+  return result;
+}
+
+function position(scored: { name: string }[], name: string): number {
+  const index = scored.findIndex((song) => song.name === name);
+  assert.ok(index >= 0, `${name} is in the result`);
+  return index;
+}
+
+test("MusicBrainz gives the studio albums of an artist from a date, with the songs of the first release", async (t) => {
+  const { musicBrainz } = setUp(t);
+
+  const result = await musicBrainz.albums(geese, "2021-01-01");
+
+  assert.equal(result.outcome, "found");
+  if (result.outcome !== "found") return;
+  // The 4 live albums of Geese since 2021 are not in the result. "Getting Killed" has 11 tracks.
+  assert.deepEqual(
+    result.albums.map(({ title, released }) => `${title} ${released}`).sort(),
+    ["3D Country 2023-06-03", "Getting Killed 2025-09-26", "Projector 2021-10-29"],
+  );
+  const gettingKilled = result.albums.find(({ title }) => title === "Getting Killed")!;
+  assert.equal(gettingKilled.songs.length, 11);
+  assert.ok(gettingKilled.songs.includes("Trinidad"));
+});
+
+test("MusicBrainz gives no live album or remix album, and no album before the date", async (t) => {
+  const { musicBrainz, sent } = setUp(t);
+
+  const result = await musicBrainz.albums(bringMeTheHorizon.musicbrainzId, "2024-05-19");
+
+  // Bring Me the Horizon also has "L.I.V.E. in São Paulo" (live) and "Wish I Could Forget (The Remixes)" (remix) in this period.
+  assert.deepEqual(
+    result.outcome === "found" ? result.albums.map(({ title }) => title).sort() : result,
+    ["Count Your Blessings | Repented", "Lo-files", "POST HUMAN: NeX GEn"],
+  );
+  // 1 request for the albums, and 1 request for the releases of each album in the result.
+  assert.equal(sent(albumRequests).length, 4);
+});
+
+test("setlist.fm marks the covers", async (t) => {
+  const { setlistFm } = setUp(t);
+
+  const { shows } = await recordedShows(setlistFm, limpBizkit);
+
+  const songs = shows.flatMap((each) => each.songs);
+  assert.equal(songs.find((song) => song.name === "Faith")?.cover, true);
+  assert.equal(songs.find((song) => song.name === "Break Stuff")?.cover, false);
+});
+
+const album = { title: "New Album", released: "2026-11-01", songs: ["New 1", "New 2", "New 3"] };
+
+test("a show is album-focused when more than half of its songs come from one album released in the 12 months before the show", () => {
+  const focused = show("2026-12-01", "New 1", "New 2", "Old", { name: "Intro", tape: true });
+  const half = show("2026-12-01", "New 1", "New 2", "Old", "Older");
+  const beforeTheAlbum = show("2026-10-31", "New 1", "New 2", "Old");
+  const aYearLater = show("2027-11-02", "New 1", "New 2", "Old");
+
+  assert.equal(isAlbumFocused(focused, [album], settings), true, "2 of 3 songs. A tape song is not a song of the show.");
+  assert.equal(isAlbumFocused(half, [album], settings), false, "Half of the songs is not more than half");
+  assert.equal(isAlbumFocused(beforeTheAlbum, [album], settings), false);
+  assert.equal(isAlbumFocused(aYearLater, [album], settings), false, "The album was released more than 12 months before the show");
+  assert.equal(isAlbumFocused(show("2027-10-31", "New 1", "New 2", "Old"), [album], settings), true);
+});
+
+test("an album-focused show counts 0.1", () => {
+  const scored = scoreSongs(
+    [
+      { ...show("2027-01-01", "New 1", "New 2"), albumFocused: true },
+      { ...festivalSet("2027-01-01", "Festival"), albumFocused: true },
+      show("2027-01-01", "Other"),
+    ],
+    now,
+    settings,
+  );
+
+  near(scoreOf(scored, "New 1"), 0.1, "New 1");
+  near(scoreOf(scored, "Festival"), 0.2, "An album-focused festival set");
+  near(scoreOf(scored, "Other"), 1, "Other");
+});
+
+test("the numbers of the album-focused rule are settings", () => {
+  const changed = { ...settings, albumFocusedShare: 0.4, albumFocusedMonths: 24, albumFocusedWeight: 0.5 };
+
+  assert.equal(isAlbumFocused(show("2027-12-01", "New 1", "New 2", "Old", "Older"), [album], changed), true);
+  near(scoreOf(scoreSongs([{ ...show("2027-01-01", "New 1"), albumFocused: true }], now, changed), "New 1"), 0.5, "New 1");
+});
+
+test("the recorded shows of Geese: the songs of a new album do not fill the predicted songs", async (t) => {
+  const { setlistFm, musicBrainz } = setUp(t);
+  const { shows } = await recordedShows(setlistFm, geese);
+  const albums = await musicBrainz.albums(geese, "2024-05-19");
+  assert.equal(albums.outcome, "found");
+  if (albums.outcome !== "found") return;
+  const checked = shows.map((each) => ({ ...each, festivalSet: false, albumFocused: isAlbumFocused(each, albums.albums, settings) }));
+  const at = (date: string) => checked.find((each) => each.date.toISOString().startsWith(date))!;
+
+  // X-TRA, Zürich: 10 of 14 songs from "Getting Killed". The Anthem, Washington: 11 of 16,
+  // but more than 12 months after the release.
+  assert.equal(at("2026-03-11").albumFocused, true);
+  assert.equal(at("2026-11-13").albumFocused, false);
+  const before = scoreSongs(checked.map((each) => ({ ...each, albumFocused: false })), setlistFmRecordedAt, settings);
+  const after = scoreSongs(checked, setlistFmRecordedAt, settings);
+  // "2122" is from the album "Projector" (2021). "Trinidad" is from "Getting Killed".
+  assert.ok(position(before, "Trinidad") < position(before, "2122"));
+  assert.ok(position(after, "2122") < position(after, "Trinidad"));
+});
+
+test("a cover is kept only when it is in the top songs", () => {
+  const scored = scoreSongs(
+    [show("2027-01-01", "A", { name: "Top cover", cover: true }, "B", { name: "Rare cover", cover: true }, "C")],
+    now,
+    settings,
+  );
+
+  // All the songs have the same score, so the order of the show decides.
+  assert.deepEqual(songsToFind(scored, { ...settings, coverTopSongs: 3 }).map((song) => song.name), ["A", "Top cover", "B", "C"]);
+  assert.deepEqual(songsToFind(scored, { ...settings, coverTopSongs: 1 }).map((song) => song.name), ["A", "B", "C"], "The number is a setting");
+});
+
+test("the recorded shows of Limp Bizkit: the cover in the top 10 songs is searched, the cover after it is not", async (t) => {
+  const { setlistFm } = setUp(t);
+  const { shows } = await recordedShows(setlistFm, limpBizkit);
+  const scored = scoreSongs(
+    shows.map((each) => ({ ...each, festivalSet: false, albumFocused: false })),
+    setlistFmRecordedAt,
+    settings,
+  );
+
+  assert.equal(position(scored, "Behind Blue Eyes"), 9);
+  assert.equal(position(scored, "Faith"), 10);
+  const names = songsToFind(scored, settings).map((song) => song.name);
+  assert.ok(names.includes("Behind Blue Eyes"));
+  assert.ok(!names.includes("Faith"));
+  assert.ok(names.includes("Eat You Alive"), "A song that is not a cover stays after the 10th song");
+});
+
+test("Spotify has the recording of a cover by the performing artist", async (t) => {
+  const { spotify } = setUp(t);
+
+  const result = await spotify.searchTracks(songQuery("Behind Blue Eyes", "Limp Bizkit"));
+
+  assert.equal(result.outcome, "found");
+  if (result.outcome !== "found") return;
+  assert.ok(findTrack(result.tracks, "Behind Blue Eyes", limpBizkitSpotifyId) !== undefined);
+  // A recording by a different artist is not a recording of the cover.
+  const byTheWho = result.tracks.map((track) => ({ ...track, artistIds: ["the-who"] }));
+  assert.equal(findTrack(byTheWho, "Behind Blue Eyes", limpBizkitSpotifyId), undefined);
+});
+
+// A setlist page with the given show dates, for the look-back tests.
+function page(dates: string[], lastPage = false): SetlistPageResult {
+  return { outcome: "found", shows: dates.map((date) => show(date, "Song")), lastPage };
+}
+
+async function lookBackOf(getPage: (page: number) => Promise<SetlistPageResult>, predictionSettings: PredictionSettings): Promise<number> {
+  const result = await lookBackShows(getPage, now, predictionSettings);
+  assert.ok(!("cause" in result));
+  return result.lookBackMonths;
+}
+
+test("an artist with fewer than 5 shows in the last 18 months gets a look-back of 3 years, then 5 years", async () => {
+  const pages = [
+    page(["2026-12-01", "2026-06-01", "2025-01-01"]),
+    page(["2024-06-01", "2024-03-01", "2023-06-01"]),
+    page(["2023-01-01", "2022-06-01", "2021-06-01", "2020-06-01"]),
+    page(["2019-06-01"], true),
+  ];
+  const requested: number[] = [];
+  const getPage = async (number: number) => {
+    requested.push(number);
+    return pages[number - 1]!;
+  };
+
+  // 2 shows in 18 months, 5 shows in 3 years.
+  assert.equal(await lookBackOf(getPage, settings), 36);
+  assert.deepEqual(requested, [1, 2], "The second page has a show before the 3 years");
+  // With 6 shows necessary: 5 in 3 years, 7 in 5 years.
+  requested.length = 0;
+  assert.equal(await lookBackOf(getPage, { ...settings, fewShows: 6 }), 60);
+  assert.deepEqual(requested, [1, 2, 3]);
+  // With 9 shows necessary, no period has enough shows. The period is the longest one.
+  assert.equal(await lookBackOf(getPage, { ...settings, fewShows: 9 }), 60);
+  // The periods are settings.
+  assert.equal(await lookBackOf(getPage, { ...settings, fewShows: 6, longLookBackMonths: [24, 48] }), 48);
+});
+
+test("an artist with 5 or more shows in the last 18 months gets no long look-back", async (t) => {
+  const { prediction, sent } = setUp(t);
+
+  const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  assert.equal(result.outcome === "predicted" && result.lookBackMonths, 18);
+  assert.equal(sent(setlistRequests).filter(({ url }) => url.includes("/artist/")).length, 3, "No more setlist pages");
+});
+
+test("the calculation gets the albums of the period, and the 12 months before it", async (t) => {
+  const { prediction, sent } = setUp(t);
+
+  await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  // The look-back period starts on 19 May 2025, so an album from 19 May 2024 or later can make a show album-focused.
+  assert.equal(sent(albumRequests)[0]!.url, musicbrainzAlbumsUrl(bringMeTheHorizon.musicbrainzId, 0));
+  assert.equal(sent(albumRequests).length, 4);
+});
+
+test("a MusicBrainz failure of the album request stops the calculation with its cause", async (t) => {
+  const { prediction, transport } = setUp(t);
+  transport.respondTo("GET", musicbrainzAlbumsUrl(bringMeTheHorizon.musicbrainzId, 0), busyResponse);
+
+  const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
+
+  assert.match(result.outcome === "failed" ? result.cause : "", /MusicBrainz was busy/);
+});
+
+const rageAgainstTheMachine = predictedArtists[2]!;
+
+// The predicted songs of Rage Against the Machine, from its 19 shows of 2022 and the
+// recorded track searches: Bombtrack, People of the Sun, Bulls on Parade, Bullet in the Head,
+// Testify, Guerrilla Radio, Know Your Enemy, Calm Like a Bomb, Sleep Now in the Fire and War Within a Breath.
+const rageAgainstTheMachineTracks = [
+  "2rBHnIxbhkMGLpqmsNX91M",
+  "3QjQp2bfAvLTCSi8Zhzqis",
+  "0tZ3mElWcr74OOhKEiNz1x",
+  "1WWgMk8nD79p8VeKFGYrOw",
+  "7lmeHLHBe4nmXzuXc0HDjk",
+  "1wsRitfRRtWyEapl0q22o8",
+  "1XTGyfJeMiZXrZ1W3NolcB",
+  "1hR0fIFK2qRG3f3RF70pb7",
+  "1MQTmpYOZ6fcMQc56Hdo7T",
+  "3Hxu3Ey1TV9mZ5XqMXckiS",
+];
+
+test("the recorded shows of Rage Against the Machine: no shows in 3 years, so the songs come from the last 5 years", async (t) => {
+  const { prediction, sent } = setUp(t);
+
+  const result = await prediction.predict(rageAgainstTheMachine.musicbrainzId);
+
+  assert.deepEqual(result, { outcome: "predicted", trackIds: rageAgainstTheMachineTracks, fallback: false, lookBackMonths: 60 });
+  // Page 1 has shows from 2011, so it covers the 5 years.
+  assert.deepEqual(
+    sent(setlistRequests).filter(({ url }) => url.includes("/artist/")).map(({ url }) => url),
+    [setlistFmSetlistsUrl(rageAgainstTheMachine.musicbrainzId, 1)],
+  );
+  // The cover "The Ghost of Tom Joad" is the 11th song, so it is not in the top 10 songs and gets no search.
+  assert.equal(sent(trackSearches).length, 10);
+  assert.ok(!sent(trackSearches).some(({ url }) => url === spotifyTrackSearchUrl(songQuery("The Ghost of Tom Joad", "Rage Against The Machine"))));
+});
+
+test("the store keeps the look-back period, and a result from a longer period has the long look-back mark", async (t) => {
+  const { queue, database } = setUp(t);
+
+  queue.calculate([rageAgainstTheMachine.musicbrainzId, bringMeTheHorizon.musicbrainzId, ghostJapan.musicbrainzId]);
+  await queue.idle();
+
+  const mark = (musicbrainzId: string) => hasLongLookBack(findPredictedSongs(database, musicbrainzId)!, settings);
+  assert.equal(findPredictedSongs(database, rageAgainstTheMachine.musicbrainzId)?.lookBackMonths, 60);
+  assert.equal(mark(rageAgainstTheMachine.musicbrainzId), true);
+  assert.equal(mark(bringMeTheHorizon.musicbrainzId), false);
+  assert.equal(mark(ghostJapan.musicbrainzId), false, "A fallback result has the fallback mark, not the long look-back mark");
 });

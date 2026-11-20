@@ -79,14 +79,34 @@ test("an artist with no recent setlists uses the Spotify search fallback, and th
   await page.getByRole("listitem").filter({ hasText: "Japanese psych rock" }).getByRole("radio", { name: "Ghost", exact: true }).check();
   await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
 
-  await waitForText(page, "Warning: no setlists in the last 18 months. 5 songs from a Spotify search.");
-  await expect(page.getByText("1 artist has no setlists in the last 18 months and uses the Spotify search fallback.")).toBeVisible();
+  await waitForText(page, "Warning: no setlists in the last 60 months. 5 songs from a Spotify search.");
+  await expect(page.getByText("1 artist has no setlists in the last 60 months and uses the Spotify search fallback.")).toBeVisible();
 
   await page.getByRole("link", { name: "Show the predicted songs for Turnstile" }).click();
   await expect(
-    page.getByText("Warning: no setlists on setlist.fm in the last 18 months. The songs come from a Spotify search for the artist"),
+    page.getByText("Warning: no setlists on setlist.fm in the last 60 months. The songs come from a Spotify search for the artist"),
   ).toBeVisible();
   await expect(page.getByRole("region", { name: "Songs in order of prediction (5)" }).getByRole("listitem")).toHaveCount(5);
+  expect(await axeViolations(page)).toEqual([]);
+});
+
+test("an artist with few recent shows gets older setlists and the long look-back mark, and the admin sees it", async ({ page, setlistFm }) => {
+  await setlistFm.willGiveRecordedSetlists();
+  // Match "Turnstile" to Rage Against the Machine, which has no shows after 2022.
+  await page.getByRole("link", { name: "Search with a different text for Turnstile" }).click();
+  await page.getByLabel("Name or address of the MusicBrainz artist").fill("Rage Against the Machine");
+  await page.getByRole("button", { name: "Search MusicBrainz" }).click();
+  await page.getByRole("radio", { name: "Rage Against the Machine", exact: true }).check();
+  await page.getByRole("button", { name: "Save the match for Turnstile" }).click();
+
+  await waitForText(page, "Warning: fewer than 5 shows in the last 18 months. 10 songs from setlists of the last 60 months.");
+  await expect(page.getByText("1 artist has fewer than 5 shows in the last 18 months and uses older setlists.")).toBeVisible();
+  expect(await axeViolations(page)).toEqual([]);
+
+  await page.getByRole("link", { name: "Show the predicted songs for Turnstile" }).click();
+  const source = page.getByRole("definition").filter({ hasText: "Setlists on setlist.fm from the last 60 months." });
+  await expect(source).toContainText("Warning: fewer than 5 shows in the last 18 months, so the prediction is less reliable.");
+  await expect(page.getByRole("region", { name: "Songs in order of prediction (10)" }).getByRole("listitem")).toHaveCount(10);
   expect(await axeViolations(page)).toEqual([]);
 });
 

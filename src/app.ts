@@ -282,7 +282,7 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
         spotifyQueue: spotifyArtists.state(),
         predictedSongs: storedPredictedSongs(matchedArtists(names)),
         predictionQueue: predictedSongs.state(),
-        lookBackMonths: settings.prediction.lookBackMonths,
+        predictionSettings: settings.prediction,
         ...(saved ? { saved } : {}),
         ...(spotifySaved ? { spotifySaved } : {}),
       }),

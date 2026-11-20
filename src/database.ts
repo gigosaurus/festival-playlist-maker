@@ -126,6 +126,10 @@ const migrations: readonly string[] = [
     checked_at TEXT NOT NULL,
     PRIMARY KEY (venue_id, date)
   ) STRICT`,
+  // The look-back period of each result, in months (#14). A period longer than the
+  // usual period is the long look-back mark. The results before this migration
+  // used the usual period of 18 months.
+  `ALTER TABLE predicted_songs ADD COLUMN look_back_months INTEGER NOT NULL DEFAULT 18 CHECK (look_back_months > 0)`,
 ];
 
 export function openDatabase(path: string): Database {

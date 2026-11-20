@@ -2,7 +2,7 @@ import { html } from "hono/html";
 import type { LineupNameMatch } from "../artist-matches.ts";
 import type { AdminFestival } from "../festivals.ts";
 import { musicbrainzArtistAddress, type MusicBrainzArtist } from "../musicbrainz.ts";
-import { validUntil, type PredictedSongs, type PredictionQueueState } from "../predicted-songs.ts";
+import { hasLongLookBack, validUntil, type PredictedSongs, type PredictionQueueState } from "../predicted-songs.ts";
 import type { User } from "../sessions.ts";
 import type { PredictionSettings } from "../settings.ts";
 import type { StoredSpotifyArtist } from "../spotify-artists.ts";
@@ -23,7 +23,7 @@ export interface PredictedSongsPageState {
   settings: PredictionSettings;
 }
 
-// Check the predicted songs of one artist, and calculate them again (user stories 66, 68 and 70).
+// Check the predicted songs of one artist, and calculate them again (user stories 66 to 68 and 70).
 export function predictedSongsPage(user: User, state: PredictedSongsPageState) {
   const { festival, name, artist, spotify, songs } = state;
   const title = `${festival.name} ${festival.year}`;
@@ -58,10 +58,7 @@ export function predictedSongsPage(user: User, state: PredictedSongsPageState) {
               </div>
               <div>
                 <dt>Source</dt>
-                <dd>${songs.fallback
-                  ? html`<span class="genre-warning">Warning: no setlists on setlist.fm in the last ${state.settings.lookBackMonths} months.
-                      The songs come from a Spotify search for the artist, so they are not predicted.</span>`
-                  : `Setlists on setlist.fm from the last ${state.settings.lookBackMonths} months`}</dd>
+                <dd>${source(songs, state.settings)}</dd>
               </div>
             `}
       </dl>
@@ -69,6 +66,20 @@ export function predictedSongsPage(user: User, state: PredictedSongsPageState) {
       ${songs === undefined ? "" : songList(songs)}
     `,
   });
+}
+
+// The source of the songs, with the fallback mark or the long look-back mark (user stories 67 and 68).
+function source(songs: PredictedSongs, settings: PredictionSettings) {
+  if (songs.fallback) {
+    return html`<span class="genre-warning">Warning: no setlists on setlist.fm in the last ${songs.lookBackMonths} months.
+      The songs come from a Spotify search for the artist, so they are not predicted.</span>`;
+  }
+  if (hasLongLookBack(songs, settings)) {
+    return html`Setlists on setlist.fm from the last ${songs.lookBackMonths} months.
+      <span class="genre-warning">Warning: fewer than ${settings.fewShows} shows in the last ${settings.lookBackMonths} months,
+        so the prediction is less reliable.</span>`;
+  }
+  return `Setlists on setlist.fm from the last ${songs.lookBackMonths} months`;
 }
 
 function calculationState(state: PredictedSongsPageState, address: string) {

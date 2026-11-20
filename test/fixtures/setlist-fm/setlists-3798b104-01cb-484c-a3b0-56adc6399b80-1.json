@@ -1,0 +1,2458 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 580,
+  "setlist": [
+   {
+    "id": "7bb3f6ac",
+    "versionId": "g738b16b9",
+    "eventDate": "14-08-2022",
+    "lastUpdated": "2024-01-04T00:17:23.260+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Partial"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Wind Below was on the V1 setlist but Vietnow was played instead",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-7bb3f6ac.html"
+   },
+   {
+    "id": "7bb38aa0",
+    "versionId": "g7399d6e5",
+    "eventDate": "12-08-2022",
+    "lastUpdated": "2023-09-05T23:09:32.882+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Fistful of Steel",
+         "info": "First performance since September 21, 1997"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-7bb38aa0.html"
+   },
+   {
+    "id": "6bb396ca",
+    "versionId": "g53febbc1",
+    "eventDate": "11-08-2022",
+    "lastUpdated": "2022-08-13T00:50:08.534+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Without a Face"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 3 of 5 at Madison Square Garden. Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-6bb396ca.html"
+   },
+   {
+    "id": "3b3a57b",
+    "versionId": "g73f14af1",
+    "eventDate": "09-08-2022",
+    "lastUpdated": "2022-08-12T13:55:14.858+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 5 at Madison Square Garden. Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-3b3a57b.html"
+   },
+   {
+    "id": "7bb3b2e0",
+    "versionId": "g6bf14af6",
+    "eventDate": "08-08-2022",
+    "lastUpdated": "2022-08-12T13:56:21.465+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb",
+         "info": ">"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom",
+         "info": ">"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": ">"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 1 of 5 at Madison Square Garden. Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-7bb3b2e0.html"
+   },
+   {
+    "id": "5bb26f80",
+    "versionId": "g13fb7989",
+    "eventDate": "03-08-2022",
+    "lastUpdated": "2022-10-03T16:31:55.725+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "3bd2b05c",
+     "name": "Capital One Arena",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/capital-one-arena-washington-dc-usa-3bd2b05c.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 2 at Capital One Arena.  Originally scheduled for 8/05/2020 but postponed due to the COVID-19 pandemic.  Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/capital-one-arena-washington-dc-5bb26f80.html"
+   },
+   {
+    "id": "43b27b2f",
+    "versionId": "gbfb7992",
+    "eventDate": "02-08-2022",
+    "lastUpdated": "2022-10-03T16:27:01.418+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "3bd2b05c",
+     "name": "Capital One Arena",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/capital-one-arena-washington-dc-usa-3bd2b05c.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Outro"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 1 of 2 at Capital One Arena.  Originally scheduled for 8/04/2020 but postponed due to the COVID-19 pandemic.  Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/capital-one-arena-washington-dc-43b27b2f.html"
+   },
+   {
+    "id": "53b213d9",
+    "versionId": "g5bf16f58",
+    "eventDate": "31-07-2022",
+    "lastUpdated": "2022-08-11T01:21:34.281+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "4bd7370a",
+     "name": "PNC Arena",
+     "city": {
+      "id": "4487042",
+      "name": "Raleigh",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.772096,
+       "long": -78.6386145
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/pnc-arena-raleigh-nc-usa-4bd7370a.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "intro only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With a short drum solo"
+        },
+        {
+         "name": "No Shelter"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Partial"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/pnc-arena-raleigh-nc-53b213d9.html"
+   },
+   {
+    "id": "43b22b6f",
+    "versionId": "g13f19101",
+    "eventDate": "29-07-2022",
+    "lastUpdated": "2022-08-04T13:50:28.627+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "73d51671",
+     "name": "PPG Paints Arena",
+     "city": {
+      "id": "5206379",
+      "name": "Pittsburgh",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 40.4406248,
+       "long": -79.9958864
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ppg-paints-arena-pittsburgh-pa-usa-73d51671.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head",
+         "info": "Restarted due to fan concern up front"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo and shout-out to Franco Harris"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Snippet"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/ppg-paints-arena-pittsburgh-pa-43b22b6f.html"
+   },
+   {
+    "id": "63b23e57",
+    "versionId": "g4bf05702",
+    "eventDate": "27-07-2022",
+    "lastUpdated": "2022-08-02T15:39:56.470+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "6bd3a69e",
+     "name": "Rocket Mortgage FieldHouse",
+     "city": {
+      "id": "5150529",
+      "name": "Cleveland",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 41.4994954,
+       "long": -81.6954088
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rocket-mortgage-fieldhouse-cleveland-oh-usa-6bd3a69e.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver Intro"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man",
+         "info": "Tour debut; first time playing since 9/03/2008"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Originally scheduled for Jul 29, 2020.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/rocket-mortgage-fieldhouse-cleveland-oh-63b23e57.html"
+   },
+   {
+    "id": "5bb2cf98",
+    "versionId": "g4bf0fbb6",
+    "eventDate": "25-07-2022",
+    "lastUpdated": "2022-07-27T13:40:38.486+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "1bd519cc",
+     "name": "KeyBank Center",
+     "city": {
+      "id": "5110629",
+      "name": "Buffalo",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 42.8864468,
+       "long": -78.8783689
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/keybank-center-buffalo-ny-usa-1bd519cc.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "bridge only"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/keybank-center-buffalo-ny-5bb2cf98.html"
+   },
+   {
+    "id": "3bb2e024",
+    "versionId": "gbf06136",
+    "eventDate": "23-07-2022",
+    "lastUpdated": "2022-08-01T21:50:49.762+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "2bd230ca",
+     "name": "Scotiabank Arena",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/scotiabank-arena-toronto-on-canada-2bd230ca.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver Intro"
+        },
+        {
+         "name": "No Shelter"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "info": "live debut by RATM",
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "bridge only) (>"
+        },
+        {
+         "name": "Killing in the Name",
+         "info": "restarted because Tom Morello was tackled by security guard and fell off stage"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/scotiabank-arena-toronto-on-canada-3bb2e024.html"
+   },
+   {
+    "id": "3b2f557",
+    "versionId": "g63f3724f",
+    "eventDate": "21-07-2022",
+    "lastUpdated": "2022-07-22T12:25:59.303+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "2bd230ca",
+     "name": "Scotiabank Arena",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/scotiabank-arena-toronto-on-canada-2bd230ca.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb",
+         "info": ">"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom",
+         "info": ">"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "bridge only) (>"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/scotiabank-arena-toronto-on-canada-3b2f557.html"
+   },
+   {
+    "id": "4bb293da",
+    "versionId": "g73f322a1",
+    "eventDate": "19-07-2022",
+    "lastUpdated": "2022-07-20T18:02:35.073+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "5bd4cbd4",
+     "name": "FirstOntario Centre",
+     "city": {
+      "id": "5969785",
+      "name": "Hamilton",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.233408354,
+       "long": -79.949639869
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/firstontario-centre-hamilton-on-canada-5bd4cbd4.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "with Revolver Intro"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "with Outro Drum Solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Snippet"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Zack performed the whole show sitting on a roadie case due to his leg injury.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/firstontario-centre-hamilton-on-canada-4bb293da.html"
+   },
+   {
+    "id": "33b2b025",
+    "versionId": "g13f3cded",
+    "eventDate": "16-07-2022",
+    "lastUpdated": "2022-07-18T17:01:08.600+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "63d5662b",
+     "name": "Plaines d'Abraham",
+     "city": {
+      "id": "6325494",
+      "name": "Quebec City",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 46.812,
+       "long": -71.215
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/plaines-dabraham-quebec-city-qc-canada-63d5662b.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver intro"
+        },
+        {
+         "name": "No Shelter"
+        },
+        {
+         "name": "Take the Power Back",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Without a Face"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/plaines-dabraham-quebec-city-qc-canada-33b2b025.html"
+   },
+   {
+    "id": "33b2bc11",
+    "versionId": "g33febc05",
+    "eventDate": "15-07-2022",
+    "lastUpdated": "2022-08-12T21:41:01.541+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "53d2dfe5",
+     "name": "LeBreton Flats Park",
+     "city": {
+      "id": "6094817",
+      "name": "Ottawa",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 45.4209405046496,
+       "long": -75.6902861595154
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/lebreton-flats-park-ottawa-on-canada-53d2dfe5.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         },
+         "info": "‘Snakecharmer’ riff during the outro"
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Bridge only"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First Canadian concert since 1999.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/lebreton-flats-park-ottawa-on-canada-33b2bc11.html"
+   },
+   {
+    "id": "2bb55c6e",
+    "versionId": "g4bf193a2",
+    "eventDate": "12-07-2022",
+    "lastUpdated": "2022-08-04T15:50:23.872+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "63d0f2d3",
+     "name": "United Center",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/united-center-chicago-il-usa-63d0f2d3.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "with \"Revolver\" intro"
+        },
+        {
+         "name": "No Shelter",
+         "info": "Tour Debut"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Vietnow",
+         "info": "Tour Debut"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb",
+         "info": ">"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "with extended Drum Solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 2 at United Center.  Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing the previous night.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/united-center-chicago-il-2bb55c6e.html"
+   },
+   {
+    "id": "73b56e3d",
+    "versionId": "g4bf193a6",
+    "eventDate": "11-07-2022",
+    "lastUpdated": "2022-08-04T15:51:59.981+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "63d0f2d3",
+     "name": "United Center",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/united-center-chicago-il-usa-63d0f2d3.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "with \"Revolver\" intro"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo",
+         "info": "tour debut"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb",
+         "info": ">"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "with extended Drum Solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 1 of 2 at United Center.  “Take the Power Back” was on the setlist after “Testify” but wasn't played - “Tire Me” (not on the set) played instead. Zack de la Rocha injured his leg during “Bullet in the Head” and had to sit on a monitor for the rest of the show.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/united-center-chicago-il-73b56e3d.html"
+   },
+   {
+    "id": "6bb50a0a",
+    "versionId": "g6b935eda",
+    "eventDate": "09-07-2022",
+    "lastUpdated": "2023-06-16T22:39:08.600+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cf7",
+     "name": "Alpine Valley Music Theatre",
+     "city": {
+      "id": "5251390",
+      "name": "East Troy",
+      "state": "Wisconsin",
+      "stateCode": "WI",
+      "coords": {
+       "lat": 42.7852922,
+       "long": -88.405096
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/alpine-valley-music-theatre-east-troy-wi-usa-23d63cf7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver intro"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Wake Up"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Without a Face"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb",
+         "info": ">"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         },
+         "info": "First time live since July 23, 2000, included Snakecharmer riff as part of the outro"
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First show in 11 years. Soundcheck included Bombtrack, No Shelter, Testify, and The Ghost of Tom Joad",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/alpine-valley-music-theatre-east-troy-wi-6bb50a0a.html"
+   },
+   {
+    "id": "53d0a31d",
+    "versionId": "g3bb3c0d4",
+    "eventDate": "30-07-2011",
+    "lastUpdated": "2024-03-17T06:03:53.201+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "3bd6642c",
+     "name": "Los Angeles Memorial Coliseum",
+     "city": {
+      "id": "5368361",
+      "name": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.052,
+       "long": -118.244
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/los-angeles-memorial-coliseum-los-angeles-ca-usa-3bd6642c.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Testify",
+         "info": "The power cut out twice during the song"
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Township Rebellion"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Wake Up",
+         "info": "with speech about the current state of Los Angeles"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Killing in the Name"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Last Rage Against the Machine show until 2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2011/los-angeles-memorial-coliseum-los-angeles-ca-53d0a31d.html"
+   }
+  ]
+ }
+}

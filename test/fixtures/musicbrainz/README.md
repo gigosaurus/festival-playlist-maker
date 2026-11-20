@@ -7,9 +7,11 @@ The artist match tests use these responses. When the MusicBrainz API changes, re
 | `genres.txt` | `GET https://musicbrainz.org/ws/2/genre/all?fmt=txt` (2,226 genres) | 18 November 2026 |
 | `search-<text>.json` | `GET https://musicbrainz.org/ws/2/artist?query=<text>&limit=5&fmt=json`, the address that `musicbrainzSearchUrl` makes | 18 November 2026 |
 | `links-<MusicBrainz ID>.json` | `GET https://musicbrainz.org/ws/2/artist/<MusicBrainz ID>?inc=url-rels&fmt=json`, the address that `musicbrainzLinksUrl` makes | 18 November 2026 |
-| `events-<MusicBrainz ID>-<page>.json` | `GET https://musicbrainz.org/ws/2/event?artist=<MusicBrainz ID>&limit=100&offset=<n>&fmt=json`, the address that `musicbrainzEventsUrl` makes | 19 November 2026 |
+| `events-<MusicBrainz ID>-<page>.json` | `GET https://musicbrainz.org/ws/2/event?artist=<MusicBrainz ID>&limit=100&offset=<n>&fmt=json`, the address that `musicbrainzEventsUrl` makes | 19 November 2026. Rage Against the Machine: 20 November 2026 |
+| `albums-<MusicBrainz ID>-<page>.json` | `GET https://musicbrainz.org/ws/2/release-group?artist=<MusicBrainz ID>&type=album&limit=100&offset=<n>&fmt=json`, the address that `musicbrainzAlbumsUrl` makes | 20 November 2026 |
+| `releases-<release group ID>.json` | `GET https://musicbrainz.org/ws/2/release?release-group=<release group ID>&status=official&inc=recordings&limit=25&fmt=json`, the address that `musicbrainzAlbumReleasesUrl` makes | 20 November 2026 |
 
-The search texts are the 10 names of the Download 2027 lineup in `test/fixtures/clashfinder/event-download27.json`, and "Ghost" and "BMTH". `search-symbols.json` is the search for "???".
+The search texts are the 10 names of the Download 2027 lineup in `test/fixtures/clashfinder/event-download27.json`, and "Ghost", "BMTH" and "Rage Against the Machine". `search-symbols.json` is the search for "???".
 
 To record again, from the repository root:
 
@@ -27,6 +29,12 @@ The predicted song tests use the events of Bring Me the Horizon (90 events on 1 
 
 ```sh
 node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts test/fixtures/musicbrainz events:074e3847-f67f-49f9-81f1-8c8cea147e8e
+```
+
+The predicted song tests use the albums of Bring Me the Horizon, Geese and Rage Against the Machine (#14). The script sends the requests of `albums` for the albums from the start of the longest look-back period before `setlistFmRecordedAt`, minus 12 months: the album pages, and the releases of each album from that date or later. Rage Against the Machine has no studio album in that period. To record them again, give each ID with the prefix `albums:`:
+
+```sh
+node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts test/fixtures/musicbrainz albums:074e3847-f67f-49f9-81f1-8c8cea147e8e albums:e0c97a4d-c392-41a9-a374-57af3e3eeab3 albums:3798b104-01cb-484c-a3b0-56adc6399b80
 ```
 
 The script needs `MUSICBRAINZ_CONTACT`. It waits 2 seconds between requests and sends a request again after status 503.

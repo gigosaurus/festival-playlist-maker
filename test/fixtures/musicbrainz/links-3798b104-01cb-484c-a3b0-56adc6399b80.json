@@ -1,0 +1,1039 @@
+{
+ "disambiguation": "",
+ "country": "US",
+ "begin-area": {
+  "type-id": null,
+  "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+  "type": null,
+  "disambiguation": "",
+  "name": "Los Angeles",
+  "sort-name": "Los Angeles"
+ },
+ "gender-id": null,
+ "life-span": {
+  "ended": true,
+  "begin": "1991-08",
+  "end": "2024-01"
+ },
+ "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+ "type": "Group",
+ "sort-name": "Rage Against the Machine",
+ "relations": [
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+   "attribute-values": {},
+   "type": "allmusic",
+   "url": {
+    "id": "51a6761f-0bb7-45ce-9eed-0718fbc9e8fc",
+    "resource": "https://www.allmusic.com/artist/mn0000863790"
+   },
+   "direction": "forward"
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.bandsintown.com/a/26632",
+    "id": "e393ad4b-8da8-4e97-8c48-531b164f1eb0"
+   },
+   "direction": "forward",
+   "type": "bandsintown",
+   "attribute-values": {},
+   "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "4a4b5922-09b5-4298-a182-4abab0174d84",
+    "resource": "https://www.bbc.co.uk/music/artists/3798b104-01cb-484c-a3b0-56adc6399b80"
+   },
+   "direction": "forward",
+   "type": "BBC Music page",
+   "attribute-values": {},
+   "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": true,
+   "attribute-ids": {},
+   "end": "2020-11-19",
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type": "blog",
+   "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+   "url": {
+    "id": "83d0cb48-5820-44b3-919e-33790947c7cc",
+    "resource": "http://ratm.tumblr.com/"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.discogs.com/artist/12212",
+    "id": "6531109f-d2de-46b1-b37e-2c24240c43d1"
+   },
+   "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+   "type": "discogs",
+   "attribute-values": {}
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+   "type": "fanpage",
+   "attribute-values": {},
+   "url": {
+    "id": "19130484-0159-4fb8-baf0-d1b498d3728d",
+    "resource": "http://downrodeo.org/"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj",
+    "id": "7330bd12-e072-44b6-bbc0-485f40af6659"
+   },
+   "type": "free streaming",
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.deezer.com/artist/113",
+    "id": "3e558cb6-7f1a-4a51-9e08-1c1899f04e3d"
+   },
+   "direction": "forward",
+   "type": "free streaming",
+   "attribute-values": {},
+   "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type": "image",
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "direction": "forward",
+   "url": {
+    "id": "c7c931a3-32a8-4b14-acd2-0fb717aa9606",
+    "resource": "https://commons.wikimedia.org/wiki/File:Rage_Against_The_Machine.jpg"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+   "attribute-values": {},
+   "type": "image",
+   "url": {
+    "resource": "https://www.nme.com/wp-content/uploads/2016/10/rageagainst_machine_paphotos_L31-1-2.jpg",
+    "id": "9ada348c-2460-481b-9a4f-738923b9d388"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "attribute-values": {},
+   "type": "IMDb",
+   "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+   "url": {
+    "resource": "https://www.imdb.com/name/nm1500281/",
+    "id": "7fce04e9-b9cf-47f9-8bde-3ae966edb7a5"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "attribute-values": {},
+   "type": "last.fm",
+   "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+   "url": {
+    "resource": "https://www.last.fm/music/Rage+Against+the+Machine",
+    "id": "c12388ce-32d2-4624-8e6c-84c73079845a"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "url": {
+    "resource": "http://muzikum.eu/en/122-5253/rage-against-the-machine/lyrics.html",
+    "id": "f9d69d30-0c9b-4df8-a529-27ad35805869"
+   },
+   "direction": "forward",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "attribute-values": {},
+   "type": "lyrics",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "target-credit": "",
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "type": "lyrics",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "541a5bb4-acd2-4a8e-9600-50082d3e43bd",
+    "resource": "https://genius.com/artists/Rage-against-the-machine"
+   },
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "09e30006-a49f-4d78-984e-98960b1f7164",
+    "resource": "https://www.musixmatch.com/artist/Rage-Against-the-Machine"
+   },
+   "type": "lyrics",
+   "attribute-values": {},
+   "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "7f0b06d1-eb06-4cac-8edb-9c8c6614aa46",
+    "resource": "https://myspace.com/ratm"
+   },
+   "attribute-values": {},
+   "type": "myspace",
+   "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156"
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "75e3a792-1d94-4e42-9be7-3ed0ba6ccec4",
+    "resource": "http://www.ratm.com/"
+   },
+   "attribute-values": {},
+   "type": "official homepage",
+   "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "url": {
+    "resource": "https://jaxsta.com/profile/b22bf933-e2f5-4a79-a978-48648505b938",
+    "id": "0ea6cb28-2d0f-4407-93ca-2d609a5ff615"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-credit": "",
+   "end": "2025-12-17",
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": true,
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "http://id.loc.gov/authorities/names/no96052523",
+    "id": "686c4913-f70c-47d4-8ab1-79ac02f50e4a"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url"
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "direction": "forward",
+   "url": {
+    "resource": "http://musicmoz.org/Bands_and_Artists/R/Rage_Against_the_Machine/",
+    "id": "90d86abe-5b40-46ad-9246-2ee47777630c"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "target-credit": "",
+   "url": {
+    "id": "5e758a4e-9ca9-45ed-b1b2-ee439248d3e8",
+    "resource": "https://catalogue.bnf.fr/ark:/12148/cb139545324"
+   },
+   "direction": "forward",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "target-credit": "",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://d-nb.info/gnd/6071626-5",
+    "id": "de4430f7-88ad-4c76-b4b1-711bb6e3340b"
+   },
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "url": {
+    "id": "a72ea90f-3b08-4402-b48f-661a83d16ba4",
+    "resource": "https://imvdb.com/n/rage-against-the-machine"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://rateyourmusic.com/artist/rage-against-the-machine",
+    "id": "dbfc326e-6672-4bde-92a3-1f1e2f1de574"
+   },
+   "type": "other databases",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {}
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.45cat.com/artist/rage-against-the-machine",
+    "id": "1a81ccf8-8a17-411d-a804-d16053f24f65"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "type": "other databases",
+   "attribute-values": {},
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "url": {
+    "resource": "https://www.livefans.jp/artists/2099",
+    "id": "5f1ed7e7-a1af-4b8e-af66-bb0228b61a6b"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.metalmusicarchives.com/artist/rage-against-the-machine",
+    "id": "d7650764-4fc8-4670-87fe-e38f0374a385"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "attribute-values": {},
+   "type": "other databases",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "id": "0cb787d3-91ed-45bb-83e5-c0bfa0d8525b",
+    "resource": "https://www.musik-sammler.de/artist/rage-against-the-machine/"
+   },
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "target-credit": ""
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "4d22c3d7-4d51-46fc-89bb-cbfe4e318dee",
+    "resource": "https://www.spirit-of-metal.com/en/band/Rage_Against_The_Machine"
+   },
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {}
+  },
+  {
+   "attribute-values": {},
+   "type": "other databases",
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "url": {
+    "id": "a3166f6f-b01d-49ed-ab14-56ce22d70cb6",
+    "resource": "https://www.whosampled.com/Rage-Against-the-Machine/"
+   },
+   "direction": "forward",
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+   "type": "other databases",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "id": "a9ef1924-448c-40d1-b52b-3c2c6164692e",
+    "resource": "https://www.worldcat.org/identities/lccn-no96052523"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null
+  },
+  {
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "direction": "forward",
+   "url": {
+    "id": "70384fdd-7381-4fe4-a328-1df8d647dfd4",
+    "resource": "https://play.google.com/store/music/artist?id=Abuy4pzwb5hofjdk2greho6xcva"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": "2020-10-12",
+   "ended": true,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://itunes.apple.com/us/artist/id899409",
+    "id": "e7a19e62-5332-4117-b3c0-6e33f906f0b3"
+   },
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": ""
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://uk.7digital.com/artist/rage-against-the-machine",
+    "id": "cb5b9105-1237-4bbc-8cca-2e02f7b72328"
+   },
+   "attribute-values": {},
+   "type": "purchase for download",
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "target-credit": ""
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+   "attribute-values": {},
+   "type": "purchase for download",
+   "url": {
+    "id": "0d20e346-a7ee-4886-9f2b-44a309447939",
+    "resource": "https://www.hdtracks.com/#/artist/Rage%20Against%20The%20Machine"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "url": {
+    "resource": "https://www.qobuz.com/us-en/interpreter/rage-against-the-machine/155699",
+    "id": "3dc3d0d0-af44-4e46-bcce-b750477fa250"
+   },
+   "direction": "forward",
+   "type": "purchase for download",
+   "attribute-values": {},
+   "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+  },
+  {
+   "ended": true,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": "2018-06-30",
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "purevolume",
+   "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+   "direction": "forward",
+   "url": {
+    "resource": "http://www.purevolume.com/RageAgainstTheMachineOfficial",
+    "id": "a42d5322-6276-4bd9-9032-222f0ccb105a"
+   }
+  },
+  {
+   "attribute-values": {},
+   "type": "secondhandsongs",
+   "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+   "direction": "forward",
+   "url": {
+    "id": "cc2de69c-7a2b-4e07-81db-68abc5235b36",
+    "resource": "https://secondhandsongs.com/artist/7170"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "id": "1fcdb99e-01ba-492f-83f5-dc15d7c85f95",
+    "resource": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+   },
+   "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+   "type": "setlistfm",
+   "attribute-values": {},
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "type": "social network",
+   "attribute-values": {},
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "url": {
+    "id": "904e49bd-b167-4c21-af6b-e5a55e0e561e",
+    "resource": "https://twitter.com/ratm"
+   },
+   "direction": "forward",
+   "target-credit": ""
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.facebook.com/RATM",
+    "id": "b4106cdf-4637-42a2-8fc5-cb4d03d5829d"
+   }
+  },
+  {
+   "target-credit": "",
+   "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+   "type": "social network",
+   "attribute-values": {},
+   "url": {
+    "id": "a0dda092-aa8a-4a8e-8843-ba9b0e792ffc",
+    "resource": "https://www.instagram.com/rageagainstthemachine/"
+   },
+   "direction": "forward",
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null
+  },
+  {
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+   "type": "songkick",
+   "attribute-values": {},
+   "direction": "forward",
+   "url": {
+    "resource": "https://www.songkick.com/artists/470548",
+    "id": "b980ea8a-2cf1-4151-9b43-928c03beb79e"
+   }
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "e855da52-7701-4368-8033-86e03ec53cc3",
+    "resource": "https://soundcloud.com/rageagainstthemachineofficial"
+   },
+   "attribute-values": {},
+   "type": "soundcloud",
+   "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+  },
+  {
+   "url": {
+    "id": "d0607819-2854-4528-a9f5-fef66c96d5bb",
+    "resource": "https://us.napster.com/artist/rage-against-the-machine"
+   },
+   "direction": "forward",
+   "type": "streaming",
+   "attribute-values": {},
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "target-credit": "",
+   "end": "2022-06-08",
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": true,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "attribute-values": {},
+   "type": "streaming",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "direction": "forward",
+   "url": {
+    "id": "f79b56c9-35cc-4f14-afd8-5e89fe14f414",
+    "resource": "https://music.amazon.com/artists/B000XEE3CO"
+   },
+   "target-credit": "",
+   "source-credit": "",
+   "end": null,
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": []
+  },
+  {
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false,
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.apple.com/gb/artist/899409",
+    "id": "1c1a6fc0-9852-4d46-9a93-fa7cceb9a96b"
+   },
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming"
+  },
+  {
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.apple.com/us/artist/899409",
+    "id": "ad5584dc-5d06-425b-bb15-0376102650a9"
+   },
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url"
+  },
+  {
+   "url": {
+    "resource": "https://tidal.com/artist/741",
+    "id": "73299314-6bf2-4591-8a63-3d113d3946cd"
+   },
+   "direction": "forward",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "attributes": [],
+   "begin": null,
+   "attribute-ids": {},
+   "target-type": "url",
+   "ended": false
+  },
+  {
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+   "attribute-values": {},
+   "type": "streaming",
+   "direction": "forward",
+   "url": {
+    "id": "3dc3d0d0-af44-4e46-bcce-b750477fa250",
+    "resource": "https://www.qobuz.com/us-en/interpreter/rage-against-the-machine/155699"
+   }
+  },
+  {
+   "target-type": "url",
+   "ended": false,
+   "attribute-ids": {},
+   "begin": null,
+   "attributes": [],
+   "source-credit": "",
+   "end": null,
+   "target-credit": "",
+   "attribute-values": {},
+   "type": "VIAF",
+   "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+   "direction": "forward",
+   "url": {
+    "resource": "http://viaf.org/viaf/135984986",
+    "id": "21430bbb-cadc-4b16-9704-fbfbb2a332ab"
+   }
+  },
+  {
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "url": {
+    "id": "435205c6-7854-441c-a6a0-f44e1831e7d2",
+    "resource": "https://www.wikidata.org/wiki/Q72092"
+   },
+   "direction": "forward",
+   "type": "wikidata",
+   "attribute-values": {},
+   "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+   "target-credit": ""
+  },
+  {
+   "url": {
+    "id": "6dd70c02-f744-4fc3-a37d-3d0ad3031653",
+    "resource": "https://www.youtube.com/channel/UCFcytuxeGAHyM67L_nHDTIA"
+   },
+   "direction": "forward",
+   "attribute-values": {},
+   "type": "youtube",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+   "target-credit": "",
+   "end": null,
+   "source-credit": "",
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {}
+  },
+  {
+   "begin": null,
+   "attributes": [],
+   "ended": false,
+   "target-type": "url",
+   "attribute-ids": {},
+   "end": null,
+   "source-credit": "",
+   "target-credit": "",
+   "direction": "forward",
+   "url": {
+    "id": "a1b6d64b-2ac0-4313-bd98-130222603457",
+    "resource": "https://www.youtube.com/channel/UCm_W_hbwbzJE8w52jZ2NO0A"
+   },
+   "attribute-values": {},
+   "type": "youtube",
+   "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+  },
+  {
+   "source-credit": "",
+   "end": null,
+   "attribute-ids": {},
+   "ended": false,
+   "target-type": "url",
+   "attributes": [],
+   "begin": null,
+   "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+   "attribute-values": {},
+   "type": "youtube music",
+   "direction": "forward",
+   "url": {
+    "resource": "https://music.youtube.com/channel/UCg4nBubbzhYXjudOxPi9V7w",
+    "id": "59e1d89c-f49a-4520-91d7-114d10dee1b4"
+   },
+   "target-credit": ""
+  }
+ ],
+ "isnis": [
+  "0000000122905407"
+ ],
+ "name": "Rage Against the Machine",
+ "gender": null,
+ "end-area": {
+  "disambiguation": "",
+  "name": "Los Angeles",
+  "sort-name": "Los Angeles",
+  "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+  "type-id": null,
+  "type": null
+ },
+ "area": {
+  "sort-name": "United States",
+  "disambiguation": "",
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type-id": null,
+  "type": null,
+  "iso-3166-1-codes": [
+   "US"
+  ]
+ },
+ "ipis": [],
+ "id": "3798b104-01cb-484c-a3b0-56adc6399b80"
+}

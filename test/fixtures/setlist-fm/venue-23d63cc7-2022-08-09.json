@@ -1,0 +1,215 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 2,
+  "setlist": [
+   {
+    "id": "5bb397c4",
+    "versionId": "g2bf1787e",
+    "eventDate": "09-08-2022",
+    "lastUpdated": "2022-08-10T14:39:20.248+0000",
+    "artist": {
+     "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+     "name": "Run the Jewels",
+     "sortName": "Run the Jewels",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "“Public Service Announcement” Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Legend Has It"
+        },
+        {
+         "name": "yankee and the brave (ep. 4)"
+        },
+        {
+         "name": "Blockbuster Night Part 1"
+        },
+        {
+         "name": "ooh la la"
+        },
+        {
+         "name": "Oh My Darling Don't Cry"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)"
+        },
+        {
+         "name": "JU$T"
+        },
+        {
+         "name": "Stay Gold"
+        },
+        {
+         "name": "Don't Get Captured"
+        },
+        {
+         "name": "walking in the snow"
+        },
+        {
+         "name": "a few words for the firing squad (radiation)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/run-the-jewels/2022/madison-square-garden-new-york-ny-5bb397c4.html"
+   },
+   {
+    "id": "3b3a57b",
+    "versionId": "g73f14af1",
+    "eventDate": "09-08-2022",
+    "lastUpdated": "2022-08-12T13:55:14.858+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "23d63cc7",
+     "name": "Madison Square Garden",
+     "city": {
+      "id": "5128581",
+      "name": "New York",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.7142691,
+       "long": -74.0059729
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/madison-square-garden-new-york-ny-usa-23d63cc7.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Revolver",
+         "tape": true,
+         "info": "Intro Only"
+        },
+        {
+         "name": "Testify"
+        },
+        {
+         "name": "Tire Me"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Vietnow"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Night 2 of 5 at Madison Square Garden. Zack de la Rocha performed the entire show seated due to a leg injury he sustained while performing in Chicago on 7/11/2022.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/madison-square-garden-new-york-ny-3b3a57b.html"
+   }
+  ]
+ }
+}

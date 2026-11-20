@@ -1,0 +1,653 @@
+{
+ "release-offset": 0,
+ "releases": [
+  {
+   "release-events": [
+    {
+     "area": {
+      "disambiguation": "",
+      "name": "[Worldwide]",
+      "sort-name": "[Worldwide]",
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "type-id": null,
+      "type": null,
+      "iso-3166-1-codes": [
+       "XW"
+      ]
+     },
+     "date": "2026-07-10"
+    }
+   ],
+   "packaging-id": "bf996342-d111-4d37-b9d6-d759f0787533",
+   "asin": null,
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "media": [
+    {
+     "format": "12\" Vinyl",
+     "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+     "tracks": [
+      {
+       "title": "Pray for Plagues",
+       "position": 1,
+       "id": "d0e50065-2832-432c-9c9d-9290a914a28d",
+       "recording": {
+        "id": "33d5c275-3390-4bcc-84f7-a1f3a126d5f7",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false,
+        "length": 266000,
+        "title": "Pray for Plagues | 2026 Repented"
+       },
+       "length": 266000,
+       "number": "A1"
+      },
+      {
+       "position": 2,
+       "title": "Tell Slater Not to Wash His D**k",
+       "id": "ad6d60f0-c1c0-431c-8563-a345b734fabc",
+       "recording": {
+        "first-release-date": "2026-07-10",
+        "id": "fbb71a83-1517-46e5-8ef8-185c3e11bf4d",
+        "video": false,
+        "disambiguation": "",
+        "length": 219000,
+        "title": "Tell Slater Not to Wash His Dick | 2026 Repented"
+       },
+       "length": 219000,
+       "number": "A2"
+      },
+      {
+       "position": 3,
+       "title": "⠋⠕⠗ ⠎⠞⠑⠧⠊⠑ ⠺⠕⠝⠙⠑⠗⠎ ⠑⠽⠑⠎ ⠕⠝⠇⠽",
+       "recording": {
+        "length": 268000,
+        "title": "For Stevie Wonder's Eyes Only (Braille) | 2026 Repented",
+        "first-release-date": "2026-07-10",
+        "id": "c5183564-eddb-4a04-a6c6-fe55e15cee42",
+        "video": false,
+        "disambiguation": ""
+       },
+       "id": "1a59470b-9913-4702-9b8f-003853e6ff1f",
+       "length": 268000,
+       "number": "A3"
+      },
+      {
+       "length": 132000,
+       "number": "A4",
+       "title": "A Lot Like Vegas",
+       "position": 4,
+       "recording": {
+        "id": "c33a47c7-1371-49b0-93b4-a33fc14f048a",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false,
+        "length": 132000,
+        "title": "A Lot Like Vegas | 2026 Repented"
+       },
+       "id": "07aa87b3-fb55-4b5d-a848-e2fcf86a9d2e"
+      },
+      {
+       "length": 272000,
+       "number": "A5",
+       "title": "Black & Blue",
+       "position": 5,
+       "recording": {
+        "length": 272000,
+        "title": "Black & Blue | 2026 Repented",
+        "first-release-date": "2026-06-12",
+        "id": "93d3f948-6624-4664-8016-cb7abc5d6739",
+        "video": false,
+        "disambiguation": ""
+       },
+       "id": "f38e036d-a662-4bb9-b13c-39fe6852d36c"
+      },
+      {
+       "position": 6,
+       "title": "Slow Dance",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "dd4730c9-d756-4ceb-9035-2ee2373310e0",
+        "first-release-date": "2026-07-10",
+        "title": "Slow Dance | 2026 Repented",
+        "length": 97000
+       },
+       "id": "782c5194-a961-4c31-b1bf-fd1c5d937d51",
+       "length": 97000,
+       "number": "A6"
+      },
+      {
+       "number": "B1",
+       "length": 160000,
+       "id": "8260df61-4136-446e-925e-7788083ae34c",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "3021ecf9-d299-4324-a41c-f5dc57f9c8b8",
+        "first-release-date": "2026-07-10",
+        "title": "Dragon Slaying | 2026 Repented",
+        "length": 160000
+       },
+       "title": "Dragon Slaying",
+       "position": 7
+      },
+      {
+       "id": "046e9691-912b-4791-8566-a14b1adf72df",
+       "recording": {
+        "title": "(I Used to Make Out With) Medusa | 2026 Repented",
+        "length": 365000,
+        "disambiguation": "",
+        "video": false,
+        "id": "a79a2eaf-6c9a-429a-b06d-7a742782b364",
+        "first-release-date": "2026-07-10"
+       },
+       "position": 8,
+       "title": "(I Used to Make Out with) Medusa",
+       "number": "B2",
+       "length": 365000
+      },
+      {
+       "number": "B3",
+       "length": 115000,
+       "id": "2e6a5bcb-b9ca-48fc-a431-aed93392bee2",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "796e8781-3ec6-4dd2-98b6-cbfb7feef788",
+        "first-release-date": "2026-07-10",
+        "title": "Fifteen Fathoms, Counting | 2026 Repented",
+        "length": 115000
+       },
+       "title": "Fifteen Fathoms, Counting",
+       "position": 9
+      },
+      {
+       "title": "Off the Heezay",
+       "position": 10,
+       "recording": {
+        "length": 365000,
+        "title": "Off the Heezay | 2026 Repented",
+        "first-release-date": "2026-07-10",
+        "id": "560803ec-f449-4bfb-bd3d-52d1505b87f8",
+        "video": false,
+        "disambiguation": ""
+       },
+       "id": "97aaa856-cbe6-494d-9fdc-0398ee9e0fc1",
+       "length": 365000,
+       "number": "B4"
+      },
+      {
+       "length": 268000,
+       "number": "B5",
+       "position": 11,
+       "title": "Dehumanized",
+       "id": "f68c48b2-1426-4c72-b8c1-6fcd40d9413c",
+       "recording": {
+        "length": 268000,
+        "title": "Dehumanized",
+        "first-release-date": "2026-06-25",
+        "id": "a40c16f3-88cb-4512-9cad-bd46db765089",
+        "video": false,
+        "disambiguation": ""
+       }
+      }
+     ],
+     "track-offset": 0,
+     "id": "459c84c7-7de0-4744-9cee-b003aa58d64f",
+     "track-count": 11,
+     "title": "",
+     "position": 1
+    }
+   ],
+   "packaging": "Plastic Sleeve",
+   "id": "4b58cf16-b05b-4bd9-90de-f3382d84ed83",
+   "date": "2026-07-10",
+   "quality": "normal",
+   "title": "Count Your Blessings | Repented.",
+   "disambiguation": "coke bottle green",
+   "country": "XW",
+   "status": "Official",
+   "cover-art-archive": {
+    "back": false,
+    "artwork": false,
+    "front": false,
+    "count": 0,
+    "darkened": false
+   },
+   "barcode": "0199584420516"
+  },
+  {
+   "quality": "normal",
+   "title": "Count Your Blessings | Repented.",
+   "id": "aa5d94e3-4be1-40c7-97f5-7f1ca60d43bf",
+   "date": "2026-09-04",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "packaging": "Gatefold Cover",
+   "media": [
+    {
+     "id": "a2c883dd-c265-4e59-8cab-f8bbfab4487b",
+     "tracks": [
+      {
+       "title": "Pray for Plagues (2026 Repented)",
+       "position": 1,
+       "id": "d9129686-a29f-419a-95ac-8ff51cab3f76",
+       "recording": {
+        "title": "Pray for Plagues | 2026 Repented",
+        "length": 266000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "33d5c275-3390-4bcc-84f7-a1f3a126d5f7"
+       },
+       "length": 266000,
+       "number": "1"
+      },
+      {
+       "number": "2",
+       "length": 220000,
+       "recording": {
+        "title": "Tell Slater Not to Wash His Dick | 2026 Repented",
+        "length": 219000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "fbb71a83-1517-46e5-8ef8-185c3e11bf4d"
+       },
+       "id": "e3098122-91ce-4a99-99f2-91fa440530ca",
+       "position": 2,
+       "title": "Tell Slater Not to Wash His D**k (2026 Repented)"
+      },
+      {
+       "title": "For Stevie Wonder's Eyes Only (Braille) (2026 Repented)",
+       "position": 3,
+       "recording": {
+        "id": "c5183564-eddb-4a04-a6c6-fe55e15cee42",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false,
+        "length": 268000,
+        "title": "For Stevie Wonder's Eyes Only (Braille) | 2026 Repented"
+       },
+       "id": "17f839dc-c859-414f-8e5c-f86001fdf88b",
+       "length": 269000,
+       "number": "3"
+      },
+      {
+       "length": 132000,
+       "number": "4",
+       "title": "A Lot Like Vegas (2026 Repented)",
+       "position": 4,
+       "id": "ada05665-c48b-4aca-a02e-dbaf59026a70",
+       "recording": {
+        "length": 132000,
+        "title": "A Lot Like Vegas | 2026 Repented",
+        "first-release-date": "2026-07-10",
+        "id": "c33a47c7-1371-49b0-93b4-a33fc14f048a",
+        "video": false,
+        "disambiguation": ""
+       }
+      },
+      {
+       "length": 273000,
+       "number": "5",
+       "title": "Black & Blue (2026 Repented)",
+       "position": 5,
+       "id": "33800462-3ac6-4bca-9198-504b7a04a947",
+       "recording": {
+        "id": "93d3f948-6624-4664-8016-cb7abc5d6739",
+        "first-release-date": "2026-06-12",
+        "disambiguation": "",
+        "video": false,
+        "length": 272000,
+        "title": "Black & Blue | 2026 Repented"
+       }
+      },
+      {
+       "number": "6",
+       "length": 98000,
+       "id": "116a1b66-b0f5-4ec0-9845-a1936efe22e3",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "dd4730c9-d756-4ceb-9035-2ee2373310e0",
+        "title": "Slow Dance | 2026 Repented",
+        "length": 97000
+       },
+       "title": "Slow Dance (2026 Repented)",
+       "position": 6
+      },
+      {
+       "title": "Dragon Slaying (2026 Repented)",
+       "position": 7,
+       "id": "0eaa2f3b-a82c-490f-8c6f-3192afc9fdbe",
+       "recording": {
+        "length": 160000,
+        "title": "Dragon Slaying | 2026 Repented",
+        "id": "3021ecf9-d299-4324-a41c-f5dc57f9c8b8",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false
+       },
+       "length": 161000,
+       "number": "7"
+      },
+      {
+       "number": "8",
+       "length": 366000,
+       "id": "3e321a2b-cd0d-4739-9403-f2b36bf75781",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "a79a2eaf-6c9a-429a-b06d-7a742782b364",
+        "first-release-date": "2026-07-10",
+        "title": "(I Used to Make Out With) Medusa | 2026 Repented",
+        "length": 365000
+       },
+       "title": "(I Used to Make Out With) Medusa (2026 Repented)",
+       "position": 8
+      },
+      {
+       "position": 9,
+       "title": "Fifteen Fathoms, Counting (2026 Repented)",
+       "recording": {
+        "id": "796e8781-3ec6-4dd2-98b6-cbfb7feef788",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false,
+        "length": 115000,
+        "title": "Fifteen Fathoms, Counting | 2026 Repented"
+       },
+       "id": "7e91447a-2b5e-4151-ad1a-518794cf6dd3",
+       "length": 115000,
+       "number": "9"
+      },
+      {
+       "position": 10,
+       "title": "Off the Heezay (2026 Repented)",
+       "id": "5885479e-7a21-43f0-b9fc-854f729a64a3",
+       "recording": {
+        "title": "Off the Heezay | 2026 Repented",
+        "length": 365000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "560803ec-f449-4bfb-bd3d-52d1505b87f8"
+       },
+       "length": 366000,
+       "number": "10"
+      },
+      {
+       "position": 11,
+       "title": "Dehumanized",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "a40c16f3-88cb-4512-9cad-bd46db765089",
+        "first-release-date": "2026-06-25",
+        "title": "Dehumanized",
+        "length": 268000
+       },
+       "id": "1d9929af-7576-4760-82b6-c14a1b8a9a8a",
+       "length": 268000,
+       "number": "11"
+      }
+     ],
+     "track-offset": 0,
+     "position": 1,
+     "track-count": 11,
+     "title": "",
+     "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+     "format": "CD"
+    }
+   ],
+   "asin": null,
+   "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+   "release-events": [
+    {
+     "date": "2026-09-04",
+     "area": null
+    }
+   ],
+   "text-representation": {
+    "language": "eng",
+    "script": "Latn"
+   },
+   "barcode": "199584297828",
+   "cover-art-archive": {
+    "front": false,
+    "count": 0,
+    "back": false,
+    "artwork": false,
+    "darkened": false
+   },
+   "status": "Official",
+   "disambiguation": "",
+   "country": null
+  },
+  {
+   "barcode": "196874082003",
+   "cover-art-archive": {
+    "front": true,
+    "count": 3,
+    "back": false,
+    "artwork": true,
+    "darkened": false
+   },
+   "status": "Official",
+   "country": "XW",
+   "disambiguation": "",
+   "title": "Count Your Blessings | Repented",
+   "quality": "normal",
+   "date": "2026-07-10",
+   "id": "da5d9108-f02a-435c-895a-f75f4e5f6c74",
+   "media": [
+    {
+     "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+     "format": "Digital Media",
+     "id": "e1f359bb-cdcc-4b0e-833a-538c5e66e467",
+     "track-offset": 0,
+     "tracks": [
+      {
+       "title": "Pray for Plagues (2026 Repented)",
+       "position": 1,
+       "recording": {
+        "title": "Pray for Plagues | 2026 Repented",
+        "length": 266000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "33d5c275-3390-4bcc-84f7-a1f3a126d5f7"
+       },
+       "id": "16ce8cad-c949-40c5-b6b6-aa0babae7b1c",
+       "length": 266000,
+       "number": "1"
+      },
+      {
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "fbb71a83-1517-46e5-8ef8-185c3e11bf4d",
+        "title": "Tell Slater Not to Wash His Dick | 2026 Repented",
+        "length": 219000
+       },
+       "id": "fb1f6c6a-8253-4ee7-95a3-b41e4468eb14",
+       "position": 2,
+       "title": "Tell Slater Not to Wash His Dick (2026 Repented)",
+       "number": "2",
+       "length": 219000
+      },
+      {
+       "length": 268000,
+       "number": "3",
+       "title": "For Stevie Wonder's Eyes Only (Braille) (2026 Repented)",
+       "position": 3,
+       "recording": {
+        "title": "For Stevie Wonder's Eyes Only (Braille) | 2026 Repented",
+        "length": 268000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "c5183564-eddb-4a04-a6c6-fe55e15cee42"
+       },
+       "id": "a32ebfbb-e071-4ec7-9a06-e4df0fb47093"
+      },
+      {
+       "length": 132000,
+       "number": "4",
+       "title": "A Lot Like Vegas (2026 Repented)",
+       "position": 4,
+       "recording": {
+        "length": 132000,
+        "title": "A Lot Like Vegas | 2026 Repented",
+        "first-release-date": "2026-07-10",
+        "id": "c33a47c7-1371-49b0-93b4-a33fc14f048a",
+        "video": false,
+        "disambiguation": ""
+       },
+       "id": "655340f2-e95c-48f2-90c3-5fb013f7db09"
+      },
+      {
+       "length": 272000,
+       "number": "5",
+       "title": "Black & Blue (2026 Repented)",
+       "position": 5,
+       "id": "ae97df46-69c3-4af3-8ccc-cdeb5d4487f9",
+       "recording": {
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-06-12",
+        "id": "93d3f948-6624-4664-8016-cb7abc5d6739",
+        "title": "Black & Blue | 2026 Repented",
+        "length": 272000
+       }
+      },
+      {
+       "id": "9ccd2d67-c911-4af9-b74a-a0097b446184",
+       "recording": {
+        "title": "Slow Dance | 2026 Repented",
+        "length": 97000,
+        "video": false,
+        "disambiguation": "",
+        "first-release-date": "2026-07-10",
+        "id": "dd4730c9-d756-4ceb-9035-2ee2373310e0"
+       },
+       "position": 6,
+       "title": "Slow Dance (2026 Repented)",
+       "number": "6",
+       "length": 97000
+      },
+      {
+       "length": 160000,
+       "number": "7",
+       "title": "Dragon Slaying (2026 Repented)",
+       "position": 7,
+       "id": "59ae4d69-f275-4b08-80d0-754f277467d3",
+       "recording": {
+        "title": "Dragon Slaying | 2026 Repented",
+        "length": 160000,
+        "disambiguation": "",
+        "video": false,
+        "id": "3021ecf9-d299-4324-a41c-f5dc57f9c8b8",
+        "first-release-date": "2026-07-10"
+       }
+      },
+      {
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "a79a2eaf-6c9a-429a-b06d-7a742782b364",
+        "first-release-date": "2026-07-10",
+        "title": "(I Used to Make Out With) Medusa | 2026 Repented",
+        "length": 365000
+       },
+       "id": "7f8096a3-c59e-4736-9883-6ef690dbbd5d",
+       "title": "(I Used to Make Out With) Medusa (2026 Repented)",
+       "position": 8,
+       "number": "8",
+       "length": 365000
+      },
+      {
+       "id": "4a53f950-a26c-4373-bcc9-b7325f385591",
+       "recording": {
+        "length": 115000,
+        "title": "Fifteen Fathoms, Counting | 2026 Repented",
+        "first-release-date": "2026-07-10",
+        "id": "796e8781-3ec6-4dd2-98b6-cbfb7feef788",
+        "video": false,
+        "disambiguation": ""
+       },
+       "title": "Fifteen Fathoms, Counting (2026 Repented)",
+       "position": 9,
+       "number": "9",
+       "length": 115000
+      },
+      {
+       "position": 10,
+       "title": "Off the Heezay (2026 Repented)",
+       "recording": {
+        "id": "560803ec-f449-4bfb-bd3d-52d1505b87f8",
+        "first-release-date": "2026-07-10",
+        "disambiguation": "",
+        "video": false,
+        "length": 365000,
+        "title": "Off the Heezay | 2026 Repented"
+       },
+       "id": "40080b3f-75b6-4784-9953-c123236d3faf",
+       "length": 365000,
+       "number": "10"
+      },
+      {
+       "length": 268000,
+       "number": "11",
+       "position": 11,
+       "title": "Dehumanized",
+       "recording": {
+        "disambiguation": "",
+        "video": false,
+        "id": "a40c16f3-88cb-4512-9cad-bd46db765089",
+        "first-release-date": "2026-06-25",
+        "title": "Dehumanized",
+        "length": 268000
+       },
+       "id": "11d4bdf8-b1de-49d8-b8e0-e63988ca7a98"
+      }
+     ],
+     "position": 1,
+     "track-count": 11,
+     "title": ""
+    }
+   ],
+   "packaging": "None",
+   "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+   "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+   },
+   "asin": null,
+   "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+   "release-events": [
+    {
+     "date": "2026-07-10",
+     "area": {
+      "iso-3166-1-codes": [
+       "XW"
+      ],
+      "type": null,
+      "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+      "type-id": null,
+      "sort-name": "[Worldwide]",
+      "name": "[Worldwide]",
+      "disambiguation": ""
+     }
+    }
+   ]
+  }
+ ],
+ "release-count": 3
+}

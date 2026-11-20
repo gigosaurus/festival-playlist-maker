@@ -1,0 +1,387 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Calm%20Like%20a%20Bomb%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 5,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2eia0myWFgoHuttJytCxgX"
+     },
+     "href": "https://api.spotify.com/v1/albums/2eia0myWFgoHuttJytCxgX",
+     "id": "2eia0myWFgoHuttJytCxgX",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2733c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e023c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048513c2579a4f8cacd5b95b8fa68"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Los Angeles",
+     "release_date": "1999-11-02",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:2eia0myWFgoHuttJytCxgX"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 298893,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920166"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1hR0fIFK2qRG3f3RF70pb7"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1hR0fIFK2qRG3f3RF70pb7",
+    "id": "1hR0fIFK2qRG3f3RF70pb7",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Calm Like a Bomb",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:1hR0fIFK2qRG3f3RF70pb7"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5lexBcLuhxCaLB8LbM3JvR"
+     },
+     "href": "https://api.spotify.com/v1/albums/5lexBcLuhxCaLB8LbM3JvR",
+     "id": "5lexBcLuhxCaLB8LbM3JvR",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c71f08ca0b0474036976e315"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Mexico City (Live)",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:5lexBcLuhxCaLB8LbM3JvR"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 284118,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM12004823"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/24D0tPSWbrmj66zZCZu52i"
+    },
+    "href": "https://api.spotify.com/v1/tracks/24D0tPSWbrmj66zZCZu52i",
+    "id": "24D0tPSWbrmj66zZCZu52i",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Calm Like a Bomb - Live, Mexico City, Mexico, October 28, 1999",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:24D0tPSWbrmj66zZCZu52i"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5RnExdPm0cenE3Tx2wWQss"
+     },
+     "href": "https://api.spotify.com/v1/albums/5RnExdPm0cenE3Tx2wWQss",
+     "id": "5RnExdPm0cenE3Tx2wWQss",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27356f927417cbf5cdbd14ec843"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0256f927417cbf5cdbd14ec843"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485156f927417cbf5cdbd14ec843"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Matrix Reloaded: The Album",
+     "release_date": "2009-08-25",
+     "release_date_precision": "day",
+     "total_tracks": 19,
+     "type": "album",
+     "uri": "spotify:album:5RnExdPm0cenE3Tx2wWQss"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 298866,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920166"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0VnpSZutFXt3MP4R2shCTl"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0VnpSZutFXt3MP4R2shCTl",
+    "id": "0VnpSZutFXt3MP4R2shCTl",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Calm Like A Bomb",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:0VnpSZutFXt3MP4R2shCTl"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 290173,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM10312741"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/5CClkhPTsEy0JrqTiEb2Jj"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5CClkhPTsEy0JrqTiEb2Jj",
+    "id": "5CClkhPTsEy0JrqTiEb2Jj",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Calm Like a Bomb - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:5CClkhPTsEy0JrqTiEb2Jj"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4iLPd0Abb4S96sB2QEz2bl"
+     },
+     "href": "https://api.spotify.com/v1/albums/4iLPd0Abb4S96sB2QEz2bl",
+     "id": "4iLPd0Abb4S96sB2QEz2bl",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273f86295aecf70bd4347a3ad77"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02f86295aecf70bd4347a3ad77"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851f86295aecf70bd4347a3ad77"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Matrix Reloaded: The Album",
+     "release_date": "2009-08-25",
+     "release_date_precision": "day",
+     "total_tracks": 19,
+     "type": "album",
+     "uri": "spotify:album:4iLPd0Abb4S96sB2QEz2bl"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 298866,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920166"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/51jrgvfcr09NigBkDOdPvg"
+    },
+    "href": "https://api.spotify.com/v1/tracks/51jrgvfcr09NigBkDOdPvg",
+    "id": "51jrgvfcr09NigBkDOdPvg",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Calm Like A Bomb",
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:51jrgvfcr09NigBkDOdPvg"
+   }
+  ]
+ }
+}

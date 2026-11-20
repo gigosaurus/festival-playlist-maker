@@ -1,0 +1,1876 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 372,
+  "setlist": [
+   {
+    "id": "b77113e",
+    "versionId": "g2b35b456",
+    "eventDate": "13-11-2026",
+    "lastUpdated": "2026-11-14T04:28:01.761+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd29e24",
+     "name": "The Anthem",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-anthem-washington-dc-usa-7bd29e24.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "With snippet of “Waiting Room” by Fugazi"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-anthem-washington-dc-b77113e.html"
+   },
+   {
+    "id": "3b7710b0",
+    "versionId": "g733466dd",
+    "eventDate": "11-11-2026",
+    "lastUpdated": "2026-11-12T21:44:55.803+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "33d038d5",
+     "name": "Roadrunner",
+     "city": {
+      "id": "4930956",
+      "name": "Boston",
+      "state": "Massachusetts",
+      "stateCode": "MA",
+      "coords": {
+       "lat": 42.3584308,
+       "long": -71.0597732
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/roadrunner-boston-ma-usa-33d038d5.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "2122",
+         "info": "With \"Twilight in Boston\" snippet"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Killing My Borrowed Time"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/roadrunner-boston-ma-3b7710b0.html"
+   },
+   {
+    "id": "4b77eb1a",
+    "versionId": "g13342509",
+    "eventDate": "10-11-2026",
+    "lastUpdated": "2026-11-11T04:02:32.983+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "33d038d5",
+     "name": "Roadrunner",
+     "city": {
+      "id": "4930956",
+      "name": "Boston",
+      "state": "Massachusetts",
+      "stateCode": "MA",
+      "coords": {
+       "lat": 42.3584308,
+       "long": -71.0597732
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/roadrunner-boston-ma-usa-33d038d5.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/roadrunner-boston-ma-4b77eb1a.html"
+   },
+   {
+    "id": "4b7d3772",
+    "versionId": "g7334ce91",
+    "eventDate": "08-11-2026",
+    "lastUpdated": "2026-11-09T22:42:40.515+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d58545",
+     "name": "The Fillmore Philadelphia",
+     "city": {
+      "id": "4560349",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 39.952335,
+       "long": -75.163789
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-fillmore-philadelphia-philadelphia-pa-usa-13d58545.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played a short snippet of the Eagles fight song through his phone"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-fillmore-philadelphia-philadelphia-pa-4b7d3772.html"
+   },
+   {
+    "id": "4377eb1b",
+    "versionId": "g63348a37",
+    "eventDate": "07-11-2026",
+    "lastUpdated": "2026-11-08T06:13:43.540+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d58545",
+     "name": "The Fillmore Philadelphia",
+     "city": {
+      "id": "4560349",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "stateCode": "PA",
+      "coords": {
+       "lat": 39.952335,
+       "long": -75.163789
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-fillmore-philadelphia-philadelphia-pa-usa-13d58545.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "With \"Ain't That Nothin\" by Television in honor of Richard Lloyd's passing"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-fillmore-philadelphia-philadelphia-pa-4377eb1b.html"
+   },
+   {
+    "id": "5b77eb24",
+    "versionId": "g4b349bd2",
+    "eventDate": "06-11-2026",
+    "lastUpdated": "2026-11-07T20:51:49.874+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "7bd29e24",
+     "name": "The Anthem",
+     "city": {
+      "id": "4140963",
+      "name": "Washington",
+      "state": "Washington, D.C.",
+      "stateCode": "DC",
+      "coords": {
+       "lat": 38.895,
+       "long": -77.036
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-anthem-washington-dc-usa-7bd29e24.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "Featuring elements of 'Now I Wanna Sniff Some Glue' by the Ramones"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Killing My Borrowed Time",
+         "info": "tour debut, birthday request from Cameron's dad"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-anthem-washington-dc-5b77eb24.html"
+   },
+   {
+    "id": "3b7710bc",
+    "versionId": "g73376ab9",
+    "eventDate": "04-11-2026",
+    "lastUpdated": "2026-11-05T08:36:54.095+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd0e190",
+     "name": "History",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/history-toronto-on-canada-1bd0e190.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Featuring elements of ‘Now I Wanna Sniff Some Glue’ by the Ramones"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"St. Elmo\" replaced \"Long Island City Here I Come\" on the setlist",
+    "url": "https://www.setlist.fm/setlist/geese/2026/history-toronto-on-canada-3b7710bc.html"
+   },
+   {
+    "id": "b7df576",
+    "versionId": "g4b375356",
+    "eventDate": "03-11-2026",
+    "lastUpdated": "2026-11-06T04:39:17.048+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d6d503",
+     "name": "Sneaky Dee's",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sneaky-dees-toronto-on-canada-3d6d503.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Africa Talks to You (The Asphalt Jungle)",
+         "tape": true,
+         "cover": {
+          "mbid": "b7ec4c54-1f93-4bf2-957f-7b9921ab84ea",
+          "name": "Sly & the Family Stone",
+          "sortName": "Sly & the Family Stone",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sly-and-the-family-stone-6bd6ce4a.html"
+         }
+        },
+        {
+         "name": "A Little Suntin Suntin",
+         "tape": true,
+         "cover": {
+          "mbid": "07065c90-1519-4bd9-8259-9872f3c9a776",
+          "name": "Paul Johnson",
+          "sortName": "Johnson, Paul",
+          "disambiguation": "Chicago house music DJ/producer",
+          "url": "https://www.setlist.fm/setlists/paul-johnson-43d6931b.html"
+         }
+        },
+        {
+         "name": "Shut Me Down",
+         "tape": true,
+         "cover": {
+          "mbid": "6a49e513-c542-48e9-8b9b-ff9cba8273a9",
+          "name": "Povoa",
+          "sortName": "Povoa",
+          "disambiguation": "French musician",
+          "url": "https://www.setlist.fm/setlists/povoa-b860da6.html"
+         }
+        },
+        {
+         "name": "Come Together",
+         "tape": true,
+         "cover": {
+          "mbid": "55704c38-224f-4b75-b29f-d43653f8bc9a",
+          "name": "Primal Scream",
+          "sortName": "Primal Scream",
+          "disambiguation": "Scottish rock band",
+          "url": "https://www.setlist.fm/setlists/primal-scream-13d6bde5.html"
+         },
+         "info": "Farley Mix"
+        },
+        {
+         "name": "Devils Haircut",
+         "tape": true,
+         "cover": {
+          "mbid": "309c62ba-7a22-4277-9f67-4a162526d18a",
+          "name": "Beck",
+          "sortName": "Beck",
+          "disambiguation": "alt rock, multi‐instrumentalist Beck Hansen",
+          "url": "https://www.setlist.fm/setlists/beck-63d6a2eb.html"
+         }
+        },
+        {
+         "name": "Dance",
+         "tape": true,
+         "cover": {
+          "mbid": "b3465cab-9628-447c-9897-2d18abab89d3",
+          "name": "ESG",
+          "sortName": "ESG",
+          "disambiguation": "US art-funk ensemble (Emerald,Sapphire & Gold)",
+          "url": "https://www.setlist.fm/setlists/esg-4bd693ca.html"
+         }
+        },
+        {
+         "name": "Save It for Later",
+         "tape": true,
+         "cover": {
+          "mbid": "9727e632-c228-47f8-a7ae-398df94f00c7",
+          "name": "The Beat",
+          "sortName": "Beat, The",
+          "disambiguation": "UK ska band aka The English Beat",
+          "url": "https://www.setlist.fm/setlists/the-beat-33d6c0dd.html"
+         }
+        },
+        {
+         "name": "Telewizja",
+         "tape": true,
+         "cover": {
+          "mbid": "152d88cf-7d8a-4de4-a61a-6efdceffea43",
+          "name": "Kryzys",
+          "sortName": "Kryzys",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kryzys-73d54acd.html"
+         }
+        },
+        {
+         "name": "Święty szczyt",
+         "tape": true,
+         "cover": {
+          "mbid": "152d88cf-7d8a-4de4-a61a-6efdceffea43",
+          "name": "Kryzys",
+          "sortName": "Kryzys",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kryzys-73d54acd.html"
+         }
+        },
+        {
+         "name": "Sneakin' Sally Through the Alley",
+         "tape": true,
+         "cover": {
+          "mbid": "d5a1b969-1a58-4df3-ac24-40c67462edf2",
+          "name": "Robert Palmer",
+          "sortName": "Palmer, Robert",
+          "disambiguation": "music critic and producer",
+          "url": "https://www.setlist.fm/setlists/robert-palmer-73dadee5.html"
+         }
+        },
+        {
+         "name": "Mindtrain",
+         "tape": true,
+         "cover": {
+          "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396",
+          "name": "Yoko Ono",
+          "sortName": "Ono, Yoko",
+          "disambiguation": "Japanese‐American musician and artist",
+          "url": "https://www.setlist.fm/setlists/yoko-ono-2bd6883e.html"
+         }
+        },
+        {
+         "name": "Double Groove",
+         "tape": true,
+         "cover": {
+          "mbid": "a94a7155-c79d-4409-9fcf-220cb0e4dc3a",
+          "name": "Talking Heads",
+          "sortName": "Talking Heads",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/talking-heads-3bd6b808.html"
+         }
+        },
+        {
+         "name": "USA = FAG NATION",
+         "tape": true,
+         "cover": {
+          "mbid": "b6799f5e-77dc-456a-b456-9177b92b195c",
+          "name": "Lex Walton",
+          "sortName": "Lex Walton",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lex-walton-5385df45.html"
+         },
+         "info": "Remix"
+        },
+        {
+         "name": "Sledgehammer",
+         "tape": true,
+         "cover": {
+          "mbid": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5",
+          "name": "Peter Gabriel",
+          "sortName": "Gabriel, Peter",
+          "disambiguation": "formerly of Genesis",
+          "url": "https://www.setlist.fm/setlists/peter-gabriel-5bd6b794.html"
+         }
+        },
+        {
+         "name": "Come on Honey",
+         "tape": true,
+         "cover": {
+          "mbid": "18b2f43a-fc98-4aab-b69c-eaaba41fecbc",
+          "name": "Alex Chilton",
+          "sortName": "Chilton, Alex",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/alex-chilton-6bd686f2.html"
+         }
+        },
+        {
+         "name": "Your Party",
+         "tape": true,
+         "cover": {
+          "mbid": "c0eee88b-47f2-4cd2-ac48-a045e902a432",
+          "name": "Ween",
+          "sortName": "Ween",
+          "disambiguation": "US alternative rock band",
+          "url": "https://www.setlist.fm/setlists/ween-63d68e53.html"
+         }
+        },
+        {
+         "name": "Cleo",
+         "tape": true,
+         "cover": {
+          "mbid": "72c090b6-a68e-4cb9-b330-85278681a714",
+          "name": "John Cale",
+          "sortName": "Cale, John",
+          "disambiguation": "The Velvet Underground founder",
+          "url": "https://www.setlist.fm/setlists/john-cale-3bd6a0d4.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Max and Emily only; official aftershow DJ set announced day of. Setlist incomplete. Started playing songs from their phones partway through due to USB error.",
+    "url": "https://www.setlist.fm/setlist/geese/2026/sneaky-dees-toronto-on-canada-b7df576.html"
+   },
+   {
+    "id": "4b77eb26",
+    "versionId": "g2b37585a",
+    "eventDate": "03-11-2026",
+    "lastUpdated": "2026-11-05T20:49:27.199+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "1bd0e190",
+     "name": "History",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/history-toronto-on-canada-1bd0e190.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "With YYZ by Rush tease"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine",
+         "info": "With Baby by Justin Bieber tease"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad",
+         "info": "With YYZ by Rush outro"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/history-toronto-on-canada-4b77eb26.html"
+   },
+   {
+    "id": "37711e7",
+    "versionId": "g6337c687",
+    "eventDate": "01-11-2026",
+    "lastUpdated": "2026-11-02T05:26:05.130+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d07c37",
+     "name": "The Salt Shed",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-salt-shed-chicago-il-usa-23d07c37.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "w/ \"Now I Wanna Sniff Some Glue\" by The Ramones cover"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-salt-shed-chicago-il-37711e7.html"
+   },
+   {
+    "id": "4377eb27",
+    "versionId": "g3b37d458",
+    "eventDate": "31-10-2026",
+    "lastUpdated": "2026-11-01T15:38:48.534+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d07c37",
+     "name": "The Salt Shed",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-salt-shed-chicago-il-usa-23d07c37.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "Snippet of “Emojis” by Chief Keef"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-salt-shed-chicago-il-4377eb27.html"
+   },
+   {
+    "id": "2b7dfc3a",
+    "versionId": "g3b3728fc",
+    "eventDate": "31-10-2026",
+    "lastUpdated": "2026-11-03T00:39:04.542+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d6396f",
+     "name": "Schubas Tavern",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/schubas-tavern-chicago-il-usa-3d6396f.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": []
+    },
+    "info": "Official halloween aftershow dj set",
+    "url": "https://www.setlist.fm/setlist/geese/2026/schubas-tavern-chicago-il-2b7dfc3a.html"
+   },
+   {
+    "id": "5377eb21",
+    "versionId": "g4b373b86",
+    "eventDate": "30-10-2026",
+    "lastUpdated": "2026-11-02T15:31:47.904+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d1d553",
+     "name": "The Midland Theatre",
+     "city": {
+      "id": "4393217",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 39.0997266,
+       "long": -94.5785667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-midland-theatre-kansas-city-mo-usa-3d1d553.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "W/ Interstellar Overdrive (Pink Floyd) snippet"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad",
+         "info": "Husband has been destroyed, got his septum pierced, hiding in the pantry"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/the-midland-theatre-kansas-city-mo-5377eb21.html"
+   },
+   {
+    "id": "5377eb71",
+    "versionId": "g33789df",
+    "eventDate": "28-10-2026",
+    "lastUpdated": "2026-10-31T00:25:03.032+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d3fd5f",
+     "name": "Mission Ballroom",
+     "city": {
+      "id": "5419384",
+      "name": "Denver",
+      "state": "Colorado",
+      "stateCode": "CO",
+      "coords": {
+       "lat": 39.7391536,
+       "long": -104.9847034
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/mission-ballroom-denver-co-usa-3d3fd5f.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "w/ \"Now I Wanna Sniff Some Glue\" by the Ramones snippet"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/geese/2026/mission-ballroom-denver-co-5377eb71.html"
+   },
+   {
+    "id": "4377eb23",
+    "versionId": "g5b37b30c",
+    "eventDate": "27-10-2026",
+    "lastUpdated": "2026-10-29T20:14:06.853+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13d53d51",
+     "name": "Rockwell",
+     "city": {
+      "id": "5780993",
+      "name": "Salt Lake City",
+      "state": "Utah",
+      "stateCode": "UT",
+      "coords": {
+       "lat": 40.7607794,
+       "long": -111.8910474
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rockwell-salt-lake-city-ut-usa-13d53d51.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Contained elements of “Now I Wanna Sniff Some Glue” by the Ramones"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad",
+         "info": "Intro included improvised song called “Joys of the Highway”"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/rockwell-salt-lake-city-ut-4377eb23.html"
+   },
+   {
+    "id": "5377eb2d",
+    "versionId": "g23361847",
+    "eventDate": "25-10-2026",
+    "lastUpdated": "2026-10-26T03:38:17.395+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d638ab",
+     "name": "Spirit of the Suwannee Music Park",
+     "city": {
+      "id": "4162462",
+      "name": "Live Oak",
+      "state": "Florida",
+      "stateCode": "FL",
+      "coords": {
+       "lat": 30.5796374,
+       "long": -85.8646562
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/spirit-of-the-suwannee-music-park-live-oak-fl-usa-23d638ab.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Long Island City Here I Come was on printed setlist but St Elmo played instead",
+    "url": "https://www.setlist.fm/setlist/geese/2026/spirit-of-the-suwannee-music-park-live-oak-fl-5377eb2d.html"
+   },
+   {
+    "id": "237710bf",
+    "versionId": "g5b36e368",
+    "eventDate": "23-10-2026",
+    "lastUpdated": "2026-10-24T07:50:51.094+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "43d61ff3",
+     "name": "Paramount Theatre",
+     "city": {
+      "id": "5809844",
+      "name": "Seattle",
+      "state": "Washington",
+      "stateCode": "WA",
+      "coords": {
+       "lat": 47.6062095,
+       "long": -122.3320708
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/paramount-theatre-seattle-wa-usa-43d61ff3.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With “Hello Seattle” - Owl City played from phone into guitar pickups"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/paramount-theatre-seattle-wa-237710bf.html"
+   },
+   {
+    "id": "4b77eb2e",
+    "versionId": "g1336ed05",
+    "eventDate": "22-10-2026",
+    "lastUpdated": "2026-10-23T20:31:13.802+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "43d61ff3",
+     "name": "Paramount Theatre",
+     "city": {
+      "id": "5809844",
+      "name": "Seattle",
+      "state": "Washington",
+      "stateCode": "WA",
+      "coords": {
+       "lat": 47.6062095,
+       "long": -122.3320708
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/paramount-theatre-seattle-wa-usa-43d61ff3.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played “Even Flow” by Pearl Jam on his phone in the middle of the song"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad",
+         "info": "Husband's getting F'd up by ampm, 7/11, Subway Sandwiches, Sheetz, Buckees, etc."
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2026/paramount-theatre-seattle-wa-4b77eb2e.html"
+   },
+   {
+    "id": "337710b9",
+    "versionId": "g2336a473",
+    "eventDate": "20-10-2026",
+    "lastUpdated": "2026-10-22T00:18:33.806+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd2c488",
+     "name": "Fox Theater",
+     "city": {
+      "id": "5378538",
+      "name": "Oakland",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 37.8043722,
+       "long": -122.2708026
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/fox-theater-oakland-ca-usa-3bd2c488.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "w/ \"Now I Wanna Sniff Some Glue\" by Ramones in middle"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Soundcheck: \"First World Warrior\"",
+    "url": "https://www.setlist.fm/setlist/geese/2026/fox-theater-oakland-ca-337710b9.html"
+   },
+   {
+    "id": "4377eb2f",
+    "versionId": "g53095729",
+    "eventDate": "19-10-2026",
+    "lastUpdated": "2026-10-20T15:15:40.363+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd2c488",
+     "name": "Fox Theater",
+     "city": {
+      "id": "5378538",
+      "name": "Oakland",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 37.8043722,
+       "long": -122.2708026
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/fox-theater-oakland-ca-usa-3bd2c488.html"
+    },
+    "tour": {
+     "name": "Getting Killed Again"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "I See Myself",
+         "info": "Chorus was sung by the crowd"
+        },
+        {
+         "name": "2122",
+         "info": "With Pink Floyd's \"Interstellar Overdrive\" in the middle"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Crusades"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Cameron was noticably ill and addressed it multiple times",
+    "url": "https://www.setlist.fm/setlist/geese/2026/fox-theater-oakland-ca-4377eb2f.html"
+   }
+  ]
+ }
+}

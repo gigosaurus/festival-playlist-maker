@@ -1,0 +1,1721 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 7,
+  "total": 372,
+  "setlist": [
+   {
+    "id": "6b45b232",
+    "versionId": "g5b673b6c",
+    "eventDate": "24-10-2025",
+    "lastUpdated": "2025-10-25T23:01:08.910+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "53d4c7cd",
+     "name": "Showbox",
+     "city": {
+      "id": "5809844",
+      "name": "Seattle",
+      "state": "Washington",
+      "stateCode": "WA",
+      "coords": {
+       "lat": 47.6062095,
+       "long": -122.3320708
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/showbox-seattle-wa-usa-53d4c7cd.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "4D Country",
+         "info": "“3D Country” on written setlist"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122",
+         "info": "With \"Interstellar Overdrive\" (Pink Floyd) jam"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Crusades",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Encore songs not on written setlist",
+    "url": "https://www.setlist.fm/setlist/geese/2025/showbox-seattle-wa-6b45b232.html"
+   },
+   {
+    "id": "434e8faf",
+    "versionId": "gb64113e",
+    "eventDate": "23-10-2025",
+    "lastUpdated": "2025-11-04T07:15:20.186+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d67013",
+     "name": "Viking Union Main Lounge",
+     "city": {
+      "id": "5786899",
+      "name": "Bellingham",
+      "state": "Washington",
+      "stateCode": "WA",
+      "coords": {
+       "lat": 48.7595529,
+       "long": -122.4882249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/viking-union-main-lounge-bellingham-wa-usa-23d67013.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Gravity Blues",
+         "info": "Extended intro jam while guitar tech replaced Cameron’s string, PA cut out during second verse"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Crusades listed on setlist in place of Space Race",
+    "url": "https://www.setlist.fm/setlist/geese/2025/viking-union-main-lounge-bellingham-wa-434e8faf.html"
+   },
+   {
+    "id": "6345b233",
+    "versionId": "g3367b0d9",
+    "eventDate": "20-10-2025",
+    "lastUpdated": "2025-10-21T23:44:12.887+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "53d63b21",
+     "name": "Gothic Theatre",
+     "city": {
+      "id": "5421250",
+      "name": "Englewood",
+      "state": "Colorado",
+      "stateCode": "CO",
+      "coords": {
+       "lat": 39.6477653,
+       "long": -104.9877597
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/gothic-theatre-englewood-co-usa-53d63b21.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "First World Warrior",
+         "info": "Tour debut) (preceded by Cameron drawing a raffle winner for the destroyed tire"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/gothic-theatre-englewood-co-6345b233.html"
+   },
+   {
+    "id": "7345b239",
+    "versionId": "g13660101",
+    "eventDate": "18-10-2025",
+    "lastUpdated": "2025-10-19T16:18:01.946+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "63d74a0b",
+     "name": "Amsterdam Bar and Hall",
+     "city": {
+      "id": "5045360",
+      "name": "St. Paul",
+      "state": "Minnesota",
+      "stateCode": "MN",
+      "coords": {
+       "lat": 44.944,
+       "long": -93.093
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/amsterdam-bar-and-hall-st-paul-mn-usa-63d74a0b.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "Cameron played a snippet of Androgynous by the Replacements from his phone in middle of song."
+        },
+        {
+         "name": "Fantasies/Survival",
+         "info": "Tour Debut. Cameron said, \"We havent played this in a while\"."
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/amsterdam-bar-and-hall-st-paul-mn-7345b239.html"
+   },
+   {
+    "id": "7b45b244",
+    "versionId": "g73662ae5",
+    "eventDate": "17-10-2025",
+    "lastUpdated": "2025-10-18T14:18:23.360+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "33d6188d",
+     "name": "Majestic Theatre",
+     "city": {
+      "id": "5261457",
+      "name": "Madison",
+      "state": "Wisconsin",
+      "stateCode": "WI",
+      "coords": {
+       "lat": 43.0730517,
+       "long": -89.4012302
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/majestic-theatre-madison-wi-usa-33d6188d.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Undoer",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Space Race"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Mysterious Love and 3D Country were on the printed setlist but were not played. Rain Dance and Jesse were played instead.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/majestic-theatre-madison-wi-7b45b244.html"
+   },
+   {
+    "id": "1341952d",
+    "versionId": "g5366cb41",
+    "eventDate": "16-10-2025",
+    "lastUpdated": "2025-10-17T16:29:21.302+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd434fc",
+     "name": "Thalia Hall",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/thalia-hall-chicago-il-usa-3bd434fc.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "\"Crusades\" was written on setlist but not played",
+    "url": "https://www.setlist.fm/setlist/geese/2025/thalia-hall-chicago-il-1341952d.html"
+   },
+   {
+    "id": "6b45b246",
+    "versionId": "g4b667f0a",
+    "eventDate": "15-10-2025",
+    "lastUpdated": "2025-10-19T19:39:31.715+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd434fc",
+     "name": "Thalia Hall",
+     "city": {
+      "id": "4887398",
+      "name": "Chicago",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.850033,
+       "long": -87.6500523
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/thalia-hall-chicago-il-usa-3bd434fc.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Interstellar Overdrive\" tease"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "I See Myself",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Space Race",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Rain Dance written on setlist for encore in place of Domoto",
+    "url": "https://www.setlist.fm/setlist/geese/2025/thalia-hall-chicago-il-6b45b246.html"
+   },
+   {
+    "id": "6345b247",
+    "versionId": "g7366ba71",
+    "eventDate": "13-10-2025",
+    "lastUpdated": "2025-10-14T03:07:42.483+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3d63def",
+     "name": "Majestic Theatre",
+     "city": {
+      "id": "4990729",
+      "name": "Detroit",
+      "state": "Michigan",
+      "stateCode": "MI",
+      "coords": {
+       "lat": 42.331427,
+       "long": -83.0457538
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/majestic-theatre-detroit-mi-usa-3d63def.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "With “Interstellar Overdrive” Jam"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Jesse"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/majestic-theatre-detroit-mi-6345b247.html"
+   },
+   {
+    "id": "6345b24f",
+    "versionId": "g73797631",
+    "eventDate": "11-10-2025",
+    "lastUpdated": "2025-10-12T03:50:22.064+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "23d6c4ff",
+     "name": "The Opera House",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-opera-house-toronto-on-canada-23d6c4ff.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "With “Interstellar Overdrive” jam"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "St. Elmo"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-opera-house-toronto-on-canada-6345b24f.html"
+   },
+   {
+    "id": "7345b255",
+    "versionId": "g43657f83",
+    "eventDate": "10-10-2025",
+    "lastUpdated": "2025-11-11T23:51:40.311+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "bd60906",
+     "name": "Higher Ground Music Hall",
+     "city": {
+      "id": "5241248",
+      "name": "South Burlington",
+      "state": "Vermont",
+      "stateCode": "VT",
+      "coords": {
+       "lat": 44.4669941,
+       "long": -73.1709604
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/higher-ground-music-hall-south-burlington-vt-usa-bd60906.html"
+    },
+    "tour": {
+     "name": "Getting Killed Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with \"Interstellar Overdrive\" snippet"
+        },
+        {
+         "name": "Rain Dance"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Long Island City Here I Come",
+         "info": "preceded with Cameron teasing \"Baby\" by Justin Bieber on piano"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/higher-ground-music-hall-south-burlington-vt-7345b255.html"
+   },
+   {
+    "id": "3b41c40c",
+    "versionId": "g43791f73",
+    "eventDate": "01-10-2025",
+    "lastUpdated": "2025-10-10T23:10:16.693+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd3d87e",
+     "name": "Jimmy Kimmel Live",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/jimmy-kimmel-live-brooklyn-ny-usa-2bd3d87e.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/jimmy-kimmel-live-brooklyn-ny-3b41c40c.html"
+   },
+   {
+    "id": "6b41d6da",
+    "versionId": "g1318b5c1",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2026-06-10T23:40:38.635+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "13de698d",
+     "name": "Banker's Anchor",
+     "city": {
+      "id": "5110302",
+      "name": "Brooklyn",
+      "state": "New York",
+      "stateCode": "NY",
+      "coords": {
+       "lat": 40.65,
+       "long": -73.95
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bankers-anchor-brooklyn-ny-usa-13de698d.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "with “Interstellar Overdrive” by Pink Floyd"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Soundcheck included \"Half Real\" and \"Au Pays du Cocaine\"",
+    "url": "https://www.setlist.fm/setlist/geese/2025/bankers-anchor-brooklyn-ny-6b41d6da.html"
+   },
+   {
+    "id": "34f81cb",
+    "versionId": "g4b6453aa",
+    "eventDate": "25-09-2025",
+    "lastUpdated": "2025-11-05T23:32:59.904+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd460a2",
+     "name": "BBC Radio 1's Live Lounge",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bbc-radio-1s-live-lounge-london-england-2bd460a2.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "You Get What You Give",
+         "cover": {
+          "mbid": "09a6ae88-7589-4ab2-b10c-dd50ebd526a0",
+          "name": "New Radicals",
+          "sortName": "New Radicals",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/new-radicals-6bd64a62.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2025/bbc-radio-1s-live-lounge-london-england-34f81cb.html"
+   },
+   {
+    "id": "7b4f5254",
+    "versionId": "g360e5df",
+    "eventDate": "17-09-2025",
+    "lastUpdated": "2025-12-01T06:36:18.889+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd6d042",
+     "name": "From The Basement Live",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/from-the-basement-live-london-england-2bd6d042.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trinidad"
+        },
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Taxes",
+         "info": "Cut from video"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2025/from-the-basement-live-london-england-7b4f5254.html"
+   },
+   {
+    "id": "3b402000",
+    "versionId": "g3b63b8d8",
+    "eventDate": "16-09-2025",
+    "lastUpdated": "2025-11-21T06:00:06.924+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73d74eb9",
+     "name": "The George Tavern",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-george-tavern-london-england-73d74eb9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Husbands"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Long Island City Here I Come"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-george-tavern-london-england-3b402000.html"
+   },
+   {
+    "id": "3b40200c",
+    "versionId": "g2363b8db",
+    "eventDate": "15-09-2025",
+    "lastUpdated": "2025-11-21T05:59:57.438+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "73d74eb9",
+     "name": "The George Tavern",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-george-tavern-london-england-73d74eb9.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Husbands",
+         "info": "Live debut"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "100 Horses"
+        },
+        {
+         "name": "Trinidad"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Long Island City Here I Come",
+         "info": "Geese debut"
+        },
+        {
+         "name": "Interstellar Overdrive",
+         "cover": {
+          "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+          "name": "Pink Floyd",
+          "sortName": "Pink Floyd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/pink-floyd-13d6adc5.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist out of order",
+    "url": "https://www.setlist.fm/setlist/geese/2025/the-george-tavern-london-england-3b40200c.html"
+   },
+   {
+    "id": "2345646f",
+    "versionId": "g2363b8e7",
+    "eventDate": "05-09-2025",
+    "lastUpdated": "2025-11-21T05:59:14.391+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "4bd79bfa",
+     "name": "City Plaza",
+     "city": {
+      "id": "4487042",
+      "name": "Raleigh",
+      "state": "North Carolina",
+      "stateCode": "NC",
+      "coords": {
+       "lat": 35.772096,
+       "long": -78.6386145
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/city-plaza-raleigh-nc-usa-4bd79bfa.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Taxes"
+        },
+        {
+         "name": "100 Horses",
+         "info": "Live debut"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "4D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "I See Myself"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "2122",
+         "info": "With Interstellar Overdrive jam"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/city-plaza-raleigh-nc-2345646f.html"
+   },
+   {
+    "id": "b427d5a",
+    "versionId": "g1b7e81a0",
+    "eventDate": "26-07-2025",
+    "lastUpdated": "2025-08-13T15:14:48.876+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "3bd15c4c",
+     "name": "FestivalPark",
+     "city": {
+      "id": "4752093",
+      "name": "Check",
+      "state": "Virginia",
+      "stateCode": "VA",
+      "coords": {
+       "lat": 37.03486,
+       "long": -80.1656
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festivalpark-check-va-usa-3bd15c4c.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Undoer"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Cowboy Nudes",
+         "info": "fast"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Trinidad"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/geese/2025/festivalpark-check-va-b427d5a.html"
+   },
+   {
+    "id": "b59c99a",
+    "versionId": "g3b697030",
+    "eventDate": "25-07-2025",
+    "lastUpdated": "2026-02-23T11:18:22.883+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "2bd6d89e",
+     "name": "Fort Adams State Park",
+     "city": {
+      "id": "5223593",
+      "name": "Newport",
+      "state": "Rhode Island",
+      "stateCode": "RI",
+      "coords": {
+       "lat": 41.4901024,
+       "long": -71.3128285
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/fort-adams-state-park-newport-ri-usa-2bd6d89e.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "2122",
+         "info": "‘Electric Funeral’ quote in honor of Ozzy Osbourne."
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Set was cut short due to weather. The printed setlist included \"Cowboy Nudes\", \"I See Myself\", \"Bow Down\", \"Gravity Blues\", \"Mysterious Love\", \"Au Pays Du Cocaine\", \"Tomorrow's Crusades, \"(Big Ending)\", and \"Trinidad\", none of which were performed.",
+    "url": "https://www.setlist.fm/setlist/geese/2025/fort-adams-state-park-newport-ri-b59c99a.html"
+   },
+   {
+    "id": "1b4271a0",
+    "versionId": "gb614da6",
+    "eventDate": "24-07-2025",
+    "lastUpdated": "2026-02-23T11:15:09.490+0000",
+    "artist": {
+     "mbid": "e0c97a4d-c392-41a9-a374-57af3e3eeab3",
+     "name": "Geese",
+     "sortName": "Geese",
+     "disambiguation": "Brooklyn, NY",
+     "url": "https://www.setlist.fm/setlists/geese-3bf27c78.html"
+    },
+    "venue": {
+     "id": "53d6d315",
+     "name": "Newport Blues Cafe",
+     "city": {
+      "id": "5223593",
+      "name": "Newport",
+      "state": "Rhode Island",
+      "stateCode": "RI",
+      "coords": {
+       "lat": 41.4901024,
+       "long": -71.3128285
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/newport-blues-cafe-newport-ri-usa-53d6d315.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Islands of Men"
+        },
+        {
+         "name": "Cobra"
+        },
+        {
+         "name": "Getting Killed"
+        },
+        {
+         "name": "Domoto"
+        },
+        {
+         "name": "3D Country"
+        },
+        {
+         "name": "Cowboy Nudes"
+        },
+        {
+         "name": "Gravity Blues"
+        },
+        {
+         "name": "Mysterious Love"
+        },
+        {
+         "name": "Half Real"
+        },
+        {
+         "name": "Au Pays du Cocaine"
+        },
+        {
+         "name": "Bow Down"
+        },
+        {
+         "name": "Tomorrow's Crusades"
+        },
+        {
+         "name": "St. Elmo"
+        },
+        {
+         "name": "Taxes"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/geese/2025/newport-blues-cafe-newport-ri-1b4271a0.html"
+   }
+  ]
+ }
+}

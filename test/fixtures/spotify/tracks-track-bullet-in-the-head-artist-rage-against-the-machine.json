@@ -1,0 +1,612 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Bullet%20in%20the%20Head%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 8,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Io5vWtmV1rFj4yirKb4y4"
+     },
+     "href": "https://api.spotify.com/v1/albums/4Io5vWtmV1rFj4yirKb4y4",
+     "id": "4Io5vWtmV1rFj4yirKb4y4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27354ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0254ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485154ab617bc2d4974ab6ffbece"
+      }
+     ],
+     "is_playable": true,
+     "name": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+     "release_date": "1992",
+     "release_date_precision": "year",
+     "total_tracks": 25,
+     "type": "album",
+     "uri": "spotify:album:4Io5vWtmV1rFj4yirKb4y4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 306680,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM11205436"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1WWgMk8nD79p8VeKFGYrOw"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1WWgMk8nD79p8VeKFGYrOw",
+    "id": "1WWgMk8nD79p8VeKFGYrOw",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In The Head",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:1WWgMk8nD79p8VeKFGYrOw"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4LaRYkT4oy47wEuQgkLBul"
+     },
+     "href": "https://api.spotify.com/v1/albums/4LaRYkT4oy47wEuQgkLBul",
+     "id": "4LaRYkT4oy47wEuQgkLBul",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273ee4644e12bef70636167c6bd"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02ee4644e12bef70636167c6bd"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851ee4644e12bef70636167c6bd"
+      }
+     ],
+     "is_playable": true,
+     "name": "Rage Against The Machine",
+     "release_date": "1992-11-03",
+     "release_date_precision": "day",
+     "total_tracks": 10,
+     "type": "album",
+     "uri": "spotify:album:4LaRYkT4oy47wEuQgkLBul"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 309366,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM19200663"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/11cxKUEgnVAlesUKt4e3br"
+    },
+    "href": "https://api.spotify.com/v1/tracks/11cxKUEgnVAlesUKt4e3br",
+    "id": "11cxKUEgnVAlesUKt4e3br",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In the Head",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:11cxKUEgnVAlesUKt4e3br"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 329840,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM10312738"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/0JluOOZbVqPHgVAHWCLbx8"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0JluOOZbVqPHgVAHWCLbx8",
+    "id": "0JluOOZbVqPHgVAHWCLbx8",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In the Head - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:0JluOOZbVqPHgVAHWCLbx8"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Io5vWtmV1rFj4yirKb4y4"
+     },
+     "href": "https://api.spotify.com/v1/albums/4Io5vWtmV1rFj4yirKb4y4",
+     "id": "4Io5vWtmV1rFj4yirKb4y4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27354ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0254ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485154ab617bc2d4974ab6ffbece"
+      }
+     ],
+     "is_playable": true,
+     "name": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+     "release_date": "1992",
+     "release_date_precision": "year",
+     "total_tracks": 25,
+     "type": "album",
+     "uri": "spotify:album:4Io5vWtmV1rFj4yirKb4y4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 2,
+    "duration_ms": 309173,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM11205448"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/4rEPAJKYF5FuCN62NIYPOU"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4rEPAJKYF5FuCN62NIYPOU",
+    "id": "4rEPAJKYF5FuCN62NIYPOU",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In The Head - Demo",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:4rEPAJKYF5FuCN62NIYPOU"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4Io5vWtmV1rFj4yirKb4y4"
+     },
+     "href": "https://api.spotify.com/v1/albums/4Io5vWtmV1rFj4yirKb4y4",
+     "id": "4Io5vWtmV1rFj4yirKb4y4",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27354ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0254ab617bc2d4974ab6ffbece"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485154ab617bc2d4974ab6ffbece"
+      }
+     ],
+     "is_playable": true,
+     "name": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+     "release_date": "1992",
+     "release_date_precision": "year",
+     "total_tracks": 25,
+     "type": "album",
+     "uri": "spotify:album:4Io5vWtmV1rFj4yirKb4y4"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 343133,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM11205443"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6LPbJ9tVF4eF85jy8iizFm"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6LPbJ9tVF4eF85jy8iizFm",
+    "id": "6LPbJ9tVF4eF85jy8iizFm",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In The Head - Live at Melkweg, Amsterdam - February 1993",
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:6LPbJ9tVF4eF85jy8iizFm"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2s4mduKoB7tgHDpEonT401"
+     },
+     "href": "https://api.spotify.com/v1/albums/2s4mduKoB7tgHDpEonT401",
+     "id": "2s4mduKoB7tgHDpEonT401",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2734666022d7a556e9c2472c286"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e024666022d7a556e9c2472c286"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048514666022d7a556e9c2472c286"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live & Rare",
+     "release_date": "2022-07-15",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:2s4mduKoB7tgHDpEonT401"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 343929,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19704721"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1fDkZ0FbfM0LX4czdqDZkX"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1fDkZ0FbfM0LX4czdqDZkX",
+    "id": "1fDkZ0FbfM0LX4czdqDZkX",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In the Head - Live at Melkweg, Amsterdam - February 1993",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:1fDkZ0FbfM0LX4czdqDZkX"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0Zi1bw0RmGl9xgq57vjbys"
+     },
+     "href": "https://api.spotify.com/v1/albums/0Zi1bw0RmGl9xgq57vjbys",
+     "id": "0Zi1bw0RmGl9xgq57vjbys",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27301a6f95e22b76571f6468c6c"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0201a6f95e22b76571f6468c6c"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485101a6f95e22b76571f6468c6c"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live On Tour 1993",
+     "release_date": "2025-09-26",
+     "release_date_precision": "day",
+     "total_tracks": 10,
+     "type": "album",
+     "uri": "spotify:album:0Zi1bw0RmGl9xgq57vjbys"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 390045,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "USSM12409114"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2yqUihzHyI4NjheuavxIdu"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2yqUihzHyI4NjheuavxIdu",
+    "id": "2yqUihzHyI4NjheuavxIdu",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In the Head - Live, Paris, 1993",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:2yqUihzHyI4NjheuavxIdu"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0j5ordW5EZlElgcED0p1JH"
+     },
+     "href": "https://api.spotify.com/v1/albums/0j5ordW5EZlElgcED0p1JH",
+     "id": "0j5ordW5EZlElgcED0p1JH",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273157d289627736df805370417"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02157d289627736df805370417"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851157d289627736df805370417"
+      }
+     ],
+     "is_playable": true,
+     "name": "Paintings Of Rebellion (Live '95)",
+     "release_date": "2021-05-17",
+     "release_date_precision": "day",
+     "total_tracks": 9,
+     "type": "album",
+     "uri": "spotify:album:0j5ordW5EZlElgcED0p1JH"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 330283,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GX38U2191302"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/6UwnIZ8GdkQMcGclj30F1B"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6UwnIZ8GdkQMcGclj30F1B",
+    "id": "6UwnIZ8GdkQMcGclj30F1B",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bullet In The Head - Live",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:6UwnIZ8GdkQMcGclj30F1B"
+   }
+  ]
+ }
+}

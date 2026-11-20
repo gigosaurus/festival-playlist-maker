@@ -1,0 +1,537 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Sleep%20Now%20in%20the%20Fire%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 7,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2eia0myWFgoHuttJytCxgX"
+     },
+     "href": "https://api.spotify.com/v1/albums/2eia0myWFgoHuttJytCxgX",
+     "id": "2eia0myWFgoHuttJytCxgX",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2733c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e023c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048513c2579a4f8cacd5b95b8fa68"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Los Angeles",
+     "release_date": "1999-11-02",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:2eia0myWFgoHuttJytCxgX"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 205600,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920168"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1MQTmpYOZ6fcMQc56Hdo7T"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1MQTmpYOZ6fcMQc56Hdo7T",
+    "id": "1MQTmpYOZ6fcMQc56Hdo7T",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:1MQTmpYOZ6fcMQc56Hdo7T"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 251600,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM10312746"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/3F1zY2rN3THsTXB8mIuwhl"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3F1zY2rN3THsTXB8mIuwhl",
+    "id": "3F1zY2rN3THsTXB8mIuwhl",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 10,
+    "type": "track",
+    "uri": "spotify:track:3F1zY2rN3THsTXB8mIuwhl"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6iIDS6pR8YMyhZi1UrGb2e"
+     },
+     "href": "https://api.spotify.com/v1/albums/6iIDS6pR8YMyhZi1UrGb2e",
+     "id": "6iIDS6pR8YMyhZi1UrGb2e",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273d819be879538f7cb8f0a5309"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02d819be879538f7cb8f0a5309"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851d819be879538f7cb8f0a5309"
+      }
+     ],
+     "is_playable": true,
+     "name": "Democratic National Convention 2000 (Live)",
+     "release_date": "2024-10-18",
+     "release_date_precision": "day",
+     "total_tracks": 6,
+     "type": "album",
+     "uri": "spotify:album:6iIDS6pR8YMyhZi1UrGb2e"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 236992,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM11800946"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2d99olpB7A6w0Z0iAPy5eG"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2d99olpB7A6w0Z0iAPy5eG",
+    "id": "2d99olpB7A6w0Z0iAPy5eG",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire - Live at 2000 Democratic National Convention",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:2d99olpB7A6w0Z0iAPy5eG"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5lexBcLuhxCaLB8LbM3JvR"
+     },
+     "href": "https://api.spotify.com/v1/albums/5lexBcLuhxCaLB8LbM3JvR",
+     "id": "5lexBcLuhxCaLB8LbM3JvR",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c71f08ca0b0474036976e315"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Mexico City (Live)",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:5lexBcLuhxCaLB8LbM3JvR"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 212222,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM12004824"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2cCLSoArihZWI3vVRYoezq"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2cCLSoArihZWI3vVRYoezq",
+    "id": "2cCLSoArihZWI3vVRYoezq",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire - Live, Mexico City, Mexico, October 28, 1999",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:2cCLSoArihZWI3vVRYoezq"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5A4KeAKeWZbwVOHI6PkkTP"
+     },
+     "href": "https://api.spotify.com/v1/albums/5A4KeAKeWZbwVOHI6PkkTP",
+     "id": "5A4KeAKeWZbwVOHI6PkkTP",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273d8358a54467cf5d47fa02037"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02d8358a54467cf5d47fa02037"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851d8358a54467cf5d47fa02037"
+      }
+     ],
+     "is_playable": true,
+     "name": "2000 Pop Punk Anthems",
+     "release_date": "2025-01-17",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:5A4KeAKeWZbwVOHI6PkkTP"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 205600,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920168"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/62QdtMxNkxoVbO6ti7M4X3"
+    },
+    "href": "https://api.spotify.com/v1/tracks/62QdtMxNkxoVbO6ti7M4X3",
+    "id": "62QdtMxNkxoVbO6ti7M4X3",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire",
+    "track_number": 19,
+    "type": "track",
+    "uri": "spotify:track:62QdtMxNkxoVbO6ti7M4X3"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6yjJVxrfSV2NehxmQ1wT6z"
+     },
+     "href": "https://api.spotify.com/v1/albums/6yjJVxrfSV2NehxmQ1wT6z",
+     "id": "6yjJVxrfSV2NehxmQ1wT6z",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738398fbc1edd2209d5a8e0132"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028398fbc1edd2209d5a8e0132"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518398fbc1edd2209d5a8e0132"
+      }
+     ],
+     "is_playable": true,
+     "name": "Y2K Alt Rock Hits",
+     "release_date": "2025-01-17",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:6yjJVxrfSV2NehxmQ1wT6z"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 205600,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920168"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2K4Zptjbu7jQERidP6J8rb"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2K4Zptjbu7jQERidP6J8rb",
+    "id": "2K4Zptjbu7jQERidP6J8rb",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire",
+    "track_number": 16,
+    "type": "track",
+    "uri": "spotify:track:2K4Zptjbu7jQERidP6J8rb"
+   },
+   {
+    "album": {
+     "album_type": "compilation",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+       },
+       "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+       "id": "0LyfQWJT6nXafLPZqxe9Of",
+       "name": "Various Artists",
+       "type": "artist",
+       "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2bxPMgRpAgDMVR1a3WPByx"
+     },
+     "href": "https://api.spotify.com/v1/albums/2bxPMgRpAgDMVR1a3WPByx",
+     "id": "2bxPMgRpAgDMVR1a3WPByx",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b27360c18d340ba9bdf884087e5d"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e0260c18d340ba9bdf884087e5d"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d0000485160c18d340ba9bdf884087e5d"
+      }
+     ],
+     "is_playable": true,
+     "name": "Hits do Alt Rock - Y2K",
+     "release_date": "2025-03-08",
+     "release_date_precision": "day",
+     "total_tracks": 60,
+     "type": "album",
+     "uri": "spotify:album:2bxPMgRpAgDMVR1a3WPByx"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 205600,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920168"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/74UN7tbMES7mTV7Ee9xsnT"
+    },
+    "href": "https://api.spotify.com/v1/tracks/74UN7tbMES7mTV7Ee9xsnT",
+    "id": "74UN7tbMES7mTV7Ee9xsnT",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sleep Now In the Fire",
+    "track_number": 16,
+    "type": "track",
+    "uri": "spotify:track:74UN7tbMES7mTV7Ee9xsnT"
+   }
+  ]
+ }
+}

@@ -1,0 +1,462 @@
+{
+ "tracks": {
+  "href": "https://api.spotify.com/v1/search?offset=0&limit=10&query=track%3A%22Testify%22%20artist%3A%22Rage%20Against%20The%20Machine%22&type=track&locale=*",
+  "limit": 10,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 6,
+  "items": [
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/2eia0myWFgoHuttJytCxgX"
+     },
+     "href": "https://api.spotify.com/v1/albums/2eia0myWFgoHuttJytCxgX",
+     "id": "2eia0myWFgoHuttJytCxgX",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2733c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e023c2579a4f8cacd5b95b8fa68"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048513c2579a4f8cacd5b95b8fa68"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Los Angeles",
+     "release_date": "1999-11-02",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:2eia0myWFgoHuttJytCxgX"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 210133,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM19920165"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/7lmeHLHBe4nmXzuXc0HDjk"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7lmeHLHBe4nmXzuXc0HDjk",
+    "id": "7lmeHLHBe4nmXzuXc0HDjk",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Testify",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:7lmeHLHBe4nmXzuXc0HDjk"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5UloVKzUNJcjORzhhTWWiJ"
+       },
+       "href": "https://api.spotify.com/v1/artists/5UloVKzUNJcjORzhhTWWiJ",
+       "id": "5UloVKzUNJcjORzhhTWWiJ",
+       "name": "The Karaoke Channel",
+       "type": "artist",
+       "uri": "spotify:artist:5UloVKzUNJcjORzhhTWWiJ"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/4ZRQpo31BQcyKt72gC6tWj"
+     },
+     "href": "https://api.spotify.com/v1/albums/4ZRQpo31BQcyKt72gC6tWj",
+     "id": "4ZRQpo31BQcyKt72gC6tWj",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/d2283d639d394d15b78c049f92571fcb5a6678e0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/5116e73d63e1db6d13f5a9dcf60898c1b1b9eaf4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/580d36c329e128c7bd9da1e185a9b420142c5c3c"
+      }
+     ],
+     "is_playable": true,
+     "name": "Karaoke - Modern Rock - Vol. 10",
+     "release_date": "2005-03-01",
+     "release_date_precision": "day",
+     "total_tracks": 12,
+     "type": "album",
+     "uri": "spotify:album:4ZRQpo31BQcyKt72gC6tWj"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2RoHAyl1Z2b2gZTxOWqx23"
+      },
+      "href": "https://api.spotify.com/v1/artists/2RoHAyl1Z2b2gZTxOWqx23",
+      "id": "2RoHAyl1Z2b2gZTxOWqx23",
+      "name": "Karaoke - Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2RoHAyl1Z2b2gZTxOWqx23"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 210102,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USA560512678"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/7v9wigqyElyWk6xtMMvbGR"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7v9wigqyElyWk6xtMMvbGR",
+    "id": "7v9wigqyElyWk6xtMMvbGR",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Karaoke - Testify",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:7v9wigqyElyWk6xtMMvbGR"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5tQjJRsqTVaK9NZ7Rh02en"
+     },
+     "href": "https://api.spotify.com/v1/albums/5tQjJRsqTVaK9NZ7Rh02en",
+     "id": "5tQjJRsqTVaK9NZ7Rh02en",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2738c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e028c768929da0cf35e9a05dcd0"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048518c768929da0cf35e9a05dcd0"
+      }
+     ],
+     "is_playable": true,
+     "name": "Live at the Grand Olympic Auditorium",
+     "release_date": "2003-11-25",
+     "release_date_precision": "day",
+     "total_tracks": 16,
+     "type": "album",
+     "uri": "spotify:album:5tQjJRsqTVaK9NZ7Rh02en"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 202760,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM10312742"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2mToJ3pdEPKmq8Fn5MMLMu"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2mToJ3pdEPKmq8Fn5MMLMu",
+    "id": "2mToJ3pdEPKmq8Fn5MMLMu",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Testify - Live at the Grand Olympic Auditorium, Los Angeles, CA - September 2000",
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:2mToJ3pdEPKmq8Fn5MMLMu"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/6iIDS6pR8YMyhZi1UrGb2e"
+     },
+     "href": "https://api.spotify.com/v1/albums/6iIDS6pR8YMyhZi1UrGb2e",
+     "id": "6iIDS6pR8YMyhZi1UrGb2e",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273d819be879538f7cb8f0a5309"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02d819be879538f7cb8f0a5309"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851d819be879538f7cb8f0a5309"
+      }
+     ],
+     "is_playable": true,
+     "name": "Democratic National Convention 2000 (Live)",
+     "release_date": "2024-10-18",
+     "release_date_precision": "day",
+     "total_tracks": 6,
+     "type": "album",
+     "uri": "spotify:album:6iIDS6pR8YMyhZi1UrGb2e"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 214038,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM11800944"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2rrJVFZ0M4Fn3pFE8Vy9RZ"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2rrJVFZ0M4Fn3pFE8Vy9RZ",
+    "id": "2rrJVFZ0M4Fn3pFE8Vy9RZ",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Testify - Live at 2000 Democratic National Convention",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:2rrJVFZ0M4Fn3pFE8Vy9RZ"
+   },
+   {
+    "album": {
+     "album_type": "album",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/5lexBcLuhxCaLB8LbM3JvR"
+     },
+     "href": "https://api.spotify.com/v1/albums/5lexBcLuhxCaLB8LbM3JvR",
+     "id": "5lexBcLuhxCaLB8LbM3JvR",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b273c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e02c71f08ca0b0474036976e315"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d00004851c71f08ca0b0474036976e315"
+      }
+     ],
+     "is_playable": true,
+     "name": "The Battle Of Mexico City (Live)",
+     "release_date": "2020-10-28",
+     "release_date_precision": "day",
+     "total_tracks": 15,
+     "type": "album",
+     "uri": "spotify:album:5lexBcLuhxCaLB8LbM3JvR"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 246595,
+    "explicit": false,
+    "external_ids": {
+     "isrc": "USSM12004820"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/2dvHJc5ShSl121fCP1IxET"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2dvHJc5ShSl121fCP1IxET",
+    "id": "2dvHJc5ShSl121fCP1IxET",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Testify - Live, Mexico City, Mexico, October 28, 1999",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:2dvHJc5ShSl121fCP1IxET"
+   },
+   {
+    "album": {
+     "album_type": "single",
+     "artists": [
+      {
+       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+       },
+       "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+       "id": "2d0hyoQ5ynDBnkvAbJKORj",
+       "name": "Rage Against The Machine",
+       "type": "artist",
+       "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+      }
+     ],
+     "external_urls": {
+      "spotify": "https://open.spotify.com/album/0hxosU57pYVxxaFzkkwxED"
+     },
+     "href": "https://api.spotify.com/v1/albums/0hxosU57pYVxxaFzkkwxED",
+     "id": "0hxosU57pYVxxaFzkkwxED",
+     "images": [
+      {
+       "height": 640,
+       "width": 640,
+       "url": "https://i.scdn.co/image/ab67616d0000b2730efd7e211ddf3ad8f46238f4"
+      },
+      {
+       "height": 300,
+       "width": 300,
+       "url": "https://i.scdn.co/image/ab67616d00001e020efd7e211ddf3ad8f46238f4"
+      },
+      {
+       "height": 64,
+       "width": 64,
+       "url": "https://i.scdn.co/image/ab67616d000048510efd7e211ddf3ad8f46238f4"
+      }
+     ],
+     "is_playable": true,
+     "name": "Universal City '93 (KROQ Broadcast)",
+     "release_date": "2020-07-03",
+     "release_date_precision": "day",
+     "total_tracks": 4,
+     "type": "album",
+     "uri": "spotify:album:0hxosU57pYVxxaFzkkwxED"
+    },
+    "artists": [
+     {
+      "external_urls": {
+       "spotify": "https://open.spotify.com/artist/2d0hyoQ5ynDBnkvAbJKORj"
+      },
+      "href": "https://api.spotify.com/v1/artists/2d0hyoQ5ynDBnkvAbJKORj",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj",
+      "name": "Rage Against The Machine",
+      "type": "artist",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+     }
+    ],
+    "disc_number": 1,
+    "duration_ms": 265283,
+    "explicit": true,
+    "external_ids": {
+     "isrc": "GBLLT2016104"
+    },
+    "external_urls": {
+     "spotify": "https://open.spotify.com/track/1uH4wGYhSRm7iOXBjWP1qH"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1uH4wGYhSRm7iOXBjWP1qH",
+    "id": "1uH4wGYhSRm7iOXBjWP1qH",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Testify - Live",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:1uH4wGYhSRm7iOXBjWP1qH"
+   }
+  ]
+ }
+}

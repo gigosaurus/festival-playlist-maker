@@ -1,0 +1,282 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 3,
+  "setlist": [
+   {
+    "id": "5bb29f44",
+    "versionId": "g3b91a4e8",
+    "eventDate": "16-07-2022",
+    "lastUpdated": "2023-06-26T19:22:40.146+0000",
+    "artist": {
+     "mbid": "e5b1d871-be9f-46c9-a0d4-5e05399f379f",
+     "name": "Vulgaires Machins",
+     "sortName": "Vulgaires Machins",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/vulgaires-machins-43d6efab.html"
+    },
+    "venue": {
+     "id": "63d5662b",
+     "name": "Plaines d'Abraham",
+     "city": {
+      "id": "6325494",
+      "name": "Quebec City",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 46.812,
+       "long": -71.215
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/plaines-dabraham-quebec-city-qc-canada-63d5662b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "La chasse est ouverte"
+        },
+        {
+         "name": "Arrachez-moi les yeux"
+        },
+        {
+         "name": "Le Mythe de la démocratie"
+        },
+        {
+         "name": "Triple meurtre et suicide raté"
+        },
+        {
+         "name": "Être un comme"
+        },
+        {
+         "name": "Les mains pleines de sang"
+        },
+        {
+         "name": "Longer les murs"
+        },
+        {
+         "name": "Anéantir le dogme"
+        },
+        {
+         "name": "Compter les corps"
+        },
+        {
+         "name": "Je lève mon verre",
+         "info": ""
+        },
+        {
+         "name": "Puits sans fond"
+        },
+        {
+         "name": "Dieu se pique"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Spectacle en remplacement de Grandson",
+    "url": "https://www.setlist.fm/setlist/vulgaires-machins/2022/plaines-dabraham-quebec-city-qc-canada-5bb29f44.html"
+   },
+   {
+    "id": "4bb29f3a",
+    "versionId": "g3f3e523",
+    "eventDate": "16-07-2022",
+    "lastUpdated": "2022-07-17T22:10:26.461+0000",
+    "artist": {
+     "mbid": "bc1c8f3f-6f36-4086-a470-87ed813dd429",
+     "name": "Alexisonfire",
+     "sortName": "Alexisonfire",
+     "disambiguation": "Canadian post‐hardcore band",
+     "url": "https://www.setlist.fm/setlists/alexisonfire-1bd699dc.html"
+    },
+    "venue": {
+     "id": "63d5662b",
+     "name": "Plaines d'Abraham",
+     "city": {
+      "id": "6325494",
+      "name": "Quebec City",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 46.812,
+       "long": -71.215
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/plaines-dabraham-quebec-city-qc-canada-63d5662b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Accidents"
+        },
+        {
+         "name": "Old Crows"
+        },
+        {
+         "name": "Pulmonary Archery"
+        },
+        {
+         "name": "This Could Be Anywhere in the World"
+        },
+        {
+         "name": "Committed to the Con"
+        },
+        {
+         "name": "Sweet Dreams of Otherness"
+        },
+        {
+         "name": "Familiar Drugs"
+        },
+        {
+         "name": "The Northern"
+        },
+        {
+         "name": "Dog's Blood"
+        },
+        {
+         "name": "Young Cardinals"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/alexisonfire/2022/plaines-dabraham-quebec-city-qc-canada-4bb29f3a.html"
+   },
+   {
+    "id": "33b2b025",
+    "versionId": "g13f3cded",
+    "eventDate": "16-07-2022",
+    "lastUpdated": "2022-07-18T17:01:08.600+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "63d5662b",
+     "name": "Plaines d'Abraham",
+     "city": {
+      "id": "6325494",
+      "name": "Quebec City",
+      "state": "Quebec",
+      "stateCode": "QC",
+      "coords": {
+       "lat": 46.812,
+       "long": -71.215
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/plaines-dabraham-quebec-city-qc-canada-63d5662b.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver intro"
+        },
+        {
+         "name": "No Shelter"
+        },
+        {
+         "name": "Take the Power Back",
+         "info": "Tour debut"
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Without a Face"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire",
+         "info": "With drum solo"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/plaines-dabraham-quebec-city-qc-canada-33b2b025.html"
+   }
+  ]
+ }
+}

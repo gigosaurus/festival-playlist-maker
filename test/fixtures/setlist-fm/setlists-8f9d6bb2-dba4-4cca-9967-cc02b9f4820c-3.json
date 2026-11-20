@@ -1,0 +1,3099 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 3,
+  "total": 1135,
+  "setlist": [
+   {
+    "id": "4353dbbf",
+    "versionId": "g4b4c474e",
+    "eventDate": "03-05-2025",
+    "lastUpdated": "2025-05-06T02:15:45.403+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "53d5a385",
+     "name": "Nissan Stadium",
+     "city": {
+      "id": "4644585",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "stateCode": "TN",
+      "coords": {
+       "lat": 36.1658899,
+       "long": -86.7844432
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/nissan-stadium-nashville-tn-usa-53d5a385.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sweet Home Alabama",
+         "tape": true,
+         "cover": {
+          "mbid": "c544ed4d-2390-4442-a83e-1ea2883b09c8",
+          "name": "Lynyrd Skynyrd",
+          "sortName": "Lynyrd Skynyrd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lynyrd-skynyrd-1bd6ad50.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true,
+         "cover": {
+          "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+          "name": "Naughty by Nature",
+          "sortName": "Naughty by Nature",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/naughty-by-nature-73d686ad.html"
+         }
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/nissan-stadium-nashville-tn-4353dbbf.html"
+   },
+   {
+    "id": "4b53dbd2",
+    "versionId": "g7b7c3218",
+    "eventDate": "26-04-2025",
+    "lastUpdated": "2025-09-01T08:51:34.495+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "3d639cb",
+     "name": "Rogers Centre",
+     "city": {
+      "id": "6167865",
+      "name": "Toronto",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 43.700113788,
+       "long": -79.416304194
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rogers-centre-toronto-on-canada-3d639cb.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sweet Home Alabama",
+         "tape": true,
+         "cover": {
+          "mbid": "c544ed4d-2390-4442-a83e-1ea2883b09c8",
+          "name": "Lynyrd Skynyrd",
+          "sortName": "Lynyrd Skynyrd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lynyrd-skynyrd-1bd6ad50.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Hot Dog",
+         "info": "With Creeping Death breakdown"
+        },
+        {
+         "name": "Nookie",
+         "info": "Verses and first two choruses only"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "info": "With snippet of Proud Mary"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Dad Vibes",
+         "info": "Dedicated to a fan Fred Durst met at YYZ (Toronto Pearson International Airport)"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/rogers-centre-toronto-on-canada-4b53dbd2.html"
+   },
+   {
+    "id": "b5ce5ce",
+    "versionId": "g53403f6d",
+    "eventDate": "02-04-2025",
+    "lastUpdated": "2025-04-03T12:53:54.893+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "3bd094dc",
+     "name": "Accor Arena",
+     "city": {
+      "id": "2988507",
+      "name": "Paris",
+      "state": "Île-de-France",
+      "stateCode": "11",
+      "coords": {
+       "lat": 48.853,
+       "long": 2.349
+      },
+      "country": {
+       "code": "FR",
+       "name": "France"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/accor-arena-paris-france-3bd094dc.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff",
+         "info": "followed by \"Master of Puppets\" snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "followed by \"Angel of Death\" snippet"
+        },
+        {
+         "name": "Nookie",
+         "info": "partial"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "fans on stage"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "info": "preceeded by Violent & Funky snippet"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way",
+         "info": "preceded by \"Jerry was a Race Car Driver\" snippet"
+        },
+        {
+         "name": "Heart-Shaped Box",
+         "cover": {
+          "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+          "name": "Nirvana",
+          "sortName": "Nirvana",
+          "disambiguation": "1980s–1990s US grunge band",
+          "url": "https://www.setlist.fm/setlists/nirvana-7bd69ee8.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/accor-arena-paris-france-b5ce5ce.html"
+   },
+   {
+    "id": "635f365f",
+    "versionId": "g6340c69f",
+    "eventDate": "01-04-2025",
+    "lastUpdated": "2025-04-03T09:53:08.502+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "13d2c599",
+     "name": "Sportpaleis",
+     "city": {
+      "id": "2791301",
+      "name": "Merksem",
+      "state": "Antwerp",
+      "stateCode": "BE.AN",
+      "coords": {
+       "lat": 51.25,
+       "long": 4.45
+      },
+      "country": {
+       "code": "BE",
+       "name": "Belgium"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sportpaleis-merksem-belgium-13d2c599.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with a fan"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/sportpaleis-merksem-belgium-635f365f.html"
+   },
+   {
+    "id": "13518535",
+    "versionId": "gb073572",
+    "eventDate": "31-03-2025",
+    "lastUpdated": "2026-07-08T03:36:06.523+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "7bd63ab0",
+     "name": "Festhalle",
+     "city": {
+      "id": "2925533",
+      "name": "Frankfurt",
+      "state": "Hesse",
+      "stateCode": "05",
+      "coords": {
+       "lat": 50.1166667,
+       "long": 8.6833333
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festhalle-frankfurt-germany-7bd63ab0.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Counterfeit",
+         "info": "until the first chorus"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "performed with two fans on stage"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/festhalle-frankfurt-germany-13518535.html"
+   },
+   {
+    "id": "6b518e92",
+    "versionId": "g43403f5f",
+    "eventDate": "29-03-2025",
+    "lastUpdated": "2025-04-03T12:58:11.020+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "4bd5733a",
+     "name": "Unipol Arena",
+     "city": {
+      "id": "3180224",
+      "name": "Casalecchio di Reno",
+      "state": "Emilia-Romagna",
+      "stateCode": "05",
+      "coords": {
+       "lat": 44.475566,
+       "long": 11.275911
+      },
+      "country": {
+       "code": "IT",
+       "name": "Italy"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/unipol-arena-casalecchio-di-reno-italy-4bd5733a.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff",
+         "info": "followed by \"Master of Puppets\" snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Nookie",
+         "info": "until breakdown"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "followed by \"Angel of Death \" and \"Thieves\" snippets"
+        },
+        {
+         "name": "Heart-Shaped Box / Smells Like Teen Spirit",
+         "cover": {
+          "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+          "name": "Nirvana",
+          "sortName": "Nirvana",
+          "disambiguation": "1980s–1990s US grunge band",
+          "url": "https://www.setlist.fm/setlists/nirvana-7bd69ee8.html"
+         },
+         "info": "w/\"Sweet Child o' Mine\" snippet at the end"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/unipol-arena-casalecchio-di-reno-italy-6b518e92.html"
+   },
+   {
+    "id": "35ce5c7",
+    "versionId": "g309b19f",
+    "eventDate": "28-03-2025",
+    "lastUpdated": "2026-10-13T20:45:13.524+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "5bd62368",
+     "name": "Hallenstadion",
+     "city": {
+      "id": "2657896",
+      "name": "Zurich",
+      "state": "Zürich",
+      "stateCode": "ZH",
+      "coords": {
+       "lat": 47.3666667,
+       "long": 8.55
+      },
+      "country": {
+       "code": "CH",
+       "name": "Switzerland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/hallenstadion-zurich-switzerland-5bd62368.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "My Generation",
+         "info": "With fan on stage"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         }
+        },
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Nookie",
+         "info": "Partial"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/hallenstadion-zurich-switzerland-35ce5c7.html"
+   },
+   {
+    "id": "1351852d",
+    "versionId": "g736efe49",
+    "eventDate": "26-03-2025",
+    "lastUpdated": "2025-12-14T20:05:49.055+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "53d7378d",
+     "name": "Ziggo Dome",
+     "city": {
+      "id": "2759794",
+      "name": "Amsterdam",
+      "state": "North Holland",
+      "stateCode": "07",
+      "coords": {
+       "lat": 52.373,
+       "long": 4.9
+      },
+      "country": {
+       "code": "NL",
+       "name": "Netherlands"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ziggo-dome-amsterdam-netherlands-53d7378d.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Take a Look Around",
+         "info": "preceded by snippets of 'Holy Wars... The Punishment Due' and 'Angel of Death'"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/ziggo-dome-amsterdam-netherlands-1351852d.html"
+   },
+   {
+    "id": "351852f",
+    "versionId": "g13073569",
+    "eventDate": "25-03-2025",
+    "lastUpdated": "2026-07-08T03:38:57.024+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73d61e71",
+     "name": "Westfalenhalle",
+     "city": {
+      "id": "2935517",
+      "name": "Dortmund",
+      "state": "North Rhine-Westphalia",
+      "stateCode": "07",
+      "coords": {
+       "lat": 51.5166667,
+       "long": 7.45
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/westfalenhalle-dortmund-germany-73d61e71.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Nookie",
+         "info": "until breakdown"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Counterfeit",
+         "info": "until the bridge"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "short version"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff",
+         "with": {
+          "mbid": "1824309f-b00f-41af-a43d-fa11d4081b95",
+          "name": "Karen Dió",
+          "sortName": "Dió, Karen",
+          "disambiguation": "female Brazilian punk rock/rock vocalist",
+          "url": "https://www.setlist.fm/setlists/karen-dio-73e54ae1.html"
+         }
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/westfalenhalle-dortmund-germany-351852f.html"
+   },
+   {
+    "id": "b5ce5c2",
+    "versionId": "gb433d1a",
+    "eventDate": "23-03-2025",
+    "lastUpdated": "2025-03-25T12:32:46.359+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "bd675e6",
+     "name": "Atlas Arena",
+     "city": {
+      "id": "3093133",
+      "name": "Łódź",
+      "state": "Łódź Voivodeship",
+      "stateCode": "74",
+      "coords": {
+       "lat": 51.75,
+       "long": 19.467
+      },
+      "country": {
+       "code": "PL",
+       "name": "Poland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/atlas-arena-od-poland-bd675e6.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Gold Cobra"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "2nd time"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/atlas-arena-od-poland-b5ce5c2.html"
+   },
+   {
+    "id": "135ce5c1",
+    "versionId": "g7b432aac",
+    "eventDate": "22-03-2025",
+    "lastUpdated": "2025-03-26T11:18:12.523+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "63d3c623",
+     "name": "QUARTERBACK Immobilien ARENA",
+     "city": {
+      "id": "2879139",
+      "name": "Leipzig",
+      "state": "Saxony",
+      "stateCode": "13",
+      "coords": {
+       "lat": 51.33962,
+       "long": 12.371292
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/quarterback-immobilien-arena-leipzig-germany-63d3c623.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "In da Club",
+         "tape": true,
+         "cover": {
+          "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+          "name": "50 Cent",
+          "sortName": "50 Cent",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/50-cent-2bd69cce.html"
+         }
+        },
+        {
+         "name": "Show Me What You Got",
+         "info": "with congratulations for John Otto's birthday"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Nookie",
+         "info": "until breakdown"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with fan on vocals"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "Counterfeit"
+        },
+        {
+         "name": "Gimme the Mic"
+        },
+        {
+         "name": "Eat You Alive"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "My Melody",
+         "tape": true,
+         "cover": {
+          "mbid": "925228de-bbe5-4c7b-b76f-78e382ec9148",
+          "name": "Eric B. & Rakim",
+          "sortName": "Eric B. & Rakim",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/eric-b-and-rakim-7bd686b4.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "until the second chorus"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "repeated"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/quarterback-immobilien-arena-leipzig-germany-135ce5c1.html"
+   },
+   {
+    "id": "7b51ba34",
+    "versionId": "g2343fcb3",
+    "eventDate": "20-03-2025",
+    "lastUpdated": "2025-03-23T11:55:44.413+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "73d512e9",
+     "name": "Royal Arena",
+     "city": {
+      "id": "2618425",
+      "name": "Copenhagen",
+      "state": "Capital Region",
+      "stateCode": "17",
+      "coords": {
+       "lat": 55.6776812020993,
+       "long": 12.5709342956543
+      },
+      "country": {
+       "code": "DK",
+       "name": "Denmark"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/royal-arena-copenhagen-denmark-73d512e9.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Just Like This",
+         "info": "tour debut"
+        },
+        {
+         "name": "Gimme the Mic",
+         "info": "first time since 2004 and first time with Wes Borland"
+        },
+        {
+         "name": "Stalemate",
+         "info": "first time since 2014"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Gold Cobra",
+         "info": "tour debut"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Nookie",
+         "info": "until breakdown"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "It'll Be OK",
+         "info": "full band jam snippet"
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "repetition"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/royal-arena-copenhagen-denmark-7b51ba34.html"
+   },
+   {
+    "id": "3351b029",
+    "versionId": "g734252b1",
+    "eventDate": "19-03-2025",
+    "lastUpdated": "2025-03-20T13:07:17.256+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "2bd02c8e",
+     "name": "Barclays Arena",
+     "city": {
+      "id": "2911298",
+      "name": "Hamburg",
+      "state": "Hamburg",
+      "stateCode": "04",
+      "coords": {
+       "lat": 53.55,
+       "long": 10
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/barclays-arena-hamburg-germany-2bd02c8e.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Lethal Weapon",
+         "tape": true,
+         "info": "DJ Lethal scratching to Lethal Weapon"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true,
+         "cover": {
+          "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+          "name": "Naughty by Nature",
+          "sortName": "Naughty by Nature",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/naughty-by-nature-73d686ad.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Eat You Alive",
+         "info": "audience request"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Rehearsal - Gimme the Mic",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/barclays-arena-hamburg-germany-3351b029.html"
+   },
+   {
+    "id": "4b5047ea",
+    "versionId": "g73711671",
+    "eventDate": "16-03-2025",
+    "lastUpdated": "2025-08-09T16:32:32.576+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "13d03dd9",
+     "name": "OVO Arena Wembley",
+     "city": {
+      "id": "2643743",
+      "name": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.5084152563931,
+       "long": -0.125532746315002
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ovo-arena-wembley-london-england-13d03dd9.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "9 Teen 90 Nine"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Lethal Weapon",
+         "tape": true,
+         "info": "DJ Lethal scratching to Lethal Weapon"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with Georgia Knight"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "short version; preceded by snippets of 'Angel of Death' and 'South of Heaven'"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/ovo-arena-wembley-london-england-4b5047ea.html"
+   },
+   {
+    "id": "535047ed",
+    "versionId": "g2b43b082",
+    "eventDate": "15-03-2025",
+    "lastUpdated": "2025-03-21T17:10:41.146+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "4bd35b96",
+     "name": "AO Arena",
+     "city": {
+      "id": "2643123",
+      "name": "Manchester",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.4809464283615,
+       "long": -2.23743438720703
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ao-arena-manchester-england-4bd35b96.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with 2 fans on stage to sing"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true,
+         "cover": {
+          "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+          "name": "Naughty by Nature",
+          "sortName": "Naughty by Nature",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/naughty-by-nature-73d686ad.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "My Melody",
+         "tape": true,
+         "cover": {
+          "mbid": "925228de-bbe5-4c7b-b76f-78e382ec9148",
+          "name": "Eric B. & Rakim",
+          "sortName": "Eric B. & Rakim",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/eric-b-and-rakim-7bd686b4.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Angel of Death",
+         "cover": {
+          "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+          "name": "Slayer",
+          "sortName": "Slayer",
+          "disambiguation": "US thrash metal band",
+          "url": "https://www.setlist.fm/setlists/slayer-63d68e3b.html"
+         },
+         "info": "partial"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "snippet"
+        },
+        {
+         "name": "Lethal Weapon",
+         "tape": true,
+         "info": "DJ Lethal scratching to Lethal Weapon"
+        },
+        {
+         "name": "Counterfeit",
+         "info": "First time played in full since 2014"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Fred & DJ Lethal only"
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Break Stuff",
+         "info": "repeated in its entirety"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/ao-arena-manchester-england-535047ed.html"
+   },
+   {
+    "id": "33513459",
+    "versionId": "g7b43be7c",
+    "eventDate": "13-03-2025",
+    "lastUpdated": "2025-03-21T05:56:01.244+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "53decb39",
+     "name": "bp pulse LIVE",
+     "city": {
+      "id": "2655603",
+      "name": "Birmingham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 52.4666667,
+       "long": -1.9166667
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bp-pulse-live-birmingham-england-53decb39.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with a fan on stage"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "info": "with two fans on stage dancing"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/bp-pulse-live-birmingham-england-33513459.html"
+   },
+   {
+    "id": "b51852a",
+    "versionId": "g7342b2e5",
+    "eventDate": "11-03-2025",
+    "lastUpdated": "2025-03-12T21:24:22.683+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "23d4082f",
+     "name": "3Arena",
+     "city": {
+      "id": "2964574",
+      "name": "Dublin",
+      "state": "Dublin",
+      "stateCode": "07",
+      "coords": {
+       "lat": 53.3330556,
+       "long": -6.2488889
+      },
+      "country": {
+       "code": "IE",
+       "name": "Ireland"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/3arena-dublin-ireland-23d4082f.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Re-Arranged"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/3arena-dublin-ireland-b51852a.html"
+   },
+   {
+    "id": "435047ef",
+    "versionId": "g1b457194",
+    "eventDate": "08-03-2025",
+    "lastUpdated": "2025-03-10T12:36:13.896+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "63d0eacb",
+     "name": "The OVO Hydro",
+     "city": {
+      "id": "2648579",
+      "name": "Glasgow",
+      "state": "Scotland",
+      "stateCode": "SCT",
+      "coords": {
+       "lat": 55.8333333,
+       "long": -4.25
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/the-ovo-hydro-glasgow-scotland-63d0eacb.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "90.2.10",
+         "tape": true,
+         "info": "Snippet"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Party Up",
+         "tape": true,
+         "cover": {
+          "mbid": "f3bf61f8-97d4-4e52-a73d-2ddbbe8196c8",
+          "name": "DMX",
+          "sortName": "DMX",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/dmx-3d68157.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true,
+         "cover": {
+          "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+          "name": "Naughty by Nature",
+          "sortName": "Naughty by Nature",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/naughty-by-nature-73d686ad.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Livin' It Up",
+         "info": "with two fans invited on stage to sing"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "info": "followed by a snippet of \"Proud Mary\" by CCR, and DJ Lethal scratching \"lethal weapon\""
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "Fred & DJ Lethal only, followed by jam riffs for \"South of Heaven,\" \"Angel of Death\" and \"Thieves\""
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         },
+         "info": "followed by short guitar teasers of \"Master of Puppets and Seek And Destroy\""
+        },
+        {
+         "name": "Break Stuff",
+         "info": "repeated in its entirety"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true,
+         "cover": {
+          "mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+          "name": "Journey",
+          "sortName": "Journey",
+          "disambiguation": "American rock band",
+          "url": "https://www.setlist.fm/setlists/journey-3d6b507.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "'Re-Arranged' and 'Dad Vibes' were on the printed setlist but were not performed.",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/the-ovo-hydro-glasgow-scotland-435047ef.html"
+   },
+   {
+    "id": "73539e0d",
+    "versionId": "gb1d0592",
+    "eventDate": "30-11-2024",
+    "lastUpdated": "2026-05-24T04:55:17.578+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "23d1287b",
+     "name": "Explanada Expo Guadalupe",
+     "city": {
+      "id": "4005489",
+      "name": "Guadalupe",
+      "state": "Nuevo León",
+      "stateCode": "NLE",
+      "coords": {
+       "lat": 26.183,
+       "long": -100.483
+      },
+      "country": {
+       "code": "MX",
+       "name": "Mexico"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/explanada-expo-guadalupe-guadalupe-mexico-23d1287b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "CSATHDFW Intro",
+         "tape": true
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "La culebra",
+         "tape": true,
+         "cover": {
+          "mbid": "7dfd4a6f-5a28-4926-a8e3-4f532f813a7b",
+          "name": "Beny Moré",
+          "sortName": "Moré, Beny",
+          "disambiguation": "Cuban singer and bandleader",
+          "url": "https://www.setlist.fm/setlists/beny-more-73d65275.html"
+         },
+         "info": "Banda Machos version"
+        },
+        {
+         "name": "Hot Dog",
+         "info": "preceded by a snippet of ministry's \"Thieves\""
+        },
+        {
+         "name": "Chúntaros Style",
+         "tape": true,
+         "cover": {
+          "mbid": "62b6875e-f507-4f32-9e61-61e8eabc8877",
+          "name": "El Gran Silencio",
+          "sortName": "Gran Silencio, El",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/el-gran-silencio-4bd603ee.html"
+         }
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "El gigante de hierro",
+         "tape": true,
+         "cover": {
+          "mbid": "260657a2-69a4-42dc-892c-7432bf1714db",
+          "name": "Grupo Soñador",
+          "sortName": "Grupo Soñador",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/grupo-sonador-2be6acb2.html"
+         }
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Feliz Navidad",
+         "tape": true,
+         "cover": {
+          "mbid": "3c004c98-aab6-4b63-a2df-e07c98e73b0a",
+          "name": "José Feliciano",
+          "sortName": "Feliciano, José",
+          "disambiguation": "born 1945, not Cheo Feliciano",
+          "url": "https://www.setlist.fm/setlists/jose-feliciano-bd64596.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2024/explanada-expo-guadalupe-guadalupe-mexico-73539e0d.html"
+   },
+   {
+    "id": "53a8b3ad",
+    "versionId": "g13450919",
+    "eventDate": "24-08-2024",
+    "lastUpdated": "2025-03-09T16:40:18.153+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "bd5412e",
+     "name": "Glen Helen Amphitheater",
+     "city": {
+      "id": "5391710",
+      "name": "San Bernardino",
+      "state": "California",
+      "stateCode": "CA",
+      "coords": {
+       "lat": 34.1083449,
+       "long": -117.2897652
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/glen-helen-amphitheater-san-bernardino-ca-usa-bd5412e.html"
+    },
+    "tour": {
+     "name": "Loserville"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sweet Home Alabama",
+         "tape": true,
+         "cover": {
+          "mbid": "c544ed4d-2390-4442-a83e-1ea2883b09c8",
+          "name": "Lynyrd Skynyrd",
+          "sortName": "Lynyrd Skynyrd",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lynyrd-skynyrd-1bd6ad50.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Livin' It Up"
+        },
+        {
+         "name": "Jump Around",
+         "tape": true,
+         "cover": {
+          "mbid": "c2d6a6fb-7999-4bb3-b2df-7d752fdf4e95",
+          "name": "House of Pain",
+          "sortName": "House of Pain",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/house-of-pain-13d63d51.html"
+         }
+        },
+        {
+         "name": "Insane in the Brain",
+         "tape": true,
+         "cover": {
+          "mbid": "51508c1f-8d07-4a00-9cf1-26c570fe7b78",
+          "name": "Cypress Hill",
+          "sortName": "Cypress Hill",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/cypress-hill-5bd6d3ac.html"
+         }
+        },
+        {
+         "name": "Your Love",
+         "tape": true,
+         "cover": {
+          "mbid": "5d400869-0471-42ee-afda-3addd73d0418",
+          "name": "The Outfield",
+          "sortName": "Outfield, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-outfield-73d7a2c5.html"
+         }
+        },
+        {
+         "name": "Hot Dog",
+         "info": "preceded by 'Master of Puppets' and 'The Simpsons Theme' snippets"
+        },
+        {
+         "name": "Snacky Poo",
+         "tape": true,
+         "info": "interlude"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)",
+         "info": "preceded by 'Welcome to the Jungle', 'Sweet Child o Mine', and 'Opiate' snippets"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         }
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "short version"
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true,
+         "cover": {
+          "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+          "name": "Naughty by Nature",
+          "sortName": "Naughty by Nature",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/naughty-by-nature-73d686ad.html"
+         }
+        },
+        {
+         "name": "Walk",
+         "tape": true,
+         "cover": {
+          "mbid": "541f16f5-ad7a-428e-af89-9fa1b16d3c9c",
+          "name": "Pantera",
+          "sortName": "Pantera",
+          "disambiguation": "US groove metal band, Arlington, TX",
+          "url": "https://www.setlist.fm/setlists/pantera-63d68e8b.html"
+         }
+        },
+        {
+         "name": "Turn It Up, Bitch",
+         "info": "with 2 contest winners"
+        },
+        {
+         "name": "Re-Arranged",
+         "info": "preceded by \"Jerry Was a Race Car Driver\" snippet; until the bridge"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         },
+         "info": "with Jimmy Reed on saxophone"
+        },
+        {
+         "name": "N 2 Gether Now",
+         "with": {
+          "mbid": "644e059f-f308-4273-97cc-1b8416d25345",
+          "name": "Eddy Baker",
+          "sortName": "Baker, Eddy",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/eddy-baker-63da92b7.html"
+         }
+        },
+        {
+         "name": "Boiler"
+        },
+        {
+         "name": "Nookie",
+         "info": "until the second chorus"
+        },
+        {
+         "name": "Full Nelson"
+        },
+        {
+         "name": "Careless Whisper",
+         "tape": true,
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2024/glen-helen-amphitheater-san-bernardino-ca-53a8b3ad.html"
+   }
+  ]
+ }
+}

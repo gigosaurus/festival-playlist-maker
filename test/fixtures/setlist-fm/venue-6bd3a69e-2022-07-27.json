@@ -1,0 +1,242 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 2,
+  "setlist": [
+   {
+    "id": "63b23e57",
+    "versionId": "g4bf05702",
+    "eventDate": "27-07-2022",
+    "lastUpdated": "2022-08-02T15:39:56.470+0000",
+    "artist": {
+     "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+     "name": "Rage Against the Machine",
+     "sortName": "Rage Against the Machine",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html"
+    },
+    "venue": {
+     "id": "6bd3a69e",
+     "name": "Rocket Mortgage FieldHouse",
+     "city": {
+      "id": "5150529",
+      "name": "Cleveland",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 41.4994954,
+       "long": -81.6954088
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rocket-mortgage-fieldhouse-cleveland-oh-usa-6bd3a69e.html"
+    },
+    "tour": {
+     "name": "\"Public Service Announcement\""
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Public Service Announcement",
+         "tape": true
+        },
+        {
+         "name": "Bombtrack"
+        },
+        {
+         "name": "People of the Sun"
+        },
+        {
+         "name": "Bulls on Parade"
+        },
+        {
+         "name": "Bullet in the Head"
+        },
+        {
+         "name": "Testify",
+         "info": "With Revolver Intro"
+        },
+        {
+         "name": "Take the Power Back"
+        },
+        {
+         "name": "Close Your Eyes (And Count to Fuck)",
+         "cover": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         },
+         "with": {
+          "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+          "name": "Run the Jewels",
+          "sortName": "Run the Jewels",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+         }
+        },
+        {
+         "name": "Guerrilla Radio"
+        },
+        {
+         "name": "Down Rodeo"
+        },
+        {
+         "name": "Know Your Enemy"
+        },
+        {
+         "name": "Calm Like a Bomb"
+        },
+        {
+         "name": "Sleep Now in the Fire"
+        },
+        {
+         "name": "Born of a Broken Man",
+         "info": "Tour debut; first time playing since 9/03/2008"
+        },
+        {
+         "name": "War Within a Breath"
+        },
+        {
+         "name": "The Ghost of Tom Joad",
+         "cover": {
+          "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f",
+          "name": "Bruce Springsteen",
+          "sortName": "Springsteen, Bruce",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bruce-springsteen-2bd6dcce.html"
+         }
+        },
+        {
+         "name": "Freedom"
+        },
+        {
+         "name": "Township Rebellion",
+         "info": "Shortened"
+        },
+        {
+         "name": "Killing in the Name"
+        },
+        {
+         "name": "Don't Worry, Be Happy",
+         "tape": true,
+         "cover": {
+          "mbid": "a996b5bd-db99-4257-b036-336f63448aa2",
+          "name": "Bobby McFerrin",
+          "sortName": "McFerrin, Bobby",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bobby-mcferrin-23d6a06f.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Originally scheduled for Jul 29, 2020.",
+    "url": "https://www.setlist.fm/setlist/rage-against-the-machine/2022/rocket-mortgage-fieldhouse-cleveland-oh-63b23e57.html"
+   },
+   {
+    "id": "53b23389",
+    "versionId": "g73f19251",
+    "eventDate": "27-07-2022",
+    "lastUpdated": "2022-08-04T16:12:44.688+0000",
+    "artist": {
+     "mbid": "a80c5dc5-b12e-4667-9f5a-b568961f3839",
+     "name": "Run the Jewels",
+     "sortName": "Run the Jewels",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/run-the-jewels-4bdd0bda.html"
+    },
+    "venue": {
+     "id": "6bd3a69e",
+     "name": "Rocket Mortgage FieldHouse",
+     "city": {
+      "id": "5150529",
+      "name": "Cleveland",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "coords": {
+       "lat": 41.4994954,
+       "long": -81.6954088
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/rocket-mortgage-fieldhouse-cleveland-oh-usa-6bd3a69e.html"
+    },
+    "tour": {
+     "name": "“Public Service Announcement” Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "We Are the World",
+         "tape": true,
+         "cover": {
+          "mbid": "45e3c90f-2de6-4452-99b3-8dbf7a3cf6df",
+          "name": "USA for Africa",
+          "sortName": "USA for Africa",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/usa-for-africa-bd6b9a2.html"
+         }
+        },
+        {
+         "name": "Run the Jewels"
+        },
+        {
+         "name": "yankee and the brave (ep. 4)"
+        },
+        {
+         "name": "Blockbuster Night Part 1"
+        },
+        {
+         "name": "Oh My Darling Don't Cry"
+        },
+        {
+         "name": "",
+         "info": "As El-P ties his shoe, both he and Killer Mike improvise a song titled 'Tie My Shoe, Take A Poo'"
+        },
+        {
+         "name": "ooh la la"
+        },
+        {
+         "name": "Legend Has It"
+        },
+        {
+         "name": "JU$T"
+        },
+        {
+         "name": "Stay Gold"
+        },
+        {
+         "name": "Don't Get Captured"
+        },
+        {
+         "name": "walking in the snow"
+        },
+        {
+         "name": "a few words for the firing squad (radiation)"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Opening act for Rage Against the Machine",
+    "url": "https://www.setlist.fm/setlist/run-the-jewels/2022/rocket-mortgage-fieldhouse-cleveland-oh-53b23389.html"
+   }
+  ]
+ }
+}
