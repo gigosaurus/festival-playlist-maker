@@ -1,0 +1,1162 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 14,
+  "setlist": [
+   {
+    "id": "5b4c53b4",
+    "versionId": "g5b07bbfc",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-07-04T01:57:03.530+0000",
+    "artist": {
+     "mbid": "1f5ff245-2837-4d4a-a609-e93e544478c3",
+     "name": "Trivium",
+     "sortName": "Trivium",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/trivium-73d68289.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "tour": {
+     "name": "Europe/UK 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The End of Everything",
+         "tape": true
+        },
+        {
+         "name": "Pull Harder on the Strings of Your Martyr"
+        },
+        {
+         "name": "Strife"
+        },
+        {
+         "name": "The Sin and the Sentence"
+        },
+        {
+         "name": "Down From the Sky"
+        },
+        {
+         "name": "Until the World Goes Cold"
+        },
+        {
+         "name": "Like Light to the Flies"
+        },
+        {
+         "name": "Catastrophist"
+        },
+        {
+         "name": "The Heart From Your Hate"
+        },
+        {
+         "name": "Capsizing the Sea",
+         "tape": true
+        },
+        {
+         "name": "In Waves"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/trivium/2026/ekebergsletta-oslo-norway-5b4c53b4.html"
+   },
+   {
+    "id": "534c53b5",
+    "versionId": "g2b06ccb2",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-29T13:15:50.834+0000",
+    "artist": {
+     "mbid": "7449cc7e-5fe0-4fd4-9901-7e715391ee50",
+     "name": "PRESIDENT",
+     "sortName": "PRESIDENT",
+     "disambiguation": "UK metal band",
+     "url": "https://www.setlist.fm/setlists/president-2392f4f7.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Ike for President",
+         "tape": true
+        },
+        {
+         "name": "Fearless"
+        },
+        {
+         "name": "Dionysus"
+        },
+        {
+         "name": "DOOM LOOP"
+        },
+        {
+         "name": "Destroy Me"
+        },
+        {
+         "name": "Angel Wings"
+        },
+        {
+         "name": "In the Name of the Father"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "First show in Norway",
+    "url": "https://www.setlist.fm/setlist/president/2026/ekebergsletta-oslo-norway-534c53b5.html"
+   },
+   {
+    "id": "4b48cfae",
+    "versionId": "g7b1dba80",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-05-18T14:04:25.862+0000",
+    "artist": {
+     "mbid": "ca8fdcea-d5e0-4f7f-830a-9fa3288d6ef6",
+     "name": "Turdus Musicus",
+     "sortName": "Turdus Musicus",
+     "disambiguation": "Tromsø hardcore, break from 2010-2025",
+     "url": "https://www.setlist.fm/setlists/turdus-musicus-3bd7a4cc.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/turdus-musicus/2026/ekebergsletta-oslo-norway-4b48cfae.html"
+   },
+   {
+    "id": "4348cfaf",
+    "versionId": "g2b062c8a",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-30T11:50:23.822+0000",
+    "artist": {
+     "mbid": "9c6d0d41-a19d-41e8-a3b1-b3225e523b1e",
+     "name": "Jordsjuk",
+     "sortName": "Jordsjuk",
+     "disambiguation": "necro music",
+     "url": "https://www.setlist.fm/setlists/jordsjuk-33e7f0f5.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Siste skanse"
+        },
+        {
+         "name": "Parasitt"
+        },
+        {
+         "name": "Til ettertids plage"
+        },
+        {
+         "name": "Naglet til livet"
+        },
+        {
+         "name": "Skreddersøm"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/jordsjuk/2026/ekebergsletta-oslo-norway-4348cfaf.html"
+   },
+   {
+    "id": "3b4e58dc",
+    "versionId": "g73197279",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-24T17:25:21.831+0000",
+    "artist": {
+     "mbid": "b88a8ada-40da-4008-9ac5-87c38773ca09",
+     "name": "DumDum Boys",
+     "sortName": "DumDum Boys",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/dumdum-boys-1bd61928.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Enhjørning"
+        },
+        {
+         "name": "Lunta brenner"
+        },
+        {
+         "name": "Blind"
+        },
+        {
+         "name": "Mitt hjertes trell"
+        },
+        {
+         "name": "Gå på vannet"
+        },
+        {
+         "name": "En vill en"
+        },
+        {
+         "name": "Oppned"
+        },
+        {
+         "name": "Englefjes"
+        },
+        {
+         "name": "Krimm"
+        },
+        {
+         "name": "Kald dag i helvete"
+        },
+        {
+         "name": "Slave"
+        },
+        {
+         "name": "Takke faen"
+        },
+        {
+         "name": "Boom boom"
+        },
+        {
+         "name": "Møkkamann"
+        },
+        {
+         "name": "Bønda Fra Nord",
+         "cover": {
+          "mbid": "7c6a33cb-22f3-4339-b4b9-95427d5525aa",
+          "name": "Racer",
+          "sortName": "Racer",
+          "disambiguation": "90s Norwegian band",
+          "url": "https://www.setlist.fm/setlists/racer-2bd764ca.html"
+         }
+        },
+        {
+         "name": "Splitter pine"
+        },
+        {
+         "name": "Metallic hvit"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/dumdum-boys/2026/ekebergsletta-oslo-norway-3b4e58dc.html"
+   },
+   {
+    "id": "3b4e58c8",
+    "versionId": "g43195f3b",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-25T08:54:28.688+0000",
+    "artist": {
+     "mbid": "ae327fae-37b3-44ee-8640-fdcc0752d579",
+     "name": "The Carburetors",
+     "sortName": "Carburetors, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-carburetors-53d7ff99.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Burning Rubber"
+        },
+        {
+         "name": "Lords of Thunder"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-carburetors/2026/ekebergsletta-oslo-norway-3b4e58c8.html"
+   },
+   {
+    "id": "3b4c7430",
+    "versionId": "g7b1dbaac",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-05-18T14:01:11.039+0000",
+    "artist": {
+     "mbid": "81cefa59-d9cd-410f-ac11-7b66519a9514",
+     "name": "Die Spitz",
+     "sortName": "Die Spitz",
+     "disambiguation": "alternative/punk rock band from Austin, TX",
+     "url": "https://www.setlist.fm/setlists/die-spitz-3bfce08c.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/die-spitz/2026/ekebergsletta-oslo-norway-3b4c7430.html"
+   },
+   {
+    "id": "334e58d9",
+    "versionId": "g1b06a95c",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-26T21:48:47.427+0000",
+    "artist": {
+     "mbid": "23a03e33-a603-404e-bcbf-2c00159d7067",
+     "name": "The Offspring",
+     "sortName": "Offspring, The",
+     "disambiguation": "American punk",
+     "url": "https://www.setlist.fm/setlists/the-offspring-13d68945.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Come Out and Play"
+        },
+        {
+         "name": "All I Want"
+        },
+        {
+         "name": "Want You Bad"
+        },
+        {
+         "name": "Looking Out for #1"
+        },
+        {
+         "name": "Staring at the Sun"
+        },
+        {
+         "name": "Hit That / Original Prankster"
+        },
+        {
+         "name": "Hammerhead"
+        },
+        {
+         "name": "Bad Habit"
+        },
+        {
+         "name": "Electric Funeral / Paranoid",
+         "cover": {
+          "mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+          "name": "Black Sabbath",
+          "sortName": "Black Sabbath",
+          "disambiguation": "English heavy metal band",
+          "url": "https://www.setlist.fm/setlists/black-sabbath-33d6806d.html"
+         }
+        },
+        {
+         "name": "Crazy Train",
+         "cover": {
+          "mbid": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+          "name": "Ozzy Osbourne",
+          "sortName": "Osbourne, Ozzy",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/ozzy-osbourne-1bd681dc.html"
+         }
+        },
+        {
+         "name": "In the Hall of the Mountain King",
+         "cover": {
+          "mbid": "013c8e5b-d72a-4cd3-8dee-6c64d6125823",
+          "name": "Edvard Grieg",
+          "sortName": "Grieg, Edvard",
+          "disambiguation": "composer",
+          "url": "https://www.setlist.fm/setlists/edvard-grieg-7bd6ea30.html"
+         }
+        },
+        {
+         "name": "Love Story",
+         "cover": {
+          "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+          "name": "Taylor Swift",
+          "sortName": "Swift, Taylor",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/taylor-swift-3bd6bc5c.html"
+         }
+        },
+        {
+         "name": "Walla Walla"
+        },
+        {
+         "name": "Gotta Get Away"
+        },
+        {
+         "name": "Why Don't You Get a Job?"
+        },
+        {
+         "name": "Pretty Fly (for a White Guy)"
+        },
+        {
+         "name": "The Kids Aren't Alright"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "You're Gonna Go Far, Kid"
+        },
+        {
+         "name": "Self Esteem"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/the-offspring/2026/ekebergsletta-oslo-norway-334e58d9.html"
+   },
+   {
+    "id": "334e58d1",
+    "versionId": "g307718b",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-07-10T10:59:52.881+0000",
+    "artist": {
+     "mbid": "676a460b-2abd-46f3-ad67-244b64dbbec1",
+     "name": "Blood Fire Death",
+     "sortName": "A Tribute to Quorthon and the Music of Bathory",
+     "disambiguation": "Scandinavian tribute band",
+     "url": "https://www.setlist.fm/setlists/blood-fire-death-1be06d10.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "A Fine Day to Die",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         },
+         "with": {
+          "mbid": "16dfc9a5-4eb1-41f8-a7ba-ac2ee8063d97",
+          "name": "Gaahl",
+          "sortName": "Gaahl",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/gaahl-2bd67872.html"
+         }
+        },
+        {
+         "name": "Enter the Eternal Fire",
+         "cover": {
+          "mbid": "6f4c9a49-9756-4ac8-91b0-f37019588fdf",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-33e6b841.html"
+         },
+         "with": {
+          "mbid": "ba289f85-e4ee-4506-8c43-15c5e3080f16",
+          "name": "Erik Danielsson",
+          "sortName": "Danielsson, Erik",
+          "disambiguation": "frontman of Watain",
+          "url": "https://www.setlist.fm/setlists/erik-danielsson-7bd66ee4.html"
+         }
+        },
+        {
+         "name": "Call From the Grave",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         }
+        },
+        {
+         "name": "Born for Burning",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         }
+        },
+        {
+         "name": "Raise the Dead",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         }
+        },
+        {
+         "name": "The Return of Darkness and Evil",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         },
+         "with": {
+          "mbid": "1c89a037-2505-4c87-890a-53f681c4bc57",
+          "name": "Nergal",
+          "sortName": "Nergal",
+          "disambiguation": "Polish musician Adam Darski",
+          "url": "https://www.setlist.fm/setlists/nergal-3d67943.html"
+         }
+        },
+        {
+         "name": "Sacrifice",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         },
+         "with": {
+          "mbid": "ba289f85-e4ee-4506-8c43-15c5e3080f16",
+          "name": "Erik Danielsson",
+          "sortName": "Danielsson, Erik",
+          "disambiguation": "frontman of Watain",
+          "url": "https://www.setlist.fm/setlists/erik-danielsson-7bd66ee4.html"
+         }
+        },
+        {
+         "name": "Woman of Dark Desires",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         }
+        },
+        {
+         "name": "Blood Fire Death",
+         "cover": {
+          "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+          "name": "Bathory",
+          "sortName": "Bathory",
+          "disambiguation": "Swedish black/Viking/thrash metal band",
+          "url": "https://www.setlist.fm/setlists/bathory-23d6f4fb.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Several guests: Gaahl, Grutle Kjellson, Attila Csihar, Frederick Melander, Nergal",
+    "url": "https://www.setlist.fm/setlist/blood-fire-death/2026/ekebergsletta-oslo-norway-334e58d1.html"
+   },
+   {
+    "id": "2b4e58da",
+    "versionId": "g53195bb1",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-25T14:09:16.322+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With a snippet of Pray For Plagues during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true,
+         "info": "\"Project: Kingslayer\" version"
+        },
+        {
+         "name": "Kingslayer",
+         "with": {
+          "mbid": "27e2997f-f7a1-4353-bcc4-57b9274fa9a4",
+          "name": "BABYMETAL",
+          "sortName": "BABYMETAL",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/babymetal-5bd19f80.html"
+         }
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan on stage called Kristoffer from the band Lüdo"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne",
+         "info": "Oli wore a horse mask during a part of the song"
+        },
+        {
+         "name": "Fifteen Fathoms Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/ekebergsletta-oslo-norway-2b4e58da.html"
+   },
+   {
+    "id": "2b4e58d6",
+    "versionId": "g3b195c48",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-25T07:26:16.811+0000",
+    "artist": {
+     "mbid": "a5f0f298-776a-4909-bc09-4fd56a680542",
+     "name": "Blood Incantation",
+     "sortName": "Blood Incantation",
+     "disambiguation": "US progressive death metal band",
+     "url": "https://www.setlist.fm/setlists/blood-incantation-23c5e067.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "tour": {
+     "name": "Absolute Elsetour - Europe 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Stargate [Tablet I]"
+        },
+        {
+         "name": "The Stargate [Tablet II]"
+        },
+        {
+         "name": "The Stargate [Tablet III]"
+        },
+        {
+         "name": "The Message [Tablet I]"
+        },
+        {
+         "name": "The Message [Tablet II]"
+        },
+        {
+         "name": "The Message [Tablet III]"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/blood-incantation/2026/ekebergsletta-oslo-norway-2b4e58d6.html"
+   },
+   {
+    "id": "234e58df",
+    "versionId": "g5b1973b0",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-24T17:12:54.168+0000",
+    "artist": {
+     "mbid": "27e2997f-f7a1-4353-bcc4-57b9274fa9a4",
+     "name": "BABYMETAL",
+     "sortName": "BABYMETAL",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/babymetal-5bd19f80.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "tour": {
+     "name": "BABYMETAL WORLD TOUR 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "BABYMETAL DEATH"
+        },
+        {
+         "name": "from me to u"
+        },
+        {
+         "name": "Distortion"
+        },
+        {
+         "name": "Song 3",
+         "cover": {
+          "mbid": "35e160b7-2670-48db-b429-f405f9322fdb",
+          "name": "BABYMETAL × Slaughter to Prevail",
+          "sortName": "BABYMETAL × Slaughter to Prevail",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/babymetal--slaughter-to-prevail-13ef95cd.html"
+         }
+        },
+        {
+         "name": "METALI!!",
+         "info": "preceded by KAMI Band solos"
+        },
+        {
+         "name": "RATATATA",
+         "cover": {
+          "mbid": "4340620d-9ada-4c61-b234-d0f65da833de",
+          "name": "BABYMETAL × Electric Callboy",
+          "sortName": "BABYMETAL × Electric Callboy",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/babymetal--electric-callboy-43ee4f37.html"
+         }
+        },
+        {
+         "name": "Gimme Chocolate!!"
+        },
+        {
+         "name": "Headbangeeeeerrrrr!!!!!"
+        },
+        {
+         "name": "Road of Resistance"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/babymetal/2026/ekebergsletta-oslo-norway-234e58df.html"
+   },
+   {
+    "id": "234e58cb",
+    "versionId": "g6b196a36",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-06-24T22:12:32.802+0000",
+    "artist": {
+     "mbid": "5bd1060b-8608-4817-93ca-207f7c828e2f",
+     "name": "Cavalera Conspiracy",
+     "sortName": "Cavalera Conspiracy",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/cavalera-conspiracy-bd69902.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "tour": {
+     "name": "Chaos A.D. MMXXVI"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Refuse/Resist",
+         "cover": {
+          "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+          "name": "Sepultura",
+          "sortName": "Sepultura",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+         }
+        },
+        {
+         "name": "Slave New World",
+         "cover": {
+          "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+          "name": "Sepultura",
+          "sortName": "Sepultura",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+         }
+        },
+        {
+         "name": "Amen",
+         "cover": {
+          "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+          "name": "Sepultura",
+          "sortName": "Sepultura",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+         }
+        },
+        {
+         "name": "Propaganda",
+         "cover": {
+          "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+          "name": "Sepultura",
+          "sortName": "Sepultura",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+         }
+        },
+        {
+         "name": "We Who Are Not as Others",
+         "cover": {
+          "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+          "name": "Sepultura",
+          "sortName": "Sepultura",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Power went out in parts of Oslo, so the set stopped.",
+    "url": "https://www.setlist.fm/setlist/cavalera-conspiracy/2026/ekebergsletta-oslo-norway-234e58cb.html"
+   },
+   {
+    "id": "234c7433",
+    "versionId": "g5b078b1c",
+    "eventDate": "24-06-2026",
+    "lastUpdated": "2026-07-05T14:11:36.400+0000",
+    "artist": {
+     "mbid": "8e4685ea-5d37-459e-9a69-5c6e043b4369",
+     "name": "Black Debbath",
+     "sortName": "Black Debbath",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/black-debbath-53d61f9d.html"
+    },
+    "venue": {
+     "id": "73d392b1",
+     "name": "Ekebergsletta",
+     "city": {
+      "id": "6942479",
+      "name": "Oslo",
+      "state": "Oslo",
+      "stateCode": "12",
+      "coords": {
+       "lat": 59.912697157616,
+       "long": 10.7413673400879
+      },
+      "country": {
+       "code": "NO",
+       "name": "Norway"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/ekebergsletta-oslo-norway-73d392b1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "1001-1002-1003",
+         "info": "With 1000-count"
+        },
+        {
+         "name": "Norsk Bjørnsonforskning (holder internasjonalt sett lavt nivå)"
+        },
+        {
+         "name": "Grå er min farge nå"
+        },
+        {
+         "name": "Pappa lukter tusj"
+        },
+        {
+         "name": "Mongo Norway (A Guide to Nightlife in Oslo)"
+        },
+        {
+         "name": "King of Norway"
+        },
+        {
+         "name": "Legg monarkiet ut på anbud!"
+        },
+        {
+         "name": "Bøler Rock Bydel",
+         "info": "Live debut"
+        },
+        {
+         "name": "Tons of rock"
+        },
+        {
+         "name": "Den femte statsmakt"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/black-debbath/2026/ekebergsletta-oslo-norway-234c7433.html"
+   }
+  ]
+ }
+}

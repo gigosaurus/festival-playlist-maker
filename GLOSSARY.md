@@ -45,7 +45,7 @@ A festival that users can see. The admin can publish a festival only when each n
 _Avoid_: Live festival, active festival
 
 **Festival set**:
-A show on setlist.fm where 10 or more artists played at the same venue on the same date.
+A show on setlist.fm on a day of a MusicBrainz festival event of the artist, or a show where 10 or more artists played at the same venue on the same date.
 _Avoid_: Festival show, festival appearance
 
 **Predicted songs**:

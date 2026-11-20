@@ -1,0 +1,315 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "7b5b068c",
+    "versionId": "g637b6a8f",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2025-09-27T23:20:51.335+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "43d61fa3",
+     "name": "American Airlines Center",
+     "city": {
+      "id": "4684888",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.7830556,
+       "long": -96.8066667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/american-airlines-center-dallas-tx-usa-43d61fa3.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Will You Love Me When I’m Dead"
+        },
+        {
+         "name": "Take Me Under"
+        },
+        {
+         "name": "Death of Me"
+        },
+        {
+         "name": "Forever Overdose"
+        },
+        {
+         "name": "Tonight"
+        },
+        {
+         "name": "Hold Onto Me"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2025/american-airlines-center-dallas-tx-7b5b068c.html"
+   },
+   {
+    "id": "735b069d",
+    "versionId": "g236d6c3b",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2026-01-22T02:30:02.595+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "43d61fa3",
+     "name": "American Airlines Center",
+     "city": {
+      "id": "4684888",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.7830556,
+       "long": -96.8066667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/american-airlines-center-dallas-tx-usa-43d61fa3.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "Pretend"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2025/american-airlines-center-dallas-tx-735b069d.html"
+   },
+   {
+    "id": "6b5b06ce",
+    "versionId": "g3378a8f1",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2025-09-29T17:26:45.378+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "43d61fa3",
+     "name": "American Airlines Center",
+     "city": {
+      "id": "4684888",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.7830556,
+       "long": -96.8066667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/american-airlines-center-dallas-tx-usa-43d61fa3.html"
+    },
+    "tour": {
+     "name": "USA Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With a fan dressed as Hatsune Miku"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "DIg It"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/american-airlines-center-dallas-tx-6b5b06ce.html"
+   },
+   {
+    "id": "6b5b06b6",
+    "versionId": "g33623839",
+    "eventDate": "27-09-2025",
+    "lastUpdated": "2025-11-17T05:44:18.501+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "43d61fa3",
+     "name": "American Airlines Center",
+     "city": {
+      "id": "4684888",
+      "name": "Dallas",
+      "state": "Texas",
+      "stateCode": "TX",
+      "coords": {
+       "lat": 32.7830556,
+       "long": -96.8066667
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/american-airlines-center-dallas-tx-usa-43d61fa3.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Whorror",
+         "tape": true
+        },
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Thoughts & Prayers"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Necessary Evil"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2025/american-airlines-center-dallas-tx-6b5b06b6.html"
+   }
+  ]
+ }
+}

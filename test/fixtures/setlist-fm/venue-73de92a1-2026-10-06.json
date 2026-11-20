@@ -1,0 +1,263 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 3,
+  "setlist": [
+   {
+    "id": "3b773010",
+    "versionId": "g2b089cf2",
+    "eventDate": "06-10-2026",
+    "lastUpdated": "2026-10-07T03:47:09.865+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "73de92a1",
+     "name": "Canada Life Place",
+     "city": {
+      "id": "6058560",
+      "name": "London",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 42.983389283,
+       "long": -81.233042387
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/canada-life-place-london-on-canada-73de92a1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Playing God"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "R.I.P."
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/canada-life-place-london-on-canada-3b773010.html"
+   },
+   {
+    "id": "23773017",
+    "versionId": "gb08f93e",
+    "eventDate": "06-10-2026",
+    "lastUpdated": "2026-10-08T06:57:03.867+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "73de92a1",
+     "name": "Canada Life Place",
+     "city": {
+      "id": "6058560",
+      "name": "London",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 42.983389283,
+       "long": -81.233042387
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/canada-life-place-london-on-canada-73de92a1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/canada-life-place-london-on-canada-23773017.html"
+   },
+   {
+    "id": "23773013",
+    "versionId": "g1b0895f4",
+    "eventDate": "06-10-2026",
+    "lastUpdated": "2026-10-07T12:01:00.090+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73de92a1",
+     "name": "Canada Life Place",
+     "city": {
+      "id": "6058560",
+      "name": "London",
+      "state": "Ontario",
+      "stateCode": "ON",
+      "coords": {
+       "lat": 42.983389283,
+       "long": -81.233042387
+      },
+      "country": {
+       "code": "CA",
+       "name": "Canada"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/canada-life-place-london-on-canada-73de92a1.html"
+    },
+    "tour": {
+     "name": "The Third Ascension Program"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "Dehumanized"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Pray for Plagues",
+         "info": "With cancer survivor named Liam"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/canada-life-place-london-on-canada-23773013.html"
+   }
+  ]
+ }
+}

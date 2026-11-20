@@ -1,0 +1,366 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "b4895b6",
+    "versionId": "g31b399f",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-06T18:18:48.322+0000",
+    "artist": {
+     "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
+     "name": "The Halo Effect",
+     "sortName": "Halo Effect, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-halo-effect-1bf021e8.html"
+    },
+    "venue": {
+     "id": "bdfa9be",
+     "name": "Festival Stage",
+     "city": {
+      "id": "2689246",
+      "name": "Norje",
+      "state": "Blekinge County",
+      "stateCode": "02",
+      "coords": {
+       "lat": 56.1166667,
+       "long": 14.6666667
+      },
+      "country": {
+       "code": "SE",
+       "name": "Sweden"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festival-stage-norje-sweden-bdfa9be.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "This Curse of Silence",
+         "info": "With Ungdomsorkestern Göta Lejon"
+        },
+        {
+         "name": "March of the Unheard"
+        },
+        {
+         "name": "Feel What I Believe"
+        },
+        {
+         "name": "The Needless End"
+        },
+        {
+         "name": "Detonate"
+        },
+        {
+         "name": "Become Surrender"
+        },
+        {
+         "name": "Gateways"
+        },
+        {
+         "name": "Our Channel to the Darkness"
+        },
+        {
+         "name": "A Truth Worth Lying For"
+        },
+        {
+         "name": "Between Directions",
+         "info": "With string duo"
+        },
+        {
+         "name": "Shadowminds"
+        },
+        {
+         "name": "Coda",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-halo-effect/2026/festival-stage-norje-sweden-b4895b6.html"
+   },
+   {
+    "id": "34895b7",
+    "versionId": "g4b1b47e2",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-10T12:44:29.012+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "bdfa9be",
+     "name": "Festival Stage",
+     "city": {
+      "id": "2689246",
+      "name": "Norje",
+      "state": "Blekinge County",
+      "stateCode": "02",
+      "coords": {
+       "lat": 56.1166667,
+       "long": 14.6666667
+      },
+      "country": {
+       "code": "SE",
+       "name": "Sweden"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festival-stage-norje-sweden-bdfa9be.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With Helena, a fan on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/festival-stage-norje-sweden-34895b7.html"
+   },
+   {
+    "id": "134895b5",
+    "versionId": "g7318f2cd",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-13T07:42:03.775+0000",
+    "artist": {
+     "mbid": "8fa5d80d-37e8-4133-9d5c-6bad446c63f0",
+     "name": "Yngwie Malmsteen",
+     "sortName": "Malmsteen, Yngwie",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/yngwie-malmsteen-6bd6aa16.html"
+    },
+    "venue": {
+     "id": "bdfa9be",
+     "name": "Festival Stage",
+     "city": {
+      "id": "2689246",
+      "name": "Norje",
+      "state": "Blekinge County",
+      "stateCode": "02",
+      "coords": {
+       "lat": 56.1166667,
+       "long": 14.6666667
+      },
+      "country": {
+       "code": "SE",
+       "name": "Sweden"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festival-stage-norje-sweden-bdfa9be.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Rising Force"
+        },
+        {
+         "name": "Far Beyond the Sun"
+        },
+        {
+         "name": "You Don't Remember, I'll Never Forget"
+        },
+        {
+         "name": "Adagio"
+        },
+        {
+         "name": "Evil Eye"
+        },
+        {
+         "name": "Smoke on the Water",
+         "cover": {
+          "mbid": "79491354-3d83-40e3-9d8e-7592d58d790a",
+          "name": "Deep Purple",
+          "sortName": "Deep Purple",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/deep-purple-3bd6acc8.html"
+         }
+        },
+        {
+         "name": "Top Down, Foot Down / No Rest for the Wicked"
+        },
+        {
+         "name": "Now Your Ships Are Burned / Wolves at the Door"
+        },
+        {
+         "name": "Soldier / Baroque & Roll"
+        },
+        {
+         "name": "Black Star"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/yngwie-malmsteen/2026/festival-stage-norje-sweden-134895b5.html"
+   },
+   {
+    "id": "13489589",
+    "versionId": "g31bc11f",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-06T13:14:36.021+0000",
+    "artist": {
+     "mbid": "f16d25c6-556f-42f9-b648-5f48a8f96ec2",
+     "name": "Clawfinger",
+     "sortName": "Clawfinger",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/clawfinger-53d6df21.html"
+    },
+    "venue": {
+     "id": "bdfa9be",
+     "name": "Festival Stage",
+     "city": {
+      "id": "2689246",
+      "name": "Norje",
+      "state": "Blekinge County",
+      "stateCode": "02",
+      "coords": {
+       "lat": 56.1166667,
+       "long": 14.6666667
+      },
+      "country": {
+       "code": "SE",
+       "name": "Sweden"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/festival-stage-norje-sweden-bdfa9be.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hold Your Head Up"
+        },
+        {
+         "name": "Recipe for Hate"
+        },
+        {
+         "name": "Nothing Going On"
+        },
+        {
+         "name": "Ball & Chain"
+        },
+        {
+         "name": "Scum"
+        },
+        {
+         "name": "Rosegrove"
+        },
+        {
+         "name": "Warfair"
+        },
+        {
+         "name": "Two Sides"
+        },
+        {
+         "name": "Before We All Die"
+        },
+        {
+         "name": "The Price We Pay"
+        },
+        {
+         "name": "Biggest & the Best"
+        },
+        {
+         "name": "The Truth"
+        },
+        {
+         "name": "Do What I Say"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/clawfinger/2026/festival-stage-norje-sweden-13489589.html"
+   }
+  ]
+ }
+}

@@ -7,6 +7,7 @@ The artist match tests use these responses. When the MusicBrainz API changes, re
 | `genres.txt` | `GET https://musicbrainz.org/ws/2/genre/all?fmt=txt` (2,226 genres) | 18 November 2026 |
 | `search-<text>.json` | `GET https://musicbrainz.org/ws/2/artist?query=<text>&limit=5&fmt=json`, the address that `musicbrainzSearchUrl` makes | 18 November 2026 |
 | `links-<MusicBrainz ID>.json` | `GET https://musicbrainz.org/ws/2/artist/<MusicBrainz ID>?inc=url-rels&fmt=json`, the address that `musicbrainzLinksUrl` makes | 18 November 2026 |
+| `events-<MusicBrainz ID>-<page>.json` | `GET https://musicbrainz.org/ws/2/event?artist=<MusicBrainz ID>&limit=100&offset=<n>&fmt=json`, the address that `musicbrainzEventsUrl` makes | 19 November 2026 |
 
 The search texts are the 10 names of the Download 2027 lineup in `test/fixtures/clashfinder/event-download27.json`, and "Ghost" and "BMTH". `search-symbols.json` is the search for "???".
 
@@ -20,6 +21,12 @@ The lookups are for the artists in `musicbrainzIds` in `test/support/musicbrainz
 
 ```sh
 node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts test/fixtures/musicbrainz links:074e3847-f67f-49f9-81f1-8c8cea147e8e
+```
+
+The predicted song tests use the events of Bring Me the Horizon (90 events on 1 page). 11 festival days of the band are in the look-back period of the setlist.fm recording, for example Hellfest 2026. To record them again, give the ID with the prefix `events:`:
+
+```sh
+node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts test/fixtures/musicbrainz events:074e3847-f67f-49f9-81f1-8c8cea147e8e
 ```
 
 The script needs `MUSICBRAINZ_CONTACT`. It waits 2 seconds between requests and sends a request again after status 503.

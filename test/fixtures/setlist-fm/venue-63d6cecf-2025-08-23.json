@@ -1,0 +1,1185 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 45,
+  "setlist": [
+   {
+    "id": "b5f3d7e",
+    "versionId": "g7b193240",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2026-06-22T15:42:26.576+0000",
+    "artist": {
+     "mbid": "b09de30a-09ac-4cc9-8812-49bb12e2bfa6",
+     "name": "Bilmuri",
+     "sortName": "Bilmuri",
+     "disambiguation": "US post-hardcore/pop-punk project",
+     "url": "https://www.setlist.fm/setlists/bilmuri-5bf6235c.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "EMPTYHANDED"
+        },
+        {
+         "name": "ALL GAS"
+        },
+        {
+         "name": "ABSOLUTELYCRANKINMYMF'INHOG"
+        },
+        {
+         "name": "FLUORIDEINTHEHARDSELTZERWATER"
+        },
+        {
+         "name": "BOUTTA CASHEW"
+        },
+        {
+         "name": "THE END"
+        },
+        {
+         "name": "MORE THAN HATE"
+        },
+        {
+         "name": "BETTER HELL (Thicc boi)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bilmuri/2025/little-johns-farm-reading-england-b5f3d7e.html"
+   },
+   {
+    "id": "b5f3d72",
+    "versionId": "g436dcf27",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2026-01-19T03:24:58.870+0000",
+    "artist": {
+     "mbid": "33243fef-ce1a-4ba7-a81e-ec72e4c5029a",
+     "name": "Snow Strippers",
+     "sortName": "Snow Strippers",
+     "disambiguation": "Graham Perez and Tatiana Schwaninger, electropop duo from NY",
+     "url": "https://www.setlist.fm/setlists/snow-strippers-bfc4df6.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Aching Like It's"
+        },
+        {
+         "name": "Just Your Doll"
+        },
+        {
+         "name": "So What If I'm a Freak"
+        },
+        {
+         "name": "Almost a Threat"
+        },
+        {
+         "name": "It's a Dream"
+        },
+        {
+         "name": "Heroes Don't Exist"
+        },
+        {
+         "name": "In My Head"
+        },
+        {
+         "name": "Don't You Feel"
+        },
+        {
+         "name": "TV Sex"
+        },
+        {
+         "name": "Kinda Like It That Way"
+        },
+        {
+         "name": "You Could Be the One"
+        },
+        {
+         "name": "Passionate Highs"
+        },
+        {
+         "name": "Sabotage"
+        },
+        {
+         "name": "I'm on My Own"
+        },
+        {
+         "name": "Insane Like Me"
+        },
+        {
+         "name": "Christian Dior Denim Flow (Snow Strippers Remix)"
+        },
+        {
+         "name": "Back in Blood (Snow Strippers Remix)"
+        },
+        {
+         "name": "Know My Name"
+        },
+        {
+         "name": "You've Done It This Time"
+        },
+        {
+         "name": "Cautious"
+        },
+        {
+         "name": "Tragic Surprise"
+        },
+        {
+         "name": "Under Your Spell"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/snow-strippers/2025/little-johns-farm-reading-england-b5f3d72.html"
+   },
+   {
+    "id": "b44495a",
+    "versionId": "g4378871f",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-09-30T17:11:24.864+0000",
+    "artist": {
+     "mbid": "a65344cf-73e5-48fc-800c-3415a5ab038d",
+     "name": "VOILÀ",
+     "sortName": "VOILÀ",
+     "disambiguation": "US pop/rock duo",
+     "url": "https://www.setlist.fm/setlists/voila-6bccee4a.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "tour": {
+     "name": "The Magic Word: 2025 European Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Drop Dead Gorgeous"
+        },
+        {
+         "name": "Dead to Me",
+         "info": "Lyrics: \"Now I'm nothing, tell me something\""
+        },
+        {
+         "name": "I Hope That It’s Fatal"
+        },
+        {
+         "name": "Figure You Out"
+        },
+        {
+         "name": "Therapy"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist Incomplete",
+    "url": "https://www.setlist.fm/setlist/voila/2025/little-johns-farm-reading-england-b44495a.html"
+   },
+   {
+    "id": "7b5b6ed8",
+    "versionId": "g636606cf",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-10-19T15:41:52.821+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Roll with it",
+         "tape": true,
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         }
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "Thieves",
+         "cover": {
+          "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+          "name": "Ministry",
+          "sortName": "Ministry",
+          "disambiguation": "US industrial metal band",
+          "url": "https://www.setlist.fm/setlists/ministry-6bd6923a.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Master of Puppets",
+         "cover": {
+          "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+          "name": "Metallica",
+          "sortName": "Metallica",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/metallica-3bd680c8.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "It'll Be OK",
+         "info": "Snippet"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "Fan brought on stage to sing"
+        },
+        {
+         "name": "Proud Mary",
+         "tape": true,
+         "cover": {
+          "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+          "name": "Creedence Clearwater Revival",
+          "sortName": "Creedence Clearwater Revival",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+         },
+         "info": "Snippet"
+        },
+        {
+         "name": "Dad Vibes"
+        },
+        {
+         "name": "Behind Blue Eyes",
+         "cover": {
+          "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+          "name": "The Who",
+          "sortName": "Who, The",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/the-who-bd6bd2a.html"
+         }
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Don't Stop Believin'",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Reading & Leeds was the last concerts before Sam Rivers' death in October 2025",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/little-johns-farm-reading-england-7b5b6ed8.html"
+   },
+   {
+    "id": "7b444e94",
+    "versionId": "g137f7971",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-25T17:54:49.631+0000",
+    "artist": {
+     "mbid": "eec65020-bd2e-41a3-9dcd-cad3bff2b8fa",
+     "name": "Nxdia",
+     "sortName": "Nxdia",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/nxdia-2be410d6.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Jennifer's Body"
+        },
+        {
+         "name": "Nothing At All"
+        },
+        {
+         "name": "Boy Clothes"
+        },
+        {
+         "name": "Boo, Nevermind"
+        },
+        {
+         "name": "Body on Me"
+        },
+        {
+         "name": "More!"
+        },
+        {
+         "name": "She Likes a Boy"
+        },
+        {
+         "name": "Feel Anything"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/nxdia/2025/little-johns-farm-reading-england-7b444e94.html"
+   },
+   {
+    "id": "7b444e30",
+    "versionId": "gb7af1de",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-09-16T08:18:12.403+0000",
+    "artist": {
+     "mbid": "49ab0e3b-97ad-40c0-a664-5f40ce8129c7",
+     "name": "Bakar",
+     "sortName": "Bakar",
+     "disambiguation": "British singer",
+     "url": "https://www.setlist.fm/setlists/bakar-73f4aae5.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "All In"
+        },
+        {
+         "name": "1st Time"
+        },
+        {
+         "name": "I’m Done"
+        },
+        {
+         "name": "Right Here, for Now",
+         "info": "Dominic Fike's \"3 Nights\" outro"
+        },
+        {
+         "name": "Something I Said"
+        },
+        {
+         "name": "The Mission"
+        },
+        {
+         "name": "Good News"
+        },
+        {
+         "name": "Big Dreams"
+        },
+        {
+         "name": "NW3"
+        },
+        {
+         "name": "Lonyo!",
+         "cover": {
+          "mbid": "b0cd7592-cc6b-439a-a9d5-faacc275c35e",
+          "name": "Lonyo",
+          "sortName": "Lonyo",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/lonyo-43d6331f.html"
+         }
+        },
+        {
+         "name": "Hell N Back"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bakar/2025/little-johns-farm-reading-england-7b444e30.html"
+   },
+   {
+    "id": "7b444e20",
+    "versionId": "g7370164d",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:39:18.280+0000",
+    "artist": {
+     "mbid": "c7dc64c9-a377-4a8c-a2d5-4b24d9f62dec",
+     "name": "BVNQUET",
+     "sortName": "BVNQUET",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bvnquet-4be41ba6.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/bvnquet/2025/little-johns-farm-reading-england-7b444e20.html"
+   },
+   {
+    "id": "7b444e14",
+    "versionId": "g6b701642",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:39:55.210+0000",
+    "artist": {
+     "mbid": "2c9c79a8-c813-432b-95b4-487f7a686d5d",
+     "name": "DRIIA",
+     "sortName": "DRIIA",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/driia-5be50f1c.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/driia/2025/little-johns-farm-reading-england-7b444e14.html"
+   },
+   {
+    "id": "7b43163c",
+    "versionId": "g337a9ca5",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-09-14T20:16:08.352+0000",
+    "artist": {
+     "mbid": "260c93c2-f663-4c3f-9672-b728585219d9",
+     "name": "Oversize",
+     "sortName": "Oversize",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/oversize-43e0ebbf.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Stalling"
+        },
+        {
+         "name": "Are You With Me?"
+        },
+        {
+         "name": "Fall Apart"
+        },
+        {
+         "name": "Vacant"
+        },
+        {
+         "name": "Something Clean"
+        },
+        {
+         "name": "Salt"
+        },
+        {
+         "name": "Drive"
+        },
+        {
+         "name": "daretomove"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/oversize/2025/little-johns-farm-reading-england-7b43163c.html"
+   },
+   {
+    "id": "73444ee1",
+    "versionId": "g537f632d",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-26T13:01:17.711+0000",
+    "artist": {
+     "mbid": "6b4e962d-3dbc-4bda-82f0-25d35786f076",
+     "name": "Ecca Vandal",
+     "sortName": "Vandal, Ecca",
+     "disambiguation": "Melbourne alt-rock singer/rapper",
+     "url": "https://www.setlist.fm/setlists/ecca-vandal-43c6233b.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "CRUISING TO SELF SOOTHE",
+         "with": {
+          "mbid": "39c346d7-c098-4b04-ab74-62d59fe4070b",
+          "name": "Fred Durst",
+          "sortName": "Durst, Fred",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/fred-durst-6bd69e82.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ecca-vandal/2025/little-johns-farm-reading-england-73444ee1.html"
+   },
+   {
+    "id": "73444ed9",
+    "versionId": "g737f0ad5",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-25T09:26:36.449+0000",
+    "artist": {
+     "mbid": "ddeb3502-8693-4619-b41d-263105f84477",
+     "name": "Example",
+     "sortName": "Example",
+     "disambiguation": "British singer, songwriter, rapper & producer",
+     "url": "https://www.setlist.fm/setlists/example-2bd674d6.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Stay Awake"
+        },
+        {
+         "name": "Won't Go Quietly"
+        },
+        {
+         "name": "All the Wrong Places"
+        },
+        {
+         "name": "In the Zone",
+         "cover": {
+          "mbid": "2b996e5c-7941-4619-9840-9021c6756954",
+          "name": "Jauz",
+          "sortName": "Jauz",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/jauz-3d911bb.html"
+         }
+        },
+        {
+         "name": "All Night"
+        },
+        {
+         "name": "We'll Be Coming Back"
+        },
+        {
+         "name": "Kickstarts"
+        },
+        {
+         "name": "Gold",
+         "cover": {
+          "mbid": "00c2455e-2579-4f0d-9286-910cbc646495",
+          "name": "Alcemist",
+          "sortName": "Alcemist",
+          "disambiguation": "DJ/producer from South East London",
+          "url": "https://www.setlist.fm/setlists/alcemist-13fcb599.html"
+         }
+        },
+        {
+         "name": "Deep"
+        },
+        {
+         "name": "Watch the Sun Come Up"
+        },
+        {
+         "name": "Changed the Way You Kiss Me"
+        },
+        {
+         "name": "Dead in the Eye",
+         "cover": {
+          "mbid": "1b2d6d03-6517-4501-b159-da2e477f1bd3",
+          "name": "P Money × Whiney",
+          "sortName": "P Money × Whiney",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/p-money--whiney-23f9f007.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/example/2025/little-johns-farm-reading-england-73444ed9.html"
+   },
+   {
+    "id": "73444eb9",
+    "versionId": "g7b701634",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:42:35.915+0000",
+    "artist": {
+     "mbid": "601dec69-cb0e-4066-86c9-a73c6f88b8f5",
+     "name": "In Parallel",
+     "sortName": "In Parallel",
+     "disambiguation": "George Denver & Harrison Baker, EDM",
+     "url": "https://www.setlist.fm/setlists/in-parallel-2be0f842.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/in-parallel/2025/little-johns-farm-reading-england-73444eb9.html"
+   },
+   {
+    "id": "73444eb1",
+    "versionId": "g6b70161a",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:44:06.446+0000",
+    "artist": {
+     "mbid": "8d96e5fb-42b4-4653-b8f3-2a31e5834dc7",
+     "name": "Jazzy",
+     "sortName": "Jazzy",
+     "disambiguation": "Irish dance‐pop singer‐songwriter Yasmine Byrne",
+     "url": "https://www.setlist.fm/setlists/jazzy-53f13781.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/jazzy/2025/little-johns-farm-reading-england-73444eb1.html"
+   },
+   {
+    "id": "73444ea9",
+    "versionId": "gb7f3d6a",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-23T20:32:16.878+0000",
+    "artist": {
+     "mbid": "6984f569-8f76-4e1f-9e7c-ceeaf367c6fc",
+     "name": "Keo",
+     "sortName": "Keo",
+     "disambiguation": "British alt-rock band from London",
+     "url": "https://www.setlist.fm/setlists/keo-53e417b5.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hands"
+        },
+        {
+         "name": "Young"
+        },
+        {
+         "name": "Thorn"
+        },
+        {
+         "name": "Only We Know"
+        },
+        {
+         "name": "Kudos"
+        },
+        {
+         "name": "I Lied, Amber"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/keo/2025/little-johns-farm-reading-england-73444ea9.html"
+   },
+   {
+    "id": "73444e9d",
+    "versionId": "g6b701616",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:45:34.501+0000",
+    "artist": {
+     "mbid": "370a1c75-1008-4f47-abe9-1bd082b75935",
+     "name": "Megra",
+     "sortName": "Megra",
+     "disambiguation": "Swedish bass music producer and DJ",
+     "url": "https://www.setlist.fm/setlists/megra-5be57b9c.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/megra/2025/little-johns-farm-reading-england-73444e9d.html"
+   },
+   {
+    "id": "73444e91",
+    "versionId": "g637016fb",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:46:45.258+0000",
+    "artist": {
+     "mbid": "dfc40aee-b568-4438-988f-6fff4b4f5951",
+     "name": "mudi sama",
+     "sortName": "sama, mudi",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/mudi-sama-1bee698c.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/mudi-sama/2025/little-johns-farm-reading-england-73444e91.html"
+   },
+   {
+    "id": "73444e89",
+    "versionId": "g737016f1",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:47:10.564+0000",
+    "artist": {
+     "mbid": "91d7f956-3721-4c53-9035-f3aad3ae415a",
+     "name": "Omar+",
+     "sortName": "Omar+",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/omar-43e3830f.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/omar/2025/little-johns-farm-reading-england-73444e89.html"
+   },
+   {
+    "id": "73444e81",
+    "versionId": "g2b7c9856",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-28T17:29:10.959+0000",
+    "artist": {
+     "mbid": "efb2b5ce-8a50-4857-826d-c25d7e8941ba",
+     "name": "Origami Angel",
+     "sortName": "Origami Angel",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/origami-angel-3bca64ec.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "tour": {
+     "name": "UK Summer Tour 2025"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Self-Destruct"
+        },
+        {
+         "name": "24 Hr Drive-Thru"
+        },
+        {
+         "name": "666 Flags"
+        },
+        {
+         "name": "The Title Track"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/origami-angel/2025/little-johns-farm-reading-england-73444e81.html"
+   },
+   {
+    "id": "6b444ed6",
+    "versionId": "g6b70163e",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:41:30.014+0000",
+    "artist": {
+     "mbid": "fe0e02c5-7c00-4c69-815b-ac28817af247",
+     "name": "Finn Forster",
+     "sortName": "Forster, Finn",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/finn-forster-1be6c574.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/finn-forster/2025/little-johns-farm-reading-england-6b444ed6.html"
+   },
+   {
+    "id": "6b444e2e",
+    "versionId": "g6b70164a",
+    "eventDate": "23-08-2025",
+    "lastUpdated": "2025-08-01T15:38:47.691+0000",
+    "artist": {
+     "mbid": "5678e96a-8b2b-4332-a257-c8055d35d09b",
+     "name": "Blanco",
+     "sortName": "Blanco",
+     "disambiguation": "UK hip-hop",
+     "url": "https://www.setlist.fm/setlists/blanco-53f32381.html"
+    },
+    "venue": {
+     "id": "63d6cecf",
+     "name": "Little John's Farm",
+     "city": {
+      "id": "2639577",
+      "name": "Reading",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 51.4333333,
+       "long": -1
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/little-johns-farm-reading-england-63d6cecf.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/blanco/2025/little-johns-farm-reading-england-6b444e2e.html"
+   }
+  ]
+ }
+}

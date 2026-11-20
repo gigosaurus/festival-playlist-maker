@@ -1,0 +1,1333 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 31,
+  "setlist": [
+   {
+    "id": "b7c896a",
+    "versionId": "g53087319",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-11T22:10:09.932+0000",
+    "artist": {
+     "mbid": "e6509304-6c2d-4f94-9089-f5c40f24182e",
+     "name": "Holder",
+     "sortName": "Holder",
+     "disambiguation": "Western Massachusetts hardcore",
+     "url": "https://www.setlist.fm/setlists/holder-5390439d.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/holder/2026/sloss-furnaces-birmingham-al-b7c896a.html"
+   },
+   {
+    "id": "4b7c87ea",
+    "versionId": "g63085273",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T22:08:43.280+0000",
+    "artist": {
+     "mbid": "43b1ed6f-56c2-44a6-a54f-cccac4a40798",
+     "name": "BOLTCUTTER",
+     "sortName": "BOLTCUTTER",
+     "disambiguation": "slam/brutal death metal band from Eugene, Oregon",
+     "url": "https://www.setlist.fm/setlists/boltcutter-13e70da1.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Peterbilt Homicide"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/boltcutter/2026/sloss-furnaces-birmingham-al-4b7c87ea.html"
+   },
+   {
+    "id": "3b74f0e0",
+    "versionId": "g330854d9",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T19:24:18.410+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Playing God"
+        },
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Abigail"
+        },
+        {
+         "name": "Thoughts & Prayers"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Immaculate Misconception"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/sloss-furnaces-birmingham-al-3b74f0e0.html"
+   },
+   {
+    "id": "3b74f0dc",
+    "versionId": "g5309bf49",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T13:13:35.768+0000",
+    "artist": {
+     "mbid": "69988e03-eb43-4b6d-8beb-c42d18b4a68b",
+     "name": "Sleeping Giant",
+     "sortName": "Sleeping Giant",
+     "disambiguation": "Hardcore Band from SLC/Redlands, California, USA",
+     "url": "https://www.setlist.fm/setlists/sleeping-giant-3bd7ac2c.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Clutches"
+        },
+        {
+         "name": "Gang Signs"
+        },
+        {
+         "name": "Narrow Road"
+        },
+        {
+         "name": "The Cross Is Suicide"
+        },
+        {
+         "name": "Eyes Wide Open"
+        },
+        {
+         "name": "Behold the Pale Horse"
+        },
+        {
+         "name": "Blame It On the Holy Rollers"
+        },
+        {
+         "name": "PreachCore Lives!"
+        },
+        {
+         "name": "Sons of Thunder"
+        },
+        {
+         "name": "Sleeping Giant"
+        },
+        {
+         "name": "Tithemi"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/sleeping-giant/2026/sloss-furnaces-birmingham-al-3b74f0dc.html"
+   },
+   {
+    "id": "3b74f0d4",
+    "versionId": "g6b09b6b6",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T19:58:02.927+0000",
+    "artist": {
+     "mbid": "b0acce58-e847-4c9e-bd09-a204b965e74a",
+     "name": "Chelsea Grin",
+     "sortName": "Chelsea Grin",
+     "disambiguation": "US deathcore band",
+     "url": "https://www.setlist.fm/setlists/chelsea-grin-3bd594c8.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "name": "Chelsea Grin Self-Titled EP",
+       "song": [
+        {
+         "name": "Crewcabanger"
+        },
+        {
+         "name": "Anathema of Sick"
+        },
+        {
+         "name": "Cheyne Stokes",
+         "info": "Dedicated to Bodysnatcher"
+        },
+        {
+         "name": "Disgrace"
+        },
+        {
+         "name": "Lifeless"
+        }
+       ]
+      },
+      {
+       "name": "Others",
+       "song": [
+        {
+         "name": "Hostage"
+        },
+        {
+         "name": "Recreant"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/chelsea-grin/2026/sloss-furnaces-birmingham-al-3b74f0d4.html"
+   },
+   {
+    "id": "3b74f0c0",
+    "versionId": "g2b086422",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T04:52:29.472+0000",
+    "artist": {
+     "mbid": "1ca441fa-7cea-4f29-939b-06d8741f74c7",
+     "name": "Free Throw",
+     "sortName": "Free Throw",
+     "disambiguation": "US emo group",
+     "url": "https://www.setlist.fm/setlists/free-throw-43d8230f.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Such Luck"
+        },
+        {
+         "name": "The Corner's Dilemma"
+        },
+        {
+         "name": "Pallet Town"
+        },
+        {
+         "name": "A Hero's Grave"
+        },
+        {
+         "name": "Tongue Tied"
+        },
+        {
+         "name": "Deviancy"
+        },
+        {
+         "name": "A Part Is Better Than Zero"
+        },
+        {
+         "name": "MissingNo."
+        },
+        {
+         "name": "Randy, I Am the Liquor"
+        },
+        {
+         "name": "Two Beers In"
+        },
+        {
+         "name": "Hey Ken, Someone Methodically Mushed the Donuts"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/free-throw/2026/sloss-furnaces-birmingham-al-3b74f0c0.html"
+   },
+   {
+    "id": "3b74f0b8",
+    "versionId": "g53087331",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-11T22:07:24.592+0000",
+    "artist": {
+     "mbid": "485cf099-aa5b-434f-91f3-699f85348c83",
+     "name": "Synestia",
+     "sortName": "Synestia",
+     "disambiguation": "Deathcore Band",
+     "url": "https://www.setlist.fm/setlists/synestia-73f01211.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/synestia/2026/sloss-furnaces-birmingham-al-3b74f0b8.html"
+   },
+   {
+    "id": "3b74f088",
+    "versionId": "g4b091f8a",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-18T02:47:22.953+0000",
+    "artist": {
+     "mbid": "eae44dc7-1758-4f3b-b335-56b7a23260cc",
+     "name": "Carly Cosgrove",
+     "sortName": "Carly Cosgrove",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/carly-cosgrove-1bf38d3c.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Lick The Swingset"
+        },
+        {
+         "name": "What Are You, a Cop?"
+        },
+        {
+         "name": "Not My Job"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/carly-cosgrove/2026/sloss-furnaces-birmingham-al-3b74f088.html"
+   },
+   {
+    "id": "337e4cc1",
+    "versionId": "g4b09bfa2",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T14:11:13.205+0000",
+    "artist": {
+     "mbid": "7fcce1bf-d06f-4c12-b33b-5f49822c47b8",
+     "name": "Valley of Doves",
+     "sortName": "Valley of Doves",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/valley-of-doves-2b99402a.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Half-Life"
+        },
+        {
+         "name": "Reminder To Self"
+        },
+        {
+         "name": "Let It Die"
+        },
+        {
+         "name": "You Are the Ghost"
+        },
+        {
+         "name": "Hangman"
+        },
+        {
+         "name": "This Song Brought to You by a Falling Bomb",
+         "cover": {
+          "mbid": "0acae232-d31a-4211-b6d0-6af1b6350274",
+          "name": "Thursday",
+          "sortName": "Thursday",
+          "disambiguation": "New Jersey post‐hardcore",
+          "url": "https://www.setlist.fm/setlists/thursday-7bd6ee94.html"
+         }
+        },
+        {
+         "name": "Strangers"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/valley-of-doves/2026/sloss-furnaces-birmingham-al-337e4cc1.html"
+   },
+   {
+    "id": "3374f0dd",
+    "versionId": "g63370217",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-11-04T12:51:21.298+0000",
+    "artist": {
+     "mbid": "4fd53e84-ffa1-4434-9146-3fab25ece7e0",
+     "name": "Suicide Silence",
+     "sortName": "Suicide Silence",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/suicide-silence-2bd6fc1e.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Intro",
+         "tape": true
+        },
+        {
+         "name": "Graceless",
+         "info": "Live debut"
+        },
+        {
+         "name": "You Only Live Once"
+        },
+        {
+         "name": "Revelations",
+         "tape": true
+        },
+        {
+         "name": "Unanswered"
+        },
+        {
+         "name": "Disengage"
+        },
+        {
+         "name": "Fuck Everything"
+        },
+        {
+         "name": "Love Me to Death"
+        },
+        {
+         "name": "Bludgeoned to Death",
+         "with": {
+          "mbid": "e430f7a4-c2dd-42c0-9dbd-0402aac59efb",
+          "name": "Lilith’s Demise",
+          "sortName": "Lilith’s Demise",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/liliths-demise-6be4120a.html"
+         }
+        },
+        {
+         "name": "No Pity for a Coward"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/suicide-silence/2026/sloss-furnaces-birmingham-al-3374f0dd.html"
+   },
+   {
+    "id": "3374f0d1",
+    "versionId": "g7334ce79",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-11-09T21:56:10.799+0000",
+    "artist": {
+     "mbid": "fd012922-72b2-4aa7-b796-012f2177c5af",
+     "name": "thrown",
+     "sortName": "thrown",
+     "disambiguation": "metal/hardcore from Sweden",
+     "url": "https://www.setlist.fm/setlists/thrown-3ffed97.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "grayout"
+        },
+        {
+         "name": "guilt"
+        },
+        {
+         "name": "parasite"
+        },
+        {
+         "name": "split"
+        },
+        {
+         "name": "fast forward"
+        },
+        {
+         "name": "new low"
+        },
+        {
+         "name": "critic"
+        },
+        {
+         "name": "bloodsucker"
+        },
+        {
+         "name": "backfire"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist maybe be incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/thrown/2026/sloss-furnaces-birmingham-al-3374f0d1.html"
+   },
+   {
+    "id": "3374f0cd",
+    "versionId": "g1b084918",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T02:08:49.107+0000",
+    "artist": {
+     "mbid": "36c8b01c-cd8b-4ecd-b3fd-9f4f73371d2b",
+     "name": "Angel Du$t",
+     "sortName": "Angel Du$t",
+     "disambiguation": "Hardcore punk band",
+     "url": "https://www.setlist.fm/setlists/angel-dut-bdb4136.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Cold 2 The Touch"
+        },
+        {
+         "name": "Toxic Boombox"
+        },
+        {
+         "name": "Space Jam"
+        },
+        {
+         "name": "Take My Love"
+        },
+        {
+         "name": "Headstone"
+        },
+        {
+         "name": "The Beat"
+        },
+        {
+         "name": "I'm The Outside"
+        },
+        {
+         "name": "Love Slam"
+        },
+        {
+         "name": "Brand New Soul"
+        },
+        {
+         "name": "Stepping Stone"
+        },
+        {
+         "name": "Turn Off the Guitar"
+        },
+        {
+         "name": "Let It Rot"
+        },
+        {
+         "name": "Sippin’ Lysol"
+        },
+        {
+         "name": "Stay"
+        },
+        {
+         "name": "Set Me Up"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/angel-dut/2026/sloss-furnaces-birmingham-al-3374f0cd.html"
+   },
+   {
+    "id": "3374f0c5",
+    "versionId": "g4309afb3",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-14T01:12:53.682+0000",
+    "artist": {
+     "mbid": "7d85221d-8ec3-4049-94bf-42b213ff85d2",
+     "name": "Thousand Below",
+     "sortName": "Thousand Below",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/thousand-below-7bccee0c.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kerosene"
+        },
+        {
+         "name": "Palace of Dread"
+        },
+        {
+         "name": "SHAKE"
+        },
+        {
+         "name": "Hell Finds You Everywhere"
+        },
+        {
+         "name": "Venenosa"
+        },
+        {
+         "name": "The Love You Let Too Close"
+        },
+        {
+         "name": "Sabotage"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/thousand-below/2026/sloss-furnaces-birmingham-al-3374f0c5.html"
+   },
+   {
+    "id": "3374f0c1",
+    "versionId": "g4309bfaf",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T14:09:03.848+0000",
+    "artist": {
+     "mbid": "37661f69-2801-409e-847d-3c8b58d2ad0a",
+     "name": "Winds of Plague",
+     "sortName": "Winds of Plague",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/winds-of-plague-23d6fc33.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Decimate the Weak"
+        },
+        {
+         "name": "Angels of Debauchery"
+        },
+        {
+         "name": "Refined in the Fire"
+        },
+        {
+         "name": "The Impaler"
+        },
+        {
+         "name": "One Body Too Many"
+        },
+        {
+         "name": "Drop the Match"
+        },
+        {
+         "name": "Reloaded"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/winds-of-plague/2026/sloss-furnaces-birmingham-al-3374f0c1.html"
+   },
+   {
+    "id": "3374f0bd",
+    "versionId": "g4b08733a",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-11T22:06:40.888+0000",
+    "artist": {
+     "mbid": "4a059643-4cab-4eae-9a1a-8b46ec173eb5",
+     "name": "Sludge Mother",
+     "sortName": "Sludge Mother",
+     "disambiguation": "American grunge band founded by Cami Petyn",
+     "url": "https://www.setlist.fm/setlists/sludge-mother-2b932c96.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/sludge-mother/2026/sloss-furnaces-birmingham-al-3374f0bd.html"
+   },
+   {
+    "id": "2b74f0e6",
+    "versionId": "g33625f7",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-25T20:57:25.608+0000",
+    "artist": {
+     "mbid": "4cda7e49-b8cc-4efe-a8f6-b294d812496d",
+     "name": "Slaughter to Prevail",
+     "sortName": "Slaughter to Prevail",
+     "disambiguation": "Russian deathcore from Yekarinburg",
+     "url": "https://www.setlist.fm/setlists/slaughter-to-prevail-6bc5e6de.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Intro Voron",
+         "tape": true
+        },
+        {
+         "name": "Banditos"
+        },
+        {
+         "name": "Russian Grizzly in America"
+        },
+        {
+         "name": "Viking"
+        },
+        {
+         "name": "Bratva"
+        },
+        {
+         "name": "Baba Yaga"
+        },
+        {
+         "name": "Unanswered",
+         "cover": {
+          "mbid": "4fd53e84-ffa1-4434-9146-3fab25ece7e0",
+          "name": "Suicide Silence",
+          "sortName": "Suicide Silence",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/suicide-silence-2bd6fc1e.html"
+         },
+         "with": {
+          "mbid": "9d4c6103-14f7-44ba-bc64-12a01e72dbfb",
+          "name": "Rev3rent",
+          "sortName": "Rev3rent",
+          "disambiguation": "California deathcore band",
+          "url": "https://www.setlist.fm/setlists/rev3rent-33e34061.html"
+         }
+        },
+        {
+         "name": "Behelit"
+        },
+        {
+         "name": "Demolisher"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/slaughter-to-prevail/2026/sloss-furnaces-birmingham-al-2b74f0e6.html"
+   },
+   {
+    "id": "2b74f0e2",
+    "versionId": "g530853c1",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T21:58:56.890+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "tour": {
+     "name": "Count Your Blessings | Repented"
+    },
+    "sets": {
+     "set": [
+      {
+       "name": "Count Your Blessings | Repented",
+       "song": [
+        {
+         "name": "Pray for Plagues"
+        },
+        {
+         "name": "Tell Slater Not to Wash His Dick",
+         "info": "extended outro"
+        },
+        {
+         "name": "For Stevie Wonder's Eyes Only (Braille)"
+        },
+        {
+         "name": "A Lot Like Vegas"
+        },
+        {
+         "name": "Black & Blue"
+        },
+        {
+         "name": "Slow Dance"
+        },
+        {
+         "name": "Liquor & Love Lost",
+         "info": "“Dragon Slaying”"
+        },
+        {
+         "name": "(I Used to Make Out With) Medusa"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting"
+        },
+        {
+         "name": "Off the Heezay"
+        },
+        {
+         "name": "Dehumanized"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Suicide Season"
+        },
+        {
+         "name": "The Fox and the Wolf",
+         "info": "Live debut",
+         "with": {
+          "mbid": "66c37e04-ed9b-4bdf-9de8-69393fa75d19",
+          "name": "Josh Scogin",
+          "sortName": "Scogin, Josh",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/josh-scogin-5bdb2b3c.html"
+         }
+        },
+        {
+         "name": "Memorial",
+         "tape": true
+        },
+        {
+         "name": "Blessed With a Curse"
+        },
+        {
+         "name": "Diamonds Aren't Forever"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "The final \"Count Your Blessings\" 20th anniversary show.",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/sloss-furnaces-birmingham-al-2b74f0e2.html"
+   },
+   {
+    "id": "2b74f0de",
+    "versionId": "g4309bfa7",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-13T14:12:39.540+0000",
+    "artist": {
+     "mbid": "a02b1a45-271c-4bc3-9d82-68bb896cb5fd",
+     "name": "Norma Jean",
+     "sortName": "Norma Jean",
+     "disambiguation": "metalcore band",
+     "url": "https://www.setlist.fm/setlists/norma-jean-13d699b1.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "1994"
+        },
+        {
+         "name": "[Mind Over Mind]"
+        },
+        {
+         "name": "Spearmint Revolt"
+        },
+        {
+         "name": "Blueprints for Future Homes"
+        },
+        {
+         "name": "I. The Planet"
+        },
+        {
+         "name": "1,000,000 Watts"
+        },
+        {
+         "name": "If You Got It at Five, You Got It at Fifty"
+        },
+        {
+         "name": "Memphis Will Be Laid to Waste"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/norma-jean/2026/sloss-furnaces-birmingham-al-2b74f0de.html"
+   },
+   {
+    "id": "2b74f0da",
+    "versionId": "g430867a7",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-12T06:24:22.460+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Face Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Closure"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/sloss-furnaces-birmingham-al-2b74f0da.html"
+   },
+   {
+    "id": "2b74f0d2",
+    "versionId": "g7b3656d0",
+    "eventDate": "11-10-2026",
+    "lastUpdated": "2026-10-28T16:48:37.263+0000",
+    "artist": {
+     "mbid": "55fd865d-4a0d-4fd0-af19-7e6feb168ab8",
+     "name": "Bleeding Through",
+     "sortName": "Bleeding Through",
+     "disambiguation": "Californian metalcore band",
+     "url": "https://www.setlist.fm/setlists/bleeding-through-3d699d3.html"
+    },
+    "venue": {
+     "id": "3bd634d0",
+     "name": "Sloss Furnaces",
+     "city": {
+      "id": "4049979",
+      "name": "Birmingham",
+      "state": "Alabama",
+      "stateCode": "AL",
+      "coords": {
+       "lat": 33.5206608,
+       "long": -86.80249
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/sloss-furnaces-birmingham-al-usa-3bd634d0.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Love Lost in a Hail of Gunfire"
+        },
+        {
+         "name": "For Love and Failing"
+        },
+        {
+         "name": "Orange County Blonde and Blue"
+        },
+        {
+         "name": "Dead but So Alive"
+        },
+        {
+         "name": "Revenge I Seek"
+        },
+        {
+         "name": "Rise"
+        },
+        {
+         "name": "Lost in Isolation"
+        },
+        {
+         "name": "Kill to Believe"
+        },
+        {
+         "name": "On Wings of Lead"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bleeding-through/2026/sloss-furnaces-birmingham-al-2b74f0d2.html"
+   }
+  ]
+ }
+}

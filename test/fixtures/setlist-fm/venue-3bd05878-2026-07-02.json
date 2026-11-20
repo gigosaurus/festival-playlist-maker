@@ -1,0 +1,299 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "334a1499",
+    "versionId": "g30655bb",
+    "eventDate": "02-07-2026",
+    "lastUpdated": "2026-07-03T11:51:01.636+0000",
+    "artist": {
+     "mbid": "368f19e5-51c0-45d7-80c5-963be6971ac7",
+     "name": "Thornhill",
+     "sortName": "Thornhill",
+     "disambiguation": "Melbourne metalcore",
+     "url": "https://www.setlist.fm/setlists/thornhill-7bcb8e1c.html"
+    },
+    "venue": {
+     "id": "3bd05878",
+     "name": "Piazza Ariostea",
+     "city": {
+      "id": "8954746",
+      "name": "Ferrara",
+      "state": "Abruzzo",
+      "stateCode": "01",
+      "coords": {
+       "lat": 42.37716,
+       "long": 14.30655
+      },
+      "country": {
+       "code": "IT",
+       "name": "Italy"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/piazza-ariostea-ferrara-italy-3bd05878.html"
+    },
+    "tour": {
+     "name": "Mercia"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DIESEL"
+        },
+        {
+         "name": "Revolver"
+        },
+        {
+         "name": "under the knife"
+        },
+        {
+         "name": "Silver Swarm"
+        },
+        {
+         "name": "fall into the wind",
+         "tape": true
+        },
+        {
+         "name": "TONGUES"
+        },
+        {
+         "name": "Obsession"
+        },
+        {
+         "name": "nerv"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/thornhill/2026/piazza-ariostea-ferrara-italy-334a1499.html"
+   },
+   {
+    "id": "2b4a149a",
+    "versionId": "g2307ac9f",
+    "eventDate": "02-07-2026",
+    "lastUpdated": "2026-07-04T12:24:48.209+0000",
+    "artist": {
+     "mbid": "736680eb-da66-4859-bc3a-9e340c570625",
+     "name": "Malevolence",
+     "sortName": "Malevolence",
+     "disambiguation": "British hardcore band from Sheffield",
+     "url": "https://www.setlist.fm/setlists/malevolence-4bd9d762.html"
+    },
+    "venue": {
+     "id": "3bd05878",
+     "name": "Piazza Ariostea",
+     "city": {
+      "id": "8954746",
+      "name": "Ferrara",
+      "state": "Abruzzo",
+      "stateCode": "01",
+      "coords": {
+       "lat": 42.37716,
+       "long": 14.30655
+      },
+      "country": {
+       "code": "IT",
+       "name": "Italy"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/piazza-ariostea-ferrara-italy-3bd05878.html"
+    },
+    "tour": {
+     "name": "Live in Europe Summer 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Trenches"
+        },
+        {
+         "name": "Life Sentence"
+        },
+        {
+         "name": "So Help Me God"
+        },
+        {
+         "name": "Self Supremacy"
+        },
+        {
+         "name": "Karma"
+        },
+        {
+         "name": "Keep Your Distance",
+         "info": "On Vocal Marc Zellweger of Palefass Swiss"
+        },
+        {
+         "name": "On Broken Glass"
+        },
+        {
+         "name": "If It's All the Same to You"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Tony Evans of Desolated has replaced Alex Taylor due to medical urgency for the rest of European tour",
+    "url": "https://www.setlist.fm/setlist/malevolence/2026/piazza-ariostea-ferrara-italy-2b4a149a.html"
+   },
+   {
+    "id": "234a149f",
+    "versionId": "g2b6d4862",
+    "eventDate": "02-07-2026",
+    "lastUpdated": "2026-01-23T10:39:14.003+0000",
+    "artist": {
+     "mbid": "a13e51cc-e031-45aa-92e4-1c92520faa0a",
+     "name": "Dying Wish",
+     "sortName": "Dying Wish",
+     "disambiguation": "Portland hardcore",
+     "url": "https://www.setlist.fm/setlists/dying-wish-1bf0890c.html"
+    },
+    "venue": {
+     "id": "3bd05878",
+     "name": "Piazza Ariostea",
+     "city": {
+      "id": "8954746",
+      "name": "Ferrara",
+      "state": "Abruzzo",
+      "stateCode": "01",
+      "coords": {
+       "lat": 42.37716,
+       "long": 14.30655
+      },
+      "country": {
+       "code": "IT",
+       "name": "Italy"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/piazza-ariostea-ferrara-italy-3bd05878.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/dying-wish/2026/piazza-ariostea-ferrara-italy-234a149f.html"
+   },
+   {
+    "id": "234a149b",
+    "versionId": "g3b374c88",
+    "eventDate": "02-07-2026",
+    "lastUpdated": "2026-11-06T08:37:20.968+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3bd05878",
+     "name": "Piazza Ariostea",
+     "city": {
+      "id": "8954746",
+      "name": "Ferrara",
+      "state": "Abruzzo",
+      "stateCode": "01",
+      "coords": {
+       "lat": 42.37716,
+       "long": 14.30655
+      },
+      "country": {
+       "code": "IT",
+       "name": "Italy"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/piazza-ariostea-ferrara-italy-3bd05878.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "with snippet of \"Pray for Plagues\" during the breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "With fan Andrea on stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown",
+         "info": "Barricade walk"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Dehumanized",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/piazza-ariostea-ferrara-italy-234a149b.html"
+   }
+  ]
+ }
+}

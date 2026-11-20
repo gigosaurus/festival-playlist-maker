@@ -1,0 +1,1265 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 37,
+  "setlist": [
+   {
+    "id": "7b4926b0",
+    "versionId": "g7b0206cc",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:56:00.728+0000",
+    "artist": {
+     "mbid": "e14decaf-824e-4bc9-8fa3-54ff61c3f1d0",
+     "name": "Pogány Induló",
+     "sortName": "Pogány Induló",
+     "disambiguation": "Szirmai Marcell",
+     "url": "https://www.setlist.fm/setlists/pogany-indulo-7bf86a00.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/pogany-indulo/2026/obudai-sziget-budapest-hungary-7b4926b0.html"
+   },
+   {
+    "id": "734a86b9",
+    "versionId": "g530a4fbd",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-09-28T11:34:59.640+0000",
+    "artist": {
+     "mbid": "ac1739a6-4378-42fb-89f6-1f89e32e4369",
+     "name": "Baby Lasagna",
+     "sortName": "Baby Lasagna",
+     "disambiguation": "HR (Croatia) | rock",
+     "url": "https://www.setlist.fm/setlists/baby-lasagna-73e7e64d.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "",
+         "tape": true
+        },
+        {
+         "name": "Hypocritical"
+        },
+        {
+         "name": "IG BOY"
+        },
+        {
+         "name": "Good Boy Lasagna"
+        },
+        {
+         "name": "Dopamine"
+        },
+        {
+         "name": "Sedated"
+        },
+        {
+         "name": "Beskonačna osveta 2",
+         "cover": {
+          "mbid": "7182f438-7227-452b-8096-4fdaa17f8c34",
+          "name": "Baby Lasagna & Vojko Vrućina",
+          "sortName": "Baby Lasagna & Vrućina, Vojko",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/baby-lasagna-and-vojko-vruina-38741cb.html"
+         }
+        },
+        {
+         "name": "Intro Again",
+         "tape": true
+        },
+        {
+         "name": "Again"
+        },
+        {
+         "name": "Catch Me If You Can"
+        },
+        {
+         "name": "Bam Bam Bira",
+         "cover": {
+          "mbid": "d3d5c4b5-f4c8-40c5-a4dd-d8a62b924ca2",
+          "name": "KUKU$ & Baby Lasagna",
+          "sortName": "KUKU$ & Baby Lasagna",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kuku-and-baby-lasagna-b8741ca.html"
+         }
+        },
+        {
+         "name": "End the Party"
+        },
+        {
+         "name": "Face on Your Phone",
+         "info": "with Korn's \"Blind\" as intro"
+        },
+        {
+         "name": "Demons & Mosquitoes"
+        },
+        {
+         "name": "#eurodab",
+         "cover": {
+          "mbid": "af25c611-9053-45a9-a43f-9f7a35f71fec",
+          "name": "Käärijä & Baby Lasagna",
+          "sortName": "Käärijä & Baby Lasagna",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kaarija-and-baby-lasagna-2392a86f.html"
+         }
+        },
+        {
+         "name": "Biggie Boom Boom"
+        },
+        {
+         "name": "Don't Hate Yourself, but Don't Love Yourself Too Much"
+        },
+        {
+         "name": "Intro RTTD",
+         "tape": true
+        },
+        {
+         "name": "Rim Tim Tagi Dim"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/baby-lasagna/2026/obudai-sziget-budapest-hungary-734a86b9.html"
+   },
+   {
+    "id": "734926c5",
+    "versionId": "g730206cd",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:55:52.722+0000",
+    "artist": {
+     "mbid": "cd5799f6-e6cf-4322-a659-96f5de4a2f6c",
+     "name": "Altın Gün",
+     "sortName": "Altın Gün",
+     "disambiguation": "Dutch‐Turkish psychedelic rock band",
+     "url": "https://www.setlist.fm/setlists/altn-gun-23cfe48f.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/altn-gun/2026/obudai-sziget-budapest-hungary-734926c5.html"
+   },
+   {
+    "id": "734926bd",
+    "versionId": "g53006f91",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-14T15:36:59.831+0000",
+    "artist": {
+     "mbid": "1824309f-b00f-41af-a43d-fa11d4081b95",
+     "name": "Karen Dió",
+     "sortName": "Dió, Karen",
+     "disambiguation": "female Brazilian punk rock/rock vocalist",
+     "url": "https://www.setlist.fm/setlists/karen-dio-73e54ae1.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Euphoria"
+        },
+        {
+         "name": "Free Yourself"
+        },
+        {
+         "name": "My World"
+        },
+        {
+         "name": "Stupid"
+        },
+        {
+         "name": "Cut Your Hair"
+        },
+        {
+         "name": "So Funny"
+        },
+        {
+         "name": "Poor Man"
+        },
+        {
+         "name": "Bexy"
+        },
+        {
+         "name": "Casual",
+         "cover": {
+          "mbid": "56a55378-f155-48de-80a5-d80104221267",
+          "name": "Chappell Roan",
+          "sortName": "Roan, Chappell",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/chappell-roan-6bcad6ce.html"
+         }
+        },
+        {
+         "name": "I Wanna Be",
+         "cover": {
+          "mbid": "ce1509b1-fc1a-4b0a-aeb3-36cbf9cc11fb",
+          "name": "Pitty",
+          "sortName": "Pitty",
+          "disambiguation": "Brazilian rock singer",
+          "url": "https://www.setlist.fm/setlists/pitty-4bdcc3a2.html"
+         }
+        },
+        {
+         "name": "I Hope You Know"
+        },
+        {
+         "name": "Do It"
+        },
+        {
+         "name": "Buy My Merch"
+        },
+        {
+         "name": "Choke"
+        },
+        {
+         "name": "3am"
+        },
+        {
+         "name": "Sick Ride"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Livestreamed on Sziget Festival youtube channel",
+    "url": "https://www.setlist.fm/setlist/karen-dio/2026/obudai-sziget-budapest-hungary-734926bd.html"
+   },
+   {
+    "id": "734926b9",
+    "versionId": "g6b0206d6",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:55:02.424+0000",
+    "artist": {
+     "mbid": "0e72127e-85ce-49a3-8b8e-0bdc0b0d80af",
+     "name": "Bëlga",
+     "sortName": "Bëlga",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/belga-2bd70862.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/belga/2026/obudai-sziget-budapest-hungary-734926b9.html"
+   },
+   {
+    "id": "734926b1",
+    "versionId": "g2301a077",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-16T15:06:49.900+0000",
+    "artist": {
+     "mbid": "88927646-0c28-4b1b-a69e-cb33c400d650",
+     "name": "Nation of Language",
+     "sortName": "Nation of Language",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/nation-of-language-43cb5793.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "This Fractured Mind"
+        },
+        {
+         "name": "September Again"
+        },
+        {
+         "name": "Sole Obsession"
+        },
+        {
+         "name": "Wounds of Love"
+        },
+        {
+         "name": "I'm Not Ready for the Change"
+        },
+        {
+         "name": "The Grey Commute"
+        },
+        {
+         "name": "On Division St"
+        },
+        {
+         "name": "The Wall & I"
+        },
+        {
+         "name": "Weak in Your Light"
+        },
+        {
+         "name": "In Your Head"
+        },
+        {
+         "name": "Inept Apollo"
+        },
+        {
+         "name": "Across That Fine Line"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/nation-of-language/2026/obudai-sziget-budapest-hungary-734926b1.html"
+   },
+   {
+    "id": "6b4926c6",
+    "versionId": "g1b005db0",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-15T00:26:27.643+0000",
+    "artist": {
+     "mbid": "73183948-2489-41cb-9a2d-8be5071971a5",
+     "name": "Sigrid",
+     "sortName": "Sigrid",
+     "disambiguation": "Norwegian singer",
+     "url": "https://www.setlist.fm/setlists/sigrid-23ccb8ff.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I'll Always Be Your Girl"
+        },
+        {
+         "name": "Burning Bridges"
+        },
+        {
+         "name": "Head on Fire",
+         "cover": {
+          "mbid": "2277e0a6-213c-4ae8-9d03-b4e5ce10adf5",
+          "name": "Griff x Sigrid",
+          "sortName": "Griff x Sigrid",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/griff-x-sigrid-13fcc565.html"
+         }
+        },
+        {
+         "name": "Sucker Punch"
+        },
+        {
+         "name": "Jellyfish"
+        },
+        {
+         "name": "High Five"
+        },
+        {
+         "name": "Mirror"
+        },
+        {
+         "name": "Hush Baby, Hurry Slowly"
+        },
+        {
+         "name": "Don't Feel Like Crying"
+        },
+        {
+         "name": "Have You Heard This Song Before"
+        },
+        {
+         "name": "Daffodils"
+        },
+        {
+         "name": "It Gets Dark"
+        },
+        {
+         "name": "Fort Knox"
+        },
+        {
+         "name": "Don't Kill My Vibe"
+        },
+        {
+         "name": "Strangers"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/sigrid/2026/obudai-sziget-budapest-hungary-6b4926c6.html"
+   },
+   {
+    "id": "6b4926b2",
+    "versionId": "g6b0206de",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:54:21.702+0000",
+    "artist": {
+     "mbid": "14d822c5-5f0e-4415-ac14-da7f49a2280e",
+     "name": "Naïka",
+     "sortName": "Naïka",
+     "disambiguation": "American-born French-Haitian singer",
+     "url": "https://www.setlist.fm/setlists/naika-63e6f227.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/naika/2026/obudai-sziget-budapest-hungary-6b4926b2.html"
+   },
+   {
+    "id": "6b4926aa",
+    "versionId": "g7b0206e8",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:52:33.482+0000",
+    "artist": {
+     "mbid": "7a0de761-58b2-4629-8be2-a6382713d8ee",
+     "name": "YARIMA",
+     "sortName": "YARIMA",
+     "disambiguation": "Ukrainian singer",
+     "url": "https://www.setlist.fm/setlists/yarima-3be08084.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/yarima/2026/obudai-sziget-budapest-hungary-6b4926aa.html"
+   },
+   {
+    "id": "634926c7",
+    "versionId": "g7b0206bc",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:57:44.244+0000",
+    "artist": {
+     "mbid": "4c41d78d-9dd5-430d-81ea-286052158293",
+     "name": "Peggy Gou",
+     "sortName": "Gou, Peggy",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/peggy-gou-2bc304ca.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/peggy-gou/2026/obudai-sziget-budapest-hungary-634926c7.html"
+   },
+   {
+    "id": "634926c3",
+    "versionId": "g3b005c50",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-15T00:33:37.760+0000",
+    "artist": {
+     "mbid": "38474d18-9204-4f60-a137-1fcc6750b869",
+     "name": "Skepta",
+     "sortName": "Skepta",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/skepta-33d6bcad.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Shutdown"
+        },
+        {
+         "name": "Cops & Robbers",
+         "cover": {
+          "mbid": "e23abc5f-478a-4594-ad18-b3805b3c5316",
+          "name": "Sammy Virji",
+          "sortName": "Virji, Sammy",
+          "disambiguation": "UK garage producer",
+          "url": "https://www.setlist.fm/setlists/sammy-virji-3bf4a400.html"
+         }
+        },
+        {
+         "name": "That's Not Me"
+        },
+        {
+         "name": "Gas Me Up (Diligent)"
+        },
+        {
+         "name": "Redrum"
+        },
+        {
+         "name": "Ten",
+         "cover": {
+          "mbid": "b0337af1-8d93-4671-b6c9-ba306bf942bf",
+          "name": "Central Cee",
+          "sortName": "Central Cee",
+          "disambiguation": "London rapper",
+          "url": "https://www.setlist.fm/setlists/central-cee-6bf4c2e2.html"
+         }
+        },
+        {
+         "name": "Show Out",
+         "cover": {
+          "mbid": "e0e1db18-f7ba-4dee-95ff-7ae8cf545460",
+          "name": "Kid Cudi",
+          "sortName": "Kid Cudi",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kid-cudi-3bd6406c.html"
+         },
+         "info": "one verse only"
+        },
+        {
+         "name": "TOXIC",
+         "cover": {
+          "mbid": "2baf3276-ed6a-4349-8d2e-f4601e7b2167",
+          "name": "Playboi Carti",
+          "sortName": "Playboi Carti",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/playboi-carti-63c7fa8f.html"
+         }
+        },
+        {
+         "name": "It Ain't Safe"
+        },
+        {
+         "name": "No Security"
+        },
+        {
+         "name": "Nasty"
+        },
+        {
+         "name": "Pure Water"
+        },
+        {
+         "name": "Bullet From a Gun"
+        },
+        {
+         "name": "Text Me Back"
+        },
+        {
+         "name": "Energy (Stay Far Away)",
+         "info": "one verse only"
+        },
+        {
+         "name": "Papi Chulo",
+         "cover": {
+          "mbid": "187bbdde-343a-4978-9cb4-08df62e18986",
+          "name": "Octavian",
+          "sortName": "Octavian",
+          "disambiguation": "South-London based rapper",
+          "url": "https://www.setlist.fm/setlists/octavian-bcaf11e.html"
+         },
+         "info": "one verse only"
+        },
+        {
+         "name": "Praise the Lord (Da Shine)",
+         "cover": {
+          "mbid": "25b7b584-d952-4662-a8b9-dd8cdfbfeb64",
+          "name": "A$AP Rocky",
+          "sortName": "ASAP Rocky",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/aap-rocky-bd3e58e.html"
+         }
+        },
+        {
+         "name": "Victory Lap",
+         "cover": {
+          "mbid": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "name": "Fred again..",
+          "sortName": "Fred again..",
+          "disambiguation": "UK producer, songwriter, multi-instrumentalist and DJ",
+          "url": "https://www.setlist.fm/setlists/fred-again-23f480f3.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/skepta/2026/obudai-sziget-budapest-hungary-634926c3.html"
+   },
+   {
+    "id": "634926bf",
+    "versionId": "g6b0206b6",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:58:30.667+0000",
+    "artist": {
+     "mbid": "d6215f57-ea3f-4b45-8849-13f4ab3ae42a",
+     "name": "Bratři",
+     "sortName": "Bratři",
+     "disambiguation": "Czech electronic group",
+     "url": "https://www.setlist.fm/setlists/brati-2bf9d80e.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/brati/2026/obudai-sziget-budapest-hungary-634926bf.html"
+   },
+   {
+    "id": "634926bb",
+    "versionId": "g73006295",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-15T00:22:39.439+0000",
+    "artist": {
+     "mbid": "2a64bd71-6d43-4b62-8b6b-835b083cd1f4",
+     "name": "Annisokay",
+     "sortName": "Annisokay",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/annisokay-73db2ec5.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Into the Abyss",
+         "tape": true,
+         "info": "Intro"
+        },
+        {
+         "name": "Throne of the Sunset"
+        },
+        {
+         "name": "Never Enough"
+        },
+        {
+         "name": "Ultraviolet"
+        },
+        {
+         "name": "Like a Parasite"
+        },
+        {
+         "name": "Splinters"
+        },
+        {
+         "name": "Good Stories"
+        },
+        {
+         "name": "My Effigy"
+        },
+        {
+         "name": "Human"
+        },
+        {
+         "name": "H.A.T.E.",
+         "cover": {
+          "mbid": "41dc98fa-8c25-40bc-a2fe-f1c38fdd60fe",
+          "name": "Any Given Day & Annisokay",
+          "sortName": "Any Given Day & Annisokay",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/any-given-day-and-annisokay-4be7a7fe.html"
+         }
+        },
+        {
+         "name": "Inner Sanctum"
+        },
+        {
+         "name": "Coma Blue"
+        },
+        {
+         "name": "Calamity"
+        },
+        {
+         "name": "STFU"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/annisokay/2026/obudai-sziget-budapest-hungary-634926bb.html"
+   },
+   {
+    "id": "634926b7",
+    "versionId": "g3005d9f",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-15T00:28:18.685+0000",
+    "artist": {
+     "mbid": "32a49e9e-2434-49ab-9194-3985d757de40",
+     "name": "Rose Gray",
+     "sortName": "Gray, Rose",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/rose-gray-53f60ba5.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Angel of Satisfaction"
+        },
+        {
+         "name": "ATTENTION!",
+         "cover": {
+          "mbid": "fab34286-b8e1-4879-bce3-194e1358fbd2",
+          "name": "Kesha",
+          "sortName": "Kesha",
+          "disambiguation": "American singer fka Ke$ha",
+          "url": "https://www.setlist.fm/setlists/kesha-7bd43a28.html"
+         }
+        },
+        {
+         "name": "Damn"
+        },
+        {
+         "name": "Just Two"
+        },
+        {
+         "name": "Free"
+        },
+        {
+         "name": "Switch"
+        },
+        {
+         "name": "Just Be Bodies"
+        },
+        {
+         "name": "I Don't Speak French"
+        },
+        {
+         "name": "Lotus"
+        },
+        {
+         "name": "God Is a DJ / Music"
+        },
+        {
+         "name": "Wet & Wild"
+        },
+        {
+         "name": "Tectonic"
+        },
+        {
+         "name": "Club to Your Arms"
+        },
+        {
+         "name": "Everything Changes (But I Won’t)"
+        },
+        {
+         "name": "April"
+        },
+        {
+         "name": "Party People"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/rose-gray/2026/obudai-sziget-budapest-hungary-634926b7.html"
+   },
+   {
+    "id": "634926ab",
+    "versionId": "g7b0206c8",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:55:42.954+0000",
+    "artist": {
+     "mbid": "f1d46f29-34fd-4cd5-959f-0a213e1f1d8e",
+     "name": "Ski Aggu",
+     "sortName": "Ski Aggu",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/ski-aggu-63fc86cb.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/ski-aggu/2026/obudai-sziget-budapest-hungary-634926ab.html"
+   },
+   {
+    "id": "4b76bf52",
+    "versionId": "g1b01e5b4",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-08-18T12:06:11.365+0000",
+    "artist": {
+     "mbid": "d16598bc-0fac-4c31-8647-578cc15875ce",
+     "name": "AWS",
+     "sortName": "AWS",
+     "disambiguation": "Hungarian metal and post-hardcore band",
+     "url": "https://www.setlist.fm/setlists/aws-13c69d5d.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hol voltál?"
+        },
+        {
+         "name": "X/0"
+        },
+        {
+         "name": "Fekete részem"
+        },
+        {
+         "name": "Sorsforgató"
+        },
+        {
+         "name": "Senki nincs már ébren"
+        },
+        {
+         "name": "Takard el"
+        },
+        {
+         "name": "Fények nélkül"
+        },
+        {
+         "name": "Lelket vennék"
+        },
+        {
+         "name": "Innen szép nyerni"
+        },
+        {
+         "name": "Temetetlen halott"
+        },
+        {
+         "name": "2359"
+        },
+        {
+         "name": "Hajnali járat"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Fuss!",
+         "info": "Slayer- Raining Blood intro"
+        },
+        {
+         "name": "Viszlát nyár"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/aws/2026/obudai-sziget-budapest-hungary-4b76bf52.html"
+   },
+   {
+    "id": "4b4b878e",
+    "versionId": "g6302c6c3",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-29T16:11:23.841+0000",
+    "artist": {
+     "mbid": "09d6b57e-9cd9-4a74-b7cb-842b8443a1cd",
+     "name": "Nia Archives",
+     "sortName": "Nia Archives",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/nia-archives-73f13a01.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/nia-archives/2026/obudai-sziget-budapest-hungary-4b4b878e.html"
+   },
+   {
+    "id": "434b879f",
+    "versionId": "g6b0206c6",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:57:01.409+0000",
+    "artist": {
+     "mbid": "4f6370b6-46cc-44dd-a891-c58735310499",
+     "name": "Beton.Hofi",
+     "sortName": "Beton.Hofi",
+     "disambiguation": "Hungarian rapper and actor",
+     "url": "https://www.setlist.fm/setlists/betonhofi-63f08647.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/betonhofi/2026/obudai-sziget-budapest-hungary-434b879f.html"
+   },
+   {
+    "id": "3b7034fc",
+    "versionId": "g6b0206f2",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:51:53.561+0000",
+    "artist": {
+     "mbid": "ccf9484c-6b0f-4ee1-b088-35ec3af6d6f7",
+     "name": "Sodakill",
+     "sortName": "Sodakill",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/sodakill-be485ca.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/sodakill/2026/obudai-sziget-budapest-hungary-3b7034fc.html"
+   },
+   {
+    "id": "3b7034e0",
+    "versionId": "g630206b3",
+    "eventDate": "14-08-2026",
+    "lastUpdated": "2026-07-31T15:58:02.568+0000",
+    "artist": {
+     "mbid": "b4101bc1-7151-43e4-a893-72c1384913a5",
+     "name": "LAMMER",
+     "sortName": "LAMMER",
+     "disambiguation": "DJ, Boris Lammertse",
+     "url": "https://www.setlist.fm/setlists/lammer-33e33491.html"
+    },
+    "venue": {
+     "id": "23d6d46b",
+     "name": "Óbudai-Sziget",
+     "city": {
+      "id": "3054638",
+      "name": "Budapest",
+      "state": "Budapest",
+      "stateCode": "05",
+      "coords": {
+       "lat": 47.5,
+       "long": 19.08333
+      },
+      "country": {
+       "code": "HU",
+       "name": "Hungary"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/obudai-sziget-budapest-hungary-23d6d46b.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/lammer/2026/obudai-sziget-budapest-hungary-3b7034e0.html"
+   }
+  ]
+ }
+}

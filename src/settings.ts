@@ -20,7 +20,7 @@ export interface Settings {
   prediction: PredictionSettings;
 }
 
-// The numbers of the song prediction method (issue #12).
+// The numbers of the song prediction method (issues #12 and #13).
 export interface PredictionSettings {
   // The application uses the shows of this number of months before the calculation.
   lookBackMonths: number;
@@ -35,6 +35,20 @@ export interface PredictionSettings {
   // The maximum number of Spotify track searches for one artist. Each search
   // uses Spotify quota, so a song list with few Spotify recordings stops here.
   spotifySearches: number;
+  // A show is a festival set when MusicBrainz has a festival of the artist on the
+  // date, or when setlist.fm has this number of artists, or more, at the same
+  // venue on the same date. Use a number of 20 or less,
+  // because the application counts the artists on one page of 20 setlists.
+  festivalSetArtists: number;
+  // The weight of a festival set is this number of times the weight of a different show.
+  festivalSetWeight: number;
+  // All the shows of one tour together count a maximum of this number of shows.
+  // Festival sets are not in this limit, because setlist.fm often gives a tour
+  // name to the festival sets of a summer.
+  tourShowLimit: number;
+  // setlist.fm users add setlists after a show. A result "not a festival set"
+  // from fewer than this number of days after the date is checked again.
+  festivalSetCheckDays: number;
 }
 
 export const defaultPredictionSettings: PredictionSettings = {
@@ -44,4 +58,8 @@ export const defaultPredictionSettings: PredictionSettings = {
   validMonths: 6,
   setlistPages: 10,
   spotifySearches: 20,
+  festivalSetArtists: 10,
+  festivalSetWeight: 2,
+  tourShowLimit: 3,
+  festivalSetCheckDays: 30,
 };

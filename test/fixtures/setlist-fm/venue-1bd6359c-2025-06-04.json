@@ -1,0 +1,137 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 1,
+  "setlist": [
+   {
+    "id": "4347a727",
+    "versionId": "g4b4847a2",
+    "eventDate": "04-06-2025",
+    "lastUpdated": "2025-06-06T16:01:16.449+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "1bd6359c",
+     "name": "Palladium",
+     "city": {
+      "id": "2886242",
+      "name": "Cologne",
+      "state": "North Rhine-Westphalia",
+      "stateCode": "07",
+      "coords": {
+       "lat": 50.9333333,
+       "long": 6.95
+      },
+      "country": {
+       "code": "DE",
+       "name": "Germany"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palladium-cologne-germany-1bd6359c.html"
+    },
+    "tour": {
+     "name": "Deutschland: SUMMER OF BECOMING"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "The Best Is Yet to Come",
+         "tape": true,
+         "cover": {
+          "mbid": "1ed2bf0a-a540-4e48-9336-67cb71b545b5",
+          "name": "Aoife Ní Fhearraigh",
+          "sortName": "Ní Fhearraigh, Aoife",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aoife-ni-fhearraigh-13d6e99d.html"
+         }
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Wonderwall",
+         "cover": {
+          "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+          "name": "Oasis",
+          "sortName": "Oasis",
+          "disambiguation": "Noel & Liam Gallagher",
+          "url": "https://www.setlist.fm/setlists/oasis-bd6bd7e.html"
+         },
+         "info": "Live debut"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "Fan on stage"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2025/palladium-cologne-germany-4347a727.html"
+   }
+  ]
+ }
+}

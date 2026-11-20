@@ -1,0 +1,299 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "3414957",
+    "versionId": "gb1c99be",
+    "eventDate": "11-05-2026",
+    "lastUpdated": "2026-05-12T00:10:50.429+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "4bd2c342",
+     "name": "Enterprise Center",
+     "city": {
+      "id": "4407066",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 38.6272733,
+       "long": -90.1978889
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/enterprise-center-st-louis-mo-usa-4bd2c342.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/enterprise-center-st-louis-mo-3414957.html"
+   },
+   {
+    "id": "1b414974",
+    "versionId": "g6b1cf272",
+    "eventDate": "11-05-2026",
+    "lastUpdated": "2026-05-13T05:36:05.164+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "4bd2c342",
+     "name": "Enterprise Center",
+     "city": {
+      "id": "4407066",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 38.6272733,
+       "long": -90.1978889
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/enterprise-center-st-louis-mo-usa-4bd2c342.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song",
+         "info": "during this song, Sykes was hit by a phone that was thrown by a fan"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With \"Pray For Plagues\" tease during breakdown"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        },
+        {
+         "name": "Steal Something.",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Touring Rythum Guitarist John Jones was absent from this show due to medical reasons. Oli did not come into the crowd during \"Drown\", likely due to Oli being hit in the head with a smartphone thrown by an audience member at the end of \"Happy Song\".",
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/enterprise-center-st-louis-mo-1b414974.html"
+   },
+   {
+    "id": "1341495d",
+    "versionId": "g531c9b19",
+    "eventDate": "11-05-2026",
+    "lastUpdated": "2026-05-12T01:36:46.055+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "4bd2c342",
+     "name": "Enterprise Center",
+     "city": {
+      "id": "4407066",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 38.6272733,
+       "long": -90.1978889
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/enterprise-center-st-louis-mo-usa-4bd2c342.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Hollow Points"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/enterprise-center-st-louis-mo-1341495d.html"
+   },
+   {
+    "id": "13414955",
+    "versionId": "g5b1c83e0",
+    "eventDate": "11-05-2026",
+    "lastUpdated": "2026-05-12T19:10:19.166+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "4bd2c342",
+     "name": "Enterprise Center",
+     "city": {
+      "id": "4407066",
+      "name": "St. Louis",
+      "state": "Missouri",
+      "stateCode": "MO",
+      "coords": {
+       "lat": 38.6272733,
+       "long": -90.1978889
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/enterprise-center-st-louis-mo-usa-4bd2c342.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Tonight"
+        },
+        {
+         "name": "Forever Overdose"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2026/enterprise-center-st-louis-mo-13414955.html"
+   }
+  ]
+ }
+}

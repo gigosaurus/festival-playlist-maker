@@ -1,0 +1,396 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "4b49d372",
+    "versionId": "g730bba85",
+    "eventDate": "05-09-2026",
+    "lastUpdated": "2026-09-29T01:39:39.656+0000",
+    "artist": {
+     "mbid": "f6af669a-56ea-448a-a044-de76181ada33",
+     "name": "mgk",
+     "sortName": "mgk",
+     "disambiguation": "rapper Colson Baker, fka Machine Gun Kelly",
+     "url": "https://www.setlist.fm/setlists/mgk-2bd318aa.html"
+    },
+    "venue": {
+     "id": "33dfe4e1",
+     "name": "Palco Mundo",
+     "city": {
+      "id": "3451190",
+      "name": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "stateCode": "RJ",
+      "coords": {
+       "lat": -22.903,
+       "long": -43.208
+      },
+      "country": {
+       "code": "BR",
+       "name": "Brazil"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palco-mundo-rio-de-janeiro-brazil-33dfe4e1.html"
+    },
+    "tour": {
+     "name": "Lost Americana Tour"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "FIX UR FACE"
+        },
+        {
+         "name": "WWIII"
+        },
+        {
+         "name": "Till I Die"
+        },
+        {
+         "name": "I Think I'm OKAY"
+        },
+        {
+         "name": "dont wait run fast"
+        },
+        {
+         "name": "maybe"
+        },
+        {
+         "name": "bloody valentine"
+        },
+        {
+         "name": "forget me too"
+        },
+        {
+         "name": "lonely"
+        },
+        {
+         "name": "born with horns"
+        },
+        {
+         "name": "concert for aliens"
+        },
+        {
+         "name": "title track"
+        },
+        {
+         "name": "nothing inside"
+        },
+        {
+         "name": "papercuts"
+        },
+        {
+         "name": "vampire diaries"
+        },
+        {
+         "name": "my ex's best friend"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/mgk/2026/palco-mundo-rio-de-janeiro-brazil-4b49d372.html"
+   },
+   {
+    "id": "4349d373",
+    "versionId": "g2b0cf87e",
+    "eventDate": "05-09-2026",
+    "lastUpdated": "2026-09-09T00:15:25.957+0000",
+    "artist": {
+     "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+     "name": "Sepultura",
+     "sortName": "Sepultura",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/sepultura-bd699d6.html"
+    },
+    "venue": {
+     "id": "33dfe4e1",
+     "name": "Palco Mundo",
+     "city": {
+      "id": "3451190",
+      "name": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "stateCode": "RJ",
+      "coords": {
+       "lat": -22.903,
+       "long": -43.208
+      },
+      "country": {
+       "code": "BR",
+       "name": "Brazil"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palco-mundo-rio-de-janeiro-brazil-33dfe4e1.html"
+    },
+    "tour": {
+     "name": "Celebrating Life Through Death"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Tribus",
+         "tape": true
+        },
+        {
+         "name": "Against"
+        },
+        {
+         "name": "Choke"
+        },
+        {
+         "name": "All Souls Rising"
+        },
+        {
+         "name": "Kairos"
+        },
+        {
+         "name": "Means to an End"
+        },
+        {
+         "name": "The Place"
+        },
+        {
+         "name": "Phantom Self"
+        },
+        {
+         "name": "Convicted in Life"
+        },
+        {
+         "name": "Sacred Books",
+         "info": "live debut"
+        },
+        {
+         "name": "Mind War"
+        },
+        {
+         "name": "Corrupted"
+        },
+        {
+         "name": "Beyond the Dream"
+        },
+        {
+         "name": "Sepulnation"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Derrick Green era only setlist. First time ever.",
+    "url": "https://www.setlist.fm/setlist/sepultura/2026/palco-mundo-rio-de-janeiro-brazil-4349d373.html"
+   },
+   {
+    "id": "334b8809",
+    "versionId": "g5b0d174c",
+    "eventDate": "05-09-2026",
+    "lastUpdated": "2026-09-19T06:56:31.253+0000",
+    "artist": {
+     "mbid": "24e1b53c-3085-4581-8472-0b0088d2508c",
+     "name": "Avenged Sevenfold",
+     "sortName": "Avenged Sevenfold",
+     "disambiguation": "American metal band",
+     "url": "https://www.setlist.fm/setlists/avenged-sevenfold-3d6d1a3.html"
+    },
+    "venue": {
+     "id": "33dfe4e1",
+     "name": "Palco Mundo",
+     "city": {
+      "id": "3451190",
+      "name": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "stateCode": "RJ",
+      "coords": {
+       "lat": -22.903,
+       "long": -43.208
+      },
+      "country": {
+       "code": "BR",
+       "name": "Brazil"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palco-mundo-rio-de-janeiro-brazil-33dfe4e1.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Nightcall",
+         "tape": true,
+         "cover": {
+          "mbid": "eb6de5f6-98f8-4b5a-bfdc-f87fa4936baa",
+          "name": "Kavinsky",
+          "sortName": "Kavinsky",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kavinsky-3bd68808.html"
+         }
+        },
+        {
+         "name": "Nightmare"
+        },
+        {
+         "name": "Magic"
+        },
+        {
+         "name": "Afterlife"
+        },
+        {
+         "name": "Shepherd of Fire"
+        },
+        {
+         "name": "Buried Alive"
+        },
+        {
+         "name": "Seize the Day"
+        },
+        {
+         "name": "The Stage"
+        },
+        {
+         "name": "Hail to the King"
+        },
+        {
+         "name": "Nobody"
+        },
+        {
+         "name": "M.I.A."
+        },
+        {
+         "name": "Bat Country"
+        },
+        {
+         "name": "Unholy Confessions",
+         "info": "with drum solo"
+        },
+        {
+         "name": "A Little Piece of Heaven"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Cosmic"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/avenged-sevenfold/2026/palco-mundo-rio-de-janeiro-brazil-334b8809.html"
+   },
+   {
+    "id": "234b880f",
+    "versionId": "g530cabc5",
+    "eventDate": "05-09-2026",
+    "lastUpdated": "2026-09-07T18:31:08.267+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "33dfe4e1",
+     "name": "Palco Mundo",
+     "city": {
+      "id": "3451190",
+      "name": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "stateCode": "RJ",
+      "coords": {
+       "lat": -22.903,
+       "long": -43.208
+      },
+      "country": {
+       "code": "BR",
+       "name": "Brazil"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/palco-mundo-rio-de-janeiro-brazil-33dfe4e1.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "Dehumanized"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "(Interlude) Start Game",
+         "tape": true
+        },
+        {
+         "name": "Pray for Plagues",
+         "info": "with fan singing on stage"
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        },
+        {
+         "name": "Fifteen Fathoms, Counting",
+         "tape": true
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/palco-mundo-rio-de-janeiro-brazil-234b880f.html"
+   }
+  ]
+ }
+}

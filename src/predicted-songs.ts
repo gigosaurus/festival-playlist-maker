@@ -2,13 +2,14 @@ import { comparableName } from "./artist-matches.ts";
 import { createBackgroundQueue, type QueueState } from "./background-queue.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
+import type { FestivalDays, MusicBrainz } from "./musicbrainz.ts";
 import type { PredictionSettings } from "./settings.ts";
 import type { SetlistFm, Show } from "./setlist-fm.ts";
 import { findSpotifyArtist } from "./spotify-artists.ts";
 import { artistTracksQuery, songQuery, type Spotify, type SpotifyArtist, type SpotifyTrack } from "./spotify.ts";
 
-// Predicted songs (issue #12, ADR-0002): the songs that an artist will probably
-// play at a festival, from recent setlists on setlist.fm. Each song is a Spotify
+// Predicted songs (issues #12 and #13, ADR-0002): the songs that an artist will
+// probably play at a festival, from recent setlists on setlist.fm. Each song is a Spotify
 // track of the Spotify artist of the MusicBrainz artist.
 
 export interface PredictedSongs {
@@ -54,6 +55,8 @@ export interface ScoredSong {
   score: number;
 }
 
+const dayMilliseconds = 24 * 60 * 60 * 1000;
+
 // The average length of a month, for the age of a show.
 const monthMilliseconds = (365.25 / 12) * 24 * 60 * 60 * 1000;
 
@@ -62,16 +65,48 @@ export function lookBackStart(now: Date, settings: PredictionSettings): Date {
   return addMonths(now, -settings.lookBackMonths);
 }
 
+// A show with the result of its venue-and-date check.
+export interface CheckedShow extends Show {
+  festivalSet: boolean;
+}
+
+// True when the show is in the look-back period and has a song that is not a tape.
+// Only these shows count, so only these shows need a venue-and-date check.
+export function countsForScore(show: Show, now: Date, settings: PredictionSettings): boolean {
+  return show.date >= lookBackStart(now, settings) && show.date <= now && show.songs.some((song) => !song.tape && comparableName(song.name) !== "");
+}
+
+// The weight of each show. The weight halves for each `halfLifeMonths` of age.
+// A festival set counts `festivalSetWeight`. All the other shows of one tour
+// together count a maximum of `tourShowLimit` shows: when a tour has more shows,
+// the weight of each of its shows is multiplied by the limit divided by the number of shows.
+// Festival sets are not in the tour limit, because setlist.fm often gives a tour
+// name to the festival sets of a summer. A show that does not count has weight 0.
+export function showWeights(shows: CheckedShow[], now: Date, settings: PredictionSettings): number[] {
+  const counts = shows.map((show) => countsForScore(show, now, settings));
+  const tourShows = new Map<string, number>();
+  shows.forEach((show, index) => {
+    if (counts[index] && !show.festivalSet && show.tour !== undefined) tourShows.set(show.tour, (tourShows.get(show.tour) ?? 0) + 1);
+  });
+  return shows.map((show, index) => {
+    if (!counts[index]) return 0;
+    const age = 0.5 ** ((now.getTime() - show.date.getTime()) / monthMilliseconds / settings.halfLifeMonths);
+    if (show.festivalSet) return age * settings.festivalSetWeight;
+    const inTour = show.tour === undefined ? 0 : tourShows.get(show.tour)!;
+    return inTour > settings.tourShowLimit ? (age * settings.tourShowLimit) / inTour : age;
+  });
+}
+
 // Gives each song a score: the sum of the weights of the shows where the artist
-// played it. The weight of a show halves for each `halfLifeMonths` of age. Only
-// the shows in the look-back period count. Tape songs are not songs of the artist.
+// played it (showWeights). Only the shows in the look-back period count. Tape
+// songs are not songs of the artist.
 // Songs with the same score are in the order in which they first occur in `shows`.
-export function scoreSongs(shows: Show[], now: Date, settings: PredictionSettings): ScoredSong[] {
-  const start = lookBackStart(now, settings);
+export function scoreSongs(shows: CheckedShow[], now: Date, settings: PredictionSettings): ScoredSong[] {
+  const weights = showWeights(shows, now, settings);
   const songs = new Map<string, ScoredSong>();
-  for (const show of shows) {
-    if (show.date < start || show.date > now) continue;
-    const weight = 0.5 ** ((now.getTime() - show.date.getTime()) / monthMilliseconds / settings.halfLifeMonths);
+  shows.forEach((show, index) => {
+    const weight = weights[index]!;
+    if (weight === 0) return;
     const played = new Set<string>();
     for (const song of show.songs) {
       const key = comparableName(song.name);
@@ -81,9 +116,41 @@ export function scoreSongs(shows: Show[], now: Date, settings: PredictionSetting
       scored.score += weight;
       songs.set(key, scored);
     }
-  }
+  });
   // Array.prototype.sort is stable, so the first occurrence decides between equal scores.
   return [...songs.values()].sort((a, b) => b.score - a.score);
+}
+
+// The stored result of a venue-and-date check (#13). The store keeps only the
+// venue ID, the date and the result, not the setlists (ADR-0002).
+export interface VenueDate {
+  festivalSet: boolean;
+  checkedAt: Date;
+}
+
+export function findVenueDate(database: Database, venueId: string, date: Date): VenueDate | undefined {
+  const row = database.prepare("SELECT festival_set, checked_at FROM venue_date WHERE venue_id = ? AND date = ?").get(venueId, isoDate(date)) as
+    | { festival_set: number; checked_at: string }
+    | undefined;
+  if (row === undefined) return undefined;
+  return { festivalSet: row.festival_set === 1, checkedAt: new Date(row.checked_at) };
+}
+
+export function saveVenueDate(database: Database, venueId: string, date: Date, result: VenueDate): void {
+  database
+    .prepare(
+      `INSERT INTO venue_date (venue_id, date, festival_set, checked_at) VALUES (?, ?, ?, ?)
+       ON CONFLICT (venue_id, date) DO UPDATE SET festival_set = excluded.festival_set, checked_at = excluded.checked_at`,
+    )
+    .run(venueId, isoDate(date), result.festivalSet ? 1 : 0, result.checkedAt.toISOString());
+}
+
+// True when the stored result is final. A festival set stays a festival set,
+// because setlist.fm users add setlists but seldom remove them. A result "not a
+// festival set" is final only when it was checked `festivalSetCheckDays` or more
+// after the date, because users add setlists after a show.
+export function isFinal(stored: VenueDate, date: Date, settings: PredictionSettings): boolean {
+  return stored.festivalSet || stored.checkedAt.getTime() - date.getTime() >= settings.festivalSetCheckDays * dayMilliseconds;
 }
 
 // The track of the artist for a song. A track with the same name is first. Then
@@ -116,6 +183,7 @@ export interface SongPrediction {
 export interface PredictionDependencies {
   database: Database;
   setlistFm: SetlistFm;
+  musicBrainz: Pick<MusicBrainz, "festivalDays">;
   spotify: Spotify;
   clock: Clock;
   settings: PredictionSettings;
@@ -126,7 +194,7 @@ export interface PredictionDependencies {
 // The shortest wait after a rate limit, so that a service that gives no wait does not get a request immediately.
 const shortestWait = 1_000;
 
-export function createSongPrediction({ database, setlistFm, spotify, clock, settings, onWait }: PredictionDependencies): SongPrediction {
+export function createSongPrediction({ database, setlistFm, musicBrainz, spotify, clock, settings, onWait }: PredictionDependencies): SongPrediction {
   // Sends a request again after a rate limit, when the service accepts requests again.
   async function patiently<Result extends { outcome: string; retryAt?: Date }>(send: () => Promise<Result>): Promise<Result> {
     for (;;) {
@@ -150,6 +218,44 @@ export function createSongPrediction({ database, setlistFm, spotify, clock, sett
       if (result.lastPage || result.shows.some((show) => show.date < start)) break;
     }
     return shows;
+  }
+
+  // Marks each show that counts as a festival set or not (#13). A show is a
+  // festival set when its date is in a MusicBrainz festival of the artist, or
+  // when setlist.fm has `festivalSetArtists` or more artists at the venue on the date.
+  // A festival set from MusicBrainz is stored for its venue and date, so that the
+  // other artists at the festival use it. For the other shows, the application
+  // uses a final stored result, and sends a setlist.fm request only when there is none.
+  // A show without a venue ID and without a MusicBrainz festival is not a festival set.
+  async function checkShows(shows: Show[], now: Date, festivals: FestivalDays[]): Promise<CheckedShow[] | { cause: string }> {
+    const checked: CheckedShow[] = [];
+    for (const show of shows) {
+      if (!countsForScore(show, now, settings)) {
+        checked.push({ ...show, festivalSet: false });
+        continue;
+      }
+      if (inFestival(show.date, festivals)) {
+        if (show.venueId !== undefined) saveVenueDate(database, show.venueId, show.date, { festivalSet: true, checkedAt: clock.now() });
+        checked.push({ ...show, festivalSet: true });
+        continue;
+      }
+      if (show.venueId === undefined) {
+        checked.push({ ...show, festivalSet: false });
+        continue;
+      }
+      const stored = findVenueDate(database, show.venueId, show.date);
+      if (stored !== undefined && isFinal(stored, show.date, settings)) {
+        checked.push({ ...show, festivalSet: stored.festivalSet });
+        continue;
+      }
+      const venueId = show.venueId;
+      const result = await patiently(() => setlistFm.venueArtists(venueId, show.date));
+      if (result.outcome === "failed") return { cause: result.cause };
+      const festivalSet = result.artists >= settings.festivalSetArtists;
+      saveVenueDate(database, venueId, show.date, { festivalSet, checkedAt: clock.now() });
+      checked.push({ ...show, festivalSet });
+    }
+    return checked;
   }
 
   // The tracks of the songs, in order of score. A song with no Spotify recording is removed.
@@ -186,7 +292,16 @@ export function createSongPrediction({ database, setlistFm, spotify, clock, sett
       const stored = findSpotifyArtist(database, musicbrainzId);
       if (stored?.kind !== "found") return { outcome: "no-spotify-artist" };
       const now = clock.now();
-      const shows = await recentShows(musicbrainzId, lookBackStart(now, settings));
+      const recent = await recentShows(musicbrainzId, lookBackStart(now, settings));
+      if ("cause" in recent) return { outcome: "failed", cause: recent.cause };
+      // An artist with no shows in the period gets the fallback, so it needs no MusicBrainz request.
+      let festivals: FestivalDays[] = [];
+      if (recent.some((show) => countsForScore(show, now, settings))) {
+        const result = await musicBrainz.festivalDays(musicbrainzId);
+        if (result.outcome === "failed") return { outcome: "failed", cause: result.cause };
+        festivals = result.festivals;
+      }
+      const shows = await checkShows(recent, now, festivals);
       if ("cause" in shows) return { outcome: "failed", cause: shows.cause };
       const songs = scoreSongs(shows, now, settings);
       if (songs.length > 0) {
@@ -218,8 +333,11 @@ export interface PredictedSongQueue {
   idle(): Promise<void>;
 }
 
-// One calculation sends 1 or more setlist.fm requests and a maximum of
-// `spotifySearches` Spotify requests, so it takes approximately 10 to 30 seconds.
+// One calculation sends 1 or more setlist.fm requests for the setlists, 1 or more
+// MusicBrainz requests for the festivals, 1 setlist.fm request for each venue and
+// date without a final result and without a MusicBrainz festival, and a maximum of
+// `spotifySearches` Spotify requests. With stored venue-and-date results, it takes approximately 10
+// to 30 seconds. The first calculation of an artist with many shows takes longer.
 export function createPredictedSongQueue(
   dependencies: Omit<PredictionDependencies, "onWait">,
 ): PredictedSongQueue {
@@ -259,6 +377,16 @@ export function createPredictedSongQueue(
     isWaiting: (musicbrainzId) => waiting.has(musicbrainzId),
     idle: () => queue.idle(),
   };
+}
+
+function isoDate(date: Date): string {
+  return date.toISOString().slice(0, 10);
+}
+
+// True when the date is a day of one of the festivals.
+export function inFestival(date: Date, festivals: FestivalDays[]): boolean {
+  const day = isoDate(date);
+  return festivals.some(({ begin, end }) => begin <= day && day <= end);
 }
 
 function addMonths(date: Date, months: number): Date {

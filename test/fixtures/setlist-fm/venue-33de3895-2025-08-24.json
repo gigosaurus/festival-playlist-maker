@@ -1,0 +1,1157 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 46,
+  "setlist": [
+   {
+    "id": "b4459a6",
+    "versionId": "g5b7f273c",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-24T12:33:40.474+0000",
+    "artist": {
+     "mbid": "6984f569-8f76-4e1f-9e7c-ceeaf367c6fc",
+     "name": "Keo",
+     "sortName": "Keo",
+     "disambiguation": "British alt-rock band from London",
+     "url": "https://www.setlist.fm/setlists/keo-53e417b5.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Hands"
+        },
+        {
+         "name": "Young"
+        },
+        {
+         "name": "Thorn"
+        },
+        {
+         "name": "Only We Know"
+        },
+        {
+         "name": "Kudos"
+        },
+        {
+         "name": "I Lied, Amber"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/keo/2025/bramham-park-bramham-england-b4459a6.html"
+   },
+   {
+    "id": "7b5b2a80",
+    "versionId": "g73667299",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-10-20T03:55:55.930+0000",
+    "artist": {
+     "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+     "name": "Limp Bizkit",
+     "sortName": "Limp Bizkit",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/limp-bizkit-33d69c2d.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Show Me What You Got"
+        },
+        {
+         "name": "Hot Dog"
+        },
+        {
+         "name": "Break Stuff"
+        },
+        {
+         "name": "My Generation"
+        },
+        {
+         "name": "Hip Hop Hooray",
+         "tape": true
+        },
+        {
+         "name": "My Way"
+        },
+        {
+         "name": "Rollin' (Air Raid Vehicle)"
+        },
+        {
+         "name": "Nookie"
+        },
+        {
+         "name": "Full Nelson",
+         "info": "with fan Owen on stage"
+        },
+        {
+         "name": "Faith",
+         "cover": {
+          "mbid": "ccb8f30e-4d71-40c4-8b1d-846dafe73e2c",
+          "name": "George Michael",
+          "sortName": "Michael, George",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/george-michael-6bd6bef6.html"
+         }
+        },
+        {
+         "name": "Take a Look Around"
+        },
+        {
+         "name": "Break Stuff"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Last show with Sam Rivers on bass before his death on October 18, 2025.",
+    "url": "https://www.setlist.fm/setlist/limp-bizkit/2025/bramham-park-bramham-england-7b5b2a80.html"
+   },
+   {
+    "id": "7340ae51",
+    "versionId": "g237f0073",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-25T13:36:41.065+0000",
+    "artist": {
+     "mbid": "e32f7fd4-9b61-4058-acb9-569e1eb38419",
+     "name": "James And The Cold Gun",
+     "sortName": "James And The Cold Gun",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/james-and-the-cold-gun-13f7c18d.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "info": "Chevron Stage",
+    "url": "https://www.setlist.fm/setlist/james-and-the-cold-gun/2025/bramham-park-bramham-england-7340ae51.html"
+   },
+   {
+    "id": "6340b667",
+    "versionId": "g337f68d5",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-26T08:30:13.827+0000",
+    "artist": {
+     "mbid": "323454b0-ec2b-4433-8477-2e81ddaac9ef",
+     "name": "Pale Waves",
+     "sortName": "Pale Waves",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/pale-waves-1bcfe920.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Heavenly",
+         "info": "First time since 2019"
+        },
+        {
+         "name": "Eighteen"
+        },
+        {
+         "name": "Red"
+        },
+        {
+         "name": "She's My Religion"
+        },
+        {
+         "name": "Jealousy"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Secret set on BBC Introducing Stage. Setlist incomplete.",
+    "url": "https://www.setlist.fm/setlist/pale-waves/2025/bramham-park-bramham-england-6340b667.html"
+   },
+   {
+    "id": "5b5f17d0",
+    "versionId": "g6b60b6f2",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:36:14.689+0000",
+    "artist": {
+     "mbid": "b20847c7-1eb4-4fb5-a857-8fbc9f2bcbd1",
+     "name": "Balming Tiger",
+     "sortName": "Balming Tiger",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/balming-tiger-13f2d975.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Sudden Attack"
+        },
+        {
+         "name": "scumbag"
+        },
+        {
+         "name": "Cunning City"
+        },
+        {
+         "name": "Kamehameha"
+        },
+        {
+         "name": "Kolo Kolo"
+        },
+        {
+         "name": "BuriBuri"
+        },
+        {
+         "name": "POP THE TAG",
+         "cover": {
+          "mbid": "987ad0a9-fd09-4668-abd1-119bf9a65985",
+          "name": "Omega Sapien",
+          "sortName": "Omega Sapien",
+          "disambiguation": "Rick de Jong",
+          "url": "https://www.setlist.fm/setlists/omega-sapien-2bca8846.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/balming-tiger/2025/bramham-park-bramham-england-5b5f17d0.html"
+   },
+   {
+    "id": "5b45dbfc",
+    "versionId": "g6b60b62e",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:30:19.314+0000",
+    "artist": {
+     "mbid": "ddeb3502-8693-4619-b41d-263105f84477",
+     "name": "Example",
+     "sortName": "Example",
+     "disambiguation": "British singer, songwriter, rapper & producer",
+     "url": "https://www.setlist.fm/setlists/example-2bd674d6.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Stay Awake"
+        },
+        {
+         "name": "Won't Go Quietly"
+        },
+        {
+         "name": "All the Wrong Places"
+        },
+        {
+         "name": "In the Zone"
+        },
+        {
+         "name": "All Night"
+        },
+        {
+         "name": "We'll Be Coming Back",
+         "cover": {
+          "mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+          "name": "Calvin Harris",
+          "sortName": "Harris, Calvin",
+          "disambiguation": "Scottish DJ and producer",
+          "url": "https://www.setlist.fm/setlists/calvin-harris-4bd667a6.html"
+         }
+        },
+        {
+         "name": "Dirty Face"
+        },
+        {
+         "name": "Gold"
+        },
+        {
+         "name": "Deep"
+        },
+        {
+         "name": "Kickstarts"
+        },
+        {
+         "name": "Watch the Sun Come Up"
+        },
+        {
+         "name": "Changed the Way You Kiss Me"
+        },
+        {
+         "name": "Dead in the Eye",
+         "cover": {
+          "mbid": "1b2d6d03-6517-4501-b159-da2e477f1bd3",
+          "name": "P Money × Whiney",
+          "sortName": "P Money × Whiney",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/p-money--whiney-23f9f007.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Finished 15 minutes early",
+    "url": "https://www.setlist.fm/setlist/example/2025/bramham-park-bramham-england-5b45dbfc.html"
+   },
+   {
+    "id": "5b45dbf4",
+    "versionId": "g7b60b640",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:22:45.776+0000",
+    "artist": {
+     "mbid": "08d71fb5-af78-4e5b-b54b-0b5c7587d152",
+     "name": "Mouth Culture",
+     "sortName": "Mouth Culture",
+     "disambiguation": "GB | rock",
+     "url": "https://www.setlist.fm/setlists/mouth-culture-4be6ffee.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Pull Up"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/mouth-culture/2025/bramham-park-bramham-england-5b45dbf4.html"
+   },
+   {
+    "id": "5b45dbe0",
+    "versionId": "g7b60b63c",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:25:59.791+0000",
+    "artist": {
+     "mbid": "0a88eac3-d454-47e5-a711-25a0f9fbb522",
+     "name": "Pozer",
+     "sortName": "Pozer",
+     "disambiguation": "South London rapper",
+     "url": "https://www.setlist.fm/setlists/pozer-4b9253b6.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Follow Your Dreams"
+        },
+        {
+         "name": "I'M TRYNA"
+        },
+        {
+         "name": "Heaterz",
+         "cover": {
+          "mbid": "b8638bdc-728d-4d43-a908-7be7db29073b",
+          "name": "AJ Tracey",
+          "sortName": "AJ Tracey",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/aj-tracey-23c7a45f.html"
+         }
+        },
+        {
+         "name": "TILL L4TE",
+         "cover": {
+          "mbid": "57dd4661-9f78-4442-8836-482fab983008",
+          "name": "Aitch",
+          "sortName": "Aitch",
+          "disambiguation": "British rapper",
+          "url": "https://www.setlist.fm/setlists/aitch-43c93bf3.html"
+         }
+        },
+        {
+         "name": "Jersey King"
+        },
+        {
+         "name": "Nyash (Shake)"
+        },
+        {
+         "name": "Kitchen Stove"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/pozer/2025/bramham-park-bramham-england-5b45dbe0.html"
+   },
+   {
+    "id": "5b45dbd8",
+    "versionId": "g6b74e6b2",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-06-30T22:01:59.727+0000",
+    "artist": {
+     "mbid": "0003cee6-80f6-4029-b7e9-2a82062c9fa6",
+     "name": "DJ Jackum",
+     "sortName": "Jackum, DJ",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/dj-jackum-63fd027f.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/dj-jackum/2025/bramham-park-bramham-england-5b45dbd8.html"
+   },
+   {
+    "id": "5b45dbbc",
+    "versionId": "g437fc32b",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-23T19:23:19.211+0000",
+    "artist": {
+     "mbid": "1c27941f-0a02-435d-b8d1-18ff40447874",
+     "name": "The Pill",
+     "sortName": "Pill, The",
+     "disambiguation": "British band",
+     "url": "https://www.setlist.fm/setlists/the-pill-3bf09cc0.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "tour": {
+     "name": "ThEP Tour"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/the-pill/2025/bramham-park-bramham-england-5b45dbbc.html"
+   },
+   {
+    "id": "5b45dbb8",
+    "versionId": "gb74e17a",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-06-30T22:10:12.517+0000",
+    "artist": {
+     "mbid": "dfc40aee-b568-4438-988f-6fff4b4f5951",
+     "name": "mudi sama",
+     "sortName": "sama, mudi",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/mudi-sama-1bee698c.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/mudi-sama/2025/bramham-park-bramham-england-5b45dbb8.html"
+   },
+   {
+    "id": "535f17d5",
+    "versionId": "g7b60b648",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:21:59.185+0000",
+    "artist": {
+     "mbid": "0137230f-88be-4c97-b37b-2c3cbf00af2c",
+     "name": "Issey Cross",
+     "sortName": "Issey Cross",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/issey-cross-23f800af.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Used to This",
+         "cover": {
+          "mbid": "c9fa114f-8426-4286-a289-9f16c8e092b5",
+          "name": "Wilkinson",
+          "sortName": "Wilkinson",
+          "disambiguation": "UK‐based DJ",
+          "url": "https://www.setlist.fm/setlists/wilkinson-53d527c1.html"
+         }
+        },
+        {
+         "name": "Sleepwalking"
+        },
+        {
+         "name": "Nostalgia",
+         "cover": {
+          "mbid": "e23abc5f-478a-4594-ad18-b3805b3c5316",
+          "name": "Sammy Virji",
+          "sortName": "Virji, Sammy",
+          "disambiguation": "UK garage producer",
+          "url": "https://www.setlist.fm/setlists/sammy-virji-3bf4a400.html"
+         }
+        },
+        {
+         "name": "Invisible",
+         "info": "Unreleased"
+        },
+        {
+         "name": "Six feet under"
+        },
+        {
+         "name": "Butterflies"
+        },
+        {
+         "name": "Bittersweet Goodbye"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/issey-cross/2025/bramham-park-bramham-england-535f17d5.html"
+   },
+   {
+    "id": "535f17d1",
+    "versionId": "g7b193248",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2026-06-22T15:41:30.186+0000",
+    "artist": {
+     "mbid": "b09de30a-09ac-4cc9-8812-49bb12e2bfa6",
+     "name": "Bilmuri",
+     "sortName": "Bilmuri",
+     "disambiguation": "US post-hardcore/pop-punk project",
+     "url": "https://www.setlist.fm/setlists/bilmuri-5bf6235c.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "EMPTYHANDED"
+        },
+        {
+         "name": "ALL GAS"
+        },
+        {
+         "name": "ABSOLUTELYCRANKINMYMF'INHOG"
+        },
+        {
+         "name": "FLUORIDEINTHEHARDSELTZERWATER"
+        },
+        {
+         "name": "BOUTTA CASHEW"
+        },
+        {
+         "name": "THE END"
+        },
+        {
+         "name": "MORE THAN HATE"
+        },
+        {
+         "name": "BETTER HELL (Thicc boi)"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bilmuri/2025/bramham-park-bramham-england-535f17d1.html"
+   },
+   {
+    "id": "535f17c9",
+    "versionId": "g5b077b6c",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2026-07-10T05:10:33.702+0000",
+    "artist": {
+     "mbid": "de701d16-34d0-4ffb-a64e-2f07dea8e7a3",
+     "name": "South Arcade",
+     "sortName": "South Arcade",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/south-arcade-bfe11d6.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "2005"
+        },
+        {
+         "name": "Nepo Baby"
+        },
+        {
+         "name": "HOW 2 GET AWAY WITH MURDER"
+        },
+        {
+         "name": "FEAR OF HEIGHTS"
+        },
+        {
+         "name": "Supermodels"
+        },
+        {
+         "name": "stone cold summer"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/south-arcade/2025/bramham-park-bramham-england-535f17c9.html"
+   },
+   {
+    "id": "5345dbf9",
+    "versionId": "g7360b605",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-11-28T19:35:05.750+0000",
+    "artist": {
+     "mbid": "49ab0e3b-97ad-40c0-a664-5f40ce8129c7",
+     "name": "Bakar",
+     "sortName": "Bakar",
+     "disambiguation": "British singer",
+     "url": "https://www.setlist.fm/setlists/bakar-73f4aae5.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Big Dreams"
+        },
+        {
+         "name": "The Mission"
+        },
+        {
+         "name": "Small Town Girl"
+        },
+        {
+         "name": "NW3"
+        },
+        {
+         "name": "Alive!"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete",
+    "url": "https://www.setlist.fm/setlist/bakar/2025/bramham-park-bramham-england-5345dbf9.html"
+   },
+   {
+    "id": "5345dbf1",
+    "versionId": "g737f0a81",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-25T09:46:39.561+0000",
+    "artist": {
+     "mbid": "a84a3df1-a873-4be9-b6ff-4238393d46d7",
+     "name": "Good Neighbours",
+     "sortName": "Good Neighbours",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/good-neighbours-63e726af.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Small Town"
+        },
+        {
+         "name": "Kids Can't Sleep"
+        },
+        {
+         "name": "Bloom"
+        },
+        {
+         "name": "Ripple"
+        },
+        {
+         "name": "Suburbs"
+        },
+        {
+         "name": "Skipping Stones"
+        },
+        {
+         "name": "Starry Eyed"
+        },
+        {
+         "name": "Keep It Up"
+        },
+        {
+         "name": "Walk Walk Walk"
+        },
+        {
+         "name": "Home"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/good-neighbours/2025/bramham-park-bramham-england-5345dbf1.html"
+   },
+   {
+    "id": "5345dbe5",
+    "versionId": "g6374e6bb",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-06-30T22:00:47.977+0000",
+    "artist": {
+     "mbid": "b794da6b-1807-47b6-ad64-ae3762061a38",
+     "name": "Rifle",
+     "sortName": "Rifle",
+     "disambiguation": "London Punk band",
+     "url": "https://www.setlist.fm/setlists/rifle-13f89119.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/rifle/2025/bramham-park-bramham-england-5345dbe5.html"
+   },
+   {
+    "id": "5345dbdd",
+    "versionId": "g237f2823",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-24T11:40:12.056+0000",
+    "artist": {
+     "mbid": "fe0e02c5-7c00-4c69-815b-ac28817af247",
+     "name": "Finn Forster",
+     "sortName": "Forster, Finn",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/finn-forster-1be6c574.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/finn-forster/2025/bramham-park-bramham-england-5345dbdd.html"
+   },
+   {
+    "id": "5345dbd9",
+    "versionId": "g337f009d",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-25T14:20:06.305+0000",
+    "artist": {
+     "mbid": "d4bc4880-00d6-4e38-95fa-e84ea4737899",
+     "name": "VLURE",
+     "sortName": "VLURE",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/vlure-3bf3043c.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Shattered Faith"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/vlure/2025/bramham-park-bramham-england-5345dbd9.html"
+   },
+   {
+    "id": "53436371",
+    "versionId": "g4b7cdba6",
+    "eventDate": "24-08-2025",
+    "lastUpdated": "2025-08-31T00:16:53.686+0000",
+    "artist": {
+     "mbid": "6ff4ccf2-13e6-4879-b09d-846cb4dde981",
+     "name": "The Kairos",
+     "sortName": "Kairos",
+     "disambiguation": "UK indie rock band",
+     "url": "https://www.setlist.fm/setlists/the-kairos-33fd8c71.html"
+    },
+    "venue": {
+     "id": "33de3895",
+     "name": "Bramham Park",
+     "city": {
+      "id": "2654926",
+      "name": "Bramham",
+      "state": "England",
+      "stateCode": "ENG",
+      "coords": {
+       "lat": 53.88118,
+       "long": -1.35452
+      },
+      "country": {
+       "code": "GB",
+       "name": "United Kingdom"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/bramham-park-bramham-england-33de3895.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Punchline Fistfight"
+        },
+        {
+         "name": "Squeeze"
+        },
+        {
+         "name": "Follow Me",
+         "info": "Live debut"
+        },
+        {
+         "name": "Left Hand Free",
+         "cover": {
+          "mbid": "fc7bbf00-fbaa-4736-986b-b3ac0266ca9b",
+          "name": "alt‐J",
+          "sortName": "alt‐J",
+          "disambiguation": "English indie‐rock band",
+          "url": "https://www.setlist.fm/setlists/altj-33d1e001.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/the-kairos/2025/bramham-park-bramham-england-53436371.html"
+   }
+  ]
+ }
+}

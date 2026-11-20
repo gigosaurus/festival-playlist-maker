@@ -1,0 +1,582 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 7,
+  "setlist": [
+   {
+    "id": "5b4ff37c",
+    "versionId": "g73181ae5",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-15T20:03:11.830+0000",
+    "artist": {
+     "mbid": "a65344cf-73e5-48fc-800c-3415a5ab038d",
+     "name": "VOILÀ",
+     "sortName": "VOILÀ",
+     "disambiguation": "US pop/rock duo",
+     "url": "https://www.setlist.fm/setlists/voila-6bccee4a.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Figure You Out"
+        },
+        {
+         "name": "I Hope That It’s Fatal"
+        },
+        {
+         "name": "Drinking With Cupid"
+        },
+        {
+         "name": "Therapy"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/voila/2026/blue-stage-nickelsdorf-austria-5b4ff37c.html"
+   },
+   {
+    "id": "5b41f3fc",
+    "versionId": "g2b183402",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-14T23:40:54.879+0000",
+    "artist": {
+     "mbid": "fabb37f8-eb2a-4cc1-a72a-b56935bbb72d",
+     "name": "Three Days Grace",
+     "sortName": "Three Days Grace",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/three-days-grace-33d6bcd9.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "tour": {
+     "name": "Alienation"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Dominate"
+        },
+        {
+         "name": "Animal I Have Become"
+        },
+        {
+         "name": "So Called Life"
+        },
+        {
+         "name": "Break"
+        },
+        {
+         "name": "I Am Machine"
+        },
+        {
+         "name": "Mayday"
+        },
+        {
+         "name": "I Hate Everything About You"
+        },
+        {
+         "name": "The Good Life"
+        },
+        {
+         "name": "Painkiller"
+        },
+        {
+         "name": "Never Too Late"
+        },
+        {
+         "name": "Riot"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/three-days-grace/2026/blue-stage-nickelsdorf-austria-5b41f3fc.html"
+   },
+   {
+    "id": "5b41f3e0",
+    "versionId": "g630736bf",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-07-08T07:44:19.005+0000",
+    "artist": {
+     "mbid": "321fdfbb-426b-43f7-8295-fa9aca6348d9",
+     "name": "Hollywood Undead",
+     "sortName": "Hollywood Undead",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/hollywood-undead-63d7aeb7.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "tour": {
+     "name": "European Tour 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Undead"
+        },
+        {
+         "name": "1x1"
+        },
+        {
+         "name": "CHAOS"
+        },
+        {
+         "name": "Riot"
+        },
+        {
+         "name": "Comin' in Hot"
+        },
+        {
+         "name": "SAVIOR"
+        },
+        {
+         "name": "Another Way Out / Du hast"
+        },
+        {
+         "name": "Sweet Caroline",
+         "cover": {
+          "mbid": "a42d3fd5-55de-4206-86c3-4fbb5404018f",
+          "name": "Neil Diamond",
+          "sortName": "Diamond, Neil",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/neil-diamond-bd6bd42.html"
+         }
+        },
+        {
+         "name": "Bullet"
+        },
+        {
+         "name": "Everywhere I Go"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/hollywood-undead/2026/blue-stage-nickelsdorf-austria-5b41f3e0.html"
+   },
+   {
+    "id": "5341f3e1",
+    "versionId": "g2b1834ea",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-14T23:42:56.747+0000",
+    "artist": {
+     "mbid": "05dffdbe-dc6e-4c8d-a075-50a09c4cb45c",
+     "name": "Architects",
+     "sortName": "Architects",
+     "disambiguation": "British metal band",
+     "url": "https://www.setlist.fm/setlists/architects-13d61531.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Elegy"
+        },
+        {
+         "name": "Whiplash"
+        },
+        {
+         "name": "Doomsday"
+        },
+        {
+         "name": "Black Lungs"
+        },
+        {
+         "name": "Blackhole"
+        },
+        {
+         "name": "Impermanence"
+        },
+        {
+         "name": "Curse"
+        },
+        {
+         "name": "Broken Mirror"
+        },
+        {
+         "name": "Brain Dead"
+        },
+        {
+         "name": "when we were young"
+        },
+        {
+         "name": "Everything Ends"
+        },
+        {
+         "name": "Seeing Red"
+        },
+        {
+         "name": "Animals"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/architects/2026/blue-stage-nickelsdorf-austria-5341f3e1.html"
+   },
+   {
+    "id": "4b41f3e2",
+    "versionId": "g2b1834ce",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-14T23:46:30.080+0000",
+    "artist": {
+     "mbid": "c5eb9407-caeb-4303-b383-6929aa94021c",
+     "name": "Papa Roach",
+     "sortName": "Papa Roach",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/papa-roach-23d6bcdf.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Even If It Kills Me"
+        },
+        {
+         "name": "Blood Brothers"
+        },
+        {
+         "name": "Dead Cell"
+        },
+        {
+         "name": "...To Be Loved"
+        },
+        {
+         "name": "Kill the Noise"
+        },
+        {
+         "name": "Getting Away With Murder"
+        },
+        {
+         "name": "See U in Hell",
+         "info": "with Jagger Shaddix"
+        },
+        {
+         "name": "California Love",
+         "cover": {
+          "mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+          "name": "2Pac",
+          "sortName": "2Pac",
+          "disambiguation": "US rapper",
+          "url": "https://www.setlist.fm/setlists/2pac-1bd6b904.html"
+         }
+        },
+        {
+         "name": "Liar"
+        },
+        {
+         "name": "Falling Apart"
+        },
+        {
+         "name": "Scars"
+        },
+        {
+         "name": "BRAINDEAD",
+         "info": "with Brixton Shaddix"
+        },
+        {
+         "name": "Help"
+        },
+        {
+         "name": "Born for Greatness"
+        },
+        {
+         "name": "Between Angels and Insects"
+        },
+        {
+         "name": "Blind / My Own Summer (Shove It) / Break Stuff / Chop Suey",
+         "info": "nu metal time machine medley"
+        },
+        {
+         "name": "Last Resort"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/papa-roach/2026/blue-stage-nickelsdorf-austria-4b41f3e2.html"
+   },
+   {
+    "id": "434ff373",
+    "versionId": "g2b193c1a",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-22T04:24:01.292+0000",
+    "artist": {
+     "mbid": "57e79d57-b795-475e-9fa2-5dd9d5513b8c",
+     "name": "P.O.D.",
+     "sortName": "P.O.D.",
+     "disambiguation": "American metal band – Payable on Death",
+     "url": "https://www.setlist.fm/setlists/pod-1bd69978.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Boom"
+        },
+        {
+         "name": "Rock the Party (Off the Hook)"
+        },
+        {
+         "name": "Drop"
+        },
+        {
+         "name": "I Got That"
+        },
+        {
+         "name": "Southtown"
+        },
+        {
+         "name": "Youth of the Nation"
+        },
+        {
+         "name": "Alive"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/pod/2026/blue-stage-nickelsdorf-austria-434ff373.html"
+   },
+   {
+    "id": "4341f3e3",
+    "versionId": "g2b18349a",
+    "eventDate": "14-06-2026",
+    "lastUpdated": "2026-06-14T23:52:10.757+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "3bdfa064",
+     "name": "Blue Stage",
+     "city": {
+      "id": "2770630",
+      "name": "Nickelsdorf",
+      "state": "Burgenland",
+      "stateCode": "01",
+      "coords": {
+       "lat": 47.9405556,
+       "long": 17.0694444
+      },
+      "country": {
+       "code": "AT",
+       "name": "Austria"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/blue-stage-nickelsdorf-austria-3bdfa064.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan on vocals called Vlad"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne",
+         "info": "dedicated to Oliver Tree who died in helicopter crash earlier that day"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/blue-stage-nickelsdorf-austria-4341f3e3.html"
+   }
+  ]
+ }
+}

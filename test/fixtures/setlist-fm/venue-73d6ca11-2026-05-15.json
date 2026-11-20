@@ -1,0 +1,302 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 4,
+  "setlist": [
+   {
+    "id": "b4149ee",
+    "versionId": "g6b1c0eea",
+    "eventDate": "15-05-2026",
+    "lastUpdated": "2026-05-16T00:09:41.019+0000",
+    "artist": {
+     "mbid": "c2e7d4ac-5e30-4b55-99b7-e49d99fd7c63",
+     "name": "The Plot in You",
+     "sortName": "Plot in You, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-plot-in-you-3d18dc3.html"
+    },
+    "venue": {
+     "id": "73d6ca11",
+     "name": "Allstate Arena",
+     "city": {
+      "id": "4908179",
+      "name": "Rosemont",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.9953077,
+       "long": -87.8845092
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allstate-arena-rosemont-il-usa-73d6ca11.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Don't Look Away"
+        },
+        {
+         "name": "Divide"
+        },
+        {
+         "name": "You Get One"
+        },
+        {
+         "name": "Spare Me"
+        },
+        {
+         "name": "Forgotten"
+        },
+        {
+         "name": "Silence"
+        },
+        {
+         "name": "Left Behind"
+        },
+        {
+         "name": "FEEL NOTHING"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/the-plot-in-you/2026/allstate-arena-rosemont-il-b4149ee.html"
+   },
+   {
+    "id": "1b4149f4",
+    "versionId": "g7b1c7698",
+    "eventDate": "15-05-2026",
+    "lastUpdated": "2026-05-16T17:19:15.192+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d6ca11",
+     "name": "Allstate Arena",
+     "city": {
+      "id": "4908179",
+      "name": "Rosemont",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.9953077,
+       "long": -87.8845092
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allstate-arena-rosemont-il-usa-73d6ca11.html"
+    },
+    "tour": {
+     "name": "N. American Ascension Program 2"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with Morgan (a fan) on vocals"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "LosT"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/allstate-arena-rosemont-il-1b4149f4.html"
+   },
+   {
+    "id": "134149ed",
+    "versionId": "g5b1c0fb4",
+    "eventDate": "15-05-2026",
+    "lastUpdated": "2026-05-15T23:21:26.539+0000",
+    "artist": {
+     "mbid": "e2f82804-26c7-4269-95e0-1ed7a4dda6f5",
+     "name": "Amira Elfeky",
+     "sortName": "Elfeky, Amira",
+     "disambiguation": "American heavy metal singer‐songwriter",
+     "url": "https://www.setlist.fm/setlists/amira-elfeky-bf90d92.html"
+    },
+    "venue": {
+     "id": "73d6ca11",
+     "name": "Allstate Arena",
+     "city": {
+      "id": "4908179",
+      "name": "Rosemont",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.9953077,
+       "long": -87.8845092
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allstate-arena-rosemont-il-usa-73d6ca11.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Will You Love Me When I’m Dead"
+        },
+        {
+         "name": "Take Me Under"
+        },
+        {
+         "name": "Save Yourself"
+        },
+        {
+         "name": "I want it all",
+         "info": "Unreleased"
+        },
+        {
+         "name": "Forever Overdose"
+        },
+        {
+         "name": "Tonight"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/amira-elfeky/2026/allstate-arena-rosemont-il-134149ed.html"
+   },
+   {
+    "id": "134149e9",
+    "versionId": "g3b1c0870",
+    "eventDate": "15-05-2026",
+    "lastUpdated": "2026-05-16T01:15:15.751+0000",
+    "artist": {
+     "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+     "name": "Motionless in White",
+     "sortName": "Motionless in White",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/motionless-in-white-3bd410a0.html"
+    },
+    "venue": {
+     "id": "73d6ca11",
+     "name": "Allstate Arena",
+     "city": {
+      "id": "4908179",
+      "name": "Rosemont",
+      "state": "Illinois",
+      "stateCode": "IL",
+      "coords": {
+       "lat": 41.9953077,
+       "long": -87.8845092
+      },
+      "country": {
+       "code": "US",
+       "name": "United States"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/allstate-arena-rosemont-il-usa-73d6ca11.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Meltdown"
+        },
+        {
+         "name": "Sign of Life"
+        },
+        {
+         "name": "Afraid of the Dark"
+        },
+        {
+         "name": "Voices"
+        },
+        {
+         "name": "Hollow Points"
+        },
+        {
+         "name": "Slaughterhouse"
+        },
+        {
+         "name": "Scoring the End of the World"
+        },
+        {
+         "name": "Another Life"
+        },
+        {
+         "name": "Eternally Yours"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/motionless-in-white/2026/allstate-arena-rosemont-il-134149e9.html"
+   }
+  ]
+ }
+}

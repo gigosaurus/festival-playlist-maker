@@ -1,0 +1,1384 @@
+{
+ "status": 200,
+ "body": {
+  "type": "setlists",
+  "itemsPerPage": 20,
+  "page": 1,
+  "total": 37,
+  "setlist": [
+   {
+    "id": "b7645a6",
+    "versionId": "g73187635",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-16T21:07:46.807+0000",
+    "artist": {
+     "mbid": "a2ce5f35-8031-49e3-95e9-c684f3f0b028",
+     "name": "Ben Cristovao",
+     "sortName": "Cristovao, Ben",
+     "disambiguation": "Czech singer",
+     "url": "https://www.setlist.fm/setlists/ben-cristovao-3db2547.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Kartáček"
+        },
+        {
+         "name": "Sweet Chilli"
+        },
+        {
+         "name": "Fancy"
+        },
+        {
+         "name": "Ledová"
+        },
+        {
+         "name": "Poslední"
+        },
+        {
+         "name": "ASIO"
+        },
+        {
+         "name": "Těžký váhy",
+         "with": {
+          "mbid": "fd1b6089-e607-4150-a072-001a6e74410d",
+          "name": "Tommy Thayer",
+          "sortName": "Thayer, Tommy",
+          "disambiguation": "KISS/Black ’n Blue guitarist",
+          "url": "https://www.setlist.fm/setlists/tommy-thayer-43d67fab.html"
+         }
+        },
+        {
+         "name": "BIKEROCK",
+         "with": {
+          "mbid": "fd1b6089-e607-4150-a072-001a6e74410d",
+          "name": "Tommy Thayer",
+          "sortName": "Thayer, Tommy",
+          "disambiguation": "KISS/Black ’n Blue guitarist",
+          "url": "https://www.setlist.fm/setlists/tommy-thayer-43d67fab.html"
+         }
+        },
+        {
+         "name": "I Was Made for Lovin' You",
+         "cover": {
+          "mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+          "name": "KISS",
+          "sortName": "KISS",
+          "disambiguation": "US rock band",
+          "url": "https://www.setlist.fm/setlists/kiss-6bd69ec6.html"
+         },
+         "with": {
+          "mbid": "fd1b6089-e607-4150-a072-001a6e74410d",
+          "name": "Tommy Thayer",
+          "sortName": "Thayer, Tommy",
+          "disambiguation": "KISS/Black ’n Blue guitarist",
+          "url": "https://www.setlist.fm/setlists/tommy-thayer-43d67fab.html"
+         }
+        },
+        {
+         "name": "Pápá"
+        },
+        {
+         "name": "Bomby"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/ben-cristovao/2026/park-360-hradec-kralove-czechia-b7645a6.html"
+   },
+   {
+    "id": "b764582",
+    "versionId": "g318bd13",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-10T17:37:26.889+0000",
+    "artist": {
+     "mbid": "5db1093e-b4c0-42b0-b951-20776c9eaf95",
+     "name": "Madface",
+     "sortName": "Madface",
+     "disambiguation": "dnb",
+     "url": "https://www.setlist.fm/setlists/madface-33c06411.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/madface/2026/park-360-hradec-kralove-czechia-b764582.html"
+   },
+   {
+    "id": "b746d16",
+    "versionId": "gb03a96a",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-08-02T21:11:40.291+0000",
+    "artist": {
+     "mbid": "02d4a572-665a-46bf-974d-5dbbae789e87",
+     "name": "Dave Lofts",
+     "sortName": "Lofts, Dave",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/dave-lofts-5b9adf2c.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Let Me Go Home"
+        },
+        {
+         "name": "Running Up That Hill (A Deal With God)",
+         "cover": {
+          "mbid": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "name": "Kate Bush",
+          "sortName": "Bush, Kate",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/kate-bush-23d6a4bf.html"
+         }
+        },
+        {
+         "name": "Rocky Road to Dublin"
+        },
+        {
+         "name": "One More Cup of Coffee (Valley Below)",
+         "cover": {
+          "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+          "name": "Bob Dylan",
+          "sortName": "Dylan, Bob",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/dave-lofts/2026/park-360-hradec-kralove-czechia-b746d16.html"
+   },
+   {
+    "id": "b746d0a",
+    "versionId": "gb06ed5e",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-28T14:54:15.150+0000",
+    "artist": {
+     "mbid": "b7023072-3a8c-4efc-bfd3-c117185f3b66",
+     "name": "Dinosaur Pile‐Up",
+     "sortName": "Dinosaur Pile‐Up",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/dinosaur-pileup-6bd4d2d6.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Stupid Heavy Metal Broken Hearted Loser Punk"
+        },
+        {
+         "name": "Back Foot"
+        },
+        {
+         "name": "Quasimodo Melonheart",
+         "info": "Live debut"
+        },
+        {
+         "name": "Thrash Metal Cassette"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "3rd song is a Live Debut, incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/dinosaur-pileup/2026/park-360-hradec-kralove-czechia-b746d0a.html"
+   },
+   {
+    "id": "b746d06",
+    "versionId": "g1318bd29",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-10T17:33:35.906+0000",
+    "artist": {
+     "mbid": "29acd2bb-7e67-4722-97ed-472e365ae860",
+     "name": "High Vis",
+     "sortName": "High Vis",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/high-vis-6bcd267e.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/high-vis/2026/park-360-hradec-kralove-czechia-b746d06.html"
+   },
+   {
+    "id": "7b41e60c",
+    "versionId": "g5b0fc7c0",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-09-03T17:49:54.605+0000",
+    "artist": {
+     "mbid": "b09de30a-09ac-4cc9-8812-49bb12e2bfa6",
+     "name": "Bilmuri",
+     "sortName": "Bilmuri",
+     "disambiguation": "US post-hardcore/pop-punk project",
+     "url": "https://www.setlist.fm/setlists/bilmuri-5bf6235c.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "KINDA HARD"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "KINDA HARD"
+        },
+        {
+         "name": "TWICE"
+        },
+        {
+         "name": "EMPTYHANDED"
+        },
+        {
+         "name": "HARD2TELL"
+        },
+        {
+         "name": "THE END"
+        },
+        {
+         "name": "FLUORIDEINTHEHARDSELTZERWATER"
+        },
+        {
+         "name": "ABSOLUTELYCRANKINMYMF'INHOG"
+        },
+        {
+         "name": "ROCK BOTTOM"
+        },
+        {
+         "name": "2016 CAVALIERS (Ohio)"
+        },
+        {
+         "name": "ALWAYS LET YOU DOWN",
+         "with": {
+          "mbid": "8bee1b07-d380-4e0b-b420-b253c1b5677e",
+          "name": "Jeremy McKinnon",
+          "sortName": "McKinnon, Jeremy",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/jeremy-mckinnon-7bdb2204.html"
+         }
+        },
+        {
+         "name": "MORE THAN HATE"
+        },
+        {
+         "name": "BETTER HELL (Thicc boi)"
+        },
+        {
+         "name": "WORST PART OF YOU"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/bilmuri/2026/park-360-hradec-kralove-czechia-7b41e60c.html"
+   },
+   {
+    "id": "7377ea69",
+    "versionId": "gb1e155e",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-04-30T19:47:53.928+0000",
+    "artist": {
+     "mbid": "f9978026-ffb8-4caa-b598-5ee739d9cb45",
+     "name": "Jiří Pavlica",
+     "sortName": "Pavlica, Jiří",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/jii-pavlica-63de72cb.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/jii-pavlica/2026/park-360-hradec-kralove-czechia-7377ea69.html"
+   },
+   {
+    "id": "6b41e602",
+    "versionId": "g1b18bd3c",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-10T17:32:01.796+0000",
+    "artist": {
+     "mbid": "0e31c728-5bf7-43d8-8f3a-f6500dab14fe",
+     "name": "The Lottery Winners",
+     "sortName": "Lottery Winners, The",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/the-lottery-winners-bd97562.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/the-lottery-winners/2026/park-360-hradec-kralove-czechia-6b41e602.html"
+   },
+   {
+    "id": "6377a287",
+    "versionId": "g5b1803b4",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-16T14:51:45.135+0000",
+    "artist": {
+     "mbid": "739b02e6-5e88-4e41-95ac-b09b1dbdc73d",
+     "name": "Fvck_Kvlt",
+     "sortName": "Fvck_Kvlt",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/fvckkvlt-73f866d5.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Intro"
+        },
+        {
+         "name": "Nula"
+        },
+        {
+         "name": "Cela"
+        },
+        {
+         "name": "Mŕtva revolúcia I."
+        },
+        {
+         "name": "Mŕtva revolúcia 2"
+        },
+        {
+         "name": "Skurvensko II."
+        },
+        {
+         "name": "Too Much (Paris.The.Paris song)"
+        },
+        {
+         "name": "Cigán v meste"
+        },
+        {
+         "name": "Teror"
+        },
+        {
+         "name": "Zle"
+        },
+        {
+         "name": "Crime Scene"
+        },
+        {
+         "name": "Nepoviem",
+         "info": "Acoustic"
+        },
+        {
+         "name": "Geiss-Zen",
+         "info": "Piano"
+        },
+        {
+         "name": "Planéta rýb",
+         "info": "Piano"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "Setlist incomplete and out of order",
+    "url": "https://www.setlist.fm/setlist/fvckkvlt/2026/park-360-hradec-kralove-czechia-6377a287.html"
+   },
+   {
+    "id": "634cce2b",
+    "versionId": "g63180a93",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-16T09:56:19.843+0000",
+    "artist": {
+     "mbid": "db008806-16f6-48fc-8521-3d953709689d",
+     "name": "A Day to Remember",
+     "sortName": "Day to Remember, A",
+     "disambiguation": "US post‐hardcore band",
+     "url": "https://www.setlist.fm/setlists/a-day-to-remember-1bd63d44.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The Downfall of Us All"
+        },
+        {
+         "name": "I'm Made of Wax, Larry, What Are You Made Of?"
+        },
+        {
+         "name": "2nd Sucks"
+        },
+        {
+         "name": "Right Back at It Again"
+        },
+        {
+         "name": "Bad Blood"
+        },
+        {
+         "name": "Paranoia"
+        },
+        {
+         "name": "Miracle"
+        },
+        {
+         "name": "All My Friends"
+        },
+        {
+         "name": "Have Faith in Me"
+        },
+        {
+         "name": "Rescue Me",
+         "cover": {
+          "mbid": "301b45a4-b8b9-410e-8344-4b4eaf96691a",
+          "name": "Marshmello",
+          "sortName": "Marshmello",
+          "disambiguation": "US | electronic",
+          "url": "https://www.setlist.fm/setlists/marshmello-3c7813b.html"
+         }
+        },
+        {
+         "name": "Flowers"
+        },
+        {
+         "name": "Mr. Highway's Thinking About the End"
+        },
+        {
+         "name": "Resentment"
+        },
+        {
+         "name": "All I Want"
+        },
+        {
+         "name": "The Plot to Bomb the Panhandle"
+        },
+        {
+         "name": "If It Means a Lot to You"
+        },
+        {
+         "name": "All Signs Point to Lauderdale"
+        }
+       ]
+      }
+     ]
+    },
+    "info": "",
+    "url": "https://www.setlist.fm/setlist/a-day-to-remember/2026/park-360-hradec-kralove-czechia-634cce2b.html"
+   },
+   {
+    "id": "6341e6ff",
+    "versionId": "g1b18bd28",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-10T17:33:59.685+0000",
+    "artist": {
+     "mbid": "dd2172f4-5404-4e62-9dce-0f94dbec8675",
+     "name": "Zero 9:36",
+     "sortName": "Zero 9:36",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/zero-936-3bf5e8ec.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/zero-936/2026/park-360-hradec-kralove-czechia-6341e6ff.html"
+   },
+   {
+    "id": "5b4eeb4c",
+    "versionId": "g5319df39",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-21T09:38:40.134+0000",
+    "artist": {
+     "mbid": "fabb37f8-eb2a-4cc1-a72a-b56935bbb72d",
+     "name": "Three Days Grace",
+     "sortName": "Three Days Grace",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/three-days-grace-33d6bcd9.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "Alienation"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "It's All Over",
+         "tape": true
+        },
+        {
+         "name": "Dominate"
+        },
+        {
+         "name": "Animal I Have Become"
+        },
+        {
+         "name": "So Called Life"
+        },
+        {
+         "name": "Break"
+        },
+        {
+         "name": "I Am Machine"
+        },
+        {
+         "name": "Pain"
+        },
+        {
+         "name": "The Mountain"
+        },
+        {
+         "name": "Kill Me Fast"
+        },
+        {
+         "name": "I Hate Everything About You"
+        },
+        {
+         "name": "Apologies"
+        },
+        {
+         "name": "Time of Dying"
+        },
+        {
+         "name": "Don’t Wanna Go Home Tonight"
+        },
+        {
+         "name": "World So Cold",
+         "info": "With Parabol intro"
+        },
+        {
+         "name": "Just Like You"
+        },
+        {
+         "name": "Mayday"
+        },
+        {
+         "name": "The Good Life"
+        },
+        {
+         "name": "Painkiller"
+        },
+        {
+         "name": "Never Too Late"
+        },
+        {
+         "name": "Riot"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/three-days-grace/2026/park-360-hradec-kralove-czechia-5b4eeb4c.html"
+   },
+   {
+    "id": "5b4d236c",
+    "versionId": "g6b196672",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-25T01:28:29.195+0000",
+    "artist": {
+     "mbid": "bf793edc-b7ba-49b6-9af6-b909b4fcf278",
+     "name": "Ankor",
+     "sortName": "Ankor",
+     "disambiguation": "Tarragona, Catalonia, Spain",
+     "url": "https://www.setlist.fm/setlists/ankor-5bdf7744.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "The World Is a Cruel Place... And It Is Also Very Beautiful",
+         "tape": true
+        },
+        {
+         "name": "Darkbeat (Misstiq Remix)",
+         "tape": true,
+         "info": "Intro"
+        },
+        {
+         "name": "Darkbeat"
+        },
+        {
+         "name": "Embers"
+        },
+        {
+         "name": "Venom"
+        },
+        {
+         "name": "Stereo"
+        },
+        {
+         "name": "Oblivion"
+        },
+        {
+         "name": "MADARA · endless dream"
+        },
+        {
+         "name": "Shoganai"
+        },
+        {
+         "name": "Danzo · Lying Ghost"
+        },
+        {
+         "name": "Hill Valley"
+        },
+        {
+         "name": "Prisoner"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ankor/2026/park-360-hradec-kralove-czechia-5b4d236c.html"
+   },
+   {
+    "id": "5b4d2364",
+    "versionId": "g4318ef3b",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-13T10:43:25.132+0000",
+    "artist": {
+     "mbid": "d5952849-0b94-4401-ba6f-81559f17f4b9",
+     "name": "ivri",
+     "sortName": "ivri",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/ivri-3bf9f020.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "erosion"
+        },
+        {
+         "name": "EVERYTHING"
+        },
+        {
+         "name": "loser :("
+        },
+        {
+         "name": "infinitesimal"
+        },
+        {
+         "name": "slip & let go"
+        },
+        {
+         "name": "FUZZY"
+        },
+        {
+         "name": "planets and faith"
+        },
+        {
+         "name": "Be Quiet and Drive (Far Away)",
+         "cover": {
+          "mbid": "7527f6c2-d762-4b88-b5e2-9244f1e34c46",
+          "name": "Deftones",
+          "sortName": "Deftones",
+          "disambiguation": "",
+          "url": "https://www.setlist.fm/setlists/deftones-1bd689cc.html"
+         }
+        },
+        {
+         "name": "Noise"
+        },
+        {
+         "name": "tower of memories"
+        },
+        {
+         "name": "MR. Brain Gobbler"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/ivri/2026/park-360-hradec-kralove-czechia-5b4d2364.html"
+   },
+   {
+    "id": "5b41e790",
+    "versionId": "g5b18cb00",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-14T11:52:08.721+0000",
+    "artist": {
+     "mbid": "074e3847-f67f-49f9-81f1-8c8cea147e8e",
+     "name": "Bring Me the Horizon",
+     "sortName": "Bring Me the Horizon",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "Summer Shows 2026"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "(Interlude) Press Start",
+         "tape": true
+        },
+        {
+         "name": "DArkSide"
+        },
+        {
+         "name": "The House of Wolves"
+        },
+        {
+         "name": "MANTRA"
+        },
+        {
+         "name": "Happy Song"
+        },
+        {
+         "name": "Teardrops",
+         "info": "With Pray for Plagues snippet"
+        },
+        {
+         "name": "AmEN!"
+        },
+        {
+         "name": "(Interlude) Project Angel Dust",
+         "tape": true
+        },
+        {
+         "name": "Kool-Aid"
+        },
+        {
+         "name": "Shadow Moses"
+        },
+        {
+         "name": "Itch for the Cure (When Will We Be Free?)",
+         "tape": true
+        },
+        {
+         "name": "Kingslayer"
+        },
+        {
+         "name": "Antivist",
+         "info": "with a fan on vocals called Elis"
+        },
+        {
+         "name": "Follow You"
+        },
+        {
+         "name": "Can You Feel My Heart"
+        }
+       ]
+      },
+      {
+       "encore": 1,
+       "song": [
+        {
+         "name": "(Interlude) You People Are All Doomed",
+         "tape": true
+        },
+        {
+         "name": "Doomed"
+        },
+        {
+         "name": "(Interlude) Aura Gauger",
+         "tape": true
+        },
+        {
+         "name": "Drown"
+        },
+        {
+         "name": "Throne"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/bring-me-the-horizon/2026/park-360-hradec-kralove-czechia-5b41e790.html"
+   },
+   {
+    "id": "534eeb41",
+    "versionId": "g6b09826a",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-10-15T08:27:30.818+0000",
+    "artist": {
+     "mbid": "b0cbb906-8576-4b7c-9cc5-c790502eb043",
+     "name": "unpeople",
+     "sortName": "Unpeople",
+     "disambiguation": "",
+     "url": "https://www.setlist.fm/setlists/unpeople-7bf86220.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "the garden",
+         "info": "Extended Outro"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/unpeople/2026/park-360-hradec-kralove-czechia-534eeb41.html"
+   },
+   {
+    "id": "534d2361",
+    "versionId": "g6b06b6fe",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-26T16:41:10.023+0000",
+    "artist": {
+     "mbid": "a13e51cc-e031-45aa-92e4-1c92520faa0a",
+     "name": "Dying Wish",
+     "sortName": "Dying Wish",
+     "disambiguation": "Portland hardcore",
+     "url": "https://www.setlist.fm/setlists/dying-wish-1bf0890c.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "I Don't Belong Anywhere"
+        },
+        {
+         "name": "Watch My Promise Die"
+        },
+        {
+         "name": "A Curse Upon Iron"
+        },
+        {
+         "name": "Symptoms of Survival"
+        },
+        {
+         "name": "I Brought You My Soul (Your World Brought Me Despair)"
+        },
+        {
+         "name": "Cowards Feed, Cowards Bleed"
+        },
+        {
+         "name": ""
+        },
+        {
+         "name": "Torn From Your Silhouette"
+        },
+        {
+         "name": "Lost in the Fall"
+        },
+        {
+         "name": "I'll Know You're Not Around"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/dying-wish/2026/park-360-hradec-kralove-czechia-534d2361.html"
+   },
+   {
+    "id": "4b4eeb42",
+    "versionId": "g63197a3b",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-24T11:19:09.795+0000",
+    "artist": {
+     "mbid": "69a16532-cdc2-459b-8f7a-7793583d7290",
+     "name": "Gatecreeper",
+     "sortName": "Gatecreeper",
+     "disambiguation": "US death metal band",
+     "url": "https://www.setlist.fm/setlists/gatecreeper-5bd88f6c.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "Dark Superstition"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "Craving Flesh"
+        },
+        {
+         "name": "Ruthless"
+        },
+        {
+         "name": "Dead Star"
+        },
+        {
+         "name": "A Chilling Aura"
+        },
+        {
+         "name": "Caught in the Treads"
+        },
+        {
+         "name": "The Black Curtain"
+        },
+        {
+         "name": "Mistaken For Dead"
+        },
+        {
+         "name": "Starved"
+        },
+        {
+         "name": "Patriarchal Grip"
+        },
+        {
+         "name": "From the Ashes"
+        },
+        {
+         "name": "Desperation"
+        },
+        {
+         "name": "Flesh Habit"
+        },
+        {
+         "name": "Sick of Being Sober"
+        },
+        {
+         "name": "Flamethrower"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/gatecreeper/2026/park-360-hradec-kralove-czechia-4b4eeb42.html"
+   },
+   {
+    "id": "4b4d2366",
+    "versionId": "g3b18eca8",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-13T10:06:31.903+0000",
+    "artist": {
+     "mbid": "cc220a20-9cd4-4dc2-9164-dadd2bb85467",
+     "name": "Gaerea",
+     "sortName": "Gaerea",
+     "disambiguation": "Portuguese black metal",
+     "url": "https://www.setlist.fm/setlists/gaerea-2bc13036.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "tour": {
+     "name": "Summer '26"
+    },
+    "sets": {
+     "set": [
+      {
+       "song": [
+        {
+         "name": "LBRNTH"
+        },
+        {
+         "name": "Nomad"
+        },
+        {
+         "name": "Phoenix"
+        },
+        {
+         "name": "Submerged"
+        },
+        {
+         "name": "Hellbound"
+        },
+        {
+         "name": "Luminary"
+        },
+        {
+         "name": "Hope Shatters"
+        },
+        {
+         "name": "Wilted Flower"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "https://www.setlist.fm/setlist/gaerea/2026/park-360-hradec-kralove-czechia-4b4d2366.html"
+   },
+   {
+    "id": "434eeb43",
+    "versionId": "gb18bd5a",
+    "eventDate": "12-06-2026",
+    "lastUpdated": "2026-06-10T17:26:35.382+0000",
+    "artist": {
+     "mbid": "a8c7ff7a-ebc0-42c7-8828-475decf0ccdd",
+     "name": "Basement",
+     "sortName": "Basement",
+     "disambiguation": "English pop punk band",
+     "url": "https://www.setlist.fm/setlists/basement-23d5e40b.html"
+    },
+    "venue": {
+     "id": "73d07619",
+     "name": "Park 360",
+     "city": {
+      "id": "3074967",
+      "name": "Hradec Králové",
+      "state": "Královéhradecký Kraj",
+      "stateCode": "82",
+      "coords": {
+       "lat": 50.2092284127622,
+       "long": 15.8327684657118
+      },
+      "country": {
+       "code": "CZ",
+       "name": "Czechia"
+      }
+     },
+     "url": "https://www.setlist.fm/venue/park-360-hradec-kralove-czechia-73d07619.html"
+    },
+    "sets": {
+     "set": []
+    },
+    "url": "https://www.setlist.fm/setlist/basement/2026/park-360-hradec-kralove-czechia-434eeb43.html"
+   }
+  ]
+ }
+}

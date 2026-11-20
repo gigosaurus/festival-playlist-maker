@@ -1,0 +1,1356 @@
+{
+ "event-offset": 0,
+ "event-count": 90,
+ "events": [
+  {
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Post Human European Tour - Basel",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-21",
+    "begin": "2023-02-21"
+   },
+   "id": "0978248a-7839-45a3-9f6b-302f02cfa8c0"
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-22",
+    "begin": "2023-02-22"
+   },
+   "id": "09d06805-6ee5-405e-ae2f-219a263df236",
+   "name": "Post Human European Tour - Stuttgart",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "name": "Post Human European Tour - Barcelona",
+   "id": "0b7b6a62-376a-45c7-be8e-a0e1a8b6223d",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-19",
+    "begin": "2023-02-19"
+   },
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "ended": true,
+    "begin": "2026-10-11",
+    "end": "2026-10-11"
+   },
+   "type": "Festival",
+   "id": "0cf0d0cf-5d18-4db2-85bd-474bda1769a9",
+   "name": "Furnace Fest 26 Day 2",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": ""
+  },
+  {
+   "setlist": "",
+   "time": "11:00",
+   "name": "Sick New World 2024: Gold Stage",
+   "type": "Festival",
+   "life-span": {
+    "end": "2024-04-27",
+    "begin": "2024-04-27",
+    "ended": true
+   },
+   "id": "0e581b8a-80ae-4113-8383-b1698174b54b",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": ""
+  },
+  {
+   "name": "Nova Rock Festival 2024, Day 4: Blue Stage",
+   "type": "Festival",
+   "life-span": {
+    "begin": "2024-06-16",
+    "end": "2024-06-16",
+    "ended": true
+   },
+   "id": "13f338f0-b495-4fcb-a1ff-e5580cc77040",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Hurricane Festival 2024, Day 4: Forest Stage",
+   "type": "Festival",
+   "life-span": {
+    "end": "2024-06-23",
+    "begin": "2024-06-23",
+    "ended": true
+   },
+   "id": "17057ade-9314-460b-b445-06788a2e8315"
+  },
+  {
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "end": "2023-02-02",
+    "begin": "2023-02-02",
+    "ended": true
+   },
+   "type": "Concert",
+   "id": "1a5c0476-eee2-418b-aa5d-c7a454a45c1b",
+   "name": "Post Human European Tour - Hannover"
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "begin": "2026-06-18",
+    "end": "2026-06-18",
+    "ended": true
+   },
+   "type": "Festival",
+   "id": "1afa6c0b-dcb2-4528-a0da-b6728ff5ee99",
+   "name": "Hellfest 2026, Thursday: Mainstage 1"
+  },
+  {
+   "id": "2413884a-9a3d-4c41-82a6-e19fd4b99403",
+   "life-span": {
+    "begin": "2019-10-28",
+    "end": "2019-10-28",
+    "ended": true
+   },
+   "type": "Concert",
+   "name": "Threesome Tour: Tampa",
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "251a8b4d-e591-4e44-83e2-81ce7d03d03f",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2016-05-08",
+    "end": "2016-05-08"
+   },
+   "name": "Carolina Rebellion 2016, Day 3: Rebellion Stage",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "name": "Post Human European Tour - Antwerp",
+   "id": "2600f423-6a0b-4e92-88e7-c2171070f23d",
+   "life-span": {
+    "ended": true,
+    "begin": "2023-02-28",
+    "end": "2023-02-28"
+   },
+   "type": "Concert",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "name": "Post Human European Tour - Amsterdam",
+   "id": "26222962-f73d-41a0-9a38-419e918cc79b",
+   "life-span": {
+    "begin": "2023-02-24",
+    "end": "2023-02-24",
+    "ended": true
+   },
+   "type": "Concert",
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false
+  },
+  {
+   "time": "",
+   "setlist": "# BleauLive Theater\r\n@ Spritbox\r\n* Cellar Door\r\n* Jaded\r\n* Angel Eyes\r\n* The Void\r\n* Rule of Nines\r\n* Hurt You\r\n* Yellowjacket\r\n* Circle With Me\r\n* Holy Roller\r\n@ Bring Me the Horizon\r\n* DArkSide\r\n* Empire (Let Them Sing)\r\n* MANTRA\r\n* Teardrops\r\n* AmEN!\r\n* Kool-Aid\r\n* The Best Is Yet to Come\r\n* Shadow Moses\r\n* Obey\r\n* DiE4u\r\n* Itch for the Cure (When Will We Be Free?)\r\n* Kingslayer\r\n* sTraNgeRs (Acoustic)\r\n* Diamonds Aren't Forever\r\n* Parasite Eve\r\n* Antivist (with audience member Sofia)\r\n* Drown\r\n* Can You Feel My Heart\r\n# Encore:\r\n* Doomed\r\n* LosT\r\n* Throne\r\n\r\n# Brooklyn Bowl Las Vegas\r\n@ Nitzer Ebb\r\n* Control I'm Here\r\n* Hearts and Minds\r\n* Blood Money\r\n* For Fun\r\n* Lightning Man\r\n* Captivate\r\n* Once You Say\r\n* Come Alive\r\n* Join in the Chant\r\n* Down on Your Knees\r\n* Let Your Body Learn\r\n* Murderous\r\n# Encore:\r\n* Violent Playground\r\n* I Give to You\r\n@ Front 242\r\n* First In/First Out\r\n* Take One\r\n* Don't Crash\r\n* Funkahdafi\r\n* Generator\r\n* Quite Unusual\r\n* Soul Manager\r\n* Commando Mix\r\n* Red Team\r\n* Deeply Asleep\r\n* Operating Tracks\r\n* Tragedy >For You<\r\n* Fix It\r\n* Headhunter\r\n* W.Y.H.I.W.Y.G. / U-Men\r\n* Moldavia\r\n# Encore:\r\n* No Shuffle\r\n* Welcome to Paradise\r\n\r\n# House of Blues\r\n@ Amira Elfeky\r\n\r\n@ Chevelle\r\n* Verruckt\r\n* An Island\r\n* Door to Door Cannibals\r\n* Self Destructor\r\n* Vitamin R (Leading Us Along)\r\n* Young Wicked\r\n* Take Out the Gunman\r\n* Joyride (Omen)\r\n* Face to the Floor\r\n* The Clincher\r\n* Jars\r\n* Forfeit\r\n* Send the Pain Below\r\n* Piistol Star (Gravity Heals)\r\n* Hats Off to the Bull\r\n* The Red (Solo)\r\n* Comfortable Liar\r\n* I Get It\r\n* Mars Simula",
+   "name": "Sick New World: Sideshows 2024, Day 1",
+   "id": "2710bf99-4e9c-4935-995d-c7fa0f9dcb21",
+   "type": "Festival",
+   "life-span": {
+    "end": "2024-04-25",
+    "begin": "2024-04-25",
+    "ended": true
+   },
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "ended": true,
+    "end": "2008-01-27",
+    "begin": "2008-01-27"
+   },
+   "type": "Concert",
+   "id": "2ba7cc24-5e3a-419b-9ee3-5f54fb0495b5",
+   "name": "Despised Icon / Misery Index / Beneath the Massacare / Man Must Die / Maroon / Bring Me the Horizon / Blessed by a Broken Heart / Architects / Baroness / Kylesa / Moker at Muziekodroom"
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2022-08-28",
+    "begin": "2022-08-26"
+   },
+   "id": "31dfc370-4e7d-4614-b0ec-036590a312ae",
+   "name": "Reading Festival 2022",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2027-06-06",
+    "begin": "2027-06-04"
+   },
+   "id": "335aa765-897a-4c70-9d7d-83e72475b7e4",
+   "name": "Rock am Ring 2027",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "name": "Sweden Rock Festival 2026, Saturday: Festival Stage",
+   "id": "3684b0a0-482e-4646-9c42-97be0e43d353",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2026-06-06",
+    "end": "2026-06-06"
+   },
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "name": "Wacken Open Air 2014, Day 3: Double Main Stage",
+   "id": "3a8bdd3b-ba47-4c1f-826d-37779a90aeb5",
+   "type": "Festival",
+   "life-span": {
+    "begin": "2014-08-01",
+    "end": "2014-08-01",
+    "ended": true
+   },
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "name": "Sick New World: Sideshows 2024, Day 2",
+   "id": "3b1d7a12-0694-4785-9d0b-fbb4ae8fd83e",
+   "life-span": {
+    "ended": true,
+    "end": "2024-04-26",
+    "begin": "2024-04-26"
+   },
+   "type": "Festival",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2014-08-01",
+    "end": "2014-08-01"
+   },
+   "id": "3d020013-264f-4340-a2a5-43a282bf03d9",
+   "name": "Wacken Open Air 2014, Friday: Black Stage",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "403b67af-b1f9-4350-b139-e5524ff60169",
+   "life-span": {
+    "ended": true,
+    "end": "2016-07-07",
+    "begin": "2016-07-07"
+   },
+   "type": "Festival",
+   "name": "Resurrection Fest XI, Day 1: Main Stage",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "name": "Las Rageous 2019, Day 1: Stage U",
+   "id": "43329de3-9b5a-440d-8b61-b2c73c97b8a4",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2019-10-18",
+    "begin": "2019-10-18"
+   },
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "11:00",
+   "setlist": "",
+   "name": "When We Were Young 2022, Day 2: Black Stage",
+   "id": "44c1bb32-e538-4cc0-9573-051765e33b9b",
+   "life-span": {
+    "begin": "2022-10-23",
+    "end": "2022-10-23",
+    "ended": true
+   },
+   "type": "Festival"
+  },
+  {
+   "type": "Festival",
+   "life-span": {
+    "begin": "2024-06-22",
+    "end": "2024-06-22",
+    "ended": true
+   },
+   "id": "44f9d70e-02e7-4c5a-8572-68ec934f366c",
+   "name": "Graspop Metal Meeting 2024, Day 3: South Stage",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "life-span": {
+    "ended": true,
+    "begin": "2019-10-21",
+    "end": "2019-10-21"
+   },
+   "type": "Concert",
+   "id": "50fb316d-2825-44fa-a838-b94b868e5071",
+   "name": "Threesome Tour: Oklahoma City",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "name": "Tuska 2026, Day 3: Karhu Main Stage",
+   "id": "52df95fd-666c-4662-a99f-9a19bc2ddb56",
+   "life-span": {
+    "ended": true,
+    "begin": "2026-06-28",
+    "end": "2026-06-28"
+   },
+   "type": "Festival",
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "ended": true,
+    "begin": "2025-06-08",
+    "end": "2025-06-08"
+   },
+   "type": "Festival",
+   "id": "57dd47ee-8c17-47c8-92cd-c8c27be80d84",
+   "name": "Rock im Park 2025, Day 3: Utopia Stage"
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "begin": "2016-06-18",
+    "end": "2016-06-18",
+    "ended": true
+   },
+   "type": "Festival",
+   "id": "5ead6c82-8313-46d2-a661-e37df78c03a9",
+   "name": "Hellfest 2016, Day 2: Main Stage 2",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": ""
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": true,
+   "disambiguation": "",
+   "time": "11:00",
+   "setlist": "",
+   "id": "5ee7491a-d6f4-451b-be16-7f7504218209",
+   "life-span": {
+    "end": "2022-10-22",
+    "begin": "2022-10-22",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "When We Were Young 2022, Day 1: Black Stage"
+  },
+  {
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "name": "Post Human European Tour - Gliwice",
+   "id": "5f003584-d171-4eb9-86fc-30c6a0979ee7",
+   "life-span": {
+    "ended": true,
+    "begin": "2023-02-06",
+    "end": "2023-02-06"
+   },
+   "type": "Concert",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "type": "Concert",
+   "life-span": {
+    "end": "2023-02-26",
+    "begin": "2023-02-26",
+    "ended": true
+   },
+   "id": "6153c389-772b-4c15-974f-86228d69c334",
+   "name": "Post Human European Tour - Düsseldorf",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "id": "61ef4b5c-04e8-4865-93bb-aaefe64fb9ff",
+   "life-span": {
+    "begin": "2019-05-25",
+    "end": "2019-05-25",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "BBC Radio 1’s Big Weekend 2019, Day 2: The 1 for New Music Stage",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2025-06-06",
+    "end": "2025-06-06"
+   },
+   "id": "62066287-76b6-4a3c-978d-a23816b83918",
+   "name": "Rock am Ring 2025, Day 1: Utopia Stage",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "id": "6328fd45-e16a-4b15-bfa3-939d6983ccf9",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-15",
+    "begin": "2023-02-15"
+   },
+   "type": "Concert",
+   "name": "Post Human European Tour - Lisbon",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "name": "Threesome Tour: Portland",
+   "life-span": {
+    "ended": true,
+    "begin": "2019-10-14",
+    "end": "2019-10-14"
+   },
+   "type": "Concert",
+   "id": "639c4cf1-7d82-4ca1-a2cb-767446f32935",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "type-id": null,
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "name": "Louder Than Life 2022, Day 1: Loudmouth Stage",
+   "id": "64617055-4242-416f-b19c-0ca80322fd32",
+   "type": null,
+   "life-span": {
+    "ended": true,
+    "begin": "2022-09-22",
+    "end": "2022-09-22"
+   }
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "# 1º\r\n@ Sepultura\r\n# 2º\r\n@ mgk\r\n# 3º\r\n@ Bring Me the Horizon\r\n# 4º\r\n@ Avenged Sevenfold",
+   "time": "",
+   "life-span": {
+    "begin": "2026-09-05",
+    "end": "2026-09-05",
+    "ended": true
+   },
+   "type": "Festival",
+   "id": "65f4f8cf-73ee-4e57-adf8-56334abc7b44",
+   "name": "Rock in Rio 11, Day 2: Palco Mundo"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "name": "Rock am Ring 2011, Saturday: Alternastage",
+   "id": "674dc70b-7b84-4119-b967-4fec25bff4db",
+   "life-span": {
+    "ended": true,
+    "begin": "2011-06-04",
+    "end": "2011-06-04"
+   },
+   "type": "Festival",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2026-07-10",
+    "begin": "2026-07-10"
+   },
+   "id": "67d7c7c1-67ea-4e01-a3b3-11381ef1eefb",
+   "name": "Outbreak Presents: Count Your Blessings | Repented",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "6cd140e3-3b05-4209-9aa1-ab57d0b7a6fa",
+   "life-span": {
+    "ended": true,
+    "end": "2011-08-26",
+    "begin": "2011-08-26"
+   },
+   "type": "Festival",
+   "name": "Reading Festival 2011, day 1: Main Stage",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Rock for People 2026, Day 3: Mastercard stage",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2026-06-12",
+    "end": "2026-06-12"
+   },
+   "id": "6e347449-7c7e-4baa-a4b0-afc260e0077b"
+  },
+  {
+   "id": "718a010f-791f-46f7-b492-c18ba33e8e91",
+   "type": "Festival",
+   "life-span": {
+    "end": "2015-08-28",
+    "begin": "2015-08-26",
+    "ended": true
+   },
+   "name": "Reading Festival",
+   "time": "",
+   "setlist": "",
+   "disambiguation": "2015",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Post Human European Tour - Vienna",
+   "life-span": {
+    "ended": true,
+    "begin": "2023-02-09",
+    "end": "2023-02-09"
+   },
+   "type": "Concert",
+   "id": "71e561de-24cf-40e7-9d50-51fa6e4d3666"
+  },
+  {
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "id": "720faa99-13c5-43f8-8c4c-a0a023df8389",
+   "life-span": {
+    "ended": true,
+    "begin": "2023-02-10",
+    "end": "2023-02-10"
+   },
+   "type": "Concert",
+   "name": "Post Human European Tour - Munich"
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Pukkelpop 2011, Thursday: The Shelter",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2011-08-18",
+    "begin": "2011-08-18"
+   },
+   "id": "7296af7f-61f0-4854-8427-302bbef2e4e9",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "7921612c-2a0d-4eab-94dc-fe77715d0b9f",
+   "life-span": {
+    "begin": "2022-08-26",
+    "end": "2022-08-28",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "Leeds Festival 2022",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "begin": "2019-10-19",
+    "end": "2019-10-19"
+   },
+   "id": "7a22d543-91b6-44e5-b9a3-1cfd56147adf",
+   "name": "Threesome Tour: San Diego",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "setlist": "",
+   "time": "11:00",
+   "name": "When We Were Young 2022, Day 3: Black Stage",
+   "life-span": {
+    "end": "2022-10-29",
+    "begin": "2022-10-29",
+    "ended": true
+   },
+   "type": "Festival",
+   "id": "7bd561d6-06f8-4876-bea9-d645cc634507",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": ""
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "id": "7dedb866-f0e9-4357-b73f-4df1c2a5d9b7",
+   "life-span": {
+    "end": "2024-06-27",
+    "begin": "2024-06-27",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "Resurrection Fest 2024, Day 2: Main Stage",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "name": "Post Human European Tour - Madrid",
+   "id": "7f4e8ad9-165d-4b48-9823-8197939a1c1d",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-18",
+    "begin": "2023-02-18"
+   },
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "11:00",
+   "setlist": "",
+   "id": "8221f879-fef9-47a6-9e35-68a70e459958",
+   "life-span": {
+    "end": "2019-06-30",
+    "begin": "2019-06-30",
+    "ended": true
+   },
+   "type": "Festival",
+   "name": "Glastonbury Festival 2019, Sunday: Other Stage"
+  },
+  {
+   "name": "Download Festival 2009, Day 1: 2nd Stage",
+   "id": "83693929-c2c8-4568-81ef-a366fe747c0d",
+   "type": "Festival",
+   "life-span": {
+    "end": "2009-06-12",
+    "begin": "2009-06-12",
+    "ended": true
+   },
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Outbreak Presents: Count Your Blessings | Repented",
+   "type": "Concert",
+   "life-span": {
+    "end": "2026-07-11",
+    "begin": "2026-07-11",
+    "ended": true
+   },
+   "id": "888fee95-d434-44b9-b730-cdf2b30e4c34"
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "11:00",
+   "setlist": "",
+   "name": "Louder Than Life 2015, Day 1: Monster Energy Stage South",
+   "id": "89afa569-b57b-4493-acb9-af77390e2c1f",
+   "life-span": {
+    "end": "2015-10-03",
+    "begin": "2015-10-03",
+    "ended": true
+   },
+   "type": "Festival"
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "type": "Festival",
+   "life-span": {
+    "begin": "2024-06-21",
+    "end": "2024-06-21",
+    "ended": true
+   },
+   "id": "89e9eac3-f1fb-412e-898f-a9413d80399a",
+   "name": "Southside 2024, Day 2: Green Stage",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "id": "9d82c95f-889d-4194-89a3-52d7aeb449ea",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2019-10-22",
+    "begin": "2019-10-22"
+   },
+   "name": "Threesome Tour: Kansas City",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "name": "Rock am Ring 2019, Saturday: Volcano Stage",
+   "id": "9e94b139-6454-4df5-ac13-b027a99292ac",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2019-06-08",
+    "begin": "2019-06-08"
+   }
+  },
+  {
+   "name": "Aftershock 2022, Day 4: Jack Daniel’s Stage",
+   "type": "Festival",
+   "life-span": {
+    "begin": "2022-10-09",
+    "end": "2022-10-09",
+    "ended": true
+   },
+   "id": "a255c173-3a06-4adc-9ef7-99d57684cdd8",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "life-span": {
+    "ended": true,
+    "begin": "2026-06-24",
+    "end": "2026-06-24"
+   },
+   "type": "Festival",
+   "id": "a29a3f08-8cdf-45da-af9c-43f877403853",
+   "name": "Tons of Rock 2026, Wednesday: Scream Stage",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "id": "a8cae4c8-3e5f-4212-a5e2-c681edca98ab",
+   "life-span": {
+    "ended": true,
+    "begin": "2019-10-25",
+    "end": "2019-10-25"
+   },
+   "type": "Concert",
+   "name": "Threesome Tour: San Antonio",
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "type": "Award ceremony",
+   "life-span": {
+    "ended": true,
+    "begin": "2022-02-08",
+    "end": "2022-02-08"
+   },
+   "id": "aace0a67-178b-4491-8d87-419681610459",
+   "name": "Brit Awards 2022",
+   "cancelled": false,
+   "type-id": "d23e6bdf-1007-443a-ad2a-82f4a728b5e9",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "name": "Post Human European Tour - Prague",
+   "life-span": {
+    "begin": "2023-02-07",
+    "end": "2023-02-07",
+    "ended": true
+   },
+   "type": "Concert",
+   "id": "b2ae5a87-6d70-4bf8-b3d1-a60d3104b010",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "id": "bbdff157-e87d-4b03-a0e5-dacddd0a026b",
+   "life-span": {
+    "ended": true,
+    "begin": "2026-06-20",
+    "end": "2026-06-20"
+   },
+   "type": "Festival",
+   "name": "Graspop Metal Meeting 2026, Saturday: South Stage",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-11",
+    "begin": "2023-02-11"
+   },
+   "id": "bda7779f-dbff-43a7-8adc-6dbec03d5927",
+   "name": "Post Human European Tour - Milan",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "name": "Nova Rock 2026, Sunday: Blue Stage",
+   "id": "c1e46859-6c5b-4c8a-a524-99672eadf4e5",
+   "life-span": {
+    "begin": "2026-06-14",
+    "end": "2026-06-14",
+    "ended": true
+   },
+   "type": "Festival",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "type": "Festival",
+   "life-span": {
+    "end": "2010-08-01",
+    "begin": "2010-08-01",
+    "ended": true
+   },
+   "id": "c298a572-b63b-4e84-b8a3-514d9e0ad632",
+   "name": "Sonisphere Knebworth 2010, Day 3: Saturn Stage",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "cb1939c5-3c4f-4de1-a14e-ac46cee39794",
+   "life-span": {
+    "ended": true,
+    "end": "2016-08-20",
+    "begin": "2016-08-20"
+   },
+   "type": "Festival",
+   "name": "Pukkelpop 2016, Saturday: Main Stage",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "name": "Threesome Tour: Miami",
+   "type": "Concert",
+   "life-span": {
+    "begin": "2019-10-29",
+    "end": "2019-10-29",
+    "ended": true
+   },
+   "id": "cba3d38e-0b86-450c-9e46-dd3c0fa97381",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": ""
+  },
+  {
+   "name": "Download Festival 2011, Day 1: Second Stage",
+   "id": "d37b0b45-05d0-4cc7-9bcb-24c5911ffe69",
+   "type": "Festival",
+   "life-span": {
+    "end": "2011-06-10",
+    "begin": "2011-06-10",
+    "ended": true
+   },
+   "time": "",
+   "setlist": "",
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "life-span": {
+    "ended": true,
+    "begin": "2019-10-10",
+    "end": "2019-10-10"
+   },
+   "type": "Concert",
+   "id": "d9440fca-31fa-4868-8d16-1fc70f33d1a4",
+   "name": "Threesome Tour: Phoenix",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "life-span": {
+    "ended": true,
+    "begin": "2014-06-26",
+    "end": "2014-06-26"
+   },
+   "type": "Festival",
+   "id": "dae78d45-b71f-4ef1-ab53-5b6937501811",
+   "name": "Bråvalla Festival 2014, Day 1",
+   "setlist": "",
+   "time": "",
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "name": "Glastonbury Festival 2016, Day 1: Other Stage",
+   "life-span": {
+    "end": "2016-06-24",
+    "begin": "2016-06-24",
+    "ended": true
+   },
+   "type": "Festival",
+   "id": "e0a22016-6c06-4150-b1a9-ab046f4b4b0a",
+   "setlist": "",
+   "time": "11:50",
+   "disambiguation": "Friday",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678"
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "name": "Rock im Park 2027",
+   "id": "e213a128-ff99-4559-8054-e7a89d189538",
+   "life-span": {
+    "end": "2027-06-06",
+    "begin": "2027-06-04",
+    "ended": true
+   },
+   "type": "Festival",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "name": "Bring Me The Horizon",
+   "type": "Concert",
+   "life-span": {
+    "begin": "2025-06-04",
+    "end": "2025-06-04",
+    "ended": true
+   },
+   "id": "e38aa9c1-5442-4f5a-9327-9cf9a9403681",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Pukkelpop 2014, Saturday: The Shelter",
+   "type": "Festival",
+   "life-span": {
+    "end": "2014-08-16",
+    "begin": "2014-08-16",
+    "ended": true
+   },
+   "id": "e3ef9852-1ab2-4b9f-ace7-048b8f29860e",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "life-span": {
+    "begin": "2023-02-03",
+    "end": "2023-02-03",
+    "ended": true
+   },
+   "type": "Concert",
+   "id": "e41c0941-d108-4699-8f08-b70628963c65",
+   "name": "Post Human European Tour - Berlin",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": ""
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "name": "Graspop Metal Meeting 2008, Day 2: Marquee II",
+   "life-span": {
+    "ended": true,
+    "end": "2008-06-28",
+    "begin": "2008-06-28"
+   },
+   "type": "Festival",
+   "id": "e5db9f7d-f781-4214-b90b-3ebf73465f08"
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "name": "Rock am Ring 2013",
+   "id": "e6759640-57b9-411d-b58c-6397db146c51",
+   "life-span": {
+    "ended": true,
+    "end": "2013-06-09",
+    "begin": "2013-06-07"
+   },
+   "type": "Festival"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "name": "Download Festival 2014, Day 2: The Stephen Sutton Main Stage",
+   "id": "e77e33d3-6ca8-4330-ba70-c43b973617c6",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "end": "2014-06-14",
+    "begin": "2014-06-14"
+   },
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "disambiguation": "",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "id": "ed6861a4-71fd-4beb-a74d-a42fd6b6706e",
+   "life-span": {
+    "ended": true,
+    "begin": "2014-06-22",
+    "end": "2014-06-22"
+   },
+   "type": "Festival",
+   "name": "Southside 2014, Day 3, Red Stage",
+   "time": "",
+   "setlist": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "name": "Post Human European Tour - Toulouse",
+   "life-span": {
+    "begin": "2023-02-13",
+    "end": "2023-02-13",
+    "ended": true
+   },
+   "type": "Concert",
+   "id": "edb2156a-a77e-4249-aec5-2c6170f6ca95",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "disambiguation": "",
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "name": "Metaltown 2009",
+   "life-span": {
+    "ended": true,
+    "begin": "2009-06-26",
+    "end": "2009-06-27"
+   },
+   "type": "Festival",
+   "id": "ee09e48b-8d6e-40de-ac5b-f5fbf190519f",
+   "setlist": "",
+   "time": ""
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "12:00",
+   "setlist": "",
+   "name": "Sonisphere Switzerland 2011, Day 2: Bohemia Stage",
+   "id": "f0061043-6c65-4219-bb2d-4e201bdd781f",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2011-06-24",
+    "end": "2011-06-24"
+   }
+  },
+  {
+   "setlist": "",
+   "time": "",
+   "name": "Post Human European Tour - Frankfurt",
+   "life-span": {
+    "ended": true,
+    "end": "2023-02-04",
+    "begin": "2023-02-04"
+   },
+   "type": "Concert",
+   "id": "f0d52598-7cd6-4b05-a6b2-510059a3860c",
+   "cancelled": false,
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "disambiguation": ""
+  },
+  {
+   "cancelled": false,
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "disambiguation": "",
+   "setlist": "",
+   "time": "",
+   "type": "Festival",
+   "life-span": {
+    "end": "2022-08-21",
+    "begin": "2022-08-21",
+    "ended": true
+   },
+   "id": "f5e08701-68b3-4c55-89b5-ccf5452497a0",
+   "name": "Pukkelpop 2022, Sunday: Main Stage"
+  },
+  {
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "11:00",
+   "setlist": "",
+   "id": "fa88106b-2a6a-4084-8e74-8357e9d564b1",
+   "type": "Festival",
+   "life-span": {
+    "ended": true,
+    "begin": "2022-10-29",
+    "end": "2022-10-29"
+   },
+   "name": "When We Were Young 2022, Day 3"
+  },
+  {
+   "time": "",
+   "setlist": "",
+   "id": "fdeabeaf-a347-47e0-bf1f-52c508d0fbad",
+   "type": "Festival",
+   "life-span": {
+    "end": "2019-07-20",
+    "begin": "2019-07-20",
+    "ended": true
+   },
+   "name": "Electric Castle 2019, day 4",
+   "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+   "cancelled": false,
+   "disambiguation": ""
+  },
+  {
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "name": "Post Human European Tour - Hamburg",
+   "id": "feaf8d99-dcab-43bc-b729-783310778eb7",
+   "type": "Concert",
+   "life-span": {
+    "ended": true,
+    "begin": "2023-02-25",
+    "end": "2023-02-25"
+   }
+  },
+  {
+   "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+   "cancelled": false,
+   "disambiguation": "",
+   "time": "",
+   "setlist": "",
+   "id": "ff31ffa2-f03e-4079-83cb-55ed1b292844",
+   "life-span": {
+    "ended": true,
+    "end": "2019-10-16",
+    "begin": "2019-10-16"
+   },
+   "type": "Concert",
+   "name": "Threesome Tour: Seattle"
+  }
+ ]
+}

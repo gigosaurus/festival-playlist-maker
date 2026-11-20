@@ -2,12 +2,13 @@
 // Usage, from the repository root:
 //   node --env-file-if-exists=.env test/fixtures/musicbrainz/record.ts <output directory> <search text>...
 // An argument "links:<MusicBrainz ID>" records the lookup of that artist with its links.
+// An argument "events:<MusicBrainz ID>" records the pages of the events of that artist (#13).
 // The script reads MUSICBRAINZ_CONTACT for the User-Agent. It waits 2 seconds
 // between requests, and sends a request again after status 503.
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { genreListUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../../src/musicbrainz.ts";
-import { fixtureFileName, linksFileName } from "../../support/musicbrainz.ts";
+import { eventsPerPage, genreListUrl, maximumEventPages, musicbrainzEventsUrl, musicbrainzLinksUrl, musicbrainzSearchUrl } from "../../../src/musicbrainz.ts";
+import { eventsFileName, fixtureFileName, linksFileName } from "../../support/musicbrainz.ts";
 
 const [output, ...texts] = process.argv.slice(2);
 const contact = process.env.MUSICBRAINZ_CONTACT?.trim();
@@ -17,7 +18,7 @@ if (output === undefined || !contact) {
 }
 const userAgent = `FestivalPlaylistMaker-fixtures/1 ( ${contact} )`;
 
-async function record(url: string, file: string): Promise<void> {
+async function record(url: string, file: string): Promise<string | undefined> {
   for (let attempt = 1; attempt <= 8; attempt++) {
     const response = await fetch(url, { headers: { "user-agent": userAgent, accept: file.endsWith(".txt") ? "text/plain" : "application/json" } });
     await new Promise((resolve) => setTimeout(resolve, 2_000));
@@ -25,13 +26,22 @@ async function record(url: string, file: string): Promise<void> {
     const body = await response.text();
     writeFileSync(join(output!, file), file.endsWith(".json") ? `${JSON.stringify(JSON.parse(body), null, 1)}\n` : body);
     console.log(`${file}: status ${response.status}`);
-    return;
+    return body;
   }
   console.error(`${file}: status 503 eight times`);
+  return undefined;
 }
 
 const lookups = texts.filter((text) => text.startsWith("links:")).map((text) => text.slice("links:".length));
-const searches = texts.filter((text) => !text.startsWith("links:"));
+const eventArtists = texts.filter((text) => text.startsWith("events:")).map((text) => text.slice("events:".length));
+const searches = texts.filter((text) => !text.startsWith("links:") && !text.startsWith("events:"));
 if (searches.length > 0) await record(genreListUrl, "genres.txt");
 for (const text of searches) await record(musicbrainzSearchUrl(text), fixtureFileName(text));
 for (const id of lookups) await record(musicbrainzLinksUrl(id), linksFileName(id));
+for (const id of eventArtists) {
+  for (let page = 1; page <= maximumEventPages; page++) {
+    const body = await record(musicbrainzEventsUrl(id, (page - 1) * eventsPerPage), eventsFileName(id, page));
+    const total = body === undefined ? 0 : ((JSON.parse(body) as { "event-count"?: number })["event-count"] ?? 0);
+    if (page * eventsPerPage >= total) break;
+  }
+}
