@@ -7,9 +7,10 @@ import { findPredictedSongs } from "./predicted-songs.ts";
 import type { PlaylistSettings } from "./settings.ts";
 import { spotifyPlaylistItemLimit, type SpotifyPlaylists } from "./spotify.ts";
 
-// The playlist builder (#15): makes the playlist of a user for a festival. It reads
-// the interest levels of the user and the stored predicted songs. It sends no
-// setlist.fm requests.
+// The playlist builder (#15, #16): makes or updates the playlist of a user for a
+// festival. It reads the interest levels of the user and the stored predicted songs.
+// It sends no setlist.fm requests. It changes the playlist only when the user starts
+// an update.
 
 // One artist on the lineup, with the number of predicted songs that it has.
 export interface PlaylistArtist extends LineupArtist {
@@ -17,8 +18,8 @@ export interface PlaylistArtist extends LineupArtist {
 }
 
 export interface PlannedPlaylist {
-  // The artists that give one or more songs.
-  artists: number;
+  // Each artist on the current lineup, with the number of songs that it gives.
+  artists: { lineupNameId: number; songs: number }[];
   // The Spotify track IDs, in the order of the playlist.
   trackIds: string[];
 }
@@ -41,15 +42,15 @@ export function planPlaylist(database: Database, festivalId: number, userId: num
   const artists = festivalLineup(database, festivalId, userId).sort((a, b) => levelOrder.indexOf(a.level) - levelOrder.indexOf(b.level));
   const trackIds: string[] = [];
   const seen = new Set<string>();
-  let artistCount = 0;
+  const planned: PlannedPlaylist["artists"] = [];
   for (const artist of artists) {
     const songs = (findPredictedSongs(database, artist.musicbrainzId)?.trackIds ?? []).slice(0, songCount(artist.level, settings));
     const added = songs.filter((id) => !seen.has(id));
     for (const id of added) seen.add(id);
     trackIds.push(...added);
-    if (added.length > 0) artistCount++;
+    planned.push({ lineupNameId: artist.lineupNameId, songs: added.length });
   }
-  return { artists: artistCount, trackIds };
+  return { artists: planned, trackIds };
 }
 
 export function songCount(level: InterestLevel, settings: PlaylistSettings): number {
@@ -94,8 +95,64 @@ export function festivalsWithPlaylist(database: Database, userId: number): Set<n
   return new Set(rows.map((row) => row.festival_id));
 }
 
+// The lineup names of the artists that an update added to the playlist or removed from it.
+export interface PlaylistChanges {
+  added: number[];
+  removed: number[];
+}
+
+// The lineup name IDs of the artists on the lineup at the last complete update. Each
+// value is the number of songs that the artist gave. Empty before the first complete update.
+export function lineupAtLastUpdate(database: Database, userId: number, festivalId: number): Map<number, number> {
+  const rows = database
+    .prepare("SELECT lineup_name_id, songs FROM playlist_artist WHERE user_id = ? AND festival_id = ?")
+    .all(userId, festivalId) as { lineup_name_id: number; songs: number }[];
+  return new Map(rows.map((row) => [row.lineup_name_id, row.songs]));
+}
+
+// The changes of the last complete update. Undefined when that update had no earlier
+// lineup to compare with, for example the first update.
+export function lastChanges(database: Database, userId: number, festivalId: number): PlaylistChanges | undefined {
+  const row = database.prepare("SELECT changes FROM playlist WHERE user_id = ? AND festival_id = ?").get(userId, festivalId) as
+    | { changes: string | null }
+    | undefined;
+  return row?.changes ? (JSON.parse(row.changes) as PlaylistChanges) : undefined;
+}
+
+// The IDs of the artists on the current lineup that were not on the lineup at the last
+// complete update. Empty before the first complete update, because then no artist is new.
+export function newArtists(database: Database, userId: number, festivalId: number, lineup: LineupArtist[]): Set<number> {
+  const before = lineupAtLastUpdate(database, userId, festivalId);
+  if (before.size === 0) return new Set();
+  return new Set(lineup.filter((artist) => !before.has(artist.lineupNameId)).map((artist) => artist.lineupNameId));
+}
+
+// The changes of an update with the lineup names, in alphabetical order. `onLineup` is
+// false for a removed artist that is not an artist on the current lineup.
+export interface NamedChanges {
+  added: string[];
+  removed: { name: string; onLineup: boolean }[];
+}
+
+export function nameChanges(database: Database, changes: PlaylistChanges, lineup: LineupArtist[]): NamedChanges {
+  const select = database.prepare("SELECT name FROM lineup_name WHERE id = ?");
+  const name = (id: number) => (select.get(id) as { name: string } | undefined)?.name;
+  const current = new Set(lineup.map((artist) => artist.lineupNameId));
+  const byName = (a: string, b: string) => a.localeCompare(b, "en", { sensitivity: "base" });
+  return {
+    added: changes.added.flatMap((id) => name(id) ?? []).sort(byName),
+    removed: changes.removed
+      .flatMap((id) => {
+        const text = name(id);
+        return text === undefined ? [] : [{ name: text, onLineup: current.has(id) }];
+      })
+      .sort((a, b) => byName(a.name, b.name)),
+  };
+}
+
 export type BuildResult =
-  | { outcome: "done"; made: boolean }
+  // `changes`: undefined when there is no earlier complete update to compare with.
+  | { outcome: "done"; made: boolean; changes?: PlaylistChanges }
   // `stage`: "not-made" when Spotify did not make the playlist, "not-changed" when the
   // songs of the playlist did not change, "incomplete" when the playlist has only some of the songs.
   | { outcome: "failed"; stage: "not-made" | "not-changed" | "incomplete"; cause: string }
@@ -165,10 +222,33 @@ export function createPlaylistBuilder({
         return { outcome: "failed", stage, cause: withRetry(result.cause) };
       }
     }
-    database
-      .prepare("UPDATE playlist SET updated_at = ?, complete = 1 WHERE user_id = ? AND festival_id = ?")
-      .run(clock.now().toISOString(), userId, festival.id);
-    return { outcome: "done", made };
+    const changes = saveUpdate(userId, festival.id, plan);
+    return { outcome: "done", made, ...(changes ? { changes } : {}) };
+  }
+
+  // Records a complete update: the time, the lineup and the changes since the last complete update.
+  function saveUpdate(userId: number, festivalId: number, plan: PlannedPlaylist): PlaylistChanges | undefined {
+    const before = lineupAtLastUpdate(database, userId, festivalId);
+    let changes: PlaylistChanges | undefined;
+    if (before.size > 0) {
+      const after = new Set(plan.artists.filter((artist) => artist.songs > 0).map((artist) => artist.lineupNameId));
+      const earlier = new Set([...before].filter(([, songs]) => songs > 0).map(([id]) => id));
+      changes = { added: [...after].filter((id) => !earlier.has(id)), removed: [...earlier].filter((id) => !after.has(id)) };
+    }
+    const insert = database.prepare("INSERT INTO playlist_artist (user_id, festival_id, lineup_name_id, songs) VALUES (?, ?, ?, ?)");
+    database.exec("BEGIN");
+    try {
+      database
+        .prepare("UPDATE playlist SET updated_at = ?, complete = 1, changes = ? WHERE user_id = ? AND festival_id = ?")
+        .run(clock.now().toISOString(), changes ? JSON.stringify(changes) : null, userId, festivalId);
+      database.prepare("DELETE FROM playlist_artist WHERE user_id = ? AND festival_id = ?").run(userId, festivalId);
+      for (const artist of plan.artists) insert.run(userId, festivalId, artist.lineupNameId, artist.songs);
+      database.exec("COMMIT");
+    } catch (error) {
+      database.exec("ROLLBACK");
+      throw error;
+    }
+    return changes;
   }
 }
 

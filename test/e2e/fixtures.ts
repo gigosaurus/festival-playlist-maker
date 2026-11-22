@@ -23,6 +23,8 @@ export interface TestServer {
   sleeps(): Promise<number[]>;
   // Adds a published festival with artist matches, without the admin pages. Gives its ID.
   addPublishedFestival(festival: TestFestival): Promise<number>;
+  // Gives the festival a new lineup, as "Get the lineup again" and the artist matches do.
+  setLineup(festivalId: number, lineup: Pick<TestFestival, "artists" | "noMatch">): Promise<void>;
 }
 
 export interface TestFestival {
@@ -113,6 +115,7 @@ export const test = base.extend<{
         expect(response.ok(), await response.text()).toBe(true);
         return (await response.json()).id;
       },
+      setLineup: (festivalId, lineup) => expectOk(request.post(`/__test/published-festivals/${festivalId}/lineup`, { data: lineup })),
     });
   },
   clashfinder: async ({ testServer }, use) => {

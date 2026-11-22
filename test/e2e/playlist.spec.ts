@@ -170,6 +170,81 @@ test("a playlist without songs is not made", async ({ page, testServer }) => {
   expect((await testServer.sentHttpRequests()).filter((request) => request.url.includes("/playlists"))).toEqual([]);
 });
 
+test("after a lineup change, new artists show as new, and an update shows the added and removed artists", async ({ page, spotify, testServer }) => {
+  await spotify.willMakePlaylist();
+  await page.goto(festivalPath);
+  await playlistSection(page).getByRole("button", { name: "Make the playlist" }).click();
+  await expect(page.getByRole("heading", { name: "Made the playlist Download 2027 in Spotify" })).toBeVisible();
+  // The first update has no changes to show, and no artist is new.
+  await expect(page.getByRole("status").getByRole("heading", { level: 3 })).toHaveCount(0);
+  await expect(page.getByText("New", { exact: true })).toHaveCount(0);
+  await expect(page.getByRole("checkbox", { name: "Only new artists" })).toHaveCount(0);
+
+  // The admin gets the lineup again: "Ghost" is cancelled, and two artists are added.
+  const lineup = largeFestival.artists.filter((artist) => artist.name !== "Ghost");
+  const added = [
+    { name: "Ash Valley", genres: ["hard rock"], trackIds: [0, 1, 2].map((song) => testTrackId(200, song)) },
+    { name: "Zeal Harbour", genres: [], trackIds: [0, 1, 2].map((song) => testTrackId(201, song)) },
+  ];
+  const festivalId = Number(festivalPath.split("/").pop());
+  await testServer.setLineup(festivalId, { artists: [...lineup, ...added], noMatch: largeFestival.noMatch });
+  const playlistRequests = async () => (await testServer.sentHttpRequests()).filter((request) => request.url.includes("/playlists"));
+  const requestsBefore = (await playlistRequests()).length;
+  await page.goto(festivalPath);
+
+  // The playlist changes only when the user starts an update.
+  expect(await playlistRequests()).toHaveLength(requestsBefore);
+  await expect(playlistSection(page).getByText("2 artists are new on the lineup since your last update.")).toBeVisible();
+  const newRow = (name: string) => page.getByRole("region", { name: "Lineup" }).getByRole("listitem").filter({ hasText: name });
+  await expect(newRow("Ash Valley").getByText("New", { exact: true })).toBeVisible();
+  await expect(newRow("Zeal Harbour").getByText("New", { exact: true })).toBeVisible();
+  await expect(page.getByRole("radiogroup", { name: "Ash Valley", exact: true })).toHaveAccessibleDescription("New hard rock");
+  await page.getByRole("checkbox", { name: "Only new artists" }).check();
+  await expect(page.getByText("2 of 151 artists")).toBeVisible();
+  await expect(page).toHaveURL(/[?&]new=1/);
+  expect(await axeViolations(page)).toEqual([]);
+
+  await level(page, "Ash Valley", "Not interested").check();
+  await page.getByRole("checkbox", { name: "Only new artists" }).uncheck();
+  await level(page, "Black Choir", "Not interested").check();
+  await expect(playlistSection(page).getByText(/The playlist will contain \d+ songs by 148 of 151 artists\./)).toBeVisible();
+  await playlistSection(page).getByRole("button", { name: "Update the playlist" }).click();
+
+  const notice = page.getByRole("status").filter({ hasText: "Updated the playlist Download 2027 in Spotify" });
+  await expect(notice.getByRole("heading", { name: "Added 1 artist" })).toBeVisible();
+  await expect(notice.getByRole("list").first().getByRole("listitem")).toHaveText(["Zeal Harbour"]);
+  await expect(notice.getByRole("heading", { name: "Removed 2 artists" })).toBeVisible();
+  await expect(notice.getByRole("list").nth(1).getByRole("listitem")).toHaveText(["Black Choir", "Ghost (not on the lineup)"]);
+  // After the update, no artist is new.
+  await expect(page.getByText("New", { exact: true })).toHaveCount(0);
+  await expect(playlistSection(page).getByText(/new on the lineup/)).toHaveCount(0);
+  expect(await axeViolations(page)).toEqual([]);
+
+  // The update replaced the items of the same playlist, without "Ghost".
+  const requests = (await playlistRequests()).slice(requestsBefore);
+  // The first request replaces the items. Each next request adds a maximum of 100 items.
+  expect(requests.map((request) => request.method)).toEqual(["PUT", "POST", "POST"]);
+  expect(requests.every((request) => request.url === spotifyPlaylistItemsUrl(testPlaylistId))).toBe(true);
+  const uris = requests.flatMap((request) => (JSON.parse(request.body!) as { uris: string[] }).uris);
+  const ghost = largeFestival.artists.findIndex((artist) => artist.name === "Ghost");
+  expect(uris.some((uri) => uri.includes(testTrackId(ghost, 0)))).toBe(false);
+  expect(uris).toContain(`spotify:track:${testTrackId(201, 0)}`);
+  expect(uris.some((uri) => uri.includes(testTrackId(200, 0)))).toBe(false);
+});
+
+test("an update that does not change the artists says so", async ({ page, spotify }) => {
+  await spotify.willMakePlaylist();
+  await page.goto(festivalPath);
+  await playlistSection(page).getByRole("button", { name: "Make the playlist" }).click();
+  await expect(page.getByRole("heading", { name: "Made the playlist Download 2027 in Spotify" })).toBeVisible();
+  await level(page, "Ghost", "Must see").check();
+
+  await playlistSection(page).getByRole("button", { name: "Update the playlist" }).click();
+
+  const notice = page.getByRole("status").filter({ hasText: "Updated the playlist Download 2027 in Spotify" });
+  await expect(notice).toContainText("No artist was added or removed.");
+});
+
 test.describe("without JavaScript", () => {
   test.use({ javaScriptEnabled: false });
 

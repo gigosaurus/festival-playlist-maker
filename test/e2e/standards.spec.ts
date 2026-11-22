@@ -14,7 +14,7 @@ import { busyResponse, musicbrainzIds } from "../support/musicbrainz.ts";
 import { respondWithRecordedSetlistFm, setlistFmRecordedAt, setlistFmSetlistsUrl } from "../support/setlist-fm.ts";
 import { quotaExceededResponse, spotifyArtistUrl, spotifyIds } from "../support/spotify.ts";
 import { matchNames } from "./artist-match-steps.ts";
-import { largeFestival } from "./large-lineup.ts";
+import { largeFestival, testTrackId } from "./large-lineup.ts";
 import { expect, test, testAdmin, testUser, type Clashfinder, type MusicBrainz, type Spotify, type TestServer } from "./fixtures.ts";
 
 interface StandardsPage {
@@ -174,6 +174,27 @@ const pages: StandardsPage[] = [
     path: "/festivals/1?playlist=made",
     user: testUser,
     setUp: makeLargePlaylist,
+  },
+  {
+    name: "Festival page, new artists after a lineup change",
+    path: "/festivals/1?new=1",
+    user: testUser,
+    setUp: async (page, clashfinder, musicBrainz, spotify, testServer) => {
+      await makeLargePlaylist(page, clashfinder, musicBrainz, spotify, testServer);
+      await changeLargeLineup(testServer);
+    },
+  },
+  {
+    name: "Festival page, playlist updated with changes",
+    path: "/festivals/1?playlist=updated",
+    user: testUser,
+    setUp: async (page, clashfinder, musicBrainz, spotify, testServer) => {
+      await makeLargePlaylist(page, clashfinder, musicBrainz, spotify, testServer);
+      await changeLargeLineup(testServer);
+      await page.goto("/festivals/1");
+      await page.getByRole("button", { name: "Update the playlist" }).click();
+      await expect(page.getByRole("heading", { name: "Updated the playlist Download 2027 in Spotify" })).toBeVisible();
+    },
   },
   {
     name: "Festivals page, a festival with a playlist",
@@ -500,6 +521,19 @@ async function interfaceText(page: Page): Promise<string[]> {
 }
 
 // Adds the festival with 150 artists, and makes the playlist of the user.
+// The admin gets the lineup again: "Ghost" is cancelled, and two artists with long names are added.
+async function changeLargeLineup(testServer: TestServer) {
+  const added = ["A Very Long Artist Name That Wraps On A Narrow Screen", "Zeal Harbour"].map((name, index) => ({
+    name,
+    genres: ["hard rock"],
+    trackIds: [0, 1].map((song) => testTrackId(200 + index, song)),
+  }));
+  await testServer.setLineup(1, {
+    artists: [...largeFestival.artists.filter((artist) => artist.name !== "Ghost"), ...added],
+    noMatch: largeFestival.noMatch,
+  });
+}
+
 async function makeLargePlaylist(page: Page, _clashfinder: Clashfinder, _musicBrainz: MusicBrainz, spotify: Spotify, testServer: TestServer) {
   await testServer.addPublishedFestival(largeFestival);
   await spotify.willMakePlaylist();

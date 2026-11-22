@@ -144,6 +144,20 @@ const migrations: readonly string[] = [
     complete INTEGER NOT NULL DEFAULT 0 CHECK (complete IN (0, 1)),
     PRIMARY KEY (user_id, festival_id)
   ) STRICT`,
+  // The lineup at the last complete update of each playlist (#16). Each artist on the
+  // lineup has one row. songs: the number of songs that the artist gave, 0 when it gave
+  // none. playlist.changes: the added and removed artists of the last complete update,
+  // as JSON {"added": [lineup name ID], "removed": [lineup name ID]}. It is NULL when
+  // the update has no earlier lineup to compare with, for example after the first update.
+  `CREATE TABLE playlist_artist (
+    user_id INTEGER NOT NULL,
+    festival_id INTEGER NOT NULL,
+    lineup_name_id INTEGER NOT NULL REFERENCES lineup_name (id) ON DELETE CASCADE,
+    songs INTEGER NOT NULL CHECK (songs >= 0),
+    PRIMARY KEY (user_id, festival_id, lineup_name_id),
+    FOREIGN KEY (user_id, festival_id) REFERENCES playlist (user_id, festival_id) ON DELETE CASCADE
+  ) STRICT;
+  ALTER TABLE playlist ADD COLUMN changes TEXT;`,
 ];
 
 export function openDatabase(path: string): Database {

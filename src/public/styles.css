@@ -823,6 +823,36 @@ a.button {
   margin: 0 0 1rem;
 }
 
+/* "N artists are new on the lineup since your last update." */
+.playlist-new {
+  margin: 0 0 1rem;
+}
+
+/* The added or removed artists in the confirmation after an update. */
+.notice .change-heading {
+  margin-top: 1rem;
+}
+
+.change-list {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+/* Columns keep a long list short. A short list stays in one column. */
+.change-list-long {
+  columns: 2 12rem;
+  column-gap: 1.5rem;
+}
+
+.change-list li {
+  break-inside: avoid;
+  overflow-wrap: anywhere;
+}
+
+.change-reason {
+  color: var(--colour-muted);
+}
+
 .playlist-form {
   margin: 0;
 }
@@ -856,6 +886,26 @@ a.button {
 
 .lineup-tool-search {
   flex: 1 1 16rem;
+}
+
+/* "Only new artists": a checkbox with the height of an input, so that it aligns with the selects. */
+.lineup-tool-check {
+  flex: 0 1 auto;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  cursor: pointer;
+}
+
+.check input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+  accent-color: var(--colour-link);
 }
 
 .lineup-count {
@@ -901,8 +951,17 @@ a.button {
   overflow-wrap: anywhere;
 }
 
+/* The artist name, and the badge "New" when the artist is new since the last update. */
+.artist-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.5rem;
+}
+
 .artist-name {
   font-weight: 650;
+  min-width: 0;
 }
 
 .artist-genres {

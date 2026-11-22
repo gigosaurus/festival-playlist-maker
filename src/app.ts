@@ -42,7 +42,16 @@ import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-pag
 import { notFoundPage } from "./pages/not-found-page.ts";
 import { predictedSongsPage } from "./pages/predicted-songs-page.ts";
 import { spotifyArtistPage } from "./pages/spotify-artist-page.ts";
-import { createPlaylistBuilder, festivalsWithPlaylist, findPlaylist, playlistArtists, type BuildResult } from "./playlists.ts";
+import {
+  createPlaylistBuilder,
+  festivalsWithPlaylist,
+  findPlaylist,
+  lastChanges,
+  nameChanges,
+  newArtists,
+  playlistArtists,
+  type BuildResult,
+} from "./playlists.ts";
 import { createPredictedSongQueue, findPredictedSongs, isValid, type PredictedSongs } from "./predicted-songs.ts";
 import { createSessions, type User } from "./sessions.ts";
 import { createSetlistFm } from "./setlist-fm.ts";
@@ -429,13 +438,18 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     const done = context.req.query("playlist");
     const playlistResult: BuildResult | undefined =
       playlist?.complete && (done === "made" || done === "updated") ? { outcome: "done", made: done === "made" } : undefined;
+    const artists = playlistArtists(database, festival.id, user.id);
+    // The added and removed artists show in the confirmation after an update (user story 30).
+    const changes = done === "updated" && playlistResult ? lastChanges(database, user.id, festival.id) : undefined;
     return context.html(
       festivalPage(user, {
         festival,
-        artists: playlistArtists(database, festival.id, user.id),
+        artists,
+        newArtists: newArtists(database, user.id, festival.id, artists),
         settings: settings.playlist,
         ...(playlist ? { playlist } : {}),
         ...(playlistResult ? { playlistResult } : {}),
+        ...(changes ? { changes: nameChanges(database, changes, artists) } : {}),
         saved: context.req.query("saved") !== undefined,
       }),
     );
@@ -454,10 +468,12 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     }
     const playlist = findPlaylist(database, user.id, festival.id);
     const status = result.outcome === "failed" ? 502 : result.outcome === "busy" ? 409 : 400;
+    const artists = playlistArtists(database, festival.id, user.id);
     return context.html(
       festivalPage(user, {
         festival,
-        artists: playlistArtists(database, festival.id, user.id),
+        artists,
+        newArtists: newArtists(database, user.id, festival.id, artists),
         settings: settings.playlist,
         ...(playlist ? { playlist } : {}),
         playlistResult: result,

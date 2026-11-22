@@ -69,30 +69,43 @@ const control = new Hono()
       { source: "clashfinder", page: "test", pageName: festival.name },
     );
     if (added.outcome !== "added") return context.text(`${festival.name} ${festival.year} exists.`, 400);
-    const names = [...festival.artists.map((artist) => artist.name), ...festival.noMatch];
-    const lineup = { entries: names.map((name) => ({ name })) };
-    await getFestivalLineup(database, { getLineup: async () => ({ outcome: "got", lineup }) }, clock, added.id);
-    festival.artists.forEach(({ name, genres, trackIds }, index) => {
-      const artist = { id: `test-artist-${index}`, name, genres, ended: false, score: 100, votes: 1, aliases: [] };
-      saveArtistMatch(database, clock, name, { kind: "artist", artist });
-      if (trackIds !== undefined && trackIds.length > 0) {
-        savePredictedSongs(database, artist.id, { trackIds, fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
-      }
-    });
-    for (const name of festival.noMatch) saveArtistMatch(database, clock, name, { kind: "no-match" });
+    await setLineup(added.id, festival);
     const published = publishFestival(database, added.id);
     if (published.outcome !== "published") return context.text(`The test server did not publish ${festival.name}.`, 500);
     return context.json({ id: added.id });
+  })
+  // Gives a festival a new lineup, as "Get the lineup again" and the artist matches do.
+  // Each artist gets an artist match. Each name in noMatch is marked "no match".
+  .post("/__test/published-festivals/:id/lineup", async (context) => {
+    await setLineup(Number(context.req.param("id")), await context.req.json<LineupRequest>());
+    return context.body(null, 204);
   });
 
-interface PublishedFestivalRequest {
+async function setLineup(festivalId: number, { artists, noMatch }: LineupRequest): Promise<void> {
+  const names = [...artists.map((artist) => artist.name), ...noMatch];
+  const lineup = { entries: names.map((name) => ({ name })) };
+  await getFestivalLineup(database, { getLineup: async () => ({ outcome: "got", lineup }) }, clock, festivalId);
+  for (const { name, genres, trackIds } of artists) {
+    const artist = { id: `test-artist-${name}`, name, genres, ended: false, score: 100, votes: 1, aliases: [] };
+    saveArtistMatch(database, clock, name, { kind: "artist", artist });
+    if (trackIds !== undefined && trackIds.length > 0) {
+      savePredictedSongs(database, artist.id, { trackIds, fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
+    }
+  }
+  for (const name of noMatch) saveArtistMatch(database, clock, name, { kind: "no-match" });
+}
+
+interface LineupRequest {
+  // trackIds: the predicted songs of the artist. An artist without them has no predicted songs.
+  artists: { name: string; genres: string[]; trackIds?: string[] }[];
+  noMatch: string[];
+}
+
+interface PublishedFestivalRequest extends LineupRequest {
   name: string;
   year: number;
   startDate: string;
   endDate: string;
-  // trackIds: the predicted songs of the artist. An artist without them has no predicted songs.
-  artists: { name: string; genres: string[]; trackIds?: string[] }[];
-  noMatch: string[];
 }
 
 const server = serve({
