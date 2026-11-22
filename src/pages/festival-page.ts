@@ -1,7 +1,7 @@
 import { html } from "hono/html";
 import type { PublishedFestival } from "../festivals.ts";
 import { interestLevelNames, interestLevels } from "../interest-levels.ts";
-import { playlistName, songCount, type BuildResult, type PlaylistArtist, type StoredPlaylist } from "../playlists.ts";
+import { playlistName, songCount, type BuildResult, type NamedChanges, type PlaylistArtist, type StoredPlaylist } from "../playlists.ts";
 import type { User } from "../sessions.ts";
 import type { PlaylistSettings } from "../settings.ts";
 import { count, formatDateAndTime, formatDateRange } from "./format.ts";
@@ -11,6 +11,8 @@ export interface FestivalPageState {
   festival: PublishedFestival;
   // The artists on the lineup, in alphabetical order, with the interest levels of the user.
   artists: PlaylistArtist[];
+  // The lineup name IDs of the artists that were not on the lineup at the last complete update.
+  newArtists: Set<number>;
   settings: PlaylistSettings;
   // The playlist of the user for this festival, when Spotify made it.
   playlist?: StoredPlaylist;
@@ -18,6 +20,8 @@ export interface FestivalPageState {
   saved?: boolean;
   // The result of the last "Make the playlist" or "Update the playlist".
   playlistResult?: BuildResult;
+  // The added and removed artists, after "Update the playlist" only.
+  changes?: NamedChanges;
 }
 
 // The Festival page: the user sets the interest level of each artist, and makes the playlist.
@@ -26,7 +30,7 @@ export interface FestivalPageState {
 // sets a level. It also shows the search, the filter and the sort, which run
 // in the browser. Without the script, the radio buttons are one form with the
 // button "Save the interest levels".
-export function festivalPage(user: User, { festival, artists, settings, playlist, saved, playlistResult }: FestivalPageState) {
+export function festivalPage(user: User, { festival, artists, newArtists, settings, playlist, saved, playlistResult, changes }: FestivalPageState) {
   const title = playlistName(festival);
   return layout({
     title,
@@ -40,11 +44,11 @@ export function festivalPage(user: User, { festival, artists, settings, playlist
       ${saved
         ? html`<div class="notice notice-success" role="status"><h2>Saved the interest levels</h2></div>`
         : ""}
-      ${playlistResult ? playlistNotice(playlistResult, title) : ""}
-      ${playlistSection(festival, artists, settings, playlist, playlistResult?.outcome === "failed" && playlistResult.stage === "incomplete")}
+      ${playlistResult ? playlistNotice(playlistResult, title, changes) : ""}
+      ${playlistSection(festival, artists, newArtists.size, settings, playlist, playlistResult?.outcome === "failed" && playlistResult.stage === "incomplete")}
       <section class="lineup" aria-labelledby="lineup-heading">
         <h2 id="lineup-heading">Lineup</h2>
-        ${lineupTools()}
+        ${lineupTools(newArtists.size > 0)}
         <p class="lineup-count" role="status" data-lineup-count tabindex="-1">${count(artists.length, "artist", "artists")}</p>
         <p class="lineup-action" data-show-all hidden><button class="button-secondary" type="button">Show all artists</button></p>
         <p class="lineup-action" data-update-list hidden>
@@ -53,7 +57,7 @@ export function festivalPage(user: User, { festival, artists, settings, playlist
         </p>
         <form method="post" action="/festivals/${festival.id}/interest-levels" data-interest-levels>
           <ul class="lineup-list">
-            ${artists.map(artistRow)}
+            ${artists.map((artist, index) => artistRow(artist, index, newArtists.has(artist.lineupNameId)))}
           </ul>
           <p class="lineup-save" data-save-all><button class="button" type="submit">Save the interest levels</button></p>
         </form>
@@ -66,9 +70,11 @@ export function festivalPage(user: User, { festival, artists, settings, playlist
 // The script changes the number of songs after each saved interest level. It
 // therefore gets the song count of each level in data-song-counts.
 // `incompleteNotice`: the notice above already says that the playlist does not have all of the songs.
+// `newCount`: the number of artists that were not on the lineup at the last complete update.
 function playlistSection(
   festival: PublishedFestival,
   artists: PlaylistArtist[],
+  newCount: number,
   settings: PlaylistSettings,
   playlist: StoredPlaylist | undefined,
   incompleteNotice: boolean,
@@ -82,6 +88,9 @@ function playlistSection(
         ? html`
             <p class="playlist-link"><a href="${playlist.address}">Open <span data-external-text>${playlistName(festival)}</span> in Spotify</a></p>
             ${playlist.updatedAt ? html`<p class="playlist-updated">Last update: ${formatDateAndTime(playlist.updatedAt)}</p>` : ""}
+            ${newCount > 0
+              ? html`<p class="playlist-new">${newCount === 1 ? "1 artist is" : `${newCount} artists are`} new on the lineup since your last update.</p>`
+              : ""}
             ${playlist.complete || incompleteNotice
               ? ""
               : html`<p class="genre-warning">Warning: the playlist in Spotify does not have all of the songs. Update the playlist.</p>`}
@@ -103,11 +112,13 @@ function artistSongs(artist: PlaylistArtist, settings: PlaylistSettings): number
 
 // The notice after "Make the playlist" or "Update the playlist". A success notice
 // shows only after Spotify accepted each request (FN-02).
-function playlistNotice(result: BuildResult, title: string) {
+// After an update, the notice gives the added and removed artists (user story 30).
+function playlistNotice(result: BuildResult, title: string, changes: NamedChanges | undefined) {
   if (result.outcome === "done") {
     return html`
       <section class="notice notice-success" role="status" aria-labelledby="playlist-notice-heading">
         <h2 id="playlist-notice-heading">${result.made ? "Made" : "Updated"} the playlist <span data-external-text>${title}</span> in Spotify</h2>
+        ${changes ? changeLists(changes) : ""}
       </section>
     `;
   }
@@ -132,8 +143,38 @@ function playlistNotice(result: BuildResult, title: string) {
   `;
 }
 
+function changeLists({ added, removed }: NamedChanges) {
+  if (added.length === 0 && removed.length === 0) return html`<p>No artist was added or removed.</p>`;
+  return html`
+    ${added.length > 0
+      ? html`
+          <h3 class="change-heading">Added ${count(added.length, "artist", "artists")}</h3>
+          <ul class="${changeListClass(added.length)}">
+            ${added.map((name) => html`<li><span data-external-text>${name}</span></li>`)}
+          </ul>
+        `
+      : ""}
+    ${removed.length > 0
+      ? html`
+          <h3 class="change-heading">Removed ${count(removed.length, "artist", "artists")}</h3>
+          <ul class="${changeListClass(removed.length)}">
+            ${removed.map(
+              ({ name, onLineup }) =>
+                html`<li><span data-external-text>${name}</span>${onLineup ? "" : html` <span class="change-reason">(not on the lineup)</span>`}</li>`,
+            )}
+          </ul>
+        `
+      : ""}
+  `;
+}
+
+function changeListClass(length: number): string {
+  return length > 6 ? "change-list change-list-long" : "change-list";
+}
+
 // The script shows the tools. They do not operate without it.
-function lineupTools() {
+// `hasNew`: one or more artists are new since the last complete update.
+function lineupTools(hasNew: boolean) {
   return html`
     <form class="lineup-tools" role="search" aria-label="Lineup" data-lineup-tools hidden>
       <div class="lineup-tool lineup-tool-search">
@@ -154,16 +195,28 @@ function lineupTools() {
           <option value="level">Interest level, Must see first</option>
         </select>
       </div>
+      ${hasNew
+        ? html`
+            <div class="lineup-tool lineup-tool-check">
+              <label class="check"><input type="checkbox" name="new" value="1"> Only new artists</label>
+            </div>
+          `
+        : ""}
     </form>
   `;
 }
 
-function artistRow(artist: PlaylistArtist, index: number) {
+// `isNew`: the artist was not on the lineup at the last complete update (user story 21).
+function artistRow(artist: PlaylistArtist, index: number, isNew: boolean) {
   const id = artist.lineupNameId;
+  const describedBy = [...(isNew ? [`artist-${id}-new`] : []), ...(artist.genres.length > 0 ? [`artist-${id}-genres`] : [])];
   return html`
-    <li class="artist" data-artist="${id}" data-index="${index}" data-level="${artist.level}" data-songs="${artist.predictedSongs}">
+    <li class="artist" data-artist="${id}" data-index="${index}" data-level="${artist.level}" data-songs="${artist.predictedSongs}" ${isNew ? html`data-new` : ""}>
       <div class="artist-text">
-        <p class="artist-name" id="artist-${id}" data-external-text>${artist.name}</p>
+        <p class="artist-heading">
+          <span class="artist-name" id="artist-${id}" data-external-text>${artist.name}</span>
+          ${isNew ? html`<span class="badge" id="artist-${id}-new">New</span>` : ""}
+        </p>
         ${artist.genres.length > 0
           ? html`<p class="artist-genres" id="artist-${id}-genres" data-external-text>${artist.genres.slice(0, 3).join(", ")}</p>`
           : ""}
@@ -173,7 +226,7 @@ function artistRow(artist: PlaylistArtist, index: number) {
         class="levels"
         role="radiogroup"
         aria-labelledby="artist-${id}"
-        ${artist.genres.length > 0 ? html`aria-describedby="artist-${id}-genres"` : ""}
+        ${describedBy.length > 0 ? html`aria-describedby="${describedBy.join(" ")}"` : ""}
       >
         ${interestLevels.map(
           (level) => html`

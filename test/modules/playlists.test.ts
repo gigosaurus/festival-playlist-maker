@@ -10,6 +10,9 @@ import {
   createPlaylistBuilder,
   festivalsWithPlaylist,
   findPlaylist,
+  lastChanges,
+  nameChanges,
+  newArtists,
   planPlaylist,
   playlistDescription,
 } from "../../src/playlists.ts";
@@ -29,6 +32,11 @@ import {
 } from "../support/spotify.ts";
 import { temporaryDatabasePath } from "../support/temporary-database.ts";
 import { spotifyTokenResponse, testSettings } from "../support/test-settings.ts";
+
+// The lineup name ID of "Ghost".
+function findGhost(database: ReturnType<typeof openDatabase>): number {
+  return (database.prepare("SELECT id FROM lineup_name WHERE name = 'Ghost'").get() as { id: number }).id;
+}
 
 // A Spotify track ID (22 characters) for song `song` of the artist.
 function trackId(artist: string, song: number): string {
@@ -58,16 +66,20 @@ async function setUp(t: TestContext, songs: Record<string, number>) {
   );
   assert.equal(added.outcome, "added");
   const festivalId = added.outcome === "added" ? added.id : 0;
-  const names = Object.keys(songs);
-  const source = { getLineup: async () => ({ outcome: "got" as const, lineup: { entries: names.map((name) => ({ name })) } }) };
-  await getFestivalLineup(database, source, clock, festivalId);
-  for (const name of names) {
-    const artist = { id: `id-${name}`, name, genres: [], ended: false, score: 100, votes: 1, aliases: [] };
-    saveArtistMatch(database, clock, name, { kind: "artist", artist });
-    if (songs[name]! > 0) {
-      savePredictedSongs(database, artist.id, { trackIds: tracks(name, songs[name]!), fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
+  // Gets the lineup with the names in `lineupSongs`, and matches each name to an artist with predicted songs.
+  async function setLineup(lineupSongs: Record<string, number>) {
+    const names = Object.keys(lineupSongs);
+    const source = { getLineup: async () => ({ outcome: "got" as const, lineup: { entries: names.map((name) => ({ name })) } }) };
+    await getFestivalLineup(database, source, clock, festivalId);
+    for (const name of names) {
+      const artist = { id: `id-${name}`, name, genres: [], ended: false, score: 100, votes: 1, aliases: [] };
+      saveArtistMatch(database, clock, name, { kind: "artist", artist });
+      if (lineupSongs[name]! > 0) {
+        savePredictedSongs(database, artist.id, { trackIds: tracks(name, lineupSongs[name]!), fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
+      }
     }
   }
+  await setLineup(songs);
   assert.equal(publishFestival(database, festivalId).outcome, "published");
   const festival = findPublishedFestival(database, festivalId)!;
 
@@ -87,7 +99,18 @@ async function setUp(t: TestContext, songs: Record<string, number>) {
   const playlistRequests = () => transport.requests.filter((request) => request.url.startsWith(spotifyApiOrigin));
   const sentUris = (index: number) => (JSON.parse(playlistRequests()[index]!.body!) as { uris: string[] }).uris;
 
-  return { database, clock, transport, builder, festival, userId, setLevels, playlistRequests, sentUris };
+  // The lineup names of the changes of the last complete update, and the new artists.
+  function changes() {
+    const stored = lastChanges(database, userId, festivalId);
+    return stored && nameChanges(database, stored, festivalLineup(database, festivalId, userId));
+  }
+  function newNames() {
+    const lineup = festivalLineup(database, festivalId, userId);
+    const ids = newArtists(database, userId, festivalId, lineup);
+    return lineup.filter((artist) => ids.has(artist.lineupNameId)).map((artist) => artist.name);
+  }
+
+  return { database, clock, transport, builder, festival, userId, setLevels, setLineup, changes, newNames, playlistRequests, sentUris };
 }
 
 test("each artist gets the songs of its interest level, or fewer when it has fewer predicted songs", async (t) => {
@@ -111,7 +134,8 @@ test("each artist gets the songs of its interest level, or fewer when it has few
   assert.equal(count("Short Band"), 3);
   assert.equal(plan.trackIds.length, 16);
   // "No Songs Band" and "Not Interested Band" give no songs.
-  assert.equal(plan.artists, 4);
+  assert.equal(plan.artists.filter((artist) => artist.songs > 0).length, 4);
+  assert.equal(plan.artists.length, 6);
 });
 
 test("the songs are in the order Must see, Keen, Curious; then artist name; then prediction order", async (t) => {
@@ -192,7 +216,7 @@ test("a later update sets the songs of the same playlist and does not make a new
   clock.advance(60 * 60_000);
   setLevels({ Ghost: "not-interested" });
 
-  assert.deepEqual(await builder.build(festival, userId), { outcome: "done", made: false });
+  assert.deepEqual(await builder.build(festival, userId), { outcome: "done", made: false, changes: { added: [], removed: [findGhost(database)] } });
 
   assert.deepEqual(playlistRequests().map((request) => request.method), ["POST", "PUT", "PUT"]);
   assert.deepEqual(sentUris(2), tracks("Sleep", 2).map((id) => `spotify:track:${id}`));
@@ -277,4 +301,78 @@ test("a second build for the same user and festival does not start while the fir
   assert.deepEqual(first, { outcome: "done", made: true });
   assert.deepEqual(second, { outcome: "busy" });
   assert.equal(playlistRequests().filter((request) => request.url === spotifyMyPlaylistsUrl).length, 1);
+});
+
+test("a later update after a lineup change uses the current lineup, and gives the added and removed artists", async (t) => {
+  const { clock, builder, festival, userId, setLevels, setLineup, changes, newNames, playlistRequests, sentUris } = await setUp(t, {
+    Ghost: 10,
+    Sleep: 10,
+    Turnstile: 10,
+  });
+  setLevels({ Turnstile: "keen" });
+  assert.deepEqual(await builder.build(festival, userId), { outcome: "done", made: true });
+  // The first update has no earlier lineup, so it gives no changes and no artist is new.
+  assert.equal(changes(), undefined);
+  assert.deepEqual(newNames(), []);
+
+  // The admin gets the lineup again: "Sleep" is cancelled, "Anthrax" and "Deftones" are added.
+  clock.advance(24 * 60 * 60_000);
+  await setLineup({ Anthrax: 10, Deftones: 10, Ghost: 10, Turnstile: 10 });
+  // The playlist changes only when the user starts an update.
+  assert.equal(playlistRequests().length, 2);
+  assert.deepEqual(newNames(), ["Anthrax", "Deftones"]);
+
+  // The user sets the new artists, and removes "Ghost".
+  setLevels({ Anthrax: "must-see", Deftones: "not-interested", Ghost: "not-interested" });
+  const result = await builder.build(festival, userId);
+
+  const ids = (names: string[]) => names.map((name) => `spotify:track:${name}`);
+  assert.equal(result.outcome, "done");
+  assert.equal(result.outcome === "done" && result.made, false);
+  // The same playlist: one make, then the items of that playlist are replaced.
+  assert.deepEqual(playlistRequests().map((request) => `${request.method} ${request.url}`), [
+    `POST ${spotifyMyPlaylistsUrl}`,
+    `PUT ${spotifyPlaylistItemsUrl(testPlaylistId)}`,
+    `PUT ${spotifyPlaylistItemsUrl(testPlaylistId)}`,
+  ]);
+  // The removed lineup name "Sleep" is not in the playlist.
+  assert.deepEqual(sentUris(2), ids([...tracks("Anthrax", 7), ...tracks("Turnstile", 4)]));
+  assert.deepEqual(changes(), {
+    added: ["Anthrax"],
+    removed: [
+      { name: "Ghost", onLineup: true },
+      { name: "Sleep", onLineup: false },
+    ],
+  });
+  // After the update, no artist is new.
+  assert.deepEqual(newNames(), []);
+});
+
+test("an update without changes to the artists gives empty changes", async (t) => {
+  const { builder, festival, userId, setLevels, changes } = await setUp(t, { Ghost: 10, Sleep: 10 });
+  await builder.build(festival, userId);
+  // A change of level changes the songs, but not the artists.
+  setLevels({ Ghost: "must-see" });
+
+  assert.equal((await builder.build(festival, userId)).outcome, "done");
+
+  assert.deepEqual(changes(), { added: [], removed: [] });
+});
+
+test("an update that fails keeps the lineup and the changes of the last complete update", async (t) => {
+  const { clock, transport, builder, festival, userId, setLevels, setLineup, changes, newNames } = await setUp(t, { Ghost: 10, Sleep: 10 });
+  await builder.build(festival, userId);
+  await setLineup({ Ghost: 10, Sleep: 10, Turnstile: 10 });
+  transport.respondTo("PUT", spotifyPlaylistItemsUrl(testPlaylistId), rateLimitResponse(120));
+
+  assert.equal((await builder.build(festival, userId)).outcome, "failed");
+  assert.equal(changes(), undefined);
+  assert.deepEqual(newNames(), ["Turnstile"]);
+
+  // A change of level before the next attempt is also in the changes.
+  clock.advance(3 * 60_000);
+  setLevels({ Sleep: "not-interested" });
+  transport.respondTo("PUT", spotifyPlaylistItemsUrl(testPlaylistId), playlistItemsResponse(200));
+  assert.equal((await builder.build(festival, userId)).outcome, "done");
+  assert.deepEqual(changes(), { added: ["Turnstile"], removed: [{ name: "Sleep", onLineup: true }] });
 });

@@ -1,6 +1,7 @@
 // The Festival page (src/pages/festival-page.ts).
 // - Saves the interest level of an artist immediately when the user changes it.
-// - Shows the search, the filter and the sort, and applies them to the lineup.
+// - Shows the search, the filters and the sort, and applies them to the lineup.
+//   The filter "Only new artists" shows only when one or more artists are new.
 // - Changes the number of songs in the playlist after each saved interest level.
 // - Prevents a second "Make the playlist" while the first one waits for Spotify.
 // The address keeps the search, the filter and the sort, so that a reload and
@@ -20,6 +21,8 @@ const list = form.querySelector("ul");
 const searchInput = tools.elements.search;
 const levelSelect = tools.elements.level;
 const sortSelect = tools.elements.sort;
+// Undefined when no artist is new since the last update.
+const newCheck = tools.elements.new;
 
 // One entry for each artist. `level` is the level in the page. `saved` is the
 // last level that the application saved. `version` counts the changes, so that
@@ -32,6 +35,7 @@ const artists = [...list.children].map((element) => ({
   level: element.dataset.level,
   saved: element.dataset.level,
   predictedSongs: Number(element.dataset.songs),
+  isNew: element.dataset.new !== undefined,
   version: 0,
   sending: Promise.resolve(),
 }));
@@ -69,6 +73,7 @@ tools.addEventListener("input", () => {
 showAll.querySelector("button").addEventListener("click", () => {
   searchInput.value = "";
   levelSelect.value = "";
+  if (newCheck) newCheck.checked = false;
   writeAddress();
   apply();
   searchInput.focus();
@@ -101,6 +106,7 @@ function readAddress() {
   searchInput.value = query.get("search") ?? "";
   levelSelect.value = levels.includes(query.get("level")) ? query.get("level") : "";
   sortSelect.value = query.get("sort") === "level" ? "level" : "";
+  if (newCheck) newCheck.checked = query.get("new") === "1";
 }
 
 function writeAddress() {
@@ -108,6 +114,7 @@ function writeAddress() {
   if (searchInput.value.trim() !== "") query.set("search", searchInput.value.trim());
   if (levelSelect.value !== "") query.set("level", levelSelect.value);
   if (sortSelect.value !== "") query.set("sort", sortSelect.value);
+  if (newCheck?.checked) query.set("new", "1");
   const search = query.size > 0 ? `?${query}` : "";
   history.replaceState(history.state, "", `${location.pathname}${search}`);
 }
@@ -116,7 +123,10 @@ function writeAddress() {
 function view() {
   const search = comparable(searchInput.value);
   const level = levelSelect.value;
-  const result = artists.filter((artist) => artist.name.includes(search) && (level === "" || artist.level === level));
+  const onlyNew = newCheck?.checked ?? false;
+  const result = artists.filter(
+    (artist) => artist.name.includes(search) && (level === "" || artist.level === level) && (!onlyNew || artist.isNew),
+  );
   if (sortSelect.value === "level") {
     result.sort((a, b) => levels.indexOf(b.level) - levels.indexOf(a.level) || a.index - b.index);
   } else {
@@ -153,11 +163,13 @@ function countText(number) {
   const total = artists.length;
   const search = searchInput.value.trim();
   const level = levelSelect.value === "" ? "" : levelSelect.selectedOptions[0].textContent;
-  if (search === "" && level === "") return artistCount(total);
+  const onlyNew = newCheck?.checked ?? false;
+  if (search === "" && level === "" && !onlyNew) return artistCount(total);
   if (number > 0) return `${number} of ${artistCount(total)}`;
-  if (search !== "" && level !== "") return `No artist with the interest level ${level} matches “${search}”.`;
-  if (search !== "") return `No artist matches “${search}”.`;
-  return `No artist has the interest level ${level}.`;
+  const artistWord = onlyNew ? "new artist" : "artist";
+  if (search !== "" && level !== "") return `No ${artistWord} with the interest level ${level} matches “${search}”.`;
+  if (search !== "") return `No ${artistWord} matches “${search}”.`;
+  return `No ${artistWord} has the interest level ${level}.`;
 }
 
 function artistCount(number) {
