@@ -4,6 +4,7 @@ import { interestLevelNames, interestLevels } from "../interest-levels.ts";
 import { playlistName, songCount, type BuildResult, type NamedChanges, type PlaylistArtist, type StoredPlaylist } from "../playlists.ts";
 import type { User } from "../sessions.ts";
 import type { PlaylistSettings } from "../settings.ts";
+import { spotifyArtistAddress } from "../spotify.ts";
 import { count, formatDateAndTime, formatDateRange } from "./format.ts";
 import { layout } from "./layout.ts";
 
@@ -221,6 +222,10 @@ function artistRow(artist: PlaylistArtist, index: number, isNew: boolean) {
           ? html`<p class="artist-genres" id="artist-${id}-genres" data-external-text>${artist.genres.slice(0, 3).join(", ")}</p>`
           : ""}
         ${artist.predictedSongs === 0 ? html`<p class="artist-genres">No predicted songs</p>` : ""}
+        ${artist.predictedSongs > 0 && artist.fallback
+          ? html`<p class="artist-genres" id="artist-${id}-fallback">The songs come from a Spotify search, not from setlists.</p>`
+          : ""}
+        ${listenLine(artist)}
       </div>
       <div
         class="levels"
@@ -239,6 +244,34 @@ function artistRow(artist: PlaylistArtist, index: number, isNew: boolean) {
       </div>
       <p class="field-problem artist-problem" role="alert" data-problem hidden></p>
     </li>
+  `;
+}
+
+// The player button, the Spotify artist and the setlist.fm setlists of one artist (#18).
+// The links show only the name of the destination, so that the line fits next to the
+// interest levels. The visually hidden artist name makes each link specific.
+// The script shows the button and opens the Spotify embed player under the line.
+// It gets the songs from data-tracks. The setlist.fm link is also the attribution
+// that the setlist.fm terms require, so it is not nofollow.
+function listenLine(artist: PlaylistArtist) {
+  const hasSongs = artist.trackIds.length > 0;
+  if (!hasSongs && artist.spotifyArtistId === undefined && artist.setlistFmAddress === undefined) return "";
+  const name = html`<span class="visually-hidden"> for <span data-external-text>${artist.name}</span></span>`;
+  const on = html`<span class="visually-hidden"><span data-external-text>${artist.name}</span> on </span>`;
+  return html`
+    <div class="listen" ${hasSongs ? html`data-tracks="${artist.trackIds.join(" ")}"` : ""}>
+      <p class="listen-links">
+        ${hasSongs
+          ? html`<button class="listen-button" type="button" aria-expanded="false" data-play hidden>
+              <span data-play-label>Play the songs</span>${name}
+            </button>`
+          : ""}
+        ${artist.spotifyArtistId === undefined
+          ? ""
+          : html`<a href="${spotifyArtistAddress(artist.spotifyArtistId)}">${on}Spotify</a>`}
+        ${artist.setlistFmAddress === undefined ? "" : html`<a href="${artist.setlistFmAddress}">${on}setlist.fm</a>`}
+      </p>
+    </div>
   `;
 }
 

@@ -27,6 +27,19 @@ function predictedSongCount(index: number): number {
   return index % 10 === 9 ? 1 : 10;
 }
 
+// A Spotify artist ID (22 characters) for artist `artist`.
+export function testSpotifyArtistId(artist: number): string {
+  return `a${String(artist).padStart(3, "0")}`.padEnd(22, "x");
+}
+
+// The setlist.fm page of artist `artist`.
+export function testSetlistFmAddress(artist: number): string {
+  return `https://www.setlist.fm/setlists/test-artist-${artist}.html`;
+}
+
+// The artist whose songs come from the Spotify search fallback: "Silent Choir".
+export const fallbackArtist = 20;
+
 export const largeFestival: TestFestival = {
   name: "Download",
   year: 2027,
@@ -36,6 +49,9 @@ export const largeFestival: TestFestival = {
     name,
     genres: genreSets[index % genreSets.length]!,
     trackIds: Array.from({ length: predictedSongCount(index) }, (_, song) => testTrackId(index, song)),
+    // The last artist has no predicted songs and no Spotify artist.
+    ...(index === 149 ? {} : { spotifyId: testSpotifyArtistId(index) }),
+    ...(index === fallbackArtist ? { fallback: true } : index === 149 ? {} : { setlistFmAddress: testSetlistFmAddress(index) }),
   })),
   noMatch: ["???", "Special guest TBA"],
 };

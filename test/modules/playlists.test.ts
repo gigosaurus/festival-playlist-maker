@@ -14,9 +14,11 @@ import {
   nameChanges,
   newArtists,
   planPlaylist,
+  playlistArtists,
   playlistDescription,
 } from "../../src/playlists.ts";
 import { savePredictedSongs } from "../../src/predicted-songs.ts";
+import { saveFoundSpotifyArtist } from "../../src/spotify-artists.ts";
 import { createSessions } from "../../src/sessions.ts";
 import { createSpotifyPlaylists, spotifyMyPlaylistsUrl, spotifyPlaylistItemsUrl } from "../../src/spotify.ts";
 import { spotifyTokenUrl } from "../../src/spotify-log-in.ts";
@@ -112,6 +114,32 @@ async function setUp(t: TestContext, songs: Record<string, number>) {
 
   return { database, clock, transport, builder, festival, userId, setLevels, setLineup, changes, newNames, playlistRequests, sentUris };
 }
+
+test("each artist on the lineup has its predicted songs, the fallback mark, its setlist.fm page and its Spotify artist (#18)", async (t) => {
+  const { database, clock, festival, userId } = await setUp(t, { Ghost: 2, Sleep: 1, Turnstile: 0 });
+  saveFoundSpotifyArtist(database, clock, "id-Ghost", { artist: { id: "ghost-spotify-id".padEnd(22, "x"), name: "Ghost" }, source: "musicbrainz" });
+  const setlists = "https://www.setlist.fm/setlists/ghost-3d46923.html";
+  savePredictedSongs(database, "id-Ghost", { trackIds: tracks("Ghost", 2), fallback: false, lookBackMonths: 18, calculatedAt: clock.now(), setlistFmAddress: setlists });
+  // A fallback result has no setlist.fm page. The page also ignores an address that a fallback result has.
+  savePredictedSongs(database, "id-Sleep", { trackIds: tracks("Sleep", 1), fallback: true, lookBackMonths: 60, calculatedAt: clock.now(), setlistFmAddress: setlists });
+
+  const artists = new Map(playlistArtists(database, festival.id, userId).map((artist) => [artist.name, artist]));
+
+  const ghost = artists.get("Ghost")!;
+  assert.deepEqual(ghost.trackIds, tracks("Ghost", 2));
+  assert.equal(ghost.predictedSongs, 2);
+  assert.equal(ghost.fallback, false);
+  assert.equal(ghost.setlistFmAddress, setlists);
+  assert.equal(ghost.spotifyArtistId, "ghost-spotify-id".padEnd(22, "x"));
+  const sleep = artists.get("Sleep")!;
+  assert.equal(sleep.fallback, true);
+  assert.equal(sleep.setlistFmAddress, undefined);
+  assert.equal(sleep.spotifyArtistId, undefined);
+  const turnstile = artists.get("Turnstile")!;
+  assert.deepEqual(turnstile.trackIds, []);
+  assert.equal(turnstile.fallback, false);
+  assert.equal(turnstile.setlistFmAddress, undefined);
+});
 
 test("each artist gets the songs of its interest level, or fewer when it has fewer predicted songs", async (t) => {
   const { database, festival, userId, setLevels } = await setUp(t, {

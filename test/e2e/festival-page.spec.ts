@@ -202,6 +202,13 @@ test("a user can search and set an interest level with the keyboard only", async
   await expect(page.getByLabel("Interest level", { exact: true })).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(page.getByLabel("Sort by")).toBeFocused();
+  // The player button and the links of the artist come before its interest levels (#18).
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("button", { name: "Play the songs for Ghost" })).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("link", { name: "Ghost on Spotify" })).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("link", { name: "Ghost on setlist.fm" })).toBeFocused();
   await page.keyboard.press("Tab");
   const curious = level(page, "Ghost", "Curious");
   await expect(curious).toBeFocused();

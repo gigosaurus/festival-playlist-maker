@@ -62,6 +62,11 @@ test("a new artist match gets predicted songs, and the admin checks them", async
 
   await expect(page).toHaveTitle("Predicted songs for Bring Me The Horizon – Festival Playlist Maker");
   await expect(page.getByRole("definition").filter({ hasText: "Setlists on setlist.fm from the last 18 months" })).toBeVisible();
+  // The setlist.fm attribution link (#18).
+  await expect(page.getByRole("link", { name: "Setlists on setlist.fm", exact: true })).toHaveAttribute(
+    "href",
+    "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html",
+  );
   await expect(page.getByRole("definition").filter({ hasText: /Valid until 19 May 2027/ })).toBeVisible();
   const songs = page.getByRole("region", { name: "Songs in order of prediction (10)" }).getByRole("listitem");
   await expect(songs).toHaveCount(10);

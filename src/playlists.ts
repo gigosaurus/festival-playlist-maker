@@ -4,6 +4,7 @@ import type { PublishedFestival } from "./festivals.ts";
 import { festivalLineup, interestLevels, type InterestLevel, type LineupArtist } from "./interest-levels.ts";
 import { applicationName } from "./pages/layout.ts";
 import { findPredictedSongs } from "./predicted-songs.ts";
+import { findSpotifyArtist } from "./spotify-artists.ts";
 import type { PlaylistSettings } from "./settings.ts";
 import { spotifyPlaylistItemLimit, type SpotifyPlaylists } from "./spotify.ts";
 
@@ -12,9 +13,18 @@ import { spotifyPlaylistItemLimit, type SpotifyPlaylists } from "./spotify.ts";
 // It sends no setlist.fm requests. It changes the playlist only when the user starts
 // an update.
 
-// One artist on the lineup, with the number of predicted songs that it has.
+// One artist on the lineup, with its predicted songs and its Spotify artist.
 export interface PlaylistArtist extends LineupArtist {
+  // The number of predicted songs.
   predictedSongs: number;
+  // The Spotify track IDs of the predicted songs, in order of prediction, for the player (#18).
+  trackIds: string[];
+  // True when the songs come from the Spotify search fallback, so they are not predicted.
+  fallback: boolean;
+  // The setlist.fm page of the artist. Only a result from setlists has it.
+  setlistFmAddress?: string;
+  // The Spotify artist ID, when the artist has a Spotify artist.
+  spotifyArtistId?: string;
 }
 
 export interface PlannedPlaylist {
@@ -24,12 +34,20 @@ export interface PlannedPlaylist {
   trackIds: string[];
 }
 
-// Each artist on the lineup with the interest level of the user and the number of predicted songs.
+// Each artist on the lineup with the interest level of the user, the predicted songs and the Spotify artist.
 export function playlistArtists(database: Database, festivalId: number, userId: number): PlaylistArtist[] {
-  return festivalLineup(database, festivalId, userId).map((artist) => ({
-    ...artist,
-    predictedSongs: findPredictedSongs(database, artist.musicbrainzId)?.trackIds.length ?? 0,
-  }));
+  return festivalLineup(database, festivalId, userId).map((artist) => {
+    const songs = findPredictedSongs(database, artist.musicbrainzId);
+    const spotify = findSpotifyArtist(database, artist.musicbrainzId);
+    return {
+      ...artist,
+      predictedSongs: songs?.trackIds.length ?? 0,
+      trackIds: songs?.trackIds ?? [],
+      fallback: songs?.fallback ?? false,
+      ...(songs?.setlistFmAddress === undefined || songs.fallback ? {} : { setlistFmAddress: songs.setlistFmAddress }),
+      ...(spotify?.kind === "found" ? { spotifyArtistId: spotify.artist.id } : {}),
+    };
+  });
 }
 
 // The songs of the playlist. Each artist gives the number of songs that its interest

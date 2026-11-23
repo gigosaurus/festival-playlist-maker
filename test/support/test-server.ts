@@ -15,6 +15,7 @@ import { openDatabase } from "../../src/database.ts";
 import { addFestival, publishFestival } from "../../src/festivals.ts";
 import { getFestivalLineup } from "../../src/lineups.ts";
 import { savePredictedSongs } from "../../src/predicted-songs.ts";
+import { saveFoundSpotifyArtist } from "../../src/spotify-artists.ts";
 import { FakeClock } from "./fake-clock.ts";
 import { FakeHttpClient, type RecordedResponse } from "./fake-http-client.ts";
 import { testSettings } from "./test-settings.ts";
@@ -85,19 +86,37 @@ async function setLineup(festivalId: number, { artists, noMatch }: LineupRequest
   const names = [...artists.map((artist) => artist.name), ...noMatch];
   const lineup = { entries: names.map((name) => ({ name })) };
   await getFestivalLineup(database, { getLineup: async () => ({ outcome: "got", lineup }) }, clock, festivalId);
-  for (const { name, genres, trackIds } of artists) {
+  for (const { name, genres, trackIds, spotifyId, fallback, setlistFmAddress } of artists) {
     const artist = { id: `test-artist-${name}`, name, genres, ended: false, score: 100, votes: 1, aliases: [] };
     saveArtistMatch(database, clock, name, { kind: "artist", artist });
+    if (spotifyId !== undefined) saveFoundSpotifyArtist(database, clock, artist.id, { artist: { id: spotifyId, name }, source: "musicbrainz" });
     if (trackIds !== undefined && trackIds.length > 0) {
-      savePredictedSongs(database, artist.id, { trackIds, fallback: false, lookBackMonths: 18, calculatedAt: clock.now() });
+      savePredictedSongs(database, artist.id, {
+        trackIds,
+        fallback: fallback === true,
+        lookBackMonths: 18,
+        calculatedAt: clock.now(),
+        ...(setlistFmAddress === undefined ? {} : { setlistFmAddress }),
+      });
     }
   }
   for (const name of noMatch) saveArtistMatch(database, clock, name, { kind: "no-match" });
 }
 
+// trackIds: the predicted songs of the artist. An artist without them has no predicted songs.
+// spotifyId: the Spotify artist. fallback: the songs come from the Spotify search fallback.
+// setlistFmAddress: the setlist.fm page of the artist.
+interface TestArtist {
+  name: string;
+  genres: string[];
+  trackIds?: string[];
+  spotifyId?: string;
+  fallback?: boolean;
+  setlistFmAddress?: string;
+}
+
 interface LineupRequest {
-  // trackIds: the predicted songs of the artist. An artist without them has no predicted songs.
-  artists: { name: string; genres: string[]; trackIds?: string[] }[];
+  artists: TestArtist[];
   noMatch: string[];
 }
 

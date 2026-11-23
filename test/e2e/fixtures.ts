@@ -32,8 +32,9 @@ export interface TestFestival {
   year: number;
   startDate: string;
   endDate: string;
-  // trackIds: the predicted songs of the artist.
-  artists: { name: string; genres: string[]; trackIds?: string[] }[];
+  // trackIds: the predicted songs of the artist. spotifyId: the Spotify artist.
+  // fallback: the songs come from the Spotify search fallback. setlistFmAddress: the setlist.fm page of the artist.
+  artists: { name: string; genres: string[]; trackIds?: string[]; spotifyId?: string; fallback?: boolean; setlistFmAddress?: string }[];
   // Lineup names marked "no match".
   noMatch: string[];
 }
@@ -191,6 +192,7 @@ export const test = base.extend<{
         async (route) => {
           const url = new URL(route.request().url());
           if (url.protocol === "data:") return route.fallback();
+          if (url.href === spotifyIframeApiAddress) return route.fulfill({ contentType: "text/javascript", body: fakeSpotifyIframeApi });
           // The Spotify embed player is a page in an iframe. The fake gives the track ID as the page text.
           if (url.href.startsWith(spotifyEmbedPrefix)) {
             const id = url.pathname.split("/").pop();
@@ -222,6 +224,45 @@ export const test = base.extend<{
 });
 
 const spotifyEmbedPrefix = "https://open.spotify.com/embed/track/";
+const spotifyIframeApiAddress = "https://open.spotify.com/embed/iframe-api/v1";
+
+// A fake of the Spotify iFrame API, with the methods and the event that the Festival page uses.
+// Each controller loads the fake embed player page of its track. A test calls
+// window.fakeSpotifyEmbed.update(data) to send a "playback_update" event to the open
+// player, and reads window.fakeSpotifyEmbed.played for the track URIs that got "play".
+const fakeSpotifyIframeApi = `(() => {
+  const controllers = [];
+  const played = [];
+  const api = {
+    createController(target, options, callback) {
+      const iframe = document.createElement("iframe");
+      iframe.setAttribute("width", options.width);
+      iframe.setAttribute("height", String(options.height));
+      const listeners = [];
+      let uri = "";
+      const controller = {
+        iframeElement: iframe,
+        loadUri(next) {
+          uri = next;
+          iframe.src = "${spotifyEmbedPrefix}" + next.split(":").pop();
+        },
+        play() { played.push(uri); },
+        destroy() {
+          iframe.remove();
+          controllers.splice(controllers.indexOf(controller), 1);
+        },
+        addListener(name, listener) { if (name === "playback_update") listeners.push(listener); },
+        update(data) { for (const listener of listeners) listener({ data }); },
+      };
+      controller.loadUri(options.uri);
+      target.replaceWith(iframe);
+      controllers.push(controller);
+      setTimeout(() => callback(controller), 0);
+    },
+  };
+  window.fakeSpotifyEmbed = { controllers, played, update: (data) => controllers.forEach((each) => each.update(data)) };
+  setTimeout(() => window.onSpotifyIframeApiReady(api), 0);
+})();`;
 
 // The Spotify authorisation page sends the browser back to the redirect URI.
 function callback(authorisation: URL, answer: SpotifyAnswer): string {

@@ -158,6 +158,10 @@ const migrations: readonly string[] = [
     FOREIGN KEY (user_id, festival_id) REFERENCES playlist (user_id, festival_id) ON DELETE CASCADE
   ) STRICT;
   ALTER TABLE playlist ADD COLUMN changes TEXT;`,
+  // The address of the setlist.fm page of the artist of each result (#18), for the
+  // attribution link on the Festival page. It is an address, not setlist data
+  // (ADR-0002). NULL for a fallback result and for a result from before #18.
+  `ALTER TABLE predicted_songs ADD COLUMN setlist_fm_address TEXT`,
 ];
 
 export function openDatabase(path: string): Database {
