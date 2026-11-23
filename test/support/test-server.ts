@@ -24,11 +24,21 @@ const directory = mkdtempSync(join(tmpdir(), "festival-playlist-maker-"));
 const httpClient = new FakeHttpClient();
 let clock = new FakeClock();
 let databaseNumber = 0;
+// The task of the lineup check schedule. It runs only when a test asks (/__test/lineup-check).
+let scheduledTask: (() => Promise<void>) | undefined;
 let database = openDatabase(join(directory, `test-${databaseNumber}.sqlite`));
 let app = newApp();
 
 function newApp() {
-  return createApp({ database, httpClient, clock, settings: testSettings(`http://localhost:${port}`) });
+  return createApp({
+    database,
+    httpClient,
+    clock,
+    settings: testSettings(`http://localhost:${port}`),
+    schedule: (task) => {
+      scheduledTask = task;
+    },
+  });
 }
 
 const control = new Hono()
@@ -58,6 +68,11 @@ const control = new Hono()
     return context.body(null, 204);
   })
   .get("/__test/http-requests", (context) => context.json(httpClient.requests))
+  // Runs the scheduled lineup check one time, as the timer does each hour, and waits for it.
+  .post("/__test/lineup-check", async (context) => {
+    await scheduledTask!();
+    return context.body(null, 204);
+  })
   // Adds a published festival with a lineup, without the admin pages. Each
   // artist gets an artist match. Each name in noMatch is marked "no match".
   // For tests that need a large lineup.

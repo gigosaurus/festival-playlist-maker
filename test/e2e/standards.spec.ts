@@ -50,6 +50,22 @@ async function addDownloadAndSearch(page: Page, clashfinder: Clashfinder, musicB
   }).toPass();
 }
 
+// Adds a published Download 2027 with 3 names, and runs the lineup check on the next
+// day. The lineup response sets the result.
+async function checkPublishedDownload(clashfinder: Clashfinder, testServer: TestServer, lineup: typeof download2027Response) {
+  await testServer.addPublishedFestival({
+    name: "Download",
+    year: 2027,
+    startDate: "2027-06-11",
+    endDate: "2027-06-13",
+    artists: ["Turnstile", "Evanescence", "Ghost"].map((name) => ({ name, genres: ["metal"] })),
+    noMatch: [],
+  });
+  await clashfinder.willGiveLineup("test", lineup);
+  await testServer.setTime(new Date("2027-01-16T07:00:00Z"));
+  await testServer.runLineupCheck();
+}
+
 const artistMatches = "/admin/festivals/1/artist-matches";
 // The lineup name IDs come from the order of the names in the Clashfinder export.
 const theProdigy = 8;
@@ -237,6 +253,46 @@ const pages: StandardsPage[] = [
     path: "/admin/festivals?publish=1",
     user: testAdmin,
     setUp: (page, clashfinder) => addDownload(page, clashfinder, download2027Response),
+  },
+  {
+    name: "Manage festivals, lineup check with new names",
+    path: "/admin/festivals",
+    user: testAdmin,
+    setUp: (_page, clashfinder, _musicBrainz, _spotify, testServer) => checkPublishedDownload(clashfinder, testServer, download2027Response),
+  },
+  {
+    name: "Manage festivals, lineup check failed",
+    path: "/admin/festivals",
+    user: testAdmin,
+    setUp: (_page, clashfinder, _musicBrainz, _spotify, testServer) =>
+      checkPublishedDownload(clashfinder, testServer, { status: 503, body: "Service unavailable" }),
+  },
+  {
+    name: "Artist matches, new names after a lineup check",
+    path: artistMatches,
+    user: testAdmin,
+    setUp: async (_page, clashfinder, musicBrainz, _spotify, testServer) => {
+      await musicBrainz.willGiveRecordedResponses();
+      await checkPublishedDownload(clashfinder, testServer, download2027Response);
+    },
+  },
+  {
+    name: "Change the lineup source",
+    path: "/admin/festivals/1/lineup-source",
+    user: testAdmin,
+    setUp: (page, clashfinder) => addDownload(page, clashfinder, download2027Response),
+  },
+  {
+    name: "Change the lineup source, search results",
+    path: "/admin/festivals/1/lineup-source?search=Download",
+    user: testAdmin,
+    setUp: (page, clashfinder) => addDownload(page, clashfinder, download2027Response),
+  },
+  {
+    name: "Manage festivals, lineup source changed",
+    path: "/admin/festivals?source=1",
+    user: testAdmin,
+    setUp: (_page, clashfinder, _musicBrainz, _spotify, testServer) => checkPublishedDownload(clashfinder, testServer, download2027Response),
   },
   { name: "Add a festival", path: "/admin/festivals/new", user: testAdmin },
   { name: "Add a festival, problems", path: "/admin/festivals/new?search=", user: testAdmin },

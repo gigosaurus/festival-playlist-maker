@@ -352,6 +352,16 @@ a.button {
   overflow-wrap: anywhere;
 }
 
+/* A second line in a fact: an action, or one list of a lineup change. */
+.fact-action,
+.change-names {
+  display: block;
+}
+
+.change-names {
+  margin-top: 0.25rem;
+}
+
 /* A problem inside a panel: the last lineup attempt failed. */
 .inline-problem {
   border-left: 4px solid var(--colour-problem);
@@ -664,6 +674,12 @@ a.button {
 .matched-lineup-name {
   font-weight: 650;
   overflow-wrap: anywhere;
+}
+
+/* The badge "New" after a lineup name. */
+.match-item-heading .badge,
+.matched-lineup-name .badge {
+  vertical-align: 0.1em;
 }
 
 .matched-artist,

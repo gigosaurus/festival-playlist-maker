@@ -14,22 +14,26 @@ import {
   type ArtistChoice,
   type ArtistMatch,
 } from "./artist-matches.ts";
-import { createClashfinder } from "./clashfinder.ts";
+import { createClashfinder, isClashfinderPageId } from "./clashfinder.ts";
 import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
 import { readFestivalForm, searchDates, validateFestival, type FestivalFormValues, type FieldProblems } from "./festival-form.ts";
 import {
   addFestival,
+  changeLineupSource,
   findFestivalForAdmin,
   findPublishedFestival,
   listFestivalsForAdmin,
   listPublishedFestivals,
   londonDate,
   publishFestival,
+  type AdminFestival,
 } from "./festivals.ts";
 import { withServiceRules, type HttpClient } from "./http-client.ts";
 import { isInterestLevel, saveInterestLevels, type InterestLevel } from "./interest-levels.ts";
-import { getFestivalLineup } from "./lineups.ts";
+import { checkDueLineups, type Schedule } from "./lineup-check.ts";
+import type { LineupResult } from "./lineup-source.ts";
+import { getFestivalLineup, lastLineupChange } from "./lineups.ts";
 import { createMusicBrainz, type MusicBrainzArtist } from "./musicbrainz.ts";
 import { artistMatchPage, type ArtistMatchPageState } from "./pages/artist-match-page.ts";
 import { artistMatchesPage } from "./pages/artist-matches-page.ts";
@@ -37,6 +41,7 @@ import { addFestivalPage, type AddFestivalPageState } from "./pages/add-festival
 import { adminFestivalsPage, type LastAction } from "./pages/admin-festivals-page.ts";
 import { adminOnlyPage } from "./pages/admin-only-page.ts";
 import { festivalPage } from "./pages/festival-page.ts";
+import { lineupSourcePage, type LineupSourcePageState } from "./pages/lineup-source-page.ts";
 import { festivalsPage } from "./pages/festivals-page.ts";
 import { isLogInProblem, logInPage, type LogInProblem } from "./pages/log-in-page.ts";
 import { notFoundPage } from "./pages/not-found-page.ts";
@@ -63,11 +68,13 @@ import { createSpotify, createSpotifyPlaylists, readSpotifyArtistId } from "./sp
 // The application gets all of its connections to the outside world here.
 // main.ts gives the real ones. The tests give a fake HTTP client and a fake clock.
 // The application adds the rules of each service (keys, pauses) to the HTTP client.
+// schedule: runs the daily lineup check. Without it, the application does no check.
 export interface Dependencies {
   database: Database;
   httpClient: HttpClient;
   clock: Clock;
   settings: Settings;
+  schedule?: Schedule;
 }
 
 interface Environment {
@@ -92,7 +99,7 @@ interface PendingLogIn {
   next: string;
 }
 
-export function createApp({ database, httpClient: transport, clock, settings }: Dependencies): Hono<Environment> {
+export function createApp({ database, httpClient: transport, clock, settings, schedule }: Dependencies): Hono<Environment> {
   const app = new Hono<Environment>();
   const httpClient = withServiceRules(transport, settings, clock);
   const clashfinder = createClashfinder(httpClient, clock);
@@ -113,6 +120,7 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     settings: settings.playlist,
   });
   const sessions = createSessions(database, clock, settings);
+  schedule?.(() => checkDueLineups(database, clock, getLineupAndSearch));
   const applicationOrigin = new URL(settings.spotifyRedirectUri).origin;
   // Browsers send a Secure cookie only over HTTPS. A local installation uses HTTP.
   const secure = applicationOrigin.startsWith("https:");
@@ -219,7 +227,19 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     const unmatched = new Map(
       festivals.map((festival) => [festival.id, festivalArtistMatches(database, festival.id).filter((name) => !name.match).length]),
     );
-    return context.html(adminFestivalsPage(context.var.user!, festivals, readLastAction(context.req.query(), festivals), unmatched));
+    const changes = new Map(festivals.flatMap((festival) => {
+      const change = lastLineupChange(database, festival.id);
+      return change === undefined ? [] : [[festival.id, change] as const];
+    }));
+    return context.html(
+      adminFestivalsPage(context.var.user!, {
+        festivals,
+        lastAction: readLastAction(context.req.query(), festivals),
+        unmatchedNames: unmatched,
+        lineupChanges: changes,
+        today: londonDate(clock.now()),
+      }),
+    );
   });
 
   // The search is a GET request, so that Back, refresh and the address show the same results.
@@ -254,6 +274,36 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
     }
     await getLineupAndSearch(id);
     return context.redirect(`/admin/festivals?lineup=${id}`, 303);
+  });
+
+  // The search is a GET request, so that Back, refresh and the address show the same results.
+  app.get("/admin/festivals/:id/lineup-source", async (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const text = context.req.query("search");
+    return context.html(lineupSourcePage(context.var.user!, await lineupSourceState(festival, text, "", text !== undefined)));
+  });
+
+  // The admin chooses a different Clashfinder page. The application then gets the
+  // lineup from it at once, and the festival list shows the result (FN-02).
+  app.post("/admin/festivals/:id/lineup-source", async (context) => {
+    const festival = findFestivalForAdmin(database, Number(context.req.param("id")));
+    if (festival === undefined) return context.html(notFoundPage(context.var.user!), 404);
+    const form = await context.req.parseBody();
+    const text = typeof form.search === "string" ? form.search : "";
+    const page = typeof form.page === "string" ? form.page.trim() : "";
+    // The list of pages stays for one hour. After that, a new search gets the name of the page.
+    if (clashfinder.cachedPage(page) === undefined && isClashfinderPageId(page)) await clashfinder.search(page, undefined);
+    const pageName = clashfinder.cachedPage(page)?.name;
+    if (pageName === undefined) {
+      const state = await lineupSourceState(festival, text, page, true);
+      return context.html(lineupSourcePage(context.var.user!, { ...state, problem: "Choose a Clashfinder page from the search results." }), 400);
+    }
+    // The same page is not a change. The admin gets the lineup again.
+    const changed = page !== festival.lineupSource.page;
+    if (changed) changeLineupSource(database, festival.id, { source: "clashfinder", page, pageName });
+    await getLineupAndSearch(festival.id);
+    return context.redirect(`/admin/festivals?${changed ? "source" : "lineup"}=${festival.id}`, 303);
   });
 
   // The festival list shows the result: published, or the cause (FN-02).
@@ -299,6 +349,7 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
         predictedSongs: storedPredictedSongs(matchedArtists(names)),
         predictionQueue: predictedSongs.state(),
         predictionSettings: settings.prediction,
+        newNames: new Set(lastLineupChange(database, festival.id)?.newNames.map((name) => name.lineupNameId)),
         ...(saved ? { saved } : {}),
         ...(spotifySaved ? { spotifySaved } : {}),
       }),
@@ -550,10 +601,24 @@ export function createApp({ database, httpClient: transport, clock, settings }: 
       .map((artist) => artist.id);
   }
 
-  // After a new lineup, the searches for the new names start in the background.
-  async function getLineupAndSearch(festivalId: number): Promise<void> {
+  // A lineup check. After a new lineup, the searches for the new names start in the background.
+  async function getLineupAndSearch(festivalId: number): Promise<LineupResult> {
     const result = await getFestivalLineup(database, clashfinder, clock, festivalId);
     if (result.outcome === "got") artistSearches.searchFestival(festivalId);
+    return result;
+  }
+
+  // The search uses the search text, or the festival name when the search text is empty.
+  async function lineupSourceState(
+    festival: AdminFestival,
+    text: string | undefined,
+    chosen: string,
+    searched: boolean,
+  ): Promise<LineupSourcePageState> {
+    const searchText = text?.replace(/\s+/g, " ").trim() || festival.name;
+    if (!searched) return { festival, searchText, chosen };
+    const dates = { start: festival.startDate, end: festival.endDate };
+    return { festival, searchText, chosen, search: { text: searchText, result: await clashfinder.search(searchText, dates), hasDates: true } };
   }
 
   // The stored search for a text, or a new search when there is none or when `fresh` is true.
@@ -626,9 +691,11 @@ function readLastAction(query: Record<string, string>, festivals: ReturnType<typ
       ? (["added", query.added] as const)
       : query.lineup !== undefined
         ? (["got-lineup", query.lineup] as const)
-        : query.publish !== undefined
-          ? (["publish", query.publish] as const)
-          : [];
+        : query.source !== undefined
+          ? (["changed-source", query.source] as const)
+          : query.publish !== undefined
+            ? (["publish", query.publish] as const)
+            : [];
   if (action === undefined) return undefined;
   const festival = festivals.find((each) => String(each.id) === value);
   return festival === undefined ? undefined : { action, festival };

@@ -3,6 +3,7 @@ import { createApp } from "./app.ts";
 import { systemClock } from "./clock.ts";
 import { openDatabase } from "./database.ts";
 import { createFetchHttpClient } from "./http-client.ts";
+import { checkInterval, timerSchedule } from "./lineup-check.ts";
 import { defaultPlaylistSettings, defaultPredictionSettings, type Settings } from "./settings.ts";
 
 function requiredSetting(name: string): string {
@@ -30,7 +31,13 @@ const settings: Settings = {
 };
 
 const database = openDatabase(databasePath);
-const app = createApp({ database, httpClient: createFetchHttpClient(), clock: systemClock, settings });
+const app = createApp({
+  database,
+  httpClient: createFetchHttpClient(),
+  clock: systemClock,
+  settings,
+  schedule: timerSchedule(checkInterval),
+});
 const server = serve({ fetch: app.fetch, port });
 console.log(`Festival Playlist Maker listens on port ${port}. Database: ${databasePath}`);
 

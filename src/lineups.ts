@@ -2,9 +2,10 @@ import type { Clock } from "./clock.ts";
 import type { Database } from "./database.ts";
 import type { Lineup, LineupResult, LineupSource, LineupSourceSettings } from "./lineup-source.ts";
 
-// Gets the lineup of a festival from its lineup source and stores it. When the
-// lineup source fails, the festival keeps its previous lineup, and the database
-// records the time and the cause.
+// Gets the lineup of a festival from its lineup source and stores it. This is a
+// lineup check. It records the new names and the removed names. When the lineup
+// source fails, the festival keeps its previous lineup, and the database records
+// the time and the cause.
 export async function getFestivalLineup(
   database: Database,
   lineupSource: LineupSource,
@@ -59,6 +60,32 @@ export function currentLineup(database: Database, festivalId: number): StoredLin
   }));
 }
 
+// The new names and the removed names of the last lineup check that changed the
+// lineup. Each list is in alphabetical order.
+export interface LineupChange {
+  at: Date;
+  newNames: { lineupNameId: number; name: string }[];
+  removedNames: { lineupNameId: number; name: string }[];
+}
+
+export function lastLineupChange(database: Database, festivalId: number): LineupChange | undefined {
+  const rows = database
+    .prepare(
+      `SELECT lineup_name.id, lineup_name.name, lineup_change.change, lineup_change.checked_at
+       FROM lineup_change JOIN lineup_name ON lineup_name.id = lineup_change.lineup_name_id
+       WHERE lineup_name.festival_id = ?1 AND lineup_change.checked_at = (
+         SELECT max(lineup_change.checked_at)
+         FROM lineup_change JOIN lineup_name ON lineup_name.id = lineup_change.lineup_name_id
+         WHERE lineup_name.festival_id = ?1)
+       ORDER BY lineup_name.name COLLATE NOCASE, lineup_name.name`,
+    )
+    .all(festivalId) as { id: number; name: string; change: "new" | "removed"; checked_at: string }[];
+  if (rows.length === 0) return undefined;
+  const names = (change: "new" | "removed") =>
+    rows.filter((row) => row.change === change).map((row) => ({ lineupNameId: row.id, name: row.name }));
+  return { at: new Date(rows[0]!.checked_at), newNames: names("new"), removedNames: names("removed") };
+}
+
 function saveLineup(database: Database, festivalId: number, lineup: Lineup, at: string): void {
   const entriesByName = new Map<string, Lineup["entries"]>();
   for (const entry of lineup.entries) {
@@ -77,16 +104,31 @@ function saveLineup(database: Database, festivalId: number, lineup: Lineup, at: 
     "INSERT INTO lineup_time (lineup_name_id, day, stage, start_time, end_time) VALUES (?, ?, ?, ?, ?)",
   );
 
+  // The names on the lineup before this check. The first lineup has no previous lineup.
+  const { lineup_updated_at: previousAt } = database
+    .prepare("SELECT lineup_updated_at FROM festival WHERE id = ?")
+    .get(festivalId) as { lineup_updated_at: string | null };
+  const previous = new Map(
+    (
+      database
+        .prepare("SELECT id, name FROM lineup_name WHERE festival_id = ? AND last_seen = ?")
+        .all(festivalId, previousAt) as { id: number; name: string }[]
+    ).map((row) => [row.name, row.id]),
+  );
+  const recordChange = database.prepare("INSERT INTO lineup_change (lineup_name_id, checked_at, change) VALUES (?, ?, ?)");
+
   database.exec("BEGIN");
   try {
     for (const [name, entries] of entriesByName) {
       const { id } = saveName.get(festivalId, name, at, at) as { id: number };
+      if (previousAt !== null && !previous.has(name)) recordChange.run(id, at, "new");
       deleteTimes.run(id);
       for (const entry of entries) {
         if (entry.day === undefined && entry.stage === undefined && entry.start === undefined && entry.end === undefined) continue;
         insertTime.run(id, entry.day ?? null, entry.stage ?? null, entry.start ?? null, entry.end ?? null);
       }
     }
+    for (const [name, id] of previous) if (!entriesByName.has(name)) recordChange.run(id, at, "removed");
     database
       .prepare(
         `UPDATE festival

@@ -26,6 +26,8 @@ export interface ArtistMatchesPageState {
   predictedSongs: Map<string, PredictedSongs>;
   predictionQueue: PredictionQueueState;
   predictionSettings: PredictionSettings;
+  // The lineup name IDs that the last lineup change added (user story 48).
+  newNames: ReadonlySet<number>;
 }
 
 export function artistMatchesPage(user: User, state: ArtistMatchesPageState) {
@@ -55,7 +57,7 @@ export function artistMatchesPage(user: User, state: ArtistMatchesPageState) {
               <p>Get the lineup on Manage festivals. Then match the artists.</p>
             </section>
           `
-        : html`${unmatchedSection(festival, unmatched, queue)} ${matchedSection(state, matched)}`}
+        : html`${unmatchedSection(festival, unmatched, queue, state.newNames)} ${matchedSection(state, matched)}`}
     `,
   });
 }
@@ -97,7 +99,7 @@ function spotifySavedNotice(saved: LineupNameMatch, spotify: StoredSpotifyArtist
   `;
 }
 
-function unmatchedSection(festival: AdminFestival, unmatched: LineupNameMatch[], queue: SearchQueueState) {
+function unmatchedSection(festival: AdminFestival, unmatched: LineupNameMatch[], queue: SearchQueueState, newNames: ReadonlySet<number>) {
   if (unmatched.length === 0) {
     return html`
       <section class="empty-state match-section" aria-labelledby="unmatched-heading">
@@ -111,7 +113,7 @@ function unmatchedSection(festival: AdminFestival, unmatched: LineupNameMatch[],
       <h2 id="unmatched-heading">Names without an artist match (${unmatched.length})</h2>
       ${waiting > 0 ? searchState(festival, waiting, queue) : ""}
       <ul class="match-list">
-        ${unmatched.map((name) => html`<li>${unmatchedName(festival, name)}</li>`)}
+        ${unmatched.map((name) => html`<li>${unmatchedName(festival, name, newNames.has(name.lineupNameId))}</li>`)}
       </ul>
     </section>
   `;
@@ -139,11 +141,14 @@ function searchState(festival: AdminFestival, waiting: number, queue: SearchQueu
   `;
 }
 
-function unmatchedName(festival: AdminFestival, name: LineupNameMatch) {
+// The badge "New" shows that the last lineup check added the name.
+const newBadge = html` <span class="badge">New</span>`;
+
+function unmatchedName(festival: AdminFestival, name: LineupNameMatch, isNew: boolean) {
   const headingId = `name-${name.lineupNameId}`;
   return html`
     <article class="match-item" aria-labelledby="${headingId}">
-      <h3 id="${headingId}" class="match-item-heading"><span data-external-text>${name.name}</span></h3>
+      <h3 id="${headingId}" class="match-item-heading"><span data-external-text>${name.name}</span>${isNew ? newBadge : ""}</h3>
       ${name.search === undefined
         ? html`<p class="hint">Waiting for the MusicBrainz search.</p>`
         : html`
@@ -271,7 +276,11 @@ function matchedName(state: ArtistMatchesPageState, name: LineupNameMatch, warni
   const songs = match.kind === "artist" ? predictedSongs.get(match.artist.id) : undefined;
   return html`
     <div class="matched-name">
-      <p class="matched-lineup-name"><span data-external-text>${name.name}</span></p>
+      <p class="matched-lineup-name" id="name-${name.lineupNameId}"><span data-external-text>${name.name}</span>${state.newNames.has(
+        name.lineupNameId,
+      )
+        ? newBadge
+        : ""}</p>
       ${match.kind === "artist"
         ? html`<p class="matched-artist">
             <span data-external-text>${match.artist.name}</span>${artistFacts(match.artist).map(

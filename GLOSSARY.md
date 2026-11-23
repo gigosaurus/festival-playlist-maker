@@ -16,6 +16,10 @@ _Avoid_: Bill, roster, line-up
 The service from which the application gets the lineup of one festival: the API of the festival app, the festival website or Clashfinder.
 _Avoid_: Importer, scraper, feed
 
+**Lineup check**:
+One attempt to get the lineup of a festival from its lineup source. It records the new names and the removed names. The application does a lineup check of each published festival each day until the festival starts. The admin can also start one with "Get the lineup again".
+_Avoid_: Refresh, sync, poll, import
+
 **Expected genre**:
 A genre that the admin expects at a festival. An artist match to an artist with no expected genre gets a warning.
 _Avoid_: Festival genre, allowed genre

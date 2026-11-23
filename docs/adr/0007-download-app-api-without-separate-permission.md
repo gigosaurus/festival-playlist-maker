@@ -10,7 +10,7 @@ The application is a personal project. It sends only requests that the app also 
 
 - Send only the edition, stage and artist requests in the lineup source document, with the headers of the app.
 - Do not send requests to `https://app.appmiral.com/function/` or to other endpoints of the app.
-- Keep each lineup in the database. Get a lineup again only when the admin asks for it.
+- Keep each lineup in the database. Get a lineup again only when the admin asks for it, or for the daily lineup check (#17): a maximum of 1 lineup for each published festival each day, until the festival starts.
 - Send one request at a time, with a pause between requests.
 - When the API gives an error, stop and show the error to the admin. Do not try the request again automatically.
 - Keep the `x-protect` value in the `.env` file as `DOWNLOAD_APP_KEY`, not in the repository.
