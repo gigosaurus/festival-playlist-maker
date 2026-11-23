@@ -21,32 +21,47 @@ export interface PredictedSongs {
   // The look-back period of the calculation, in months. A fallback result has the longest period.
   lookBackMonths: number;
   calculatedAt: Date;
+  // The setlist.fm page of the artist, for the attribution link on the Festival page (#18).
+  // A fallback result has none. A result from before #18 has none.
+  setlistFmAddress?: string;
 }
 
-// The store keeps only the Spotify track IDs, the marks and the calculation time.
-// It keeps no setlist.fm data, because the setlist.fm terms do not permit it (ADR-0002).
+// The store keeps only the Spotify track IDs, the marks, the calculation time and the
+// address of the setlist.fm page of the artist. It keeps no setlists, because the
+// setlist.fm terms do not permit it (ADR-0002).
 export function findPredictedSongs(database: Database, musicbrainzId: string): PredictedSongs | undefined {
   const row = database
-    .prepare("SELECT track_ids, fallback, look_back_months, calculated_at FROM predicted_songs WHERE musicbrainz_id = ?")
-    .get(musicbrainzId) as { track_ids: string; fallback: number; look_back_months: number; calculated_at: string } | undefined;
+    .prepare("SELECT track_ids, fallback, look_back_months, calculated_at, setlist_fm_address FROM predicted_songs WHERE musicbrainz_id = ?")
+    .get(musicbrainzId) as
+    | { track_ids: string; fallback: number; look_back_months: number; calculated_at: string; setlist_fm_address: string | null }
+    | undefined;
   if (row === undefined) return undefined;
   return {
     trackIds: JSON.parse(row.track_ids) as string[],
     fallback: row.fallback === 1,
     lookBackMonths: row.look_back_months,
     calculatedAt: new Date(row.calculated_at),
+    ...(row.setlist_fm_address === null ? {} : { setlistFmAddress: row.setlist_fm_address }),
   };
 }
 
 export function savePredictedSongs(database: Database, musicbrainzId: string, songs: PredictedSongs): void {
   database
     .prepare(
-      `INSERT INTO predicted_songs (musicbrainz_id, track_ids, fallback, look_back_months, calculated_at) VALUES (?, ?, ?, ?, ?)
+      `INSERT INTO predicted_songs (musicbrainz_id, track_ids, fallback, look_back_months, calculated_at, setlist_fm_address)
+       VALUES (?, ?, ?, ?, ?, ?)
        ON CONFLICT (musicbrainz_id) DO UPDATE
        SET track_ids = excluded.track_ids, fallback = excluded.fallback, look_back_months = excluded.look_back_months,
-           calculated_at = excluded.calculated_at`,
+           calculated_at = excluded.calculated_at, setlist_fm_address = excluded.setlist_fm_address`,
     )
-    .run(musicbrainzId, JSON.stringify(songs.trackIds), songs.fallback ? 1 : 0, songs.lookBackMonths, songs.calculatedAt.toISOString());
+    .run(
+      musicbrainzId,
+      JSON.stringify(songs.trackIds),
+      songs.fallback ? 1 : 0,
+      songs.lookBackMonths,
+      songs.calculatedAt.toISOString(),
+      songs.setlistFmAddress ?? null,
+    );
 }
 
 // The long look-back mark (#14): the artist had fewer than `fewShows` shows in the
@@ -219,8 +234,9 @@ export async function lookBackShows(
   getPage: (page: number) => Promise<SetlistPageResult>,
   now: Date,
   settings: PredictionSettings,
-): Promise<{ shows: Show[]; lookBackMonths: number } | { cause: string }> {
+): Promise<{ shows: Show[]; lookBackMonths: number; artistAddress?: string } | { cause: string }> {
   const shows: Show[] = [];
+  let artistAddress: string | undefined;
   let page = 0;
   let complete = false;
   const periods = lookBackPeriods(settings);
@@ -236,11 +252,14 @@ export async function lookBackShows(
       }
       if (result.outcome === "failed") return { cause: result.cause };
       shows.push(...result.shows);
+      artistAddress ??= result.artistAddress;
       complete = result.lastPage;
     }
-    if (shows.filter((show) => countsForScore(show, now, period)).length >= settings.fewShows) return { shows, lookBackMonths: months };
+    if (shows.filter((show) => countsForScore(show, now, period)).length >= settings.fewShows) {
+      return { shows, lookBackMonths: months, ...(artistAddress === undefined ? {} : { artistAddress }) };
+    }
   }
-  return { shows, lookBackMonths: periods.at(-1)! };
+  return { shows, lookBackMonths: periods.at(-1)!, ...(artistAddress === undefined ? {} : { artistAddress }) };
 }
 
 // The track of the artist for a song. A track with the same name is first. Then
@@ -259,7 +278,8 @@ function withoutSuffix(name: string): string {
 }
 
 export type PredictionResult =
-  | { outcome: "predicted"; trackIds: string[]; fallback: boolean; lookBackMonths: number }
+  // `setlistFmAddress`: the setlist.fm page of the artist. A fallback result has none.
+  | { outcome: "predicted"; trackIds: string[]; fallback: boolean; lookBackMonths: number; setlistFmAddress?: string }
   // The MusicBrainz artist has no Spotify artist, so the application cannot find its tracks.
   | { outcome: "no-spotify-artist" }
   | { outcome: "failed"; cause: string };
@@ -399,7 +419,10 @@ export function createSongPrediction({ database, setlistFm, musicBrainz, spotify
       if (songs.length > 0) {
         const trackIds = await tracksOf(songs, stored.artist);
         if ("cause" in trackIds) return { outcome: "failed", cause: trackIds.cause };
-        if (trackIds.length > 0) return { outcome: "predicted", trackIds, fallback: false, lookBackMonths };
+        if (trackIds.length > 0) {
+          const address = recent.artistAddress === undefined ? {} : { setlistFmAddress: recent.artistAddress };
+          return { outcome: "predicted", trackIds, fallback: false, lookBackMonths, ...address };
+        }
       }
       const trackIds = await searchTracksOf(stored.artist);
       if ("cause" in trackIds) return { outcome: "failed", cause: trackIds.cause };
@@ -450,6 +473,7 @@ export function createPredictedSongQueue(
           fallback: result.fallback,
           lookBackMonths: result.lookBackMonths,
           calculatedAt: clock.now(),
+          ...(result.setlistFmAddress === undefined ? {} : { setlistFmAddress: result.setlistFmAddress }),
         });
       }
       return undefined;

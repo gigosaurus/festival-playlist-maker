@@ -168,6 +168,10 @@ const migrations: readonly string[] = [
     PRIMARY KEY (lineup_name_id, checked_at)
   ) STRICT;
   CREATE INDEX lineup_change_time ON lineup_change (checked_at);`,
+  // The address of the setlist.fm page of the artist of each result (#18), for the
+  // attribution link on the Festival page. It is an address, not setlist data
+  // (ADR-0002). NULL for a fallback result and for a result from before #18.
+  `ALTER TABLE predicted_songs ADD COLUMN setlist_fm_address TEXT`,
 ];
 
 export function openDatabase(path: string): Database {

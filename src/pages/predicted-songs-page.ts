@@ -75,11 +75,19 @@ function source(songs: PredictedSongs, settings: PredictionSettings) {
       The songs come from a Spotify search for the artist, so they are not predicted.</span>`;
   }
   if (hasLongLookBack(songs, settings)) {
-    return html`Setlists on setlist.fm from the last ${songs.lookBackMonths} months.
+    return html`${setlists(songs)} from the last ${songs.lookBackMonths} months.
       <span class="genre-warning">Warning: fewer than ${settings.fewShows} shows in the last ${settings.lookBackMonths} months,
         so the prediction is less reliable.</span>`;
   }
-  return `Setlists on setlist.fm from the last ${songs.lookBackMonths} months`;
+  return html`${setlists(songs)} from the last ${songs.lookBackMonths} months`;
+}
+
+// "Setlists on setlist.fm", with a link to the setlist.fm page of the artist when the
+// result has it (#18). The link is the attribution that the setlist.fm terms require.
+function setlists(songs: PredictedSongs) {
+  return songs.setlistFmAddress === undefined
+    ? "Setlists on setlist.fm"
+    : html`<a href="${songs.setlistFmAddress}" target="_blank" rel="noopener">Setlists on setlist.fm</a>`;
 }
 
 function calculationState(state: PredictedSongsPageState, address: string) {

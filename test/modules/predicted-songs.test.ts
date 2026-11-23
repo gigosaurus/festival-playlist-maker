@@ -66,6 +66,10 @@ const bringMeTheHorizonTracks = [
   "6lFUdRItQEsEuD7dSINL47",
 ];
 
+// The setlist.fm pages of the artists in the recorded setlists.
+const bringMeTheHorizonSetlists = "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html";
+const rageAgainstTheMachineSetlists = "https://www.setlist.fm/setlists/rage-against-the-machine-bd68946.html";
+
 // The tracks of the Swedish band Ghost in the Spotify search for "Ghost", one for each title.
 const ghostSearchTracks = ["2wBnZdVWa5jVpvYRfGU7rP", "5TNhjanmvwvmjCz2WYwSAv", "4TjCaQsPQhGZUk0Hls4O3Y", "4pIKFpwflOdhYNIRmPTj3E", "4xAmbn7xiy6wGOs4oaxv70"];
 
@@ -119,6 +123,23 @@ test("setlist.fm gives the shows of an artist, with the tape songs marked", asyn
   assert.deepEqual(first!.songs.find((song) => song.name === "Memorial"), { name: "Memorial", tape: true, cover: false });
   assert.equal(first!.venueId, "3bd634d0");
   assert.equal(first!.tour, "Count Your Blessings | Repented");
+});
+
+test("setlist.fm gives the address of the setlist.fm page of the artist, for the attribution link", async (t) => {
+  const { setlistFm, transport } = setUp(t);
+
+  const result = await setlistFm.artistSetlists(bringMeTheHorizon.musicbrainzId, 1);
+  assert.equal(result.outcome === "found" && result.artistAddress, bringMeTheHorizonSetlists);
+
+  // The page shows the address as a link, so an address that is not on www.setlist.fm is not used.
+  for (const url of ["https://example.org/setlists/ghost.html", "http://www.setlist.fm/setlists/ghost.html", "data:text/html,ghost", 7]) {
+    transport.respondTo("GET", setlistFmSetlistsUrl(ghostJapan.musicbrainzId, 1), {
+      body: JSON.stringify({ setlist: [{ eventDate: "01-01-2026", artist: { url } }], itemsPerPage: 20, total: 1 }),
+    });
+    const other = await setlistFm.artistSetlists(ghostJapan.musicbrainzId, 1);
+    assert.equal(other.outcome, "found");
+    assert.equal(other.outcome === "found" && other.artistAddress, undefined, String(url));
+  }
 });
 
 // Reading Festival 2025 (Little John's Farm) and Hellfest 2026 (Mainstage 01).
@@ -345,7 +366,14 @@ test("the predicted songs are a maximum of 10 Spotify tracks in order of score",
 
   const result = await prediction.predict(bringMeTheHorizon.musicbrainzId);
 
-  assert.deepEqual(result, { outcome: "predicted", trackIds: bringMeTheHorizonTracks, fallback: false, lookBackMonths: 18 });
+  // The result has the setlist.fm page of the artist, for the attribution link (#18).
+  assert.deepEqual(result, {
+    outcome: "predicted",
+    trackIds: bringMeTheHorizonTracks,
+    fallback: false,
+    lookBackMonths: 18,
+    setlistFmAddress: bringMeTheHorizonSetlists,
+  });
   // The setlists of the last 18 months are on 3 pages. Then 1 MusicBrainz request
   // for the festivals, and 1 setlist.fm search for each venue and date that is not a MusicBrainz festival day.
   const urls = sent(setlistRequests).map(({ url }) => url);
@@ -467,6 +495,7 @@ test("a song with no Spotify recording is not in the result", async (t) => {
     trackIds: [bringMeTheHorizonTracks[0], bringMeTheHorizonTracks[2], bringMeTheHorizonTracks[3]],
     fallback: false,
     lookBackMonths: 18,
+    setlistFmAddress: bringMeTheHorizonSetlists,
   });
 });
 
@@ -509,14 +538,14 @@ test("an artist without a Spotify artist gets no calculation", async (t) => {
   assert.equal(transport.requests.length, 0);
 });
 
-test("the store contains only the Spotify track IDs, the marks and the calculation time", async (t) => {
+test("the store contains only the Spotify track IDs, the marks, the calculation time and the setlist.fm page of the artist", async (t) => {
   const { queue, database } = setUp(t);
 
   queue.calculate([bringMeTheHorizon.musicbrainzId, ghostJapan.musicbrainzId]);
   await queue.idle();
 
   const columns = database.prepare("SELECT name FROM pragma_table_info('predicted_songs')").all().map((row) => row.name);
-  assert.deepEqual(columns, ["musicbrainz_id", "track_ids", "fallback", "calculated_at", "look_back_months"]);
+  assert.deepEqual(columns, ["musicbrainz_id", "track_ids", "fallback", "calculated_at", "look_back_months", "setlist_fm_address"]);
   // The venue-and-date results keep only the venue ID, the date and the result.
   const venueColumns = database.prepare("SELECT name FROM pragma_table_info('venue_date')").all().map((row) => row.name);
   assert.deepEqual(venueColumns, ["venue_id", "date", "festival_set", "checked_at"]);
@@ -524,16 +553,32 @@ test("the store contains only the Spotify track IDs, the marks and the calculati
   // The calculation time is the end of the calculation. The pauses between requests move the fake clock.
   for (const row of rows) assert.ok(new Date(String(row.calculated_at)) >= setlistFmRecordedAt);
   assert.deepEqual(
-    rows.map(({ musicbrainz_id, track_ids, fallback, look_back_months }) => ({ musicbrainz_id, track_ids, fallback, look_back_months })),
+    rows.map(({ musicbrainz_id, track_ids, fallback, look_back_months, setlist_fm_address }) => ({
+      musicbrainz_id,
+      track_ids,
+      fallback,
+      look_back_months,
+      setlist_fm_address,
+    })),
     [
-      { musicbrainz_id: bringMeTheHorizon.musicbrainzId, track_ids: JSON.stringify(bringMeTheHorizonTracks), fallback: 0, look_back_months: 18 },
-      { musicbrainz_id: ghostJapan.musicbrainzId, track_ids: JSON.stringify(ghostSearchTracks), fallback: 1, look_back_months: 60 },
+      {
+        musicbrainz_id: bringMeTheHorizon.musicbrainzId,
+        track_ids: JSON.stringify(bringMeTheHorizonTracks),
+        fallback: 0,
+        look_back_months: 18,
+        setlist_fm_address: bringMeTheHorizonSetlists,
+      },
+      // A fallback result has no setlist.fm page, because its songs do not come from setlists.
+      { musicbrainz_id: ghostJapan.musicbrainzId, track_ids: JSON.stringify(ghostSearchTracks), fallback: 1, look_back_months: 60, setlist_fm_address: null },
     ],
   );
-  // No other table has setlist.fm data, for example a song name.
+  assert.deepEqual(findPredictedSongs(database, bringMeTheHorizon.musicbrainzId)?.setlistFmAddress, bringMeTheHorizonSetlists);
+  // No other table and no other column has setlist.fm data, for example a song name.
+  // The setlist.fm page of the artist is an address for the attribution link, not setlist data.
   const tables = database.prepare("SELECT name FROM sqlite_schema WHERE type = 'table'").all();
   for (const { name } of tables) {
-    const text = JSON.stringify(database.prepare(`SELECT * FROM "${String(name)}"`).all());
+    const rows = database.prepare(`SELECT * FROM "${String(name)}"`).all().map(({ setlist_fm_address: _, ...row }) => row);
+    const text = JSON.stringify(rows);
     assert.ok(!/Shadow Moses|setlist/i.test(text), `The table ${String(name)} contains setlist.fm data`);
   }
 });
@@ -922,7 +967,13 @@ test("the recorded shows of Rage Against the Machine: no shows in 3 years, so th
 
   const result = await prediction.predict(rageAgainstTheMachine.musicbrainzId);
 
-  assert.deepEqual(result, { outcome: "predicted", trackIds: rageAgainstTheMachineTracks, fallback: false, lookBackMonths: 60 });
+  assert.deepEqual(result, {
+    outcome: "predicted",
+    trackIds: rageAgainstTheMachineTracks,
+    fallback: false,
+    lookBackMonths: 60,
+    setlistFmAddress: rageAgainstTheMachineSetlists,
+  });
   // Page 1 has shows from 2011, so it covers the 5 years.
   assert.deepEqual(
     sent(setlistRequests).filter(({ url }) => url.includes("/artist/")).map(({ url }) => url),

@@ -17,7 +17,8 @@ export interface Show {
 }
 
 export type SetlistPageResult =
-  | { outcome: "found"; shows: Show[]; lastPage: boolean }
+  // `artistAddress`: the setlist.fm page of the artist, for the attribution link (#18).
+  | { outcome: "found"; shows: Show[]; lastPage: boolean; artistAddress?: string }
   // setlist.fm has no setlists of the artist, or does not know the MusicBrainz ID.
   | { outcome: "no-setlists" }
   // `retryAt` is set when a rate limit stopped the request.
@@ -88,7 +89,8 @@ export function createSetlistFm(httpClient: HttpClient): SetlistFm {
       const { itemsPerPage, total } = body;
       const lastPage =
         body.setlist.length === 0 || (typeof itemsPerPage === "number" && typeof total === "number" && page * itemsPerPage >= total);
-      return { outcome: "found", shows, lastPage };
+      const artistAddress = body.setlist.map(readArtistAddress).find((address) => address !== undefined);
+      return { outcome: "found", shows, lastPage, ...(artistAddress === undefined ? {} : { artistAddress }) };
     },
 
     async venueArtists(venueId, date) {
@@ -116,6 +118,20 @@ export function createSetlistFm(httpClient: HttpClient): SetlistFm {
       return { outcome: "found", artists: morePages ? (total as number) : artists.size };
     },
   };
+}
+
+// The address of the setlist.fm page of the artist of a setlist:
+// { "artist": { "url": "https://www.setlist.fm/setlists/bring-me-the-horizon-73d6f639.html" } }.
+// Only an address on www.setlist.fm is accepted, because the page shows it as a link.
+function readArtistAddress(value: unknown): string | undefined {
+  const url = (value as { artist?: { url?: unknown } } | null)?.artist?.url;
+  if (typeof url !== "string") return undefined;
+  try {
+    const address = new URL(url);
+    return address.protocol === "https:" && address.hostname === "www.setlist.fm" ? address.href : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 // A setlist: { "eventDate": "11-10-2026", "venue": { "id": "3bd634d0" }, "tour": { "name": "…" },

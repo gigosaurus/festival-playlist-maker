@@ -4,6 +4,9 @@
 //   The filter "Only new artists" shows only when one or more artists are new.
 // - Changes the number of songs in the playlist after each saved interest level.
 // - Prevents a second "Make the playlist" while the first one waits for Spotify.
+// - Plays the predicted songs of an artist in the Spotify embed player (#18). The page
+//   loads the Spotify iFrame API only when the user selects "Play the songs" the first time.
+//   One player shows at a time, under the artist.
 // The address keeps the search, the filter and the sort, so that a reload and
 // Back show the same list.
 
@@ -24,6 +27,12 @@ const sortSelect = tools.elements.sort;
 // Undefined when no artist is new since the last update.
 const newCheck = tools.elements.new;
 
+// The open Spotify embed player: the listen element of the artist, the track IDs,
+// the position of the song and the Spotify controller. Undefined when no player is open.
+let player;
+// The promise of the Spotify iFrame API, after the first "Play the songs".
+let spotifyApi;
+
 // One entry for each artist. `level` is the level in the page. `saved` is the
 // last level that the application saved. `version` counts the changes, so that
 // only the result of the last change updates the row.
@@ -40,6 +49,7 @@ const artists = [...list.children].map((element) => ({
   sending: Promise.resolve(),
 }));
 
+for (const button of form.querySelectorAll("[data-play]")) button.hidden = false;
 tools.hidden = false;
 form.querySelector("[data-save-all]").hidden = true;
 readAddress();
@@ -81,6 +91,13 @@ showAll.querySelector("button").addEventListener("click", () => {
 updateList.querySelector("button").addEventListener("click", () => {
   apply();
   lineupCount.focus();
+});
+form.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-play]");
+  if (button === null) return;
+  const listen = button.closest(".listen");
+  if (player?.listen === listen) closePlayer();
+  else openPlayer(listen);
 });
 form.addEventListener("change", (event) => {
   const input = event.target;
@@ -148,12 +165,18 @@ function sameOrder(first, second) {
   return first.length === second.length && first.every((artist, index) => artist === second[index]);
 }
 
-// Shows the artists of the view, in its order, and hides the others.
+// Shows the artists of the view, in its order, and hides the others. The rows move
+// only when the order changes. A move loads the player again, so then the player closes.
 function apply() {
   const result = view();
   const visible = new Set(result);
   for (const artist of artists) artist.element.hidden = !visible.has(artist);
-  list.append(...result.map((artist) => artist.element), ...artists.filter((artist) => !visible.has(artist)).map((artist) => artist.element));
+  const inPage = [...list.children].map((element) => artists.find((artist) => artist.element === element)).filter((artist) => visible.has(artist));
+  if (!sameOrder(result, inPage)) {
+    closePlayer();
+    list.append(...result.map((artist) => artist.element), ...artists.filter((artist) => !visible.has(artist)).map((artist) => artist.element));
+  }
+  if (player !== undefined && player.listen.closest(".artist").hidden) closePlayer();
   lineupCount.textContent = countText(result.length);
   showAll.hidden = result.length > 0;
   updateList.hidden = true;
@@ -224,4 +247,120 @@ function updatePlaylistCount() {
   const total = songs.reduce((sum, each) => sum + each, 0);
   const playlistArtists = songs.filter((each) => each > 0).length;
   playlistCount.textContent = `The playlist will contain ${total} ${total === 1 ? "song" : "songs"} by ${playlistArtists} of ${artistCount(artists.length)}.`;
+}
+
+// The Spotify iFrame API, loaded one time. Spotify calls onSpotifyIframeApiReady when it is ready.
+function loadSpotifyApi() {
+  spotifyApi ??= new Promise((resolve, reject) => {
+    window.onSpotifyIframeApiReady = resolve;
+    const script = document.createElement("script");
+    script.src = "https://open.spotify.com/embed/iframe-api/v1";
+    script.async = true;
+    script.addEventListener("error", () => {
+      spotifyApi = undefined;
+      script.remove();
+      reject(new Error("The Spotify iFrame API did not load."));
+    });
+    document.head.append(script);
+  });
+  return spotifyApi;
+}
+
+function openPlayer(listen) {
+  closePlayer();
+  const button = listen.querySelector("[data-play]");
+  const name = listen.closest(".artist").querySelector(".artist-name").textContent;
+  const element = document.createElement("div");
+  element.className = "listen-player";
+  element.innerHTML = `
+    <div class="listen-embed"><div></div></div>
+    <p class="listen-controls">
+      <button class="button-secondary listen-control" type="button" data-previous>Previous song</button>
+      <span class="listen-position" data-position></span>
+      <button class="button-secondary listen-control" type="button" data-next>Next song</button>
+    </p>
+    <p class="field-problem" role="alert" data-player-problem hidden></p>
+  `;
+  listen.append(element);
+  const current = { listen, element, button, name, trackIds: listen.dataset.tracks.split(" "), position: 0, controller: undefined };
+  player = current;
+  button.setAttribute("aria-expanded", "true");
+  button.querySelector("[data-play-label]").textContent = "Close the player";
+  element.querySelector("[data-previous]").addEventListener("click", () => playSong(current, current.position - 1));
+  element.querySelector("[data-next]").addEventListener("click", () => playSong(current, current.position + 1));
+  showPosition(current);
+  loadSpotifyApi().then(
+    (api) => {
+      if (player !== current) return;
+      api.createController(
+        element.querySelector(".listen-embed > div"),
+        { uri: trackUri(current.trackIds[0]), width: "100%", height: 80 },
+        (controller) => {
+          if (player !== current) {
+            controller.destroy();
+            return;
+          }
+          current.controller = controller;
+          controller.iframeElement.title = `Spotify player for ${name}`;
+          controller.addListener("playback_update", (update) => onPlaybackUpdate(current, update.data));
+          controller.play();
+        },
+      );
+    },
+    () => {
+      if (player !== current) return;
+      const problem = element.querySelector("[data-player-problem]");
+      problem.textContent = "The Spotify player did not load. Try again later.";
+      problem.hidden = false;
+      for (const control of element.querySelectorAll(".listen-control")) control.disabled = true;
+    },
+  );
+}
+
+function closePlayer() {
+  if (player === undefined) return;
+  const { element, button, controller } = player;
+  player = undefined;
+  controller?.destroy();
+  element.remove();
+  button.setAttribute("aria-expanded", "false");
+  button.querySelector("[data-play-label]").textContent = "Play the songs";
+}
+
+function playSong(current, position) {
+  if (position < 0 || position >= current.trackIds.length) return;
+  current.position = position;
+  current.ended = false;
+  showPosition(current);
+  if (current.controller === undefined) return;
+  current.controller.loadUri(trackUri(current.trackIds[position]));
+  current.controller.play();
+}
+
+// "Song 2 of 7". The first song has no previous song, and the last song has no next song.
+function showPosition(current) {
+  const { element, position, trackIds } = current;
+  element.querySelector("[data-position]").textContent = `Song ${position + 1} of ${trackIds.length}`;
+  element.querySelector("[data-previous]").disabled = position === 0;
+  element.querySelector("[data-next]").disabled = position === trackIds.length - 1;
+}
+
+// At the end of a song, the player plays the next song. Spotify gives the position
+// and the duration in milliseconds. At the end, the player stops at the duration or
+// goes back to 0.
+function onPlaybackUpdate(current, { isPaused, position, duration }) {
+  if (player !== current || !(duration > 0)) return;
+  if (!isPaused) {
+    current.lastPosition = position;
+    return;
+  }
+  const nearEnd = (value) => value >= duration - 1500;
+  if (current.ended || !(nearEnd(position) || (position === 0 && nearEnd(current.lastPosition ?? 0)))) return;
+  current.ended = true;
+  current.lastPosition = 0;
+  playSong(current, current.position + 1);
+}
+
+function trackUri(id) {
+  return `spotify:track:${id}`;
 }

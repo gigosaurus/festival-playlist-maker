@@ -10,7 +10,7 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 |---|---|---|---|---|
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
 | Festivals | `/` | Choose a published festival | User | Done (#9, #15) |
-| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). Make the playlist done (#15). Update the playlist and show the changes done (#16). |
+| Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). Make the playlist done (#15). Update the playlist and show the changes done (#16). Listen before choosing a level done (#18). |
 | Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, see the new names of the last lineup change, get a lineup again, and publish a festival | Admin | Done (#6, #9, #17) |
 | Change the lineup source | `/admin/festivals/{id}/lineup-source` | Choose a different Clashfinder page for the lineup of a festival | Admin | Done (#17) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
@@ -100,11 +100,20 @@ Empty state: no festival is published. The user cannot do the principal task. Th
 - **Necessary before the task:** the festival, the artists on the lineup, the genres of each artist (user story 17), and the interest level of each artist.
 - **Necessary before the playlist action:** the number of songs and artists that the playlist will contain (user story 20). After the first playlist: the link to it, the time of the last update (user stories 32 and 34), and the artists that are new on the lineup since the last update (user story 21).
 - **Necessary after an update:** the artists that the update added to the playlist and removed from it (user story 30).
-- **Supporting detail:** the search, the filters and the sort. "No predicted songs" under an artist that gives no songs.
+- **Necessary before a level, for an artist that the user does not know:** the songs of the artist (user story 18). The predicted songs play in the Spotify embed player, and the link "Spotify" opens the artist. The setlist.fm link shows where the songs come from (user story 41).
+- **Supporting detail:** the search, the filters and the sort. "No predicted songs" under an artist that gives no songs. The fallback text under an artist with songs from a Spotify search.
 
 A lineup has approximately 150 artists, so one action sets a level (user story 14). Each artist has four radio buttons that look like segments. A selection saves the level immediately. With the keyboard, Tab moves from artist to artist, and the arrow keys change the level. Each level that the user sets is saved. A different user has different levels.
 
 The application saves each change in the background, so the page shows no confirmation. When a save fails, the artist shows the level that the application saved last, and the problem under the artist (FN-02). The playlist count changes only after a save.
+
+A user often does not know some artists on a lineup of 150. Under the genres of each artist, "Play the songs" opens the Spotify embed player below the line, with the first predicted song (#18). "Previous song", "Next song" and "Song 2 of 10" go through the predicted songs in order of prediction. At the end of a song, the player plays the next song. The button then says "Close the player". One player is open at a time, so a second "Play the songs" closes the first player. The player is part of the row, not an overlay, so it does not cover the interest levels or other artists (QA-06). In the reading order and the Tab order, the player is between the button and the interest levels of the same artist.
+
+The page uses the Spotify iFrame API, not the `preview_url` field. Spotify removed that field for new apps in November 2024. The page loads the API from Spotify only after the first "Play the songs", so a page view sends no request to Spotify. The embed player plays the full song when the user is logged in to Spotify in the browser. Otherwise it plays a preview. Spotify shows this in the player, so the page does not explain it (CP-07). When the API does not load, the player shows "The Spotify player did not load. Try again later.", and the song buttons are disabled. A search, a filter or a sort that hides or moves the artist closes the player, because a move loads the iframe again.
+
+An artist with songs from the Spotify search fallback shows "The songs come from a Spotify search, not from setlists." The user can otherwise think that the artist plays these songs live (ED-04). It has no setlist.fm link. The link "setlist.fm" goes to the setlist.fm page of the artist. It is also the attribution that the setlist.fm terms require, so it is a usual link, not nofollow. The application gets the address of the setlist.fm page of the artist with the setlists, and stores it with the predicted songs. A result from before #18 has no address until the next calculation, so the artist has no setlist.fm link until then.
+
+The links open in the same tab, as the other links on the page do (IN-06). Without JavaScript, the links show, and "Play the songs" does not, because the player needs the script.
 
 The search, the filter and the sort apply together (FN-05). The address keeps them, so that a reload and Back show the same list. A change of interest level does not hide or move an artist. Otherwise, the artist can leave the screen before the user can correct a mistake. When the list is out of date, the page tells the user and gives "Update the list" (CP-01: the user sees an artist that does not agree with the filter).
 
@@ -147,7 +156,14 @@ The confirmation shows only after Spotify accepted each request (FN-02). A failu
 | "No predicted songs" under an artist | Keep visible, when the artist has no predicted songs | Explains why the count does not include the artist (CP-01). |
 | The playlist description and the setlist.fm attribution | Remove from the page | They are in the playlist in Spotify. The page has no reason to show them. |
 | The song count of each level (2, 4, 7) | Remove | The count changes after each level, so the user sees the result. The numbers are settings. |
-| A list of the songs in the playlist | Remove | Spotify shows the playlist. #18 adds the player for each artist. |
+| A list of the songs in the playlist | Remove | Spotify shows the playlist. The player of each artist plays its predicted songs. |
+| Button "Play the songs" under the genres, then "Close the player" | Keep visible, with the script and when the artist has predicted songs | User story 18. Small secondary style, because the interest levels are the principal task of the row. The visually hidden artist name makes each label specific. |
+| Spotify embed player, "Previous song", "Song N of M", "Next song" | Keep visible, under the artist after "Play the songs" only | User story 18. The position tells the user how many predicted songs there are. The song name is in the player. |
+| "The Spotify player did not load. Try again later." | Keep visible, in the player, when the Spotify iFrame API does not load | FN-04 error state. |
+| Link "Spotify" (accessible name "{artist} on Spotify") | Keep visible, when the artist has a Spotify artist | User story 18. Spotify has the other songs and the albums of the artist. The visible label is only the destination, so that the line fits next to the interest levels at 1280 px (CT-04: the label names the destination). |
+| Link "setlist.fm" (accessible name "{artist} on setlist.fm") | Keep visible, when the songs come from setlists | User story 41. The setlist.fm attribution. Not nofollow. |
+| "The songs come from a Spotify search, not from setlists." | Keep visible, for an artist with the Spotify search fallback | ED-04: the songs are not predicted. It replaces the setlist.fm link. |
+| The song names as text, the look-back period and the long look-back mark | Remove | The player shows the song names. The look-back period is a detail of the method. The admin checks it on Predicted songs for one name. |
 | Section "Lineup" | Keep visible | The principal task. |
 | Search field "Search by artist name", select "Interest level", select "Sort by" | Keep visible, with the script only | User stories 15 and 16. The accents and the case are not important in the search. |
 | The number of artists in the list ("150 artists", "12 of 150 artists") | Keep visible | Shows the result of the search and the filter. |
@@ -353,7 +369,7 @@ The admin enters the address of the Spotify artist. This is the address that the
 - **Necessary before the task:** the songs in order, the source of the songs (setlists, setlists with the long look-back mark, or the Spotify search fallback), and the time of the calculation.
 - **Supporting detail:** the MusicBrainz artist and the Spotify artist, so that the admin can find a wrong artist as the cause of wrong songs. The end of the valid period.
 
-The store keeps only Spotify track IDs, not song names (ADR-0002). The page therefore shows each song with the Spotify embed player. The player shows the song name and the artist, and the admin can listen to the song. This needs no Spotify request from the application. The players load only when they come into view. #18 uses the same player on the Festival page.
+The store keeps only Spotify track IDs, not song names (ADR-0002). The page therefore shows each song with the Spotify embed player. The player shows the song name and the artist, and the admin can listen to the song. This needs no Spotify request from the application. The players load only when they come into view. The Festival page uses the same Spotify embed player through the Spotify iFrame API (#18).
 
 The calculation runs in the background, because it sends 1 or more setlist.fm requests and up to 20 Spotify requests. The first calculation of an artist also sends 1 MusicBrainz request and 1 setlist.fm request for each venue and date that is not a MusicBrainz festival day, to find the festival sets (#13). After "Calculate the predicted songs again", the page opens again and says that the calculation waits or runs. It shows the old songs until the new result is saved (FN-02). The admin selects "Show the new result".
 
@@ -367,7 +383,7 @@ A result stays valid for 6 months (user story 69). The page shows the end date, 
 | Page title "Predicted songs for {name}" | Keep visible | States the lineup name. |
 | Facts: MusicBrainz artist and Spotify artist, with links | Keep visible | A wrong Spotify artist is the most probable cause of wrong songs. "Set the Spotify artist" is on Admin: artist matches. |
 | Fact "Calculated": the time, and "Valid until {date}" | Keep visible, when a result exists | User story 69. |
-| Fact "Source": "Setlists on setlist.fm from the last 18 months", or the fallback warning | Keep visible, when a result exists | User story 68. The warning says that the songs are not predicted (ED-04). The fallback warning gives the longest look-back period, 60 months (#14). |
+| Fact "Source": "Setlists on setlist.fm from the last 18 months", or the fallback warning | Keep visible, when a result exists | User story 68. "Setlists on setlist.fm" is a link to the setlist.fm page of the artist, when the result has the address (#18). It is the setlist.fm attribution. The warning says that the songs are not predicted (ED-04). The fallback warning gives the longest look-back period, 60 months (#14). |
 | Fact "Source" with the long look-back mark: "Setlists on setlist.fm from the last 60 months." and "Warning: fewer than 5 shows in the last 18 months, so the prediction is less reliable." | Keep visible, when the result has the mark | User story 67. ED-04: the consequence is a less reliable prediction. The warning uses the genre warning style, as the other warnings about predicted songs do. |
 | The album-focused shows, the removed covers and the scores | Remove | The store keeps no setlist.fm data (ADR-0002). The admin checks the result, not the method. |
 | "Calculate the predicted songs again" | Keep visible, secondary style, above the songs | User story 70. It is secondary because the principal task is to check the songs. It is above the long list, so that the admin finds it without scrolling. |
@@ -377,7 +393,6 @@ A result stays valid for 6 months (user story 69). The page shows the end date, 
 | Empty state "The artist has no predicted songs" | Keep visible, when the artist has no Spotify artist | The calculation needs the Spotify artist. The text tells the admin what to do. |
 | "Warning: Spotify has none of the songs. Playlists get no songs for this artist." | Keep visible, for a result with no tracks | ED-04: the consequence for users. |
 | The scores, the shows and the setlists | Remove | The store keeps no setlist.fm data (ADR-0002). The admin checks the result, not the method. |
-| A setlist.fm link | Remove for now | #18 adds the setlist.fm link for each artist, as the setlist.fm terms require where the data shows. |
 
 ### Page not found
 
@@ -415,7 +430,9 @@ The application uses the system interface typeface of each device (`system-ui` a
 | Change heading | `.notice .change-heading` | 1rem | 650 | 1.5 | Ink | "Added N artists" and "Removed N artists" in the confirmation after an update. 1rem space above separates the two lists. |
 | Playlist link | `.playlist-link a` | 1rem | 650 | 1.5 | Link | "Open {festival} {year} in Spotify". The weight shows that it is the result of the principal action. |
 | Artist name | `.artist-name` | 1rem | 650 | 1.5 | Ink | The lineup name of one artist on the Festival page |
-| Artist genres | `.artist-genres` | 0.9375rem | 400 | 1.5 | Muted | The genres under the artist name, and "No predicted songs" |
+| Artist genres | `.artist-genres` | 0.9375rem | 400 | 1.5 | Muted | The genres under the artist name, "No predicted songs" and the fallback text |
+| Listen links | `.listen-links` | 0.9375rem | 400, 600 for the button | 1.5 | Link | "Play the songs", "Spotify" and "setlist.fm" under the genres. The same size as the genres, because they are supporting actions of the row. |
+| Song position | `.listen-position` | 0.9375rem | 400 | 1.5 | Muted | "Song 2 of 10" between the song buttons |
 | Interest level | `.level` | 0.9375rem | 400, 650 when chosen | 1.25 | Ink, Link when chosen | The label of one interest level. The weight and the colour show the chosen level together with the border. |
 | Festival name in the festival list | `.festival-link .festival-name` | 1.125rem | 650 | 1.5 | Link | The festival name and year on the Festivals page. The link colour shows that the panel is a link. |
 | Hint | `.hint`, `.choice-facts` | 0.9375rem | 400 | 1.5 | Muted | Text under a form label or a choice that helps the admin enter or choose a value |
@@ -523,7 +540,11 @@ The application has only a light colour scheme in version 1. The standards test 
 | More choices | Native `details` element, summary in the link colour, no animation | The possible artists after the proposal. Closed by default. |
 | Match list | 1px rule dividers, no radius. The "Change", "Set the Spotify artist" and "Show the predicted songs" links are at the right, or below the text on a narrow screen. | The artist matches of a festival. The rows are a list to scan, not separate items to compare. |
 | Predicted song list | Numbered list without markers. The number is in a 2rem column, in the vertical centre of the player. 0.5rem between songs. Maximum width 40rem. | The predicted songs of one artist, in order (LY-06). A list marker cannot be in the vertical centre of a player. The list has `role="list"`, because Safari removes the list role when the markers are removed. |
-| Spotify player | The Spotify embed player for one track in an iframe, full width of its column, 80px high, no border, radius 12px | Shows the song name and the artist, and plays the song. Spotify draws the content. The iframe title gives the position, for example "Song 1 in the Spotify player". |
+| Spotify player | The Spotify embed player for one track in an iframe, full width of its column, 80px high, no border, radius 12px | Shows the song name and the artist, and plays the song. Spotify draws the content. On Predicted songs for one name, the iframe title gives the position, for example "Song 1 in the Spotify player". On the Festival page, it gives the artist, for example "Spotify player for Ghost". |
+| Listen line | "Play the songs", then the links, on one line that wraps, 1rem between them, 0.375rem above | The supporting actions of one artist on the Festival page, under the genres. |
+| Listen button | Surface background, 1px link border, link text, radius 8px, minimum height 2rem, weight 600. Selected background when the pointer is on it or the player is open. | "Play the songs" and "Close the player". Smaller than the secondary button, because a lineup has 150 of them and the interest levels are the principal task. `aria-expanded` gives the state. |
+| Artist player | Under the listen line, 0.5rem above, maximum width 32rem: the Spotify player, then the song buttons and the position on one line | The open player of one artist on the Festival page. It is in the row, so it moves the rows below and covers nothing (QA-06). |
+| Song button | The secondary button, 0.9375rem text, padding 0.25rem 0.75rem. Disabled: rule border, muted text. | "Previous song" and "Next song". The first song has no previous song, and the last song has no next song. |
 | Visually hidden text | Not visible. Screen readers read it. | Makes repeated button labels specific, for example "Get the lineup again for Download 2027". |
 | Link | Link colour, underline | Standard link. The underline shows that the text is a link. |
 | Focus indicator | 3px solid outline, offset 2px | Shows keyboard focus on each interactive element (QA-03). |
