@@ -11,9 +11,10 @@ The styles are in `src/public/styles.css`. The CSS custom properties in that fil
 | Log in | `/log-in` | Log in with Spotify | A person who is not logged in | Done (#4) |
 | Festivals | `/` | Choose a published festival | User | Done (#9, #15) |
 | Festival | `/festivals/{id}` | Set interest levels for the lineup, then make or update the playlist | User | Interest levels done (#10). Make the playlist done (#15). Update the playlist and show the changes done (#16). Listen before choosing a level done (#18). |
-| Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, get a lineup again, and publish a festival | Admin | Done (#6, #9) |
+| Manage festivals (Admin: festival list) | `/admin/festivals` | See each festival and the state of its lineup, see the new names of the last lineup change, get a lineup again, and publish a festival | Admin | Done (#6, #9, #17) |
+| Change the lineup source | `/admin/festivals/{id}/lineup-source` | Choose a different Clashfinder page for the lineup of a festival | Admin | Done (#17) |
 | Add a festival | `/admin/festivals/new` | Add a festival and choose its lineup source | Admin | Done (#6) |
-| Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings, Spotify artists and predicted songs | Admin | Done (#7, #8, #12, #14) |
+| Admin: artist matches | `/admin/festivals/{id}/artist-matches` | Match each new lineup name, and check genre warnings, Spotify artists and predicted songs | Admin | Done (#7, #8, #12, #14, #17) |
 | Artist match for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}` | Search MusicBrainz with a different text, or change a match | Admin | Done (#7) |
 | Spotify artist for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}/spotify` | Set the Spotify artist of a match by hand | Admin | Done (#8) |
 | Predicted songs for one name | `/admin/festivals/{id}/artist-matches/{lineup name id}/predicted-songs` | Check the predicted songs of a match, and calculate them again | Admin | Done (#12, #14) |
@@ -177,12 +178,16 @@ The confirmation shows only after Spotify accepted each request (FN-02). A failu
 
 ### Manage festivals
 
-- **Principal task:** see each festival and the state of its lineup. Start to add a festival. Publish a festival when its artist matches are complete.
+- **Principal task:** see each festival and the state of its lineup. Start to add a festival. Publish a festival when its artist matches are complete. After a lineup check, find the new names and match them (#17).
 - **Who and from where:** the admin, from the link "Manage festivals" in the site header, or after "Add the festival". The admin knows the festivals, Clashfinder and the `.env` file.
-- **Necessary before the task:** the festivals, the dates, the lineup source, the number of lineup names and the time of the last lineup. When the last attempt failed: the time, the cause and if the festival kept its lineup.
+- **Necessary before the task:** the festivals, the dates, the lineup source, the number of lineup names and the time of the last lineup. When the last attempt failed: the time, the cause and if the festival kept its lineup. After a lineup check that changed the lineup: the new names and the removed names.
 - **Supporting detail:** the expected genres. The admin can check them before the artist matches (#7).
 
 The admin asks "did Clashfinder give the lineup?" after each action. The notice at the top answers it from the database, not from the request (FN-02). A failure notice does not repeat the cause, because the festival below shows it (IA-03). The festival keeps the cause after a reload, so the notice is not the only place for it.
+
+The application checks the lineup of each published festival once a day until the festival starts (#17, user story 47). The admin asks "do I still need to get the lineup again?". The fact "Lineup check: Each day until the festival starts" answers it for each festival that gets the check. A check by the admin also counts as the check of the day. The page does not say this, because nothing on the page gives a reason to ask (CP-07).
+
+The admin asks "what changed, and what must I match?" after a check (user story 48). The fact "Last lineup change" gives the time, the new names and the removed names of the last check that changed the lineup. A check without changes does not replace it, so the admin does not lose the names of a change from an earlier day. Each new name is a link to its row on Admin: artist matches. A change of the lineup source can remove all names, so each list shows a maximum of 10 names and then "and N more". A published festival stays published after a change (user story 52). Users see a new name only after it has an artist match, so the page does not warn about publication.
 
 A failure caused by the API key needs a change to the `.env` file. The cause therefore names the two settings (ED-04: the correction, not only the HTTP status).
 
@@ -202,10 +207,18 @@ A failure caused by the API key needs a change to the `.env` file. The cause the
 | Lineup: number of names and time | Keep visible | Answers "did the application get the lineup, and when?". |
 | Lineup problem: time, cause, "keeps its previous lineup" | Keep visible, after a failure only | User story 49. The admin decides to correct the source or to try again. |
 | Expected genres | Supporting detail | Necessary for the genre warnings in #7. |
-| Button "Get the lineup again" | Keep visible, secondary style | ADR-0006: the application gets a lineup again only when the admin asks. Hidden text names the festival for screen readers. |
+| Button "Get the lineup again" | Keep visible, secondary style | ADR-0006: the application gets a lineup again when the admin asks, and in the daily lineup check of a published festival. The admin uses it before publication, or after a correction. Hidden text names the festival for screen readers. |
 | Empty-state text about publication | Remove | The empty page gives no reason to ask about publication (CP-07). The status label shows it for each festival. |
 | Artist matches: number of names without a match, and a link | Keep visible, when the festival has a lineup | Tells the admin which festival needs work. The link opens Admin: artist matches. Hidden text names the festival for screen readers. |
 | The lineup names | Remove | The Admin: artist matches page shows them (#7). |
+| Link "Change the lineup source", below the Clashfinder page | Keep visible, small | User story 50. Opens Change the lineup source. Hidden text names the festival for screen readers. |
+| Fact "Lineup check: Each day until the festival starts" | Keep visible, for a published festival before its first day | User story 47. Tells the admin that new names come without an action. |
+| Fact "Last lineup change": the time, "N new names:" with a link for each name, "N removed names:" | Keep visible, after a lineup check that changed the lineup | User story 48. The admin finds the new names to match. The removed names explain a smaller lineup. |
+| "The lineup check found N new names and N removed names." in the notice after "Get the lineup again" or a change of the lineup source | Keep visible, when the action changed the lineup | CP-03: the completed action first, then the result. |
+| Notice "Changed the lineup source of {festival}" with "Got N lineup names from Clashfinder." | Keep visible, after a change of the lineup source | CP-03. The page reads the result from the database (FN-02). |
+| Notice "Changed the lineup source of {festival}" with "The application did not get the lineup from the new source." | Keep visible, after a change of the lineup source that did not get the lineup | The source is changed, but the lineup is from the old source. The cause is with the festival in the list. |
+| The time of each lineup check without changes | Remove | The fact "Lineup" gives the time of the last lineup. A list of checks does not help the admin match names. |
+| A warning that a published festival has names without a match | Remove | Users do not see names without a match. The fact "Artist matches" already gives the number. |
 
 ### Add a festival
 
@@ -233,6 +246,28 @@ After "Add the festival", the browser waits for the Clashfinder export. Because 
 | Error summary | Keep visible, with problems only | Links to each field (FN-03). It has focus after the page opens. |
 | Text that says that an empty search field uses the festival name | Remove | The results heading shows the search text that the search used. |
 | A loading indicator | Remove | The server renders each page. The browser shows the loading state. |
+
+### Change the lineup source
+
+- **Principal task:** choose a different Clashfinder page for the lineup of a festival (user story 50).
+- **Who and from where:** the admin, from "Change the lineup source" on Manage festivals, usually after a lineup problem or when a better page appears. The admin knows the festival and the current page.
+- **Necessary before the task:** the current lineup source, the Clashfinder search, and the facts that tell duplicate pages apart (the same as Add a festival).
+- **Supporting detail:** the address of each page on Clashfinder.
+
+The page uses the search and the page choices of Add a festival (PB-01). The search field starts with the festival name, but the page does not search until the admin selects "Search Clashfinder", so that opening the page sends no request. After "Change the lineup source", the application gets the lineup from the new page at once, and Manage festivals shows the result. The page does not explain this before the action, because the notice states it (CP-07). The artist matches belong to the name text, so the names that are also on the new page keep their matches. The page does not say this, because nothing on the page suggests that matches go. Version 1 has one lineup source, so the admin chooses a page, not a source type. When the festival app sources come (#20), this page gets the choice of the source.
+
+A choice of the current page is not a change. The application gets the lineup again, and the notice is "Got the lineup of {festival}".
+
+| Content | Decision | Reason |
+|---|---|---|
+| Link "Manage festivals" above the title | Keep visible | The way back. |
+| Page title "Change the lineup source of {festival}" | Keep visible | States the task and the festival (CT-04). |
+| Fact "Lineup source now" with a link to the Clashfinder page | Keep visible | The admin compares the results with it. |
+| Heading "New lineup source: Clashfinder", search field, hint, "Search Clashfinder" | Keep visible | The same as Add a festival. |
+| Page choices | Keep visible, after a search | The same as Add a festival. |
+| Button "Change the lineup source" | Keep visible, after a search with results | The principal action. Before a search, there is nothing to choose. |
+| Error summary "Correct the problem to change the lineup source" | Keep visible, after the action without a choice | FN-03. It gets focus when the page opens. |
+| Text about the matches after a change | Remove | CP-07. |
 
 ### Admin: artist matches
 
@@ -289,6 +324,7 @@ Each match with a Spotify artist gets predicted songs (#12, user story 65). Fest
 | Link "Show the predicted songs" | Keep visible, small, next to "Set the Spotify artist" | Opens Predicted songs for one name. |
 | "N artists wait for the predicted songs. The application calculates 1 artist in approximately 10 seconds to 1 minute." and "Show the new results" | Keep visible, while artists wait | Answers "where are the songs?" and "how long?". The first calculation of an artist with many shows takes approximately 1 minute, because it checks each venue and date for a festival set (#13). After a rate limit, the text also gives the time at which the calculation continues (user story 71). |
 | Notice "The calculation of the predicted songs stopped", with the cause and "Calculate the predicted songs again" | Keep visible, after a failure only | FN-04 error state, with the same rules as the other background work. A rate limit does not stop the calculation. It waits. |
+| Badge "New" after a lineup name | Keep visible, for each name that the last lineup change added (#17) | User story 48. The admin opens a new name from Manage festivals and finds it in a list of 150 names. The badge has the same meaning as on the Festival page: new since the last change. |
 | Song names on this page | Remove | The store keeps only Spotify track IDs (ADR-0002). A name needs a Spotify request for each song. The Predicted songs page shows the songs. |
 
 ### Artist match for one name
@@ -496,8 +532,8 @@ The application has only a light colour scheme in version 1. The standards test 
 | Input | Surface background, 1px muted border, radius 8px | Text fields and date fields. The muted border has 3:1 contrast for a control (WCAG 1.4.11). |
 | Field with a problem | 4px strip in the problem colour on the left, the problem text above the input | Shows the field that needs a correction. The text also shows it without colour. |
 | Festival panel | Surface background, 1px rule border, radius 12px, no shadow | One festival on Manage festivals. The festivals are separate items that the admin scans (LY-02). |
-| Status label, badge | Badge background, ink text, radius 4px | A state ("Not published", "Your playlist is made", "New" after an artist name) or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
-| Facts | Label and value pairs. Two columns from 40rem width, one column on a narrow screen. | The facts of a festival, or of the artist on Spotify artist for one name. |
+| Status label, badge | Badge background, ink text, radius 4px | A state ("Not published", "Your playlist is made", "New" after an artist name or a lineup name) or a Clashfinder mark ("Core page", "Official page") (DC-04). Not interactive, so no border and no pointer cursor. |
+| Facts | Label and value pairs. Two columns from 40rem width, one column on a narrow screen. A value can have a second line: an action link ("Change the lineup source"), or one list of a lineup change, with 0.25rem above. | The facts of a festival, or of the artist on Spotify artist for one name. |
 | Inline problem | 4px strip in the problem colour on the left, no background | A problem inside a panel, for example a failed lineup attempt. There is no panel in a panel. |
 | Page choice | Surface background, 1px rule border, radius 12px. When it is chosen: 2px link border and selected background. | One Clashfinder page in the search results, or one MusicBrainz artist or "No match" in the artist choices. The full label selects the radio button. A fact does not break across two lines. |
 | Lineup name item | 1px rule line above, no panel | One name on Admin: artist matches. The choices in it already have panels, so the item has no panel (no panel in a panel). |

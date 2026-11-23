@@ -23,6 +23,8 @@ export interface TestServer {
   sleeps(): Promise<number[]>;
   // Adds a published festival with artist matches, without the admin pages. Gives its ID.
   addPublishedFestival(festival: TestFestival): Promise<number>;
+  // Runs the scheduled lineup check one time, and waits for it.
+  runLineupCheck(): Promise<void>;
   // Gives the festival a new lineup, as "Get the lineup again" and the artist matches do.
   setLineup(festivalId: number, lineup: Pick<TestFestival, "artists" | "noMatch">): Promise<void>;
 }
@@ -116,6 +118,7 @@ export const test = base.extend<{
         expect(response.ok(), await response.text()).toBe(true);
         return (await response.json()).id;
       },
+      runLineupCheck: () => expectOk(request.post("/__test/lineup-check")),
       setLineup: (festivalId, lineup) => expectOk(request.post(`/__test/published-festivals/${festivalId}/lineup`, { data: lineup })),
     });
   },

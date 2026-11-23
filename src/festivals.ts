@@ -121,6 +121,14 @@ export function addFestival(database: Database, festival: ValidFestival, lineupS
   }
 }
 
+// The admin changes the lineup source (user story 50). The lineup stays until
+// the next lineup check gets the lineup from the new source.
+export function changeLineupSource(database: Database, id: number, lineupSource: LineupSourceSettings): void {
+  database
+    .prepare("UPDATE festival SET lineup_source = ?, lineup_source_settings = ? WHERE id = ?")
+    .run(lineupSource.source, JSON.stringify(lineupSource), id);
+}
+
 // All festivals, the festival with the latest start date first.
 export function listFestivalsForAdmin(database: Database): AdminFestival[] {
   const rows = database

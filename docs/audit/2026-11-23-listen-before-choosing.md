@@ -7,7 +7,7 @@
 | Pages in scope | Festival (`/festivals/{id}`): the listen line, the open player, the player when the Spotify iFrame API does not load, an artist with the fallback, the page without JavaScript. Predicted songs for one name: the Source fact. The pages from the previous record. |
 | Auditor | Claude (AI assistant), for the change author |
 | Release | No |
-| Previous record | [2026-11-20-update-the-playlist.md](2026-11-20-update-the-playlist.md) |
+| Previous record | [2026-11-22-daily-lineup-check.md](2026-11-22-daily-lineup-check.md) |
 
 Copy this record for the next audit. Change only the results that the new change affects, and update the evidence.
 
