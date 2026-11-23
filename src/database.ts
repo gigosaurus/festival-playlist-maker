@@ -158,6 +158,16 @@ const migrations: readonly string[] = [
     FOREIGN KEY (user_id, festival_id) REFERENCES playlist (user_id, festival_id) ON DELETE CASCADE
   ) STRICT;
   ALTER TABLE playlist ADD COLUMN changes TEXT;`,
+  // The new names and the removed names of each lineup check (#17). checked_at is
+  // the time of the check, the same as festival.lineup_updated_at after it. The first
+  // lineup of a festival has no changes, because there is no lineup to compare with.
+  `CREATE TABLE lineup_change (
+    lineup_name_id INTEGER NOT NULL REFERENCES lineup_name (id) ON DELETE CASCADE,
+    checked_at TEXT NOT NULL,
+    change TEXT NOT NULL CHECK (change IN ('new', 'removed')),
+    PRIMARY KEY (lineup_name_id, checked_at)
+  ) STRICT;
+  CREATE INDEX lineup_change_time ON lineup_change (checked_at);`,
 ];
 
 export function openDatabase(path: string): Database {
